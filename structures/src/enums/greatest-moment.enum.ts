@@ -1,0 +1,17 @@
+export enum EGreatestMoment {
+	FiveStartCriminal,
+	ChainReaction,
+	BirdDown,
+	Scoped,
+	TopGun,
+	Airtime,
+	Untouchable,
+	WheelieRider,
+	BuckleUp,
+	RolledOver,
+	DizzyingLaws,
+	YankTheCord,
+	Animaul,
+	FullyModded,
+	GloryHole,
+}

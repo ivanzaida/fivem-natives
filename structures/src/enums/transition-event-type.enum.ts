@@ -1,0 +1,31 @@
+export enum ETransitionEventType {
+	EventTransitionHosting,
+	EventTransitionHosted,
+	EventTransitionHostFailed,
+	EventTransitionJoining,
+	EventTransitionJoined,
+	EventTransitionJoinedLaunched,
+	EventTransitionJoinFailed, // nEventParam corresponds to JOIN_RESPONSE_CODE
+	EventTransitionStarting,
+	EventTransitionStarted,
+	EventTransitionEnding,
+	EventTransitionEnded,
+	EventTransitionQuickmatch,
+	EventTransitionQuickmatchJoining,
+	EventTransitionQuickmatchHosting,
+	EventTransitionStartLaunch,
+	EventTransitionEndLaunch,
+	EventTransitionKicked,
+	EventTransitionError,
+	EventTransitionMigrateStart,
+	EventTransitionMigrateEnd,
+	EventTransitionToGameStart,
+	EventTransitionToGameJoining,
+	EventTransitionToGameJoined,
+	EventTransitionToGameHosting,
+	EventTransitionToGameFinish,
+	EventTransitionQuickmatchFailed,
+	EventTransitionQuickmatchTimeout,
+	EventTransitionGroupQuickmatchStarted, // hGamer corresponds to group leader
+	EventTransitionGroupQuickmatchFinished, // hGamer corresponds to group leader, nEventParam is 1 if we have a valid session
+}

@@ -1,0 +1,18 @@
+export enum ESwitchFlags {
+	SwitchFlagSkipIntro = 1,
+	SwitchFlagSkipOutro,
+	SwitchFlagPauseBeforePan = 4,
+	SwitchFlagPauseBeforeOutro = 8,
+	SwitchFlagSkipPan = 16,
+	SwitchFlagUnknownDest = 32,
+	SwitchFlagDescentOnly = 64,
+	SwitchFlagStartFromCampos = 128,
+	SwitchFlagPauseBeforeAscent = 256,
+	SwitchFlagPauseBeforeDescent = 512,
+	SwitchFlagAllowSniperAimIntro = 1024,
+	SwitchFlagAllowSniperAimOutro = 2048,
+	SwitchFlagSkipTopDescent = 4096,
+	SwitchFlagSuppressOutroFx = 8192,
+	SwitchFlagSuppressIntroFx = 16384,
+	SwitchFlagDelayAscentFx = 32768,
+}

@@ -1,0 +1,156 @@
+import { EUdsUpdateMode } from '../enums/'
+import { StringRef } from '../types/string-ref';
+
+export class ActivityAvailablityData {
+	public readonly dataView: DataView;
+
+	constructor(dataView: DataView = new DataView(new ArrayBuffer(8200))) {
+		if (dataView.byteLength !== 8200) {
+			throw new Error('Invalid buffer size');
+		}
+
+		this.dataView = dataView;
+	}
+
+	public get availableActivities(): string[] {
+		return [
+			new StringRef(new DataView(this.dataView.buffer.slice(0, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(64, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(128, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(192, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(256, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(320, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(384, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(448, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(512, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(576, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(640, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(704, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(768, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(832, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(896, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(960, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1024, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1088, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1152, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1216, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1280, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1344, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1408, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1472, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1536, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1600, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1664, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1728, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1792, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1856, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1920, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(1984, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2048, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2112, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2176, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2240, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2304, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2368, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2432, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2496, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2560, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2624, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2688, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2752, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2816, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2880, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(2944, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3008, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3072, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3136, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3200, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3264, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3328, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3392, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3456, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3520, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3584, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3648, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3712, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3776, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3840, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3904, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(3968, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4032, 63))).value
+		]
+	}
+
+	public get unavailableActivities(): string[] {
+		return [
+			new StringRef(new DataView(this.dataView.buffer.slice(4096, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4160, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4224, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4288, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4352, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4416, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4480, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4544, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4608, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4672, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4736, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4800, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4864, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4928, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(4992, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5056, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5120, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5184, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5248, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5312, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5376, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5440, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5504, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5568, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5632, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5696, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5760, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5824, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5888, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(5952, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6016, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6080, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6144, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6208, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6272, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6336, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6400, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6464, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6528, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6592, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6656, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6720, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6784, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6848, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6912, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(6976, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7040, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7104, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7168, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7232, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7296, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7360, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7424, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7488, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7552, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7616, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7680, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7744, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7808, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7872, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(7936, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(8000, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(8064, 63))).value,
+			new StringRef(new DataView(this.dataView.buffer.slice(8128, 63))).value
+		]
+	}
+
+	public get updateMode(): EUdsUpdateMode {
+		return this.dataView.getInt32(8192, true) as EUdsUpdateMode
+	}
+}

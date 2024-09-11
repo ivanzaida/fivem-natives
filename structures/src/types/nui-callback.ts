@@ -1,0 +1,1 @@
+export type NuiCallback<TArg = unknown, TRes = unknown> = (data: TArg, cb: (TRes: any) => void) => void;

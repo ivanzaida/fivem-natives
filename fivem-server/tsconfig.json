@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES6",
+      "ES2021"
+    ],
+    "downlevelIteration": true,
+    "module": "commonjs",
+    "incremental": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "sourceRoot": "./src",
+    "outDir": "./dist",
+    "declaration": true,
+    "typeRoots": [
+      "index.d.ts"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

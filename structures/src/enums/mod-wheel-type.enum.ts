@@ -1,0 +1,16 @@
+export enum EModWheelType {
+	MwtInvalid = -1,
+	MwtSport,
+	MwtMuscle,
+	MwtLowrider,
+	MwtSuv,
+	MwtOffroad,
+	MwtTuner,
+	MwtBike,
+	MwtHiend,
+	MwtSupermod1,
+	MwtSupermod2,
+	MwtSupermod3,
+	MwtSupermod4,
+	MwtSupermod5,
+}

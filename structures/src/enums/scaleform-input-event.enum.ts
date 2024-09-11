@@ -1,0 +1,17 @@
+export enum EScaleformInputEvent {
+	Leftshoulder1 = 4,
+	Leftshoulder2,
+	Rightshoulder1,
+	Rightshoulder2,
+	Up,
+	Down,
+	Left,
+	Right,
+	Select = 13,
+	Square,
+	Triangle,
+	Cross,
+	Circle,
+	LeftClick = 1001,
+	Invalid = 9999,
+}

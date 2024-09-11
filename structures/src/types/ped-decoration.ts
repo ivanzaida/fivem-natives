@@ -1,0 +1,1 @@
+export type PedDecoration = [collectionHash: number, overlayHash: number];

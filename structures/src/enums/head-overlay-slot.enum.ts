@@ -1,0 +1,15 @@
+export enum EHeadOverlaySlot {
+	HosBlemishes,
+	HosFacialHair,
+	HosEyebrow,
+	HosAging,
+	HosMakeup,
+	HosBlusher,
+	HosDamage,
+	HosBaseDetail,
+	HosSkinDetail_1,
+	HosSkinDetail_2,
+	HosBody_1,
+	HosBody_2,
+	HosBody_3,
+}

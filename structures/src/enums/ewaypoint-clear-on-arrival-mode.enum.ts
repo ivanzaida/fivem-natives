@@ -1,0 +1,5 @@
+export enum EEWaypointClearOnArrivalMode {
+	WaypointClearOnArrivalEnabled,
+	WaypointClearOnArrivalDisabledForObjects,
+	WaypointClearOnArrivalDisabled,
+}

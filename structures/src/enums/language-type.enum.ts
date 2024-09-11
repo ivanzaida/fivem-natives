@@ -1,0 +1,16 @@
+export enum ELanguageType {
+	LanguageUndefined = -1,
+	LanguageEnglish,
+	LanguageFrench,
+	LanguageGerman,
+	LanguageItalian,
+	LanguageSpanish,
+	LanguagePortuguese,
+	LanguagePolish,
+	LanguageRussian,
+	LanguageKorean,
+	LanguageChinese,
+	LanguageJapanese,
+	LanguageMexican,
+	LanguageChineseSimplified,
+}

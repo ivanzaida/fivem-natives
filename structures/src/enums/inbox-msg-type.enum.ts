@@ -1,0 +1,16 @@
+export enum EInboxMsgType {
+	Invalid,
+	StatUpdate = 3992276194,
+	FriendCrewJoined = 310744608,
+	FriendCreatedCrew = 1058015666,
+	MissionVerified = 2354517590,
+	RockstarMessage = 1894043873,
+	CrewMessage = 3417385330,
+	UgcStatUpdate = 563149281,
+	GameAward = 3546357966,
+	CrewChallengeEnded = 1662919852,
+	MissionPublished = 4205214824,
+	Bounty = 3971303217,
+	TournamentWinnerMessage = 3519483624,
+	GsAward = 1988401830,
+}

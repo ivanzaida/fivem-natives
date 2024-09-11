@@ -1,0 +1,1 @@
+export type ConsoleListener = (channel: string, message: string) => void;

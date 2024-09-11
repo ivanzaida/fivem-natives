@@ -1,0 +1,1 @@
+export type GroupIndex = number;

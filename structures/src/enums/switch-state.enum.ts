@@ -1,0 +1,16 @@
+export enum ESwitchState {
+	Intro,
+	PrepDescent,
+	PrepForCut,
+	JumpcutAscent,
+	WaitforinputIntro,
+	Waitforinput,
+	WaitforinputOutro,
+	Pan,
+	JumpcutDescent,
+	OutroHold,
+	OutroSwoop,
+	EstablishingShot,
+	Finished,
+	Outro = 9,
+}

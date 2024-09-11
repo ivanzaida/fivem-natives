@@ -1,0 +1,15 @@
+export enum EPlaneDamageSection {
+	WingL,
+	WingR,
+	Tail,
+	EngineL,
+	EngineR,
+	ElevatorL,
+	ElevatorR,
+	AileronL,
+	AileronR,
+	Rudder,
+	Rudder_2,
+	AirbrakeL,
+	AirbrakeR,
+}

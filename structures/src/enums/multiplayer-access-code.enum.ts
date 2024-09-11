@@ -1,0 +1,16 @@
+export enum EMultiplayerAccessCode {
+	AccessGranted,
+	AccessDeniedTunableNotFound,
+	AccessDeniedTunableFalse,
+	AccessDeniedNetworkLocked,
+	AccessDeniedInvalidProfileSettings,
+	AccessDeniedPrologueIncomplete,
+	AccessDeniedNotSignedIn,
+	AccessDeniedNotSignedOnline,
+	AccessDeniedNoOnlinePrivilege,
+	AccessDeniedNoScsCredentials,
+	AccessDeniedNoScsPrivilege,
+	AccessDeniedMultiplayerDisabled,
+	AccessDeniedNoTunables,
+	AccessDeniedNoBackgroundScript,
+}

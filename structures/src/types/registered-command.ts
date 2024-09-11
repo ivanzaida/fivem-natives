@@ -1,0 +1,1 @@
+export type RegisteredCommand = { name: string }[];

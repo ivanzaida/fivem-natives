@@ -1,0 +1,1 @@
+export type PoliceRestartIndex = number;

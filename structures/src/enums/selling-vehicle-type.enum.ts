@@ -1,0 +1,9 @@
+export enum ESellingVehicleType {
+	SvtEarnFromVehicle,
+	SvtEarnFromPersonalNormalVehicle,
+	SvtEarnFromPersonalHighendVehicle,
+	SvtEarnFromPersonalWeaponVehicle,
+	SvtEarnFromPersonalAircraftVehicle,
+	SvtEarnFromH2WeaponizedVehicle,
+	SvtEarnFromBattlesWeaponizedVehicle,
+}

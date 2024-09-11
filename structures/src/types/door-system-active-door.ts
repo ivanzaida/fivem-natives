@@ -1,0 +1,1 @@
+export type DoorSystemActiveDoor = [doorHash: number, doorHandle: number][]

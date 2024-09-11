@@ -1,0 +1,1 @@
+export type PedheadshotId = number;

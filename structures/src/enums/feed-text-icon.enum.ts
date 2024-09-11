@@ -1,0 +1,15 @@
+export enum EFeedTextIcon {
+	TextIconBlank,
+	TextIconMessage,
+	TextIconEmail,
+	TextIconNewContact,
+	TextIconDriver,
+	TextIconHacker,
+	TextIconShooter,
+	TextIconInvite,
+	TextIconRp,
+	TextIconCash,
+	TextIconAp,
+	TextIconXpAlt,
+	TextIconCashAlt,
+}

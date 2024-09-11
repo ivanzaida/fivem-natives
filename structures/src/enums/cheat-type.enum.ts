@@ -1,0 +1,18 @@
+export enum ECheatType {
+	PoorWeaponCheat,
+	AdvancedWeaponCheat,
+	HealthCheat,
+	WantedLevelUpCheat,
+	WantedLevelDownCheat,
+	MoneyUpCheat,
+	ChangeWeatherCheat,
+	AnnihilatorCheat,
+	Nrg900Cheat,
+	FbiCheat,
+	JetmaxCheat,
+	CometCheat,
+	TurismoCheat,
+	CognoscentiCheat,
+	SupergtCheat,
+	SanchezCheat,
+}

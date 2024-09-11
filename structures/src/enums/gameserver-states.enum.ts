@@ -1,0 +1,15 @@
+export enum EGameserverStates {
+	GameserverInvalid,
+	GameserverPendingAccessToken,
+	WaitForStartSession,
+	PendingCatalogVersion,
+	GameserverPendingCatalog,
+	GameserverCatalogComplete,
+	GameserverPendingSessionStart,
+	GameserverPendingSessionRestart,
+	GameserverReady,
+	GameserverFailedAccessToken,
+	GameserverFailedCatalog,
+	GameserverFailedSessionStart,
+	GameserverFailedSessionRestart,
+}

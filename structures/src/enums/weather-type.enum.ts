@@ -1,0 +1,15 @@
+export enum EWeatherType {
+	WeatherExtrasunny,
+	WeatherClear,
+	WeatherClouds,
+	WeatherSmog,
+	WeatherCloudy,
+	WeatherOvercast,
+	WeatherRain,
+	WeatherThunder,
+	WeatherClearing,
+	WeatherNeutral,
+	WeatherSnowlight,
+	WeatherSnow,
+	WeatherBlizzard,
+}

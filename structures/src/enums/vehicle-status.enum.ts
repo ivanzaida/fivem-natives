@@ -1,0 +1,16 @@
+export enum EVehicleStatus {
+	StatusPlayer,
+	StatusPlayerPlaybackfrombuffer,
+	StatusSimple,
+	StatusPhysics,
+	StatusAbandoned,
+	StatusWrecked,
+	StatusTrainMoving,
+	StatusTrainNotMoving,
+	StatusPlayerRemote,
+	StatusPlayerDisabled,
+	StatusTrailer,
+	StatusSimpleTrailer,
+	StatusGhost,
+	StatusNetwork,
+}

@@ -1,0 +1,1 @@
+export type SaveHouseIndex = number;

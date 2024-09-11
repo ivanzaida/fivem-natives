@@ -1,0 +1,1 @@
+export type CommandHandler = (source: number, args: string[], rawCommand: string) => void;

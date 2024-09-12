@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xB9DDE5F54A275DFF
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} ropeID [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} ropeID [Ref]
  * @returns {boolean}  
  */
 export function isRopeAttachedAtBothEnds(ropeID: IntRef /* ptr */): boolean {

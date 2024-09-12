@@ -6,12 +6,12 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x830B1CF1020074B8
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} pointX
- * @param {number} pointY
- * @param {number} pointZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} pointX
+ * @param {number} pointY
+ * @param {number} pointZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isAnyHostilePedNearPoint(ped: PedIndex, pointX: number, pointY: number, pointZ: number, radius: number): boolean {

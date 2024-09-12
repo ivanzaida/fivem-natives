@@ -4,8 +4,8 @@
  * 0x952F7C7A0CC86DA0
 
  * Disables some other rendering (internal)
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  */
 export function setScriptsHaveCleanedUpForReplaySystem(): void {
 	const setScriptsHaveCleanedUpForReplaySystem_result = Citizen.invokeNative<void>('0x952F7C7A0CC86DA0', );

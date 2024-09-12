@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X70FE2EFF
 
  * Gets brake pressure of a wheel.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.Normal values around 1.0f when braking.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
  * @returns {number}  
  */
 export function getVehicleWheelBrakePressure(vehicle: VehicleIndex, wheelIndex: number): number {

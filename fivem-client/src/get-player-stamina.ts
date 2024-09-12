@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0XE415EC5C
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId The player index.
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId The player index.
  * @returns {number}  The value of player stamina.
  */
 export function getPlayerStamina(playerId: PlayerIndex): number {

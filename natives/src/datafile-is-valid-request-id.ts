@@ -4,8 +4,8 @@
  * 0xF224222A0E09BF20
 
  * 
- * ------------------------------------------------------------------
- * @param {number} cloudRequestID
+ * ------------------------------------------------------------------
+ * @param {number} cloudRequestID
  * @returns {boolean}  
  */
 export function datafileIsValidRequestId(cloudRequestID: number): boolean {

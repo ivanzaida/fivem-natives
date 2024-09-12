@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xEA00B3128DDC34A5
 
  * Set the player to use beast jump anims this frame.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} ped
  */
 export function setBeastJumpThisFrame(ped: PlayerIndex): void {
 	const setBeastJumpThisFrame_result = Citizen.invokeNative<void>('0xEA00B3128DDC34A5', ped);

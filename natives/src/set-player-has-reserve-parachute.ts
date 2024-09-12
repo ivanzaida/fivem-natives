@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x2DF241BBC3BB2698
 
  * This function gives the player a reserve parachute.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function setPlayerHasReserveParachute(player: PlayerIndex): void {
 	const setPlayerHasReserveParachute_result = Citizen.invokeNative<void>('0x2DF241BBC3BB2698', player);

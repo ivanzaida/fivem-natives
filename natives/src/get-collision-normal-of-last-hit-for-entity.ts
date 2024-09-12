@@ -6,8 +6,8 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  * 0xB6BF12B4CF844B3E
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {Vector3}  
  */
 export function getCollisionNormalOfLastHitForEntity(entity: EntityIndex): Vector3 {

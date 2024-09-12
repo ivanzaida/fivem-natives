@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xB23E0F9B63D009A8
 
  * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
- * 
- * ------------------------------------------------------------------
- * @param {number} arg
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} arg
  * @returns {PlayerIndex}  
  */
 export function intToPlayerindex(arg: number): PlayerIndex {

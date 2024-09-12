@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x5C47299F055D05B5
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function uncuffPed(ped: PedIndex): void {
 	const uncuffPed_result = Citizen.invokeNative<void>('0x5C47299F055D05B5', ped);

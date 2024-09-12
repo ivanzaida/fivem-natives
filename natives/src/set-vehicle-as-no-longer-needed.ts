@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x68298CA6191CDFDB
 
  * This is an alias of SET_ENTITY_AS_NO_LONGER_NEEDED.
- * 
- * ------------------------------------------------------------------
- * @param {IntRef} vehicle [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {IntRef} vehicle [Ref]
  */
 export function setVehicleAsNoLongerNeeded(vehicle: IntRef /* ptr */): void {
 	const setVehicleAsNoLongerNeeded_result = Citizen.invokeNative<void>('0x68298CA6191CDFDB', vehicle.dataView);

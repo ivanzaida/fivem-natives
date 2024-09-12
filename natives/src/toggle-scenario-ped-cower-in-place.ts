@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x2A3951555E558728
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} start
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} start
  */
 export function toggleScenarioPedCowerInPlace(ped: PedIndex, start: boolean): void {
 	const toggleScenarioPedCowerInPlace_result = Citizen.invokeNative<void>('0x2A3951555E558728', ped, start);

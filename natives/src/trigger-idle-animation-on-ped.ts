@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xC4BFA8F80937118D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function triggerIdleAnimationOnPed(ped: PedIndex): void {
 	const triggerIdleAnimationOnPed_result = Citizen.invokeNative<void>('0xC4BFA8F80937118D', ped);

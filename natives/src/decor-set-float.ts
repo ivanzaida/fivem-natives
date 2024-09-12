@@ -6,10 +6,10 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0x2475DDACFF83CF93
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
+ * @param {number} value
  * @returns {boolean}  
  */
 export function decorSetFloat(guid: ItemIndex, decoratorName: string, value: number): boolean {

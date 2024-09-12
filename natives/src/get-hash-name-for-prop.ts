@@ -4,11 +4,11 @@
  * 0x6B7AEB5F3D578298
 
  * 
- * ------------------------------------------------------------------
- * @param {number} ped
- * @param {number} anchorPoint
- * @param {number} prop
- * @param {number} texture
+ * ------------------------------------------------------------------
+ * @param {number} ped
+ * @param {number} anchorPoint
+ * @param {number} prop
+ * @param {number} texture
  * @returns {number}  
  */
 export function getHashNameForProp(ped: number, anchorPoint: number, prop: number, texture: number): number {

@@ -6,10 +6,10 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0xA517819975B6DC39
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHash
- * @param {number} tunableHash
- * @param {FloatRef} tunable [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} contextHash
+ * @param {number} tunableHash
+ * @param {FloatRef} tunable [Ref]
  * @returns {boolean}  
  */
 export function networkAccessTunableFloatModificationDetectionRegistrationHash(contextHash: number, tunableHash: number, tunable: FloatRef /* ptr */): boolean {

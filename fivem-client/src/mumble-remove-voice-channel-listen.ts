@@ -4,9 +4,9 @@
  * 0X231523B7
 
  * Stops listening to the specified channel.
- * 
- * ------------------------------------------------------------------
- * @param {number} channel A game voice channel ID.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} channel A game voice channel ID.
  */
 export function mumbleRemoveVoiceChannelListen(channel: number): void {
 	const mumbleRemoveVoiceChannelListen_result = Citizen.invokeNative<void>('0X231523B7', channel);

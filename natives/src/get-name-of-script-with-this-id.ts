@@ -6,8 +6,8 @@ import { Threadid } from '@ivanzaida/structures'
  * 0xACF74B377C634277
 
  * 
- * ------------------------------------------------------------------
- * @param {Threadid} thread
+ * ------------------------------------------------------------------
+ * @param {Threadid} thread
  * @returns {string}  
  */
 export function getNameOfScriptWithThisId(thread: Threadid): string {

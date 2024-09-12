@@ -4,8 +4,8 @@
  * 0x6823557BDD18031C
 
  * Xbox Series (Scarlett) version...
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isScarlettVersion(): boolean {

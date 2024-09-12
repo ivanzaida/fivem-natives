@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x0BCE48C8677F9824
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} badge
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} badge
  * @returns {boolean}  
  */
 export function doesVehicleHaveCrewEmblem(vehicle: VehicleIndex, badge: number = 0): boolean {

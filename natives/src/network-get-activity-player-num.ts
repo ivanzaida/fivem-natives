@@ -4,8 +4,8 @@
  * 0x148F075BF593134E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} spectator
+ * ------------------------------------------------------------------
+ * @param {boolean} spectator
  * @returns {number}  
  */
 export function networkGetActivityPlayerNum(spectator: boolean): number {

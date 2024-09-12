@@ -4,8 +4,8 @@
  * 0x2E0CDDCB2AD38385
 
  * Getter for SET_NETWORK_CUTSCENE_ENTITIES.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function areCutsceneEntitiesNetworked(): boolean {

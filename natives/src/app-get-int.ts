@@ -4,8 +4,8 @@
  * 0x817F2264835EDDBC
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {number}  
  */
 export function appGetInt(name: string): number {

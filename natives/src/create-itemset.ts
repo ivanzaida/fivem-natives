@@ -6,8 +6,8 @@ import { ItemsetIndex } from '@ivanzaida/structures'
  * 0x5F6AD54378A3995E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} autoClean
+ * ------------------------------------------------------------------
+ * @param {boolean} autoClean
  * @returns {ItemsetIndex}  
  */
 export function createItemset(autoClean: boolean): ItemsetIndex {

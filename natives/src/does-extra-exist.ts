@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x579FA5568DE0C2A0
 
  * Checks via CVehicleModelInfo
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} extra
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} extra
  * @returns {boolean}  
  */
 export function doesExtraExist(vehicle: VehicleIndex, extra: number): boolean {

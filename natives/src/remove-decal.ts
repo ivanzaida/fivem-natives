@@ -6,8 +6,8 @@ import { DecalId } from '@ivanzaida/structures'
  * 0x93E1EA1609ABF230
 
  * 
- * ------------------------------------------------------------------
- * @param {DecalId} decalId
+ * ------------------------------------------------------------------
+ * @param {DecalId} decalId
  */
 export function removeDecal(decalId: DecalId): void {
 	const removeDecal_result = Citizen.invokeNative<void>('0x93E1EA1609ABF230', decalId);

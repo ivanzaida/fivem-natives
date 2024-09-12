@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x05EE5180C78E4990
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} rotorHealth
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} rotorHealth
  */
 export function setHeliMainRotorHealth(vehicle: VehicleIndex, rotorHealth: number): void {
 	const setHeliMainRotorHealth_result = Citizen.invokeNative<void>('0x05EE5180C78E4990', vehicle, rotorHealth);

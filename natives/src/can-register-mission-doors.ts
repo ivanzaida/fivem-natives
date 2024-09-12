@@ -4,8 +4,8 @@
  * 0x0F7BCDD970AAA9B9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} numDoorsToRegister
+ * ------------------------------------------------------------------
+ * @param {number} numDoorsToRegister
  * @returns {boolean}  
  */
 export function canRegisterMissionDoors(numDoorsToRegister: number): boolean {

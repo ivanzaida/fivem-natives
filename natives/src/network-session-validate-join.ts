@@ -4,8 +4,8 @@
  * 0xD327503849EFC7D2
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} joinSuccessful
+ * ------------------------------------------------------------------
+ * @param {boolean} joinSuccessful
  */
 export function networkSessionValidateJoin(joinSuccessful: boolean): void {
 	const networkSessionValidateJoin_result = Citizen.invokeNative<void>('0xD327503849EFC7D2', joinSuccessful);

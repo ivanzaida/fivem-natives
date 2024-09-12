@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0X526FEE31
 
  * Returns the owner ID of the specified entity.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity The entity to get the owner for.
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity The entity to get the owner for.
  * @returns {number}  On the server, the server ID of the entity owner. On the client, returns the player/slot ID of the entity owner.
  */
 export function networkGetEntityOwner(entity: EntityIndex): number {

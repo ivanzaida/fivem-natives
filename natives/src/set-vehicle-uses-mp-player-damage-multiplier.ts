@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xAF324DD73DD8C045
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} useMultiplier
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} useMultiplier
  */
 export function setVehicleUsesMpPlayerDamageMultiplier(vehicle: VehicleIndex, useMultiplier: boolean): void {
 	const setVehicleUsesMpPlayerDamageMultiplier_result = Citizen.invokeNative<void>('0xAF324DD73DD8C045', vehicle, useMultiplier);

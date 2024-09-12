@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0xE9E0BE3414B91F8E
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {boolean}  
  */
 export function networkHasTransitionInviteBeenAcked(gamerHandle: GamerHandle /* ptr */): boolean {

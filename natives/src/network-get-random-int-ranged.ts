@@ -4,10 +4,10 @@
  * 0x5A6DA0A2EEDE8B78
 
  * Same as GET_RANDOM_INT_IN_RANGE
- * 
- * ------------------------------------------------------------------
- * @param {number} minimum
- * @param {number} maximum
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} minimum
+ * @param {number} maximum
  * @returns {number}  
  */
 export function networkGetRandomIntRanged(minimum: number, maximum: number): number {

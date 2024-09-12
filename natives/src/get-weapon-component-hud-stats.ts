@@ -6,9 +6,9 @@ import { EWeaponcomponentType, HudStatValues } from '@ivanzaida/structures'
  * 0xF4CFBABEEF287C00
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponcomponentType} weaponComponentType
- * @param {HudStatValues} outValues [Ref]
+ * ------------------------------------------------------------------
+ * @param {EWeaponcomponentType} weaponComponentType
+ * @param {HudStatValues} outValues [Ref]
  * @returns {boolean}  
  */
 export function getWeaponComponentHudStats(weaponComponentType: EWeaponcomponentType | number, outValues: HudStatValues /* ptr */): boolean {

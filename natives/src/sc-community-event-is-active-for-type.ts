@@ -4,8 +4,8 @@
  * 0x80AD0C08672402C2
 
  * 
- * ------------------------------------------------------------------
- * @param {string} eventType
+ * ------------------------------------------------------------------
+ * @param {string} eventType
  * @returns {boolean}  
  */
 export function scCommunityEventIsActiveForType(eventType: string): boolean {

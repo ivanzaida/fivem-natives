@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x71AA6A2F0208FC46
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} pkg
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} pkg
  */
 export function setPedClothPackageIndex(ped: PedIndex, pkg: number): void {
 	const setPedClothPackageIndex_result = Citizen.invokeNative<void>('0x71AA6A2F0208FC46', ped, pkg);

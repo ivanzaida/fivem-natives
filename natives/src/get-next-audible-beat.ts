@@ -6,10 +6,10 @@ import { FloatRef, IntRef } from '@ivanzaida/structures'
  * 0x604E6C2DCB4B137F
 
  * 
- * ------------------------------------------------------------------
- * @param {FloatRef} timeS [Ref]
- * @param {FloatRef} bpm [Ref]
- * @param {IntRef} beatNum [Ref]
+ * ------------------------------------------------------------------
+ * @param {FloatRef} timeS [Ref]
+ * @param {FloatRef} bpm [Ref]
+ * @param {IntRef} beatNum [Ref]
  * @returns {boolean}  
  */
 export function getNextAudibleBeat(timeS: FloatRef /* ptr */, bpm: FloatRef /* ptr */, beatNum: IntRef /* ptr */): boolean {

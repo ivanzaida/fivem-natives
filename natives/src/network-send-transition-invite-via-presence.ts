@@ -6,11 +6,11 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x6651FAED711991F0
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
- * @param {string} szContentID
- * @param {number} playlistLength
- * @param {number} playlistCurrent
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
+ * @param {string} szContentID
+ * @param {number} playlistLength
+ * @param {number} playlistCurrent
  * @returns {boolean}  
  */
 export function networkSendTransitionInviteViaPresence(gamer: GamerHandle /* ptr */, szContentID: string, playlistLength: number, playlistCurrent: number): boolean {

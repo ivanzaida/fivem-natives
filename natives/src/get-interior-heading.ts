@@ -6,8 +6,8 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0xB70C73407E942734
 
  * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
  * @returns {number}  
  */
 export function getInteriorHeading(interiorInstance: InteriorInstanceIndex): number {

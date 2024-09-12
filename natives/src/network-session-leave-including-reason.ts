@@ -4,7 +4,7 @@
  * 0xE0128328CF1FD9F4
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkSessionLeaveIncludingReason(): boolean {

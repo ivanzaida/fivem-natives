@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x271D0AA5ADF266EA
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} damageScale
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} damageScale
  * @returns {boolean}  
  */
 export function setVehicleDamageScale(vehicle: VehicleIndex, damageScale: number): boolean {

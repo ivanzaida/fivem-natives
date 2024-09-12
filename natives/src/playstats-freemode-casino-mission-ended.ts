@@ -6,8 +6,8 @@ import { FreemodeCasinoMissionEnded } from '@ivanzaida/structures'
  * 0x4D301F952E820ABF
 
  * 
- * ------------------------------------------------------------------
- * @param {FreemodeCasinoMissionEnded} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FreemodeCasinoMissionEnded} data [Ref]
  */
 export function playstatsFreemodeCasinoMissionEnded(data: FreemodeCasinoMissionEnded /* ptr */): void {
 	const playstatsFreemodeCasinoMissionEnded_result = Citizen.invokeNative<void>('0x4D301F952E820ABF', data.dataView);

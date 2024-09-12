@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xF6C26AE940C14749
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function isEntityOccluded(entity: EntityIndex): boolean {

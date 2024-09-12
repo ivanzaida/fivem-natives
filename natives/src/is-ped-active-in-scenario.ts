@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x55057693AB7FCFF9
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedActiveInScenario(ped: PedIndex): boolean {

@@ -6,8 +6,8 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0x026879F0D0AF82C3
 
  * 
- * ------------------------------------------------------------------
- * @param {ScaleformIndex} scaleformMovieId
+ * ------------------------------------------------------------------
+ * @param {ScaleformIndex} scaleformMovieId
  * @returns {boolean}  
  */
 export function passKeyboardInputToScaleform(scaleformMovieId: ScaleformIndex): boolean {

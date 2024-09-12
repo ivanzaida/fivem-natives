@@ -4,9 +4,9 @@
  * 0xEDD95A39E5544DE8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
- * @param {number} bitShift
+ * ------------------------------------------------------------------
+ * @param {number} value
+ * @param {number} bitShift
  * @returns {number}  
  */
 export function shiftLeft(value: number, bitShift: number): number {

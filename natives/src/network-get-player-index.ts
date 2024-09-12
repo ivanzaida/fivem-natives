@@ -6,8 +6,8 @@ import { ParticipantIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x4470BE79F5771783
 
  * 
- * ------------------------------------------------------------------
- * @param {ParticipantIndex} participant
+ * ------------------------------------------------------------------
+ * @param {ParticipantIndex} participant
  * @returns {PlayerIndex}  
  */
 export function networkGetPlayerIndex(participant: ParticipantIndex): PlayerIndex {

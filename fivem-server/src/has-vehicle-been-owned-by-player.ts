@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XE4E83A5B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function hasVehicleBeenOwnedByPlayer(vehicle: VehicleIndex): boolean {

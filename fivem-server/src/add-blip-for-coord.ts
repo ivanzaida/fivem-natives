@@ -6,11 +6,11 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0XC6F43D0E
 
  * Creates an orange ( default ) Blip-object. Returns a Blip-object which can then be modified.
- * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
  * @returns {BlipIndex}  
  */
 export function addBlipForCoord(coorsX: number, coorsY: number, coorsZ: number): BlipIndex {

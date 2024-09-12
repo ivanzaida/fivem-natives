@@ -4,7 +4,7 @@
  * 0xB6387DEFC12580A6
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setUseHiDof(): void {
 	const setUseHiDof_result = Citizen.invokeNative<void>('0xB6387DEFC12580A6', );

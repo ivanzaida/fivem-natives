@@ -6,8 +6,8 @@ import { EHudColours } from '@ivanzaida/structures'
  * 0x4E5A3D96808F7F84
 
  * 
- * ------------------------------------------------------------------
- * @param {EHudColours} nextColour
+ * ------------------------------------------------------------------
+ * @param {EHudColours} nextColour
  */
 export function setColourOfNextTextComponent(nextColour: EHudColours | number): void {
 	const setColourOfNextTextComponent_result = Citizen.invokeNative<void>('0x4E5A3D96808F7F84', nextColour);

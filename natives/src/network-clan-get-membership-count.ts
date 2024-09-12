@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x6CC5D49F92B6055B
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {number}  
  */
 export function networkClanGetMembershipCount(gamerHandle: GamerHandle /* ptr */): number {

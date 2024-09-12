@@ -6,9 +6,9 @@ import { PedIndex, GroupIndex } from '@ivanzaida/structures'
  * 0x26B246D60FABB3E2
 
  * Returns the group id of which the specified ped is a member of.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {GroupIndex}  
  */
 export function getPedGroupIndex(ped: PedIndex): GroupIndex {

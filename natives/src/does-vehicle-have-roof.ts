@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x9DB4F102351D5D9E
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function doesVehicleHaveRoof(vehicle: VehicleIndex): boolean {

@@ -4,7 +4,7 @@
  * 0xAF28608F1D388164
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setDisableDecalRenderingThisFrame(): void {
 	const setDisableDecalRenderingThisFrame_result = Citizen.invokeNative<void>('0xAF28608F1D388164', );

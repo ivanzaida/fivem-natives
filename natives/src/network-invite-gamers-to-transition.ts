@@ -6,9 +6,9 @@ import { TransitionInvite } from '@ivanzaida/structures'
  * 0x6DD03E2B054A8A3F
 
  * 
- * ------------------------------------------------------------------
- * @param {TransitionInvite} invite [Ref]
- * @param {number} numGamers
+ * ------------------------------------------------------------------
+ * @param {TransitionInvite} invite [Ref]
+ * @param {number} numGamers
  * @returns {boolean}  
  */
 export function networkInviteGamersToTransition(invite: TransitionInvite /* ptr */, numGamers: number): boolean {

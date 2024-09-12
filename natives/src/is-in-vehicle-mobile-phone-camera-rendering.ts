@@ -4,9 +4,9 @@
  * 0x5F0F4F152FB7156C
 
  * This actually checks if this was rendered last frame, because script is updated before
- * the camera update.
- * 
- * ------------------------------------------------------------------
+ * the camera update.
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isInVehicleMobilePhoneCameraRendering(): boolean {

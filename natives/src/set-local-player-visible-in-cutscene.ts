@@ -4,9 +4,9 @@
  * 0x61780C0351CEFAD1
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} locallyVisible
- * @param {boolean} remotelyVisible
+ * ------------------------------------------------------------------
+ * @param {boolean} locallyVisible
+ * @param {boolean} remotelyVisible
  */
 export function setLocalPlayerVisibleInCutscene(locallyVisible: boolean, remotelyVisible: boolean = false): void {
 	const setLocalPlayerVisibleInCutscene_result = Citizen.invokeNative<void>('0x61780C0351CEFAD1', locallyVisible, remotelyVisible);

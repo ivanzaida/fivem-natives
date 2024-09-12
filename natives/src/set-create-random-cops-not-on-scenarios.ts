@@ -4,8 +4,8 @@
  * 0xD5E2F27BCC913BE9
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} createRandomCops
+ * ------------------------------------------------------------------
+ * @param {boolean} createRandomCops
  */
 export function setCreateRandomCopsNotOnScenarios(createRandomCops: boolean): void {
 	const setCreateRandomCopsNotOnScenarios_result = Citizen.invokeNative<void>('0xD5E2F27BCC913BE9', createRandomCops);

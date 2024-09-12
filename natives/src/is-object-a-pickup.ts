@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xDC4C404BF0F7C610
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} objectID
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} objectID
  * @returns {boolean}  
  */
 export function isObjectAPickup(objectID: ObjectIndex): boolean {

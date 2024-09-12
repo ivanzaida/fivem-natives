@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x256C30FDAB915E2B
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} model
+ * ------------------------------------------------------------------
+ * @param {ModelNames} model
  */
 export function setVehicleModelPlayerWillExitScene(model: ModelNames): void {
 	const setVehicleModelPlayerWillExitScene_result = Citizen.invokeNative<void>('0x256C30FDAB915E2B', model);

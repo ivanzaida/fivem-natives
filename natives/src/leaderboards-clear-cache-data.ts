@@ -4,7 +4,7 @@
  * 0xB83DA0A55841C11A
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function leaderboardsClearCacheData(): void {
 	const leaderboardsClearCacheData_result = Citizen.invokeNative<void>('0xB83DA0A55841C11A', );

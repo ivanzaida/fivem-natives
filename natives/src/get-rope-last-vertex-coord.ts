@@ -6,8 +6,8 @@ import { RopeIndex, Vector3 } from '@ivanzaida/structures'
  * 0xCD3F86829B5968C9
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  * @returns {Vector3}  
  */
 export function getRopeLastVertexCoord(ropeID: RopeIndex): Vector3 {

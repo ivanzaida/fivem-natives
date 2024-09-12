@@ -6,9 +6,9 @@ import { EEPremiumPackType } from '@ivanzaida/structures'
  * 0xEF05628918C6842D
 
  * Retrieves the type of pack, if any, which grants the user access to the premium pack content
- * Checks some commerce stuff
- * 
- * ------------------------------------------------------------------
+ * Checks some commerce stuff
+ * 
+ * ------------------------------------------------------------------
  * @returns {EEPremiumPackType}  
  */
 export function getUserPremiumAccess(): EEPremiumPackType {

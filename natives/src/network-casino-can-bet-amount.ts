@@ -4,8 +4,8 @@
  * 0xA27607CE04D875E6
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  * @returns {boolean}  
  */
 export function networkCasinoCanBetAmount(amount: number): boolean {

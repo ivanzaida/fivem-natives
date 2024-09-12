@@ -4,9 +4,9 @@
  * 0xF8F0D1290FE81BC5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} bgScriptId
- * @param {string} paramName
+ * ------------------------------------------------------------------
+ * @param {number} bgScriptId
+ * @param {string} paramName
  * @returns {number}  
  */
 export function bgGetLaunchParamValue(bgScriptId: number, paramName: string): number {

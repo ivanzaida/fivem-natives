@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xA23AABF378361F85
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function doesPedHaveAiBlip(ped: PedIndex): boolean {

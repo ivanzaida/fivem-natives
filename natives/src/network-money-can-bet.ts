@@ -4,10 +4,10 @@
  * 0x098F030F49971616
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} bankOnly
- * @param {boolean} bankAndWallet
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} bankOnly
+ * @param {boolean} bankAndWallet
  * @returns {boolean}  
  */
 export function networkMoneyCanBet(amount: number, bankOnly: boolean, bankAndWallet: boolean): boolean {

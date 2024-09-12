@@ -6,8 +6,8 @@ import { EntityIndex, EMaterialNames } from '@ivanzaida/structures'
  * 0x28637BDE402A5913
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {EMaterialNames}  
  */
 export function getLastMaterialHitByEntity(entity: EntityIndex): EMaterialNames {

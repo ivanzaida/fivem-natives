@@ -6,9 +6,9 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x0A07F53F5EED824F
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
- * @param {number} colliderOrder
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
+ * @param {number} colliderOrder
  */
 export function ropeSetRefframevelocityColliderorder(ropeID: RopeIndex, colliderOrder: number): void {
 	const ropeSetRefframevelocityColliderorder_result = Citizen.invokeNative<void>('0x0A07F53F5EED824F', ropeID, colliderOrder);

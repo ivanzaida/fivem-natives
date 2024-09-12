@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x5A816292AD6929DF
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function forcePedToOpenParachute(ped: PedIndex): void {
 	const forcePedToOpenParachute_result = Citizen.invokeNative<void>('0x5A816292AD6929DF', ped);

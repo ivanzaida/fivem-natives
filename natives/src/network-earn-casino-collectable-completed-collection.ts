@@ -4,8 +4,8 @@
  * 0x22F6103D7DF1811B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnCasinoCollectableCompletedCollection(amount: number): void {
 	const networkEarnCasinoCollectableCompletedCollection_result = Citizen.invokeNative<void>('0x22F6103D7DF1811B', amount);

@@ -6,9 +6,9 @@ import { SavemigrationAccount } from '@ivanzaida/structures'
  * 0xA283F9C6621A9294
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
- * @param {SavemigrationAccount} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} index
+ * @param {SavemigrationAccount} data [Ref]
  * @returns {boolean}  
  */
 export function savemigrationMpGetAccount(index: number, data: SavemigrationAccount /* ptr */): boolean {

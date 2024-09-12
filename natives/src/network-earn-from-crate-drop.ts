@@ -4,8 +4,8 @@
  * 0xDB31E3DCD4EC4157
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnFromCrateDrop(amount: number): void {
 	const networkEarnFromCrateDrop_result = Citizen.invokeNative<void>('0xDB31E3DCD4EC4157', amount);

@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x02D78E296BAAE4A1
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  */
 export function networkSessionVoiceConnectToPlayer(gamer: GamerHandle /* ptr */): void {
 	const networkSessionVoiceConnectToPlayer_result = Citizen.invokeNative<void>('0x02D78E296BAAE4A1', gamer.dataView);

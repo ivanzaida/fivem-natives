@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x69AE13B08EFD8497
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function resetPedVisibleDamage(ped: PedIndex): void {
 	const resetPedVisibleDamage_result = Citizen.invokeNative<void>('0x69AE13B08EFD8497', ped);

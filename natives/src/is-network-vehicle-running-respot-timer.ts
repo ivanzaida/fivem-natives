@@ -4,8 +4,8 @@
  * 0x353A36B4FAA1F9D2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} networkID
+ * ------------------------------------------------------------------
+ * @param {number} networkID
  * @returns {boolean}  
  */
 export function isNetworkVehicleRunningRespotTimer(networkID: number): boolean {

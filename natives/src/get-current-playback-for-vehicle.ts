@@ -6,8 +6,8 @@ import { VehicleIndex, RecordingId } from '@ivanzaida/structures'
  * 0x0008A5B9B95FED93
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {RecordingId}  
  */
 export function getCurrentPlaybackForVehicle(vehicle: VehicleIndex): RecordingId {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XEB46596F
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} scale
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} scale
  */
 export function setVehicleSteeringScale(vehicle: VehicleIndex, scale: number): void {
 	const setVehicleSteeringScale_result = Citizen.invokeNative<void>('0XEB46596F', vehicle, scale);

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x14491B5694114619
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function hasPedPreloadPropDataFinished(ped: PedIndex): boolean {

@@ -4,9 +4,9 @@
  * 0x6C91BB4DA2CAE9B1
 
  * Returns the current time (in milliseconds of the fade effect).
- * Returns 0 if no fade was active
- * 
- * ------------------------------------------------------------------
+ * Returns 0 if no fade was active
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getScreenblurFadeCurrentTime(): number {

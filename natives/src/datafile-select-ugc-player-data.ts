@@ -4,9 +4,9 @@
  * 0x71CC7FE2C69822E1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {number} datafile
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {number} datafile
  * @returns {boolean}  
  */
 export function datafileSelectUgcPlayerData(content: number, datafile: number = 0): boolean {

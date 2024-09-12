@@ -4,11 +4,11 @@
  * 0x7B780C491DEC834E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isSphereVisible(coorsX: number, coorsY: number, coorsZ: number, radius: number): boolean {

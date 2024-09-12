@@ -4,8 +4,8 @@
  * 0xF329B991CDE087C7
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} finishCurrentLine
+ * ------------------------------------------------------------------
+ * @param {boolean} finishCurrentLine
  */
 export function pauseScriptedConversation(finishCurrentLine: boolean): void {
 	const pauseScriptedConversation_result = Citizen.invokeNative<void>('0xF329B991CDE087C7', finishCurrentLine);

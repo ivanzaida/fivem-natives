@@ -4,9 +4,9 @@
  * 0x150E13CB4B04648D
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcCopyContent(szContentID: string, szContentType: string): boolean {

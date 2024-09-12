@@ -4,11 +4,11 @@
  * 0xC4BB298BD441BE78
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scriptHash
- * @param {DataView} args [Ref]
- * @param {number} argCount
- * @param {number} stackSize
+ * ------------------------------------------------------------------
+ * @param {number} scriptHash
+ * @param {DataView} args [Ref]
+ * @param {number} argCount
+ * @param {number} stackSize
  * @returns {number}  
  */
 export function startNewScriptWithNameHashAndArgs(scriptHash: number, args: DataView /* ptr */, argCount: number, stackSize: number): number {

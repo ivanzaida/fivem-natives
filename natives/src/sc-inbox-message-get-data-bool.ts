@@ -4,9 +4,9 @@
  * 0x584EEB682A158C47
 
  * 
- * ------------------------------------------------------------------
- * @param {number} msg
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {number} msg
+ * @param {string} name
  * @returns {boolean}  
  */
 export function scInboxMessageGetDataBool(msg: number, name: string): boolean {

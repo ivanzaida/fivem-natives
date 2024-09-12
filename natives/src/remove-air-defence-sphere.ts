@@ -4,8 +4,8 @@
  * 0x54A9A0E1D30B92A5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} sphere
+ * ------------------------------------------------------------------
+ * @param {number} sphere
  * @returns {boolean}  
  */
 export function removeAirDefenceSphere(sphere: number): boolean {

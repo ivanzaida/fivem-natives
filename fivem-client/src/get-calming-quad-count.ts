@@ -4,7 +4,7 @@
  * 0XCEBFC42
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  Returns the amount of calming quads loaded.
  */
 export function getCalmingQuadCount(): number {

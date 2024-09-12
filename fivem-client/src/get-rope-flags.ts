@@ -4,9 +4,9 @@
  * 0XA80FFE99
 
  * ```cenum eRopeFlags{DrawShadowEnabled = 2,Breakable = 4,RopeUnwindingFront = 8,RopeWinding = 32}```
- * 
- * ------------------------------------------------------------------
- * @param {number} rope The rope to get the flags for.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} rope The rope to get the flags for.
  * @returns {number}  The rope's flags.
  */
 export function getRopeFlags(rope: number): number {

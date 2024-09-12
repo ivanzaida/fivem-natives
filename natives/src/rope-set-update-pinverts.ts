@@ -6,8 +6,8 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x7E27CBB7DF2BAE69
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  */
 export function ropeSetUpdatePinverts(ropeID: RopeIndex): void {
 	const ropeSetUpdatePinverts_result = Citizen.invokeNative<void>('0x7E27CBB7DF2BAE69', ropeID);

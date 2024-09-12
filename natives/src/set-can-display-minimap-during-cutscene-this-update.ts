@@ -4,7 +4,7 @@
  * 0xFABF472ADCE66A1E
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setCanDisplayMinimapDuringCutsceneThisUpdate(): void {
 	const setCanDisplayMinimapDuringCutsceneThisUpdate_result = Citizen.invokeNative<void>('0xFABF472ADCE66A1E', );

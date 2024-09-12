@@ -6,8 +6,8 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  * 0x30E2D00B68214AB1
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entityId
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entityId
  * @returns {Vector3}  
  */
 export function getCgoffset(entityId: EntityIndex): Vector3 {

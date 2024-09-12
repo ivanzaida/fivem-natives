@@ -4,9 +4,9 @@
  * 0x660FA55F8D417CAB
 
  * Returns the total number of DLC weapon components.
- * 
- * ------------------------------------------------------------------
- * @param {number} dlc
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} dlc
  * @returns {number}  
  */
 export function getNumDlcWeaponComponents(dlc: number): number {

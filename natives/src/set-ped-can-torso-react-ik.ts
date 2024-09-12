@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xCCA22A4A1FC7433F
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enableIK
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enableIK
  */
 export function setPedCanTorsoReactIk(ped: PedIndex, enableIK: boolean): void {
 	const setPedCanTorsoReactIk_result = Citizen.invokeNative<void>('0xCCA22A4A1FC7433F', ped, enableIK);

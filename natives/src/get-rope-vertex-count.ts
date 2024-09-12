@@ -6,8 +6,8 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x29D9CA677F5D2A36
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  * @returns {number}  
  */
 export function getRopeVertexCount(ropeID: RopeIndex): number {

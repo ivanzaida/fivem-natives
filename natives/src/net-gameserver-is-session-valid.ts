@@ -4,8 +4,8 @@
  * 0x134EF45B578F4CCF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function netGameserverIsSessionValid(slot: number): boolean {

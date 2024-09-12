@@ -4,8 +4,8 @@
  * 0x5E0F50AE21F74BC0
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} useSetDestinationInMapMenu
+ * ------------------------------------------------------------------
+ * @param {boolean} useSetDestinationInMapMenu
  */
 export function setUseSetDestinationInPauseMap(useSetDestinationInMapMenu: boolean): void {
 	const setUseSetDestinationInPauseMap_result = Citizen.invokeNative<void>('0x5E0F50AE21F74BC0', useSetDestinationInMapMenu);

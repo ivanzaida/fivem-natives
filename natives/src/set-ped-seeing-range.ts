@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x25DBF9F9C6BDFFEA
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} seeingRange
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} seeingRange
  */
 export function setPedSeeingRange(ped: PedIndex, seeingRange: number): void {
 	const setPedSeeingRange_result = Citizen.invokeNative<void>('0x25DBF9F9C6BDFFEA', ped, seeingRange);

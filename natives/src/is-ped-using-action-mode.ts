@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x1072B16512C86D96
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedUsingActionMode(ped: PedIndex): boolean {

@@ -4,8 +4,8 @@
  * 0xD4CCFE5409D13C37
 
  * A code gameplay hint is a hint activated by code, hints are based on a first come, fist served basis.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isCodeGameplayHintActive(): boolean {

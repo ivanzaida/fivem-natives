@@ -6,9 +6,9 @@ import { PlayerIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x41754DC6001F6313
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function isPlayerTargettingEntity(player: PlayerIndex, entity: EntityIndex): boolean {

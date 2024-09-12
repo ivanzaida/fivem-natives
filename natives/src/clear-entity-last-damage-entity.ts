@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xE4DC7B3DD712372B
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function clearEntityLastDamageEntity(entity: EntityIndex): void {
 	const clearEntityLastDamageEntity_result = Citizen.invokeNative<void>('0xE4DC7B3DD712372B', entity);

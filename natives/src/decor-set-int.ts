@@ -6,11 +6,11 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0xEE8559BBFC27701B
 
  * Sets property to int.
- * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
- * @param {number} value
+ * 
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
+ * @param {number} value
  * @returns {boolean}  
  */
 export function decorSetInt(guid: ItemIndex, decoratorName: string, value: number): boolean {

@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x2E229E178F36A415
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  */
 export function hideNumberOnBlip(blip: BlipIndex): void {
 	const hideNumberOnBlip_result = Citizen.invokeNative<void>('0x2E229E178F36A415', blip);

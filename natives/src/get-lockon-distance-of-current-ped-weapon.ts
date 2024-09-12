@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD6F4FF37FC8730A1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getLockonDistanceOfCurrentPedWeapon(ped: PedIndex): number {

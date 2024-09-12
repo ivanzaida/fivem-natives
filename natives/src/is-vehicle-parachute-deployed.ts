@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x385CCC1DF7554BE9
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleParachuteDeployed(vehicle: VehicleIndex): boolean {

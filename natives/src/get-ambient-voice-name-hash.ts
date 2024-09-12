@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD93B65D497A805BA
 
  * Gets the hash of the voice name in use by Audio
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getAmbientVoiceNameHash(ped: PedIndex): number {

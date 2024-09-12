@@ -4,7 +4,7 @@
  * 0XF9716A11
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  float 0 to ~1.1 representing the angle of the rpm gauge on the player's vehicle dashboard
  */
 export function getVehicleDashboardRpm(): number {

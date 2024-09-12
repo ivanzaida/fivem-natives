@@ -6,11 +6,11 @@ import { SessionInvite } from '@ivanzaida/structures'
  * 0xAE84E9DFB523207B
 
  * 
- * ------------------------------------------------------------------
- * @param {SessionInvite} invite [Ref]
- * @param {number} numGamers
- * @param {string} szSubject
- * @param {string} szMessage
+ * ------------------------------------------------------------------
+ * @param {SessionInvite} invite [Ref]
+ * @param {number} numGamers
+ * @param {string} szSubject
+ * @param {string} szMessage
  * @returns {boolean}  
  */
 export function networkInviteGamers(invite: SessionInvite /* ptr */, numGamers: number, szSubject: string = null!, szMessage: string = null!): boolean {

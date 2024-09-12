@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x8DE2438443E6A145
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} cam
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} cam
  * @returns {boolean}  
  */
 export function isCamRendering(cam: CameraIndex): boolean {

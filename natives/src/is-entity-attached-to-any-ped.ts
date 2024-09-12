@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x5B9219522937741D
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function isEntityAttachedToAnyPed(entity: EntityIndex): boolean {

@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x2B5801E768BECF3C
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function increasePlayerJumpSuppressionRange(player: PlayerIndex): void {
 	const increasePlayerJumpSuppressionRange_result = Citizen.invokeNative<void>('0x2B5801E768BECF3C', player);

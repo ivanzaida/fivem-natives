@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x648740220EDDB123
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {GamerHandle} handle [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {GamerHandle} handle [Ref]
  */
 export function networkReceivePlayerJobshareCash(amount: number, handle: GamerHandle /* ptr */): void {
 	const networkReceivePlayerJobshareCash_result = Citizen.invokeNative<void>('0x648740220EDDB123', amount, handle.dataView);

@@ -6,9 +6,9 @@ import { PedIndex, IntRef } from '@ivanzaida/structures'
  * 0xFB91087FE596EC02
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {IntRef} targetShuffleSeat [Ref]
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {IntRef} targetShuffleSeat [Ref]
  * @returns {boolean}  
  */
 export function canPedShuffleToOrFromExtraSeat(ped: PedIndex, targetShuffleSeat: IntRef /* ptr */): boolean {

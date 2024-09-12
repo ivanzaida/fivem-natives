@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xB3BE3390D375B97E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedGesturing(ped: PedIndex): boolean {

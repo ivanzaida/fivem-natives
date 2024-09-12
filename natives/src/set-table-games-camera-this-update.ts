@@ -6,8 +6,8 @@ import { ETableGamesCameraType } from '@ivanzaida/structures'
  * 0xC1AAF981A4F50898
 
  * 
- * ------------------------------------------------------------------
- * @param {ETableGamesCameraType} cameraType
+ * ------------------------------------------------------------------
+ * @param {ETableGamesCameraType} cameraType
  * @returns {boolean}  
  */
 export function setTableGamesCameraThisUpdate(cameraType: ETableGamesCameraType | number): boolean {

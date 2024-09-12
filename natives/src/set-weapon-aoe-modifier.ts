@@ -6,9 +6,9 @@ import { EWeaponType } from '@ivanzaida/structures'
  * 0xBB74EE81E0CA2E98
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weaponType
- * @param {number} newModifier
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weaponType
+ * @param {number} newModifier
  */
 export function setWeaponAoeModifier(weaponType: EWeaponType | number, newModifier: number): void {
 	const setWeaponAoeModifier_result = Citizen.invokeNative<void>('0xBB74EE81E0CA2E98', weaponType, newModifier);

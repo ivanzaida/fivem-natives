@@ -6,9 +6,9 @@ import { EntityIndex, ModelNames } from '@ivanzaida/structures'
  * 0xE68E61D23A75BC3E
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {ModelNames} modelHashKey
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {ModelNames} modelHashKey
  * @returns {boolean}  
  */
 export function isEntityTouchingModel(entity: EntityIndex, modelHashKey: ModelNames): boolean {

@@ -6,8 +6,8 @@ import { Insidetrackmetriclight } from '@ivanzaida/structures'
  * 0x7B2248C7C15BE57A
 
  * 
- * ------------------------------------------------------------------
- * @param {Insidetrackmetriclight} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {Insidetrackmetriclight} data [Ref]
  */
 export function playstatsCasinoInsideTrackLight(data: Insidetrackmetriclight /* ptr */): void {
 	const playstatsCasinoInsideTrackLight_result = Citizen.invokeNative<void>('0x7B2248C7C15BE57A', data.dataView);

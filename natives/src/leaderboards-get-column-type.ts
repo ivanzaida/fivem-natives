@@ -6,10 +6,10 @@ import { EnumToInt } from '@ivanzaida/structures'
  * 0x3C041FAC0ACE6A45
 
  * 
- * ------------------------------------------------------------------
- * @param {number} leaderboardId
- * @param {EnumToInt} type
- * @param {number} column
+ * ------------------------------------------------------------------
+ * @param {number} leaderboardId
+ * @param {EnumToInt} type
+ * @param {number} column
  * @returns {number}  
  */
 export function leaderboardsGetColumnType(leaderboardId: number, type: EnumToInt, column: number): number {

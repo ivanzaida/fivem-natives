@@ -6,10 +6,10 @@ import { EWeaponcomponentType } from '@ivanzaida/structures'
  * 0x879FF7169943DE79
 
  * Returns the amount of extra components the specified component has.
- * Returns -1 if the component isn't of type CWeaponComponentVariantModel.
- * 
- * ------------------------------------------------------------------
- * @param {EWeaponcomponentType} weaponComponent
+ * Returns -1 if the component isn't of type CWeaponComponentVariantModel.
+ * 
+ * ------------------------------------------------------------------
+ * @param {EWeaponcomponentType} weaponComponent
  * @returns {number}  
  */
 export function getWeaponComponentVariantExtraCount(weaponComponent: EWeaponcomponentType | number): number {

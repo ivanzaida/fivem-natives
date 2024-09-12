@@ -4,8 +4,8 @@
  * 0x84B5F8F55152B935
 
  * 
- * ------------------------------------------------------------------
- * @param {number} clanId
+ * ------------------------------------------------------------------
+ * @param {number} clanId
  */
 export function networkClanReleaseEmblem(clanId: number): void {
 	const networkClanReleaseEmblem_result = Citizen.invokeNative<void>('0x84B5F8F55152B935', clanId);

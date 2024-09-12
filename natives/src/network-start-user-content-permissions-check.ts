@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x12AEE383533D0E70
 
  * Always returns -1. Seems to be XB1 specific.
- * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  * @returns {number}  
  */
 export function networkStartUserContentPermissionsCheck(gamer: GamerHandle /* ptr */): number {

@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0X2A3D7CDA
 
  * A getter for [SET_PLAYER_WEAPON_DAMAGE_MODIFIER](#_0xCE07B9F7817AADA3).
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId The player index.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId The player index.
  * @returns {number}  The value of player weapon damage modifier.
  */
 export function getPlayerWeaponDamageModifier(playerId: PlayerIndex): number {

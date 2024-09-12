@@ -6,9 +6,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x8397B3389E13A5E5
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
- * @param {number} farClip
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
+ * @param {number} farClip
  */
 export function setCamFarClip(camera: CameraIndex, farClip: number): void {
 	const setCamFarClip_result = Citizen.invokeNative<void>('0x8397B3389E13A5E5', camera, farClip);

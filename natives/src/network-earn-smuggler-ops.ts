@@ -4,7 +4,7 @@
  * 0xDEA273D5F8A9661A
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkEarnSmugglerOps(): void {
 	const networkEarnSmugglerOps_result = Citizen.invokeNative<void>('0xDEA273D5F8A9661A', );

@@ -6,9 +6,9 @@ import { VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * 0x22007BC82AF0074B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EVehicleSeat} seat
  * @returns {boolean}  
  */
 export function isSeatWarpOnly(vehicle: VehicleIndex, seat: EVehicleSeat | number): boolean {

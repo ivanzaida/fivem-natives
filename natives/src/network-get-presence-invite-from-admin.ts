@@ -4,8 +4,8 @@
  * 0xB73605870CAE4123
 
  * 
- * ------------------------------------------------------------------
- * @param {number} invite
+ * ------------------------------------------------------------------
+ * @param {number} invite
  * @returns {boolean}  
  */
 export function networkGetPresenceInviteFromAdmin(invite: number): boolean {

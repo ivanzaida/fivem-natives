@@ -4,10 +4,10 @@
  * 0X3F5A61A7
 
  * This native returns the index of a wave quad if the given point is inside its bounds.
- * 
- * ------------------------------------------------------------------
- * @param {number} x The X coordinate
- * @param {number} y The Y coordinate
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} x The X coordinate
+ * @param {number} y The Y coordinate
  * @returns {number}  The wave quad index at the given position. Returns -1 if there isn't any there.
  */
 export function getWaveQuadAtCoords(x: number, y: number): number {

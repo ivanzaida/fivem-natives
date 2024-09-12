@@ -6,10 +6,10 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x78CDDDB2C832ADEF
 
  * Makes projectiles, such as grenades, automatically explode when this hit this object
- * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {boolean} explode
+ * 
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {boolean} explode
  */
 export function setProjectilesShouldExplodeOnContact(object: ObjectIndex, explode: boolean): void {
 	const setProjectilesShouldExplodeOnContact_result = Citizen.invokeNative<void>('0x78CDDDB2C832ADEF', object, explode);

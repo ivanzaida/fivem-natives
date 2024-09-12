@@ -4,7 +4,7 @@
  * 0xDC14EA9673A80516
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function resetWorldBoundaryForPlayer(): void {
 	const resetWorldBoundaryForPlayer_result = Citizen.invokeNative<void>('0xDC14EA9673A80516', );

@@ -4,8 +4,8 @@
  * 0xE029F4A956BFCCBE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} stationNameHash
+ * ------------------------------------------------------------------
+ * @param {number} stationNameHash
  * @returns {number}  
  */
 export function findRadioStationIndex(stationNameHash: number): number {

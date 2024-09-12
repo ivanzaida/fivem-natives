@@ -4,9 +4,9 @@
  * 0xA536EFAB049B26A3
 
  * This function is hard-coded to always return 0.
- * 
- * ------------------------------------------------------------------
- * @param {number} photoSlot
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} photoSlot
  * @returns {boolean}  
  */
 export function doesThisPhotoSlotContainAValidPhoto(photoSlot: number): boolean {

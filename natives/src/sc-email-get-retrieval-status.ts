@@ -6,7 +6,7 @@ import { EEEmailRetrievalStatus } from '@ivanzaida/structures'
  * 0x80CA040BF6D2FA31
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EEEmailRetrievalStatus}  
  */
 export function scEmailGetRetrievalStatus(): EEEmailRetrievalStatus {

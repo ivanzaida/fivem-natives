@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x45F34E0DDD65A401
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedWeaponReadyToShoot(ped: PedIndex): boolean {

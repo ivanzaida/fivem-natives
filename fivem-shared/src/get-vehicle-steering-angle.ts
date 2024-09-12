@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X1382FCEA
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  
  */
 export function getVehicleSteeringAngle(vehicle: VehicleIndex): number {

@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0XFE1589F9
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {EntityIndex}  
  */
 export function getEntityAttachedTo(entity: EntityIndex): EntityIndex {

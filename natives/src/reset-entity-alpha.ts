@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xC14A2FED36D0EBB9
 
  * Revert entity alpha override.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function resetEntityAlpha(entity: EntityIndex): void {
 	const resetEntityAlpha_result = Citizen.invokeNative<void>('0xC14A2FED36D0EBB9', entity);

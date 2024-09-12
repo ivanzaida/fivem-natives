@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xFF795413579DFDC5
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} modelHash
+ * ------------------------------------------------------------------
+ * @param {ModelNames} modelHash
  * @returns {boolean}  
  */
 export function addModelToCreatorBudget(modelHash: ModelNames): boolean {

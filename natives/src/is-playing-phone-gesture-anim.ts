@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x5BBE12D14B71C12A
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPlayingPhoneGestureAnim(ped: PedIndex): boolean {

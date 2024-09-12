@@ -6,8 +6,8 @@ import { LeaderboardUpdateData } from '@ivanzaida/structures'
  * 0x41B592D7008A639E
 
  * 
- * ------------------------------------------------------------------
- * @param {LeaderboardUpdateData} lbData [Ref]
+ * ------------------------------------------------------------------
+ * @param {LeaderboardUpdateData} lbData [Ref]
  * @returns {boolean}  
  */
 export function leaderboards2WriteData(lbData: LeaderboardUpdateData /* ptr */): boolean {

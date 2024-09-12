@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1A1E025C1EDC00AB
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} ignorePitching
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} ignorePitching
  */
 export function setIgnorePlanesSmallPitchChange(vehicle: VehicleIndex, ignorePitching: boolean): void {
 	const setIgnorePlanesSmallPitchChange_result = Citizen.invokeNative<void>('0x1A1E025C1EDC00AB', vehicle, ignorePitching);

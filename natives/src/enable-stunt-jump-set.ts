@@ -4,8 +4,8 @@
  * 0x28365F67ED751FCB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} set
+ * ------------------------------------------------------------------
+ * @param {number} set
  */
 export function enableStuntJumpSet(set: number): void {
 	const enableStuntJumpSet_result = Citizen.invokeNative<void>('0x28365F67ED751FCB', set);

@@ -4,8 +4,8 @@
  * 0x82ADFEA98A0C26DC
 
  * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
  * @returns {number}  
  */
 export function getFmMaleShopPedApparelItemIndex(nameHash: number): number {

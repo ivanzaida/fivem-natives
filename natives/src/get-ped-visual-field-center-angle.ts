@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x70101B2986BB6AB2
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedVisualFieldCenterAngle(ped: PedIndex): number {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xFC954C8C860FAB80
 
  * Appears to return false if any window is broken.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function areAllVehicleWindowsIntact(vehicle: VehicleIndex): boolean {

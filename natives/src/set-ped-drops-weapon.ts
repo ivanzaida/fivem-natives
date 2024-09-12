@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x08AABCACF8F4828E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedDropsWeapon(ped: PedIndex): void {
 	const setPedDropsWeapon_result = Citizen.invokeNative<void>('0x08AABCACF8F4828E', ped);

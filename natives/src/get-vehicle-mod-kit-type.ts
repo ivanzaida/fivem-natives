@@ -6,8 +6,8 @@ import { VehicleIndex, EModKitType } from '@ivanzaida/structures'
  * 0xB79F51ED32ADD424
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {EModKitType}  
  */
 export function getVehicleModKitType(vehicle: VehicleIndex): EModKitType {

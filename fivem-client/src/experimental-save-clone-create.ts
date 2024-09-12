@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0X9D65CAD2
 
  * This native is not implemented.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {string}  
  */
 export function experimentalSaveCloneCreate(entity: EntityIndex): string {

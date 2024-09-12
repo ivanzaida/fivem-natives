@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x0D5CED097A266DCE
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {boolean}  
  */
 export function wasFlyCamConstrainedOnPreviousUdpate(camera: CameraIndex): boolean {

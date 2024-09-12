@@ -4,8 +4,8 @@
  * 0xBFF9D1DD2EA1B515
 
  * 
- * ------------------------------------------------------------------
- * @param {string} radioStationName
+ * ------------------------------------------------------------------
+ * @param {string} radioStationName
  * @returns {number}  
  */
 export function getCurrentTrackSoundName(radioStationName: string): number {

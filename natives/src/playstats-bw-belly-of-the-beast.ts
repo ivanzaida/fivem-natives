@@ -6,8 +6,8 @@ import { BwBellyOfTheBeast } from '@ivanzaida/structures'
  * 0x14C70C346E2865FB
 
  * 
- * ------------------------------------------------------------------
- * @param {BwBellyOfTheBeast} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BwBellyOfTheBeast} data [Ref]
  */
 export function playstatsBwBellyOfTheBeast(data: BwBellyOfTheBeast /* ptr */): void {
 	const playstatsBwBellyOfTheBeast_result = Citizen.invokeNative<void>('0x14C70C346E2865FB', data.dataView);

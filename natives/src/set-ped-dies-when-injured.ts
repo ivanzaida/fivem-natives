@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9E6CC93E007219AC
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} dies
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} dies
  */
 export function setPedDiesWhenInjured(ped: PedIndex, dies: boolean): void {
 	const setPedDiesWhenInjured_result = Citizen.invokeNative<void>('0x9E6CC93E007219AC', ped, dies);

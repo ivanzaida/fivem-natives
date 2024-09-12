@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x12C0D6CD0D2EBB6F
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {string} signalName
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {string} signalName
  * @returns {boolean}  
  */
 export function getTaskMoveNetworkSignalBool(ped: PedIndex, signalName: string): boolean {

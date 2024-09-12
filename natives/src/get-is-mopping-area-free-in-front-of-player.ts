@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x93559B7C58C7660C
 
  * 2 occurrences in agency_heist3a. p1 was 0.7f then 0.4f.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} radius
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function getIsMoppingAreaFreeInFrontOfPlayer(player: PlayerIndex, radius: number): boolean {

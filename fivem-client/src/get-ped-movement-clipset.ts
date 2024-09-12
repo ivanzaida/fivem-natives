@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0X69E81E3D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped The target ped.
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped The target ped.
  * @returns {number}  The current movement clipset hash.
  */
 export function getPedMovementClipset(ped: PedIndex): number {

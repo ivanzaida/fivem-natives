@@ -6,13 +6,13 @@ import { EShopItemCategories } from '@ivanzaida/structures'
  * 0xD2ACF01ED6E6D7C6
 
  * Retrieve an item price. Item can be from the inventory
- * or a service.
- * bool is always true in game scripts
- * 
- * ------------------------------------------------------------------
- * @param {number} itemId
- * @param {EShopItemCategories} category
- * @param {number} quantity
+ * or a service.
+ * bool is always true in game scripts
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} itemId
+ * @param {EShopItemCategories} category
+ * @param {number} quantity
  * @returns {number}  
  */
 export function netGameserverGetPrice(itemId: number, category: EShopItemCategories | number, quantity: number): number {

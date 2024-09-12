@@ -4,9 +4,9 @@
  * 0X52441C34
 
  * Gets the routing bucket for the specified player.Routing buckets are also known as 'dimensions' or 'virtual worlds' in past echoes, however they are population-aware.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player to get the routing bucket for.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player to get the routing bucket for.
  * @returns {number}  The routing bucket ID.
  */
 export function getPlayerRoutingBucket(playerSrc: string): number {

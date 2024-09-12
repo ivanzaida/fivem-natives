@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x4EB5C166706C0781
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setVehicleRemoveAggressiveCarjackMission(vehicle: VehicleIndex): void {
 	const setVehicleRemoveAggressiveCarjackMission_result = Citizen.invokeNative<void>('0x4EB5C166706C0781', vehicle);

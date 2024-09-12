@@ -6,10 +6,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0x11BF418D1AFD7970
 
  * p1 is always 0
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
  * @returns {boolean}  
  */
 export function isPedBeingStunned(ped: PedIndex, weaponType: EWeaponType | number = 0): boolean {

@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x46B7259FABD90750
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  
  */
 export function getVehicleDefaultHornIgnoreMods(vehicle: VehicleIndex): number {

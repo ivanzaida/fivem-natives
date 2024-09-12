@@ -6,12 +6,12 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0x165E2DDD2BD0F07D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} inCoorsX
- * @param {number} inCoorsY
- * @param {number} inCoorsZ
- * @param {number} minDist
- * @param {number} maxDist
+ * ------------------------------------------------------------------
+ * @param {number} inCoorsX
+ * @param {number} inCoorsY
+ * @param {number} inCoorsZ
+ * @param {number} minDist
+ * @param {number} maxDist
  * @returns {Vector3}  
  */
 export function getSafePickupCoords(inCoorsX: number, inCoorsY: number, inCoorsZ: number, minDist: number = 1.2, maxDist: number = 1.5): Vector3 {

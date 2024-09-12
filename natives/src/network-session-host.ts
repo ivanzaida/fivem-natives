@@ -4,11 +4,11 @@
  * 0x255FDE258192D9FE
 
  * Does nothing in online but in offline it will cause the screen to fade to black. Nothing happens past then, the screen will sit at black until you restart GTA. Other stuff must be needed to actually host a session.
- * 
- * ------------------------------------------------------------------
- * @param {number} gameMode
- * @param {number} maxPlayers
- * @param {boolean} isPrivate
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} gameMode
+ * @param {number} maxPlayers
+ * @param {boolean} isPrivate
  * @returns {boolean}  
  */
 export function networkSessionHost(gameMode: number, maxPlayers: number, isPrivate: boolean): boolean {

@@ -6,12 +6,12 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x3EAF5419C2410C27
 
  * 
- * ------------------------------------------------------------------
- * @param {number} positionX
- * @param {number} positionY
- * @param {number} positionZ
- * @param {number} radius
- * @param {IntRef} sphere [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} positionX
+ * @param {number} positionY
+ * @param {number} positionZ
+ * @param {number} radius
+ * @param {IntRef} sphere [Ref]
  * @returns {boolean}  
  */
 export function isAirDefenceSphereInArea(positionX: number, positionY: number, positionZ: number, radius: number, sphere: IntRef /* ptr */): boolean {

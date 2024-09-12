@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x6DBAC05AFA907A23
 
  * Returns true if the ped passed through the parenthesis is wearing a helmet.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedWearingHelmet(ped: PedIndex): boolean {

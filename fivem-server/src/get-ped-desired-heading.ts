@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0XC182F76E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped The target ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped The target ped
  * @returns {number}  Returns ped's desired heading.
  */
 export function getPedDesiredHeading(ped: PedIndex): number {

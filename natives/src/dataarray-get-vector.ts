@@ -6,9 +6,9 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0x83D3CBA972660C58
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
+ * @param {number} index
  * @returns {Vector3}  
  */
 export function dataarrayGetVector(arr: string[], index: number): Vector3 {

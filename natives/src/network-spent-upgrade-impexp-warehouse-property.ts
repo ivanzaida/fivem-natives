@@ -6,11 +6,11 @@ import { SpendOfficeAndWarehouse } from '@ivanzaida/structures'
  * 0xC190A01717631220
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {SpendOfficeAndWarehouse} data [Ref]
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {SpendOfficeAndWarehouse} data [Ref]
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
  */
 export function networkSpentUpgradeImpexpWarehouseProperty(amount: number, data: SpendOfficeAndWarehouse /* ptr */, fromBank: boolean = false, fromBankAndWallet: boolean = false): void {
 	const networkSpentUpgradeImpexpWarehouseProperty_result = Citizen.invokeNative<void>('0xC190A01717631220', amount, data.dataView, fromBank, fromBankAndWallet);

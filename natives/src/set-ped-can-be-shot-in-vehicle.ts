@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9C18DF7FC19D843C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} canBeShotInVehicleFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} canBeShotInVehicleFlag
  */
 export function setPedCanBeShotInVehicle(ped: PedIndex, canBeShotInVehicleFlag: boolean): void {
 	const setPedCanBeShotInVehicle_result = Citizen.invokeNative<void>('0x9C18DF7FC19D843C', ped, canBeShotInVehicleFlag);

@@ -4,8 +4,8 @@
  * 0xF03BD9D28197A400
 
  * 
- * ------------------------------------------------------------------
- * @param {number} evenID
+ * ------------------------------------------------------------------
+ * @param {number} evenID
  */
 export function playstatsAwardBadSport(evenID: number): void {
 	const playstatsAwardBadSport_result = Citizen.invokeNative<void>('0xF03BD9D28197A400', evenID);

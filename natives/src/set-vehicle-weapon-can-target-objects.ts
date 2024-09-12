@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1A144C0743BF5890
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} canTargetObjects
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} canTargetObjects
  */
 export function setVehicleWeaponCanTargetObjects(vehicle: VehicleIndex, canTargetObjects: boolean): void {
 	const setVehicleWeaponCanTargetObjects_result = Citizen.invokeNative<void>('0x1A144C0743BF5890', vehicle, canTargetObjects);

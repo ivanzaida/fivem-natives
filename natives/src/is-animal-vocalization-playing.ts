@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xA6A0FE99C58BF725
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isAnimalVocalizationPlaying(ped: PedIndex): boolean {

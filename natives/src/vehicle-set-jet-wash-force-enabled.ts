@@ -4,8 +4,8 @@
  * 0x528A16ECF4B7B5A6
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function vehicleSetJetWashForceEnabled(enable: boolean): void {
 	const vehicleSetJetWashForceEnabled_result = Citizen.invokeNative<void>('0x528A16ECF4B7B5A6', enable);

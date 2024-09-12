@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xD0905E590E711B1A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} result
- * @param {IntRef} outFlags [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} result
+ * @param {IntRef} outFlags [Ref]
  */
 export function spawnpointsGetSearchResultFlags(result: number, outFlags: IntRef /* ptr */): void {
 	const spawnpointsGetSearchResultFlags_result = Citizen.invokeNative<void>('0xD0905E590E711B1A', result, outFlags.dataView);

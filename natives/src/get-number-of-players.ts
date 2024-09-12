@@ -4,9 +4,9 @@
  * 0x7D1D107CFA0B3F0F
 
  * Gets the number of players in the current session.
- * If not multiplayer, always returns 1.
- * 
- * ------------------------------------------------------------------
+ * If not multiplayer, always returns 1.
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getNumberOfPlayers(): number {

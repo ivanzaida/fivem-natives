@@ -4,8 +4,8 @@
  * 0x06B43310DD2DEF12
 
  * 
- * ------------------------------------------------------------------
- * @param {number} invite
+ * ------------------------------------------------------------------
+ * @param {number} invite
  * @returns {number}  
  */
 export function networkGetPresenceInvitePlaylistLength(invite: number): number {

@@ -4,8 +4,8 @@
  * 0xDB98FB9902F6B17C
 
  * 
- * ------------------------------------------------------------------
- * @param {string} cheatString
+ * ------------------------------------------------------------------
+ * @param {string} cheatString
  */
 export function playstatsCheatApplied(cheatString: string): void {
 	const playstatsCheatApplied_result = Citizen.invokeNative<void>('0xDB98FB9902F6B17C', cheatString);

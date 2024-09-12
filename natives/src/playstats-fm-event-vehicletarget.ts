@@ -6,8 +6,8 @@ import { FmEventAmbMissionVehicleTarget } from '@ivanzaida/structures'
  * 0x32E12CCFF254D37A
 
  * 
- * ------------------------------------------------------------------
- * @param {FmEventAmbMissionVehicleTarget} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FmEventAmbMissionVehicleTarget} data [Ref]
  */
 export function playstatsFmEventVehicletarget(data: FmEventAmbMissionVehicleTarget /* ptr */): void {
 	const playstatsFmEventVehicletarget_result = Citizen.invokeNative<void>('0x32E12CCFF254D37A', data.dataView);

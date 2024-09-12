@@ -4,8 +4,8 @@
  * 0x209F5DE8084C2803
 
  * This function is hard-coded to always return 0.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getMaximumNumberOfPhotos(): number {

@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0xA35EFADA8B877384
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  * @returns {boolean}  
  */
 export function networkQueueGamerForStatus(gamer: GamerHandle /* ptr */): boolean {

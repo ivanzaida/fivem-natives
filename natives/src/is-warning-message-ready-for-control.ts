@@ -4,7 +4,7 @@
  * 0xFE2A21CD2B0A3547
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isWarningMessageReadyForControl(): boolean {

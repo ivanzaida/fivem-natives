@@ -4,9 +4,9 @@
  * 0x4F3198DEED415E95
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} slot
+ * @param {number} amount
  * @returns {boolean}  
  */
 export function netGameserverTransferBankToWallet(slot: number, amount: number): boolean {

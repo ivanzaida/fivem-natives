@@ -6,9 +6,9 @@ import { VehicleIndex, PedIndex } from '@ivanzaida/structures'
  * 0x3CD322135CF08E09
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} ignoreDriverRestriction
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} ignoreDriverRestriction
  * @returns {PedIndex}  
  */
 export function createRandomPedAsDriver(vehicle: VehicleIndex, ignoreDriverRestriction: boolean = true): PedIndex {

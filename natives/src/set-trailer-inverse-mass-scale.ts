@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x82A7EF211E6B06C9
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} trailer
- * @param {number} invMassScale
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} trailer
+ * @param {number} invMassScale
  */
 export function setTrailerInverseMassScale(trailer: VehicleIndex, invMassScale: number): void {
 	const setTrailerInverseMassScale_result = Citizen.invokeNative<void>('0x82A7EF211E6B06C9', trailer, invMassScale);

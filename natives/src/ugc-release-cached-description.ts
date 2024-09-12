@@ -4,8 +4,8 @@
  * 0x2D133345AB736461
 
  * 
- * ------------------------------------------------------------------
- * @param {number} hash
+ * ------------------------------------------------------------------
+ * @param {number} hash
  * @returns {boolean}  
  */
 export function ugcReleaseCachedDescription(hash: number): boolean {

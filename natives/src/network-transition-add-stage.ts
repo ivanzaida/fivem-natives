@@ -4,12 +4,12 @@
  * 0x350F7DB8B2765EC2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} stageHash
- * @param {number} stageSlot
- * @param {number} contextParam1
- * @param {number} contextParam2
- * @param {number} contextParam3
+ * ------------------------------------------------------------------
+ * @param {number} stageHash
+ * @param {number} stageSlot
+ * @param {number} contextParam1
+ * @param {number} contextParam2
+ * @param {number} contextParam3
  * @returns {boolean}  
  */
 export function networkTransitionAddStage(stageHash: number, stageSlot: number, contextParam1: number, contextParam2: number, contextParam3: number): boolean {

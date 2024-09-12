@@ -6,10 +6,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x87384D2CF86135EB
 
  * Get the closest player to an entity on a particular team
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} team
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} team
  * @returns {number}  
  */
 export function getNearestPlayerToEntityOnTeam(entity: EntityIndex, team: number): number {

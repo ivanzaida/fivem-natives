@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x779023E7E53EB834
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} timeBeforeAllowReport
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} timeBeforeAllowReport
  */
 export function allowEvasionHudIfDisablingHiddenEvasionThisFrame(player: PlayerIndex, timeBeforeAllowReport: number = 1): void {
 	const allowEvasionHudIfDisablingHiddenEvasionThisFrame_result = Citizen.invokeNative<void>('0x779023E7E53EB834', player, timeBeforeAllowReport);

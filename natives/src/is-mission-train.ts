@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xF2A5706EAF041CB1
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} train
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} train
  * @returns {boolean}  
  */
 export function isMissionTrain(train: VehicleIndex): boolean {

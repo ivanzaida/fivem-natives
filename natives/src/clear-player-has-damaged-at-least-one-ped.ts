@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xAC7090FFDF63A3A0
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function clearPlayerHasDamagedAtLeastOnePed(player: PlayerIndex): void {
 	const clearPlayerHasDamagedAtLeastOnePed_result = Citizen.invokeNative<void>('0xAC7090FFDF63A3A0', player);

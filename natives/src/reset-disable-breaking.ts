@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x950E5A2F4659D2BD
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entityId
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entityId
  */
 export function resetDisableBreaking(entityId: EntityIndex): void {
 	const resetDisableBreaking_result = Citizen.invokeNative<void>('0x950E5A2F4659D2BD', entityId);

@@ -6,8 +6,8 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0xDDFB0941A19702BE
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
  */
 export function removePickup(pickupID: PickupIndex): void {
 	const removePickup_result = Citizen.invokeNative<void>('0xDDFB0941A19702BE', pickupID);

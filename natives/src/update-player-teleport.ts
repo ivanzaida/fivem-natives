@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x8644ACAF2A301B7E
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function updatePlayerTeleport(player: PlayerIndex): boolean {

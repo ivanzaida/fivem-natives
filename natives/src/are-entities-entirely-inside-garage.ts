@@ -4,12 +4,12 @@
  * 0xB7AFC7F5C75DCD56
 
  * 
- * ------------------------------------------------------------------
- * @param {number} garageHash
- * @param {boolean} peds
- * @param {boolean} vehs
- * @param {boolean} objs
- * @param {number} box
+ * ------------------------------------------------------------------
+ * @param {number} garageHash
+ * @param {boolean} peds
+ * @param {boolean} vehs
+ * @param {boolean} objs
+ * @param {number} box
  * @returns {boolean}  
  */
 export function areEntitiesEntirelyInsideGarage(garageHash: number, peds: boolean, vehs: boolean, objs: boolean, box: number = 1): boolean {

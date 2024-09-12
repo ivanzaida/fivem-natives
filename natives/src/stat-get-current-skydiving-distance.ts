@@ -4,8 +4,8 @@
  * 0xA318B59A6358E821
 
  * Fall the longest distance with a parachute before opening it
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetCurrentSkydivingDistance(): number {

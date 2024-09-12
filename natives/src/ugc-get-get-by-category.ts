@@ -6,12 +6,12 @@ import { EUgcCategory, IntRef } from '@ivanzaida/structures'
  * 0xF9618670CE65580B
 
  * 
- * ------------------------------------------------------------------
- * @param {EUgcCategory} category
- * @param {number} offset
- * @param {number} maxCount
- * @param {string} szContentType
- * @param {IntRef} descriptionsId [Ref]
+ * ------------------------------------------------------------------
+ * @param {EUgcCategory} category
+ * @param {number} offset
+ * @param {number} maxCount
+ * @param {string} szContentType
+ * @param {IntRef} descriptionsId [Ref]
  * @returns {boolean}  
  */
 export function ugcGetGetByCategory(category: EUgcCategory | number, offset: number, maxCount: number, szContentType: string, descriptionsId: IntRef /* ptr */): boolean {

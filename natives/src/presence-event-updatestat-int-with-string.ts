@@ -6,11 +6,11 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x0E6887182A0B2C89
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} statId
- * @param {number} value
- * @param {number} value2
- * @param {string} stringData
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} statId
+ * @param {number} value
+ * @param {number} value2
+ * @param {string} stringData
  */
 export function presenceEventUpdatestatIntWithString(statId: EStatsenum | number, value: number, value2: number, stringData: string): void {
 	const presenceEventUpdatestatIntWithString_result = Citizen.invokeNative<void>('0x0E6887182A0B2C89', statId, value, value2, stringData);

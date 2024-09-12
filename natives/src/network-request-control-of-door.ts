@@ -4,8 +4,8 @@
  * 0xA6C7B9A74A74B015
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {boolean}  
  */
 export function networkRequestControlOfDoor(doorEnumHash: number): boolean {

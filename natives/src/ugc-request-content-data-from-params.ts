@@ -4,12 +4,12 @@
  * 0x7FD2990AF016795E
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentType
- * @param {string} szContentID
- * @param {number} fileID
- * @param {number} fileVersion
- * @param {number} language
+ * ------------------------------------------------------------------
+ * @param {string} szContentType
+ * @param {string} szContentID
+ * @param {number} fileID
+ * @param {number} fileVersion
+ * @param {number} language
  * @returns {number}  
  */
 export function ugcRequestContentDataFromParams(szContentType: string, szContentID: string, fileID: number, fileVersion: number, language: number): number {

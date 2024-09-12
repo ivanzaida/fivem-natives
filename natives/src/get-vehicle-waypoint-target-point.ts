@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x78BCB869DD6BFD3C
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  * @returns {number}  
  */
 export function getVehicleWaypointTargetPoint(veh: VehicleIndex): number {

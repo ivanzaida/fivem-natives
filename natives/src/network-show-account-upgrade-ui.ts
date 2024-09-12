@@ -4,7 +4,7 @@
  * 0x130048FEFDA3B288
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkShowAccountUpgradeUi(): void {
 	const networkShowAccountUpgradeUi_result = Citizen.invokeNative<void>('0x130048FEFDA3B288', );

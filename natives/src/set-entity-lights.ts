@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x4CD0763EB5DCD503
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} lightSwitch
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} lightSwitch
  */
 export function setEntityLights(entity: EntityIndex, lightSwitch: boolean): void {
 	const setEntityLights_result = Citizen.invokeNative<void>('0x4CD0763EB5DCD503', entity, lightSwitch);

@@ -4,9 +4,9 @@
  * 0xDF269BE2909E181A
 
  * Returns ptfxHandle
- * effectName: scr_sv_drag_burnout
- * 
- * ------------------------------------------------------------------
+ * effectName: scr_sv_drag_burnout
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function startVehicleParticleFxLooped(): number {

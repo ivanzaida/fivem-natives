@@ -4,8 +4,8 @@
  * 0xF34EE736CF047844
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function floor(value: number): number {

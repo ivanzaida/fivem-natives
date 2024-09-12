@@ -4,9 +4,9 @@
  * 0x1BB362CAE190AD06
 
  * Does nothing (it's a nullsub). Seems to be PS4 specific.
- * 
- * ------------------------------------------------------------------
- * @param {string} commandLineString
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} commandLineString
  */
 export function activityFeedActionStartWithCommandLineAdd(commandLineString: string): void {
 	const activityFeedActionStartWithCommandLineAdd_result = Citizen.invokeNative<void>('0x1BB362CAE190AD06', commandLineString);

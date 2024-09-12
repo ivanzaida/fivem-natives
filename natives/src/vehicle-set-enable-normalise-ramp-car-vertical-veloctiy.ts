@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xDCCC8272AEA5EA2C
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} normalise
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} normalise
  */
 export function vehicleSetEnableNormaliseRampCarVerticalVeloctiy(vehicle: VehicleIndex, normalise: boolean): void {
 	const vehicleSetEnableNormaliseRampCarVerticalVeloctiy_result = Citizen.invokeNative<void>('0xDCCC8272AEA5EA2C', vehicle, normalise);

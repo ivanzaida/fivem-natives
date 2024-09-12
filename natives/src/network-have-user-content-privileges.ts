@@ -6,8 +6,8 @@ import { EPrivilegeCheck } from '@ivanzaida/structures'
  * 0x97DD063A9C6137F8
 
  * 
- * ------------------------------------------------------------------
- * @param {EPrivilegeCheck} privilegeType Privilege Check Type (One of PRIVILEGE_CHECK)
+ * ------------------------------------------------------------------
+ * @param {EPrivilegeCheck} privilegeType Privilege Check Type (One of PRIVILEGE_CHECK)
  * @returns {boolean}  
  */
 export function networkHaveUserContentPrivileges(privilegeType: EPrivilegeCheck | number = 0): boolean {

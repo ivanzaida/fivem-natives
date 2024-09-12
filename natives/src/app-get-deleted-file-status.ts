@@ -6,7 +6,7 @@ import { EAppDataNetStatus } from '@ivanzaida/structures'
  * 0x898EDBE06F676B56
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EAppDataNetStatus}  
  */
 export function appGetDeletedFileStatus(): EAppDataNetStatus {

@@ -6,13 +6,13 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD4DE27DF3E2EBFF4
 
  * Causes a ped to perform a specific scenario action.  DEPRECATED EXCEPT FOR USE IN DEBUGGING!
- * DO NOT USE IN GAME SCRIPTS!
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} dangerPositionX
- * @param {number} dangerPositionY
- * @param {number} dangerPositionZ
+ * DO NOT USE IN GAME SCRIPTS!
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} dangerPositionX
+ * @param {number} dangerPositionY
+ * @param {number} dangerPositionZ
  * @returns {boolean}  
  */
 export function triggerPedScenarioPanicexittoflee(ped: PedIndex, dangerPositionX: number, dangerPositionY: number, dangerPositionZ: number): boolean {

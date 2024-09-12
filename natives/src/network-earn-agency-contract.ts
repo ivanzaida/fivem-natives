@@ -4,9 +4,9 @@
  * 0xEBDEC0D7E92D20B0
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {number} context
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {number} context
  */
 export function networkEarnAgencyContract(amount: number, context: number): void {
 	const networkEarnAgencyContract_result = Citizen.invokeNative<void>('0xEBDEC0D7E92D20B0', amount, context);

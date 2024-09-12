@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xAD38642974DA79B6
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} giveControl
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} giveControl
  */
 export function givePlayerRagdollControl(player: PlayerIndex, giveControl: boolean): void {
 	const givePlayerRagdollControl_result = Citizen.invokeNative<void>('0xAD38642974DA79B6', player, giveControl);

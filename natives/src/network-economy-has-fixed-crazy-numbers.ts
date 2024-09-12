@@ -4,7 +4,7 @@
  * 0xF0E83DAB719BAF47
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkEconomyHasFixedCrazyNumbers(): boolean {

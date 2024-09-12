@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x1F4CEA172C882694
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedTimeOfDeath(ped: PedIndex): number {

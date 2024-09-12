@@ -4,7 +4,7 @@
  * 0x099F525995A2FD5E
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkRequestCloudBackgroundScripts(): boolean {

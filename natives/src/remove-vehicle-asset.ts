@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xCE41CD0179F8640B
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  */
 export function removeVehicleAsset(vehicleModelHashKey: ModelNames): void {
 	const removeVehicleAsset_result = Citizen.invokeNative<void>('0xCE41CD0179F8640B', vehicleModelHashKey);

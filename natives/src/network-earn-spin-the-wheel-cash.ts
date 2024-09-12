@@ -4,8 +4,8 @@
  * 0x6B07E1D996A69ACF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnSpinTheWheelCash(amount: number): void {
 	const networkEarnSpinTheWheelCash_result = Citizen.invokeNative<void>('0x6B07E1D996A69ACF', amount);

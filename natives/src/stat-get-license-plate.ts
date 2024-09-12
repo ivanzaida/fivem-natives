@@ -6,8 +6,8 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x586035D0F620ADEE
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
  * @returns {string}  
  */
 export function statGetLicensePlate(keyHash: EStatsenum | number): string {

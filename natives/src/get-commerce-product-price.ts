@@ -4,8 +4,8 @@
  * 0x3682CE8F11C793D4
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  * @returns {string}  
  */
 export function getCommerceProductPrice(index: number): string {

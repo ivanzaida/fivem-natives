@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xFED960E0DE07E343
 
  * Ped will stay on the ground after being stunned for at lest ms time. (in milliseconds)
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} minTime
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} minTime
  */
 export function setPedMinGroundTimeForStungun(ped: PedIndex, minTime: number): void {
 	const setPedMinGroundTimeForStungun_result = Citizen.invokeNative<void>('0xFED960E0DE07E343', ped, minTime);

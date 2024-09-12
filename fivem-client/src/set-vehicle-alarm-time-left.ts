@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XC108EE6F
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} time
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} time
  */
 export function setVehicleAlarmTimeLeft(vehicle: VehicleIndex, time: number): void {
 	const setVehicleAlarmTimeLeft_result = Citizen.invokeNative<void>('0XC108EE6F', vehicle, time);

@@ -6,7 +6,7 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0x809549AFC7AEC597
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {Vector3}  
  */
 export function getSpawnCoordsForVehicleNode(): Vector3 {

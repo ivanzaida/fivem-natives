@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xC9B695B7C0126DCC
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function stopEntityFire(entity: EntityIndex): void {
 	const stopEntityFire_result = Citizen.invokeNative<void>('0xC9B695B7C0126DCC', entity);

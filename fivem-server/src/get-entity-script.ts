@@ -6,10 +6,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0XB7F70784
 
  * Returns the name of the script that owns/created the entity or nullptr. Second parameter is unused, can just be a nullptr.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} instanceId
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} instanceId
  * @returns {string}  
  */
 export function getEntityScript(entity: EntityIndex, instanceId: number): string {

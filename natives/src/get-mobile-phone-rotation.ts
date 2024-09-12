@@ -7,9 +7,9 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x3CA646A848A5F334
 
  * 
- * ------------------------------------------------------------------
- * @param {Vector3} outRotationVector [Ref]
- * @param {EEulerRotOrder} rotOrder
+ * ------------------------------------------------------------------
+ * @param {Vector3} outRotationVector [Ref]
+ * @param {EEulerRotOrder} rotOrder
  */
 export function getMobilePhoneRotation(outRotationVector: Vector3 /* ptr */, rotOrder: EEulerRotOrder | number = 0): void {
 	const outRotationVectorPtr = new Vector3Ref();

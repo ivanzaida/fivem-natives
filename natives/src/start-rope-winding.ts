@@ -6,8 +6,8 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x2CFF537DCB91BDF5
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  */
 export function startRopeWinding(ropeID: RopeIndex): void {
 	const startRopeWinding_result = Citizen.invokeNative<void>('0x2CFF537DCB91BDF5', ropeID);

@@ -4,8 +4,8 @@
  * 0x18DEB87CBCBB1C35
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  */
 export function waterOverrideSetRipplemaxbumpiness(value: number): void {
 	const waterOverrideSetRipplemaxbumpiness_result = Citizen.invokeNative<void>('0x18DEB87CBCBB1C35', value);

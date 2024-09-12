@@ -6,12 +6,12 @@ import { PlayerIndex, EntityIndex, IntRef } from '@ivanzaida/structures'
  * 0x3DC0E2D99138397E
 
  * This command can be used for any physical objects within the game (e.g. cars, peds and objects).
- * NETWORK_GET_ASSISTED_DAMAGE_OF_ENTITY that ensures the entity is dead (IS_ENTITY_DEAD)
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerIndexDamager
- * @param {EntityIndex} entityDamaged
- * @param {IntRef} damageDealt [Ref]
+ * NETWORK_GET_ASSISTED_DAMAGE_OF_ENTITY that ensures the entity is dead (IS_ENTITY_DEAD)
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerIndexDamager
+ * @param {EntityIndex} entityDamaged
+ * @param {IntRef} damageDealt [Ref]
  * @returns {boolean}  
  */
 export function networkGetAssistedKillOfEntity(playerIndexDamager: PlayerIndex, entityDamaged: EntityIndex, damageDealt: IntRef /* ptr */): boolean {

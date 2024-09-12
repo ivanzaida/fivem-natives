@@ -4,8 +4,8 @@
  * 0x10564B8977071406
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {boolean} set
  * @returns {boolean}  
  */
 export function loadAllPathNodes(set: boolean): boolean {

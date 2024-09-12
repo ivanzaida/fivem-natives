@@ -4,8 +4,8 @@
  * 0x66CB39FD84C5ED21
 
  * 
- * ------------------------------------------------------------------
- * @param {number} hash
+ * ------------------------------------------------------------------
+ * @param {number} hash
  * @returns {boolean}  
  */
 export function ugcIsDescriptionRequestInProgress(hash: number): boolean {

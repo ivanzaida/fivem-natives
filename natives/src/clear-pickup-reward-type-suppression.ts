@@ -6,8 +6,8 @@ import { EPickupRewardType } from '@ivanzaida/structures'
  * 0xB1FED11AF36ECDD3
 
  * 
- * ------------------------------------------------------------------
- * @param {EPickupRewardType} pickupFlag
+ * ------------------------------------------------------------------
+ * @param {EPickupRewardType} pickupFlag
  */
 export function clearPickupRewardTypeSuppression(pickupFlag: EPickupRewardType | number): void {
 	const clearPickupRewardTypeSuppression_result = Citizen.invokeNative<void>('0xB1FED11AF36ECDD3', pickupFlag);

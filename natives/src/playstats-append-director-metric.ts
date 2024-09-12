@@ -6,8 +6,8 @@ import { VideoClipMetric } from '@ivanzaida/structures'
  * 0x38D116A5A4F69C5B
 
  * 
- * ------------------------------------------------------------------
- * @param {VideoClipMetric} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {VideoClipMetric} value [Ref]
  */
 export function playstatsAppendDirectorMetric(value: VideoClipMetric /* ptr */): void {
 	const playstatsAppendDirectorMetric_result = Citizen.invokeNative<void>('0x38D116A5A4F69C5B', value.dataView);

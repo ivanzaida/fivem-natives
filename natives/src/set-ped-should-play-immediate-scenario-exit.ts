@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x895CE77855F9AFD2
 
  * When this ped receives its next script task, they will immediately blend out of their scenario.
- * They will quit their scenario task immediately.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * They will quit their scenario task immediately.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedShouldPlayImmediateScenarioExit(ped: PedIndex): void {
 	const setPedShouldPlayImmediateScenarioExit_result = Citizen.invokeNative<void>('0x895CE77855F9AFD2', ped);

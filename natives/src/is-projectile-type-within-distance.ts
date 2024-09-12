@@ -6,13 +6,13 @@ import { EWeaponType } from '@ivanzaida/structures'
  * 0x8EC0BB480F11446F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} vecCoorsX
- * @param {number} vecCoorsY
- * @param {number} vecCoorsZ
- * @param {EWeaponType} weaponType
- * @param {number} distance
- * @param {boolean} isPlayer
+ * ------------------------------------------------------------------
+ * @param {number} vecCoorsX
+ * @param {number} vecCoorsY
+ * @param {number} vecCoorsZ
+ * @param {EWeaponType} weaponType
+ * @param {number} distance
+ * @param {boolean} isPlayer
  * @returns {boolean}  
  */
 export function isProjectileTypeWithinDistance(vecCoorsX: number, vecCoorsY: number, vecCoorsZ: number, weaponType: EWeaponType | number, distance: number, isPlayer: boolean = false): boolean {

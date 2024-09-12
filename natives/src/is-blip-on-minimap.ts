@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xE38FA95DFF747E7C
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {boolean}  
  */
 export function isBlipOnMinimap(blip: BlipIndex): boolean {

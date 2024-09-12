@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x907872AE773E60D2
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} forcedZoom
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} forcedZoom
  */
 export function setPlayerForcedZoom(player: PlayerIndex, forcedZoom: boolean): void {
 	const setPlayerForcedZoom_result = Citizen.invokeNative<void>('0x907872AE773E60D2', player, forcedZoom);

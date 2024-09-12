@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XC37D668
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} heli The helicopter to check
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} heli The helicopter to check
  * @returns {number}  Returns a value representing the damage scaling factor applied to the helicopter's main rotor. The value ranges from `0.0` (no damage scaling) to` 1.0` (full damage scaling).
  */
 export function getHeliMainRotorDamageScale(heli: VehicleIndex): number {

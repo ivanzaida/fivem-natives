@@ -4,8 +4,8 @@
  * 0xBED8C136A36DA2C4
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {number}  
  */
 export function getDefaultSecondaryTintForCreator(tint: number): number {

@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x692665178199313C
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function isPlayerPressingHorn(player: PlayerIndex): boolean {

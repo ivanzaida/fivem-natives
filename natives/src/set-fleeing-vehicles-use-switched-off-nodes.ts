@@ -4,8 +4,8 @@
  * 0xEB13A0B02F8676C8
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} canUseSwitchedOffNodes
+ * ------------------------------------------------------------------
+ * @param {boolean} canUseSwitchedOffNodes
  */
 export function setFleeingVehiclesUseSwitchedOffNodes(canUseSwitchedOffNodes: boolean): void {
 	const setFleeingVehiclesUseSwitchedOffNodes_result = Citizen.invokeNative<void>('0xEB13A0B02F8676C8', canUseSwitchedOffNodes);

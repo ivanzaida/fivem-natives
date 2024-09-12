@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x212E8A037E68E81C
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  * @returns {boolean}  
  */
 export function networkCanGamerPlayMultiplayerWithMe(gamer: GamerHandle /* ptr */): boolean {

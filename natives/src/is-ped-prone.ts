@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x78174817EDF226B3
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedProne(ped: PedIndex): boolean {

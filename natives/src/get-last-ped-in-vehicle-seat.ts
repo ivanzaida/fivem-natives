@@ -6,9 +6,9 @@ import { VehicleIndex, EVehicleSeat, PedIndex } from '@ivanzaida/structures'
  * 0x6B854773972E76E4
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EVehicleSeat} seat
  * @returns {PedIndex}  
  */
 export function getLastPedInVehicleSeat(vehicle: VehicleIndex, seat: EVehicleSeat | number = 1): PedIndex {

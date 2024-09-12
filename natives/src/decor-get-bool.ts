@@ -6,9 +6,9 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0x3F40AE65F056B43D
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
  * @returns {boolean}  
  */
 export function decorGetBool(guid: ItemIndex, decoratorName: string): boolean {

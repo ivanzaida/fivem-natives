@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xA6102F762BBA9BC9
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} angle
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} angle
  */
 export function setPedVisualFieldCenterAngle(ped: PedIndex, angle: number): void {
 	const setPedVisualFieldCenterAngle_result = Citizen.invokeNative<void>('0xA6102F762BBA9BC9', ped, angle);

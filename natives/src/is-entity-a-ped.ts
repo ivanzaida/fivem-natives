@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x0101C509A6E67F99
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function isEntityAPed(entity: EntityIndex): boolean {

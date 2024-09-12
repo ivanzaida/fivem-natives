@@ -4,8 +4,8 @@
  * 0x143EE419E5A537E6
 
  * Perform the longest jump in a land vehicle
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetCurrentJumpDistance(): number {

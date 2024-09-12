@@ -6,8 +6,8 @@ import { ETextBlockSlots } from '@ivanzaida/structures'
  * 0x134994A89C4A6F71
 
  * 
- * ------------------------------------------------------------------
- * @param {ETextBlockSlots} slotNumber
+ * ------------------------------------------------------------------
+ * @param {ETextBlockSlots} slotNumber
  * @returns {boolean}  
  */
 export function isStreamingAdditionalText(slotNumber: ETextBlockSlots | number): boolean {

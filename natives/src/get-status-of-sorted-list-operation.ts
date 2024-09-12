@@ -6,10 +6,10 @@ import { EPhotoOperationStatus } from '@ivanzaida/structures'
  * 0x62830FDE95255DE5
 
  * 3 matches across 3 scripts. First 2 were 0, 3rd was 1. Possibly a bool.
- * appcamera, appmedia, and cellphone_controller.
- * 
- * ------------------------------------------------------------------
- * @param {boolean} scanForSaving
+ * appcamera, appmedia, and cellphone_controller.
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} scanForSaving
  * @returns {EPhotoOperationStatus}  
  */
 export function getStatusOfSortedListOperation(scanForSaving: boolean): EPhotoOperationStatus {

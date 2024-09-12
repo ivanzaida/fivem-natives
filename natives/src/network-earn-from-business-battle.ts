@@ -4,8 +4,8 @@
  * 0x0FB341836D41663F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnFromBusinessBattle(amount: number): void {
 	const networkEarnFromBusinessBattle_result = Citizen.invokeNative<void>('0x0FB341836D41663F', amount);

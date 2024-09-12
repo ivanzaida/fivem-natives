@@ -6,13 +6,13 @@ import { DecalId } from '@ivanzaida/structures'
  * 0x037E59D590865D5A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} posX
- * @param {number} posY
- * @param {number} posZ
- * @param {number} startSize
- * @param {number} endSize
- * @param {number} growRate
+ * ------------------------------------------------------------------
+ * @param {number} posX
+ * @param {number} posY
+ * @param {number} posZ
+ * @param {number} startSize
+ * @param {number} endSize
+ * @param {number} growRate
  * @returns {DecalId}  
  */
 export function addPetrolDecal(posX: number, posY: number, posZ: number, startSize: number, endSize: number, growRate: number): DecalId {

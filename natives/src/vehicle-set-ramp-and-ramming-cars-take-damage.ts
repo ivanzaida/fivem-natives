@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x9F0B86B670233A83
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} takeDamage
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} takeDamage
  */
 export function vehicleSetRampAndRammingCarsTakeDamage(vehicle: VehicleIndex, takeDamage: boolean): void {
 	const vehicleSetRampAndRammingCarsTakeDamage_result = Citizen.invokeNative<void>('0x9F0B86B670233A83', vehicle, takeDamage);

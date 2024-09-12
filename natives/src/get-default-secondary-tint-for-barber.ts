@@ -4,8 +4,8 @@
  * 0x0BC34ECDC4790796
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {number}  
  */
 export function getDefaultSecondaryTintForBarber(tint: number): number {

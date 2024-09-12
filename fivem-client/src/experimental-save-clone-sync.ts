@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0X38D19210
 
  * This native is not implemented.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {string}  
  */
 export function experimentalSaveCloneSync(entity: EntityIndex): string {

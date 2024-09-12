@@ -6,9 +6,9 @@ import { PedIndex, PedheadshotId } from '@ivanzaida/structures'
  * 0x5CF63381522A9972
 
  * gtaforums.com/topic/885580-ped-headshotmugshot-txd/
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PedheadshotId}  
  */
 export function registerPedheadshot(ped: PedIndex): PedheadshotId {

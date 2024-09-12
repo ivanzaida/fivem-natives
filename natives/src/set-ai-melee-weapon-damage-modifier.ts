@@ -4,9 +4,9 @@
  * 0x767EC66D239AED1D
 
  * This function will change the ai melee weapon damage multiplier
- * 
- * ------------------------------------------------------------------
- * @param {number} modifier
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} modifier
  */
 export function setAiMeleeWeaponDamageModifier(modifier: number): void {
 	const setAiMeleeWeaponDamageModifier_result = Citizen.invokeNative<void>('0x767EC66D239AED1D', modifier);

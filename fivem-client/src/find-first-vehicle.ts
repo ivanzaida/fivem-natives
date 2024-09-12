@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X15E55694
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} outEntity [Ref]
  * @returns {number}  
  */
 export function findFirstVehicle(outEntity: IntRef /* ptr */): number {

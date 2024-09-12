@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xC0794F64BB12AAF8
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {boolean} takesDamage
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {boolean} takesDamage
  */
 export function setObjectTakesDamageFromCollidingWithBuildings(object: ObjectIndex, takesDamage: boolean = true): void {
 	const setObjectTakesDamageFromCollidingWithBuildings_result = Citizen.invokeNative<void>('0xC0794F64BB12AAF8', object, takesDamage);

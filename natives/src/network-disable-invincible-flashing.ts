@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x65EEAD281B3DD2AD
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} plr
- * @param {boolean} disable
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} plr
+ * @param {boolean} disable
  */
 export function networkDisableInvincibleFlashing(plr: PlayerIndex, disable: boolean): void {
 	const networkDisableInvincibleFlashing_result = Citizen.invokeNative<void>('0x65EEAD281B3DD2AD', plr, disable);

@@ -4,8 +4,8 @@
  * 0x5EED3D1AFFDEF57E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} state
+ * ------------------------------------------------------------------
+ * @param {boolean} state
  */
 export function setAllowCustomVehicleDriveByCamThisUpdate(state: boolean): void {
 	const setAllowCustomVehicleDriveByCamThisUpdate_result = Citizen.invokeNative<void>('0x5EED3D1AFFDEF57E', state);

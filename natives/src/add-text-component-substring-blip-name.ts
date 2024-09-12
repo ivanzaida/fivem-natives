@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x273F00982486DCC6
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  */
 export function addTextComponentSubstringBlipName(blip: BlipIndex): void {
 	const addTextComponentSubstringBlipName_result = Citizen.invokeNative<void>('0x273F00982486DCC6', blip);

@@ -6,9 +6,9 @@ import { VehicleIndex, EHomingLockonState } from '@ivanzaida/structures'
  * 0xD501B0D4146A6A30
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EHomingLockonState} lockOnState
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EHomingLockonState} lockOnState
  */
 export function setVehicleHomingLockedontoState(vehicle: VehicleIndex, lockOnState: EHomingLockonState | number): void {
 	const setVehicleHomingLockedontoState_result = Citizen.invokeNative<void>('0xD501B0D4146A6A30', vehicle, lockOnState);

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x6E01C40ECE96D208
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedMoney(ped: PedIndex): number {

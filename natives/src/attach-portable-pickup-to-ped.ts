@@ -6,9 +6,9 @@ import { ObjectIndex, PedIndex } from '@ivanzaida/structures'
  * 0xCD1BFD3115E1591A
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
- * @param {PedIndex} pedID
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
+ * @param {PedIndex} pedID
  */
 export function attachPortablePickupToPed(pickupID: ObjectIndex, pedID: PedIndex): void {
 	const attachPortablePickupToPed_result = Citizen.invokeNative<void>('0xCD1BFD3115E1591A', pickupID, pedID);

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xAA6E5BB6733B4BB0
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedHelmetStoredHatTexIndex(ped: PedIndex): number {

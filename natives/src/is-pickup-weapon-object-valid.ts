@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x6B0D585D62AACB6F
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
  * @returns {boolean}  
  */
 export function isPickupWeaponObjectValid(pickupID: ObjectIndex): boolean {

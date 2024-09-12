@@ -6,9 +6,9 @@ import { EmailData } from '@ivanzaida/structures'
  * 0xEC552A25287441B8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
- * @param {EmailData} emailData [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} index
+ * @param {EmailData} emailData [Ref]
  * @returns {boolean}  
  */
 export function scEmailGetEmailAtIndex(index: number, emailData: EmailData /* ptr */): boolean {

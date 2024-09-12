@@ -6,9 +6,9 @@ import { BountyInboxMsgData } from '@ivanzaida/structures'
  * 0x67B3687F7C69B969
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
- * @param {BountyInboxMsgData} bountyData [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} index
+ * @param {BountyInboxMsgData} bountyData [Ref]
  * @returns {boolean}  
  */
 export function scInboxGetBountyDataAtIndex(index: number, bountyData: BountyInboxMsgData /* ptr */): boolean {

@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XC6C2171F
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
+ * @param {number} value
  */
 export function setVehicleWheelYRotation(vehicle: VehicleIndex, wheelIndex: number, value: number): void {
 	const setVehicleWheelYRotation_result = Citizen.invokeNative<void>('0XC6C2171F', vehicle, wheelIndex, value);

@@ -4,7 +4,7 @@
  * 0XC66CD90C
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  True if fuel consumption is turned on. False otherwise.
  */
 export function getFuelConsumptionState(): boolean {

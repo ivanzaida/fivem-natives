@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X2EA4AFFE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
  * @returns {number}  
  */
 export function getVehicleWheelYRotation(vehicle: VehicleIndex, wheelIndex: number): number {

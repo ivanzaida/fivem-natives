@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xDA02F6FBBDEBF43D
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {EntityIndex}  
  */
 export function getLastEntityHitByEntity(entity: EntityIndex): EntityIndex {

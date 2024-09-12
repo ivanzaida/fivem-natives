@@ -6,9 +6,9 @@ import { StreamvolId } from '@ivanzaida/structures'
  * 0x5561E31B168FA823
 
  * Returns true if the stream volume at the specified index is valid and active, false otherwise
- * 
- * ------------------------------------------------------------------
- * @param {StreamvolId} volume
+ * 
+ * ------------------------------------------------------------------
+ * @param {StreamvolId} volume
  * @returns {boolean}  
  */
 export function streamvolIsValid(volume: StreamvolId): boolean {

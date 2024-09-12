@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x9C931A1395CC1AE9
 
  * Gang peds and randoms will all flee instead on this frame
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function setAllRandomPedsFleeThisFrame(player: PlayerIndex): void {
 	const setAllRandomPedsFleeThisFrame_result = Citizen.invokeNative<void>('0x9C931A1395CC1AE9', player);

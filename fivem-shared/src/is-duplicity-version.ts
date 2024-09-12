@@ -4,8 +4,8 @@
  * 0XCF24C52E
 
  * Gets whether or not this is the CitizenFX server.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  A boolean value.
  */
 export function isDuplicityVersion(): boolean {

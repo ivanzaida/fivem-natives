@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x03689A4961280354
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {number}  
  */
 export function getPlayerSprintStaminaRemaining(player: PlayerIndex): number {

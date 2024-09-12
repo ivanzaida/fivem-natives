@@ -6,8 +6,8 @@ import { PedIndex, ERelGroupHash } from '@ivanzaida/structures'
  * 0x4001C3C533FE6925
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {ERelGroupHash}  
  */
 export function getPedRelationshipGroupDefaultHash(ped: PedIndex): ERelGroupHash {

@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xE8B604AD9A55DE39
 
  * Only works as host.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  */
 export function networkSessionKickPlayer(netPlayerID: PlayerIndex): void {
 	const networkSessionKickPlayer_result = Citizen.invokeNative<void>('0xE8B604AD9A55DE39', netPlayerID);

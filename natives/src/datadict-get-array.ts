@@ -4,9 +4,9 @@
  * 0x8FBF3E1A58A9D798
 
  * 
- * ------------------------------------------------------------------
- * @param {string} parent
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} parent
+ * @param {string} name
  * @returns {string[]}  
  */
 export function datadictGetArray(parent: string, name: string): string[] {

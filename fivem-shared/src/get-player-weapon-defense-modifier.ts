@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0XF1543251
 
  * A getter for [SET_PLAYER_WEAPON_DEFENSE_MODIFIER](#_0x2D83BC011CA14A3C).
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId The player index.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId The player index.
  * @returns {number}  The value of player weapon defense modifier.
  */
 export function getPlayerWeaponDefenseModifier(playerId: PlayerIndex): number {

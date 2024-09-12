@@ -6,8 +6,8 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  * 0x47507DD57C93B472
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {Vector3}  
  */
 export function getEntityRotationVelocity(entity: EntityIndex): Vector3 {

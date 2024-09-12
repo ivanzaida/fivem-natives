@@ -4,7 +4,7 @@
  * 0x830C51B62E7CD5B2
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function removeScenarioBlockingAreas(): void {
 	const removeScenarioBlockingAreas_result = Citizen.invokeNative<void>('0x830C51B62E7CD5B2', );

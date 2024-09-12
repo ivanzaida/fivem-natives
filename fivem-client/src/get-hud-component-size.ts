@@ -6,8 +6,8 @@ import { Vector3Ref } from '@ivanzaida/structures'
  * 0X12217D33
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id The hud component id.
+ * ------------------------------------------------------------------
+ * @param {number} id The hud component id.
  * @returns {Vector3Ref}  A Vector3 with the hud component size X and size Y values.
  */
 export function getHudComponentSize(id: number): Vector3Ref {

@@ -6,7 +6,7 @@ import { EShortSwitchState } from '@ivanzaida/structures'
  * 0x1F32174C38BEB883
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EShortSwitchState}  
  */
 export function getPlayerShortSwitchState(): EShortSwitchState {

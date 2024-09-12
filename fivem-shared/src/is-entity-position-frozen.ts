@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0XEDBE6ADD
 
  * A getter for [FREEZE_ENTITY_POSITION](#_0x428CA6DBD1094446).
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity The entity to check for
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity The entity to check for
  * @returns {boolean}  Boolean stating if it is frozen or not.
  */
 export function isEntityPositionFrozen(entity: EntityIndex): boolean {

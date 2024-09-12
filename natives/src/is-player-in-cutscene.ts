@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xF4102A2D0D824EC3
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId
  * @returns {boolean}  
  */
 export function isPlayerInCutscene(playerId: PlayerIndex): boolean {

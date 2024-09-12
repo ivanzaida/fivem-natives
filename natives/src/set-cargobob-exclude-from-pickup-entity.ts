@@ -6,10 +6,10 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x9E3907AACB2EE9A3
 
  * Attaches an entity to a cargobob
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {EntityIndex} entity
  */
 export function setCargobobExcludeFromPickupEntity(cargobob: VehicleIndex, entity: EntityIndex): void {
 	const setCargobobExcludeFromPickupEntity_result = Citizen.invokeNative<void>('0x9E3907AACB2EE9A3', cargobob, entity);

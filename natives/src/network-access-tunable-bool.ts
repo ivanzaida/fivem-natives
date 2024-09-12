@@ -4,9 +4,9 @@
  * 0x3DB3B2BA3A150EF2
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContext
- * @param {string} szTunableName
+ * ------------------------------------------------------------------
+ * @param {string} szContext
+ * @param {string} szTunableName
  * @returns {boolean}  
  */
 export function networkAccessTunableBool(szContext: string, szTunableName: string): boolean {

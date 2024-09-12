@@ -6,12 +6,12 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xB74F8EB686030603
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} modelHashKey
- * @param {number} coordsX
- * @param {number} coordsY
- * @param {number} coordsZ
- * @param {boolean} assertIfModelIsntLoaded
+ * ------------------------------------------------------------------
+ * @param {ModelNames} modelHashKey
+ * @param {number} coordsX
+ * @param {number} coordsY
+ * @param {number} coordsZ
+ * @param {boolean} assertIfModelIsntLoaded
  * @returns {boolean}  
  */
 export function wouldEntityBeOccluded(modelHashKey: ModelNames, coordsX: number, coordsY: number, coordsZ: number, assertIfModelIsntLoaded: boolean = true): boolean {

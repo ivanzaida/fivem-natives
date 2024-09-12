@@ -6,9 +6,9 @@ import { EStatsenum, FloatRef } from '@ivanzaida/structures'
  * 0xE1A5C172B921BBD6
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {FloatRef} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {FloatRef} data [Ref]
  * @returns {boolean}  
  */
 export function getMenuPedFloatStat(keyHash: EStatsenum | number, data: FloatRef /* ptr */): boolean {

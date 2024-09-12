@@ -6,8 +6,8 @@ import { EEScriptHudComponent } from '@ivanzaida/structures'
  * 0xFF455647AC47F397
 
  * 
- * ------------------------------------------------------------------
- * @param {EEScriptHudComponent} hudComponent
+ * ------------------------------------------------------------------
+ * @param {EEScriptHudComponent} hudComponent
  * @returns {boolean}  
  */
 export function isScriptedHudComponentActive(hudComponent: EEScriptHudComponent | number): boolean {

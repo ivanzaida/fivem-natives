@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xBA172498AF5A8211
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isCurrentHeadPropAHelmet(ped: PedIndex): boolean {

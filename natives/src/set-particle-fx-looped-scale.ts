@@ -6,9 +6,9 @@ import { PtfxId } from '@ivanzaida/structures'
  * 0x8ABEEFFE3E33A4FA
 
  * 
- * ------------------------------------------------------------------
- * @param {PtfxId} ptfxId
- * @param {number} scale
+ * ------------------------------------------------------------------
+ * @param {PtfxId} ptfxId
+ * @param {number} scale
  */
 export function setParticleFxLoopedScale(ptfxId: PtfxId, scale: number): void {
 	const setParticleFxLoopedScale_result = Citizen.invokeNative<void>('0x8ABEEFFE3E33A4FA', ptfxId, scale);

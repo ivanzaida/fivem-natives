@@ -4,8 +4,8 @@
  * 0x941DD7AC53C9EC22
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} value
+ * ------------------------------------------------------------------
+ * @param {boolean} value
  */
 export function changeGoonLookingForWork(value: boolean): void {
 	const changeGoonLookingForWork_result = Citizen.invokeNative<void>('0x941DD7AC53C9EC22', value);

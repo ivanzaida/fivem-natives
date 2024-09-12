@@ -4,7 +4,7 @@
  * 0x465EEA70AF251045
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setNitrousIsActive(): void {
 	const setNitrousIsActive_result = Citizen.invokeNative<void>('0x465EEA70AF251045', );

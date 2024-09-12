@@ -6,9 +6,9 @@ import { BinkMovieId } from '@ivanzaida/structures'
  * 0x8892E917CE7A0CB0
 
  * 
- * ------------------------------------------------------------------
- * @param {BinkMovieId} movieId
- * @param {boolean} frontend
+ * ------------------------------------------------------------------
+ * @param {BinkMovieId} movieId
+ * @param {boolean} frontend
  */
 export function setBinkMovieAudioFrontend(movieId: BinkMovieId, frontend: boolean): void {
 	const setBinkMovieAudioFrontend_result = Citizen.invokeNative<void>('0x8892E917CE7A0CB0', movieId, frontend);

@@ -6,8 +6,8 @@ import { EPickupType } from '@ivanzaida/structures'
  * 0x0D44CA9207ABD071
 
  * 
- * ------------------------------------------------------------------
- * @param {EPickupType} weaponPickupType
+ * ------------------------------------------------------------------
+ * @param {EPickupType} weaponPickupType
  * @returns {number}  
  */
 export function getDefaultAmmoForWeaponPickup(weaponPickupType: EPickupType | number): number {

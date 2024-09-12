@@ -4,7 +4,7 @@
  * 0xE379C4B49924485C
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function freeMemoryForHighQualityPhoto(): void {
 	const freeMemoryForHighQualityPhoto_result = Citizen.invokeNative<void>('0xE379C4B49924485C', );

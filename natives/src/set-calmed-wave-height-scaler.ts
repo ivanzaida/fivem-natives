@@ -4,8 +4,8 @@
  * 0xBF7C28CF040C67BC
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scaler
+ * ------------------------------------------------------------------
+ * @param {number} scaler
  */
 export function setCalmedWaveHeightScaler(scaler: number): void {
 	const setCalmedWaveHeightScaler_result = Citizen.invokeNative<void>('0xBF7C28CF040C67BC', scaler);

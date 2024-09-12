@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x9A81B26B3D3B37C7
 
  * Sets a vehicle's turret speed on a per-frame basis
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function disableVehicleTurretMovementThisFrame(vehicle: VehicleIndex): void {
 	const disableVehicleTurretMovementThisFrame_result = Citizen.invokeNative<void>('0x9A81B26B3D3B37C7', vehicle);

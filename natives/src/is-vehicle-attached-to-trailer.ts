@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xA6D8AF5A058A75F0
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleAttachedToTrailer(vehicle: VehicleIndex): boolean {

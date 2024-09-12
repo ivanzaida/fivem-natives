@@ -6,11 +6,11 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xD352CFACACA313A1
 
  * Full list of waypoint recordings by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/waypointRecordings.json
- * For a full list of the points, see here: goo.gl/wIH0vn
- * 
- * ------------------------------------------------------------------
- * @param {string} recordingName
- * @param {IntRef} outNumPoints [Ref]
+ * For a full list of the points, see here: goo.gl/wIH0vn
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} recordingName
+ * @param {IntRef} outNumPoints [Ref]
  * @returns {boolean}  
  */
 export function waypointRecordingGetNumPoints(recordingName: string, outNumPoints: IntRef /* ptr */): boolean {

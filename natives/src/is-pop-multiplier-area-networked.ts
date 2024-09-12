@@ -4,8 +4,8 @@
  * 0x3989D4F6D95B3DBD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  * @returns {boolean}  
  */
 export function isPopMultiplierAreaNetworked(index: number): boolean {

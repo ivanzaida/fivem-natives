@@ -6,9 +6,9 @@ import { BlipIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x4C8213F2F1BE87F7
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {PlayerIndex} player
  */
 export function setBlipNameToPlayerName(blip: BlipIndex, player: PlayerIndex): void {
 	const setBlipNameToPlayerName_result = Citizen.invokeNative<void>('0x4C8213F2F1BE87F7', blip, player);

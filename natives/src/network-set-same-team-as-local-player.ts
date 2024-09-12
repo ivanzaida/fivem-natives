@@ -4,9 +4,9 @@
  * 0xF97151502670C015
 
  * 
- * ------------------------------------------------------------------
- * @param {number} player
- * @param {boolean} sameTeam
+ * ------------------------------------------------------------------
+ * @param {number} player
+ * @param {boolean} sameTeam
  * @returns {boolean}  
  */
 export function networkSetSameTeamAsLocalPlayer(player: number, sameTeam: boolean): boolean {

@@ -4,7 +4,7 @@
  * 0xD4592A16D36673ED
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getThirdPersonCamMaxOrbitDistanceSpring(): number {

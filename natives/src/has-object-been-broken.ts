@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x1C3788A51C49D6AD
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} objectID
- * @param {boolean} networked
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} objectID
+ * @param {boolean} networked
  * @returns {boolean}  
  */
 export function hasObjectBeenBroken(objectID: ObjectIndex, networked: boolean = false): boolean {

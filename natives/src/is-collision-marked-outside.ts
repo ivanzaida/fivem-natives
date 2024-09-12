@@ -4,11 +4,11 @@
  * 0x7830326EF9D54DBB
 
  * Returns true if the collision at the specified coords is marked as being outside (false if there's an interior)
- * 
- * ------------------------------------------------------------------
- * @param {number} inCoorsX
- * @param {number} inCoorsY
- * @param {number} inCoorsZ
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} inCoorsX
+ * @param {number} inCoorsY
+ * @param {number} inCoorsZ
  * @returns {boolean}  
  */
 export function isCollisionMarkedOutside(inCoorsX: number, inCoorsY: number, inCoorsZ: number): boolean {

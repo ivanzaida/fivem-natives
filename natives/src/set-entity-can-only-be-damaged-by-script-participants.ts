@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x8FEAF7F0538CEF55
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} onlyDamagedWhenRunningScript
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} onlyDamagedWhenRunningScript
  */
 export function setEntityCanOnlyBeDamagedByScriptParticipants(entity: EntityIndex, onlyDamagedWhenRunningScript: boolean): void {
 	const setEntityCanOnlyBeDamagedByScriptParticipants_result = Citizen.invokeNative<void>('0x8FEAF7F0538CEF55', entity, onlyDamagedWhenRunningScript);

@@ -4,8 +4,8 @@
  * 0xF03AFB81ECD7494E
 
  * Or non-flyable area
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function statIsPlayerVehicleAboveOcean(): boolean {

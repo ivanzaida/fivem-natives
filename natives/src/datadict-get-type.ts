@@ -6,17 +6,17 @@ import { EDatafileType } from '@ivanzaida/structures'
  * 0xA8F96580C10C5F9E
 
  * Types:
- * 1 = Boolean
- * 2 = Integer
- * 3 = Float
- * 4 = String
- * 5 = Vector3
- * 6 = Object
- * 7 = Array
- * 
- * ------------------------------------------------------------------
- * @param {string} dict
- * @param {string} name
+ * 1 = Boolean
+ * 2 = Integer
+ * 3 = Float
+ * 4 = String
+ * 5 = Vector3
+ * 6 = Object
+ * 7 = Array
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} dict
+ * @param {string} name
  * @returns {EDatafileType}  
  */
 export function datadictGetType(dict: string, name: string): EDatafileType {

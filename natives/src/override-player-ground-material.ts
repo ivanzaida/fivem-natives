@@ -4,10 +4,10 @@
  * 0x1E0388A9E6A3BF5B
 
  * Sets audio flag "OverridePlayerGroundMaterial"
- * 
- * ------------------------------------------------------------------
- * @param {number} overriddenMaterialHash
- * @param {boolean} scriptOverrides
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} overriddenMaterialHash
+ * @param {boolean} scriptOverrides
  */
 export function overridePlayerGroundMaterial(overriddenMaterialHash: number, scriptOverrides: boolean): void {
 	const overridePlayerGroundMaterial_result = Citizen.invokeNative<void>('0x1E0388A9E6A3BF5B', overriddenMaterialHash, scriptOverrides);

@@ -4,8 +4,8 @@
  * 0X6B171E87
 
  * 
- * ------------------------------------------------------------------
- * @param {any} requestData
+ * ------------------------------------------------------------------
+ * @param {any} requestData
  * @returns {number}  
  */
 export function performHttpRequestInternalEx(requestData: any): number {

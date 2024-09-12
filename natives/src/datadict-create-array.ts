@@ -4,10 +4,10 @@
  * 0xC24FD04ED00751BC
 
  * This will overwrite any existing entry in the parent dictionary
- * 
- * ------------------------------------------------------------------
- * @param {string} parent
- * @param {string} name
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} parent
+ * @param {string} name
  * @returns {string[]}  
  */
 export function datadictCreateArray(parent: string, name: string): string[] {

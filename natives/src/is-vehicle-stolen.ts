@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xFDA2576D37032738
 
  * Only returns true if the vehicle was marked as stolen with SET_VEHICLE_IS_STOLEN.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleStolen(vehicle: VehicleIndex): boolean {

@@ -6,11 +6,11 @@ import { EWeaponType, EWeaponcomponentType } from '@ivanzaida/structures'
  * 0xA634868C7A532A58
 
  * This is a typo made by R. It's supposed to be called PLAYSTATS_WEAPON_MOD_CHANGE.
- * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weaponHash
- * @param {EWeaponcomponentType} modIdTo
- * @param {EWeaponcomponentType} modIdFrom
+ * 
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weaponHash
+ * @param {EWeaponcomponentType} modIdTo
+ * @param {EWeaponcomponentType} modIdFrom
  */
 export function playstatsWeaponModeChange(weaponHash: EWeaponType | number, modIdTo: EWeaponcomponentType | number, modIdFrom: EWeaponcomponentType | number): void {
 	const playstatsWeaponModeChange_result = Citizen.invokeNative<void>('0xA634868C7A532A58', weaponHash, modIdTo, modIdFrom);

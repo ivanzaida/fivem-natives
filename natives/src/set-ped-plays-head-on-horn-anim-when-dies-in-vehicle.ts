@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD78BC33933604161
 
  * This native does absolutely nothing, just a nullsub
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} alwaysUseHeadOnHornAnim
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} alwaysUseHeadOnHornAnim
  */
 export function setPedPlaysHeadOnHornAnimWhenDiesInVehicle(ped: PedIndex, alwaysUseHeadOnHornAnim: boolean): void {
 	const setPedPlaysHeadOnHornAnimWhenDiesInVehicle_result = Citizen.invokeNative<void>('0xD78BC33933604161', ped, alwaysUseHeadOnHornAnim);

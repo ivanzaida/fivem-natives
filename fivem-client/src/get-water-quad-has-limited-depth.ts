@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X22EA3BD8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {IntRef} hasLimitedDepth [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {IntRef} hasLimitedDepth [Ref]
  * @returns {boolean}  Returns if the given water quad has a limited depth.
  */
 export function getWaterQuadHasLimitedDepth(waterQuad: number, hasLimitedDepth: IntRef /* ptr */): boolean {

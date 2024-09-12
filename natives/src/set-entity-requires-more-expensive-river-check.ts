@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xD1426896B0800D21
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} flagValue
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} flagValue
  */
 export function setEntityRequiresMoreExpensiveRiverCheck(entity: EntityIndex, flagValue: boolean): void {
 	const setEntityRequiresMoreExpensiveRiverCheck_result = Citizen.invokeNative<void>('0xD1426896B0800D21', entity, flagValue);

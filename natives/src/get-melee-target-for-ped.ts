@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xC148F260F73A1A6B
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PedIndex}  
  */
 export function getMeleeTargetForPed(ped: PedIndex): PedIndex {

@@ -4,8 +4,8 @@
  * 0xC972841F26BA2800
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnFromHoldups(amount: number): void {
 	const networkEarnFromHoldups_result = Citizen.invokeNative<void>('0xC972841F26BA2800', amount);

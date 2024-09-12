@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xAB74A6FE5E16479E
 
  * Gets the room hash key from the room that the specified entity is in. Each room in every interior has a unique key. Returns 0 if the entity is outside.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {number}  
  */
 export function getRoomKeyFromEntity(entity: EntityIndex): number {

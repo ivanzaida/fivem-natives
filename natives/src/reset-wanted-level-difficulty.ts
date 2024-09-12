@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xF58D3BBA4A469D70
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function resetWantedLevelDifficulty(player: PlayerIndex): void {
 	const resetWantedLevelDifficulty_result = Citizen.invokeNative<void>('0xF58D3BBA4A469D70', player);

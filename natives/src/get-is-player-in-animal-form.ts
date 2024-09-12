@@ -4,9 +4,9 @@
  * 0x7B42AC66804829CF
 
  * Queries whether the player is using an animal as a model
- * Although we don't have a jenkins hash for this one, the name is 100% confirmed.
- * 
- * ------------------------------------------------------------------
+ * Although we don't have a jenkins hash for this one, the name is 100% confirmed.
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function getIsPlayerInAnimalForm(): boolean {

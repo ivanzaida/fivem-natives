@@ -4,8 +4,8 @@
  * 0x2A32420E04AE5787
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
  * @returns {number}  
  */
 export function dataarrayGetCount(arr: string[]): number {

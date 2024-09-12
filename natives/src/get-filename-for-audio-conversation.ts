@@ -4,9 +4,9 @@
  * 0xFACCDE46E24AD056
 
  * Gets a string literal from a label name.
- * 
- * ------------------------------------------------------------------
- * @param {string} textLabelOfAudioConversation
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} textLabelOfAudioConversation
  * @returns {string}  
  */
 export function getFilenameForAudioConversation(textLabelOfAudioConversation: string): string {

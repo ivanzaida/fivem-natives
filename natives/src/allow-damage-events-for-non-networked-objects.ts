@@ -4,8 +4,8 @@
  * 0x137D2653DD6FE9A2
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} allow
+ * ------------------------------------------------------------------
+ * @param {boolean} allow
  */
 export function allowDamageEventsForNonNetworkedObjects(allow: boolean): void {
 	const allowDamageEventsForNonNetworkedObjects_result = Citizen.invokeNative<void>('0x137D2653DD6FE9A2', allow);

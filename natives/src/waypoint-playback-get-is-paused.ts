@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD6C64BE35FD4ED11
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function waypointPlaybackGetIsPaused(ped: PedIndex): boolean {

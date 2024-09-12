@@ -6,8 +6,8 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  * 0x31945A289F1359A1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {VehicleIndex}  
  */
 export function getVehiclePedIsEntering(ped: PedIndex): VehicleIndex {

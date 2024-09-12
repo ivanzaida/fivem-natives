@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x66831E1107966731
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} canCollect
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} canCollect
  */
 export function setPlayerCanCollectDroppedMoney(player: PlayerIndex, canCollect: boolean): void {
 	const setPlayerCanCollectDroppedMoney_result = Citizen.invokeNative<void>('0x66831E1107966731', player, canCollect);

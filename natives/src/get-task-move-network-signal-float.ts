@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x6E19562EC08A07C6
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {string} signalName
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {string} signalName
  * @returns {number}  
  */
 export function getTaskMoveNetworkSignalFloat(ped: PedIndex, signalName: string): number {

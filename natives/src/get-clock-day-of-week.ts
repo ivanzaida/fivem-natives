@@ -6,15 +6,15 @@ import { EDayOfWeek } from '@ivanzaida/structures'
  * 0xDDA4278694CAA369
 
  * Gets the current day of the week.
- * 0: Sunday
- * 1: Monday
- * 2: Tuesday
- * 3: Wednesday
- * 4: Thursday
- * 5: Friday
- * 6: Saturday
- * 
- * ------------------------------------------------------------------
+ * 0: Sunday
+ * 1: Monday
+ * 2: Tuesday
+ * 3: Wednesday
+ * 4: Thursday
+ * 5: Friday
+ * 6: Saturday
+ * 
+ * ------------------------------------------------------------------
  * @returns {EDayOfWeek}  
  */
 export function getClockDayOfWeek(): EDayOfWeek {

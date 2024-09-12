@@ -4,7 +4,7 @@
  * 0xD03C646667D8D5F1
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkSessionIsDisplayingInviteConfirmation(): boolean {

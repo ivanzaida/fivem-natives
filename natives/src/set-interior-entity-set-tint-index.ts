@@ -6,11 +6,11 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0x0A047107933868D4
 
  * Full list of IPLs and interior entity sets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ipls.json
- * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
- * @param {string} entitySetName
- * @param {number} tint
+ * 
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
+ * @param {string} entitySetName
+ * @param {number} tint
  */
 export function setInteriorEntitySetTintIndex(interiorInstance: InteriorInstanceIndex, entitySetName: string, tint: number): void {
 	const setInteriorEntitySetTintIndex_result = Citizen.invokeNative<void>('0x0A047107933868D4', interiorInstance, entitySetName, tint);

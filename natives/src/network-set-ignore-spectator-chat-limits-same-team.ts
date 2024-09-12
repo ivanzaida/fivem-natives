@@ -4,8 +4,8 @@
  * 0xDB9D60DE4E690B9C
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function networkSetIgnoreSpectatorChatLimitsSameTeam(enable: boolean): void {
 	const networkSetIgnoreSpectatorChatLimitsSameTeam_result = Citizen.invokeNative<void>('0xDB9D60DE4E690B9C', enable);

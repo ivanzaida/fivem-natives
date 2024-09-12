@@ -4,7 +4,7 @@
  * 0x12761B3B63D726C3
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkClearVoiceChannel(): void {
 	const networkClearVoiceChannel_result = Citizen.invokeNative<void>('0x12761B3B63D726C3', );

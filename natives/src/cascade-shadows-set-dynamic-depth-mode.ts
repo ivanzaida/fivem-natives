@@ -4,8 +4,8 @@
  * 0x89ACA8B99257E016
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function cascadeShadowsSetDynamicDepthMode(enable: boolean): void {
 	const cascadeShadowsSetDynamicDepthMode_result = Citizen.invokeNative<void>('0x89ACA8B99257E016', enable);

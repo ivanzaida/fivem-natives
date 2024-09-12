@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x385F74AF4024D51A
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} intToSave [Ref]
- * @param {string} label
+ * ------------------------------------------------------------------
+ * @param {IntRef} intToSave [Ref]
+ * @param {string} label
  */
 export function registerInt64ToSave(intToSave: IntRef /* ptr */, label: string): void {
 	const registerInt64ToSave_result = Citizen.invokeNative<void>('0x385F74AF4024D51A', intToSave.dataView, label);

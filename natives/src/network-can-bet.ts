@@ -4,8 +4,8 @@
  * 0xB0490531FD3DC629
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  * @returns {boolean}  
  */
 export function networkCanBet(amount: number): boolean {

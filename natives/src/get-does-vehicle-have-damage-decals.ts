@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xB69AE16F62A14003
 
  * Appears to return true if the vehicle has any damage, including cosmetically.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getDoesVehicleHaveDamageDecals(vehicle: VehicleIndex): boolean {

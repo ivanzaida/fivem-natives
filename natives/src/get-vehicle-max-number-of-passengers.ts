@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x2EEC0612337D20CE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  
  */
 export function getVehicleMaxNumberOfPassengers(vehicle: VehicleIndex): number {

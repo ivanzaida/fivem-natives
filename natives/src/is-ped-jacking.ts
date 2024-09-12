@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x49CB27F641DC1328
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedJacking(ped: PedIndex): boolean {

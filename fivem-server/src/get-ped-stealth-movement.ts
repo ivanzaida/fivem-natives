@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0X40321B83
 
  * Returns whether the entity is in stealth mode
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function getPedStealthMovement(ped: PedIndex): boolean {

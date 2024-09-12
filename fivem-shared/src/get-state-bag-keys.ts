@@ -4,8 +4,8 @@
  * 0X78D864C7
 
  * 
- * ------------------------------------------------------------------
- * @param {string} bagName The name of the bag.
+ * ------------------------------------------------------------------
+ * @param {string} bagName The name of the bag.
  * @returns {string}  Returns an array containing all keys for which the state bag has associated values.
  */
 export function getStateBagKeys(bagName: string): string[] {

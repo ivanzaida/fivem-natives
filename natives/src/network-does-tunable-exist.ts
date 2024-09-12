@@ -4,9 +4,9 @@
  * 0x1E8E83ADEA1A71BE
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContext
- * @param {string} szTunableName
+ * ------------------------------------------------------------------
+ * @param {string} szContext
+ * @param {string} szTunableName
  * @returns {boolean}  
  */
 export function networkDoesTunableExist(szContext: string, szTunableName: string): boolean {

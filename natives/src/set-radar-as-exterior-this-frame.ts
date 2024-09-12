@@ -4,7 +4,7 @@
  * 0xBB6D152B544953A3
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setRadarAsExteriorThisFrame(): void {
 	const setRadarAsExteriorThisFrame_result = Citizen.invokeNative<void>('0xBB6D152B544953A3', );

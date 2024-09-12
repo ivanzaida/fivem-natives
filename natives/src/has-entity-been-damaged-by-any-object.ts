@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x6E470765558FCD9E
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function hasEntityBeenDamagedByAnyObject(entity: EntityIndex): boolean {

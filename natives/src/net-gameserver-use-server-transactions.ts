@@ -4,7 +4,7 @@
  * 0xC18CB5D7A27A2E00
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function netGameserverUseServerTransactions(): boolean {

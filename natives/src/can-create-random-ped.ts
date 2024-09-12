@@ -6,8 +6,8 @@ import { ERandomPedModel } from '@ivanzaida/structures'
  * 0x5E0FF86EB887D780
 
  * 
- * ------------------------------------------------------------------
- * @param {ERandomPedModel} pedModel
+ * ------------------------------------------------------------------
+ * @param {ERandomPedModel} pedModel
  * @returns {boolean}  
  */
 export function canCreateRandomPed(pedModel: ERandomPedModel | number): boolean {

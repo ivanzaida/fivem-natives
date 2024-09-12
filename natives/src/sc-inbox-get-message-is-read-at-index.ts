@@ -4,8 +4,8 @@
  * 0x0FA6FA5156AD5C8D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} msg
+ * ------------------------------------------------------------------
+ * @param {number} msg
  * @returns {boolean}  
  */
 export function scInboxGetMessageIsReadAtIndex(msg: number): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0X2CE311A7
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedArmour(ped: PedIndex): number {

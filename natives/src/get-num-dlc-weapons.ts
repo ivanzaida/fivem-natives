@@ -4,8 +4,8 @@
  * 0x9A7818E159C72516
 
  * Returns the total number of DLC weapons.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getNumDlcWeapons(): number {

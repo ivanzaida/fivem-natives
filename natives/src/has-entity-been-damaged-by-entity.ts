@@ -6,16 +6,16 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x9B3D4335E0EDB0BE
 
  * Returns TRUE if the last thing to damage the given entity was the given damager entity.
- * Will also return true if the damager entity is in a vehicle that damages the
- * first entity but only if CheckDamagerVehicle is left TRUE
- * Entity 1 = Victim
- * Entity 2 = Attacker
- * p2 seems to always be 1
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {EntityIndex} damager
- * @param {boolean} checkDamagerVehicle
+ * Will also return true if the damager entity is in a vehicle that damages the
+ * first entity but only if CheckDamagerVehicle is left TRUE
+ * Entity 1 = Victim
+ * Entity 2 = Attacker
+ * p2 seems to always be 1
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {EntityIndex} damager
+ * @param {boolean} checkDamagerVehicle
  * @returns {boolean}  
  */
 export function hasEntityBeenDamagedByEntity(entity: EntityIndex, damager: EntityIndex, checkDamagerVehicle: boolean = true): boolean {

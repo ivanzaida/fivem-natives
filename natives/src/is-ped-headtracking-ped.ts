@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9E437CA2E2CAD79D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} firstPed
- * @param {PedIndex} secondPed
+ * ------------------------------------------------------------------
+ * @param {PedIndex} firstPed
+ * @param {PedIndex} secondPed
  * @returns {boolean}  
  */
 export function isPedHeadtrackingPed(firstPed: PedIndex, secondPed: PedIndex): boolean {

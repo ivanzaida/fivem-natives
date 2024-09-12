@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x2D34ECA1A2A76C38
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {number}  
  */
 export function getCamAnimCurrentPhase(camera: CameraIndex): number {

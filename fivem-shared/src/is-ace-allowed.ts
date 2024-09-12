@@ -4,8 +4,8 @@
  * 0X7EBB9929
 
  * 
- * ------------------------------------------------------------------
- * @param {string} object
+ * ------------------------------------------------------------------
+ * @param {string} object
  * @returns {boolean}  
  */
 export function isAceAllowed(object: string): boolean {

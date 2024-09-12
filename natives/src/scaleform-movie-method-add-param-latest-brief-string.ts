@@ -6,8 +6,8 @@ import { EBriefType } from '@ivanzaida/structures'
  * 0x2EF4D786C0BC9419
 
  * 
- * ------------------------------------------------------------------
- * @param {EBriefType} briefType
+ * ------------------------------------------------------------------
+ * @param {EBriefType} briefType
  */
 export function scaleformMovieMethodAddParamLatestBriefString(briefType: EBriefType | number): void {
 	const scaleformMovieMethodAddParamLatestBriefString_result = Citizen.invokeNative<void>('0x2EF4D786C0BC9419', briefType);

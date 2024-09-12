@@ -4,9 +4,9 @@
  * 0xA46905C7B738C729
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcGetGetByContentId(szContentID: string, szContentType: string): boolean {

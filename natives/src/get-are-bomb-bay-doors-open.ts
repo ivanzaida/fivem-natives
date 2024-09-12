@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x94F61A08FC26ECDF
 
  * Returns true when the bomb bay doors of this plane are open. False if they're closed.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getAreBombBayDoorsOpen(vehicle: VehicleIndex): boolean {

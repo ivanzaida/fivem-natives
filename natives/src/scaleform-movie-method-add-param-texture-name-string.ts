@@ -4,8 +4,8 @@
  * 0x3585BEBEDC67FCC7
 
  * 
- * ------------------------------------------------------------------
- * @param {string} textureName
+ * ------------------------------------------------------------------
+ * @param {string} textureName
  */
 export function scaleformMovieMethodAddParamTextureNameString(textureName: string): void {
 	const scaleformMovieMethodAddParamTextureNameString_result = Citizen.invokeNative<void>('0x3585BEBEDC67FCC7', textureName);

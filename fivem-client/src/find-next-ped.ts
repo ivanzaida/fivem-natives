@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0XAB09B548
 
  * 
- * ------------------------------------------------------------------
- * @param {number} findHandle
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} findHandle
+ * @param {IntRef} outEntity [Ref]
  * @returns {boolean}  
  */
 export function findNextPed(findHandle: number, outEntity: IntRef /* ptr */): boolean {

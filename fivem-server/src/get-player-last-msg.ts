@@ -4,8 +4,8 @@
  * 0X427E8E6A
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {number}  
  */
 export function getPlayerLastMsg(playerSrc: string): number {

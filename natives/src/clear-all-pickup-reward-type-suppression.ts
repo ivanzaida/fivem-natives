@@ -4,7 +4,7 @@
  * 0x49498E53B3E184F7
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function clearAllPickupRewardTypeSuppression(): void {
 	const clearAllPickupRewardTypeSuppression_result = Citizen.invokeNative<void>('0x49498E53B3E184F7', );

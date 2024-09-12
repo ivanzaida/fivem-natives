@@ -6,9 +6,9 @@ import { ETvchanneltype } from '@ivanzaida/structures'
  * 0xF03BF645614F3175
 
  * 
- * ------------------------------------------------------------------
- * @param {ETvchanneltype} channel
- * @param {number} nameHash
+ * ------------------------------------------------------------------
+ * @param {ETvchanneltype} channel
+ * @param {number} nameHash
  * @returns {boolean}  
  */
 export function isPlaylistOnChannel(channel: ETvchanneltype | number, nameHash: number): boolean {

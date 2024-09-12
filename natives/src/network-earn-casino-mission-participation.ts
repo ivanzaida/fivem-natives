@@ -4,8 +4,8 @@
  * 0xFF9E4D74FE360E69
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnCasinoMissionParticipation(amount: number): void {
 	const networkEarnCasinoMissionParticipation_result = Citizen.invokeNative<void>('0xFF9E4D74FE360E69', amount);

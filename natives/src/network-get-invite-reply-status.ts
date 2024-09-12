@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0xEAC3CA6CF6C9EB8C
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {number}  
  */
 export function networkGetInviteReplyStatus(gamerHandle: GamerHandle /* ptr */): number {

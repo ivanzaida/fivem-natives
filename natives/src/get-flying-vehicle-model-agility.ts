@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x4978F96428784EA4
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {number}  
  */
 export function getFlyingVehicleModelAgility(vehicleModelHashKey: ModelNames): number {

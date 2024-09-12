@@ -4,9 +4,9 @@
  * 0x7EB4730FA964B592
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {boolean} xv
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {boolean} xv
  * @returns {number}  
  */
 export function ugcGetContentRatingPositiveCount(content: number, xv: boolean): number {

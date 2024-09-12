@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x568A5F4040D722C0
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} abilitySlot
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} abilitySlot
  * @returns {boolean}  
  */
 export function isSpecialAbilityMeterFull(player: PlayerIndex, abilitySlot: number = 0): boolean {

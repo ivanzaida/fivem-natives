@@ -6,7 +6,7 @@ import { EPhotoOperationStatus } from '@ivanzaida/structures'
  * 0x4E411746D4FFB0B1
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EPhotoOperationStatus}  
  */
 export function getStatusOfTakeMissionCreatorPhoto(): EPhotoOperationStatus {

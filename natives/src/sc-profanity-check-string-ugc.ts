@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xE2E0A9E99F465D83
 
  * 
- * ------------------------------------------------------------------
- * @param {string} textString
- * @param {IntRef} outToken [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} textString
+ * @param {IntRef} outToken [Ref]
  * @returns {boolean}  
  */
 export function scProfanityCheckStringUgc(textString: string, outToken: IntRef /* ptr */): boolean {

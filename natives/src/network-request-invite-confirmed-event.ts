@@ -4,8 +4,8 @@
  * 0x4AA344248B02BD35
 
  * Triggers a CEventNetworkInviteConfirmed event
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkRequestInviteConfirmedEvent(): boolean {

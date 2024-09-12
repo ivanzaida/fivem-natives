@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF60A7646F4B460F7
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function playStreamFromPed(ped: PedIndex): void {
 	const playStreamFromPed_result = Citizen.invokeNative<void>('0xF60A7646F4B460F7', ped);

@@ -6,10 +6,10 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x444069759E788ECD
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
- * @param {string} animName
- * @param {string} animDictName
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
+ * @param {string} animName
+ * @param {string} animDictName
  * @returns {boolean}  
  */
 export function isCamPlayingAnim(camera: CameraIndex, animName: string, animDictName: string): boolean {

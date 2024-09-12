@@ -4,9 +4,9 @@
  * 0xE57ED256E47D44C1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {number} missionId
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {number} missionId
  */
 export function networkEarnFromClubManagementParticipation(amount: number, missionId: number): void {
 	const networkEarnFromClubManagementParticipation_result = Citizen.invokeNative<void>('0xE57ED256E47D44C1', amount, missionId);

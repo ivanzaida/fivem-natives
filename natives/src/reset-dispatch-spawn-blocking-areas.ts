@@ -4,8 +4,8 @@
  * 0x0FE4FED766438E0E
 
  * Resets the dispatch spawn blocking areas.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  */
 export function resetDispatchSpawnBlockingAreas(): void {
 	const resetDispatchSpawnBlockingAreas_result = Citizen.invokeNative<void>('0x0FE4FED766438E0E', );

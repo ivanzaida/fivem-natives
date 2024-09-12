@@ -4,9 +4,9 @@
  * 0XD979143
 
  * A getter for [_SET_WEAPON_DAMAGE_MODIFIER](#_0x4757F00BC6323CFE).
- * 
- * ------------------------------------------------------------------
- * @param {number} weaponHash Weapon name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} weaponHash Weapon name hash.
  * @returns {number}  A weapon damage modifier.
  */
 export function getWeaponDamageModifier(weaponHash: number): number {

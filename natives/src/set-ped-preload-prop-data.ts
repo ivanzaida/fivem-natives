@@ -6,13 +6,13 @@ import { PedIndex, EPedPropPosition } from '@ivanzaida/structures'
  * 0xEC129CEFDDA0A303
 
  * List of component/props ID
- * gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedPropPosition} anchor
- * @param {number} propId
- * @param {number} texId
+ * gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedPropPosition} anchor
+ * @param {number} propId
+ * @param {number} texId
  * @returns {number}  
  */
 export function setPedPreloadPropData(ped: PedIndex, anchor: EPedPropPosition | number, propId: number, texId: number = 0): number {

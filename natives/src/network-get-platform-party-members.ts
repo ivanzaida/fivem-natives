@@ -6,9 +6,9 @@ import { NetworkPlatformPartyDesc } from '@ivanzaida/structures'
  * 0xFFE22E756055DC96
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkPlatformPartyDesc} partyDesc [Ref]
- * @param {number} sizeOfData
+ * ------------------------------------------------------------------
+ * @param {NetworkPlatformPartyDesc} partyDesc [Ref]
+ * @param {number} sizeOfData
  * @returns {number}  
  */
 export function networkGetPlatformPartyMembers(partyDesc: NetworkPlatformPartyDesc /* ptr */, sizeOfData: number): number {

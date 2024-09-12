@@ -4,9 +4,9 @@
  * 0X90A9E0B2
 
  * Sets whether peds can stand on top of all vehicles without falling off.Note this flag is not replicated automatically, you will have to manually do so.
- * 
- * ------------------------------------------------------------------
- * @param {boolean} flag true to override, false to use default game behavior.
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} flag true to override, false to use default game behavior.
  */
 export function overridePedsCanStandOnTopFlag(flag: boolean): void {
 	const overridePedsCanStandOnTopFlag_result = Citizen.invokeNative<void>('0X90A9E0B2', flag);

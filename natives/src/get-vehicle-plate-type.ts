@@ -6,8 +6,8 @@ import { VehicleIndex, EVehiclePlateType } from '@ivanzaida/structures'
  * 0xA42AC01E0317ED99
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {EVehiclePlateType}  
  */
 export function getVehiclePlateType(vehicle: VehicleIndex): EVehiclePlateType {

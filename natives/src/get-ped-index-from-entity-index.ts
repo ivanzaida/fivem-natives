@@ -6,9 +6,9 @@ import { EntityIndex, PedIndex } from '@ivanzaida/structures'
  * 0xBD545F8729E9F413
 
  * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {PedIndex}  
  */
 export function getPedIndexFromEntityIndex(entity: EntityIndex): PedIndex {

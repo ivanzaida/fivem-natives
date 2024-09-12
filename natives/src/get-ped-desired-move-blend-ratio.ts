@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x864E9BBAA7BFA064
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedDesiredMoveBlendRatio(ped: PedIndex): number {

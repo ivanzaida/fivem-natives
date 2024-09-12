@@ -4,7 +4,7 @@
  * 0x646B265426E8F86D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkRemoveAllTransitionInvite(): void {
 	const networkRemoveAllTransitionInvite_result = Citizen.invokeNative<void>('0x646B265426E8F86D', );

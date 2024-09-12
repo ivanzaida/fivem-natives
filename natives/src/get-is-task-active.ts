@@ -6,10 +6,10 @@ import { PedIndex, ECodeTask } from '@ivanzaida/structures'
  * 0x12623527E5B8AB7C
 
  * Task index enum: https://alloc8or.re/gta5/doc/enums/eTaskTypeIndex.txt
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {ECodeTask} taskID
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {ECodeTask} taskID
  * @returns {boolean}  
  */
 export function getIsTaskActive(ped: PedIndex, taskID: ECodeTask | number): boolean {

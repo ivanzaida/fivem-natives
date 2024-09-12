@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xB2CA6639924FA111
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} respectLocks
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} respectLocks
  */
 export function setVehicleRespectsLocksWhenHasDriver(vehicle: VehicleIndex, respectLocks: boolean): void {
 	const setVehicleRespectsLocksWhenHasDriver_result = Citizen.invokeNative<void>('0xB2CA6639924FA111', vehicle, respectLocks);

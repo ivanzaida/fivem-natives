@@ -4,7 +4,7 @@
  * 0x18CACC03B0B46CA9
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkAccessTunableModificationDetectionClear(): boolean {

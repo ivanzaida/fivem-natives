@@ -6,8 +6,8 @@ import { ParticipantIndex } from '@ivanzaida/structures'
  * 0x30DE412C1194FCDD
 
  * Return the local Participant ID
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {ParticipantIndex}  
  */
 export function participantId(): ParticipantIndex {

@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x53A38286A3AC16C1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} infinite
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} infinite
  */
 export function setPedInfiniteAmmoClip(ped: PedIndex, infinite: boolean): void {
 	const setPedInfiniteAmmoClip_result = Citizen.invokeNative<void>('0x53A38286A3AC16C1', ped, infinite);

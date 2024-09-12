@@ -4,8 +4,8 @@
  * 0xC8E94211877921FE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {boolean}  
  */
 export function doorSystemGetIsPhysicsLoaded(doorEnumHash: number): boolean {

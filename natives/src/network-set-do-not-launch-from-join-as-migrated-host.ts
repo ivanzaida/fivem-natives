@@ -4,9 +4,9 @@
  * 0xA1DA526BBDEF1146
 
  * Appears to set whether a transition should be started when the session is migrating.
- * 
- * ------------------------------------------------------------------
- * @param {boolean} launch
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} launch
  */
 export function networkSetDoNotLaunchFromJoinAsMigratedHost(launch: boolean): void {
 	const networkSetDoNotLaunchFromJoinAsMigratedHost_result = Citizen.invokeNative<void>('0xA1DA526BBDEF1146', launch);

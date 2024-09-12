@@ -4,8 +4,8 @@
  * 0xD497BCA3B9495BB9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentIsUsingScNickname(content: number): boolean {

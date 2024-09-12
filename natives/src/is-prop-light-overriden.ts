@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xCF84B0AC4DDC5E1C
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  * @returns {boolean}  
  */
 export function isPropLightOverriden(object: ObjectIndex): boolean {

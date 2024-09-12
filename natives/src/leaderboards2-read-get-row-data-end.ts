@@ -4,7 +4,7 @@
  * 0x612EE6D9325A3B16
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function leaderboards2ReadGetRowDataEnd(): void {
 	const leaderboards2ReadGetRowDataEnd_result = Citizen.invokeNative<void>('0x612EE6D9325A3B16', );

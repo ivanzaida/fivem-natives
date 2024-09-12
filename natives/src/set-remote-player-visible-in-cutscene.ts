@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x57F9D4E3B420366E
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} locallyVisible
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} locallyVisible
  */
 export function setRemotePlayerVisibleInCutscene(player: PlayerIndex, locallyVisible: boolean): void {
 	const setRemotePlayerVisibleInCutscene_result = Citizen.invokeNative<void>('0x57F9D4E3B420366E', player, locallyVisible);

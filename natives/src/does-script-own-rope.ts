@@ -6,8 +6,8 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x67386FF623605BB2
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  * @returns {boolean}  
  */
 export function doesScriptOwnRope(ropeID: RopeIndex): boolean {

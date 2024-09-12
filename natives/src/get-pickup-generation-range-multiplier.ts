@@ -4,7 +4,7 @@
  * 0x2AD9C2DC3976B552
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getPickupGenerationRangeMultiplier(): number {

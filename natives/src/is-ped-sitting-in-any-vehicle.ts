@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x27E68848F0E5D7D9
 
  * Detect if ped is in any vehicle
- * [True/False]
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * [True/False]
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedSittingInAnyVehicle(ped: PedIndex): boolean {

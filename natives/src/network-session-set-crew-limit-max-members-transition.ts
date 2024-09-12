@@ -4,8 +4,8 @@
  * 0x748527CDF8982E12
 
  * 
- * ------------------------------------------------------------------
- * @param {number} maxCrewMembers
+ * ------------------------------------------------------------------
+ * @param {number} maxCrewMembers
  */
 export function networkSessionSetCrewLimitMaxMembersTransition(maxCrewMembers: number): void {
 	const networkSessionSetCrewLimitMaxMembersTransition_result = Citizen.invokeNative<void>('0x748527CDF8982E12', maxCrewMembers);

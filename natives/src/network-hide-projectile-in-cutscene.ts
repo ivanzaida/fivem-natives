@@ -4,8 +4,8 @@
  * 0xCBF07B57F6F01E05
 
  * Call this before starting cutscene to hide all projectiles during cutscene
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  */
 export function networkHideProjectileInCutscene(): void {
 	const networkHideProjectileInCutscene_result = Citizen.invokeNative<void>('0xCBF07B57F6F01E05', );

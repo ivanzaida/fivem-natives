@@ -6,10 +6,10 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0XCCE49A1C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waveQuad The wave quad index
- * @param {FloatRef} directionX The wave quad X direction [Ref]
- * @param {FloatRef} directionY The wave quad Y direction [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} waveQuad The wave quad index
+ * @param {FloatRef} directionX The wave quad X direction [Ref]
+ * @param {FloatRef} directionY The wave quad Y direction [Ref]
  * @returns {boolean}  Returns true on success. Direction values are undefined on failure
  */
 export function getWaveQuadDirection(waveQuad: number, directionX: FloatRef /* ptr */, directionY: FloatRef /* ptr */): boolean {

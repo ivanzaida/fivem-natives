@@ -6,11 +6,11 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x6B3C9FC090DA905D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} bossId1
- * @param {number} bossId2
- * @param {number} amount
- * @param {IntRef} reason [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} bossId1
+ * @param {number} bossId2
+ * @param {number} amount
+ * @param {IntRef} reason [Ref]
  * @returns {boolean}  
  */
 export function canPayAmountToBoss(bossId1: number, bossId2: number, amount: number, reason: IntRef /* ptr */): boolean {

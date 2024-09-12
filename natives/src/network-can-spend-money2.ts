@@ -6,14 +6,14 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xF299749D63CC7167
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
- * @param {boolean} fromWalletAndBank
- * @param {IntRef} diff [Ref]
- * @param {number} character
- * @param {boolean} evcOnly
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
+ * @param {boolean} fromWalletAndBank
+ * @param {IntRef} diff [Ref]
+ * @param {number} character
+ * @param {boolean} evcOnly
  * @returns {boolean}  
  */
 export function networkCanSpendMoney2(amount: number, fromBank: boolean, fromBankAndWallet: boolean, fromWalletAndBank: boolean, diff: IntRef /* ptr */, character: number = 1, evcOnly: boolean = false): boolean {

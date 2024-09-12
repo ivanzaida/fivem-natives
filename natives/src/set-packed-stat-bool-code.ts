@@ -6,10 +6,10 @@ import { EnumToInt } from '@ivanzaida/structures'
  * 0xA595AA1819B05EA0
 
  * 
- * ------------------------------------------------------------------
- * @param {EnumToInt} stat
- * @param {boolean} value
- * @param {number} overrideCharSlot
+ * ------------------------------------------------------------------
+ * @param {EnumToInt} stat
+ * @param {boolean} value
+ * @param {number} overrideCharSlot
  */
 export function setPackedStatBoolCode(stat: EnumToInt, value: boolean, overrideCharSlot: number = 1): void {
 	const setPackedStatBoolCode_result = Citizen.invokeNative<void>('0xA595AA1819B05EA0', stat, value, overrideCharSlot);

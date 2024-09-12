@@ -6,20 +6,20 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x148F60DDDBC323FD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} vscrPntAX
- * @param {number} vscrPntAY
- * @param {number} vscrPntAZ
- * @param {number} vscrPntBX
- * @param {number} vscrPntBY
- * @param {number} vscrPntBZ
- * @param {number} vscrPntOnPlaneX
- * @param {number} vscrPntOnPlaneY
- * @param {number} vscrPntOnPlaneZ
- * @param {number} vscrNormalX
- * @param {number} vscrNormalY
- * @param {number} vscrNormalZ
- * @param {FloatRef} tValue [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} vscrPntAX
+ * @param {number} vscrPntAY
+ * @param {number} vscrPntAZ
+ * @param {number} vscrPntBX
+ * @param {number} vscrPntBY
+ * @param {number} vscrPntBZ
+ * @param {number} vscrPntOnPlaneX
+ * @param {number} vscrPntOnPlaneY
+ * @param {number} vscrPntOnPlaneZ
+ * @param {number} vscrNormalX
+ * @param {number} vscrNormalY
+ * @param {number} vscrNormalZ
+ * @param {FloatRef} tValue [Ref]
  * @returns {boolean}  
  */
 export function getLinePlaneIntersection(vscrPntAX: number, vscrPntAY: number, vscrPntAZ: number, vscrPntBX: number, vscrPntBY: number, vscrPntBZ: number, vscrPntOnPlaneX: number, vscrPntOnPlaneY: number, vscrPntOnPlaneZ: number, vscrNormalX: number, vscrNormalY: number, vscrNormalZ: number, tValue: FloatRef /* ptr */): boolean {

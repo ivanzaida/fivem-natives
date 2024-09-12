@@ -4,8 +4,8 @@
  * 0X5F4CD0E2
 
  * 
- * ------------------------------------------------------------------
- * @param {string} modifierName The timecycle modifier name.
+ * ------------------------------------------------------------------
+ * @param {string} modifierName The timecycle modifier name.
  * @returns {number}  The timecycle modifier index.
  */
 export function getTimecycleModifierIndexByName(modifierName: string): number {

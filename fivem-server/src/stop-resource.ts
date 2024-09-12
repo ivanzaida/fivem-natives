@@ -4,8 +4,8 @@
  * 0X21783161
 
  * 
- * ------------------------------------------------------------------
- * @param {string} resourceName
+ * ------------------------------------------------------------------
+ * @param {string} resourceName
  * @returns {boolean}  
  */
 export function stopResource(resourceName: string): boolean {

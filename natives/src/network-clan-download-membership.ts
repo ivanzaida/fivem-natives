@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x5A748C59E0807FB6
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {boolean}  
  */
 export function networkClanDownloadMembership(gamerHandle: GamerHandle /* ptr */): boolean {

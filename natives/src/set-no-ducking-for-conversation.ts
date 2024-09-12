@@ -4,8 +4,8 @@
  * 0x8B3770418CACFABE
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function setNoDuckingForConversation(enable: boolean): void {
 	const setNoDuckingForConversation_result = Citizen.invokeNative<void>('0x8B3770418CACFABE', enable);

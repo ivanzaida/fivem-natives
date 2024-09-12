@@ -6,7 +6,7 @@ import { ESwitchState } from '@ivanzaida/structures'
  * 0x6D231A0D52134FC1
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ESwitchState}  
  */
 export function getPlayerSwitchState(): ESwitchState {

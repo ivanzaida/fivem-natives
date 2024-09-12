@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x65F146FF416F109F
 
  * Returns whether the specified ped is shooting.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedShooting(ped: PedIndex): boolean {

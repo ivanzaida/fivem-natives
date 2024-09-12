@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x43F2D662C7522C93
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} handler
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} handler
  * @returns {boolean}  
  */
 export function isAnyEntityAttachedToHandlerFrame(handler: VehicleIndex): boolean {

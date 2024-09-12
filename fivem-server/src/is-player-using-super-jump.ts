@@ -4,8 +4,8 @@
  * 0XC7D2C20C
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
  * @returns {boolean}  A boolean.
  */
 export function isPlayerUsingSuperJump(playerSrc: string): boolean {

@@ -6,8 +6,8 @@ import { MovieMeshSetId } from '@ivanzaida/structures'
  * 0x60E2ADCDDFECC019
 
  * 
- * ------------------------------------------------------------------
- * @param {string} setName
+ * ------------------------------------------------------------------
+ * @param {string} setName
  * @returns {MovieMeshSetId}  
  */
 export function loadMovieMeshSet(setName: string): MovieMeshSetId {

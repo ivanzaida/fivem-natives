@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x999C62072AF920FD
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} canBeDamagedFlag
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} canBeDamagedFlag
  */
 export function setEntityCanBeDamaged(entity: EntityIndex, canBeDamagedFlag: boolean): void {
 	const setEntityCanBeDamaged_result = Citizen.invokeNative<void>('0x999C62072AF920FD', entity, canBeDamagedFlag);

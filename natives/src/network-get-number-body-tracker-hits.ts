@@ -4,7 +4,7 @@
  * 0xBA8E86ED610D8A3C
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function networkGetNumberBodyTrackerHits(): number {

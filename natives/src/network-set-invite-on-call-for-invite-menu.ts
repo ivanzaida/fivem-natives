@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x36BA6B20E222965C
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  */
 export function networkSetInviteOnCallForInviteMenu(gamerHandle: GamerHandle /* ptr */): void {
 	const networkSetInviteOnCallForInviteMenu_result = Citizen.invokeNative<void>('0x36BA6B20E222965C', gamerHandle.dataView);

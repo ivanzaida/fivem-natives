@@ -6,8 +6,8 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0xEADBDBE0422CF7E6
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
  * @returns {boolean}  
  */
 export function networkHasControlOfNetworkId(networkId: NetworkIndex): boolean {

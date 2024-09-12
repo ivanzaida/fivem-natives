@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x8EA9C5E0178372E1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function clearPedBloodDamage(ped: PedIndex): void {
 	const clearPedBloodDamage_result = Citizen.invokeNative<void>('0x8EA9C5E0178372E1', ped);

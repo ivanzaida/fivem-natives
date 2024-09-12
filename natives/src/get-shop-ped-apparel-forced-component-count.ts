@@ -4,9 +4,9 @@
  * 0x9FB2D71D9CEC8B5A
 
  * Returns number of possible values of the forcedComponentIndex argument of GET_FORCED_COMPONENT.
- * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
  * @returns {number}  
  */
 export function getShopPedApparelForcedComponentCount(nameHash: number): number {

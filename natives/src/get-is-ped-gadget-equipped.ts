@@ -6,10 +6,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0x08DAD6B08438A17C
 
  * gadgetHash - was always 0xFBAB5776 ("GADGET_PARACHUTE").
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} gadgetType
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} gadgetType
  * @returns {boolean}  
  */
 export function getIsPedGadgetEquipped(ped: PedIndex, gadgetType: EWeaponType | number): boolean {

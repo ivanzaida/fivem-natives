@@ -4,7 +4,7 @@
  * 0x348A57FA9B720374
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsShowingSystemUiOrRecentlyRequestedUpsell(): boolean {

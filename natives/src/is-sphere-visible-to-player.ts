@@ -6,12 +6,12 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x267FC71D3F0D131A
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId
- * @param {number} posX
- * @param {number} posY
- * @param {number} posZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId
+ * @param {number} posX
+ * @param {number} posY
+ * @param {number} posZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isSphereVisibleToPlayer(playerId: PlayerIndex, posX: number, posY: number, posZ: number, radius: number): boolean {

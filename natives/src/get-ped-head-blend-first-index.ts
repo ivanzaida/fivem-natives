@@ -6,10 +6,10 @@ import { EHeadBlendHeadType } from '@ivanzaida/structures'
  * 0x6C88944114345A04
 
  * Type equals 0 for male non-dlc, 1 for female non-dlc, 2 for male dlc, and 3 for female dlc.
- * Used when calling SET_PED_HEAD_BLEND_DATA.
- * 
- * ------------------------------------------------------------------
- * @param {EHeadBlendHeadType} type
+ * Used when calling SET_PED_HEAD_BLEND_DATA.
+ * 
+ * ------------------------------------------------------------------
+ * @param {EHeadBlendHeadType} type
  * @returns {number}  
  */
 export function getPedHeadBlendFirstIndex(type: EHeadBlendHeadType | number): number {

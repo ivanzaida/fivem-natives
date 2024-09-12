@@ -4,8 +4,8 @@
  * 0x85183ED7096BA9E5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} idx
+ * ------------------------------------------------------------------
+ * @param {number} idx
  */
 export function procgrassDisableCullsphere(idx: number): void {
 	const procgrassDisableCullsphere_result = Citizen.invokeNative<void>('0x85183ED7096BA9E5', idx);

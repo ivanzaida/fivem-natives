@@ -6,9 +6,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0xB8E85A4A8536807D
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function hasVehiclePetroltankSetOnFireByEntity(vehicle: VehicleIndex, entity: EntityIndex): boolean {

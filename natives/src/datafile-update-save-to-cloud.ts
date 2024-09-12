@@ -6,8 +6,8 @@ import { BoolRef } from '@ivanzaida/structures'
  * 0x3CBCE367459737AD
 
  * 
- * ------------------------------------------------------------------
- * @param {BoolRef} success [Ref]
+ * ------------------------------------------------------------------
+ * @param {BoolRef} success [Ref]
  * @returns {boolean}  
  */
 export function datafileUpdateSaveToCloud(success: BoolRef /* ptr */): boolean {

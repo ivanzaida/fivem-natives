@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x89E19F9D79DDCA80
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} dontAllowPlayerToEnter
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} dontAllowPlayerToEnter
  */
 export function setDontAllowPlayerToEnterVehicleIfLockedForPlayer(vehicle: VehicleIndex, dontAllowPlayerToEnter: boolean): void {
 	const setDontAllowPlayerToEnterVehicleIfLockedForPlayer_result = Citizen.invokeNative<void>('0x89E19F9D79DDCA80', vehicle, dontAllowPlayerToEnter);

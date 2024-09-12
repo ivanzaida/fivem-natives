@@ -4,8 +4,8 @@
  * 0xF7A6291F5AE831D1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} token
+ * ------------------------------------------------------------------
+ * @param {number} token
  * @returns {boolean}  
  */
 export function scLicenseplateGetCheckIsPending(token: number): boolean {

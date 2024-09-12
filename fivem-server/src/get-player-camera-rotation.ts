@@ -6,9 +6,9 @@ import { Vector3Ref } from '@ivanzaida/structures'
  * 0X433C765D
 
  * Gets the current camera rotation for a specified player. This native is used server side when using OneSync.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle.
  * @returns {Vector3Ref}  The player's camera rotation. Values are in radians.
  */
 export function getPlayerCameraRotation(playerSrc: string): Vector3Ref {

@@ -6,8 +6,8 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0x93BF17E19A9F0E9B
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
  * @returns {boolean}  
  */
 export function networkDoesEntityExistWithNetworkId(networkId: NetworkIndex): boolean {

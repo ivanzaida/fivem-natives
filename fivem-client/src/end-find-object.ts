@@ -4,8 +4,8 @@
  * 0XDEDA4E50
 
  * 
- * ------------------------------------------------------------------
- * @param {number} findHandle
+ * ------------------------------------------------------------------
+ * @param {number} findHandle
  */
 export function endFindObject(findHandle: number): void {
 	const endFindObject_result = Citizen.invokeNative<void>('0XDEDA4E50', findHandle);

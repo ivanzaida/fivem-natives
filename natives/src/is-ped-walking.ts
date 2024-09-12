@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x0A11073DD28E2CD9
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedWalking(ped: PedIndex): boolean {

@@ -4,12 +4,12 @@
  * 0x81E5E9AE1379B068
 
  * 
- * ------------------------------------------------------------------
- * @param {number} positionX
- * @param {number} positionY
- * @param {number} positionZ
- * @param {number} range
- * @param {boolean} mustBeFree
+ * ------------------------------------------------------------------
+ * @param {number} positionX
+ * @param {number} positionY
+ * @param {number} positionZ
+ * @param {number} range
+ * @param {boolean} mustBeFree
  * @returns {boolean}  
  */
 export function doesScenarioExistInArea(positionX: number, positionY: number, positionZ: number, range: number, mustBeFree: boolean): boolean {

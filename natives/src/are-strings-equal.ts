@@ -4,9 +4,9 @@
  * 0x1B79E937E91F40C3
 
  * 
- * ------------------------------------------------------------------
- * @param {string} string1
- * @param {string} string2
+ * ------------------------------------------------------------------
+ * @param {string} string1
+ * @param {string} string2
  * @returns {boolean}  
  */
 export function areStringsEqual(string1: string, string2: string): boolean {

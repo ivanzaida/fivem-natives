@@ -4,9 +4,9 @@
  * 0xB010444AA0CE4D66
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {number} file
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {number} file
  * @returns {number}  
  */
 export function ugcGetContentFileVersion(content: number, file: number): number {

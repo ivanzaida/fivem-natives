@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xDCEC24AE33904F8D
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  * @returns {boolean}  
  */
 export function networkAmIMutedByPlayer(netPlayerID: PlayerIndex): boolean {

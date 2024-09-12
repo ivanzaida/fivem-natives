@@ -7,12 +7,12 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0xDDF99E38A910C346
 
  * Returns TRUE if it found something. FALSE if not.
- * 
- * ------------------------------------------------------------------
- * @param {Vector3} closestFirePos [Ref]
- * @param {number} testPosX
- * @param {number} testPosY
- * @param {number} testPosZ
+ * 
+ * ------------------------------------------------------------------
+ * @param {Vector3} closestFirePos [Ref]
+ * @param {number} testPosX
+ * @param {number} testPosY
+ * @param {number} testPosZ
  * @returns {boolean}  
  */
 export function getClosestFirePos(closestFirePos: Vector3 /* ptr */, testPosX: number, testPosY: number, testPosZ: number): boolean {

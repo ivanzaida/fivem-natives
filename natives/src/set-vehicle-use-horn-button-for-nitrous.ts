@@ -4,7 +4,7 @@
  * 0x1980F68872CC2C3D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setVehicleUseHornButtonForNitrous(): void {
 	const setVehicleUseHornButtonForNitrous_result = Citizen.invokeNative<void>('0x1980F68872CC2C3D', );

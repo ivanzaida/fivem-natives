@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xBA1F8721D3730F2B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} lodDistance
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} lodDistance
  */
 export function setBoatLowLodAnchorDistance(vehicle: VehicleIndex, lodDistance: number): void {
 	const setBoatLowLodAnchorDistance_result = Citizen.invokeNative<void>('0xBA1F8721D3730F2B', vehicle, lodDistance);

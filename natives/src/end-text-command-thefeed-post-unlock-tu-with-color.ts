@@ -6,13 +6,13 @@ import { EHudColours } from '@ivanzaida/structures'
  * 0x54CF97A068ED5618
 
  * 
- * ------------------------------------------------------------------
- * @param {string} titleString
- * @param {number} iconType
- * @param {string} fullBodyString The full unlock body string to use for the pause menu
- * @param {boolean} isImportant
- * @param {EHudColours} titleColour
- * @param {boolean} titleIsLiteral
+ * ------------------------------------------------------------------
+ * @param {string} titleString
+ * @param {number} iconType
+ * @param {string} fullBodyString The full unlock body string to use for the pause menu
+ * @param {boolean} isImportant
+ * @param {EHudColours} titleColour
+ * @param {boolean} titleIsLiteral
  * @returns {number}  
  */
 export function endTextCommandThefeedPostUnlockTuWithColor(titleString: string, iconType: number = 0, fullBodyString: string = null!, isImportant: boolean = false, titleColour: EHudColours | number = 0, titleIsLiteral: boolean = true): number {

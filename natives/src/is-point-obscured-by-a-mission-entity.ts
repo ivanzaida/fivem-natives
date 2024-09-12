@@ -6,14 +6,14 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xD7813C7A74CA9AF9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} centreCoorsX
- * @param {number} centreCoorsY
- * @param {number} centreCoorsZ
- * @param {number} locateDimensionsX
- * @param {number} locateDimensionsY
- * @param {number} locateDimensionsZ
- * @param {EntityIndex} excludeEntity
+ * ------------------------------------------------------------------
+ * @param {number} centreCoorsX
+ * @param {number} centreCoorsY
+ * @param {number} centreCoorsZ
+ * @param {number} locateDimensionsX
+ * @param {number} locateDimensionsY
+ * @param {number} locateDimensionsZ
+ * @param {EntityIndex} excludeEntity
  * @returns {boolean}  
  */
 export function isPointObscuredByAMissionEntity(centreCoorsX: number, centreCoorsY: number, centreCoorsZ: number, locateDimensionsX: number, locateDimensionsY: number, locateDimensionsZ: number, excludeEntity: EntityIndex = null!): boolean {

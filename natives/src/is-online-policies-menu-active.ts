@@ -4,8 +4,8 @@
  * 0xEBBFE40DB22B29D2
 
  * Returns the same as IS_SOCIAL_CLUB_ACTIVE
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isOnlinePoliciesMenuActive(): boolean {

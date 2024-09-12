@@ -4,8 +4,8 @@
  * 0x939D49C9FAA8139A
 
  * 
- * ------------------------------------------------------------------
- * @param {string} ptFxAssetName
+ * ------------------------------------------------------------------
+ * @param {string} ptFxAssetName
  * @returns {boolean}  
  */
 export function hasNamedPtfxAssetLoaded(ptFxAssetName: string): boolean {

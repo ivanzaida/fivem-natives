@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x0441E4524AA1CF9C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedRunningArrestTask(ped: PedIndex): boolean {

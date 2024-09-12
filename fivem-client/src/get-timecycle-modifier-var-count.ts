@@ -4,8 +4,8 @@
  * 0X60FB60FE
 
  * 
- * ------------------------------------------------------------------
- * @param {string} modifierName The timecycle modifier name.
+ * ------------------------------------------------------------------
+ * @param {string} modifierName The timecycle modifier name.
  * @returns {number}  The amount of variables used on a specified timecycle modifier.
  */
 export function getTimecycleModifierVarCount(modifierName: string): number {

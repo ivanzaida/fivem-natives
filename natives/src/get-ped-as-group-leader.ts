@@ -6,8 +6,8 @@ import { GroupIndex, PedIndex } from '@ivanzaida/structures'
  * 0x6814C7F2C075A4F3
 
  * 
- * ------------------------------------------------------------------
- * @param {GroupIndex} uniqueGroupID
+ * ------------------------------------------------------------------
+ * @param {GroupIndex} uniqueGroupID
  * @returns {PedIndex}  
  */
 export function getPedAsGroupLeader(uniqueGroupID: GroupIndex): PedIndex {

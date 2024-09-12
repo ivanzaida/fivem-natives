@@ -6,11 +6,11 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
  * 0x5EDED4B3E1A48E68
 
  * Full list of weapons & components by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
- * @param {EWeaponcomponentType} typeOfComponent
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} typeOfWeapon
+ * @param {EWeaponcomponentType} typeOfComponent
  * @returns {boolean}  
  */
 export function hasPedGotWeaponComponent(ped: PedIndex, typeOfWeapon: EWeaponType | number, typeOfComponent: EWeaponcomponentType | number): boolean {

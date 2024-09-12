@@ -4,8 +4,8 @@
  * 0x61AD5054653814F5
 
  * 
- * ------------------------------------------------------------------
- * @param {string} scriptname
+ * ------------------------------------------------------------------
+ * @param {string} scriptname
  * @returns {boolean}  
  */
 export function doesScriptExist(scriptname: string): boolean {

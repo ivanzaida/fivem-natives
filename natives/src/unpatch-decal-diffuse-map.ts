@@ -6,8 +6,8 @@ import { EDecalRendersettingId } from '@ivanzaida/structures'
  * 0x1B3B68D4F1783EBF
 
  * 
- * ------------------------------------------------------------------
- * @param {EDecalRendersettingId} renderSettingsId
+ * ------------------------------------------------------------------
+ * @param {EDecalRendersettingId} renderSettingsId
  */
 export function unpatchDecalDiffuseMap(renderSettingsId: EDecalRendersettingId | number): void {
 	const unpatchDecalDiffuseMap_result = Citizen.invokeNative<void>('0x1B3B68D4F1783EBF', renderSettingsId);

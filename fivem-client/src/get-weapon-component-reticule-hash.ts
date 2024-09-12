@@ -4,9 +4,9 @@
  * 0XF9AB9297
 
  * A getter for `ReticuleHash` in a weapon scope component.
- * 
- * ------------------------------------------------------------------
- * @param {number} componentHash Weapon component name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} componentHash Weapon component name hash.
  * @returns {number}  The hash of the reticule camera.
  */
 export function getWeaponComponentReticuleHash(componentHash: number): number {

@@ -4,8 +4,8 @@
  * 0x00F2D73E763510A4
 
  * 
- * ------------------------------------------------------------------
- * @param {string} textBlockName
+ * ------------------------------------------------------------------
+ * @param {string} textBlockName
  * @returns {boolean}  
  */
 export function doesTextBlockExist(textBlockName: string): boolean {

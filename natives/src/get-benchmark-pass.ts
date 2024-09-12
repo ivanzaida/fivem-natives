@@ -4,8 +4,8 @@
  * 0x7007C113A8466ADE
 
  * Returns value of the '-benchmarkPass' command line option.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getBenchmarkPass(): number {

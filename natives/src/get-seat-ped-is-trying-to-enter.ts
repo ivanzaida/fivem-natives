@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x03603B0046EE6ACD
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getSeatPedIsTryingToEnter(ped: PedIndex): number {

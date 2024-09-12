@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X1A963E58
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} gravity
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} gravity
  */
 export function setVehicleGravityAmount(vehicle: VehicleIndex, gravity: number): void {
 	const setVehicleGravityAmount_result = Citizen.invokeNative<void>('0X1A963E58', vehicle, gravity);

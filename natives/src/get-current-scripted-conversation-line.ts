@@ -4,7 +4,7 @@
  * 0xE7365CC791D1E4EB
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getCurrentScriptedConversationLine(): number {

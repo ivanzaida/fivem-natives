@@ -6,9 +6,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xFAE0C242A432A1F2
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {boolean} useHeight
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {boolean} useHeight
  */
 export function setBlipUseHeightIndicatorOnEdge(blip: BlipIndex, useHeight: boolean): void {
 	const setBlipUseHeightIndicatorOnEdge_result = Citizen.invokeNative<void>('0xFAE0C242A432A1F2', blip, useHeight);

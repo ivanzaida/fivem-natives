@@ -6,8 +6,8 @@ import { ERelGroupHash } from '@ivanzaida/structures'
  * 0xB2AE1A67479A5AF3
 
  * 
- * ------------------------------------------------------------------
- * @param {ERelGroupHash} relGroup
+ * ------------------------------------------------------------------
+ * @param {ERelGroupHash} relGroup
  * @returns {boolean}  
  */
 export function doesRelationshipGroupExist(relGroup: ERelGroupHash | number): boolean {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XFFCCC2EA
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} angle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} angle
  */
 export function setVehicleSteeringAngle(vehicle: VehicleIndex, angle: number): void {
 	const setVehicleSteeringAngle_result = Citizen.invokeNative<void>('0XFFCCC2EA', vehicle, angle);

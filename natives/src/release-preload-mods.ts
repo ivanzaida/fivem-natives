@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xFB54FC989415871E
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function releasePreloadMods(vehicle: VehicleIndex): void {
 	const releasePreloadMods_result = Citizen.invokeNative<void>('0xFB54FC989415871E', vehicle);

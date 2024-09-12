@@ -4,10 +4,10 @@
  * 0x29D58EEB6D24D5FB
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
- * @param {string} szBaseContentID
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
+ * @param {string} szBaseContentID
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcPublish(szContentID: string, szBaseContentID: string, szContentType: string): boolean {

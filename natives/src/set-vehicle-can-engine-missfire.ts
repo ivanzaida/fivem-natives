@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x76A218B79DCF8962
 
  * Sets whether a vehicles engine can missfire
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} val
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} val
  */
 export function setVehicleCanEngineMissfire(vehicle: VehicleIndex, val: boolean): void {
 	const setVehicleCanEngineMissfire_result = Citizen.invokeNative<void>('0x76A218B79DCF8962', vehicle, val);

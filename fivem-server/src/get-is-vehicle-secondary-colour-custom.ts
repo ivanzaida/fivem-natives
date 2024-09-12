@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X288AD228
 
  * Check if Vehicle Secondary is avaliable for customize
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getIsVehicleSecondaryColourCustom(vehicle: VehicleIndex): boolean {

@@ -6,8 +6,8 @@ import { Blackjackmetriclight } from '@ivanzaida/structures'
  * 0xD905BB02623EB466
 
  * 
- * ------------------------------------------------------------------
- * @param {Blackjackmetriclight} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {Blackjackmetriclight} data [Ref]
  */
 export function playstatsCasinoBlackjackLight(data: Blackjackmetriclight /* ptr */): void {
 	const playstatsCasinoBlackjackLight_result = Citizen.invokeNative<void>('0xD905BB02623EB466', data.dataView);

@@ -4,8 +4,8 @@
  * 0xDECDB93AECF4571C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentIsPublished(content: number): boolean {

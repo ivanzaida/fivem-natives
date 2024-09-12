@@ -6,16 +6,16 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x81AB70B3FE98F1DF
 
  * Trys to store the Z coordinate the highest ground below the given point. This test excludes any objects that are on the ground.
- * if waterAsGround is set to TRUE water will be included in the check and the height of that will be returned if it is greater than the ground
- * The command will return TRUE if it finds collision, FALSE if not.
- * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {FloatRef} outZ [Ref]
- * @param {boolean} waterAsGround
- * @param {boolean} ignoreDistToWaterLevelCheck
+ * if waterAsGround is set to TRUE water will be included in the check and the height of that will be returned if it is greater than the ground
+ * The command will return TRUE if it finds collision, FALSE if not.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
+ * @param {FloatRef} outZ [Ref]
+ * @param {boolean} waterAsGround
+ * @param {boolean} ignoreDistToWaterLevelCheck
  * @returns {boolean}  
  */
 export function getGroundZExcludingObjectsFor_3DCoord(coorsX: number, coorsY: number, coorsZ: number, outZ: FloatRef /* ptr */, waterAsGround: boolean = false, ignoreDistToWaterLevelCheck: boolean = false): boolean {

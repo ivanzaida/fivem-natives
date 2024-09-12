@@ -6,8 +6,8 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x6D4D0805396CE83B
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  * @returns {number}  
  */
 export function ropeGetDistanceBetweenEnds(ropeID: RopeIndex): number {

@@ -4,9 +4,9 @@
  * 0X37CF52CE
 
  * 
- * ------------------------------------------------------------------
- * @param {string} principal
- * @param {string} object
+ * ------------------------------------------------------------------
+ * @param {string} principal
+ * @param {string} object
  * @returns {boolean}  
  */
 export function isPrincipalAceAllowed(principal: string, object: string): boolean {

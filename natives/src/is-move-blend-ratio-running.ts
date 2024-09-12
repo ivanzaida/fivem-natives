@@ -4,8 +4,8 @@
  * 0xC1C69295C2020379
 
  * 
- * ------------------------------------------------------------------
- * @param {number} moveBlendRatio
+ * ------------------------------------------------------------------
+ * @param {number} moveBlendRatio
  * @returns {boolean}  
  */
 export function isMoveBlendRatioRunning(moveBlendRatio: number): boolean {

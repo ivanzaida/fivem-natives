@@ -6,9 +6,9 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0x97AC7D93ABD65D96
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
  * @returns {boolean}  
  */
 export function decorRemove(guid: ItemIndex, decoratorName: string): boolean {

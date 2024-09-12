@@ -6,12 +6,12 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0xF2C30F76A5BF797F
 
  * p2 is mostly 1 in the scripts.
- * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
- * @param {boolean} doDeadCheck
+ * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
+ * @param {boolean} doDeadCheck
  * @returns {number}  
  */
 export function getMaxAmmoInClip(ped: PedIndex, weaponType: EWeaponType | number, doDeadCheck: boolean = true): number {

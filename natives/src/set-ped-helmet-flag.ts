@@ -6,9 +6,9 @@ import { PedIndex, EPedCompFlags } from '@ivanzaida/structures'
  * 0x2D581D395A36F669
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedCompFlags} helmetPropFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedCompFlags} helmetPropFlag
  */
 export function setPedHelmetFlag(ped: PedIndex, helmetPropFlag: EPedCompFlags | number = 4096): void {
 	const setPedHelmetFlag_result = Citizen.invokeNative<void>('0x2D581D395A36F669', ped, helmetPropFlag);

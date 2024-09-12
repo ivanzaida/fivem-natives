@@ -6,7 +6,7 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0xFCB6553111578B2F
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {CameraIndex}  
  */
 export function getRenderingCam(): CameraIndex {

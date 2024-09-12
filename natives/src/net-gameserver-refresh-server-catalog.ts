@@ -4,7 +4,7 @@
  * 0xE9D0D38A52D47D12
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function netGameserverRefreshServerCatalog(): boolean {

@@ -6,8 +6,8 @@ import { PickupIndex, Vector3 } from '@ivanzaida/structures'
  * 0x80C8AA1625977488
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
  * @returns {Vector3}  
  */
 export function getPickupCoords(pickupID: PickupIndex): Vector3 {

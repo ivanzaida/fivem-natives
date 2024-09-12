@@ -4,7 +4,7 @@
  * 0x1F97DCD0259BD8BB
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function networkGetNumTransitionNonAsyncGamers(): number {

@@ -4,10 +4,10 @@
  * 0x9A761B33F5EF75C5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} worldPosX
- * @param {number} worldPosY
- * @param {number} worldPosZ
+ * ------------------------------------------------------------------
+ * @param {number} worldPosX
+ * @param {number} worldPosY
+ * @param {number} worldPosZ
  * @returns {boolean}  
  */
 export function getMinimapFowCoordinateIsRevealed(worldPosX: number, worldPosY: number, worldPosZ: number): boolean {

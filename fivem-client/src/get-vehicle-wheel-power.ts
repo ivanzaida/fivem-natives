@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XD203287
 
  * Gets power being sent to a wheel.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
  * @returns {number}  
  */
 export function getVehicleWheelPower(vehicle: VehicleIndex, wheelIndex: number): number {

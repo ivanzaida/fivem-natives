@@ -6,8 +6,8 @@ import { FrontendMenuVersion } from '@ivanzaida/structures'
  * 0x470CC97DB37CB63B
 
  * if (HUD::GET_CURRENT_FRONTEND_MENU_VERSION() == joaat("fe_menu_version_empty_no_background"))
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {FrontendMenuVersion}  
  */
 export function getCurrentFrontendMenuVersion(): FrontendMenuVersion {

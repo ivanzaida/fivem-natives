@@ -4,8 +4,8 @@
  * 0X66D70EA3
 
  * 
- * ------------------------------------------------------------------
- * @param {number} rope The rope to get the length change rate for.
+ * ------------------------------------------------------------------
+ * @param {number} rope The rope to get the length change rate for.
  * @returns {number}  The rope's length change rate.
  */
 export function getRopeLengthChangeRate(rope: number): number {

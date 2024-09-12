@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x3EC357F31CEA229D
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} disable
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} disable
  */
 export function setDisableAmbientMeleeMove(player: PlayerIndex, disable: boolean): void {
 	const setDisableAmbientMeleeMove_result = Citizen.invokeNative<void>('0x3EC357F31CEA229D', player, disable);

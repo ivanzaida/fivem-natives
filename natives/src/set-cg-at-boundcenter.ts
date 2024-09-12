@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xE2B3F860B1A40B7B
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entityId
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entityId
  */
 export function setCgAtBoundcenter(entityId: EntityIndex): void {
 	const setCgAtBoundcenter_result = Citizen.invokeNative<void>('0xE2B3F860B1A40B7B', entityId);

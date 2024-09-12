@@ -4,11 +4,11 @@
  * 0x8553FB74D3BF41C8
 
  * Retrieve the category text ID for a specific product and cat index
- * index2 is unused
- * 
- * ------------------------------------------------------------------
- * @param {number} item
- * @param {number} cat
+ * index2 is unused
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} item
+ * @param {number} cat
  * @returns {string}  
  */
 export function getCommerceItemCat(item: number, cat: number): string {

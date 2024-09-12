@@ -6,8 +6,8 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x7497E3ECE98A291B
 
  * 
- * ------------------------------------------------------------------
- * @param {FloatRef} xpBounsMult [Ref]
+ * ------------------------------------------------------------------
+ * @param {FloatRef} xpBounsMult [Ref]
  * @returns {boolean}  
  */
 export function scGamerdataGetActiveXpBonus(xpBounsMult: FloatRef /* ptr */): boolean {

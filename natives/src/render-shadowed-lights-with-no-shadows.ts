@@ -4,8 +4,8 @@
  * 0x4DA9E018E2F3A01C
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} render
+ * ------------------------------------------------------------------
+ * @param {boolean} render
  */
 export function renderShadowedLightsWithNoShadows(render: boolean): void {
 	const renderShadowedLightsWithNoShadows_result = Citizen.invokeNative<void>('0x4DA9E018E2F3A01C', render);

@@ -6,8 +6,8 @@ import { PlayerIndex, Vector3 } from '@ivanzaida/structures'
  * 0X821F2D2C
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {Vector3}  
  */
 export function getPlayerWantedCentrePosition(player: PlayerIndex): Vector3 {

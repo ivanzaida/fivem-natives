@@ -6,7 +6,7 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x413A91F497E3428F
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {BlipIndex}  
  */
 export function getMainPlayerBlipId(): BlipIndex {

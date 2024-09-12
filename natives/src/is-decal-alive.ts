@@ -6,8 +6,8 @@ import { DecalId } from '@ivanzaida/structures'
  * 0x1A22029316A4B46C
 
  * 
- * ------------------------------------------------------------------
- * @param {DecalId} decalId
+ * ------------------------------------------------------------------
+ * @param {DecalId} decalId
  * @returns {boolean}  
  */
 export function isDecalAlive(decalId: DecalId): boolean {

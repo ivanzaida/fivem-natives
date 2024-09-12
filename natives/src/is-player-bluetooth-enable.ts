@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x86A327F828FE34D1
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function isPlayerBluetoothEnable(player: PlayerIndex): boolean {

@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x26C12212366CBF6E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allowAutoConversationLookAts
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allowAutoConversationLookAts
  */
 export function setPedCanUseAutoConversationLookat(ped: PedIndex, allowAutoConversationLookAts: boolean): void {
 	const setPedCanUseAutoConversationLookat_result = Citizen.invokeNative<void>('0x26C12212366CBF6E', ped, allowAutoConversationLookAts);

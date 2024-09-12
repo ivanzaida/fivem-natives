@@ -4,8 +4,8 @@
  * 0x52611559311E2B64
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedLipstickTintForBarber(tint: number): boolean {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xC0DB690A927487AE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} keepEngineOn
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} keepEngineOn
  */
 export function setVehicleKeepEngineOnWhenAbandoned(vehicle: VehicleIndex, keepEngineOn: boolean): void {
 	const setVehicleKeepEngineOnWhenAbandoned_result = Citizen.invokeNative<void>('0xC0DB690A927487AE', vehicle, keepEngineOn);

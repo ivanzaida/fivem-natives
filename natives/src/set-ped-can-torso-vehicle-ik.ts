@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD6AD3D0B48A10776
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enableIK
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enableIK
  */
 export function setPedCanTorsoVehicleIk(ped: PedIndex, enableIK: boolean): void {
 	const setPedCanTorsoVehicleIk_result = Citizen.invokeNative<void>('0xD6AD3D0B48A10776', ped, enableIK);

@@ -4,8 +4,8 @@
  * 0x4A5B5E00528FADB4
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {string}  
  */
 export function ugcGetContentUserId(content: number): string {

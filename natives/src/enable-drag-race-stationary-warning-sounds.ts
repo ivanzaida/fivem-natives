@@ -4,7 +4,7 @@
  * 0xBEFB80290414FD4F
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function enableDragRaceStationaryWarningSounds(): void {
 	const enableDragRaceStationaryWarningSounds_result = Citizen.invokeNative<void>('0xBEFB80290414FD4F', );

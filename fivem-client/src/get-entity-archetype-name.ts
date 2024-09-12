@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0X47B870F5
 
  * Returns entity's archetype name, if available.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity An entity handle.
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity An entity handle.
  * @returns {string}  Entity's archetype name
  */
 export function getEntityArchetypeName(entity: EntityIndex): string {

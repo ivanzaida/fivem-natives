@@ -6,8 +6,8 @@ import { RopeIndex } from '@ivanzaida/structures'
  * 0x6FC03AECD995B8CC
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
  */
 export function deleteChildRope(ropeID: RopeIndex): void {
 	const deleteChildRope_result = Citizen.invokeNative<void>('0x6FC03AECD995B8CC', ropeID);

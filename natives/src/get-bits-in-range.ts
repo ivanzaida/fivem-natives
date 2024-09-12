@@ -4,10 +4,10 @@
  * 0x8B5B2BE72A7C0CF6
 
  * 
- * ------------------------------------------------------------------
- * @param {number} variableToRead
- * @param {number} startBit
- * @param {number} endBit
+ * ------------------------------------------------------------------
+ * @param {number} variableToRead
+ * @param {number} startBit
+ * @param {number} endBit
  * @returns {number}  
  */
 export function getBitsInRange(variableToRead: number, startBit: number, endBit: number): number {

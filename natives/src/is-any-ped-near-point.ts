@@ -4,11 +4,11 @@
  * 0x2DBCF31839B069B4
 
  * 
- * ------------------------------------------------------------------
- * @param {number} pointX
- * @param {number} pointY
- * @param {number} pointZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {number} pointX
+ * @param {number} pointY
+ * @param {number} pointZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isAnyPedNearPoint(pointX: number, pointY: number, pointZ: number, radius: number): boolean {

@@ -4,10 +4,10 @@
  * 0x8FA5AF26CEA0CF0C
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
- * @param {boolean} isDeleted
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
+ * @param {boolean} isDeleted
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcSetDeleted(szContentID: string, isDeleted: boolean, szContentType: string): boolean {

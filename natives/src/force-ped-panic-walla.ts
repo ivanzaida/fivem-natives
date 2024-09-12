@@ -4,7 +4,7 @@
  * 0xABB26A8481225EDC
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function forcePedPanicWalla(): void {
 	const forcePedPanicWalla_result = Citizen.invokeNative<void>('0xABB26A8481225EDC', );

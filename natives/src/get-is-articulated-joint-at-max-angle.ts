@@ -6,10 +6,10 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xA06DCC0EBCEFF7EA
 
  * Returns true if the joint in the object is at its maximum angle
- * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {number} joint
+ * 
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {number} joint
  * @returns {boolean}  
  */
 export function getIsArticulatedJointAtMaxAngle(object: ObjectIndex, joint: number = 0): boolean {

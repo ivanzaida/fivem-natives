@@ -4,8 +4,8 @@
  * 0x1B3217FCFCCC3FCF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  * @returns {boolean}  
  */
 export function removeRoadNodeSpeedZone(index: number): boolean {

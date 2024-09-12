@@ -4,11 +4,11 @@
  * 0xE8D2BD34CCB74431
 
  * 
- * ------------------------------------------------------------------
- * @param {number} posX
- * @param {number} posY
- * @param {number} posZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {number} posX
+ * @param {number} posY
+ * @param {number} posZ
+ * @param {number} radius
  * @returns {number}  
  */
 export function getNumberOfFiresInRange(posX: number, posY: number, posZ: number, radius: number): number {

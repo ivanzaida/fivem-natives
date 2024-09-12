@@ -4,9 +4,9 @@
  * 0XC53BB6D3
 
  * 
- * ------------------------------------------------------------------
- * @param {string} modifierName The name of timecycle modifier.
- * @param {string} varName The name of timecycle variable.
+ * ------------------------------------------------------------------
+ * @param {string} modifierName The name of timecycle modifier.
+ * @param {string} varName The name of timecycle variable.
  * @returns {boolean}  Whether or not variable by name was found on the specified timecycle modifier.
  */
 export function doesTimecycleModifierHasVar(modifierName: string, varName: string): boolean {

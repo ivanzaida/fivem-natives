@@ -6,8 +6,8 @@ import { ItemsetIndex } from '@ivanzaida/structures'
  * 0x3A05653FFCBAFB55
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemsetIndex} itemSet
+ * ------------------------------------------------------------------
+ * @param {ItemsetIndex} itemSet
  * @returns {boolean}  
  */
 export function isItemsetValid(itemSet: ItemsetIndex): boolean {

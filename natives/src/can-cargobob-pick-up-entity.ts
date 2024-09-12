@@ -6,10 +6,10 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0xC7654AAAA57E8D28
 
  * Returns whether the given entity can be pickup up by the cargobob
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function canCargobobPickUpEntity(cargobob: VehicleIndex, entity: EntityIndex): boolean {

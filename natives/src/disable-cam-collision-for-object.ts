@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x148A0A307698B29B
 
  * This will allow the camera to clip into the object.
- * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * 
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  */
 export function disableCamCollisionForObject(object: ObjectIndex): void {
 	const disableCamCollisionForObject_result = Citizen.invokeNative<void>('0x148A0A307698B29B', object);

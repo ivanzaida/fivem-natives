@@ -6,10 +6,10 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  * 0xD109ACB1A444BD9D
 
  * -1 means the killer is unknown
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} plr
- * @param {IntRef} typeOfWeapon [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} plr
+ * @param {IntRef} typeOfWeapon [Ref]
  * @returns {PlayerIndex}  
  */
 export function networkGetKillerOfPlayer(plr: PlayerIndex, typeOfWeapon: IntRef /* ptr */): PlayerIndex {

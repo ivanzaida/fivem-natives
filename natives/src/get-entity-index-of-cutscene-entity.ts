@@ -6,10 +6,10 @@ import { ModelNames, EntityIndex } from '@ivanzaida/structures'
  * 0xD461826371A3782B
 
  * These entitis can be deleted at any time, use the registered version to check for
- * 
- * ------------------------------------------------------------------
- * @param {string} entitySceneName
- * @param {ModelNames} model
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} entitySceneName
+ * @param {ModelNames} model
  * @returns {EntityIndex}  
  */
 export function getEntityIndexOfCutsceneEntity(entitySceneName: string, model: ModelNames = 0): EntityIndex {

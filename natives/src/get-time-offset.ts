@@ -6,11 +6,11 @@ import { TimeDatatype } from '@ivanzaida/structures'
  * 0xAD5B43C219C4CB92
 
  * Returns a time datatype variable offset by Offset milliseconds
- * Adds the first argument to the second.
- * 
- * ------------------------------------------------------------------
- * @param {TimeDatatype} time1
- * @param {number} offset
+ * Adds the first argument to the second.
+ * 
+ * ------------------------------------------------------------------
+ * @param {TimeDatatype} time1
+ * @param {number} offset
  * @returns {TimeDatatype}  
  */
 export function getTimeOffset(time1: TimeDatatype, offset: number): TimeDatatype {

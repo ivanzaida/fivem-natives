@@ -6,11 +6,11 @@ import { EStatsenum, IntRef } from '@ivanzaida/structures'
  * 0x77B8D5FD0CF3258F
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {IntRef} data [Ref]
- * @param {number} offSet
- * @param {number} numberOfBits
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {IntRef} data [Ref]
+ * @param {number} offSet
+ * @param {number} numberOfBits
  * @returns {boolean}  
  */
 export function getMenuPedMaskedIntStat(keyHash: EStatsenum | number, data: IntRef /* ptr */, offSet: number, numberOfBits: number): boolean {

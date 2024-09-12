@@ -6,8 +6,8 @@ import { Roulettemetric } from '@ivanzaida/structures'
  * 0xED43EEB7E19CF2E3
 
  * 
- * ------------------------------------------------------------------
- * @param {Roulettemetric} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {Roulettemetric} data [Ref]
  */
 export function playstatsCasinoRoulette(data: Roulettemetric /* ptr */): void {
 	const playstatsCasinoRoulette_result = Citizen.invokeNative<void>('0xED43EEB7E19CF2E3', data.dataView);

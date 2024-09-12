@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x8235F1BEAD557629
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} disableStandOn
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} disableStandOn
  */
 export function setDisablePedStandOnTop(vehicle: VehicleIndex, disableStandOn: boolean): void {
 	const setDisablePedStandOnTop_result = Citizen.invokeNative<void>('0x8235F1BEAD557629', vehicle, disableStandOn);

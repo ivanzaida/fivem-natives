@@ -6,9 +6,9 @@ import { PedheadshotId } from '@ivanzaida/structures'
  * 0x697995B2B26B6CD4
 
  * gtaforums.com/topic/885580-ped-headshotmugshot-txd/
- * 
- * ------------------------------------------------------------------
- * @param {PedheadshotId} headshotId
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedheadshotId} headshotId
  */
 export function unregisterPedheadshot(headshotId: PedheadshotId): void {
 	const unregisterPedheadshot_result = Citizen.invokeNative<void>('0x697995B2B26B6CD4', headshotId);

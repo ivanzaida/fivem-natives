@@ -6,8 +6,8 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0x03A6DAAE139DC9E9
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
  * @returns {boolean}  
  */
 export function isDamageTrackerActiveOnNetworkId(networkId: NetworkIndex): boolean {

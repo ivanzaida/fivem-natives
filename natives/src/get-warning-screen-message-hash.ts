@@ -4,8 +4,8 @@
  * 0xDA185E42FEAAF76B
 
  * Has to do with the confirmation overlay (E.g. confirm exit)
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getWarningScreenMessageHash(): number {

@@ -6,9 +6,9 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  * 0X535DB43F
 
  * Get the last entity that damaged the ped. This native is used server side when using OneSync.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped The target ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped The target ped
  * @returns {EntityIndex}  The entity id. Returns 0 if the ped has not been damaged recently.
  */
 export function getPedSourceOfDamage(ped: PedIndex): EntityIndex {

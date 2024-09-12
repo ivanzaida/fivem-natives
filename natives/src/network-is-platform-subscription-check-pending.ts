@@ -4,7 +4,7 @@
  * 0x6C8E92D4F56B150E
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsPlatformSubscriptionCheckPending(): boolean {

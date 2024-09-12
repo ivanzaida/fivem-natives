@@ -4,8 +4,8 @@
  * 0XFEE404F9
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {string}  
  */
 export function getPlayerEndpoint(playerSrc: string): string {

@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XE015E854
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} train The target train.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} train The target train.
  * @returns {number}  Train's current track node index.
  */
 export function getTrainCurrentTrackNode(train: VehicleIndex): number {

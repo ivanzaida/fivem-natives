@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x932BEE6E64F0144E
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} percent
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} percent
  * @returns {number}  
  */
 export function setPlayerUnderwaterBreathPercentRemaining(player: PlayerIndex, percent: number): number {

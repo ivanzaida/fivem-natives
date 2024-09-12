@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xF629ED9089543196
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} kERSAllowed
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} kERSAllowed
  */
 export function setVehicleKersAllowed(vehicle: VehicleIndex, kERSAllowed: boolean): void {
 	const setVehicleKersAllowed_result = Citizen.invokeNative<void>('0xF629ED9089543196', vehicle, kERSAllowed);

@@ -4,8 +4,8 @@
  * 0x2B8BAF9BA2A3D36B
 
  * Returns if the commerce store has been opened (includes both ad and main screen)
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isCommerceStoreOpen(): boolean {

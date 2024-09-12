@@ -6,10 +6,10 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x465DA23A52B88B07
 
  * p1 always true.
- * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {boolean} coderAssert
+ * 
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {boolean} coderAssert
  * @returns {boolean}  
  */
 export function statSetCurrentPosixTime(keyHash: EStatsenum | number, coderAssert: boolean = true): boolean {

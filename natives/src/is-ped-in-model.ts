@@ -6,9 +6,9 @@ import { PedIndex, ModelNames } from '@ivanzaida/structures'
  * 0x0595DAC15F5513F9
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {ModelNames} vehicleModelHashKey
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {boolean}  
  */
 export function isPedInModel(ped: PedIndex, vehicleModelHashKey: ModelNames): boolean {

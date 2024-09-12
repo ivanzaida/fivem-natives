@@ -6,10 +6,10 @@ import { EMmFlags } from '@ivanzaida/structures'
  * 0xD9082A1A08CF156E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} gameMode
- * @param {number} maxPlayers
- * @param {EMmFlags} matchmakingFlags
+ * ------------------------------------------------------------------
+ * @param {number} gameMode
+ * @param {number} maxPlayers
+ * @param {EMmFlags} matchmakingFlags
  * @returns {boolean}  
  */
 export function networkSessionDoFreeroamQuickmatch(gameMode: number, maxPlayers: number, matchmakingFlags: EMmFlags | number): boolean {

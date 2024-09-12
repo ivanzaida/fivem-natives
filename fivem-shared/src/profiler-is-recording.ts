@@ -4,8 +4,8 @@
  * 0XF8B7D7BB
 
  * Returns true if the profiler is active.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  True or false.
  */
 export function profilerIsRecording(): boolean {

@@ -6,12 +6,12 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF483865E4C02C371
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} target
- * @param {number} vecSearchCenterX
- * @param {number} vecSearchCenterY
- * @param {number} vecSearchCenterZ
- * @param {number} searchRadius
+ * ------------------------------------------------------------------
+ * @param {PedIndex} target
+ * @param {number} vecSearchCenterX
+ * @param {number} vecSearchCenterY
+ * @param {number} vecSearchCenterZ
+ * @param {number} searchRadius
  * @returns {number}  
  */
 export function countPedsInCombatWithTargetWithinRadius(target: PedIndex, vecSearchCenterX: number, vecSearchCenterY: number, vecSearchCenterZ: number, searchRadius: number): number {

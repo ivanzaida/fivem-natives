@@ -6,9 +6,9 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  * 0xD7F3495D8307C112
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} bone
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} bone
  * @returns {Vector3}  
  */
 export function getEntityBoneObjectPostion(entity: EntityIndex, bone: number): Vector3 {

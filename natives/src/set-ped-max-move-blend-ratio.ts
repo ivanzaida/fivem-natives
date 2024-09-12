@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x4190C67D524CD0DC
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} moveBlendRatio
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} moveBlendRatio
  */
 export function setPedMaxMoveBlendRatio(ped: PedIndex, moveBlendRatio: number): void {
 	const setPedMaxMoveBlendRatio_result = Citizen.invokeNative<void>('0x4190C67D524CD0DC', ped, moveBlendRatio);

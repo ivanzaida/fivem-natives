@@ -4,9 +4,9 @@
  * 0x37088D2C63AC4C01
 
  * See GIVE_ACHIEVEMENT_TO_PLAYER
- * 
- * ------------------------------------------------------------------
- * @param {number} achievementId
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} achievementId
  * @returns {boolean}  
  */
 export function hasAchievementBeenPassed(achievementId: number): boolean {

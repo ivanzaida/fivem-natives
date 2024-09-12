@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xF8190C7705154D4D
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} canBreakOff
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} canBreakOff
  * @returns {boolean}  
  */
 export function setHeliTailBoomCanBreakOff(vehicle: VehicleIndex, canBreakOff: boolean): boolean {

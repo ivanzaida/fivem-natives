@@ -4,8 +4,8 @@
  * 0x64F5ED1652910707
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function statCloudSlotSaveFailed(slot: number): boolean {

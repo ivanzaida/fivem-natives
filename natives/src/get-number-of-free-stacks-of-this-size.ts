@@ -4,8 +4,8 @@
  * 0x546238515F929872
 
  * 
- * ------------------------------------------------------------------
- * @param {number} stackSize
+ * ------------------------------------------------------------------
+ * @param {number} stackSize
  * @returns {number}  
  */
 export function getNumberOfFreeStacksOfThisSize(stackSize: number): number {

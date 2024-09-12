@@ -4,8 +4,8 @@
  * 0x895C996CADF26E19
 
  * 
- * ------------------------------------------------------------------
- * @param {number} mgs
+ * ------------------------------------------------------------------
+ * @param {number} mgs
  * @returns {boolean}  
  */
 export function scInboxMessageDoApply(mgs: number): boolean {

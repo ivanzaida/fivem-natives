@@ -4,7 +4,7 @@
  * 0x34F31012FED51A0F
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function netGameserverIsSessionRefreshPending(): boolean {

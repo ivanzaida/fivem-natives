@@ -6,10 +6,10 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x69A1136FA3794E40
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {FloatRef} value [Ref]
- * @param {string} eventType
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {FloatRef} value [Ref]
+ * @param {string} eventType
  * @returns {boolean}  
  */
 export function scCommunityEventGetExtraDataFloatForType(name: string, value: FloatRef /* ptr */, eventType: string): boolean {

@@ -6,9 +6,9 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0x3D421DC31587DC44
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
  * @returns {number}  
  */
 export function decorGetFloat(guid: ItemIndex, decoratorName: string): number {

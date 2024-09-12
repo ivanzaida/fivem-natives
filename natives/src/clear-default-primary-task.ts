@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xDF671228EB81F6F6
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function clearDefaultPrimaryTask(ped: PedIndex): void {
 	const clearDefaultPrimaryTask_result = Citizen.invokeNative<void>('0xDF671228EB81F6F6', ped);

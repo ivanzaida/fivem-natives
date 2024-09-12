@@ -6,9 +6,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xD54D26545A07FB31
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {boolean} onOff
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {boolean} onOff
  */
 export function setBlipMarkerLongDistance(blip: BlipIndex, onOff: boolean): void {
 	const setBlipMarkerLongDistance_result = Citizen.invokeNative<void>('0xD54D26545A07FB31', blip, onOff);

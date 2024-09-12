@@ -4,9 +4,9 @@
  * 0x4F5BF7798505A667
 
  * Call at the start of the hint to avoid pops
- * 
- * ------------------------------------------------------------------
- * @param {number} fov
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} fov
  */
 export function setGameplayHintFov(fov: number): void {
 	const setGameplayHintFov_result = Citizen.invokeNative<void>('0x4F5BF7798505A667', fov);

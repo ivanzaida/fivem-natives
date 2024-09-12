@@ -4,9 +4,9 @@
  * 0xE3621CC40F31FE2E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} base
- * @param {number} exponent
+ * ------------------------------------------------------------------
+ * @param {number} base
+ * @param {number} exponent
  * @returns {number}  
  */
 export function pow(base: number, exponent: number): number {

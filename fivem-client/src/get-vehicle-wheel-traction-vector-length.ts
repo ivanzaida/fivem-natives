@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X3BCFEE14
 
  * Gets the traction vector length of a wheel.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
  * @returns {number}  
  */
 export function getVehicleWheelTractionVectorLength(vehicle: VehicleIndex, wheelIndex: number): number {

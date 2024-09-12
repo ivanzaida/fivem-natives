@@ -6,8 +6,8 @@ import { FmEventAmbMissionChallenges } from '@ivanzaida/structures'
  * 0x2D37C46EADE98E63
 
  * 
- * ------------------------------------------------------------------
- * @param {FmEventAmbMissionChallenges} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FmEventAmbMissionChallenges} data [Ref]
  */
 export function playstatsFmEventChallenges(data: FmEventAmbMissionChallenges /* ptr */): void {
 	const playstatsFmEventChallenges_result = Citizen.invokeNative<void>('0x2D37C46EADE98E63', data.dataView);

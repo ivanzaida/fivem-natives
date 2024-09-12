@@ -6,11 +6,11 @@ import { PedIndex, ETaskCombatPedFlags } from '@ivanzaida/structures'
  * 0xC22FB64C71A7CD89
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {PedIndex} otherPed
- * @param {number} time
- * @param {ETaskCombatPedFlags} flags
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {PedIndex} otherPed
+ * @param {number} time
+ * @param {ETaskCombatPedFlags} flags
  */
 export function taskCombatPedTimed(ped: PedIndex, otherPed: PedIndex, time: number, flags: ETaskCombatPedFlags | number = 0): void {
 	const taskCombatPedTimed_result = Citizen.invokeNative<void>('0xC22FB64C71A7CD89', ped, otherPed, time, flags);

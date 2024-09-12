@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x8473361800D1B85B
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function getEntityCollisionDisabled(entity: EntityIndex): boolean {

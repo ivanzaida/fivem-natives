@@ -4,8 +4,8 @@
  * 0x2200033BCF24787D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
  * @returns {boolean}  
  */
 export function isTvshowCurrentlyPlaying(nameHash: number): boolean {

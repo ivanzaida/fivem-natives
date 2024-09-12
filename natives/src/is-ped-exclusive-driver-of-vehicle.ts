@@ -6,10 +6,10 @@ import { VehicleIndex, PedIndex, IntRef } from '@ivanzaida/structures'
  * 0x4877F2B0D2101BDE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {PedIndex} ped
- * @param {IntRef} driver [Ref]
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {PedIndex} ped
+ * @param {IntRef} driver [Ref]
  * @returns {boolean}  
  */
 export function isPedExclusiveDriverOfVehicle(vehicle: VehicleIndex, ped: PedIndex, driver: IntRef /* ptr */): boolean {

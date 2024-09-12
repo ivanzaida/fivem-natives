@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0xEDD63461767A518C
 
  * Checks if player represented by this gamer handle is a friend of the local player
- * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {boolean}  
  */
 export function networkIsFriend(gamerHandle: GamerHandle /* ptr */): boolean {

@@ -4,7 +4,7 @@
  * 0x9DC05704C71AF6C5
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function networkGetPlatformPartyMemberCount(): number {

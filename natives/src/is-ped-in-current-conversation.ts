@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x6B919BD9340E189A
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedInCurrentConversation(ped: PedIndex): boolean {

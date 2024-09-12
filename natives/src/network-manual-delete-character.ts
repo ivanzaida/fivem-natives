@@ -4,8 +4,8 @@
  * 0x017137CFD42927BA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} character
+ * ------------------------------------------------------------------
+ * @param {number} character
  */
 export function networkManualDeleteCharacter(character: number): void {
 	const networkManualDeleteCharacter_result = Citizen.invokeNative<void>('0x017137CFD42927BA', character);

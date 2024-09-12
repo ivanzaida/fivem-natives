@@ -4,7 +4,7 @@
  * 0x180F569AF7F16BB2
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkRemoveAllQueuedJoinRequests(): void {
 	const networkRemoveAllQueuedJoinRequests_result = Citizen.invokeNative<void>('0x180F569AF7F16BB2', );

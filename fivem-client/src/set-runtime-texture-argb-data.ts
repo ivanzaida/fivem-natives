@@ -4,10 +4,10 @@
  * 0X3963D527
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tex
- * @param {string} buffer
- * @param {number} length
+ * ------------------------------------------------------------------
+ * @param {number} tex
+ * @param {string} buffer
+ * @param {number} length
  * @returns {boolean}  
  */
 export function setRuntimeTextureArgbData(tex: number, buffer: string, length: number): boolean {

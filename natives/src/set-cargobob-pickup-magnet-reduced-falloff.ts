@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xEBF4A581695418A5
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {number} magnetFalloff
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {number} magnetFalloff
  */
 export function setCargobobPickupMagnetReducedFalloff(cargobob: VehicleIndex, magnetFalloff: number): void {
 	const setCargobobPickupMagnetReducedFalloff_result = Citizen.invokeNative<void>('0xEBF4A581695418A5', cargobob, magnetFalloff);

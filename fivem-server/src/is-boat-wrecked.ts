@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X9049DB44
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle The target vehicle.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle The target vehicle.
  * @returns {boolean}  Returns whether or not the boat is wrecked.
  */
 export function isBoatWrecked(vehicle: VehicleIndex): boolean {

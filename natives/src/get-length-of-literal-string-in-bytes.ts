@@ -4,8 +4,8 @@
  * 0x31A0D8A679F7D5A7
 
  * 
- * ------------------------------------------------------------------
- * @param {string} literalString
+ * ------------------------------------------------------------------
+ * @param {string} literalString
  * @returns {number}  
  */
 export function getLengthOfLiteralStringInBytes(literalString: string): number {

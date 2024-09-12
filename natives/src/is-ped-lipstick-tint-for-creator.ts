@@ -4,8 +4,8 @@
  * 0xC4DF7897A59B7B8F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedLipstickTintForCreator(tint: number): boolean {

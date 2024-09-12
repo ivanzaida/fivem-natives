@@ -6,10 +6,10 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  * 0x648F2586F927249D
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EModType} modSlot
- * @param {number} mod
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EModType} modSlot
+ * @param {number} mod
  * @returns {number}  
  */
 export function getVehicleModModifierValue(vehicle: VehicleIndex, modSlot: EModType | number, mod: number): number {

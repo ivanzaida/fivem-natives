@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9AC89B274C35B3FC
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedSwimmingUnderWater(ped: PedIndex): boolean {

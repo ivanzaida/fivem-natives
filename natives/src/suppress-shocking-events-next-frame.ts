@@ -4,7 +4,7 @@
  * 0xE33015D5CE800786
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function suppressShockingEventsNextFrame(): void {
 	const suppressShockingEventsNextFrame_result = Citizen.invokeNative<void>('0xE33015D5CE800786', );

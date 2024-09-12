@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x9533853565DED3F7
 
  * 
- * ------------------------------------------------------------------
- * @param {number} invite
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} invite
+ * @param {GamerHandle} gamer [Ref]
  * @returns {boolean}  
  */
 export function networkGetPresenceInviteHandle(invite: number, gamer: GamerHandle /* ptr */): boolean {

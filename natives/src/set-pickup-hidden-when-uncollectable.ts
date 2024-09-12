@@ -6,9 +6,9 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0xCDBF6DCBFC52E781
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
+ * @param {boolean} set
  */
 export function setPickupHiddenWhenUncollectable(pickupID: PickupIndex, set: boolean): void {
 	const setPickupHiddenWhenUncollectable_result = Citizen.invokeNative<void>('0xCDBF6DCBFC52E781', pickupID, set);

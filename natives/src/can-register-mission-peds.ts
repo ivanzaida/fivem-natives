@@ -4,8 +4,8 @@
  * 0xADCE9BCAFCB83364
 
  * 
- * ------------------------------------------------------------------
- * @param {number} numPedsToRegister
+ * ------------------------------------------------------------------
+ * @param {number} numPedsToRegister
  * @returns {boolean}  
  */
 export function canRegisterMissionPeds(numPedsToRegister: number): boolean {

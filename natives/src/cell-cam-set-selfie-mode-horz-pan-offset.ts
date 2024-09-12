@@ -4,8 +4,8 @@
  * 0xCF33DB366A4071FB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scaling
+ * ------------------------------------------------------------------
+ * @param {number} scaling
  */
 export function cellCamSetSelfieModeHorzPanOffset(scaling: number): void {
 	const cellCamSetSelfieModeHorzPanOffset_result = Citizen.invokeNative<void>('0xCF33DB366A4071FB', scaling);

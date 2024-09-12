@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x5B3431FA66D59A4C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedOnFoot(ped: PedIndex): boolean {

@@ -6,11 +6,11 @@ import { OutfitCompStruct } from '@ivanzaida/structures'
  * 0xABE43EB6EBE5F2F5
 
  * See https://git.io/JtcBH for example and structs.
- * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
- * @param {number} component
- * @param {OutfitCompStruct} itemInfo [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
+ * @param {number} component
+ * @param {OutfitCompStruct} itemInfo [Ref]
  * @returns {boolean}  
  */
 export function getShopPedOutfitComponentVariant(nameHash: number, component: number, itemInfo: OutfitCompStruct /* ptr */): boolean {

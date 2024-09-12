@@ -6,9 +6,9 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0x4C053DEF00842DC9
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
+ * @param {boolean} set
  */
 export function setPickupTransparentWhenUncollectable(pickupID: PickupIndex, set: boolean): void {
 	const setPickupTransparentWhenUncollectable_result = Citizen.invokeNative<void>('0x4C053DEF00842DC9', pickupID, set);

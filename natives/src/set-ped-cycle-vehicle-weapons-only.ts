@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xAD33AEE7683375F4
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedCycleVehicleWeaponsOnly(ped: PedIndex): void {
 	const setPedCycleVehicleWeaponsOnly_result = Citizen.invokeNative<void>('0xAD33AEE7683375F4', ped);

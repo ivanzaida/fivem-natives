@@ -4,9 +4,9 @@
  * 0x3FB25645DE01436C
 
  * Gets the status of the extracontent cloud transfers
- * This function is hard-coded to always return 0.
- * 
- * ------------------------------------------------------------------
+ * This function is hard-coded to always return 0.
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getExtracontentCloudResult(): number {

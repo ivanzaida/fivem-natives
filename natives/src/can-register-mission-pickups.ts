@@ -4,8 +4,8 @@
  * 0xF95A1422CB355630
 
  * 
- * ------------------------------------------------------------------
- * @param {number} numPickupsToRegister
+ * ------------------------------------------------------------------
+ * @param {number} numPickupsToRegister
  * @returns {boolean}  
  */
 export function canRegisterMissionPickups(numPickupsToRegister: number): boolean {

@@ -4,9 +4,9 @@
  * 0xB64F599E8DBD9678
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
+ * @param {number} index
  * @returns {number}  
  */
 export function dataarrayGetInt(arr: string[], index: number): number {

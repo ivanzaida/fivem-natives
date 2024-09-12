@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x05B7F4CBFA7B6871
 
  * This function returns true if player has a reserve parachute.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function getPlayerHasReserveParachute(player: PlayerIndex): boolean {

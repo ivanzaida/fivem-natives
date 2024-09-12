@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0XA45B6C8D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedMaxHealth(ped: PedIndex): number {

@@ -6,10 +6,10 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x54B88AF600DB0C95
 
  * 
- * ------------------------------------------------------------------
- * @param {string} textString
- * @param {string} plateData
- * @param {IntRef} outToken [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} textString
+ * @param {string} plateData
+ * @param {IntRef} outToken [Ref]
  * @returns {boolean}  
  */
 export function scLicenseplateAdd(textString: string, plateData: string, outToken: IntRef /* ptr */): boolean {

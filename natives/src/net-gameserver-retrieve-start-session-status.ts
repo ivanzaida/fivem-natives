@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xA7237EFE46BDEC7B
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} currentStatus [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} currentStatus [Ref]
  * @returns {boolean}  
  */
 export function netGameserverRetrieveStartSessionStatus(currentStatus: IntRef /* ptr */): boolean {

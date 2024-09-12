@@ -6,9 +6,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x78411E34CF90EA8C
 
  * Returns whether or not the passed camera handle exists.
- * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * 
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {boolean}  
  */
 export function doesCamExist(camera: CameraIndex): boolean {

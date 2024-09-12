@@ -4,9 +4,9 @@
  * 0xBC2EE32DE886BD08
 
  * Full list of audio scene names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/audioSceneNames.json
- * 
- * ------------------------------------------------------------------
- * @param {string} sceneName
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} sceneName
  * @returns {boolean}  
  */
 export function isAudioSceneActive(sceneName: string): boolean {

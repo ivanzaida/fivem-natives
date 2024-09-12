@@ -4,8 +4,8 @@
  * 0x1FDE21A286357401
 
  * 
- * ------------------------------------------------------------------
- * @param {number} transactionId
+ * ------------------------------------------------------------------
+ * @param {number} transactionId
  * @returns {boolean}  
  */
 export function netGameserverEndService(transactionId: number): boolean {

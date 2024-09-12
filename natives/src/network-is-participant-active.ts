@@ -6,8 +6,8 @@ import { ParticipantIndex } from '@ivanzaida/structures'
  * 0x7206AEB20960CCC8
 
  * 
- * ------------------------------------------------------------------
- * @param {ParticipantIndex} participant
+ * ------------------------------------------------------------------
+ * @param {ParticipantIndex} participant
  * @returns {boolean}  
  */
 export function networkIsParticipantActive(participant: ParticipantIndex): boolean {

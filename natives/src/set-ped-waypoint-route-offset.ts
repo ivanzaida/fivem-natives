@@ -6,11 +6,11 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x1549A6163A4CED2D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} offsetX
- * @param {number} offsetY
- * @param {number} offsetZ
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} offsetX
+ * @param {number} offsetY
+ * @param {number} offsetZ
  * @returns {boolean}  
  */
 export function setPedWaypointRouteOffset(ped: PedIndex, offsetX: number, offsetY: number, offsetZ: number): boolean {

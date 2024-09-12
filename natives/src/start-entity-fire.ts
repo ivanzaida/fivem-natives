@@ -6,9 +6,9 @@ import { EntityIndex, FireIndex } from '@ivanzaida/structures'
  * 0x604C09F6A880730D
 
  * The char that the fire is created on must not be flame proof otherwise the game will assert.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {FireIndex}  
  */
 export function startEntityFire(entity: EntityIndex): FireIndex {

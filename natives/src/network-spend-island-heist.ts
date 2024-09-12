@@ -6,11 +6,11 @@ import { SpendIslandHeist } from '@ivanzaida/structures'
  * 0xDCA98A271D0CC516
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
- * @param {SpendIslandHeist} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
+ * @param {SpendIslandHeist} data [Ref]
  */
 export function networkSpendIslandHeist(amount: number, fromBank: boolean, fromBankAndWallet: boolean, data: SpendIslandHeist /* ptr */): void {
 	const networkSpendIslandHeist_result = Citizen.invokeNative<void>('0xDCA98A271D0CC516', amount, fromBank, fromBankAndWallet, data.dataView);

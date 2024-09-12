@@ -6,10 +6,10 @@ import { ETextBlockSlots } from '@ivanzaida/structures'
  * 0xCC2EFE4B1D0EE422
 
  * Checks if the specified gxt has loaded into the passed slot.
- * 
- * ------------------------------------------------------------------
- * @param {string} textBlockName
- * @param {ETextBlockSlots} slotNumber
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} textBlockName
+ * @param {ETextBlockSlots} slotNumber
  * @returns {boolean}  
  */
 export function hasThisAdditionalTextLoaded(textBlockName: string, slotNumber: ETextBlockSlots | number): boolean {

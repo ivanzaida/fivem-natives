@@ -4,8 +4,8 @@
  * 0x865FD8AC99AF6852
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} cache
+ * ------------------------------------------------------------------
+ * @param {boolean} cache
  */
 export function scCacheNewRockstarMsgs(cache: boolean): void {
 	const scCacheNewRockstarMsgs_result = Citizen.invokeNative<void>('0x865FD8AC99AF6852', cache);

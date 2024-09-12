@@ -6,8 +6,8 @@ import { PickupIndex, BlipIndex } from '@ivanzaida/structures'
  * 0xA1521B7DF72BC9C8
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickup
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickup
  * @returns {BlipIndex}  
  */
 export function addBlipForPickup(pickup: PickupIndex): BlipIndex {

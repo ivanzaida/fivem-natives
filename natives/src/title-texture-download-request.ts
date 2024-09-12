@@ -4,11 +4,11 @@
  * 0x30B65E94C2188C92
 
  * Variant of TEXTURE_DOWNLOAD_REQUEST that uses TITLE namespace. Same comments apply
- * 
- * ------------------------------------------------------------------
- * @param {string} cloudPath
- * @param {string} textureName
- * @param {boolean} useCacheWithoutCloudChecks
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} cloudPath
+ * @param {string} textureName
+ * @param {boolean} useCacheWithoutCloudChecks
  * @returns {number}  
  */
 export function titleTextureDownloadRequest(cloudPath: string, textureName: string, useCacheWithoutCloudChecks: boolean = false): number {

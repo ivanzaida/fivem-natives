@@ -4,8 +4,8 @@
  * 0x725A501C189FDB29
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} override
+ * ------------------------------------------------------------------
+ * @param {boolean} override
  */
 export function networkSetProximityAffectsTeam(override: boolean): void {
 	const networkSetProximityAffectsTeam_result = Citizen.invokeNative<void>('0x725A501C189FDB29', override);

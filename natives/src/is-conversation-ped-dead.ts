@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xBE65C2DD27AEFD7B
 
  * Checks that the ped is dead, using the same check as the audio conversation system.  This can be used to avoid asserts regarding
- * conversations failing to play due to dead peds.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * conversations failing to play due to dead peds.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isConversationPedDead(ped: PedIndex): boolean {

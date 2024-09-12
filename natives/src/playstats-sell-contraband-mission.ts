@@ -6,8 +6,8 @@ import { SellContrabandMission } from '@ivanzaida/structures'
  * 0xEB54AA925E801335
 
  * 
- * ------------------------------------------------------------------
- * @param {SellContrabandMission} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {SellContrabandMission} data [Ref]
  */
 export function playstatsSellContrabandMission(data: SellContrabandMission /* ptr */): void {
 	const playstatsSellContrabandMission_result = Citizen.invokeNative<void>('0xEB54AA925E801335', data.dataView);

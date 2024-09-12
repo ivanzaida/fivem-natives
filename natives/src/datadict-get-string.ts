@@ -4,9 +4,9 @@
  * 0xC2ED3920E9296F36
 
  * 
- * ------------------------------------------------------------------
- * @param {string} dict
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} dict
+ * @param {string} name
  * @returns {string}  
  */
 export function datadictGetString(dict: string, name: string): string {

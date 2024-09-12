@@ -4,8 +4,8 @@
  * 0x989F8AD94D00CA21
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function forcePostfxBulletImpactsAfterHud(enable: boolean): void {
 	const forcePostfxBulletImpactsAfterHud_result = Citizen.invokeNative<void>('0x989F8AD94D00CA21', enable);

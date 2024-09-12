@@ -6,8 +6,8 @@ import { NetworkIndex, VehicleIndex } from '@ivanzaida/structures'
  * 0xE38610F405049F71
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} netID
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} netID
  * @returns {VehicleIndex}  
  */
 export function netToVeh(netID: NetworkIndex): VehicleIndex {

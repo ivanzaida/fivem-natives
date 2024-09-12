@@ -6,12 +6,12 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X14088095
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {IntRef} a0 The a0 level [Ref]
- * @param {IntRef} a1 The a1 level [Ref]
- * @param {IntRef} a2 The a2 level [Ref]
- * @param {IntRef} a3 The a3 level [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {IntRef} a0 The a0 level [Ref]
+ * @param {IntRef} a1 The a1 level [Ref]
+ * @param {IntRef} a2 The a2 level [Ref]
+ * @param {IntRef} a3 The a3 level [Ref]
  * @returns {boolean}  Returns true on success. Alpha values are undefined on failure
  */
 export function getWaterQuadAlpha(waterQuad: number, a0: IntRef /* ptr */, a1: IntRef /* ptr */, a2: IntRef /* ptr */, a3: IntRef /* ptr */): boolean {

@@ -4,8 +4,8 @@
  * 0xDC01725421245C5C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} cloudRequestID
+ * ------------------------------------------------------------------
+ * @param {number} cloudRequestID
  * @returns {boolean}  
  */
 export function datafileHasLoadedFileData(cloudRequestID: number): boolean {

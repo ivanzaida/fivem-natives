@@ -4,8 +4,8 @@
  * 0x96CFB880BAC634CE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} forceCleanupBitField
+ * ------------------------------------------------------------------
+ * @param {number} forceCleanupBitField
  * @returns {boolean}  
  */
 export function hasForceCleanupOccurred(forceCleanupBitField: number = 3): boolean {

@@ -4,7 +4,7 @@
  * 0x5994A2F6D4FFFE4D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isSubtitlePreferenceSwitchedOn(): boolean {

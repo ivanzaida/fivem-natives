@@ -6,11 +6,11 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  * 0x9FFEA38DBCE391EC
 
  * Returns FALSE if vehicle does not exist
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicleID
- * @param {IntRef} lightsOn [Ref]
- * @param {IntRef} fullBeam [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicleID
+ * @param {IntRef} lightsOn [Ref]
+ * @param {IntRef} fullBeam [Ref]
  * @returns {boolean}  
  */
 export function getVehicleLightsState(vehicleID: VehicleIndex, lightsOn: IntRef /* ptr */, fullBeam: IntRef /* ptr */): boolean {

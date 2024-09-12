@@ -6,13 +6,13 @@ import { PedIndex, EPedParachuteLandingType } from '@ivanzaida/structures'
  * 0x2621F11E556C9703
 
  * -1: no landing
- * 0: landing on both feet
- * 1: stumbling
- * 2: rolling
- * 3: ragdoll
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 0: landing on both feet
+ * 1: stumbling
+ * 2: rolling
+ * 3: ragdoll
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {EPedParachuteLandingType}  
  */
 export function getPedParachuteLandingType(ped: PedIndex): EPedParachuteLandingType {

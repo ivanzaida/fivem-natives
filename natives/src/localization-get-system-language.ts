@@ -6,9 +6,9 @@ import { ELanguageType } from '@ivanzaida/structures'
  * 0x148785E497902C88
 
  * Returns the current system language
- * Same return values as GET_CURRENT_LANGUAGE
- * 
- * ------------------------------------------------------------------
+ * Same return values as GET_CURRENT_LANGUAGE
+ * 
+ * ------------------------------------------------------------------
  * @returns {ELanguageType}  
  */
 export function localizationGetSystemLanguage(): ELanguageType {

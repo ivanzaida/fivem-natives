@@ -6,8 +6,8 @@ import { PopzoneId, PopscheduleId } from '@ivanzaida/structures'
  * 0xC6B8DAA3EC313D8F
 
  * 
- * ------------------------------------------------------------------
- * @param {PopzoneId} zoneId
+ * ------------------------------------------------------------------
+ * @param {PopzoneId} zoneId
  * @returns {PopscheduleId}  
  */
 export function getZonePopschedule(zoneId: PopzoneId): PopscheduleId {

@@ -4,8 +4,8 @@
  * 0XFF1290D4
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {number}  
  */
 export function getPlayerPing(playerSrc: string): number {

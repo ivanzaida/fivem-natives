@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x5612E9BDDC2940D7
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
+ * @param {boolean} set
  */
 export function setPortablePickupPersist(pickupID: ObjectIndex, set: boolean): void {
 	const setPortablePickupPersist_result = Citizen.invokeNative<void>('0x5612E9BDDC2940D7', pickupID, set);

@@ -6,10 +6,10 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x0C56573D93709254
 
  * Adds the GTA: Online player heading indicator to a blip.
- * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {boolean} show
+ * 
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {boolean} show
  */
 export function showHeadingIndicatorOnBlip(blip: BlipIndex, show: boolean): void {
 	const showHeadingIndicatorOnBlip_result = Citizen.invokeNative<void>('0x0C56573D93709254', blip, show);

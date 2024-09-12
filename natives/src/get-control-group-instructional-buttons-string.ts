@@ -6,11 +6,11 @@ import { EControlType, EControlActionGroup } from '@ivanzaida/structures'
  * 0xF761D79754BC3043
 
  * control: unused parameter
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
- * @param {EControlActionGroup} actionGroup
- * @param {boolean} allowXOSwap
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
+ * @param {EControlActionGroup} actionGroup
+ * @param {boolean} allowXOSwap
  * @returns {string}  
  */
 export function getControlGroupInstructionalButtonsString(control: EControlType | number, actionGroup: EControlActionGroup | number, allowXOSwap: boolean = true): string {

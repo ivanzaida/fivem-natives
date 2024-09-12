@@ -4,9 +4,9 @@
  * 0xCBBA20766F48DC67
 
  * Returns number of possible values of the forcedPropIndex argument of GET_FORCED_PROP.
- * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
  * @returns {number}  
  */
 export function getShopPedApparelForcedPropCount(nameHash: number): number {

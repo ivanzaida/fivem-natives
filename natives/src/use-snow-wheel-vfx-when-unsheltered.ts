@@ -4,9 +4,9 @@
  * 0xD7DE01DAA350496A
 
  * Forces vehicle trails on all surfaces.
- * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function useSnowWheelVfxWhenUnsheltered(enable: boolean): void {
 	const useSnowWheelVfxWhenUnsheltered_result = Citizen.invokeNative<void>('0xD7DE01DAA350496A', enable);

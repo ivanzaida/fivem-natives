@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x98D2FC8206AB54E0
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function disableCameraViewModeCycle(player: PlayerIndex): void {
 	const disableCameraViewModeCycle_result = Citizen.invokeNative<void>('0x98D2FC8206AB54E0', player);

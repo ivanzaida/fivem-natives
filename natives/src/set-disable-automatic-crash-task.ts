@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x3423BC61BC6BD401
 
  * Sets a flag on heli and another vehicle type.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} disable
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} disable
  */
 export function setDisableAutomaticCrashTask(vehicle: VehicleIndex, disable: boolean): void {
 	const setDisableAutomaticCrashTask_result = Citizen.invokeNative<void>('0x3423BC61BC6BD401', vehicle, disable);

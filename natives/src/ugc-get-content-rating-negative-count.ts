@@ -4,9 +4,9 @@
  * 0xAA565F77BB458AFD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {boolean} xv
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {boolean} xv
  * @returns {number}  
  */
 export function ugcGetContentRatingNegativeCount(content: number, xv: boolean): number {

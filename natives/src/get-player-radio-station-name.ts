@@ -4,8 +4,8 @@
  * 0xA9CB3A11303C5801
 
  * Returns active radio station name
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {string}  
  */
 export function getPlayerRadioStationName(): string {

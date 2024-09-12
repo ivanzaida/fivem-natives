@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3DEAB4931240C1E3
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PedIndex}  
  */
 export function getJackTarget(ped: PedIndex): PedIndex {

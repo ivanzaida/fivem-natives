@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x953124DAB474F504
 
  * An override for reserve parachute model.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} modelNameHash
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} modelNameHash
  */
 export function setPlayerReserveParachuteModelOverride(player: PlayerIndex, modelNameHash: number): void {
 	const setPlayerReserveParachuteModelOverride_result = Citizen.invokeNative<void>('0x953124DAB474F504', player, modelNameHash);

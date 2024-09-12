@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x0686D5124777B9BE
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function networkPlayerIndexIsCheater(player: PlayerIndex): boolean {

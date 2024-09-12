@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x379E96D5D36B27DC
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} getOutFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} getOutFlag
  */
 export function setPedGetOutUpsideDownVehicle(ped: PedIndex, getOutFlag: boolean): void {
 	const setPedGetOutUpsideDownVehicle_result = Citizen.invokeNative<void>('0x379E96D5D36B27DC', ped, getOutFlag);

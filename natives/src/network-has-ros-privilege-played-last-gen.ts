@@ -4,7 +4,7 @@
  * 0x5BC93955B6EEBC0B
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkHasRosPrivilegePlayedLastGen(): boolean {

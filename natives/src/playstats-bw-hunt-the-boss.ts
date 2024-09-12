@@ -6,8 +6,8 @@ import { BwHuntTheBoss } from '@ivanzaida/structures'
  * 0x70FD47FAC8200A49
 
  * 
- * ------------------------------------------------------------------
- * @param {BwHuntTheBoss} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BwHuntTheBoss} data [Ref]
  */
 export function playstatsBwHuntTheBoss(data: BwHuntTheBoss /* ptr */): void {
 	const playstatsBwHuntTheBoss_result = Citizen.invokeNative<void>('0x70FD47FAC8200A49', data.dataView);

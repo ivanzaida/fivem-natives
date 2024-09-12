@@ -4,9 +4,9 @@
  * 0XC693E278
 
  * A getter for `CWeaponAccuracyModifier` in a weapon component.
- * 
- * ------------------------------------------------------------------
- * @param {number} componentHash Weapon component name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} componentHash Weapon component name hash.
  * @returns {number}  A weapon component accuracy modifier.
  */
 export function getWeaponComponentAccuracyModifier(componentHash: number): number {

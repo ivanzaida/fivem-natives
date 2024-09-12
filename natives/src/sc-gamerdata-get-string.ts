@@ -6,9 +6,9 @@ import { StringRef } from '@ivanzaida/structures'
  * 0xA11E96BAF56824EE
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {StringRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {StringRef} value [Ref]
  * @returns {boolean}  
  */
 export function scGamerdataGetString(name: string, value: StringRef /* ptr */): boolean {

@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3C2402675D8FFADA
 
  * This native returns a true or false value.
- * Ped ped = The ped whose weapon you want to check.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * Ped ped = The ped whose weapon you want to check.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedCurrentWeaponSilenced(ped: PedIndex): boolean {

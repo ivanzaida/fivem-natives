@@ -6,9 +6,9 @@ import { NetworkGetGamerStatusResultStruct } from '@ivanzaida/structures'
  * 0x08A4CF1E65E8A0EC
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkGetGamerStatusResultStruct} result [Ref]
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {NetworkGetGamerStatusResultStruct} result [Ref]
+ * @param {number} index
  * @returns {boolean}  
  */
 export function networkGetGamerStatusResult(result: NetworkGetGamerStatusResultStruct /* ptr */, index: number): boolean {

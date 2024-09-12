@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X1C939E87
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} jetpack The jetpack to check.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} jetpack The jetpack to check.
  * @returns {number}  Returns a value representing the side RCS (Reaction Control System) throttle of the jetpack. The values range from `0.0` (no throttle) to `1.0` (full throttle).
  */
 export function getThrusterSideRcsThrottle(jetpack: VehicleIndex): number {

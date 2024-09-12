@@ -6,9 +6,9 @@ import { PedIndex, EWeaponSlot, EWeaponType } from '@ivanzaida/structures'
  * 0xBCEDAE6CA2B2046E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponSlot} slot
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponSlot} slot
  * @returns {EWeaponType}  
  */
 export function getPedWeapontypeInSlot(ped: PedIndex, slot: EWeaponSlot | number): EWeaponType {

@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xC450B06E5AAA0985
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {boolean}  
  */
 export function doesBlipExist(blip: BlipIndex): boolean {

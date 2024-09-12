@@ -4,9 +4,9 @@
  * 0x9AADBEC7664AF43A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} playerNum
- * @param {boolean} usePointsHealth
+ * ------------------------------------------------------------------
+ * @param {number} playerNum
+ * @param {boolean} usePointsHealth
  */
 export function setMpGamerTagsShouldUsePointsHealth(playerNum: number, usePointsHealth: boolean): void {
 	const setMpGamerTagsShouldUsePointsHealth_result = Citizen.invokeNative<void>('0x9AADBEC7664AF43A', playerNum, usePointsHealth);

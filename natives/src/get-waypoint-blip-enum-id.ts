@@ -6,8 +6,8 @@ import { EBlipSprite } from '@ivanzaida/structures'
  * 0x2A3612A4B836469E
 
  * returns an id to pass to blip commands of the code "waypoint" blip
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {EBlipSprite}  
  */
 export function getWaypointBlipEnumId(): EBlipSprite {

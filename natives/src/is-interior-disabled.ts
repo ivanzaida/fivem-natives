@@ -6,8 +6,8 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0xE849FB3A0C73A0D9
 
  * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
  * @returns {boolean}  
  */
 export function isInteriorDisabled(interiorInstance: InteriorInstanceIndex): boolean {

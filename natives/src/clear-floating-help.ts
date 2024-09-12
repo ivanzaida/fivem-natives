@@ -6,9 +6,9 @@ import { EEHelpTextFloatingId } from '@ivanzaida/structures'
  * 0x665A7E873A6664BC
 
  * 
- * ------------------------------------------------------------------
- * @param {EEHelpTextFloatingId} id
- * @param {boolean} clearNow
+ * ------------------------------------------------------------------
+ * @param {EEHelpTextFloatingId} id
+ * @param {boolean} clearNow
  */
 export function clearFloatingHelp(id: EEHelpTextFloatingId | number, clearNow: boolean = true): void {
 	const clearFloatingHelp_result = Citizen.invokeNative<void>('0x665A7E873A6664BC', id, clearNow);

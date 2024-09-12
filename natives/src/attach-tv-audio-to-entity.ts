@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xC850B483ACC98D91
 
  * Might be more appropriate in AUDIO?
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function attachTvAudioToEntity(entity: EntityIndex): void {
 	const attachTvAudioToEntity_result = Citizen.invokeNative<void>('0xC850B483ACC98D91', entity);

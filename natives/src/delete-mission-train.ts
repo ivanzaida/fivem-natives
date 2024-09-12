@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x903908AA21114D72
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} train [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} train [Ref]
  */
 export function deleteMissionTrain(train: IntRef /* ptr */): void {
 	const deleteMissionTrain_result = Citizen.invokeNative<void>('0x903908AA21114D72', train.dataView);

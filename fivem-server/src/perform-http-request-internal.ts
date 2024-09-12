@@ -4,9 +4,9 @@
  * 0X8E8CC653
 
  * 
- * ------------------------------------------------------------------
- * @param {string} requestData
- * @param {number} requestDataLength
+ * ------------------------------------------------------------------
+ * @param {string} requestData
+ * @param {number} requestDataLength
  * @returns {number}  
  */
 export function performHttpRequestInternal(requestData: string, requestDataLength: number): number {

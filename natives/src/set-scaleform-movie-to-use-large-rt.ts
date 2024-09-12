@@ -6,10 +6,10 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0x32323864D97FCFF0
 
  * sets that the scaleform movie will be rendered to a large render target (1280x720)
- * 
- * ------------------------------------------------------------------
- * @param {ScaleformIndex} scaleformMovieId
- * @param {boolean} useLargeRT
+ * 
+ * ------------------------------------------------------------------
+ * @param {ScaleformIndex} scaleformMovieId
+ * @param {boolean} useLargeRT
  */
 export function setScaleformMovieToUseLargeRt(scaleformMovieId: ScaleformIndex, useLargeRT: boolean): void {
 	const setScaleformMovieToUseLargeRt_result = Citizen.invokeNative<void>('0x32323864D97FCFF0', scaleformMovieId, useLargeRT);

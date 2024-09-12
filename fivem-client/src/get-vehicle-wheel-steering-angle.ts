@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XA0867448
 
  * Gets steering angle of a wheel.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
  * @returns {number}  The steering angle of the wheel, with 0 being straight.
  */
 export function getVehicleWheelSteeringAngle(vehicle: VehicleIndex, wheelIndex: number): number {

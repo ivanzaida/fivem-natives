@@ -6,8 +6,8 @@ import { PedIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x5F858847305B52A9
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PlayerIndex}  
  */
 export function getPlayerPedIsFollowing(ped: PedIndex): PlayerIndex {

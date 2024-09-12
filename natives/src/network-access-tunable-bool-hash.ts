@@ -4,9 +4,9 @@
  * 0xBFCA4F7F15FD06CC
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHash
- * @param {number} tunableHash
+ * ------------------------------------------------------------------
+ * @param {number} contextHash
+ * @param {number} tunableHash
  * @returns {boolean}  
  */
 export function networkAccessTunableBoolHash(contextHash: number, tunableHash: number): boolean {

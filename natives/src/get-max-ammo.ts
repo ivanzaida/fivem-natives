@@ -6,11 +6,11 @@ import { PedIndex, EWeaponType, IntRef } from '@ivanzaida/structures'
  * 0xACBE463290141D49
 
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
- * @param {IntRef} outMaxAmmo [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
+ * @param {IntRef} outMaxAmmo [Ref]
  * @returns {boolean}  
  */
 export function getMaxAmmo(ped: PedIndex, weaponType: EWeaponType | number, outMaxAmmo: IntRef /* ptr */): boolean {

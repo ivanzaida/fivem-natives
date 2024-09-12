@@ -4,9 +4,9 @@
  * 0XE134FB8D
 
  * A getter for `CWeaponFallOffModifier` damage modifier value in a weapon component.
- * 
- * ------------------------------------------------------------------
- * @param {number} componentHash Weapon component name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} componentHash Weapon component name hash.
  * @returns {number}  A weapon component damage modifier.
  */
 export function getWeaponComponentRangeDamageModifier(componentHash: number): number {

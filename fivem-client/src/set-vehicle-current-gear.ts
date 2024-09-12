@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X8923DD42
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle The vehicle handle.
- * @param {number} gear The gear you want the vehicle to use.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle The vehicle handle.
+ * @param {number} gear The gear you want the vehicle to use.
  */
 export function setVehicleCurrentGear(vehicle: VehicleIndex, gear: number): void {
 	const setVehicleCurrentGear_result = Citizen.invokeNative<void>('0X8923DD42', vehicle, gear);

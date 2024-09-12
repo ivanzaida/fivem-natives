@@ -6,9 +6,9 @@ import { GroupIndex } from '@ivanzaida/structures'
  * 0x94CC4CA44256FDCB
 
  * If the its the players group it removes all the followers
- * 
- * ------------------------------------------------------------------
- * @param {GroupIndex} uniqueGroupID
+ * 
+ * ------------------------------------------------------------------
+ * @param {GroupIndex} uniqueGroupID
  */
 export function removeGroup(uniqueGroupID: GroupIndex): void {
 	const removeGroup_result = Citizen.invokeNative<void>('0x94CC4CA44256FDCB', uniqueGroupID);

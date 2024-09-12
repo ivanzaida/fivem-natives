@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x26E13D440E7F6064
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} disableExplode
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} disableExplode
  */
 export function setDisableExplodeFromBodyDamageOnCollision(vehicle: VehicleIndex, disableExplode: boolean): void {
 	const setDisableExplodeFromBodyDamageOnCollision_result = Citizen.invokeNative<void>('0x26E13D440E7F6064', vehicle, disableExplode);

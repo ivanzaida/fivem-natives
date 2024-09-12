@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x0CA8AE01D86E1FDC
 
  * Returns member ID of passed in gamer handle
- * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {string}  
  */
 export function networkMemberIdFromGamerHandle(gamerHandle: GamerHandle /* ptr */): string {

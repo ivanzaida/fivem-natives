@@ -6,9 +6,9 @@ import { PedIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x1C1C92A1CBAE364B
 
  * Returns the Player associated to a given Ped when in an online session.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PlayerIndex}  
  */
 export function networkGetPlayerIndexFromPed(ped: PedIndex): PlayerIndex {

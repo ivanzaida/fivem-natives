@@ -4,8 +4,8 @@
  * 0x282230B7F0E52D56
 
  * Travel the furthest distance when bailing from a vehicle
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetVehicleBailDistance(): number {

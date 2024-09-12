@@ -4,7 +4,7 @@
  * 0x8F38E50ADC31E1C2
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isPedheadshotImgUploadAvailable(): boolean {

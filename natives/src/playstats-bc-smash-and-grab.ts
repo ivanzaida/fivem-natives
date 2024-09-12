@@ -6,8 +6,8 @@ import { BcSmashAndGrab } from '@ivanzaida/structures'
  * 0xE71905B28E3F819A
 
  * 
- * ------------------------------------------------------------------
- * @param {BcSmashAndGrab} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BcSmashAndGrab} data [Ref]
  */
 export function playstatsBcSmashAndGrab(data: BcSmashAndGrab /* ptr */): void {
 	const playstatsBcSmashAndGrab_result = Citizen.invokeNative<void>('0xE71905B28E3F819A', data.dataView);

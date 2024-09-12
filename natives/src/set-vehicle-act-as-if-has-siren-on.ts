@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xA29F097488D811A6
 
  * This is a reset flag, it must be called each frame
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} actAsIfSirenOn
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} actAsIfSirenOn
  */
 export function setVehicleActAsIfHasSirenOn(vehicle: VehicleIndex, actAsIfSirenOn: boolean): void {
 	const setVehicleActAsIfHasSirenOn_result = Citizen.invokeNative<void>('0xA29F097488D811A6', vehicle, actAsIfSirenOn);

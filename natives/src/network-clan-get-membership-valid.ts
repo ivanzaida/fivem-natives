@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x0E4DC83CCE846C81
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
- * @param {number} membership
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
+ * @param {number} membership
  * @returns {boolean}  
  */
 export function networkClanGetMembershipValid(gamerHandle: GamerHandle /* ptr */, membership: number): boolean {

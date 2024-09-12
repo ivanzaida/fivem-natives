@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x24B82F8CB7F8A3E5
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} maxCruiseSpeed
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} maxCruiseSpeed
  */
 export function setDriveTaskMaxCruiseSpeed(ped: PedIndex, maxCruiseSpeed: number): void {
 	const setDriveTaskMaxCruiseSpeed_result = Citizen.invokeNative<void>('0x24B82F8CB7F8A3E5', ped, maxCruiseSpeed);

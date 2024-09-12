@@ -6,9 +6,9 @@ import { NetworkIndex, EntityIndex } from '@ivanzaida/structures'
  * 0xF5014688C9788D5F
 
  * gets the entity id of a network id
- * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} netID
+ * 
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} netID
  * @returns {EntityIndex}  
  */
 export function netToEnt(netID: NetworkIndex): EntityIndex {

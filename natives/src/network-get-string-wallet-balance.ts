@@ -4,8 +4,8 @@
  * 0x815E568EDFA0F84F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} character
+ * ------------------------------------------------------------------
+ * @param {number} character
  * @returns {string}  
  */
 export function networkGetStringWalletBalance(character: number = 1): string {

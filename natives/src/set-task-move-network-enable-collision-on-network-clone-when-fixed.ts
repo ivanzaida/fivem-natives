@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x4A27E73B31F943DC
 
  * Doesn't actually return anything.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enableCollisionOnNetworkCloneWhenFixed
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enableCollisionOnNetworkCloneWhenFixed
  * @returns {boolean}  
  */
 export function setTaskMoveNetworkEnableCollisionOnNetworkCloneWhenFixed(ped: PedIndex, enableCollisionOnNetworkCloneWhenFixed: boolean): boolean {

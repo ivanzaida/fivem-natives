@@ -6,9 +6,9 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xAD1840C2E6AF7D5E
 
  * Returns whether the specified model represents a vehicle.
- * 
- * ------------------------------------------------------------------
- * @param {ModelNames} modelHashKey
+ * 
+ * ------------------------------------------------------------------
+ * @param {ModelNames} modelHashKey
  * @returns {boolean}  
  */
 export function isModelAVehicle(modelHashKey: ModelNames): boolean {

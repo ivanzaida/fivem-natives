@@ -4,8 +4,8 @@
  * 0x9F7EBAD31811A31E
 
  * 
- * ------------------------------------------------------------------
- * @param {string} bankName
+ * ------------------------------------------------------------------
+ * @param {string} bankName
  */
 export function unhintNamedScriptAudioBank(bankName: string): void {
 	const unhintNamedScriptAudioBank_result = Citizen.invokeNative<void>('0x9F7EBAD31811A31E', bankName);

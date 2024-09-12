@@ -6,8 +6,8 @@ import { EMatchmakingGroup } from '@ivanzaida/structures'
  * 0x90383DF0E1713198
 
  * 
- * ------------------------------------------------------------------
- * @param {EMatchmakingGroup} group
+ * ------------------------------------------------------------------
+ * @param {EMatchmakingGroup} group
  * @returns {number}  
  */
 export function networkSessionGetMatchmakingGroupFree(group: EMatchmakingGroup | number): number {

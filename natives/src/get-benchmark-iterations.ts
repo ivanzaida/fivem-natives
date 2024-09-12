@@ -4,8 +4,8 @@
  * 0x588D1FA610887CFD
 
  * Returns value of the '-benchmarkIterations' command line option.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getBenchmarkIterations(): number {

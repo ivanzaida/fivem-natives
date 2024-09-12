@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x92187CF73A8D1B96
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} ped
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} ped
  */
 export function stopPedRingtone(ped: EntityIndex): void {
 	const stopPedRingtone_result = Citizen.invokeNative<void>('0x92187CF73A8D1B96', ped);

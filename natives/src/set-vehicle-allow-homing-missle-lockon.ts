@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xECB40F3CD8E09468
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} allowHomingMissileLockon
- * @param {boolean} ignoreMisisonVehCheck
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} allowHomingMissileLockon
+ * @param {boolean} ignoreMisisonVehCheck
  */
 export function setVehicleAllowHomingMissleLockon(vehicle: VehicleIndex, allowHomingMissileLockon: boolean, ignoreMisisonVehCheck: boolean = false): void {
 	const setVehicleAllowHomingMissleLockon_result = Citizen.invokeNative<void>('0xECB40F3CD8E09468', vehicle, allowHomingMissileLockon, ignoreMisisonVehCheck);

@@ -4,8 +4,8 @@
  * 0xD17268F762AAD469
 
  * 
- * ------------------------------------------------------------------
- * @param {number} set
+ * ------------------------------------------------------------------
+ * @param {number} set
  */
 export function disableScriptBrainSet(set: number): void {
 	const disableScriptBrainSet_result = Citizen.invokeNative<void>('0xD17268F762AAD469', set);

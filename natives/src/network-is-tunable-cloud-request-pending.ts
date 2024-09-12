@@ -4,7 +4,7 @@
  * 0x1DD7AFEBE9FED010
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsTunableCloudRequestPending(): boolean {

@@ -6,8 +6,8 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0x0FB4A5FDA5B2A809
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickup
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickup
  * @returns {boolean}  
  */
 export function networkHasControlOfPickup(pickup: PickupIndex): boolean {

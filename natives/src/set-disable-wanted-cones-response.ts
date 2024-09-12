@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xAEC7FB421829031C
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} val
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} val
  */
 export function setDisableWantedConesResponse(vehicle: VehicleIndex, val: boolean): void {
 	const setDisableWantedConesResponse_result = Citizen.invokeNative<void>('0xAEC7FB421829031C', vehicle, val);

@@ -4,8 +4,8 @@
  * 0xB286852BCC387913
 
  * returns true if active switch is paused before descent but clear to proceed
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isSwitchReadyForDescent(): boolean {

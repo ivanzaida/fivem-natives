@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x26F0AA3C95EE2A6B
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} block
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} block
  */
 export function blockPedFromGeneratingDeadBodyEventsWhenDead(ped: PedIndex, block: boolean): void {
 	const blockPedFromGeneratingDeadBodyEventsWhenDead_result = Citizen.invokeNative<void>('0x26F0AA3C95EE2A6B', ped, block);

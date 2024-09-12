@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xB192A63C891A0E89
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
- * @param {boolean} allow
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
+ * @param {boolean} allow
  */
 export function allowPortablePickupToMigrateToNonParticipants(pickupID: ObjectIndex, allow: boolean): void {
 	const allowPortablePickupToMigrateToNonParticipants_result = Citizen.invokeNative<void>('0xB192A63C891A0E89', pickupID, allow);

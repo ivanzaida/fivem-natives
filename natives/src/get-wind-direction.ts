@@ -6,7 +6,7 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0xF12BE04302B5836E
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {Vector3}  
  */
 export function getWindDirection(): Vector3 {

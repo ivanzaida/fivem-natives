@@ -4,8 +4,8 @@
  * 0xD91B1F4829299334
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} block
+ * ------------------------------------------------------------------
+ * @param {boolean} block
  */
 export function networkBlockProxyMigrationBetweenTutorialSessions(block: boolean): void {
 	const networkBlockProxyMigrationBetweenTutorialSessions_result = Citizen.invokeNative<void>('0xD91B1F4829299334', block);

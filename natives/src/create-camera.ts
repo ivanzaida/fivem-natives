@@ -6,9 +6,9 @@ import { ECameraType, CameraIndex } from '@ivanzaida/structures'
  * 0xBB209150C6081BBE
 
  * 
- * ------------------------------------------------------------------
- * @param {ECameraType} camera
- * @param {boolean} startActivated Sets if the camera starts acive
+ * ------------------------------------------------------------------
+ * @param {ECameraType} camera
+ * @param {boolean} startActivated Sets if the camera starts acive
  * @returns {CameraIndex}  
  */
 export function createCamera(camera: ECameraType | number = 26379945, startActivated: boolean = false): CameraIndex {

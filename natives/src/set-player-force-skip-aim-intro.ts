@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x676D58067087BA0A
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} skipIntro
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} skipIntro
  */
 export function setPlayerForceSkipAimIntro(player: PlayerIndex, skipIntro: boolean): void {
 	const setPlayerForceSkipAimIntro_result = Citizen.invokeNative<void>('0x676D58067087BA0A', player, skipIntro);

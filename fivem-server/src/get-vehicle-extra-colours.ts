@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X80E4659B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} outExtraCarColour1
- * @param {number} outExtraCarColour2
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} outExtraCarColour1
+ * @param {number} outExtraCarColour2
  */
 export function getVehicleExtraColours(vehicle: VehicleIndex, outExtraCarColour1: number, outExtraCarColour2: number): void {
 	const getVehicleExtraColours_result = Citizen.invokeNative<void>('0X80E4659B', vehicle, outExtraCarColour1, outExtraCarColour2);

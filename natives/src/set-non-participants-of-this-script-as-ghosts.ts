@@ -4,8 +4,8 @@
  * 0x3EE3EB731E022D41
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {boolean} set
  */
 export function setNonParticipantsOfThisScriptAsGhosts(set: boolean): void {
 	const setNonParticipantsOfThisScriptAsGhosts_result = Citizen.invokeNative<void>('0x3EE3EB731E022D41', set);

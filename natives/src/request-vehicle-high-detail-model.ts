@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x53152C1272227778
 
  * Used primarily for cut scenes
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function requestVehicleHighDetailModel(vehicle: VehicleIndex): void {
 	const requestVehicleHighDetailModel_result = Citizen.invokeNative<void>('0x53152C1272227778', vehicle);

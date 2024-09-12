@@ -4,8 +4,8 @@
  * 0x616D6688F78D1729
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scriptNameHash
+ * ------------------------------------------------------------------
+ * @param {number} scriptNameHash
  * @returns {number}  
  */
 export function bgGetScriptIdFromNameHash(scriptNameHash: number): number {

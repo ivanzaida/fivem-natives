@@ -4,7 +4,7 @@
  * 0XFE2A1D4D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  Returns the amount of timecycle modifiers loaded.
  */
 export function getTimecycleModifierCount(): number {

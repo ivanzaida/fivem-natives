@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x3C2C878E6683CE75
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function resetPlayerArrestState(player: PlayerIndex): void {
 	const resetPlayerArrestState_result = Citizen.invokeNative<void>('0x3C2C878E6683CE75', player);

@@ -6,8 +6,8 @@ import { MissionEnd } from '@ivanzaida/structures'
  * 0x1CF82FBB85DD6ABB
 
  * 
- * ------------------------------------------------------------------
- * @param {MissionEnd} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {MissionEnd} data [Ref]
  */
 export function playstatsMissionEnded(data: MissionEnd /* ptr */): void {
 	const playstatsMissionEnded_result = Citizen.invokeNative<void>('0x1CF82FBB85DD6ABB', data.dataView);

@@ -4,9 +4,9 @@
  * 0x71673481F07D6434
 
  * Disables screen dimming for one frame.
- * Does nothing (it's a nullsub).
- * 
- * ------------------------------------------------------------------
+ * Does nothing (it's a nullsub).
+ * 
+ * ------------------------------------------------------------------
  */
 export function disableScreenDimmingThisFrame(): void {
 	const disableScreenDimmingThisFrame_result = Citizen.invokeNative<void>('0x71673481F07D6434', );

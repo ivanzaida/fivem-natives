@@ -4,8 +4,8 @@
  * 0x931C6A48678F5793
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} createRandomCops
+ * ------------------------------------------------------------------
+ * @param {boolean} createRandomCops
  */
 export function setCreateRandomCopsOnScenarios(createRandomCops: boolean): void {
 	const setCreateRandomCopsOnScenarios_result = Citizen.invokeNative<void>('0x931C6A48678F5793', createRandomCops);

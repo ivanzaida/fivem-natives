@@ -4,8 +4,8 @@
  * 0x2D6868095BD2DF64
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  */
 export function waterOverrideSetShorewaveamplitude(value: number): void {
 	const waterOverrideSetShorewaveamplitude_result = Citizen.invokeNative<void>('0x2D6868095BD2DF64', value);

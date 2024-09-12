@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xD7AF89E96BDD636E
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setForceFixLinkMatrices(vehicle: VehicleIndex): void {
 	const setForceFixLinkMatrices_result = Citizen.invokeNative<void>('0xD7AF89E96BDD636E', vehicle);

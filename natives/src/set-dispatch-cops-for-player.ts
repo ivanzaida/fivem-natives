@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xE383E18054CA323B
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} flag
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} flag
  */
 export function setDispatchCopsForPlayer(player: PlayerIndex, flag: boolean): void {
 	const setDispatchCopsForPlayer_result = Citizen.invokeNative<void>('0xE383E18054CA323B', player, flag);

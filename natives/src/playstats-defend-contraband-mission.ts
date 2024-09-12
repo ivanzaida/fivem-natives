@@ -6,8 +6,8 @@ import { DefendContrabandMission } from '@ivanzaida/structures'
  * 0x72940F2C0631BBEB
 
  * 
- * ------------------------------------------------------------------
- * @param {DefendContrabandMission} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {DefendContrabandMission} data [Ref]
  */
 export function playstatsDefendContrabandMission(data: DefendContrabandMission /* ptr */): void {
 	const playstatsDefendContrabandMission_result = Citizen.invokeNative<void>('0x72940F2C0631BBEB', data.dataView);

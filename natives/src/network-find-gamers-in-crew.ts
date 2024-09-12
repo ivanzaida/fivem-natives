@@ -4,8 +4,8 @@
  * 0x0C3213134B5223EB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} crewId
+ * ------------------------------------------------------------------
+ * @param {number} crewId
  * @returns {boolean}  
  */
 export function networkFindGamersInCrew(crewId: number): boolean {

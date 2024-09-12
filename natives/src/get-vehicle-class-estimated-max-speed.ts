@@ -6,8 +6,8 @@ import { EVehicleClass } from '@ivanzaida/structures'
  * 0xF5997120A0F53CD2
 
  * 
- * ------------------------------------------------------------------
- * @param {EVehicleClass} vehicleClass
+ * ------------------------------------------------------------------
+ * @param {EVehicleClass} vehicleClass
  * @returns {number}  
  */
 export function getVehicleClassEstimatedMaxSpeed(vehicleClass: EVehicleClass | number): number {

@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xDC05A8A020E60C86
 
  * Sets the wanted state of this vehicle.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} isWanted
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} isWanted
  */
 export function setVehicleIsWanted(vehicle: VehicleIndex, isWanted: boolean): void {
 	const setVehicleIsWanted_result = Citizen.invokeNative<void>('0xDC05A8A020E60C86', vehicle, isWanted);

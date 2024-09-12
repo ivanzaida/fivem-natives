@@ -4,8 +4,8 @@
  * 0XA2737C2C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
  * @returns {number}  The amount of rooms in interior.
  */
 export function getInteriorRoomCount(interiorId: number): number {

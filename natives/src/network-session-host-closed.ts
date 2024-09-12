@@ -4,9 +4,9 @@
  * 0xE2C5447EB91CC682
 
  * 
- * ------------------------------------------------------------------
- * @param {number} gameMode
- * @param {number} maxPlayers
+ * ------------------------------------------------------------------
+ * @param {number} gameMode
+ * @param {number} maxPlayers
  * @returns {boolean}  
  */
 export function networkSessionHostClosed(gameMode: number, maxPlayers: number): boolean {

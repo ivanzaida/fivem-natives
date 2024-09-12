@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x53A0D6983FA95432
 
  * 
- * ------------------------------------------------------------------
- * @param {number} cardType
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} cardType
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {boolean}  
  */
 export function networkCheckDataManagerForHandle(cardType: number, gamerHandle: GamerHandle /* ptr */): boolean {

@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x001B008A010F2FE6
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} fadeOut
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} fadeOut
  */
 export function removeEntityFromAudioMixGroup(entity: EntityIndex, fadeOut: number = 0): void {
 	const removeEntityFromAudioMixGroup_result = Citizen.invokeNative<void>('0x001B008A010F2FE6', entity, fadeOut);

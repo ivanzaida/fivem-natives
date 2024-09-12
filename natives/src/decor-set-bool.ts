@@ -6,11 +6,11 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0xF46ECFD5526E8FF7
 
  * This function sets metadata of type bool to specified entity.
- * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
- * @param {boolean} value
+ * 
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
+ * @param {boolean} value
  * @returns {boolean}  
  */
 export function decorSetBool(guid: ItemIndex, decoratorName: string, value: boolean): boolean {

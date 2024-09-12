@@ -4,9 +4,9 @@
  * 0XA8AE9C2F
 
  * 
- * ------------------------------------------------------------------
- * @param {string} callbackType
- * @param {Function} callback
+ * ------------------------------------------------------------------
+ * @param {string} callbackType
+ * @param {Function} callback
  */
 export function registerRawNuiCallback(callbackType: string, callback: Function): void {
 	const registerRawNuiCallback_result = Citizen.invokeNative<void>('0XA8AE9C2F', callbackType, callback);

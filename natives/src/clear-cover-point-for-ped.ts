@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xE3AACA4B344A6492
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function clearCoverPointForPed(ped: PedIndex): void {
 	const clearCoverPointForPed_result = Citizen.invokeNative<void>('0xE3AACA4B344A6492', ped);

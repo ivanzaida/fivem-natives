@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xF2B38A65CE1CD227
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  * @returns {number}  
  */
 export function networkGetPlayerLoudness(netPlayerID: PlayerIndex): number {

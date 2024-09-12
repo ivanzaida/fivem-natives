@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xB8CCCA6CFFCE7734
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {PedIndex} targetPed
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {PedIndex} targetPed
  * @returns {boolean}  
  */
 export function canPedInCombatSeeTarget(ped: PedIndex, targetPed: PedIndex): boolean {

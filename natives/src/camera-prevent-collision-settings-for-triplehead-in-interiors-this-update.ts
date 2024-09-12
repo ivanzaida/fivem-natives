@@ -4,7 +4,7 @@
  * 0xF2BADB0BD95BDD7D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function cameraPreventCollisionSettingsForTripleheadInInteriorsThisUpdate(): void {
 	const cameraPreventCollisionSettingsForTripleheadInInteriorsThisUpdate_result = Citizen.invokeNative<void>('0xF2BADB0BD95BDD7D', );

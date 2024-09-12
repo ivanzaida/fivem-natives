@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x26A004F4BA50E71C
 
  * Returns true/false if the ped is/isn't humanoid.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedHuman(ped: PedIndex): boolean {

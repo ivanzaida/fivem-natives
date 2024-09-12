@@ -6,11 +6,11 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0xB0D23E19A23DCAAF
 
  * Sets whether to use high precision rotation network for the specified network ID. Currently this can only be
- * called on objects (not vehicles and peds).
- * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
- * @param {boolean} useHighPrecision
+ * called on objects (not vehicles and peds).
+ * 
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
+ * @param {boolean} useHighPrecision
  */
 export function networkEntityUseHighPrecisionRotation(networkId: NetworkIndex, useHighPrecision: boolean): void {
 	const networkEntityUseHighPrecisionRotation_result = Citizen.invokeNative<void>('0xB0D23E19A23DCAAF', networkId, useHighPrecision);

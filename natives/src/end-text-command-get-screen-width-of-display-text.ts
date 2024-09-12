@@ -4,8 +4,8 @@
  * 0x43026780D77E3DC0
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} includeSpaces
+ * ------------------------------------------------------------------
+ * @param {boolean} includeSpaces
  * @returns {number}  
  */
 export function endTextCommandGetScreenWidthOfDisplayText(includeSpaces: boolean): number {

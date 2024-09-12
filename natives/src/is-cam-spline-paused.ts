@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x948A3D156F2E0E3A
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {boolean}  
  */
 export function isCamSplinePaused(camera: CameraIndex): boolean {

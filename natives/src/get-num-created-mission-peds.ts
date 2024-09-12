@@ -4,8 +4,8 @@
  * 0x594FD1B13DCC309E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} forAllScripts
+ * ------------------------------------------------------------------
+ * @param {boolean} forAllScripts
  * @returns {number}  
  */
 export function getNumCreatedMissionPeds(forAllScripts: boolean = false): number {

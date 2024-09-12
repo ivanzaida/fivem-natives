@@ -4,9 +4,9 @@
  * 0x2D6CAE334C3034FD
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szUserID
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szUserID
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcGetCreatorsByUserId(szUserID: string, szContentType: string): boolean {

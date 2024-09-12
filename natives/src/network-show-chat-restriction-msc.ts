@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x230CD2039E115591
 
  * Call to show system message about chat restriction.
- * Does nothing (it's a nullsub).
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} localGamer
+ * Does nothing (it's a nullsub).
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} localGamer
  */
 export function networkShowChatRestrictionMsc(localGamer: PlayerIndex): void {
 	const networkShowChatRestrictionMsc_result = Citizen.invokeNative<void>('0x230CD2039E115591', localGamer);

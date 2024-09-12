@@ -4,8 +4,8 @@
  * 0x7A3449D1CF40578C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnCarclubMembership(amount: number): void {
 	const networkEarnCarclubMembership_result = Citizen.invokeNative<void>('0x7A3449D1CF40578C', amount);

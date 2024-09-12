@@ -7,11 +7,11 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0xC557C842E425A746
 
  * 
- * ------------------------------------------------------------------
- * @param {Vector3} outLocation [Ref]
- * @param {Vector3} outRotation [Ref]
- * @param {number} element
- * @param {EElementLocBlock} block
+ * ------------------------------------------------------------------
+ * @param {Vector3} outLocation [Ref]
+ * @param {Vector3} outRotation [Ref]
+ * @param {number} element
+ * @param {EElementLocBlock} block
  * @returns {boolean}  
  */
 export function getBaseElementLocationFromMetadataBlock(outLocation: Vector3 /* ptr */, outRotation: Vector3 /* ptr */, element: number, block: EElementLocBlock | number): boolean {

@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0xAF52AA4A49D4A9B4
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {boolean}  
  */
 export function networkGetCurrentlySelectedGamerHandleFromInviteMenu(gamerHandle: GamerHandle /* ptr */): boolean {

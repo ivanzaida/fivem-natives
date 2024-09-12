@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x57619EEF13EEBFBE
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  */
 export function setObjectGlowInSameTeam(object: ObjectIndex): void {
 	const setObjectGlowInSameTeam_result = Citizen.invokeNative<void>('0x57619EEF13EEBFBE', object);

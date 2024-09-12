@@ -6,9 +6,9 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  * 0xE5EF4685EE5EF675
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {IntRef} entity [Ref]
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {IntRef} entity [Ref]
  * @returns {boolean}  
  */
 export function getVehicleLockOnTarget(vehicle: VehicleIndex, entity: IntRef /* ptr */): boolean {

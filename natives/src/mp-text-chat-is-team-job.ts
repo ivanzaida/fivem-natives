@@ -4,8 +4,8 @@
  * 0x5C381D09C558ACD0
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} isTeamJob
+ * ------------------------------------------------------------------
+ * @param {boolean} isTeamJob
  */
 export function mpTextChatIsTeamJob(isTeamJob: boolean): void {
 	const mpTextChatIsTeamJob_result = Citizen.invokeNative<void>('0x5C381D09C558ACD0', isTeamJob);

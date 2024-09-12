@@ -4,8 +4,8 @@
  * 0x5A3F0A3B7ECCBD32
 
  * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
  * @returns {number}  
  */
 export function getShopPedApparelVariantComponentCount(nameHash: number): number {

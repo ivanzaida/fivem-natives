@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x0C771CCC16BC7A60
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function knockPedOffVehicle(ped: PedIndex): void {
 	const knockPedOffVehicle_result = Citizen.invokeNative<void>('0x0C771CCC16BC7A60', ped);

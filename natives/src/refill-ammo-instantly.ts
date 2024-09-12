@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3CB575F4FC5A6DCB
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function refillAmmoInstantly(ped: PedIndex): boolean {

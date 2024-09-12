@@ -6,12 +6,12 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x3C38570F42680D56
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} model
- * @param {number} pointX
- * @param {number} pointY
- * @param {number} pointZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {ModelNames} model
+ * @param {number} pointX
+ * @param {number} pointY
+ * @param {number} pointZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isObjectNearPoint(model: ModelNames, pointX: number, pointY: number, pointZ: number, radius: number): boolean {

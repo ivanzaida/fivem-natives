@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x585FB8B7945FC92A
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  * @returns {boolean}  
  */
 export function networkHasViewGamerUserContentResult(gamer: GamerHandle /* ptr */): boolean {

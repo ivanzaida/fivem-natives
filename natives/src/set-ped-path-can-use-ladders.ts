@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xDAB3EED1D80C2712
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} useLadders
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} useLadders
  */
 export function setPedPathCanUseLadders(ped: PedIndex, useLadders: boolean): void {
 	const setPedPathCanUseLadders_result = Citizen.invokeNative<void>('0xDAB3EED1D80C2712', ped, useLadders);

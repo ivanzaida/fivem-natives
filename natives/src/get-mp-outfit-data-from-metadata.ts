@@ -6,9 +6,9 @@ import { MpOutfitsData, MpOutfitsDataRequest } from '@ivanzaida/structures'
  * 0x386E4537DAFC3779
 
  * 
- * ------------------------------------------------------------------
- * @param {MpOutfitsData} outfitData [Ref]
- * @param {MpOutfitsDataRequest} outfitDataRequest [Ref]
+ * ------------------------------------------------------------------
+ * @param {MpOutfitsData} outfitData [Ref]
+ * @param {MpOutfitsDataRequest} outfitDataRequest [Ref]
  * @returns {boolean}  
  */
 export function getMpOutfitDataFromMetadata(outfitData: MpOutfitsData /* ptr */, outfitDataRequest: MpOutfitsDataRequest /* ptr */): boolean {

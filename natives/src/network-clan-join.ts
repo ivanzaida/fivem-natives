@@ -4,8 +4,8 @@
  * 0xA360DA3480F0FFB9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} clanId
+ * ------------------------------------------------------------------
+ * @param {number} clanId
  * @returns {boolean}  
  */
 export function networkClanJoin(clanId: number): boolean {

@@ -6,8 +6,8 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0x76AF286385CB7A3A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} controlPoint
+ * ------------------------------------------------------------------
+ * @param {number} controlPoint
  * @returns {Vector3}  
  */
 export function golfTrailGetVisualControlPoint(controlPoint: number): Vector3 {

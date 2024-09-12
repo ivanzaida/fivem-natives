@@ -6,8 +6,8 @@ import { NightclubMissionEnded } from '@ivanzaida/structures'
  * 0xA96F57BEEBDCD7FD
 
  * 
- * ------------------------------------------------------------------
- * @param {NightclubMissionEnded} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {NightclubMissionEnded} data [Ref]
  */
 export function playstatsNightclubMissionEnded(data: NightclubMissionEnded /* ptr */): void {
 	const playstatsNightclubMissionEnded_result = Citizen.invokeNative<void>('0xA96F57BEEBDCD7FD', data.dataView);

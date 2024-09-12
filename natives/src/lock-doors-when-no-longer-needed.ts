@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x5A78FA8C86A9587A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function lockDoorsWhenNoLongerNeeded(vehicle: VehicleIndex): void {
 	const lockDoorsWhenNoLongerNeeded_result = Citizen.invokeNative<void>('0x5A78FA8C86A9587A', vehicle);

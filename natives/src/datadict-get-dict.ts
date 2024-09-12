@@ -4,9 +4,9 @@
  * 0x6BDE656A2A2932FC
 
  * 
- * ------------------------------------------------------------------
- * @param {string} parent
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} parent
+ * @param {string} name
  * @returns {string}  
  */
 export function datadictGetDict(parent: string, name: string): string {

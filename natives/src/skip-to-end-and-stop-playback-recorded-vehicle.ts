@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x948DDF2EBE37571B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function skipToEndAndStopPlaybackRecordedVehicle(vehicle: VehicleIndex): void {
 	const skipToEndAndStopPlaybackRecordedVehicle_result = Citizen.invokeNative<void>('0x948DDF2EBE37571B', vehicle);

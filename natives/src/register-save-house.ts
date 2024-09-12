@@ -6,15 +6,15 @@ import { ModelNames, SaveHouseIndex } from '@ivanzaida/structures'
  * 0x869634E57B4F3343
 
  * returns savehouseHandle
- * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} heading
- * @param {string} roomName
- * @param {number} mapAreaName
- * @param {ModelNames} playerModelNameHash
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
+ * @param {number} heading
+ * @param {string} roomName
+ * @param {number} mapAreaName
+ * @param {ModelNames} playerModelNameHash
  * @returns {SaveHouseIndex}  
  */
 export function registerSaveHouse(coorsX: number, coorsY: number, coorsZ: number, heading: number, roomName: string, mapAreaName: number, playerModelNameHash: ModelNames = 0): SaveHouseIndex {

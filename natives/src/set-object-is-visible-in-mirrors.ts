@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x5D56BEB3F5597195
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {boolean} enable
  */
 export function setObjectIsVisibleInMirrors(object: ObjectIndex, enable: boolean): void {
 	const setObjectIsVisibleInMirrors_result = Citizen.invokeNative<void>('0x5D56BEB3F5597195', object, enable);

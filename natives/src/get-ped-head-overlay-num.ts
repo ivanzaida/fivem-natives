@@ -4,8 +4,8 @@
  * 0x6D19BF3A83702C49
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {number}  
  */
 export function getPedHeadOverlayNum(slot: number): number {

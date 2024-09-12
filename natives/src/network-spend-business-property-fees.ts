@@ -6,11 +6,11 @@ import { BusinessUtilBreakdown } from '@ivanzaida/structures'
  * 0xCF0625D5D2A8F298
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
- * @param {BusinessUtilBreakdown} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
+ * @param {BusinessUtilBreakdown} data [Ref]
  */
 export function networkSpendBusinessPropertyFees(amount: number, fromBank: boolean, fromBankAndWallet: boolean, data: BusinessUtilBreakdown /* ptr */): void {
 	const networkSpendBusinessPropertyFees_result = Citizen.invokeNative<void>('0xCF0625D5D2A8F298', amount, fromBank, fromBankAndWallet, data.dataView);

@@ -4,8 +4,8 @@
  * 0x9288ABAC1FCB4745
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} block
+ * ------------------------------------------------------------------
+ * @param {boolean} block
  */
 export function setBlockingOfNonTemporaryEventsForAmbientPedsThisFrame(block: boolean): void {
 	const setBlockingOfNonTemporaryEventsForAmbientPedsThisFrame_result = Citizen.invokeNative<void>('0x9288ABAC1FCB4745', block);

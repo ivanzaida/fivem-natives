@@ -4,8 +4,8 @@
  * 0xDAE61414743C8D1D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} newMaxLevel
+ * ------------------------------------------------------------------
+ * @param {number} newMaxLevel
  */
 export function setMaxWantedLevel(newMaxLevel: number): void {
 	const setMaxWantedLevel_result = Citizen.invokeNative<void>('0xDAE61414743C8D1D', newMaxLevel);

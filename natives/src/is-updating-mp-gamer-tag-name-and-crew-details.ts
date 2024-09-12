@@ -4,8 +4,8 @@
  * 0xFF7D32FE4F34D7DD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} playerNum
+ * ------------------------------------------------------------------
+ * @param {number} playerNum
  * @returns {boolean}  
  */
 export function isUpdatingMpGamerTagNameAndCrewDetails(playerNum: number): boolean {

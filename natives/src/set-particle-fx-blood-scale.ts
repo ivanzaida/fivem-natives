@@ -4,8 +4,8 @@
  * 0xEF93301BC8E9BF71
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scale
+ * ------------------------------------------------------------------
+ * @param {number} scale
  */
 export function setParticleFxBloodScale(scale: number): void {
 	const setParticleFxBloodScale_result = Citizen.invokeNative<void>('0xEF93301BC8E9BF71', scale);

@@ -6,13 +6,13 @@ import { EntityIndex, EEntityType } from '@ivanzaida/structures'
  * 0x75A2D1BBA9D95D0E
 
  * Returns:
- * 0 = no entity
- * 1 = ped
- * 2 = vehicle
- * 3 = object
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 0 = no entity
+ * 1 = ped
+ * 2 = vehicle
+ * 3 = object
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {EEntityType}  
  */
 export function getEntityType(entity: EntityIndex): EEntityType {

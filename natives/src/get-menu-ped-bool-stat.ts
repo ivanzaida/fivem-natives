@@ -6,10 +6,10 @@ import { EStatsenum, BoolRef } from '@ivanzaida/structures'
  * 0xE72DC686E764EE0F
 
  * p0 was always 0xAE2602A3.
- * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {BoolRef} data [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {BoolRef} data [Ref]
  * @returns {boolean}  
  */
 export function getMenuPedBoolStat(keyHash: EStatsenum | number, data: BoolRef /* ptr */): boolean {

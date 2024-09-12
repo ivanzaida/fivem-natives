@@ -4,8 +4,8 @@
  * 0xC2FDE8BF0797A991
 
  * 
- * ------------------------------------------------------------------
- * @param {number} uniqueCrewLimit
+ * ------------------------------------------------------------------
+ * @param {number} uniqueCrewLimit
  */
 export function networkSessionSetUniqueCrewLimit(uniqueCrewLimit: number): void {
 	const networkSessionSetUniqueCrewLimit_result = Citizen.invokeNative<void>('0xC2FDE8BF0797A991', uniqueCrewLimit);

@@ -4,7 +4,7 @@
  * 0X84E02A32
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  Talker proximity value.
  */
 export function mumbleGetTalkerProximity(): number {

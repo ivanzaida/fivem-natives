@@ -4,8 +4,8 @@
  * 0x944042019AAAD145
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function statLoadPending(slot: number = 1): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x133460AD0F183CC9
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedInGroup(ped: PedIndex): boolean {

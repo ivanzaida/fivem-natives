@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X95070FA
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} train The entity handle.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} train The entity handle.
  * @returns {number}  The train engine carriage.
  */
 export function getTrainCarriageEngine(train: VehicleIndex): number {

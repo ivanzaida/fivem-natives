@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x1864096A95E36EBA
 
  * Gets the player's team.
- * Does nothing in singleplayer.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * Does nothing in singleplayer.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {number}  
  */
 export function getPlayerTeam(player: PlayerIndex): number {

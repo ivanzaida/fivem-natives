@@ -4,8 +4,8 @@
  * 0x946CF11741899D4C
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} disableRetracting
+ * ------------------------------------------------------------------
+ * @param {boolean} disableRetracting
  */
 export function setDisableRetractingWeaponBlades(disableRetracting: boolean): void {
 	const setDisableRetractingWeaponBlades_result = Citizen.invokeNative<void>('0x946CF11741899D4C', disableRetracting);

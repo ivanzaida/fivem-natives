@@ -4,8 +4,8 @@
  * 0x1F6B09FE73B99828
 
  * 
- * ------------------------------------------------------------------
- * @param {number} identifierHash
+ * ------------------------------------------------------------------
+ * @param {number} identifierHash
  * @returns {number}  
  */
 export function getDlcVehicleModLockHash(identifierHash: number): number {

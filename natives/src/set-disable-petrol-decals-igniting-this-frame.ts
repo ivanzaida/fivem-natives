@@ -4,7 +4,7 @@
  * 0xAB03CF772B43A288
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setDisablePetrolDecalsIgnitingThisFrame(): void {
 	const setDisablePetrolDecalsIgnitingThisFrame_result = Citizen.invokeNative<void>('0xAB03CF772B43A288', );

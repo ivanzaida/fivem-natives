@@ -6,9 +6,9 @@ import { PtfxId } from '@ivanzaida/structures'
  * 0xC3E3C19E6844ABAB
 
  * 
- * ------------------------------------------------------------------
- * @param {PtfxId} ptfxId
- * @param {number} farClipDist
+ * ------------------------------------------------------------------
+ * @param {PtfxId} ptfxId
+ * @param {number} farClipDist
  */
 export function setParticleFxLoopedFarClipDist(ptfxId: PtfxId, farClipDist: number): void {
 	const setParticleFxLoopedFarClipDist_result = Citizen.invokeNative<void>('0xC3E3C19E6844ABAB', ptfxId, farClipDist);

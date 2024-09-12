@@ -6,10 +6,10 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xF31BAE02C52ADEFD
 
  * Request results of visibility tracking for an object
- * return TRUE if visibile, FALSE if not.
- * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} objectID
+ * return TRUE if visibile, FALSE if not.
+ * 
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} objectID
  * @returns {boolean}  
  */
 export function isObjectVisible(objectID: ObjectIndex): boolean {

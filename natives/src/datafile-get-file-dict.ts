@@ -4,8 +4,8 @@
  * 0x6C99356A4D3C7B09
 
  * 
- * ------------------------------------------------------------------
- * @param {number} datafile
+ * ------------------------------------------------------------------
+ * @param {number} datafile
  * @returns {string}  
  */
 export function datafileGetFileDict(datafile: number = 0): string {

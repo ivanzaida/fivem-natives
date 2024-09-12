@@ -4,8 +4,8 @@
  * 0x71052C5B6562E5BD
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enableThisFrame
+ * ------------------------------------------------------------------
+ * @param {boolean} enableThisFrame
  */
 export function networkEnableEmptyCrowdingVehiclesRemoval(enableThisFrame: boolean): void {
 	const networkEnableEmptyCrowdingVehiclesRemoval_result = Citizen.invokeNative<void>('0x71052C5B6562E5BD', enableThisFrame);

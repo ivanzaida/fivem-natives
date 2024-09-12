@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0XFAA6CB5D
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} outEntity [Ref]
  * @returns {number}  
  */
 export function findFirstObject(outEntity: IntRef /* ptr */): number {

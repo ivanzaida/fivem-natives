@@ -4,8 +4,8 @@
  * 0xDC393E3CE8A00E9D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} file
+ * ------------------------------------------------------------------
+ * @param {number} file
  * @returns {string}  
  */
 export function datafileGetFileDictForAdditionalDataFile(file: number): string {

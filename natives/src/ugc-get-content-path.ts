@@ -4,9 +4,9 @@
  * 0xEA3E22389A733263
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {number} fileID
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {number} fileID
  * @returns {string}  
  */
 export function ugcGetContentPath(content: number, fileID: number = 0): string {

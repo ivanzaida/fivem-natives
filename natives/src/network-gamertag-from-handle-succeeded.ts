@@ -4,7 +4,7 @@
  * 0xA44A2B8A83947D02
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkGamertagFromHandleSucceeded(): boolean {

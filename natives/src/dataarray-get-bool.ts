@@ -4,9 +4,9 @@
  * 0x2150C2FC641364CC
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
+ * @param {number} index
  * @returns {boolean}  
  */
 export function dataarrayGetBool(arr: string[], index: number): boolean {

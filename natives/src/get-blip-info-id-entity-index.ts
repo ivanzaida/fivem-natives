@@ -6,8 +6,8 @@ import { BlipIndex, VehicleIndex } from '@ivanzaida/structures'
  * 0xA143F1936B350BD0
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blipId
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blipId
  * @returns {VehicleIndex}  
  */
 export function getBlipInfoIdEntityIndex(blipId: BlipIndex): VehicleIndex {

@@ -4,8 +4,8 @@
  * 0x095CCC9C5DC3BBF2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} token
+ * ------------------------------------------------------------------
+ * @param {number} token
  * @returns {boolean}  
  */
 export function scLicenseplateGetCheckIsValid(token: number): boolean {

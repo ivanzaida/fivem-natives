@@ -4,9 +4,9 @@
  * 0x4AE9635532D92447
 
  * Returns the aspect ratio of game
- * 
- * ------------------------------------------------------------------
- * @param {boolean} physicalAspect
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} physicalAspect
  * @returns {number}  
  */
 export function getAspectRatio(physicalAspect: boolean): number {

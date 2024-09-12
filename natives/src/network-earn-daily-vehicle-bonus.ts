@@ -4,8 +4,8 @@
  * 0x0C9F128BF7D93196
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnDailyVehicleBonus(amount: number): void {
 	const networkEarnDailyVehicleBonus_result = Citizen.invokeNative<void>('0x0C9F128BF7D93196', amount);

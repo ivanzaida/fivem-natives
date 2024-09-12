@@ -4,9 +4,9 @@
  * 0xF4141D223F2B1C76
 
  * Remnant from GTA IV. Does nothing in GTA V.
- * 
- * ------------------------------------------------------------------
- * @param {number} wantedLevel
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} wantedLevel
  * @returns {number}  
  */
 export function getWantedLevelRadius(wantedLevel: number): number {

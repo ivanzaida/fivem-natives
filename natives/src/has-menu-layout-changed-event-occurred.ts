@@ -4,7 +4,7 @@
  * 0x0A5BC2689B1DF62B
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function hasMenuLayoutChangedEventOccurred(): boolean {

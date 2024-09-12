@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xAB4E52390141B4E7
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setWheelsExtendedInstantly(vehicle: VehicleIndex): void {
 	const setWheelsExtendedInstantly_result = Citizen.invokeNative<void>('0xAB4E52390141B4E7', vehicle);

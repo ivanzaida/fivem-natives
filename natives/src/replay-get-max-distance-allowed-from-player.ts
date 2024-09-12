@@ -4,7 +4,7 @@
  * 0x37A742571A01BD01
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function replayGetMaxDistanceAllowedFromPlayer(): number {

@@ -4,11 +4,11 @@
  * 0x97BC40FFA2FFCCD2
 
  * dx = x1 - x2
- * dy = y1 - y2
- * 
- * ------------------------------------------------------------------
- * @param {number} x
- * @param {number} y
+ * dy = y1 - y2
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} x
+ * @param {number} y
  * @returns {number}  
  */
 export function getHeadingFromVector_2D(x: number, y: number): number {

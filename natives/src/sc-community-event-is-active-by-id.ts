@@ -4,8 +4,8 @@
  * 0x0DA41896C7810BBB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} eventId
+ * ------------------------------------------------------------------
+ * @param {number} eventId
  * @returns {boolean}  
  */
 export function scCommunityEventIsActiveById(eventId: number): boolean {

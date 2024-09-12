@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x8C1172B230F4EB1A
 
  * Max value is 32767
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} removalRange
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} removalRange
  */
 export function setVehicleExtendedRemovalRange(vehicle: VehicleIndex, removalRange: number): void {
 	const setVehicleExtendedRemovalRange_result = Citizen.invokeNative<void>('0x8C1172B230F4EB1A', vehicle, removalRange);

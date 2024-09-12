@@ -4,10 +4,10 @@
  * 0XDEF0480B
 
  * Requests whether or not the player owns the specified package.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
- * @param {number} skuId The package ID on Tebex.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
+ * @param {number} skuId The package ID on Tebex.
  * @returns {boolean}  A boolean.
  */
 export function doesPlayerOwnSkuExt(playerSrc: string, skuId: number): boolean {

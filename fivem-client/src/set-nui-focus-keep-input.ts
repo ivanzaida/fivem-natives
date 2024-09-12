@@ -4,8 +4,8 @@
  * 0X3FF5E5F8
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} keepInput
+ * ------------------------------------------------------------------
+ * @param {boolean} keepInput
  */
 export function setNuiFocusKeepInput(keepInput: boolean): void {
 	const setNuiFocusKeepInput_result = Citizen.invokeNative<void>('0X3FF5E5F8', keepInput);

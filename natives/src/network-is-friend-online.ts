@@ -4,8 +4,8 @@
  * 0xB8CDCB967533FCB3
 
  * 
- * ------------------------------------------------------------------
- * @param {string} friendName
+ * ------------------------------------------------------------------
+ * @param {string} friendName
  * @returns {boolean}  
  */
 export function networkIsFriendOnline(friendName: string): boolean {

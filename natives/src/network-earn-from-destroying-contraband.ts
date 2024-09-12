@@ -4,8 +4,8 @@
  * 0x95508E1DCDC31638
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnFromDestroyingContraband(amount: number): void {
 	const networkEarnFromDestroyingContraband_result = Citizen.invokeNative<void>('0x95508E1DCDC31638', amount);

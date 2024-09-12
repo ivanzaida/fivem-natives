@@ -4,8 +4,8 @@
  * 0x45059C350D918C38
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} disable
+ * ------------------------------------------------------------------
+ * @param {boolean} disable
  */
 export function disableRegionVfx(disable: boolean): void {
 	const disableRegionVfx_result = Citizen.invokeNative<void>('0x45059C350D918C38', disable);

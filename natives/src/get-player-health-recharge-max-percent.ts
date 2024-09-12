@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x4FF4A601A84AE24A
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {number}  
  */
 export function getPlayerHealthRechargeMaxPercent(player: PlayerIndex): number {

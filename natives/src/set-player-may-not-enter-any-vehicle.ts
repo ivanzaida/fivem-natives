@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xC33666575B6C63DB
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function setPlayerMayNotEnterAnyVehicle(player: PlayerIndex): void {
 	const setPlayerMayNotEnterAnyVehicle_result = Citizen.invokeNative<void>('0xC33666575B6C63DB', player);

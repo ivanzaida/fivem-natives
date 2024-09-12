@@ -4,9 +4,9 @@
  * 0xEB1C67C3A5333A92
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scriptHash
- * @param {number} stackSize
+ * ------------------------------------------------------------------
+ * @param {number} scriptHash
+ * @param {number} stackSize
  * @returns {number}  
  */
 export function startNewScriptWithNameHash(scriptHash: number, stackSize: number): number {

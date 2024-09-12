@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xA81F12900F3749B3
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} thrust
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} thrust
  */
 export function setParachuteTaskThrust(ped: PedIndex, thrust: number): void {
 	const setParachuteTaskThrust_result = Citizen.invokeNative<void>('0xA81F12900F3749B3', ped, thrust);

@@ -4,8 +4,8 @@
  * 0x289AEE012C9C5F5D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scaling
+ * ------------------------------------------------------------------
+ * @param {number} scaling
  */
 export function cellCamSetSelfieModeVertPanOffset(scaling: number): void {
 	const cellCamSetSelfieModeVertPanOffset_result = Citizen.invokeNative<void>('0x289AEE012C9C5F5D', scaling);

@@ -4,8 +4,8 @@
  * 0x55F006B9D4A46C1D
 
  * Used for SERVICE_EARN_AVENGER_OPERATIONS & SERVICE_EARN_AVENGER_OPS_BONUS
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  */
 export function networkEarnAvenger(): void {
 	const networkEarnAvenger_result = Citizen.invokeNative<void>('0x55F006B9D4A46C1D', );

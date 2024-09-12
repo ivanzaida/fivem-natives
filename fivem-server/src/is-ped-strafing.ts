@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0XEFEED13C
 
  * What's strafing?
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedStrafing(ped: PedIndex): boolean {

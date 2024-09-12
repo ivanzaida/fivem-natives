@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0X1E546224
 
  * Returns the first owner ID of the specified entity.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity The entity to get the first owner for.
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity The entity to get the first owner for.
  * @returns {number}  The server ID of the first entity owner.
  */
 export function networkGetFirstEntityOwner(entity: EntityIndex): number {

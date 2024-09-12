@@ -4,9 +4,9 @@
  * 0x5AEB336317DC4151
 
  * Full list of IPLs and interior entity sets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ipls.json
- * 
- * ------------------------------------------------------------------
- * @param {string} iplName
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} iplName
  * @returns {boolean}  
  */
 export function isIplActive(iplName: string): boolean {

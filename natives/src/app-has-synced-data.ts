@@ -4,8 +4,8 @@
  * 0xAEC6A486BE509E01
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {boolean}  
  */
 export function appHasSyncedData(name: string): boolean {

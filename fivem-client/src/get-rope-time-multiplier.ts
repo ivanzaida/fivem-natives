@@ -4,8 +4,8 @@
  * 0XF341E6CA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} rope The rope to get the time multiplier for.
+ * ------------------------------------------------------------------
+ * @param {number} rope The rope to get the time multiplier for.
  * @returns {number}  The rope's time multiplier.
  */
 export function getRopeTimeMultiplier(rope: number): number {

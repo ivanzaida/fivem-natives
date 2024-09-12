@@ -4,8 +4,8 @@
  * 0x2B3F2546A5C7ED4F
 
  * 
- * ------------------------------------------------------------------
- * @param {string} actionMode
+ * ------------------------------------------------------------------
+ * @param {string} actionMode
  * @returns {boolean}  
  */
 export function hasActionModeAssetLoaded(actionMode: string): boolean {

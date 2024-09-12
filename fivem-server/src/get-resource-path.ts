@@ -4,9 +4,9 @@
  * 0X61DCF017
 
  * Returns the physical on-disk path of the specified resource.
- * 
- * ------------------------------------------------------------------
- * @param {string} resourceName The name of the resource.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} resourceName The name of the resource.
  * @returns {string}  The resource directory name, possibly without trailing slash.
  */
 export function getResourcePath(resourceName: string): string {

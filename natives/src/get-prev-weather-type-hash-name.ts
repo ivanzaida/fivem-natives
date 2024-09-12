@@ -4,9 +4,9 @@
  * 0xED2E53B1A3927830
 
  * Gets the hash name of the previous weather type (the one we are currently interpolating from)
- * Returns current weather name hash
- * 
- * ------------------------------------------------------------------
+ * Returns current weather name hash
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getPrevWeatherTypeHashName(): number {

@@ -4,8 +4,8 @@
  * 0xE29951C625F69A92
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {number}  
  */
 export function doorSystemGetAutomaticDistance(doorEnumHash: number): number {

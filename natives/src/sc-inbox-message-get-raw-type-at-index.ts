@@ -4,8 +4,8 @@
  * 0x45A989529B3F2C25
 
  * 
- * ------------------------------------------------------------------
- * @param {number} msg
+ * ------------------------------------------------------------------
+ * @param {number} msg
  * @returns {string}  
  */
 export function scInboxMessageGetRawTypeAtIndex(msg: number): string {

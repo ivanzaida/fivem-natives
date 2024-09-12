@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x182BD9AD1675B5DE
 
  * Returns true when in a vehicle, false whilst entering/exiting.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getIsVehicleEngineRunning(vehicle: VehicleIndex): boolean {

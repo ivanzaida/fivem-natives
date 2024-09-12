@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xE8CE8BAA294AD605
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enable
  */
 export function setPedEnableCrewEmblem(ped: PedIndex, enable: boolean): void {
 	const setPedEnableCrewEmblem_result = Citizen.invokeNative<void>('0xE8CE8BAA294AD605', ped, enable);

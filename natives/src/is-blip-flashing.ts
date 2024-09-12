@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x4B889DE2DAC956DB
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {boolean}  
  */
 export function isBlipFlashing(blip: BlipIndex): boolean {

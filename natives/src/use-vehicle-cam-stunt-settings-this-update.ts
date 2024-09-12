@@ -4,7 +4,7 @@
  * 0x108CB90C10285373
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function useVehicleCamStuntSettingsThisUpdate(): void {
 	const useVehicleCamStuntSettingsThisUpdate_result = Citizen.invokeNative<void>('0x108CB90C10285373', );

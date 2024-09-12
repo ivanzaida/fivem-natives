@@ -4,8 +4,8 @@
  * 0x822B00714BA99033
 
  * States whether or not any content change sets are pending
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function areAnyCcsPending(): boolean {

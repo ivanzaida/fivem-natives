@@ -4,8 +4,8 @@
  * 0x2D1E9C333C5B2D4B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function statLoad(slot: number): boolean {

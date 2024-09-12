@@ -4,9 +4,9 @@
  * 0x575A7688415EEE2A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} row
- * @param {number} column
+ * ------------------------------------------------------------------
+ * @param {number} row
+ * @param {number} column
  * @returns {number}  
  */
 export function leaderboards2ReadGetRowDataInt(row: number, column: number): number {

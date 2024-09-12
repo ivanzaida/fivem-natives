@@ -6,16 +6,16 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x6051CE9D47B0B904
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} minX
- * @param {number} minY
- * @param {number} minZ
- * @param {number} maxX
- * @param {number} maxY
- * @param {number} maxZ
- * @param {boolean} highlightArea
- * @param {boolean} do3DCheck
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} minX
+ * @param {number} minY
+ * @param {number} minZ
+ * @param {number} maxX
+ * @param {number} maxY
+ * @param {number} maxZ
+ * @param {boolean} highlightArea
+ * @param {boolean} do3DCheck
  * @returns {boolean}  
  */
 export function isPedShootingInArea(ped: PedIndex, minX: number, minY: number, minZ: number, maxX: number, maxY: number, maxZ: number, highlightArea: boolean, do3DCheck: boolean = true): boolean {

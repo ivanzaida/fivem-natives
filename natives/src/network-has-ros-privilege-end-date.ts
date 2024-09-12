@@ -6,10 +6,10 @@ import { ENetworkRosPrivilegeid, IntRef, UgcDate } from '@ivanzaida/structures'
  * 0x20DACABA7023B608
 
  * 
- * ------------------------------------------------------------------
- * @param {ENetworkRosPrivilegeid} privilegeId
- * @param {IntRef} isGranted [Ref]
- * @param {UgcDate} date [Ref]
+ * ------------------------------------------------------------------
+ * @param {ENetworkRosPrivilegeid} privilegeId
+ * @param {IntRef} isGranted [Ref]
+ * @param {UgcDate} date [Ref]
  * @returns {boolean}  
  */
 export function networkHasRosPrivilegeEndDate(privilegeId: ENetworkRosPrivilegeid | number, isGranted: IntRef /* ptr */, date: UgcDate /* ptr */): boolean {

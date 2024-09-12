@@ -4,9 +4,9 @@
  * 0x1C49F79FA808A72C
 
  * Does nothing (it's a nullsub). Seems to be PS4 specific.
- * 
- * ------------------------------------------------------------------
- * @param {number} subValue
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} subValue
  */
 export function activityFeedAddIntToCaption(subValue: number): void {
 	const activityFeedAddIntToCaption_result = Citizen.invokeNative<void>('0x1C49F79FA808A72C', subValue);

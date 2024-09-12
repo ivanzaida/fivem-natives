@@ -4,8 +4,8 @@
  * 0x4BFA043D318BF9AE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} lockHash
+ * ------------------------------------------------------------------
+ * @param {number} lockHash
  * @returns {boolean}  
  */
 export function isContentItemLocked(lockHash: number): boolean {

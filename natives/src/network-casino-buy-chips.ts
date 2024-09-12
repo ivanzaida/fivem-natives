@@ -4,9 +4,9 @@
  * 0x265D164F770DA9AB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {number} chips
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {number} chips
  * @returns {boolean}  
  */
 export function networkCasinoBuyChips(amount: number, chips: number): boolean {

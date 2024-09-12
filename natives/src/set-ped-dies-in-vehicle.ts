@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD394176EC453FD41
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} dieInCarFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} dieInCarFlag
  */
 export function setPedDiesInVehicle(ped: PedIndex, dieInCarFlag: boolean): void {
 	const setPedDiesInVehicle_result = Citizen.invokeNative<void>('0xD394176EC453FD41', ped, dieInCarFlag);

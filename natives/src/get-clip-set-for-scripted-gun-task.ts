@@ -6,8 +6,8 @@ import { EScriptedGunTask } from '@ivanzaida/structures'
  * 0x71929CB75E82CF02
 
  * 
- * ------------------------------------------------------------------
- * @param {EScriptedGunTask} aimGunTaskType
+ * ------------------------------------------------------------------
+ * @param {EScriptedGunTask} aimGunTaskType
  * @returns {string}  
  */
 export function getClipSetForScriptedGunTask(aimGunTaskType: EScriptedGunTask | number = 82190121): string {

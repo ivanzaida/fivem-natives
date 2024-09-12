@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x762604C40829DB72
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} plr
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} plr
  * @returns {boolean}  
  */
 export function networkIsPlayerActive(plr: PlayerIndex): boolean {

@@ -6,9 +6,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x9E33FC86B0212DAB
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {EntityIndex} targetEntity
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {EntityIndex} targetEntity
  */
 export function setCargobobPickupMagnetSetTargetedMode(cargobob: VehicleIndex, targetEntity: EntityIndex): void {
 	const setCargobobPickupMagnetSetTargetedMode_result = Citizen.invokeNative<void>('0x9E33FC86B0212DAB', cargobob, targetEntity);

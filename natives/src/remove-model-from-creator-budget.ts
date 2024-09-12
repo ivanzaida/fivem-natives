@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x030B10A00315BA0C
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} modelHash
+ * ------------------------------------------------------------------
+ * @param {ModelNames} modelHash
  */
 export function removeModelFromCreatorBudget(modelHash: ModelNames): void {
 	const removeModelFromCreatorBudget_result = Citizen.invokeNative<void>('0x030B10A00315BA0C', modelHash);

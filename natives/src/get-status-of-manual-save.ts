@@ -6,7 +6,7 @@ import { ESavegameOperationStatus } from '@ivanzaida/structures'
  * 0xDEBBFB8E738665F4
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ESavegameOperationStatus}  
  */
 export function getStatusOfManualSave(): ESavegameOperationStatus {

@@ -4,9 +4,9 @@
  * 0x30C1D2072FB75567
 
  * Drft
- * 
- * ------------------------------------------------------------------
- * @param {number} wantedLevel
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} wantedLevel
  * @returns {number}  
  */
 export function getWantedLevelThreshold(wantedLevel: number): number {

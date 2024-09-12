@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xAFD4869CC7EDDF08
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} player
+ * ------------------------------------------------------------------
+ * @param {PedIndex} player
  */
 export function setTvPlayerWatchingThisFrame(player: PedIndex): void {
 	const setTvPlayerWatchingThisFrame_result = Citizen.invokeNative<void>('0xAFD4869CC7EDDF08', player);

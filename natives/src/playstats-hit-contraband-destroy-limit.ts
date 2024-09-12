@@ -4,8 +4,8 @@
  * 0xAE494703C93629A7
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function playstatsHitContrabandDestroyLimit(amount: number): void {
 	const playstatsHitContrabandDestroyLimit_result = Citizen.invokeNative<void>('0xAE494703C93629A7', amount);

@@ -6,7 +6,7 @@ import { ParticipantIndex } from '@ivanzaida/structures'
  * 0x48B835569F078653
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ParticipantIndex}  
  */
 export function networkGetHostOfThisScript(): ParticipantIndex {

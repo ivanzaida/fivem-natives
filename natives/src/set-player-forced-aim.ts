@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x5F607C9E85F2ECC5
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} forcedAim
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} forcedAim
  */
 export function setPlayerForcedAim(player: PlayerIndex, forcedAim: boolean): void {
 	const setPlayerForcedAim_result = Citizen.invokeNative<void>('0x5F607C9E85F2ECC5', player, forcedAim);

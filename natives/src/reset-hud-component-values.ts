@@ -6,8 +6,8 @@ import { EEHudComponent } from '@ivanzaida/structures'
  * 0xDCFF86AAD108A201
 
  * 
- * ------------------------------------------------------------------
- * @param {EEHudComponent} hudComponent
+ * ------------------------------------------------------------------
+ * @param {EEHudComponent} hudComponent
  */
 export function resetHudComponentValues(hudComponent: EEHudComponent | number): void {
 	const resetHudComponentValues_result = Citizen.invokeNative<void>('0xDCFF86AAD108A201', hudComponent);

@@ -6,8 +6,8 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0x74C1590CC91B3930
 
  * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
  */
 export function pinInteriorInMemory(interiorInstance: InteriorInstanceIndex): void {
 	const pinInteriorInMemory_result = Citizen.invokeNative<void>('0x74C1590CC91B3930', interiorInstance);

@@ -4,7 +4,7 @@
  * 0x1718FDF9693BFC2B
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkClearGetGamerStatus(): void {
 	const networkClearGetGamerStatus_result = Citizen.invokeNative<void>('0x1718FDF9693BFC2B', );

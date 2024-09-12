@@ -4,8 +4,8 @@
  * 0x90D02DA0EBE3D2A2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  */
 export function playstatsSpentPiCustomLoadout(value: number): void {
 	const playstatsSpentPiCustomLoadout_result = Citizen.invokeNative<void>('0x90D02DA0EBE3D2A2', value);

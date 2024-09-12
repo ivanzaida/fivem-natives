@@ -4,9 +4,9 @@
  * 0x446BB52C35DB68A0
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
+ * @param {number} index
  * @returns {string}  
  */
 export function dataarrayGetString(arr: string[], index: number): string {

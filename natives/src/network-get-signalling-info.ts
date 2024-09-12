@@ -6,9 +6,9 @@ import { NetSignallingInfo } from '@ivanzaida/structures'
  * 0xDC05070D5646C09C
 
  * Does nothing (it's a nullsub).
- * 
- * ------------------------------------------------------------------
- * @param {NetSignallingInfo} info [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {NetSignallingInfo} info [Ref]
  */
 export function networkGetSignallingInfo(info: NetSignallingInfo /* ptr */): void {
 	const networkGetSignallingInfo_result = Citizen.invokeNative<void>('0xDC05070D5646C09C', info.dataView);

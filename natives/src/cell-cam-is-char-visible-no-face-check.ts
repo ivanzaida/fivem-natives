@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xA637EDD71DA667DB
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function cellCamIsCharVisibleNoFaceCheck(ped: PedIndex): boolean {

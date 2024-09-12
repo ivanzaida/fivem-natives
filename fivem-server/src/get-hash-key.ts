@@ -4,9 +4,9 @@
  * 0X98EFF6F1
 
  * This native converts its past string to hash. It is hashed using jenkins one at a time method.
- * 
- * ------------------------------------------------------------------
- * @param {string} inputString
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} inputString
  * @returns {number}  
  */
 export function getHashKey(inputString: string): number {

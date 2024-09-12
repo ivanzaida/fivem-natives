@@ -4,9 +4,9 @@
  * 0x1B4FD4A821EC277E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} hash
- * @param {number} maxLength
+ * ------------------------------------------------------------------
+ * @param {number} hash
+ * @param {number} maxLength
  * @returns {string}  
  */
 export function ugcGetCachedDescription(hash: number, maxLength: number): string {

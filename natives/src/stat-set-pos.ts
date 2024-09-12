@@ -6,12 +6,12 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x2936060DABE3BC7C
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {number} x
- * @param {number} y
- * @param {number} z
- * @param {boolean} coderAssert
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {number} x
+ * @param {number} y
+ * @param {number} z
+ * @param {boolean} coderAssert
  * @returns {boolean}  
  */
 export function statSetPos(keyHash: EStatsenum | number, x: number, y: number, z: number, coderAssert: boolean = true): boolean {

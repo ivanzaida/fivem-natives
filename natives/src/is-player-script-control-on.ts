@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x206A708429803A39
 
  * Even if this command returns TRUE, player control could still have been turned off by something else like camera or cutscene code
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function isPlayerScriptControlOn(player: PlayerIndex): boolean {

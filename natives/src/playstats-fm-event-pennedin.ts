@@ -6,8 +6,8 @@ import { FmEventAmbientMission } from '@ivanzaida/structures'
  * 0xC98FBB17B1EC9BA1
 
  * 
- * ------------------------------------------------------------------
- * @param {FmEventAmbientMission} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FmEventAmbientMission} data [Ref]
  */
 export function playstatsFmEventPennedin(data: FmEventAmbientMission /* ptr */): void {
 	const playstatsFmEventPennedin_result = Citizen.invokeNative<void>('0xC98FBB17B1EC9BA1', data.dataView);

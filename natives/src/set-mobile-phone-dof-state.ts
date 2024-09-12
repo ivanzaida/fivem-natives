@@ -4,8 +4,8 @@
  * 0x453DA8CFCDA69D26
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function setMobilePhoneDofState(enable: boolean): void {
 	const setMobilePhoneDofState_result = Citizen.invokeNative<void>('0x453DA8CFCDA69D26', enable);

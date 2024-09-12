@@ -4,8 +4,8 @@
  * 0x5F3ABB7227973CB8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} signalLevel
+ * ------------------------------------------------------------------
+ * @param {number} signalLevel
  */
 export function setGlobalRadioSignalLevel(signalLevel: number): void {
 	const setGlobalRadioSignalLevel_result = Citizen.invokeNative<void>('0x5F3ABB7227973CB8', signalLevel);

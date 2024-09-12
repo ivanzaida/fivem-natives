@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF24ADF73381B85C1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} preferToAvoid
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} preferToAvoid
  */
 export function setPedPathPreferToAvoidWater(ped: PedIndex, preferToAvoid: boolean): void {
 	const setPedPathPreferToAvoidWater_result = Citizen.invokeNative<void>('0xF24ADF73381B85C1', ped, preferToAvoid);

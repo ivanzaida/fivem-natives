@@ -6,12 +6,12 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0xF1D0B0CE940F620D
 
  * Example:
- *  STATS::STAT_SET_BOOL(MISC::GET_HASH_KEY("MPPLY_MELEECHLENGECOMPLETED"), trur, true);
- * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {boolean} data
- * @param {boolean} coderAssert
+ *  STATS::STAT_SET_BOOL(MISC::GET_HASH_KEY("MPPLY_MELEECHLENGECOMPLETED"), trur, true);
+ * 
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {boolean} data
+ * @param {boolean} coderAssert
  * @returns {boolean}  
  */
 export function statSetBool(keyHash: EStatsenum | number, data: boolean, coderAssert: boolean = true): boolean {

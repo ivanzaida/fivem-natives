@@ -6,8 +6,8 @@ import { VehicleIndex, EHomingLockonState } from '@ivanzaida/structures'
  * 0x52C90C5E23EB961A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {EHomingLockonState}  
  */
 export function getVehicleHomingLockedontoState(vehicle: VehicleIndex): EHomingLockonState {

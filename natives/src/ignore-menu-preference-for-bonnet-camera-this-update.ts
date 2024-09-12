@@ -4,8 +4,8 @@
  * 0x54B59CE258DA9A4D
 
  * Ignore the menu preference for bonnet camera this update.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  */
 export function ignoreMenuPreferenceForBonnetCameraThisUpdate(): void {
 	const ignoreMenuPreferenceForBonnetCameraThisUpdate_result = Citizen.invokeNative<void>('0x54B59CE258DA9A4D', );

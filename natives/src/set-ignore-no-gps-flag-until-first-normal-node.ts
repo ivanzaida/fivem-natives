@@ -4,9 +4,9 @@
  * 0x7A0DF3CEAF912D48
 
  * See: SET_BLIP_ROUTE
- * 
- * ------------------------------------------------------------------
- * @param {boolean} ignore
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} ignore
  */
 export function setIgnoreNoGpsFlagUntilFirstNormalNode(ignore: boolean): void {
 	const setIgnoreNoGpsFlagUntilFirstNormalNode_result = Citizen.invokeNative<void>('0x7A0DF3CEAF912D48', ignore);

@@ -6,10 +6,10 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0X6523816B
 
  * level is defined as "z" in water.xml
- * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The returned water quad level
- * @param {FloatRef} waterQuadLevel [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The returned water quad level
+ * @param {FloatRef} waterQuadLevel [Ref]
  * @returns {boolean}  Returns true on success. Level is undefined on failure
  */
 export function getWaterQuadLevel(waterQuad: number, waterQuadLevel: FloatRef /* ptr */): boolean {

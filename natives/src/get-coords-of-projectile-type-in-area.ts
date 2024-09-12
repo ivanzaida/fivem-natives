@@ -7,16 +7,16 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x8C538F7B2B233B2C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minCoorsX
- * @param {number} minCoorsY
- * @param {number} minCoorsZ
- * @param {number} maxCoorsX
- * @param {number} maxCoorsY
- * @param {number} maxCoorsZ
- * @param {EWeaponType} weaponType
- * @param {Vector3} positionOut [Ref]
- * @param {boolean} isPlayer
+ * ------------------------------------------------------------------
+ * @param {number} minCoorsX
+ * @param {number} minCoorsY
+ * @param {number} minCoorsZ
+ * @param {number} maxCoorsX
+ * @param {number} maxCoorsY
+ * @param {number} maxCoorsZ
+ * @param {EWeaponType} weaponType
+ * @param {Vector3} positionOut [Ref]
+ * @param {boolean} isPlayer
  * @returns {boolean}  
  */
 export function getCoordsOfProjectileTypeInArea(minCoorsX: number, minCoorsY: number, minCoorsZ: number, maxCoorsX: number, maxCoorsY: number, maxCoorsZ: number, weaponType: EWeaponType | number, positionOut: Vector3 /* ptr */, isPlayer: boolean = false): boolean {

@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X6F4ACBA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {IntRef} noStencil [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {IntRef} noStencil [Ref]
  * @returns {boolean}  Returns if the given water quad has no stencil.
  */
 export function getWaterQuadNoStencil(waterQuad: number, noStencil: IntRef /* ptr */): boolean {

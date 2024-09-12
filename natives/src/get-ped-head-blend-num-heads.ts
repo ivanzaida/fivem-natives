@@ -6,9 +6,9 @@ import { EHeadBlendHeadType } from '@ivanzaida/structures'
  * 0x69618F2236615539
 
  * Type equals 0 for male non-dlc, 1 for female non-dlc, 2 for male dlc, and 3 for female dlc.
- * 
- * ------------------------------------------------------------------
- * @param {EHeadBlendHeadType} type
+ * 
+ * ------------------------------------------------------------------
+ * @param {EHeadBlendHeadType} type
  * @returns {number}  
  */
 export function getPedHeadBlendNumHeads(type: EHeadBlendHeadType | number): number {

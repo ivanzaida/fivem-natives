@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x158E535F1DD78CFE
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function setEntityLocallyVisible(entity: EntityIndex): void {
 	const setEntityLocallyVisible_result = Citizen.invokeNative<void>('0x158E535F1DD78CFE', entity);

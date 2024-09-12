@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1750AA417BEDD270
 
  * Detaches specified vehicle from any tow truck it might be attached through, loops through all vehicles so could be expensive
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function detachVehicleFromAnyTowTruck(vehicle: VehicleIndex): boolean {

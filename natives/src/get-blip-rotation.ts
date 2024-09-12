@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x350EDDA8A9A3C23D
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {number}  
  */
 export function getBlipRotation(blip: BlipIndex): number {

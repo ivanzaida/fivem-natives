@@ -4,9 +4,9 @@
  * 0X8BBE6CC0
 
  * Sends a message to the `loadingScreen` NUI frame, which contains the HTML page referenced in `loadscreen` resources.
- * 
- * ------------------------------------------------------------------
- * @param {string} jsonString The JSONencoded message.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} jsonString The JSONencoded message.
  * @returns {boolean}  A success value.
  */
 export function sendLoadingScreenMessage(jsonString: string): boolean {

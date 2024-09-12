@@ -6,10 +6,10 @@ import { LeaderboardCachedDisplayData } from '@ivanzaida/structures'
  * 0x4B9EEFBC1906C36A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id
- * @param {number} row
- * @param {LeaderboardCachedDisplayData} info [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} id
+ * @param {number} row
+ * @param {LeaderboardCachedDisplayData} info [Ref]
  * @returns {boolean}  
  */
 export function leaderboardsGetCacheDataRow(id: number, row: number, info: LeaderboardCachedDisplayData /* ptr */): boolean {

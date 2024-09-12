@@ -6,8 +6,8 @@ import { VehicleGeneratorIndex } from '@ivanzaida/structures'
  * 0x9173EE00A72DCA49
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleGeneratorIndex} carGenerator
+ * ------------------------------------------------------------------
+ * @param {VehicleGeneratorIndex} carGenerator
  * @returns {boolean}  
  */
 export function doesScriptVehicleGeneratorExist(carGenerator: VehicleGeneratorIndex): boolean {

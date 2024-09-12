@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xE315F38FDD0139FF
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} pedRace
- * @param {number} pvgHash
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} pedRace
+ * @param {number} pvgHash
  */
 export function setPedRaceAndVoiceGroup(ped: PedIndex, pedRace: number, pvgHash: number = 0): void {
 	const setPedRaceAndVoiceGroup_result = Citizen.invokeNative<void>('0xE315F38FDD0139FF', ped, pedRace, pvgHash);

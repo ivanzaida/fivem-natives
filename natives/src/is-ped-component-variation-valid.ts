@@ -6,14 +6,14 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  * 0xE91CD2B3CF8A106C
 
  * Checks if the component variation is valid, this works great for randomizing components using loops.
- * List of component/props ID
- * gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedComponent} componentNumber
- * @param {number} drawableNumber
- * @param {number} textureNumber
+ * List of component/props ID
+ * gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedComponent} componentNumber
+ * @param {number} drawableNumber
+ * @param {number} textureNumber
  * @returns {boolean}  
  */
 export function isPedComponentVariationValid(ped: PedIndex, componentNumber: EPedComponent | number, drawableNumber: number, textureNumber: number): boolean {

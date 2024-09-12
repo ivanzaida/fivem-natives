@@ -6,14 +6,14 @@ import { VehicleCombatAvoidanceAreaIndex } from '@ivanzaida/structures'
  * 0x6C3C28979C693FF6
 
  * 
- * ------------------------------------------------------------------
- * @param {number} startX
- * @param {number} startY
- * @param {number} startZ
- * @param {number} endX
- * @param {number} endY
- * @param {number} endZ
- * @param {number} width
+ * ------------------------------------------------------------------
+ * @param {number} startX
+ * @param {number} startY
+ * @param {number} startZ
+ * @param {number} endX
+ * @param {number} endY
+ * @param {number} endZ
+ * @param {number} width
  * @returns {VehicleCombatAvoidanceAreaIndex}  
  */
 export function addVehicleCombatAngledAvoidanceArea(startX: number, startY: number, startZ: number, endX: number, endY: number, endZ: number, width: number): VehicleCombatAvoidanceAreaIndex {

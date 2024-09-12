@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xFBF90D96AEB26BCF
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} desiredHeading
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} desiredHeading
  */
 export function setPedDesiredHeading(ped: PedIndex, desiredHeading: number): void {
 	const setPedDesiredHeading_result = Citizen.invokeNative<void>('0xFBF90D96AEB26BCF', ped, desiredHeading);

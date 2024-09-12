@@ -6,8 +6,8 @@ import { BwAssault } from '@ivanzaida/structures'
  * 0x9ADE63CF2AA5FA61
 
  * 
- * ------------------------------------------------------------------
- * @param {BwAssault} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BwAssault} data [Ref]
  */
 export function playstatsBwAssault(data: BwAssault /* ptr */): void {
 	const playstatsBwAssault_result = Citizen.invokeNative<void>('0x9ADE63CF2AA5FA61', data.dataView);

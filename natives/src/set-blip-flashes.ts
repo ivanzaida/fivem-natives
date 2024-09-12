@@ -6,9 +6,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x861AC9C2D48CEA7F
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {boolean} onOff
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {boolean} onOff
  */
 export function setBlipFlashes(blip: BlipIndex, onOff: boolean): void {
 	const setBlipFlashes_result = Citizen.invokeNative<void>('0x861AC9C2D48CEA7F', blip, onOff);

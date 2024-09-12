@@ -4,8 +4,8 @@
  * 0xF394C416AB393C2D
 
  * 
- * ------------------------------------------------------------------
- * @param {string} mainTextLabel
+ * ------------------------------------------------------------------
+ * @param {string} mainTextLabel
  */
 export function beginTextCommandOverrideButtonText(mainTextLabel: string): void {
 	const beginTextCommandOverrideButtonText_result = Citizen.invokeNative<void>('0xF394C416AB393C2D', mainTextLabel);

@@ -4,8 +4,8 @@
  * 0x1BE70491AADA5F80
 
  * 
- * ------------------------------------------------------------------
- * @param {number} dist
+ * ------------------------------------------------------------------
+ * @param {number} dist
  */
 export function setLightsCutoffDistanceTweak(dist: number): void {
 	const setLightsCutoffDistanceTweak_result = Citizen.invokeNative<void>('0x1BE70491AADA5F80', dist);

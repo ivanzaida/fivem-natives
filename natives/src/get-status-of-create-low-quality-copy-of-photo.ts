@@ -6,8 +6,8 @@ import { EELowQualityPhotoSetting, EPhotoOperationStatus } from '@ivanzaida/stru
  * 0x39CD1674039F82E0
 
  * 
- * ------------------------------------------------------------------
- * @param {EELowQualityPhotoSetting} qualitySetting
+ * ------------------------------------------------------------------
+ * @param {EELowQualityPhotoSetting} qualitySetting
  * @returns {EPhotoOperationStatus}  
  */
 export function getStatusOfCreateLowQualityCopyOfPhoto(qualitySetting: EELowQualityPhotoSetting | number): EPhotoOperationStatus {

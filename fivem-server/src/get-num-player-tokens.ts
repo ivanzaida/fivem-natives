@@ -4,8 +4,8 @@
  * 0X619E4A3D
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {number}  
  */
 export function getNumPlayerTokens(playerSrc: string): number {

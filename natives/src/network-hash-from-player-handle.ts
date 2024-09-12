@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x3351FEF40EC734DB
 
  * Retrieve a hash for a gamer handle from a player index. In non-network games, this will return the local gamer handle
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {number}  
  */
 export function networkHashFromPlayerHandle(player: PlayerIndex): number {

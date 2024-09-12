@@ -4,8 +4,8 @@
  * 0xEDF2663D6A2097BD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id
+ * ------------------------------------------------------------------
+ * @param {number} id
  * @returns {number}  
  */
 export function leaderboardsGetCacheNumberOfRows(id: number): number {

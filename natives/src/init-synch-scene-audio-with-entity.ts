@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x4FE00B5CFB97782B
 
  * 
- * ------------------------------------------------------------------
- * @param {string} audioName
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {string} audioName
+ * @param {EntityIndex} entity
  */
 export function initSynchSceneAudioWithEntity(audioName: string, entity: EntityIndex): void {
 	const initSynchSceneAudioWithEntity_result = Citizen.invokeNative<void>('0x4FE00B5CFB97782B', audioName, entity);

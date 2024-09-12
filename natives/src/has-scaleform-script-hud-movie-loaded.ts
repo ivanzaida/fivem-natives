@@ -6,9 +6,9 @@ import { EEScriptHudComponent } from '@ivanzaida/structures'
  * 0x9E7C5A44096EB799
 
  * Returns whether the requested scaleform script hud movie is streamed in yet
- * 
- * ------------------------------------------------------------------
- * @param {EEScriptHudComponent} componentId
+ * 
+ * ------------------------------------------------------------------
+ * @param {EEScriptHudComponent} componentId
  * @returns {boolean}  
  */
 export function hasScaleformScriptHudMovieLoaded(componentId: EEScriptHudComponent | number): boolean {

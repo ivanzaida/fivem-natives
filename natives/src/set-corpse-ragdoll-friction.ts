@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xC082B2B13450E715
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} friction
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} friction
  */
 export function setCorpseRagdollFriction(ped: PedIndex, friction: number): void {
 	const setCorpseRagdollFriction_result = Citizen.invokeNative<void>('0xC082B2B13450E715', ped, friction);

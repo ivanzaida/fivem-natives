@@ -6,10 +6,10 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x8FB959083319E145
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EntityIndex} entity
- * @param {number} springDistance
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EntityIndex} entity
+ * @param {number} springDistance
  */
 export function stabiliseEntityAttachedToHeli(vehicle: VehicleIndex, entity: EntityIndex, springDistance: number): void {
 	const stabiliseEntityAttachedToHeli_result = Citizen.invokeNative<void>('0x8FB959083319E145', vehicle, entity, springDistance);

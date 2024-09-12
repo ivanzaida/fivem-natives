@@ -6,9 +6,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x3089A583C66DAC0E
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
- * @param {boolean} state
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
+ * @param {boolean} state
  */
 export function setCamUseShallowDofMode(camera: CameraIndex, state: boolean): void {
 	const setCamUseShallowDofMode_result = Citizen.invokeNative<void>('0x3089A583C66DAC0E', camera, state);

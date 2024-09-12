@@ -4,8 +4,8 @@
  * 0x3D1C2138A70E7348
 
  * 
- * ------------------------------------------------------------------
- * @param {number} token
+ * ------------------------------------------------------------------
+ * @param {number} token
  * @returns {boolean}  
  */
 export function scProfanityGetCheckIsValid(token: number): boolean {

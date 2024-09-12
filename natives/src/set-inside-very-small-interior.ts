@@ -4,8 +4,8 @@
  * 0xB9485211BF50817B
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} verySmallInterior
+ * ------------------------------------------------------------------
+ * @param {boolean} verySmallInterior
  */
 export function setInsideVerySmallInterior(verySmallInterior: boolean): void {
 	const setInsideVerySmallInterior_result = Citizen.invokeNative<void>('0xB9485211BF50817B', verySmallInterior);

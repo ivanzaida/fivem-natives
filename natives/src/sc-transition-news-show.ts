@@ -6,10 +6,10 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0x414AC8390B655576
 
  * Start and show the transition news.  If a news story hasn't been queued, it will queue one.
- * moveID to make requests for scaleform on
- * 
- * ------------------------------------------------------------------
- * @param {ScaleformIndex} moveID
+ * moveID to make requests for scaleform on
+ * 
+ * ------------------------------------------------------------------
+ * @param {ScaleformIndex} moveID
  * @returns {boolean}  
  */
 export function scTransitionNewsShow(moveID: ScaleformIndex): boolean {

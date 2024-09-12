@@ -4,8 +4,8 @@
  * 0xA6DB7FC56DBDFB82
 
  * Shows the cursor on screen for one frame.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  */
 export function setMouseCursorThisFrame(): void {
 	const setMouseCursorThisFrame_result = Citizen.invokeNative<void>('0xA6DB7FC56DBDFB82', );

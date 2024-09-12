@@ -4,8 +4,8 @@
  * 0x76C8F25CE400DBC9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scale
+ * ------------------------------------------------------------------
+ * @param {number} scale
  */
 export function cascadeShadowsSetSplitZExpWeight(scale: number): void {
 	const cascadeShadowsSetSplitZExpWeight_result = Citizen.invokeNative<void>('0x76C8F25CE400DBC9', scale);

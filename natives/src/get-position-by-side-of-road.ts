@@ -7,12 +7,12 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x2DFF53C2897C7990
 
  * 
- * ------------------------------------------------------------------
- * @param {number} inputNodePositionX
- * @param {number} inputNodePositionY
- * @param {number} inputNodePositionZ
- * @param {number} direction
- * @param {Vector3} outPositionByRoad [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} inputNodePositionX
+ * @param {number} inputNodePositionY
+ * @param {number} inputNodePositionZ
+ * @param {number} direction
+ * @param {Vector3} outPositionByRoad [Ref]
  * @returns {boolean}  
  */
 export function getPositionBySideOfRoad(inputNodePositionX: number, inputNodePositionY: number, inputNodePositionZ: number, direction: number, outPositionByRoad: Vector3 /* ptr */): boolean {

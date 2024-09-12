@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x367040C40E6A5A3A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} openRearDoorsOnExplosion
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} openRearDoorsOnExplosion
  */
 export function setOpenRearDoorsOnExplosion(vehicle: VehicleIndex, openRearDoorsOnExplosion: boolean): void {
 	const setOpenRearDoorsOnExplosion_result = Citizen.invokeNative<void>('0x367040C40E6A5A3A', vehicle, openRearDoorsOnExplosion);

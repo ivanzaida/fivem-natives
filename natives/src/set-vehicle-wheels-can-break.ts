@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x72241E9BCAEB0F8B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} canBreakWheelsFlag
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} canBreakWheelsFlag
  */
 export function setVehicleWheelsCanBreak(vehicle: VehicleIndex, canBreakWheelsFlag: boolean): void {
 	const setVehicleWheelsCanBreak_result = Citizen.invokeNative<void>('0x72241E9BCAEB0F8B', vehicle, canBreakWheelsFlag);

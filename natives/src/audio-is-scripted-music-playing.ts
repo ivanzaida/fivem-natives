@@ -4,8 +4,8 @@
  * 0x7507A74A3D963966
 
  * This is an alias of AUDIO_IS_MUSIC_PLAYING.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function audioIsScriptedMusicPlaying(): boolean {

@@ -4,8 +4,8 @@
  * 0xC4551CF3C3F087F3
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} useOverrideSettings
+ * ------------------------------------------------------------------
+ * @param {boolean} useOverrideSettings
  */
 export function setWeatherPtfxUseOverrideSettings(useOverrideSettings: boolean): void {
 	const setWeatherPtfxUseOverrideSettings_result = Citizen.invokeNative<void>('0xC4551CF3C3F087F3', useOverrideSettings);

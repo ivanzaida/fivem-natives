@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0xDD87838D03B64B0A
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {boolean}  
  */
 export function isCamShaking(camera: CameraIndex): boolean {

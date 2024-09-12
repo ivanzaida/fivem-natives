@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x4BD40114338C93C0
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  * @returns {boolean}  
  */
 export function networkIsGamerBlockedByMe(gamer: GamerHandle /* ptr */): boolean {

@@ -4,8 +4,8 @@
  * 0x6FE3848CD1092574
 
  * Hardcoded to return false.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsInPlatformParty(): boolean {

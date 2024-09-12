@@ -6,8 +6,8 @@ import { NetworkIndex, EntityIndex } from '@ivanzaida/structures'
  * 0X5B912C3F
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
  * @returns {EntityIndex}  
  */
 export function networkGetEntityFromNetworkId(networkId: NetworkIndex): EntityIndex {

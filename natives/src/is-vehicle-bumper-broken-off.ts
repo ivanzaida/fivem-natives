@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x2495CCF0BF303C19
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} front
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} front
  * @returns {boolean}  
  */
 export function isVehicleBumperBrokenOff(vehicle: VehicleIndex, front: boolean): boolean {

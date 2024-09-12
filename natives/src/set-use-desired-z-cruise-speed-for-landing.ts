@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xB6D03E3DBCAF727F
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} val
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} val
  */
 export function setUseDesiredZCruiseSpeedForLanding(vehicle: VehicleIndex, val: boolean): void {
 	const setUseDesiredZCruiseSpeedForLanding_result = Citizen.invokeNative<void>('0xB6D03E3DBCAF727F', vehicle, val);

@@ -4,9 +4,9 @@
  * 0X6B7AF743
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} roomIndex Interior room index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} roomIndex Interior room index.
  * @returns {number}  Room's flag.
  */
 export function getInteriorRoomFlag(interiorId: number, roomIndex: number): number {

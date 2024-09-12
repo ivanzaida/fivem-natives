@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XB22ECEFD
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
- * @param {number} health
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
+ * @param {number} health
  */
 export function setVehicleWheelHealth(vehicle: VehicleIndex, wheelIndex: number, health: number): void {
 	const setVehicleWheelHealth_result = Citizen.invokeNative<void>('0XB22ECEFD', vehicle, wheelIndex, health);

@@ -6,8 +6,8 @@ import { EInboxMsgType } from '@ivanzaida/structures'
  * 0x544DCD3126D76335
 
  * 
- * ------------------------------------------------------------------
- * @param {number} msg
+ * ------------------------------------------------------------------
+ * @param {number} msg
  * @returns {EInboxMsgType}  
  */
 export function scInboxGetMessageTypeAtIndex(msg: number): EInboxMsgType {

@@ -4,9 +4,9 @@
  * 0xF4D7464FFDD56FE3
 
  * Full list of cutscene names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/cutsceneNames.json
- * 
- * ------------------------------------------------------------------
- * @param {string} cutName
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} cutName
  * @returns {number}  
  */
 export function getCutFileConcatCount(cutName: string): number {

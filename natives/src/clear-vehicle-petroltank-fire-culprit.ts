@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x60D610F2649E805B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function clearVehiclePetroltankFireCulprit(vehicle: VehicleIndex): void {
 	const clearVehiclePetroltankFireCulprit_result = Citizen.invokeNative<void>('0x60D610F2649E805B', vehicle);

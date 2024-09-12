@@ -6,10 +6,10 @@ import { EntityIndex, ERelGroupHash } from '@ivanzaida/structures'
  * 0x5355DCB5D35ADF0F
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} allowDamagedByRelGroup
- * @param {ERelGroupHash} relGroup
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} allowDamagedByRelGroup
+ * @param {ERelGroupHash} relGroup
  */
 export function setEntityCanBeDamagedByRelationshipGroup(entity: EntityIndex, allowDamagedByRelGroup: boolean, relGroup: ERelGroupHash | number): void {
 	const setEntityCanBeDamagedByRelationshipGroup_result = Citizen.invokeNative<void>('0x5355DCB5D35ADF0F', entity, allowDamagedByRelGroup, relGroup);

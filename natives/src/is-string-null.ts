@@ -4,8 +4,8 @@
  * 0xFF692AB7350A74D7
 
  * 
- * ------------------------------------------------------------------
- * @param {string} stringToTest
+ * ------------------------------------------------------------------
+ * @param {string} stringToTest
  * @returns {boolean}  
  */
 export function isStringNull(stringToTest: string): boolean {

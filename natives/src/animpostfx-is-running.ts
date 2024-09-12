@@ -4,11 +4,11 @@
  * 0x47CB3D397940E783
 
  * Returns whether the specified effect is active.
- * See ANIMPOSTFX_PLAY
- * Full list of animpostFX / screen effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animPostFxNamesCompact.json
- * 
- * ------------------------------------------------------------------
- * @param {string} effectName
+ * See ANIMPOSTFX_PLAY
+ * Full list of animpostFX / screen effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animPostFxNamesCompact.json
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} effectName
  * @returns {boolean}  
  */
 export function animpostfxIsRunning(effectName: string): boolean {

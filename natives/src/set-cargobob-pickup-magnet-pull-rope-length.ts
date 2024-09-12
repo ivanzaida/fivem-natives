@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x529A57C2E61B1345
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {number} magnetPullRopeLength
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {number} magnetPullRopeLength
  */
 export function setCargobobPickupMagnetPullRopeLength(cargobob: VehicleIndex, magnetPullRopeLength: number): void {
 	const setCargobobPickupMagnetPullRopeLength_result = Citizen.invokeNative<void>('0x529A57C2E61B1345', cargobob, magnetPullRopeLength);

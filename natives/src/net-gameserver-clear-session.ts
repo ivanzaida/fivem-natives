@@ -4,8 +4,8 @@
  * 0x8C09D01F9FCC2827
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function netGameserverClearSession(slot: number): boolean {

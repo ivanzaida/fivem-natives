@@ -4,8 +4,8 @@
  * 0x7BAB29B9355651B7
 
  * 
- * ------------------------------------------------------------------
- * @param {number} requestID
+ * ------------------------------------------------------------------
+ * @param {number} requestID
  * @returns {boolean}  
  */
 export function cloudDidRequestSucceed(requestID: number): boolean {

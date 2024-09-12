@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xB853745FD2637D7F
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {number} boostAmount
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {number} boostAmount
  */
 export function setObjectSpeedBoostAmount(object: ObjectIndex, boostAmount: number): void {
 	const setObjectSpeedBoostAmount_result = Citizen.invokeNative<void>('0xB853745FD2637D7F', object, boostAmount);

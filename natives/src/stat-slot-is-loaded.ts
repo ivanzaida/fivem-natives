@@ -4,8 +4,8 @@
  * 0x7A207DD1AEF9D26E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function statSlotIsLoaded(slot: number): boolean {

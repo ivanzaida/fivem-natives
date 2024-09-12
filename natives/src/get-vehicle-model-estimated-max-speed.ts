@@ -6,9 +6,9 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xCF85F9C6CDF5D68E
 
  * Returns max speed (without mods) of the specified vehicle model in m/s.
- * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * 
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {number}  
  */
 export function getVehicleModelEstimatedMaxSpeed(vehicleModelHashKey: ModelNames): number {

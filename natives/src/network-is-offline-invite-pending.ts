@@ -4,7 +4,7 @@
  * 0xDB0CDDD9A5B1C7A9
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsOfflineInvitePending(): boolean {

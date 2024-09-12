@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xBFCE94361188CEB2
 
  * Clear this peds different fall upperbody clipset.  Should be called after using SET_PED_MOTION_IN_COVER_CLIPSET_OVERRIDE
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function clearPedFallUpperBodyClipsetOverride(ped: PedIndex): void {
 	const clearPedFallUpperBodyClipsetOverride_result = Citizen.invokeNative<void>('0xBFCE94361188CEB2', ped);

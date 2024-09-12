@@ -4,8 +4,8 @@
  * 0XD05BB8B1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
  * @returns {number}  The amount of portals in interior.
  */
 export function getInteriorPortalCount(interiorId: number): number {

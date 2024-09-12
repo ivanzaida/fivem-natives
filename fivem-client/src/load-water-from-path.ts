@@ -4,10 +4,10 @@
  * 0XF5102568
 
  * Define the xml in a resources fxmanifest, under the file(s) section.
- * 
- * ------------------------------------------------------------------
- * @param {string} resourceName The name of the resource containing your modified water definition
- * @param {string} fileName The name of the file
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} resourceName The name of the resource containing your modified water definition
+ * @param {string} fileName The name of the file
  * @returns {boolean}  Returns true on success.
  */
 export function loadWaterFromPath(resourceName: string, fileName: string): boolean {

@@ -4,9 +4,9 @@
  * 0x5B54BD7ACF637593
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} parent
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {string[]} parent
+ * @param {number} index
  * @returns {string}  
  */
 export function dataarrayGetDict(parent: string[], index: number): string {

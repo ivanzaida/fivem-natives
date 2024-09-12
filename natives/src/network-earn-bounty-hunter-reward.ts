@@ -4,8 +4,8 @@
  * 0xB1C4AF1EA46263A1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnBountyHunterReward(amount: number): void {
 	const networkEarnBountyHunterReward_result = Citizen.invokeNative<void>('0xB1C4AF1EA46263A1', amount);

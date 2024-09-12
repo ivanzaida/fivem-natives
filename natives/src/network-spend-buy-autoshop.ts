@@ -6,11 +6,11 @@ import { BuyAutoshop } from '@ivanzaida/structures'
  * 0xC6B8A83CB698802E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
- * @param {BuyAutoshop} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
+ * @param {BuyAutoshop} data [Ref]
  */
 export function networkSpendBuyAutoshop(amount: number, fromBank: boolean, fromBankAndWallet: boolean, data: BuyAutoshop /* ptr */): void {
 	const networkSpendBuyAutoshop_result = Citizen.invokeNative<void>('0xC6B8A83CB698802E', amount, fromBank, fromBankAndWallet, data.dataView);

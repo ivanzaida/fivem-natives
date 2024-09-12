@@ -4,13 +4,13 @@
  * 0x0AF5E4A6C74DC312
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
- * @param {boolean} fromWalletAndBank
- * @param {number} character If the character is 1 it will use the current selected character.
- * @param {boolean} evcOnly
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
+ * @param {boolean} fromWalletAndBank
+ * @param {number} character If the character is 1 it will use the current selected character.
+ * @param {boolean} evcOnly
  * @returns {boolean}  
  */
 export function networkCanSpendMoney(amount: number, fromBank: boolean, fromBankAndWallet: boolean, fromWalletAndBank: boolean, character: number = 1, evcOnly: boolean = false): boolean {

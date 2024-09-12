@@ -4,8 +4,8 @@
  * 0X8154E470
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
  * @returns {number}  
  */
 export function getPlayerMaxHealth(playerSrc: string): number {

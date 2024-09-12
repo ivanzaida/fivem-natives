@@ -4,8 +4,8 @@
  * 0xB10D024D4A098884
 
  * Returns TRUE if the local player has been flagged as a cheater.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkPlayerIsCheater(): boolean {

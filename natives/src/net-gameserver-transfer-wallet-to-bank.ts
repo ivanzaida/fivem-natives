@@ -4,9 +4,9 @@
  * 0xCFE92984BF3486D5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} character
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} character
+ * @param {number} amount
  * @returns {boolean}  
  */
 export function netGameserverTransferWalletToBank(character: number, amount: number): boolean {

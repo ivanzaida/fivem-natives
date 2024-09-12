@@ -4,9 +4,9 @@
  * 0X5E1AF5F
 
  * A getter for the recoil shake amplitude of a weapon.
- * 
- * ------------------------------------------------------------------
- * @param {number} weaponHash Weapon name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} weaponHash Weapon name hash.
  * @returns {number}  The recoil shake amplitude of a weapon.
  */
 export function getWeaponRecoilShakeAmplitude(weaponHash: number): number {

@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x6C4F5AA91D39455C
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} invincible
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} invincible
  */
 export function setPlayerInvincibleButHasReactions(player: PlayerIndex, invincible: boolean): void {
 	const setPlayerInvincibleButHasReactions_result = Citizen.invokeNative<void>('0x6C4F5AA91D39455C', player, invincible);

@@ -4,9 +4,9 @@
  * 0x37964484C6C1561D
 
  * Convert from network sound ID to network ID
- * 
- * ------------------------------------------------------------------
- * @param {number} networkId
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} networkId
  * @returns {number}  
  */
 export function getSoundIdFromNetworkId(networkId: number): number {

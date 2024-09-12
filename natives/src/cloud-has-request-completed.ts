@@ -4,8 +4,8 @@
  * 0x0F61191B654874D0
 
  * 
- * ------------------------------------------------------------------
- * @param {number} requestID
+ * ------------------------------------------------------------------
+ * @param {number} requestID
  * @returns {boolean}  
  */
 export function cloudHasRequestCompleted(requestID: number): boolean {

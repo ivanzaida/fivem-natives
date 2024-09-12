@@ -6,11 +6,11 @@ import { UgcContentIdQuery } from '@ivanzaida/structures'
  * 0x4516244647CDE56D
 
  * 
- * ------------------------------------------------------------------
- * @param {UgcContentIdQuery} queryIDs [Ref]
- * @param {number} numIDs
- * @param {boolean} latest
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {UgcContentIdQuery} queryIDs [Ref]
+ * @param {number} numIDs
+ * @param {boolean} latest
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcQueryByContentIds(queryIDs: UgcContentIdQuery /* ptr */, numIDs: number, latest: boolean, szContentType: string): boolean {

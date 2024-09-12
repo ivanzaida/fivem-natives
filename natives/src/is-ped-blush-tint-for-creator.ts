@@ -4,8 +4,8 @@
  * 0x86F83CBBA37677B2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedBlushTintForCreator(tint: number): boolean {

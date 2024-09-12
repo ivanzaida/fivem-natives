@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x16DD8628F525A206
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function stopCurrentPlayingSpeech(ped: PedIndex): void {
 	const stopCurrentPlayingSpeech_result = Citizen.invokeNative<void>('0x16DD8628F525A206', ped);

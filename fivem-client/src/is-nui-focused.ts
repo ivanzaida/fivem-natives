@@ -4,8 +4,8 @@
  * 0X98545E6D
 
  * Returns the current NUI focus state previously set with `SET_NUI_FOCUS`.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  True or false.
  */
 export function isNuiFocused(): boolean {

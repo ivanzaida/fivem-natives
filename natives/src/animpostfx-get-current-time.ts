@@ -4,10 +4,10 @@
  * 0xF854E7F9C196DEFE
 
  * See ANIMPOSTFX_PLAY
- * Full list of animpostFX / screen effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animPostFxNamesCompact.json
- * 
- * ------------------------------------------------------------------
- * @param {string} effectName
+ * Full list of animpostFX / screen effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animPostFxNamesCompact.json
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} effectName
  * @returns {number}  
  */
 export function animpostfxGetCurrentTime(effectName: string): number {

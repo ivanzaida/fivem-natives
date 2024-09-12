@@ -6,8 +6,8 @@ import { ArenaWarsEnded } from '@ivanzaida/structures'
  * 0xF215BF4F28EC3017
 
  * 
- * ------------------------------------------------------------------
- * @param {ArenaWarsEnded} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {ArenaWarsEnded} data [Ref]
  */
 export function playstatsArenaWarsEnded(data: ArenaWarsEnded /* ptr */): void {
 	const playstatsArenaWarsEnded_result = Citizen.invokeNative<void>('0xF215BF4F28EC3017', data.dataView);

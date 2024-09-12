@@ -6,9 +6,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0X63458C27
 
  * Returns the hash of the weapon/model/object that killed the ped.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {EWeaponType}  
  */
 export function getPedCauseOfDeath(ped: PedIndex): EWeaponType {

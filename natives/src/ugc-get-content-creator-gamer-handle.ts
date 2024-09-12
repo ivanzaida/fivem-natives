@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x2461B1057D922D96
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {GamerHandle} gamer [Ref]
  * @returns {boolean}  
  */
 export function ugcGetContentCreatorGamerHandle(content: number, gamer: GamerHandle /* ptr */): boolean {

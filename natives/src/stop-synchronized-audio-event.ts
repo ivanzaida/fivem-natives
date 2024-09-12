@@ -4,8 +4,8 @@
  * 0x32FA1FA41E0D63D1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} sceneId
+ * ------------------------------------------------------------------
+ * @param {number} sceneId
  * @returns {boolean}  
  */
 export function stopSynchronizedAudioEvent(sceneId: number): boolean {

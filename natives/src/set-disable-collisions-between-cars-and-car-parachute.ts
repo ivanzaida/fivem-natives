@@ -4,9 +4,9 @@
  * 0x7A2982A0B5AB7BEB
 
  * Disables collisions between all vehicles and all vehicle parachutes
- * 
- * ------------------------------------------------------------------
- * @param {boolean} disableCollisions
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} disableCollisions
  */
 export function setDisableCollisionsBetweenCarsAndCarParachute(disableCollisions: boolean): void {
 	const setDisableCollisionsBetweenCarsAndCarParachute_result = Citizen.invokeNative<void>('0x7A2982A0B5AB7BEB', disableCollisions);

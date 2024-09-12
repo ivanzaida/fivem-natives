@@ -6,8 +6,8 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0xB0AB1F334666E337
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
  * @returns {boolean}  
  */
 export function isNetworkIdOwnedByParticipant(networkId: NetworkIndex): boolean {

@@ -6,8 +6,8 @@ import { LeaderboardReadInfo } from '@ivanzaida/structures'
  * 0xF685596DB2F81084
 
  * 
- * ------------------------------------------------------------------
- * @param {LeaderboardReadInfo} info [Ref]
+ * ------------------------------------------------------------------
+ * @param {LeaderboardReadInfo} info [Ref]
  * @returns {boolean}  
  */
 export function leaderboards2ReadGetRowDataStart(info: LeaderboardReadInfo /* ptr */): boolean {

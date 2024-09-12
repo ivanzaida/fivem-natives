@@ -6,7 +6,7 @@ import { ESavegameOperationStatus } from '@ivanzaida/structures'
  * 0x7DE5CD18CC7CF0A6
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ESavegameOperationStatus}  
  */
 export function getStatusOfMissionRepeatSave(): ESavegameOperationStatus {

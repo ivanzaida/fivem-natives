@@ -6,9 +6,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xB562F84CE9B07D89
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {number} timeInMilliseconds
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {number} timeInMilliseconds
  */
 export function setBlipFlashInterval(blip: BlipIndex, timeInMilliseconds: number): void {
 	const setBlipFlashInterval_result = Citizen.invokeNative<void>('0xB562F84CE9B07D89', blip, timeInMilliseconds);

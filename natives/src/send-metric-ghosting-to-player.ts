@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x1B045571F6FA298C
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
  */
 export function sendMetricGhostingToPlayer(gamer: GamerHandle /* ptr */): void {
 	const sendMetricGhostingToPlayer_result = Citizen.invokeNative<void>('0x1B045571F6FA298C', gamer.dataView);

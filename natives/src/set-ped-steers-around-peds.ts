@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x639E8A4EA31DD813
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} state
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} state
  */
 export function setPedSteersAroundPeds(ped: PedIndex, state: boolean): void {
 	const setPedSteersAroundPeds_result = Citizen.invokeNative<void>('0x639E8A4EA31DD813', ped, state);

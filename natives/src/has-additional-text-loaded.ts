@@ -6,8 +6,8 @@ import { ETextBlockSlots } from '@ivanzaida/structures'
  * 0xDCB78A15E5F495DC
 
  * 
- * ------------------------------------------------------------------
- * @param {ETextBlockSlots} slotNumber
+ * ------------------------------------------------------------------
+ * @param {ETextBlockSlots} slotNumber
  * @returns {boolean}  
  */
 export function hasAdditionalTextLoaded(slotNumber: ETextBlockSlots | number): boolean {

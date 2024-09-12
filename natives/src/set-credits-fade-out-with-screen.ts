@@ -4,8 +4,8 @@
  * 0x9969A63702BCDEFE
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} fade
+ * ------------------------------------------------------------------
+ * @param {boolean} fade
  */
 export function setCreditsFadeOutWithScreen(fade: boolean): void {
 	const setCreditsFadeOutWithScreen_result = Citizen.invokeNative<void>('0x9969A63702BCDEFE', fade);

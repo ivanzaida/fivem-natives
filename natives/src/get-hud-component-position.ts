@@ -6,8 +6,8 @@ import { EEHudComponent, Vector3 } from '@ivanzaida/structures'
  * 0x93FAFC10F21C7ACA
 
  * 
- * ------------------------------------------------------------------
- * @param {EEHudComponent} hudComponent
+ * ------------------------------------------------------------------
+ * @param {EEHudComponent} hudComponent
  * @returns {Vector3}  
  */
 export function getHudComponentPosition(hudComponent: EEHudComponent | number): Vector3 {

@@ -6,9 +6,9 @@ import { PedIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x7241E3AD10840886
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function networkApplyCachedPlayerHeadBlendData(ped: PedIndex, player: PlayerIndex): boolean {

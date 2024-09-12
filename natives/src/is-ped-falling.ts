@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9857C978BD3CBEDA
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedFalling(ped: PedIndex): boolean {

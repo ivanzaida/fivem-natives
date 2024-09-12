@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xC7DB642109D72AF8
 
  * An override for parachute model. clears the call to SET_PLAYER_PARACHUTE_MODEL_OVERRIDE.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function clearPlayerParachuteModelOverride(player: PlayerIndex): void {
 	const clearPlayerParachuteModelOverride_result = Citizen.invokeNative<void>('0xC7DB642109D72AF8', player);

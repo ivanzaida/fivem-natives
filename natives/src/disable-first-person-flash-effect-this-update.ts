@@ -4,7 +4,7 @@
  * 0x5FD79E92E62966FB
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function disableFirstPersonFlashEffectThisUpdate(): void {
 	const disableFirstPersonFlashEffectThisUpdate_result = Citizen.invokeNative<void>('0x5FD79E92E62966FB', );

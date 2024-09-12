@@ -6,10 +6,10 @@ import { EStatsenum, BoolRef } from '@ivanzaida/structures'
  * 0xF249567F2E83E093
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {BoolRef} data [Ref]
- * @param {number} player
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {BoolRef} data [Ref]
+ * @param {number} player
  * @returns {boolean}  
  */
 export function statGetBool(keyHash: EStatsenum | number, data: BoolRef /* ptr */, player: number = 1): boolean {

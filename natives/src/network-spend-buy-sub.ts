@@ -6,11 +6,11 @@ import { BuySub } from '@ivanzaida/structures'
  * 0x4BEE133765D6015F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {boolean} fromBank
- * @param {boolean} fromBankAndWallet
- * @param {BuySub} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {boolean} fromBank
+ * @param {boolean} fromBankAndWallet
+ * @param {BuySub} data [Ref]
  */
 export function networkSpendBuySub(amount: number, fromBank: boolean, fromBankAndWallet: boolean, data: BuySub /* ptr */): void {
 	const networkSpendBuySub_result = Citizen.invokeNative<void>('0x4BEE133765D6015F', amount, fromBank, fromBankAndWallet, data.dataView);

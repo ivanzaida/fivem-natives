@@ -4,9 +4,9 @@
  * 0xCCCB75189BBBA6DE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} file
- * @param {string} szContentID
+ * ------------------------------------------------------------------
+ * @param {number} file
+ * @param {string} szContentID
  * @returns {boolean}  
  */
 export function datafileLoadOfflineUgcForAdditionalDataFile(file: number, szContentID: string): boolean {

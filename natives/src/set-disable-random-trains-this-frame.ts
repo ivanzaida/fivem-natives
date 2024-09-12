@@ -4,8 +4,8 @@
  * 0x3F4A190062FF9E09
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} val
+ * ------------------------------------------------------------------
+ * @param {boolean} val
  */
 export function setDisableRandomTrainsThisFrame(val: boolean): void {
 	const setDisableRandomTrainsThisFrame_result = Citizen.invokeNative<void>('0x3F4A190062FF9E09', val);

@@ -6,8 +6,8 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0x79D5985D0CE1880C
 
  * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
  * @returns {boolean}  
  */
 export function isInteriorCapped(interiorInstance: InteriorInstanceIndex): boolean {

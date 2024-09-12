@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x16CFE70936BA84C7
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {boolean}  
  */
 export function hasVehicleAssetLoaded(vehicleModelHashKey: ModelNames): boolean {

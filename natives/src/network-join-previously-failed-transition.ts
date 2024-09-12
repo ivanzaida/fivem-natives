@@ -4,7 +4,7 @@
  * 0x7C2F429F5A70EFE8
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkJoinPreviouslyFailedTransition(): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x854D2E21A9863405
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function forceInstantLegIkSetup(ped: PedIndex): void {
 	const forceInstantLegIkSetup_result = Citizen.invokeNative<void>('0x854D2E21A9863405', ped);

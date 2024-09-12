@@ -4,8 +4,8 @@
  * 0x081A40A40A77958E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} val
+ * ------------------------------------------------------------------
+ * @param {boolean} val
  */
 export function setPtfxForceVehicleInteriorFlag(val: boolean): void {
 	const setPtfxForceVehicleInteriorFlag_result = Citizen.invokeNative<void>('0x081A40A40A77958E', val);

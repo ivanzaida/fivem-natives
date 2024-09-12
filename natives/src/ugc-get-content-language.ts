@@ -4,8 +4,8 @@
  * 0xA2CE098EA47DF97D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {number}  
  */
 export function ugcGetContentLanguage(content: number): number {

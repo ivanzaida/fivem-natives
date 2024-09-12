@@ -6,9 +6,9 @@ import { GamerInfo } from '@ivanzaida/structures'
  * 0x9A791B1482F74599
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerInfo} info [Ref]
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {GamerInfo} info [Ref]
+ * @param {number} index
  * @returns {boolean}  
  */
 export function networkGetFoundGamer(info: GamerInfo /* ptr */, index: number): boolean {

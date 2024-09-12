@@ -4,8 +4,8 @@
  * 0xCE1D2FC338EEA6AA
 
  * Returns TRUE if data retrieval with NETWORK_GET_PRIMARY_CLAN_DATA_START has been successfull.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkGetPrimaryClanDataSuccess(): boolean {

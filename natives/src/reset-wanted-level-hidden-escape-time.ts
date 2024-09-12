@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x252B3E511E67DD84
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function resetWantedLevelHiddenEscapeTime(player: PlayerIndex): void {
 	const resetWantedLevelHiddenEscapeTime_result = Citizen.invokeNative<void>('0x252B3E511E67DD84', player);

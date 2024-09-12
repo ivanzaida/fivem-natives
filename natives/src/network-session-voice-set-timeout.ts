@@ -4,8 +4,8 @@
  * 0xBA4DB04D93B492EF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} timeout
+ * ------------------------------------------------------------------
+ * @param {number} timeout
  */
 export function networkSessionVoiceSetTimeout(timeout: number): void {
 	const networkSessionVoiceSetTimeout_result = Citizen.invokeNative<void>('0xBA4DB04D93B492EF', timeout);

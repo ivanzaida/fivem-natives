@@ -4,8 +4,8 @@
  * 0xA3089FB5A559E0D5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedBlushFacepaintTintForBarber(tint: number): boolean {

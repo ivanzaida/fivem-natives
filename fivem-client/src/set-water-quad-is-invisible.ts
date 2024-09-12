@@ -4,9 +4,9 @@
  * 0XA387D917
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {boolean} isInvisible Unknown effect
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {boolean} isInvisible Unknown effect
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadIsInvisible(waterQuad: number, isInvisible: boolean): boolean {

@@ -4,9 +4,9 @@
  * 0xCF073B4FF8828B7E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
- * @param {boolean} xv
+ * ------------------------------------------------------------------
+ * @param {number} content
+ * @param {boolean} xv
  * @returns {number}  
  */
 export function ugcGetContentRating(content: number, xv: boolean): number {

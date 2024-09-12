@@ -4,7 +4,7 @@
  * 0x81C066ED25825D02
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkRemoveAndCancelAllInvites(): void {
 	const networkRemoveAndCancelAllInvites_result = Citizen.invokeNative<void>('0x81C066ED25825D02', );

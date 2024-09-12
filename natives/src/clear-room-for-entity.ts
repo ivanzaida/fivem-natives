@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x1ACA339FBE1A59EA
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function clearRoomForEntity(entity: EntityIndex): void {
 	const clearRoomForEntity_result = Citizen.invokeNative<void>('0x1ACA339FBE1A59EA', entity);

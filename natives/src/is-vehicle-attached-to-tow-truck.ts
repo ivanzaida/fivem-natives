@@ -6,11 +6,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x4A64AADF9B40D2AF
 
  * Check if a vehicle is attached to the tow truck
- * Scripts verify that towTruck is the first parameter, not the second.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} towTruckVehicle
- * @param {VehicleIndex} vehicle
+ * Scripts verify that towTruck is the first parameter, not the second.
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} towTruckVehicle
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleAttachedToTowTruck(towTruckVehicle: VehicleIndex, vehicle: VehicleIndex): boolean {

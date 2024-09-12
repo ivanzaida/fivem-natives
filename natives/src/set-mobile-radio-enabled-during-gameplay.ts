@@ -4,8 +4,8 @@
  * 0x048A57C4A90E9F0D
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enabled
+ * ------------------------------------------------------------------
+ * @param {boolean} enabled
  */
 export function setMobileRadioEnabledDuringGameplay(enabled: boolean): void {
 	const setMobileRadioEnabledDuringGameplay_result = Citizen.invokeNative<void>('0x048A57C4A90E9F0D', enabled);

@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0xEDDF0C80A9EEE28A
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {number}  
  */
 export function getCamDofStrength(camera: CameraIndex): number {

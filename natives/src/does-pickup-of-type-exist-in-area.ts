@@ -6,13 +6,13 @@ import { EPickupType } from '@ivanzaida/structures'
  * 0x6AA6E814FE2A18C2
 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
- * 
- * ------------------------------------------------------------------
- * @param {EPickupType} pickupType
- * @param {number} coordsX
- * @param {number} coordsY
- * @param {number} coordsZ
- * @param {number} radius
+ * 
+ * ------------------------------------------------------------------
+ * @param {EPickupType} pickupType
+ * @param {number} coordsX
+ * @param {number} coordsY
+ * @param {number} coordsZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function doesPickupOfTypeExistInArea(pickupType: EPickupType | number, coordsX: number, coordsY: number, coordsZ: number, radius: number): boolean {

@@ -6,8 +6,8 @@ import { StringRef } from '@ivanzaida/structures'
  * 0xABE86AEC64720F91
 
  * 
- * ------------------------------------------------------------------
- * @param {StringRef} itemkey [Ref]
+ * ------------------------------------------------------------------
+ * @param {StringRef} itemkey [Ref]
  * @returns {boolean}  
  */
 export function netGameserverCatalogItemIsValid(itemkey: StringRef /* ptr */): boolean {

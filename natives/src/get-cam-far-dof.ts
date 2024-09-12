@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0x2221B1FEFEE35449
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {number}  
  */
 export function getCamFarDof(camera: CameraIndex): number {

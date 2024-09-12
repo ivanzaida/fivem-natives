@@ -4,9 +4,9 @@
  * 0XD233A168
 
  * An internal function which allows the current resource's HLL script runtimes to receive state for the specified event.
- * 
- * ------------------------------------------------------------------
- * @param {string} eventName An event name, or "" to disable HLL event filtering for this resource.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} eventName An event name, or "" to disable HLL event filtering for this resource.
  */
 export function registerResourceAsEventHandler(eventName: string): void {
 	const registerResourceAsEventHandler_result = Citizen.invokeNative<void>('0XD233A168', eventName);

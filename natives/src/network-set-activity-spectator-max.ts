@@ -4,8 +4,8 @@
  * 0xD813155D5FA37C96
 
  * 
- * ------------------------------------------------------------------
- * @param {number} spectatorMax
+ * ------------------------------------------------------------------
+ * @param {number} spectatorMax
  */
 export function networkSetActivitySpectatorMax(spectatorMax: number): void {
 	const networkSetActivitySpectatorMax_result = Citizen.invokeNative<void>('0xD813155D5FA37C96', spectatorMax);

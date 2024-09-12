@@ -4,8 +4,8 @@
  * 0xE816E655DE37FE20
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function log10(value: number): number {

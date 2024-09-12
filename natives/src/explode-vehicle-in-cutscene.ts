@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1D937F8481AB64F0
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} addExplosion
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} addExplosion
  */
 export function explodeVehicleInCutscene(vehicle: VehicleIndex, addExplosion: boolean = true): void {
 	const explodeVehicleInCutscene_result = Citizen.invokeNative<void>('0x1D937F8481AB64F0', vehicle, addExplosion);

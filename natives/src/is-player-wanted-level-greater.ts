@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x3EE1A6D743332852
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} wantedLevel
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} wantedLevel
  * @returns {boolean}  
  */
 export function isPlayerWantedLevelGreater(player: PlayerIndex, wantedLevel: number): boolean {

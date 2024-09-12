@@ -4,10 +4,10 @@
  * 0X9A0E1700
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} portalIndex Interior portal index.
- * @param {number} entityIndex Portal entity index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} portalIndex Interior portal index.
+ * @param {number} entityIndex Portal entity index.
  * @returns {number}  Portal entity archetype.
  */
 export function getInteriorPortalEntityArchetype(interiorId: number, portalIndex: number, entityIndex: number): number {

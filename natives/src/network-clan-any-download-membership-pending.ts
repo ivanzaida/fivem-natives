@@ -4,7 +4,7 @@
  * 0xD0E82DF28BBDFA90
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkClanAnyDownloadMembershipPending(): boolean {

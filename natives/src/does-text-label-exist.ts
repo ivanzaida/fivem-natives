@@ -4,9 +4,9 @@
  * 0x6BA487C862DB8DDF
 
  * Checks if the passed gxt name exists in the game files.
- * 
- * ------------------------------------------------------------------
- * @param {string} textLabel
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} textLabel
  * @returns {boolean}  
  */
 export function doesTextLabelExist(textLabel: string): boolean {

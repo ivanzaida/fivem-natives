@@ -6,13 +6,13 @@ import { EUgcCategory, EUgcSortType } from '@ivanzaida/structures'
  * 0x6D52735FB5FD59E8
 
  * 
- * ------------------------------------------------------------------
- * @param {EUgcCategory} category
- * @param {number} offset
- * @param {number} maxCount
- * @param {string} szContentType
- * @param {EUgcSortType} sortType
- * @param {boolean} descending
+ * ------------------------------------------------------------------
+ * @param {EUgcCategory} category
+ * @param {number} offset
+ * @param {number} maxCount
+ * @param {string} szContentType
+ * @param {EUgcSortType} sortType
+ * @param {boolean} descending
  * @returns {boolean}  
  */
 export function ugcQueryByCategory(category: EUgcCategory | number, offset: number, maxCount: number, szContentType: string, sortType: EUgcSortType | number = 1, descending: boolean = false): boolean {

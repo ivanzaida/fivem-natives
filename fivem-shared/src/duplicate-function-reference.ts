@@ -4,8 +4,8 @@
  * 0XF4E2079D
 
  * 
- * ------------------------------------------------------------------
- * @param {string} referenceIdentity
+ * ------------------------------------------------------------------
+ * @param {string} referenceIdentity
  * @returns {string}  
  */
 export function duplicateFunctionReference(referenceIdentity: string): string {

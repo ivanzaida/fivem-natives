@@ -4,7 +4,7 @@
  * 0xC281E62EC347918C
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function assistedMovementCloseRoute(): void {
 	const assistedMovementCloseRoute_result = Citizen.invokeNative<void>('0xC281E62EC347918C', );

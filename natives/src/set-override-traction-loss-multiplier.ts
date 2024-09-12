@@ -4,7 +4,7 @@
  * 0xAFD262ACCA64479A
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setOverrideTractionLossMultiplier(): void {
 	const setOverrideTractionLossMultiplier_result = Citizen.invokeNative<void>('0xAFD262ACCA64479A', );

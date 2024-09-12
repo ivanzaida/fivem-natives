@@ -4,8 +4,8 @@
  * 0xE637CC36B406C3BD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} playerMax
+ * ------------------------------------------------------------------
+ * @param {number} playerMax
  */
 export function networkSetActivityPlayerMax(playerMax: number): void {
 	const networkSetActivityPlayerMax_result = Citizen.invokeNative<void>('0xE637CC36B406C3BD', playerMax);

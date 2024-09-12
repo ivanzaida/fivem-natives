@@ -6,10 +6,10 @@ import { ItemIndex, TimeDatatype } from '@ivanzaida/structures'
  * 0xD54324BF37C12BEE
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
- * @param {TimeDatatype} value
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
+ * @param {TimeDatatype} value
  * @returns {boolean}  
  */
 export function decorSetTime(guid: ItemIndex, decoratorName: string, value: TimeDatatype): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x998B35A7F4D0F0C7
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isTaskMoveNetworkReadyForTransition(ped: PedIndex): boolean {

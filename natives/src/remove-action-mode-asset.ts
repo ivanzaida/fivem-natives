@@ -4,8 +4,8 @@
  * 0xDBE717677A78CC44
 
  * 
- * ------------------------------------------------------------------
- * @param {string} actionMode
+ * ------------------------------------------------------------------
+ * @param {string} actionMode
  */
 export function removeActionModeAsset(actionMode: string): void {
 	const removeActionModeAsset_result = Citizen.invokeNative<void>('0xDBE717677A78CC44', actionMode);

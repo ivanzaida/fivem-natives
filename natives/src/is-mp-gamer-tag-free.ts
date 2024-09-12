@@ -4,8 +4,8 @@
  * 0x7EF5C276218594E5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} playerNum
+ * ------------------------------------------------------------------
+ * @param {number} playerNum
  * @returns {boolean}  
  */
 export function isMpGamerTagFree(playerNum: number): boolean {

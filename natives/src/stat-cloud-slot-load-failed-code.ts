@@ -6,8 +6,8 @@ import { ECloudLoadFailureCodes } from '@ivanzaida/structures'
  * 0x2F2F3B8D58302682
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {ECloudLoadFailureCodes}  
  */
 export function statCloudSlotLoadFailedCode(slot: number): ECloudLoadFailureCodes {

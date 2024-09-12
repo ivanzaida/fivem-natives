@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X43F15989
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle The target vehicle.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle The target vehicle.
  * @returns {boolean}  Returns whether or not the boat sinks when wrecked.
  */
 export function doesBoatSinkWhenWrecked(vehicle: VehicleIndex): boolean {

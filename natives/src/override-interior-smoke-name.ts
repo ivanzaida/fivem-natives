@@ -4,8 +4,8 @@
  * 0x81A1F979AAA91E2B
 
  * 
- * ------------------------------------------------------------------
- * @param {string} overrideName
+ * ------------------------------------------------------------------
+ * @param {string} overrideName
  */
 export function overrideInteriorSmokeName(overrideName: string): void {
 	const overrideInteriorSmokeName_result = Citizen.invokeNative<void>('0x81A1F979AAA91E2B', overrideName);

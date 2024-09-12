@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x44612E772F9312E9
 
  * Index references CVehicleModelColor
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} colorIdx
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} colorIdx
  */
 export function setVehicleNeonIndexColour(vehicle: VehicleIndex, colorIdx: number): void {
 	const setVehicleNeonIndexColour_result = Citizen.invokeNative<void>('0x44612E772F9312E9', vehicle, colorIdx);

@@ -6,8 +6,8 @@ import { Threadid } from '@ivanzaida/structures'
  * 0x98A7AD360A44F01D
 
  * 
- * ------------------------------------------------------------------
- * @param {Threadid} thread
+ * ------------------------------------------------------------------
+ * @param {Threadid} thread
  * @returns {boolean}  
  */
 export function networkIsThreadANetworkScript(thread: Threadid): boolean {

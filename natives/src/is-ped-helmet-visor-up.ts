@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x99D9C76822DA4A29
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedHelmetVisorUp(ped: PedIndex): boolean {

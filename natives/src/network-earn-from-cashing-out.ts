@@ -4,8 +4,8 @@
  * 0xD96CCBEFF9394523
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnFromCashingOut(amount: number): void {
 	const networkEarnFromCashingOut_result = Citizen.invokeNative<void>('0xD96CCBEFF9394523', amount);

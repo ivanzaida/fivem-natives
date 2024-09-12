@@ -4,10 +4,10 @@
  * 0xFAF53F2F65D5EE26
 
  * Returns CGameWorldHeightMap's minimum Z value at specified point (grid node).
- * 
- * ------------------------------------------------------------------
- * @param {number} x
- * @param {number} y
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} x
+ * @param {number} y
  * @returns {number}  
  */
 export function getApproxFloorForPoint(x: number, y: number): number {

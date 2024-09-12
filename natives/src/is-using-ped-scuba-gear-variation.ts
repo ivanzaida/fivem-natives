@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x1D5385246A3434D3
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isUsingPedScubaGearVariation(ped: PedIndex): boolean {

@@ -4,8 +4,8 @@
  * 0xDB7CCABFFA928C83
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} randomBoatsFlag
+ * ------------------------------------------------------------------
+ * @param {boolean} randomBoatsFlag
  */
 export function setRandomBoatsMp(randomBoatsFlag: boolean): void {
 	const setRandomBoatsMp_result = Citizen.invokeNative<void>('0xDB7CCABFFA928C83', randomBoatsFlag);

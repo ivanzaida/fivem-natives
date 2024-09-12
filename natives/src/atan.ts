@@ -4,9 +4,9 @@
  * 0x21CDF75488EFB98B
 
  * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
- * 
- * ------------------------------------------------------------------
- * @param {number} x
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} x
  * @returns {number}  
  */
 export function atan(x: number): number {

@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x47B4C8905694BBE1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allowGestureAnims
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allowGestureAnims
  */
 export function setPedCanPlayGestureAnims(ped: PedIndex, allowGestureAnims: boolean): void {
 	const setPedCanPlayGestureAnims_result = Citizen.invokeNative<void>('0x47B4C8905694BBE1', ped, allowGestureAnims);

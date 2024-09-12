@@ -6,13 +6,13 @@ import { EEventNames } from '@ivanzaida/structures'
  * 0x18B384412B836744
 
  * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
- * 
- * ------------------------------------------------------------------
- * @param {EEventNames} eventType
- * @param {number} posX
- * @param {number} posY
- * @param {number} posZ
- * @param {number} overrideLifeTime
+ * 
+ * ------------------------------------------------------------------
+ * @param {EEventNames} eventType
+ * @param {number} posX
+ * @param {number} posY
+ * @param {number} posZ
+ * @param {number} overrideLifeTime
  * @returns {number}  
  */
 export function addShockingEventAtPosition(eventType: EEventNames | number, posX: number, posY: number, posZ: number, overrideLifeTime: number = 1): number {

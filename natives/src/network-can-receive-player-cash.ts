@@ -4,11 +4,11 @@
  * 0x5B9D8077EF640468
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {number} amountOfEVC
- * @param {number} amountOfPVC
- * @param {number} amountOfUSDE
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {number} amountOfEVC
+ * @param {number} amountOfPVC
+ * @param {number} amountOfUSDE
  * @returns {boolean}  
  */
 export function networkCanReceivePlayerCash(amount: number, amountOfEVC: number, amountOfPVC: number, amountOfUSDE: number): boolean {

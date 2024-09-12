@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x34F5E7395D31DAD7
 
  * 
- * ------------------------------------------------------------------
- * @param {number} speakerConversation
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {number} speakerConversation
+ * @param {EntityIndex} entity
  */
 export function setEntityForNullConvPed(speakerConversation: number, entity: EntityIndex): void {
 	const setEntityForNullConvPed_result = Citizen.invokeNative<void>('0x34F5E7395D31DAD7', speakerConversation, entity);

@@ -4,8 +4,8 @@
  * 0x00BDC89742B13CD2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} character
+ * ------------------------------------------------------------------
+ * @param {number} character
  * @returns {number}  
  */
 export function networkGetVcWalletBalance(character: number = 1): number {

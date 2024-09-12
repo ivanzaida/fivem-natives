@@ -6,10 +6,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  * 0xDEE3EFEA31A1F555
 
  * control: see IS_CONTROL_ENABLED
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
- * @param {EControlAction} action
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
+ * @param {EControlAction} action
  * @returns {boolean}  
  */
 export function isDisabledControlJustPressed(control: EControlType | number, action: EControlAction | number): boolean {

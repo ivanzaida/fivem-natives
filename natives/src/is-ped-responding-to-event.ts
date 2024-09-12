@@ -6,9 +6,9 @@ import { PedIndex, EEventNames } from '@ivanzaida/structures'
  * 0x81ECDD5A759C026D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EEventNames} eventType
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EEventNames} eventType
  * @returns {boolean}  
  */
 export function isPedRespondingToEvent(ped: PedIndex, eventType: EEventNames | number): boolean {

@@ -4,8 +4,8 @@
  * 0x19CC911A97AF8F27
 
  * 
- * ------------------------------------------------------------------
- * @param {string} radioStationName
+ * ------------------------------------------------------------------
+ * @param {string} radioStationName
  * @returns {number}  
  */
 export function getCurrentTrackPlayTime(radioStationName: string): number {

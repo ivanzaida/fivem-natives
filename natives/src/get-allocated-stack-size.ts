@@ -4,8 +4,8 @@
  * 0x6F4C4DF60C52867E
 
  * Each script is an allocate stack of memory. This returns that value.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getAllocatedStackSize(): number {

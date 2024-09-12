@@ -6,8 +6,8 @@ import { EWeaponType } from '@ivanzaida/structures'
  * 0x92A65766A892EFC6
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weaponType
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weaponType
  * @returns {boolean}  
  */
 export function hasWeaponAssetLoaded(weaponType: EWeaponType | number): boolean {

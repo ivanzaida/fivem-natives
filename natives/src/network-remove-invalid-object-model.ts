@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x0127914A94E51F42
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} modelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} modelHashKey
  */
 export function networkRemoveInvalidObjectModel(modelHashKey: ModelNames): void {
 	const networkRemoveInvalidObjectModel_result = Citizen.invokeNative<void>('0x0127914A94E51F42', modelHashKey);

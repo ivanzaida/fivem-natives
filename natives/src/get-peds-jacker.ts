@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xC1089D3918F03D33
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PedIndex}  
  */
 export function getPedsJacker(ped: PedIndex): PedIndex {

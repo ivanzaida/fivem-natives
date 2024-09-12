@@ -4,8 +4,8 @@
  * 0x7D01976EF2600F1C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} newsStoryId
+ * ------------------------------------------------------------------
+ * @param {number} newsStoryId
  * @returns {boolean}  
  */
 export function isMissionNewsStoryUnlocked(newsStoryId: number): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x483232F244CDBFC6
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedInAnySub(ped: PedIndex): boolean {

@@ -4,9 +4,9 @@
  * 0X12038599
 
  * Returns whether or not the player exists
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {boolean}  True if the player exists, false otherwise
  */
 export function doesPlayerExist(playerSrc: string): boolean {

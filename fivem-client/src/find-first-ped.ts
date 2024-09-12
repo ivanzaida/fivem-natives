@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0XFB012961
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} outEntity [Ref]
  * @returns {number}  
  */
 export function findFirstPed(outEntity: IntRef /* ptr */): number {

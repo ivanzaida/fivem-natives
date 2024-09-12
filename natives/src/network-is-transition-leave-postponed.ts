@@ -4,7 +4,7 @@
  * 0x3925DD69CFF095F4
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsTransitionLeavePostponed(): boolean {

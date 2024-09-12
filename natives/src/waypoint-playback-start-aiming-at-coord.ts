@@ -6,12 +6,12 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xA9260F368C3AE393
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} targetCoordsX
- * @param {number} targetCoordsY
- * @param {number} targetCoordsZ
- * @param {boolean} runAndGun
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} targetCoordsX
+ * @param {number} targetCoordsY
+ * @param {number} targetCoordsZ
+ * @param {boolean} runAndGun
  */
 export function waypointPlaybackStartAimingAtCoord(ped: PedIndex, targetCoordsX: number, targetCoordsY: number, targetCoordsZ: number, runAndGun: boolean): void {
 	const waypointPlaybackStartAimingAtCoord_result = Citizen.invokeNative<void>('0xA9260F368C3AE393', ped, targetCoordsX, targetCoordsY, targetCoordsZ, runAndGun);

@@ -4,10 +4,10 @@
  * 0x266D9DB5FCE4003B
 
  * See REQUEST_VEHICLE_RECORDING
- * 
- * ------------------------------------------------------------------
- * @param {number} fileNumber
- * @param {string} recordingName
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} fileNumber
+ * @param {string} recordingName
  * @returns {boolean}  
  */
 export function hasVehicleRecordingBeenLoaded(fileNumber: number, recordingName: string): boolean {

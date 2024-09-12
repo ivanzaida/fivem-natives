@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x73CB9EAA55D097EB
 
  * Allows law peds to attack player even if they have no wanted level. Essentially acts like a global "PCF_CanAttackNonWantedPlayerAsLaw" flag on all law peds. Must be called every frame to maintain effect.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function setLawPedsCanAttackNonWantedPlayerThisFrame(player: PlayerIndex): void {
 	const setLawPedsCanAttackNonWantedPlayerThisFrame_result = Citizen.invokeNative<void>('0x73CB9EAA55D097EB', player);

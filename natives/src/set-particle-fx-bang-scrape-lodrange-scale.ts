@@ -4,8 +4,8 @@
  * 0xB260FC482D6B50B9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} scale
+ * ------------------------------------------------------------------
+ * @param {number} scale
  */
 export function setParticleFxBangScrapeLodrangeScale(scale: number): void {
 	const setParticleFxBangScrapeLodrangeScale_result = Citizen.invokeNative<void>('0xB260FC482D6B50B9', scale);

@@ -4,9 +4,9 @@
  * 0xCFDC32D2EF467A52
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {string} matchId
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {string} matchId
  */
 export function networkEarnFromPremiumJob(amount: number, matchId: string): void {
 	const networkEarnFromPremiumJob_result = Citizen.invokeNative<void>('0xCFDC32D2EF467A52', amount, matchId);

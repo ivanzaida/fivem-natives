@@ -4,7 +4,7 @@
  * 0xD7C2A6E5CF33E328
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function resetGameplayCamFullAttachParentTransformTimer(): void {
 	const resetGameplayCamFullAttachParentTransformTimer_result = Citizen.invokeNative<void>('0xD7C2A6E5CF33E328', );

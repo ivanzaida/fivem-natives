@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x79BDC52C38AAF639
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {boolean} healthPercentageByMass
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {boolean} healthPercentageByMass
  * @returns {number}  
  */
 export function getObjectFragmentDamageHealth(object: ObjectIndex, healthPercentageByMass: boolean): number {

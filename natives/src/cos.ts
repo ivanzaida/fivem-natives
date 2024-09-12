@@ -4,8 +4,8 @@
  * 0xD0FFB162F40A139C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function cos(value: number): number {

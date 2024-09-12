@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x22E252733390A9A9
 
  * Max 1000.
- * At 0 the main rotor will stall.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * At 0 the main rotor will stall.
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  
  */
 export function getHeliMainRotorHealth(vehicle: VehicleIndex): number {

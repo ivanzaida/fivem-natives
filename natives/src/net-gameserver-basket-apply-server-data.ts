@@ -6,9 +6,9 @@ import { ShopBasketServerDataInfo } from '@ivanzaida/structures'
  * 0x11FD21BA1B765FE2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} transactionId
- * @param {ShopBasketServerDataInfo} info [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} transactionId
+ * @param {ShopBasketServerDataInfo} info [Ref]
  * @returns {boolean}  
  */
 export function netGameserverBasketApplyServerData(transactionId: number, info: ShopBasketServerDataInfo /* ptr */): boolean {

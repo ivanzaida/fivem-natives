@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xBA929B36B8BB08EB
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setBoatWrecked(vehicle: VehicleIndex): void {
 	const setBoatWrecked_result = Citizen.invokeNative<void>('0xBA929B36B8BB08EB', vehicle);

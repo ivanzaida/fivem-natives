@@ -4,9 +4,9 @@
  * 0X67977501
 
  * 
- * ------------------------------------------------------------------
- * @param {number} calmingQuad The calming quad
- * @param {number} dampening The dampening value
+ * ------------------------------------------------------------------
+ * @param {number} calmingQuad The calming quad
+ * @param {number} dampening The dampening value
  * @returns {boolean}  Returns true on success.
  */
 export function setCalmingQuadDampening(calmingQuad: number, dampening: number): boolean {

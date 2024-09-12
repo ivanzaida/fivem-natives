@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x306E268B106D3D0D
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} forklift
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} forklift
  */
 export function lowerForkliftForks(forklift: VehicleIndex): void {
 	const lowerForkliftForks_result = Citizen.invokeNative<void>('0x306E268B106D3D0D', forklift);

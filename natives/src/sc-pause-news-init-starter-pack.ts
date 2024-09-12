@@ -4,8 +4,8 @@
  * 0xDF0800F98C6064FB
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} isOwned
+ * ------------------------------------------------------------------
+ * @param {boolean} isOwned
  * @returns {boolean}  
  */
 export function scPauseNewsInitStarterPack(isOwned: boolean): boolean {

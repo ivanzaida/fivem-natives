@@ -6,9 +6,9 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0xA88C91AADCB02A8A
 
  * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
- * @param {number} roomKey
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
+ * @param {number} roomKey
  */
 export function forceRoomForGameViewport(interiorInstance: InteriorInstanceIndex, roomKey: number): void {
 	const forceRoomForGameViewport_result = Citizen.invokeNative<void>('0xA88C91AADCB02A8A', interiorInstance, roomKey);

@@ -4,8 +4,8 @@
  * -
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnFromRockstar(amount: number): void {
 	const networkEarnFromRockstar_result = Citizen.invokeNative<void>('-', amount);

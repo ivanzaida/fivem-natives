@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X2C59F987
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} heli The helicopter to check
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} heli The helicopter to check
  * @returns {boolean}  Returns `true` if the helicopter's tail boom is broken, `false` if it is intact.
  */
 export function isHeliTailBoomBroken(heli: VehicleIndex): boolean {

@@ -4,9 +4,9 @@
  * 0X3F47F0E8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} portalIndex Interior portal index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} portalIndex Interior portal index.
  * @returns {number}  Portal's room TO index.
  */
 export function getInteriorPortalRoomTo(interiorId: number, portalIndex: number): number {

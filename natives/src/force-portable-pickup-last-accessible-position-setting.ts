@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x7AD61992EAE86A99
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
  */
 export function forcePortablePickupLastAccessiblePositionSetting(pickupID: ObjectIndex): void {
 	const forcePortablePickupLastAccessiblePositionSetting_result = Citizen.invokeNative<void>('0x7AD61992EAE86A99', pickupID);

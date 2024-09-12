@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xB98B1A5B59BC5065
 
  * Returns true/false if the ped is/isn't male.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedMale(ped: PedIndex): boolean {

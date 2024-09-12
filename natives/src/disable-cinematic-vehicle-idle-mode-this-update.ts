@@ -4,7 +4,7 @@
  * 0x59ABC1F373CE1F5B
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function disableCinematicVehicleIdleModeThisUpdate(): void {
 	const disableCinematicVehicleIdleModeThisUpdate_result = Citizen.invokeNative<void>('0x59ABC1F373CE1F5B', );

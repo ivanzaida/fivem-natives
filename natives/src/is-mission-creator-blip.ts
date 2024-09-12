@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xBA5BA0D4E8539C9C
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {boolean}  
  */
 export function isMissionCreatorBlip(blip: BlipIndex): boolean {

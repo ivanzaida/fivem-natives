@@ -4,13 +4,13 @@
  * 0x813D79A654EE13DA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} positionX
- * @param {number} positionY
- * @param {number} positionZ
- * @param {string} scenarioType
- * @param {number} range
- * @param {boolean} mustBeFree
+ * ------------------------------------------------------------------
+ * @param {number} positionX
+ * @param {number} positionY
+ * @param {number} positionZ
+ * @param {string} scenarioType
+ * @param {number} range
+ * @param {boolean} mustBeFree
  * @returns {boolean}  
  */
 export function doesScenarioOfTypeExistInArea(positionX: number, positionY: number, positionZ: number, scenarioType: string, range: number, mustBeFree: boolean): boolean {

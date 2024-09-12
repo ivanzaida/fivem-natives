@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x4C8F181F63537DD2
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function requestVehicleDial(vehicle: VehicleIndex): void {
 	const requestVehicleDial_result = Citizen.invokeNative<void>('0x4C8F181F63537DD2', vehicle);

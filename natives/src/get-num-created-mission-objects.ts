@@ -4,8 +4,8 @@
  * 0xD1C2A76DD73A4387
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} forAllScripts
+ * ------------------------------------------------------------------
+ * @param {boolean} forAllScripts
  * @returns {number}  
  */
 export function getNumCreatedMissionObjects(forAllScripts: boolean = false): number {

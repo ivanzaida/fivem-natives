@@ -4,7 +4,7 @@
  * 0x51CC1333A10C4E09
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function networkSetScriptIsSafeForNetworkGame(): void {
 	const networkSetScriptIsSafeForNetworkGame_result = Citizen.invokeNative<void>('0x51CC1333A10C4E09', );

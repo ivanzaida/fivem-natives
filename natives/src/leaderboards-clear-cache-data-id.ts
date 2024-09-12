@@ -4,8 +4,8 @@
  * 0xEB551BF55D9D9721
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id
+ * ------------------------------------------------------------------
+ * @param {number} id
  */
 export function leaderboardsClearCacheDataId(id: number): void {
 	const leaderboardsClearCacheDataId_result = Citizen.invokeNative<void>('0xEB551BF55D9D9721', id);

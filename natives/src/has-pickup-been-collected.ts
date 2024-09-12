@@ -6,8 +6,8 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0x1D56B24774D5E23C
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
  * @returns {boolean}  
  */
 export function hasPickupBeenCollected(pickupID: PickupIndex): boolean {

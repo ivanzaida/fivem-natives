@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x95ED454235D93943
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
- * @param {boolean} force
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
+ * @param {boolean} force
  */
 export function forceActivatePhysicsOnUnfixedPickup(pickupID: ObjectIndex, force: boolean): void {
 	const forceActivatePhysicsOnUnfixedPickup_result = Citizen.invokeNative<void>('0x95ED454235D93943', pickupID, force);

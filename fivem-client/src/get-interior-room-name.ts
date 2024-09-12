@@ -4,9 +4,9 @@
  * 0X11755DF2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} roomIndex Interior room index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} roomIndex Interior room index.
  * @returns {string}  Room's name.
  */
 export function getInteriorRoomName(interiorId: number, roomIndex: number): string {

@@ -4,7 +4,7 @@
  * 0x235C228FDD040462
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function detonateVehiclePhoneExplosiveDevice(): void {
 	const detonateVehiclePhoneExplosiveDevice_result = Citizen.invokeNative<void>('0x235C228FDD040462', );

@@ -6,14 +6,14 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0xBB7F9D4FB57B4FFA
 
  * Send session invite via presence
- * Pass NULL to content ID to indicate freemode invite
- * Pass 0 to nPlaylistLength to indicate no playlist
- * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
- * @param {string} szContentID
- * @param {number} playlistLength
- * @param {number} playlistCurrent
+ * Pass NULL to content ID to indicate freemode invite
+ * Pass 0 to nPlaylistLength to indicate no playlist
+ * 
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
+ * @param {string} szContentID
+ * @param {number} playlistLength
+ * @param {number} playlistCurrent
  * @returns {boolean}  
  */
 export function networkSendInviteViaPresence(gamer: GamerHandle /* ptr */, szContentID: string, playlistLength: number, playlistCurrent: number): boolean {

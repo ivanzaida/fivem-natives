@@ -6,9 +6,9 @@ import { PedIndex, ECombatMovement } from '@ivanzaida/structures'
  * 0x3EFB664623EEAD3F
 
  * See SET_PED_COMBAT_MOVEMENT
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {ECombatMovement}  
  */
 export function getPedCombatMovement(ped: PedIndex): ECombatMovement {

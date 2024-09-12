@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x1BAABBB7277FCD90
 
  * Same function call as PED::GET_MOUNT, aka just returns 0
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedOnMount(ped: PedIndex): boolean {

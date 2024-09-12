@@ -4,8 +4,8 @@
  * 0x8AED94D23435607C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} sphere
+ * ------------------------------------------------------------------
+ * @param {number} sphere
  * @returns {boolean}  
  */
 export function doesAirDefenceSphereExist(sphere: number): boolean {

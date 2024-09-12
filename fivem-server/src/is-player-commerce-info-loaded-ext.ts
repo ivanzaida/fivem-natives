@@ -4,9 +4,9 @@
  * 0X1D14F4FE
 
  * Requests whether or not the commerce data for the specified player has loaded from Tebex.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
  * @returns {boolean}  A boolean.
  */
 export function isPlayerCommerceInfoLoadedExt(playerSrc: string): boolean {

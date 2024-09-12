@@ -4,9 +4,9 @@
  * 0x9F0EF572EFEE0A9C
 
  * 
- * ------------------------------------------------------------------
- * @param {string} dict
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} dict
+ * @param {string} name
  * @returns {boolean}  
  */
 export function datadictGetBool(dict: string, name: string): boolean {

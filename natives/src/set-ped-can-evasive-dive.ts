@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x84D421ACEBF9E529
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} flag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} flag
  */
 export function setPedCanEvasiveDive(ped: PedIndex, flag: boolean): void {
 	const setPedCanEvasiveDive_result = Citizen.invokeNative<void>('0x84D421ACEBF9E529', ped, flag);

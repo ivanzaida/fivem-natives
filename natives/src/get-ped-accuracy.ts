@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF558A1138519E6F6
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedAccuracy(ped: PedIndex): number {

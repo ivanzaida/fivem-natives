@@ -4,9 +4,9 @@
  * 0X6292F7A8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {number} level The water level inside the water quad
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {number} level The water level inside the water quad
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadLevel(waterQuad: number, level: number): boolean {

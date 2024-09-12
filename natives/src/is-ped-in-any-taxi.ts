@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x0F00017BC718D851
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedInAnyTaxi(ped: PedIndex): boolean {

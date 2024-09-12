@@ -7,13 +7,13 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x4AF7AA151DA57A33
 
  * Function to get a position along current player GPS route using supplied slot
- * p3 can be 0, 1 or 2.
- * 
- * ------------------------------------------------------------------
- * @param {Vector3} outPos [Ref]
- * @param {boolean} startAtPlayerPos
- * @param {number} distanceAlongRoute
- * @param {EGpsSlotType} slotType
+ * p3 can be 0, 1 or 2.
+ * 
+ * ------------------------------------------------------------------
+ * @param {Vector3} outPos [Ref]
+ * @param {boolean} startAtPlayerPos
+ * @param {number} distanceAlongRoute
+ * @param {EGpsSlotType} slotType
  * @returns {boolean}  
  */
 export function getPosAlongGpsTypeRoute(outPos: Vector3 /* ptr */, startAtPlayerPos: boolean, distanceAlongRoute: number, slotType: EGpsSlotType | number): boolean {

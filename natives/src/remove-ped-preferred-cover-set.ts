@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x97FD4A8DDB09A043
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function removePedPreferredCoverSet(ped: PedIndex): void {
 	const removePedPreferredCoverSet_result = Citizen.invokeNative<void>('0x97FD4A8DDB09A043', ped);

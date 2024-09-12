@@ -4,8 +4,8 @@
  * 0x92D994BC2EF590F9
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} forAllScripts
+ * ------------------------------------------------------------------
+ * @param {boolean} forAllScripts
  * @returns {number}  
  */
 export function getNumCreatedMissionVehicles(forAllScripts: boolean = false): number {

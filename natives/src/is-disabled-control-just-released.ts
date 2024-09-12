@@ -6,10 +6,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  * 0x61C3701AD6D746B2
 
  * control: see IS_CONTROL_ENABLED
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
- * @param {EControlAction} action
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
+ * @param {EControlAction} action
  * @returns {boolean}  
  */
 export function isDisabledControlJustReleased(control: EControlType | number, action: EControlAction | number): boolean {

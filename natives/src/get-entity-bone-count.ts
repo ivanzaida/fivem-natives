@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x132FBDC52691A1A7
 
  * Returns the number of bones in the entity
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {number}  
  */
 export function getEntityBoneCount(entity: EntityIndex): number {

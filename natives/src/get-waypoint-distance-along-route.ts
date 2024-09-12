@@ -4,9 +4,9 @@
  * 0x2157DED369B9B03F
 
  * 
- * ------------------------------------------------------------------
- * @param {string} recordingName
- * @param {number} waypoint
+ * ------------------------------------------------------------------
+ * @param {string} recordingName
+ * @param {number} waypoint
  * @returns {number}  
  */
 export function getWaypointDistanceAlongRoute(recordingName: string, waypoint: number): number {

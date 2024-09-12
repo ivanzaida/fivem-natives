@@ -6,9 +6,9 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0x82EDE1ECB3BF1ADF
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
+ * @param {boolean} set
  */
 export function setNetworkIdVisibleInCutsceneRemainHack(networkId: NetworkIndex, set: boolean): void {
 	const setNetworkIdVisibleInCutsceneRemainHack_result = Citizen.invokeNative<void>('0x82EDE1ECB3BF1ADF', networkId, set);

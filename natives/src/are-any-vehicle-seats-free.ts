@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x09C0E5FA1EBC1D84
 
  * Returns false if every seat is occupied.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function areAnyVehicleSeatsFree(vehicle: VehicleIndex): boolean {

@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xACB8B29F6BEB8B58
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {IntRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {IntRef} value [Ref]
  * @returns {boolean}  
  */
 export function scTransitionNewsGetExtraDataIntTu(name: string, value: IntRef /* ptr */): boolean {

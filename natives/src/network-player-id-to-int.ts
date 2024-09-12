@@ -4,8 +4,8 @@
  * 0x383461852896D73D
 
  * Does exactly the same thing as PLAYER_ID()
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function networkPlayerIdToInt(): number {

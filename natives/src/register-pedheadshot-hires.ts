@@ -6,8 +6,8 @@ import { PedIndex, PedheadshotId } from '@ivanzaida/structures'
  * 0xA4C84E0CB47D2F16
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {PedheadshotId}  
  */
 export function registerPedheadshotHires(ped: PedIndex): PedheadshotId {

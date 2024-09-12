@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x795C9AE513FFEF5F
 
  * A getter for _SET_PED_EYE_COLOR. Returns -1 if fails to get.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getHeadBlendEyeColor(ped: PedIndex): number {

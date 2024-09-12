@@ -6,8 +6,8 @@ import { ScaleformReturnIndex } from '@ivanzaida/structures'
  * 0x6CA3F2B87712B6A4
 
  * end of an actionscript method called on a scaleform movie and returns an id to retrieve the returned value from
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {ScaleformReturnIndex}  
  */
 export function endScaleformMovieMethodReturnValue(): ScaleformReturnIndex {

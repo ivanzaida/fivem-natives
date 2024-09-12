@@ -6,8 +6,8 @@ import { ETvchanneltype } from '@ivanzaida/structures'
  * 0xECDF98280946398E
 
  * 
- * ------------------------------------------------------------------
- * @param {ETvchanneltype} channel
+ * ------------------------------------------------------------------
+ * @param {ETvchanneltype} channel
  */
 export function setTvChannel(channel: ETvchanneltype | number): void {
 	const setTvChannel_result = Citizen.invokeNative<void>('0xECDF98280946398E', channel);

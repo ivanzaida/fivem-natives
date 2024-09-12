@@ -6,9 +6,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xEDFFFD65B4603707
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {boolean} value
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {boolean} value
  */
 export function setBlipAsMissionCreatorBlip(blip: BlipIndex, value: boolean): void {
 	const setBlipAsMissionCreatorBlip_result = Citizen.invokeNative<void>('0xEDFFFD65B4603707', blip, value);

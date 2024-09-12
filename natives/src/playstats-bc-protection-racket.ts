@@ -6,8 +6,8 @@ import { BcProtectionRacket } from '@ivanzaida/structures'
  * 0xA2FA391998A5CA4F
 
  * 
- * ------------------------------------------------------------------
- * @param {BcProtectionRacket} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BcProtectionRacket} data [Ref]
  */
 export function playstatsBcProtectionRacket(data: BcProtectionRacket /* ptr */): void {
 	const playstatsBcProtectionRacket_result = Citizen.invokeNative<void>('0xA2FA391998A5CA4F', data.dataView);

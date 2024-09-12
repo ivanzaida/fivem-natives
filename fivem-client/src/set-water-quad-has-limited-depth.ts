@@ -4,9 +4,9 @@
  * 0XD1FDCFC1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {boolean} hasLimitedDepth Unknown effect
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {boolean} hasLimitedDepth Unknown effect
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadHasLimitedDepth(waterQuad: number, hasLimitedDepth: boolean): boolean {

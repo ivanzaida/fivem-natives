@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x05177DCE3DD6F271
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} alwaysPreRender
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} alwaysPreRender
  */
 export function setEntityAlwaysPrerender(entity: EntityIndex, alwaysPreRender: boolean): void {
 	const setEntityAlwaysPrerender_result = Citizen.invokeNative<void>('0x05177DCE3DD6F271', entity, alwaysPreRender);

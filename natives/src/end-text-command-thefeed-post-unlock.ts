@@ -4,10 +4,10 @@
  * 0x7A7782BC954C994B
 
  * 
- * ------------------------------------------------------------------
- * @param {string} titleString
- * @param {number} iconType
- * @param {string} fullBodyString DEPRECATED, DO NOT USE
+ * ------------------------------------------------------------------
+ * @param {string} titleString
+ * @param {number} iconType
+ * @param {string} fullBodyString DEPRECATED, DO NOT USE
  * @returns {number}  
  */
 export function endTextCommandThefeedPostUnlock(titleString: string, iconType: number = 0, fullBodyString: string = null!): number {

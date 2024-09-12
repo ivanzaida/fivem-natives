@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x3BBF563E688265AF
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} abilitySlot
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} abilitySlot
  * @returns {boolean}  
  */
 export function isSpecialAbilityEnabled(player: PlayerIndex, abilitySlot: number = 0): boolean {

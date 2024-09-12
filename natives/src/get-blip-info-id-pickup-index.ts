@@ -6,9 +6,9 @@ import { BlipIndex, PickupIndex } from '@ivanzaida/structures'
  * 0xFBDAF3DB03D61421
 
  * This function is hard-coded to always return 0.
- * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blipId
+ * 
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blipId
  * @returns {PickupIndex}  
  */
 export function getBlipInfoIdPickupIndex(blipId: BlipIndex): PickupIndex {

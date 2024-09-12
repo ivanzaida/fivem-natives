@@ -4,8 +4,8 @@
  * 0xF0A089C4753B822D
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} forceVisible
+ * ------------------------------------------------------------------
+ * @param {boolean} forceVisible
  */
 export function waterReflectionSetScriptObjectVisibility(forceVisible: boolean): void {
 	const waterReflectionSetScriptObjectVisibility_result = Citizen.invokeNative<void>('0xF0A089C4753B822D', forceVisible);

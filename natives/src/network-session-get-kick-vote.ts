@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xB1397F80306800D5
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  * @returns {boolean}  
  */
 export function networkSessionGetKickVote(netPlayerID: PlayerIndex): boolean {

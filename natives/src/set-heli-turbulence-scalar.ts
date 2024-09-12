@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x9647565D7FAB305A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} scalar
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} scalar
  */
 export function setHeliTurbulenceScalar(vehicle: VehicleIndex, scalar: number): void {
 	const setHeliTurbulenceScalar_result = Citizen.invokeNative<void>('0x9647565D7FAB305A', vehicle, scalar);

@@ -4,8 +4,8 @@
  * 0xF1FEB57E542C41F1
 
  * Possibly HAS_CUTSCENE_CUT_THIS_FRAME, needs more research.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function hasCutsceneCutThisFrame(): boolean {

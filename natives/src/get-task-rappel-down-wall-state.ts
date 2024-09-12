@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x29643B8A675F8422
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getTaskRappelDownWallState(ped: PedIndex): number {

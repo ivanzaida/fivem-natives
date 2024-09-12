@@ -4,7 +4,7 @@
  * 0xC0AA79A8808D5BA2
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkDidGetGamerStatusSucceed(): boolean {

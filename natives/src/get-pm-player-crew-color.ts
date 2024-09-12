@@ -6,10 +6,10 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x5412721BB04590F1
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} r [Ref]
- * @param {IntRef} g [Ref]
- * @param {IntRef} b [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} r [Ref]
+ * @param {IntRef} g [Ref]
+ * @param {IntRef} b [Ref]
  * @returns {boolean}  
  */
 export function getPmPlayerCrewColor(r: IntRef /* ptr */, g: IntRef /* ptr */, b: IntRef /* ptr */): boolean {

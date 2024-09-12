@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X4107EF0F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} findHandle
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} findHandle
+ * @param {IntRef} outEntity [Ref]
  * @returns {boolean}  
  */
 export function findNextPickup(findHandle: number, outEntity: IntRef /* ptr */): boolean {

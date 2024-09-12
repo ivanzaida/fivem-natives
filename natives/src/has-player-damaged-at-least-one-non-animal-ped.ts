@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xEFC75C3D53F60CB1
 
  * Exclude the animals.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function hasPlayerDamagedAtLeastOneNonAnimalPed(player: PlayerIndex): boolean {

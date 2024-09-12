@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xAD0D2187C5FE447D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isScriptedSpeechPlaying(ped: PedIndex): boolean {

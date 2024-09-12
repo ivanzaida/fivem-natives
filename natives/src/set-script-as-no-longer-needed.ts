@@ -4,8 +4,8 @@
  * 0xFD49725F3FE7EE13
 
  * 
- * ------------------------------------------------------------------
- * @param {string} scriptname
+ * ------------------------------------------------------------------
+ * @param {string} scriptname
  */
 export function setScriptAsNoLongerNeeded(scriptname: string): void {
 	const setScriptAsNoLongerNeeded_result = Citizen.invokeNative<void>('0xFD49725F3FE7EE13', scriptname);

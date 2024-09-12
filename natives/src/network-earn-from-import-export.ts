@@ -6,9 +6,9 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x4D10D49AEE7C9AEA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {ModelNames} modelHashKey
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {ModelNames} modelHashKey
  */
 export function networkEarnFromImportExport(amount: number, modelHashKey: ModelNames): void {
 	const networkEarnFromImportExport_result = Citizen.invokeNative<void>('0x4D10D49AEE7C9AEA', amount, modelHashKey);

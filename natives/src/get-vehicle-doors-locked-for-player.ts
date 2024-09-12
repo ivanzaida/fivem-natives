@@ -6,9 +6,9 @@ import { VehicleIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x75B56675BF83B3BC
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function getVehicleDoorsLockedForPlayer(vehicle: VehicleIndex, player: PlayerIndex): boolean {

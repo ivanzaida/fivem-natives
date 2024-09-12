@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0XA635F451
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function clearPedSecondaryTask(ped: PedIndex): void {
 	const clearPedSecondaryTask_result = Citizen.invokeNative<void>('0XA635F451', ped);

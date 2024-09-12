@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x08046513BC06BFBC
 
  * From the driver's perspective, is the right headlight broken.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getIsRightVehicleHeadlightDamaged(vehicle: VehicleIndex): boolean {

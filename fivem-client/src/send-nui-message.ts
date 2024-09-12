@@ -4,8 +4,8 @@
  * 0X78608ACB
 
  * 
- * ------------------------------------------------------------------
- * @param {string} jsonString
+ * ------------------------------------------------------------------
+ * @param {string} jsonString
  * @returns {boolean}  
  */
 export function sendNuiMessage(jsonString: string): boolean {

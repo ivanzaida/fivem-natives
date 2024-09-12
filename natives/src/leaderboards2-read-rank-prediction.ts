@@ -6,10 +6,10 @@ import { LeaderboardPredictionRow } from '@ivanzaida/structures'
  * 0xAB3A622E50A5CCE2
 
  * 
- * ------------------------------------------------------------------
- * @param {LeaderboardPredictionRow} original [Ref]
- * @param {LeaderboardPredictionRow} fromMatch [Ref]
- * @param {LeaderboardPredictionRow} outpredicted [Ref]
+ * ------------------------------------------------------------------
+ * @param {LeaderboardPredictionRow} original [Ref]
+ * @param {LeaderboardPredictionRow} fromMatch [Ref]
+ * @param {LeaderboardPredictionRow} outpredicted [Ref]
  * @returns {boolean}  
  */
 export function leaderboards2ReadRankPrediction(original: LeaderboardPredictionRow /* ptr */, fromMatch: LeaderboardPredictionRow /* ptr */, outpredicted: LeaderboardPredictionRow /* ptr */): boolean {

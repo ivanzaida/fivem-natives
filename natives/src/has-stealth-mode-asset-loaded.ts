@@ -4,8 +4,8 @@
  * 0xD3FF790CDA1D2927
 
  * 
- * ------------------------------------------------------------------
- * @param {string} stealthMode
+ * ------------------------------------------------------------------
+ * @param {string} stealthMode
  * @returns {boolean}  
  */
 export function hasStealthModeAssetLoaded(stealthMode: string): boolean {

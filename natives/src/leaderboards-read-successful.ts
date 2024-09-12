@@ -6,10 +6,10 @@ import { EnumToInt } from '@ivanzaida/structures'
  * 0x7BBF11C251338D41
 
  * 
- * ------------------------------------------------------------------
- * @param {number} leaderboardId
- * @param {EnumToInt} leaderboardType
- * @param {number} lb
+ * ------------------------------------------------------------------
+ * @param {number} leaderboardId
+ * @param {EnumToInt} leaderboardType
+ * @param {number} lb
  * @returns {boolean}  
  */
 export function leaderboardsReadSuccessful(leaderboardId: number, leaderboardType: EnumToInt, lb: number = 0): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x145143011E40A843
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedBeingStealthKilled(ped: PedIndex): boolean {

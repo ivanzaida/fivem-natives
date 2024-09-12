@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xE87274DCAEC35329
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedShaderReady(ped: PedIndex): boolean {

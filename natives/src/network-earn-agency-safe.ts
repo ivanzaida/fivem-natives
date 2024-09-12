@@ -4,8 +4,8 @@
  * 0x3398D3F6736CF301
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnAgencySafe(amount: number): void {
 	const networkEarnAgencySafe_result = Citizen.invokeNative<void>('0x3398D3F6736CF301', amount);

@@ -6,10 +6,10 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  * 0X84ADF9EB
 
  * Returns the Entity (Ped, Vehicle, or ?Object?) that killed the 'ped'
- * Is best to check if the Ped is dead before asking for its killer.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * Is best to check if the Ped is dead before asking for its killer.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {EntityIndex}  
  */
 export function getPedSourceOfDeath(ped: PedIndex): EntityIndex {

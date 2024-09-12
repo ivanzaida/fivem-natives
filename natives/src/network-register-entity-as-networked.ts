@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xAFD7C87C41AEE7E7
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function networkRegisterEntityAsNetworked(entity: EntityIndex): void {
 	const networkRegisterEntityAsNetworked_result = Citizen.invokeNative<void>('0xAFD7C87C41AEE7E7', entity);

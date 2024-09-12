@@ -4,7 +4,7 @@
  * 0XB1884159
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  Returns the amount of water quads loaded.
  */
 export function getWaterQuadCount(): number {

@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x10140D9546976B7F
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} playerModelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} playerModelHashKey
  * @returns {boolean}  
  */
 export function isSpecialAbilityUnlocked(playerModelHashKey: ModelNames): boolean {

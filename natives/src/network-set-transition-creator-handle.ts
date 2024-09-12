@@ -6,8 +6,8 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x5B4AC3576C9F22EA
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  */
 export function networkSetTransitionCreatorHandle(gamerHandle: GamerHandle /* ptr */): void {
 	const networkSetTransitionCreatorHandle_result = Citizen.invokeNative<void>('0x5B4AC3576C9F22EA', gamerHandle.dataView);

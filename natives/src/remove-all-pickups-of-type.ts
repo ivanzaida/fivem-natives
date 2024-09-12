@@ -6,9 +6,9 @@ import { EPickupType } from '@ivanzaida/structures'
  * 0xF429153602FD9CAF
 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
- * 
- * ------------------------------------------------------------------
- * @param {EPickupType} type
+ * 
+ * ------------------------------------------------------------------
+ * @param {EPickupType} type
  */
 export function removeAllPickupsOfType(type: EPickupType | number): void {
 	const removeAllPickupsOfType_result = Citizen.invokeNative<void>('0xF429153602FD9CAF', type);

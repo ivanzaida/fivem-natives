@@ -6,10 +6,10 @@ import { EWeaponType, EWeaponcomponentType } from '@ivanzaida/structures'
  * 0x0C985A2C6C77023D
 
  * Full list of weapons & components by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
- * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weaponType
- * @param {EWeaponcomponentType} weaponComponent
+ * 
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weaponType
+ * @param {EWeaponcomponentType} weaponComponent
  * @returns {boolean}  
  */
 export function doesWeaponTakeWeaponComponent(weaponType: EWeaponType | number, weaponComponent: EWeaponcomponentType | number): boolean {

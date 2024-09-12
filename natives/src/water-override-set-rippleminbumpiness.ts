@@ -4,8 +4,8 @@
  * 0x3C7E67D89C37CDBA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  */
 export function waterOverrideSetRippleminbumpiness(value: number): void {
 	const waterOverrideSetRippleminbumpiness_result = Citizen.invokeNative<void>('0x3C7E67D89C37CDBA', value);

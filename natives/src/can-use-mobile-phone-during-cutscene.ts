@@ -4,9 +4,9 @@
  * 0xAF078BC665CCACB9
 
  * Only returns true if a scene is playing and
- * SET_CAN_USE_MOBILE_PHONE_DURING_CUTSCENE has been called.
- * 
- * ------------------------------------------------------------------
+ * SET_CAN_USE_MOBILE_PHONE_DURING_CUTSCENE has been called.
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function canUseMobilePhoneDuringCutscene(): boolean {

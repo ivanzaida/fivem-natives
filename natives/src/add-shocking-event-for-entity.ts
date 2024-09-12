@@ -6,11 +6,11 @@ import { EEventNames, EntityIndex } from '@ivanzaida/structures'
  * 0x378DEB95883BFE01
 
  * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
- * 
- * ------------------------------------------------------------------
- * @param {EEventNames} eventType
- * @param {EntityIndex} ent
- * @param {number} overrideLifeTime
+ * 
+ * ------------------------------------------------------------------
+ * @param {EEventNames} eventType
+ * @param {EntityIndex} ent
+ * @param {number} overrideLifeTime
  * @returns {number}  
  */
 export function addShockingEventForEntity(eventType: EEventNames | number, ent: EntityIndex, overrideLifeTime: number = 1): number {

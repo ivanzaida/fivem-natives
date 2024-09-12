@@ -4,9 +4,9 @@
  * 0x81A9ADA13F72AEDD
 
  * 
- * ------------------------------------------------------------------
- * @param {string} dict
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} dict
+ * @param {string} name
  * @returns {number}  
  */
 export function datadictGetInt(dict: string, name: string): number {

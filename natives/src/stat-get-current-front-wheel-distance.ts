@@ -4,8 +4,8 @@
  * 0xFF41A17ED9059E7D
 
  * Perform the longest stoppie on a motorcycle
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetCurrentFrontWheelDistance(): number {

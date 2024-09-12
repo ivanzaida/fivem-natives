@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x0D308D56EF4A935A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} array
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} array
  * @returns {number}  
  */
 export function getAllVehicles(array: VehicleIndex): number {

@@ -6,8 +6,8 @@ import { Casinochipmetric } from '@ivanzaida/structures'
  * 0x3537BA3FCD2A039A
 
  * 
- * ------------------------------------------------------------------
- * @param {Casinochipmetric} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {Casinochipmetric} data [Ref]
  */
 export function playstatsCasinoChip(data: Casinochipmetric /* ptr */): void {
 	const playstatsCasinoChip_result = Citizen.invokeNative<void>('0x3537BA3FCD2A039A', data.dataView);

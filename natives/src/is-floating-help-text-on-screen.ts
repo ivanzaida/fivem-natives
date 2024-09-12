@@ -6,8 +6,8 @@ import { EEHelpTextFloatingId } from '@ivanzaida/structures'
  * 0x00A2121FCB70A45B
 
  * 
- * ------------------------------------------------------------------
- * @param {EEHelpTextFloatingId} id
+ * ------------------------------------------------------------------
+ * @param {EEHelpTextFloatingId} id
  * @returns {boolean}  
  */
 export function isFloatingHelpTextOnScreen(id: EEHelpTextFloatingId | number): boolean {

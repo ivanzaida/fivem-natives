@@ -4,8 +4,8 @@
  * 0x97F5F6E518D1ADB5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} invite
+ * ------------------------------------------------------------------
+ * @param {number} invite
  * @returns {boolean}  
  */
 export function networkRemovePresenceInvite(invite: number): boolean {

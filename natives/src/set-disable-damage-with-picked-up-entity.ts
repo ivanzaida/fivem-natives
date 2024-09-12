@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x793D2505EE281DDD
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} disableDamage
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} disableDamage
  * @returns {boolean}  
  */
 export function setDisableDamageWithPickedUpEntity(vehicle: VehicleIndex, disableDamage: boolean): boolean {

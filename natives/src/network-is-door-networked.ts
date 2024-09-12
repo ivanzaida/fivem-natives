@@ -4,8 +4,8 @@
  * 0xBC04D336219C5196
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {boolean}  
  */
 export function networkIsDoorNetworked(doorEnumHash: number): boolean {

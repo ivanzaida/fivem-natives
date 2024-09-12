@@ -4,8 +4,8 @@
  * 0x9DE3D932AA2B055C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} sceneId
+ * ------------------------------------------------------------------
+ * @param {number} sceneId
  * @returns {boolean}  
  */
 export function playSynchronizedAudioEvent(sceneId: number): boolean {

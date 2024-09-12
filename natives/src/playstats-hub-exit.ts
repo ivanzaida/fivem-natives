@@ -6,8 +6,8 @@ import { HubExit } from '@ivanzaida/structures'
  * 0x02F3C05A368B66B3
 
  * 
- * ------------------------------------------------------------------
- * @param {HubExit} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {HubExit} data [Ref]
  */
 export function playstatsHubExit(data: HubExit /* ptr */): void {
 	const playstatsHubExit_result = Citizen.invokeNative<void>('0x02F3C05A368B66B3', data.dataView);

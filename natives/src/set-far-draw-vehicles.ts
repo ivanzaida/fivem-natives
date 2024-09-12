@@ -4,9 +4,9 @@
  * 0x00AB2F24F67F293F
 
  * Activate / deactivate the far draw
- * 
- * ------------------------------------------------------------------
- * @param {boolean} val
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} val
  */
 export function setFarDrawVehicles(val: boolean): void {
 	const setFarDrawVehicles_result = Citizen.invokeNative<void>('0x00AB2F24F67F293F', val);

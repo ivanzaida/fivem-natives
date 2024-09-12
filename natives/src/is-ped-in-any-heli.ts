@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xFE90F09EC43D7D44
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedInAnyHeli(ped: PedIndex): boolean {

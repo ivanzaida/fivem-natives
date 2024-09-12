@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0X35594F67
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId The player index
- * @param {number} maxStamina The value you want to set
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId The player index
+ * @param {number} maxStamina The value you want to set
  * @returns {boolean}  Did you manage to set the value.
  */
 export function setPlayerMaxStamina(playerId: PlayerIndex, maxStamina: number): boolean {

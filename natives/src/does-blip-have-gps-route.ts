@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x6308A5C1C94EABC0
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {boolean}  
  */
 export function doesBlipHaveGpsRoute(blip: BlipIndex): boolean {

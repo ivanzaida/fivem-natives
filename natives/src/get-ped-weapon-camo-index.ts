@@ -6,9 +6,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0xB92D606AB30C334C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
  * @returns {number}  
  */
 export function getPedWeaponCamoIndex(ped: PedIndex, weaponType: EWeaponType | number): number {

@@ -6,11 +6,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x7453501DC1481684
 
  * This is used alongside the native,
- * 'NETWORK_OVERRIDE_RECEIVE_RESTRICTIONS'. Read its description for more info.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerID
- * @param {boolean} override
+ * 'NETWORK_OVERRIDE_RECEIVE_RESTRICTIONS'. Read its description for more info.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerID
+ * @param {boolean} override
  */
 export function networkOverrideSendRestrictions(playerID: PlayerIndex, override: boolean): void {
 	const networkOverrideSendRestrictions_result = Citizen.invokeNative<void>('0x7453501DC1481684', playerID, override);

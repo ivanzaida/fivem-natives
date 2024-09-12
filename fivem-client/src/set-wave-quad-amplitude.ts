@@ -4,9 +4,9 @@
  * 0XE4174B7B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waveQuad The wave quad index
- * @param {number} amplitude The amplitude value
+ * ------------------------------------------------------------------
+ * @param {number} waveQuad The wave quad index
+ * @param {number} amplitude The amplitude value
  * @returns {boolean}  Returns true on success.
  */
 export function setWaveQuadAmplitude(waveQuad: number, amplitude: number): boolean {

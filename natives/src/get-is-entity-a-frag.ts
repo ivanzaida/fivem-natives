@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x4F1CAAB808618FF8
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entityId
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entityId
  * @returns {boolean}  
  */
 export function getIsEntityAFrag(entityId: EntityIndex): boolean {

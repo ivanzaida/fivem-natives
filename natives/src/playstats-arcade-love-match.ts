@@ -6,9 +6,9 @@ import { GamerHandle, ArcadeLoveMatch } from '@ivanzaida/structures'
  * 0x82BF0C9FB824099C
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamer [Ref]
- * @param {ArcadeLoveMatch} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamer [Ref]
+ * @param {ArcadeLoveMatch} data [Ref]
  */
 export function playstatsArcadeLoveMatch(gamer: GamerHandle /* ptr */, data: ArcadeLoveMatch /* ptr */): void {
 	const playstatsArcadeLoveMatch_result = Citizen.invokeNative<void>('0x82BF0C9FB824099C', gamer.dataView, data.dataView);

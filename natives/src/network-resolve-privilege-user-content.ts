@@ -4,8 +4,8 @@
  * 0x1BF2060736C8594C
 
  * Hardcoded to return true.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkResolvePrivilegeUserContent(): boolean {

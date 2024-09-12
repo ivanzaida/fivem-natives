@@ -4,8 +4,8 @@
  * 0xA049DE72EC734E79
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentHasHiResPhoto(content: number): boolean {

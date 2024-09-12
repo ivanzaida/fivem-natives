@@ -6,11 +6,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x151B89DBEF140C19
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} checkMainRotor
- * @param {boolean} checkRearRotor
- * @param {boolean} checkTailBoom
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} checkMainRotor
+ * @param {boolean} checkRearRotor
+ * @param {boolean} checkTailBoom
  * @returns {boolean}  
  */
 export function isHeliPartBroken(vehicle: VehicleIndex, checkMainRotor: boolean, checkRearRotor: boolean, checkTailBoom: boolean): boolean {

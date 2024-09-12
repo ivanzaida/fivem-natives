@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xF977D20CFFFD341F
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} allowed
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} allowed
  */
 export function setAllowRammingSoopOrRamp(vehicle: VehicleIndex, allowed: boolean): void {
 	const setAllowRammingSoopOrRamp_result = Citizen.invokeNative<void>('0xF977D20CFFFD341F', vehicle, allowed);

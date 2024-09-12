@@ -4,9 +4,9 @@
  * 0XDEDAE23D
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
- * @param {string} object
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
+ * @param {string} object
  * @returns {boolean}  
  */
 export function isPlayerAceAllowed(playerSrc: string, object: string): boolean {

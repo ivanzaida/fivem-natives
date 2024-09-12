@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x3DF64ECB2401B9C1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} garageHash
- * @param {PlayerIndex} player
- * @param {number} box
+ * ------------------------------------------------------------------
+ * @param {number} garageHash
+ * @param {PlayerIndex} player
+ * @param {number} box
  * @returns {boolean}  
  */
 export function isPlayerPartiallyInsideGarage(garageHash: number, player: PlayerIndex, box: number = 1): boolean {

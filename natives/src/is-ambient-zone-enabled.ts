@@ -4,9 +4,9 @@
  * 0x80EEE4C5880DA82E
 
  * Full list of ambient zones by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ambientZones.json
- * 
- * ------------------------------------------------------------------
- * @param {string} zoneName
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} zoneName
  * @returns {boolean}  
  */
 export function isAmbientZoneEnabled(zoneName: string): boolean {

@@ -4,9 +4,9 @@
  * 0x7768894B5FCDF25F
 
  * Return the mission id of a job.
- * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {string}  
  */
 export function ugcGetContentId(content: number): string {

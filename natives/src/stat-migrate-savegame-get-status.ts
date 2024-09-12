@@ -6,7 +6,7 @@ import { EMigrateSave } from '@ivanzaida/structures'
  * 0x8F9CF4C6161EB431
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EMigrateSave}  
  */
 export function statMigrateSavegameGetStatus(): EMigrateSave {

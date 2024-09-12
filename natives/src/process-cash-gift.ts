@@ -6,11 +6,11 @@ import { IntRef, StringRef } from '@ivanzaida/structures'
  * 0x75C19185BEAE4AA9
 
  * This isn't a hash collision.
- * 
- * ------------------------------------------------------------------
- * @param {IntRef} result [Ref]
- * @param {IntRef} valueIsCredited [Ref]
- * @param {StringRef} outLabel [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {IntRef} result [Ref]
+ * @param {IntRef} valueIsCredited [Ref]
+ * @param {StringRef} outLabel [Ref]
  * @returns {string}  
  */
 export function processCashGift(result: IntRef /* ptr */, valueIsCredited: IntRef /* ptr */, outLabel: StringRef /* ptr */): string {

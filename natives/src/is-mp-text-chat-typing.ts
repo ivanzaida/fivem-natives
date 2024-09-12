@@ -4,8 +4,8 @@
  * 0xF8EFC60132F8109F
 
  * Returns whether or not the text chat (MULTIPLAYER_CHAT Scaleform component) is active.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isMpTextChatTyping(): boolean {

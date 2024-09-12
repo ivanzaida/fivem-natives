@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x000E48394E21867C
 
  * Gets overriden reserve parachute modelname hash. Returns 0 if invalid.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {number}  
  */
 export function getPlayerReserveParachuteModelOverride(player: PlayerIndex): number {

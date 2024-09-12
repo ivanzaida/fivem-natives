@@ -4,7 +4,7 @@
  * 0x3B952A9A844B63C6
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsCloudBackgroundScriptRequestPending(): boolean {

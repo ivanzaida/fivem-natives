@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xFA7642FA8EE73EEE
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {boolean}  
  */
 export function isBlipShortRange(blip: BlipIndex): boolean {

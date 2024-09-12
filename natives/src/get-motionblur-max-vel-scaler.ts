@@ -4,8 +4,8 @@
  * 0x69AFCC77DCADB9BE
 
  * Getter for SET_MOTIONBLUR_MAX_VEL_SCALER
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getMotionblurMaxVelScaler(): number {

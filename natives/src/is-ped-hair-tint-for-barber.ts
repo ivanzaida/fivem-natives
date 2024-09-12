@@ -4,8 +4,8 @@
  * 0xBB9FAE42E3101CD8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedHairTintForBarber(tint: number): boolean {

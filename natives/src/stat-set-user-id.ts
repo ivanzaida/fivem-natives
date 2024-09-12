@@ -6,10 +6,10 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0xD13EF24D43A8E864
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {string} data
- * @param {boolean} coderAssert
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {string} data
+ * @param {boolean} coderAssert
  * @returns {boolean}  
  */
 export function statSetUserId(keyHash: EStatsenum | number, data: string, coderAssert: boolean = true): boolean {

@@ -4,8 +4,8 @@
  * 0x8018AA59F97FA9E3
 
  * 
- * ------------------------------------------------------------------
- * @param {number} queryIdx
+ * ------------------------------------------------------------------
+ * @param {number} queryIdx
  * @returns {boolean}  
  */
 export function isTrackedPointVisible(queryIdx: number): boolean {

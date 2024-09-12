@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x476AD3ABB8EA8A58
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} useCameraHeading
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} useCameraHeading
  */
 export function setUseCameraHeadingForDesiredDirectionLockOnTest(ped: PedIndex, useCameraHeading: boolean): void {
 	const setUseCameraHeadingForDesiredDirectionLockOnTest_result = Citizen.invokeNative<void>('0x476AD3ABB8EA8A58', ped, useCameraHeading);

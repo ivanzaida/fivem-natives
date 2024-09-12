@@ -4,8 +4,8 @@
  * 0xEB234554CFDE9162
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} canBeSkipped
+ * ------------------------------------------------------------------
+ * @param {boolean} canBeSkipped
  */
 export function setCutsceneCanBeSkipped(canBeSkipped: boolean): void {
 	const setCutsceneCanBeSkipped_result = Citizen.invokeNative<void>('0xEB234554CFDE9162', canBeSkipped);

@@ -6,8 +6,8 @@ import { CoverpointIndex, Vector3 } from '@ivanzaida/structures'
  * 0x8E8BD1A76D6D9230
 
  * 
- * ------------------------------------------------------------------
- * @param {CoverpointIndex} index
+ * ------------------------------------------------------------------
+ * @param {CoverpointIndex} index
  * @returns {Vector3}  
  */
 export function getScriptedCoverPointCoords(index: CoverpointIndex): Vector3 {

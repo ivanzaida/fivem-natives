@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x8E453F6C5ABDD9DC
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  */
 export function requestWeaponHighDetailModel(object: ObjectIndex): void {
 	const requestWeaponHighDetailModel_result = Citizen.invokeNative<void>('0x8E453F6C5ABDD9DC', object);

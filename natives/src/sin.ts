@@ -4,8 +4,8 @@
  * 0x0BADBFA3B172435F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function sin(value: number): number {

@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xFF1E5DCD728C42E2
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function updateLightsOnEntity(entity: EntityIndex): void {
 	const updateLightsOnEntity_result = Citizen.invokeNative<void>('0xFF1E5DCD728C42E2', entity);

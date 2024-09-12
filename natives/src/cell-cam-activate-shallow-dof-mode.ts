@@ -4,8 +4,8 @@
  * 0x20B0BCFBA94C4732
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} shouldActivate
+ * ------------------------------------------------------------------
+ * @param {boolean} shouldActivate
  */
 export function cellCamActivateShallowDofMode(shouldActivate: boolean): void {
 	const cellCamActivateShallowDofMode_result = Citizen.invokeNative<void>('0x20B0BCFBA94C4732', shouldActivate);

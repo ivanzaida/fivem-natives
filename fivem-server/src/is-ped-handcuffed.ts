@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0X25865633
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped The target ped.
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped The target ped.
  * @returns {boolean}  Whether or not the ped is handcuffed.
  */
 export function isPedHandcuffed(ped: PedIndex): boolean {

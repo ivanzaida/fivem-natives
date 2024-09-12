@@ -6,14 +6,14 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0xF10F2A2453AF1DFB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} posX
- * @param {number} posY
- * @param {number} posZ
- * @param {number} heading
- * @param {number} offsetX
- * @param {number} offsetY
- * @param {number} offsetZ
+ * ------------------------------------------------------------------
+ * @param {number} posX
+ * @param {number} posY
+ * @param {number} posZ
+ * @param {number} heading
+ * @param {number} offsetX
+ * @param {number} offsetY
+ * @param {number} offsetZ
  * @returns {Vector3}  
  */
 export function getOffsetFromCoordAndHeadingInWorldCoords(posX: number, posY: number, posZ: number, heading: number, offsetX: number, offsetY: number, offsetZ: number): Vector3 {

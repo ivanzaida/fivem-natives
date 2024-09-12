@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9590C8D34FFFCE10
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enableWeaponBlocking
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enableWeaponBlocking
  */
 export function setPedEnableWeaponBlocking(ped: PedIndex, enableWeaponBlocking: boolean): void {
 	const setPedEnableWeaponBlocking_result = Citizen.invokeNative<void>('0x9590C8D34FFFCE10', ped, enableWeaponBlocking);

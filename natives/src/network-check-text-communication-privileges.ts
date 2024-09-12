@@ -6,10 +6,10 @@ import { EPrivilegeCheck } from '@ivanzaida/structures'
  * 0xB856D5DB24672EA4
 
  * 
- * ------------------------------------------------------------------
- * @param {EPrivilegeCheck} privilegeType
- * @param {number} gamer
- * @param {boolean} checkHasPrivilege
+ * ------------------------------------------------------------------
+ * @param {EPrivilegeCheck} privilegeType
+ * @param {number} gamer
+ * @param {boolean} checkHasPrivilege
  * @returns {boolean}  
  */
 export function networkCheckTextCommunicationPrivileges(privilegeType: EPrivilegeCheck | number = 0, gamer: number = 1, checkHasPrivilege: boolean = true): boolean {

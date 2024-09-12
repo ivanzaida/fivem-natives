@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD81F5EA29FD2682E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function clearPedEnvDirt(ped: PedIndex): void {
 	const clearPedEnvDirt_result = Citizen.invokeNative<void>('0xD81F5EA29FD2682E', ped);

@@ -6,11 +6,11 @@ import { GamerHandle, EPlayerListType } from '@ivanzaida/structures'
  * 0xD57BC2EBAE7CB358
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandles
- * @param {string} gamerNames
- * @param {number} count
- * @param {EPlayerListType} type
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandles
+ * @param {string} gamerNames
+ * @param {number} count
+ * @param {EPlayerListType} type
  * @returns {boolean}  
  */
 export function filloutPmPlayerListWithNames(gamerHandles: GamerHandle, gamerNames: string, count: number, type: EPlayerListType | number = 102): boolean {

@@ -6,10 +6,10 @@ import { VehicleIndex, Vector3 } from '@ivanzaida/structures'
  * 0x7902AD09BBD23276
 
  * doorId: see SET_VEHICLE_DOOR_SHUT
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} entryPoint
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} entryPoint
  * @returns {Vector3}  
  */
 export function getEntryPointPosition(vehicle: VehicleIndex, entryPoint: number): Vector3 {

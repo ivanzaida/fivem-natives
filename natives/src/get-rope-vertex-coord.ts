@@ -6,9 +6,9 @@ import { RopeIndex, Vector3 } from '@ivanzaida/structures'
  * 0x7AACE64DEE426629
 
  * 
- * ------------------------------------------------------------------
- * @param {RopeIndex} ropeID
- * @param {number} vtx
+ * ------------------------------------------------------------------
+ * @param {RopeIndex} ropeID
+ * @param {number} vtx
  * @returns {Vector3}  
  */
 export function getRopeVertexCoord(ropeID: RopeIndex, vtx: number): Vector3 {

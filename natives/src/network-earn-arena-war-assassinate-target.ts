@@ -4,8 +4,8 @@
  * 0xC46CA38367F16578
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnArenaWarAssassinateTarget(amount: number): void {
 	const networkEarnArenaWarAssassinateTarget_result = Citizen.invokeNative<void>('0xC46CA38367F16578', amount);

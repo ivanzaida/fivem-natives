@@ -4,7 +4,7 @@
  * 0xC9C468532694A690
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkCanQueueForPreviousSessionJoin(): boolean {

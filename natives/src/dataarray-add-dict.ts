@@ -4,8 +4,8 @@
  * 0xFA8B98F1023E7B3E
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
  * @returns {string}  
  */
 export function dataarrayAddDict(arr: string[]): string {

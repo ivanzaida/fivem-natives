@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x3E2705A53B1D4A09
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} ropeID [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} ropeID [Ref]
  * @returns {boolean}  
  */
 export function doesRopeExist(ropeID: IntRef /* ptr */): boolean {

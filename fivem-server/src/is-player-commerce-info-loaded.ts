@@ -4,9 +4,9 @@
  * 0XBEFE93F4
 
  * Requests whether or not the commerce data for the specified player has loaded.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
  * @returns {boolean}  A boolean.
  */
 export function isPlayerCommerceInfoLoaded(playerSrc: string): boolean {

@@ -6,10 +6,10 @@ import { GamerHandlesMaxMinusOne } from '@ivanzaida/structures'
  * 0x66E498254807DB77
 
  * 
- * ------------------------------------------------------------------
- * @param {GamerHandlesMaxMinusOne} gamers [Ref]
- * @param {number} numGamers
- * @param {number} reservationTime
+ * ------------------------------------------------------------------
+ * @param {GamerHandlesMaxMinusOne} gamers [Ref]
+ * @param {number} numGamers
+ * @param {number} reservationTime
  * @returns {boolean}  
  */
 export function networkSessionReserveSlotsTransition(gamers: GamerHandlesMaxMinusOne /* ptr */, numGamers: number, reservationTime: number): boolean {

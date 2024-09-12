@@ -6,11 +6,11 @@ import { PedIndex, EPedConfigFlags } from '@ivanzaida/structures'
  * 0x49F8918E2DC5FFBC
 
  * See SET_PED_CONFIG_FLAG
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedConfigFlags} configFlag
- * @param {boolean} doDeadCheck
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedConfigFlags} configFlag
+ * @param {boolean} doDeadCheck
  * @returns {boolean}  
  */
 export function getPedConfigFlag(ped: PedIndex, configFlag: EPedConfigFlags | number, doDeadCheck: boolean = true): boolean {

@@ -6,8 +6,8 @@ import { CameraIndex, Vector3 } from '@ivanzaida/structures'
  * 0xA452B06E281A9014
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {Vector3}  
  */
 export function getCamCoord(camera: CameraIndex): Vector3 {

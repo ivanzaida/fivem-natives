@@ -6,9 +6,9 @@ import { VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * 0xD9DD012396E375D8
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EVehicleSeat} seat
  * @returns {number}  
  */
 export function getInVehicleClipsetHashForSeat(vehicle: VehicleIndex, seat: EVehicleSeat | number): number {

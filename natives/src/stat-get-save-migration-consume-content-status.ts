@@ -6,8 +6,8 @@ import { IntRef, ETaskNetStatus } from '@ivanzaida/structures'
  * 0x040F27244ED9B5A6
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} errorCode [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} errorCode [Ref]
  * @returns {ETaskNetStatus}  
  */
 export function statGetSaveMigrationConsumeContentStatus(errorCode: IntRef /* ptr */): ETaskNetStatus {

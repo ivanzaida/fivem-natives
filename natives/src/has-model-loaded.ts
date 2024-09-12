@@ -6,9 +6,9 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x6252BC0DD8A320DB
 
  * Checks if the specified model has loaded into memory.
- * 
- * ------------------------------------------------------------------
- * @param {ModelNames} model
+ * 
+ * ------------------------------------------------------------------
+ * @param {ModelNames} model
  * @returns {boolean}  
  */
 export function hasModelLoaded(model: ModelNames): boolean {

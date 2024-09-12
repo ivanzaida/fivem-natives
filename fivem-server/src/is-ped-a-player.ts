@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0X404794CA
 
  * Returns true if the given ped has a valid pointer to CPlayerInfo in its CPed class. That's all.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedAPlayer(ped: PedIndex): boolean {

@@ -6,8 +6,8 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0xDF21396D0886D8F7
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
  * @returns {number}  
  */
 export function statGetNumberOfHours(keyHash: EStatsenum | number): number {

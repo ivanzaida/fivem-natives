@@ -6,10 +6,10 @@ import { EScriptEventQueues, EEventNames } from '@ivanzaida/structures'
  * 0x5E3ED023C0E7CC7C
 
  * eventGroup: 0 = SCRIPT_EVENT_QUEUE_AI (CEventGroupScriptAI), 1 = SCRIPT_EVENT_QUEUE_NETWORK (CEventGroupScriptNetwork)
- * 
- * ------------------------------------------------------------------
- * @param {EScriptEventQueues} eventQueue
- * @param {EEventNames} eventType
+ * 
+ * ------------------------------------------------------------------
+ * @param {EScriptEventQueues} eventQueue
+ * @param {EEventNames} eventType
  * @returns {boolean}  
  */
 export function getEventExists(eventQueue: EScriptEventQueues | number, eventType: EEventNames | number): boolean {

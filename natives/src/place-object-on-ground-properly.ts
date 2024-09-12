@@ -6,10 +6,10 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x8225BA395C3FC89D
 
  * Used to orient an object to match the terrain. Works best if the object has a flat bottom and isn't too large with respect to the
- * local curvature.
- * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * local curvature.
+ * 
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  * @returns {boolean}  
  */
 export function placeObjectOnGroundProperly(object: ObjectIndex): boolean {

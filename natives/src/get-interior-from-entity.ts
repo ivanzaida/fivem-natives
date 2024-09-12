@@ -6,9 +6,9 @@ import { EntityIndex, InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0xF8F35890F43ED2AE
 
  * Returns the handle of the interior that the entity is in. Returns 0 if outside.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {InteriorInstanceIndex}  
  */
 export function getInteriorFromEntity(entity: EntityIndex): InteriorInstanceIndex {

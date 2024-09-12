@@ -6,8 +6,8 @@ import { FmEventAmbMissionKingoftheCastle } from '@ivanzaida/structures'
  * 0x0E8BC7181CB760A3
 
  * 
- * ------------------------------------------------------------------
- * @param {FmEventAmbMissionKingoftheCastle} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FmEventAmbMissionKingoftheCastle} data [Ref]
  */
 export function playstatsFmEventKingofthecastle(data: FmEventAmbMissionKingoftheCastle /* ptr */): void {
 	const playstatsFmEventKingofthecastle_result = Citizen.invokeNative<void>('0x0E8BC7181CB760A3', data.dataView);

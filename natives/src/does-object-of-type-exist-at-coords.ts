@@ -6,14 +6,14 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xE10356B235A70E70
 
  * p5 is usually 0.
- * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} radius
- * @param {ModelNames} model
- * @param {boolean} checkPhysicsExists
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
+ * @param {number} radius
+ * @param {ModelNames} model
+ * @param {boolean} checkPhysicsExists
  * @returns {boolean}  
  */
 export function doesObjectOfTypeExistAtCoords(coorsX: number, coorsY: number, coorsZ: number, radius: number, model: ModelNames, checkPhysicsExists: boolean = false): boolean {

@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X3EFE38D1
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} heli The helicopter to check
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} heli The helicopter to check
  * @returns {boolean}  Returns `true` if the helicopter's engine is running, `false` if it is not.
  */
 export function getIsHeliEngineRunning(heli: VehicleIndex): boolean {

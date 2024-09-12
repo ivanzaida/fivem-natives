@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x8177A2A9DC5BD5B0
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function removeParticleFxFromEntity(entity: EntityIndex): void {
 	const removeParticleFxFromEntity_result = Citizen.invokeNative<void>('0x8177A2A9DC5BD5B0', entity);

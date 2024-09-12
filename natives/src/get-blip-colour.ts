@@ -6,8 +6,8 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0xA247F53580E53DCE
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {number}  
  */
 export function getBlipColour(blip: BlipIndex): number {

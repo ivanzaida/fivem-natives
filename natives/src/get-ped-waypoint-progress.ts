@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9558BBC6B5B65853
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPedWaypointProgress(ped: PedIndex): number {

@@ -4,10 +4,10 @@
  * 0xA1EF53B581B6B4A9
 
  * 
- * ------------------------------------------------------------------
- * @param {string} heistId
- * @param {number} cashEarned
- * @param {number} xpEarned
+ * ------------------------------------------------------------------
+ * @param {string} heistId
+ * @param {number} cashEarned
+ * @param {number} xpEarned
  * @returns {boolean}  
  */
 export function facebookPostCompletedHeist(heistId: string, cashEarned: number, xpEarned: number): boolean {

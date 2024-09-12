@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xD0557B139A542F12
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} sequence [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} sequence [Ref]
  */
 export function clearSequenceTask(sequence: IntRef /* ptr */): void {
 	const clearSequenceTask_result = Citizen.invokeNative<void>('0xD0557B139A542F12', sequence.dataView);

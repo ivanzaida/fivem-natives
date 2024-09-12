@@ -6,8 +6,8 @@ import { ETvchanneltype } from '@ivanzaida/structures'
  * 0xF03C7B57F88A5BD3
 
  * 
- * ------------------------------------------------------------------
- * @param {ETvchanneltype} channel
+ * ------------------------------------------------------------------
+ * @param {ETvchanneltype} channel
  */
 export function clearTvChannelPlaylist(channel: ETvchanneltype | number): void {
 	const clearTvChannelPlaylist_result = Citizen.invokeNative<void>('0xF03C7B57F88A5BD3', channel);

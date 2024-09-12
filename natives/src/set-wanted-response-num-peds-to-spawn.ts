@@ -6,10 +6,10 @@ import { EDispatchType } from '@ivanzaida/structures'
  * 0x5844B0328AB76BBF
 
  * Sets the number of peds to spawn for the wanted response.
- * 
- * ------------------------------------------------------------------
- * @param {EDispatchType} dispatchType
- * @param {number} numPedsToSpawn
+ * 
+ * ------------------------------------------------------------------
+ * @param {EDispatchType} dispatchType
+ * @param {number} numPedsToSpawn
  */
 export function setWantedResponseNumPedsToSpawn(dispatchType: EDispatchType | number, numPedsToSpawn: number): void {
 	const setWantedResponseNumPedsToSpawn_result = Citizen.invokeNative<void>('0x5844B0328AB76BBF', dispatchType, numPedsToSpawn);

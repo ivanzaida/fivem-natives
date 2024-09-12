@@ -4,13 +4,13 @@
  * 0xCFE9A25C2271CFBF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minX
- * @param {number} minY
- * @param {number} minZ
- * @param {number} maxX
- * @param {number} maxY
- * @param {number} maxZ
+ * ------------------------------------------------------------------
+ * @param {number} minX
+ * @param {number} minY
+ * @param {number} minZ
+ * @param {number} maxX
+ * @param {number} maxY
+ * @param {number} maxZ
  * @returns {boolean}  
  */
 export function doesScenarioBlockingAreaExists(minX: number, minY: number, minZ: number, maxX: number, maxY: number, maxZ: number): boolean {

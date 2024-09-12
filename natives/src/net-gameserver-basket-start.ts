@@ -6,11 +6,11 @@ import { IntRef, EShopItemCategories, EItemActionTypes, ECatalogItemFlags } from
  * 0x5156B6B1D1CD58FE
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} transactionId [Ref]
- * @param {EShopItemCategories} category
- * @param {EItemActionTypes} action
- * @param {ECatalogItemFlags} flags
+ * ------------------------------------------------------------------
+ * @param {IntRef} transactionId [Ref]
+ * @param {EShopItemCategories} category
+ * @param {EItemActionTypes} action
+ * @param {ECatalogItemFlags} flags
  * @returns {boolean}  
  */
 export function netGameserverBasketStart(transactionId: IntRef /* ptr */, category: EShopItemCategories | number, action: EItemActionTypes | number, flags: ECatalogItemFlags | number = 1): boolean {

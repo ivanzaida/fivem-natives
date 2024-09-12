@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XD1D07351
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  A float among -1 and 1 according if the vehicle is moving forwards or backwards
  */
 export function getVehicleThrottleOffset(vehicle: VehicleIndex): number {

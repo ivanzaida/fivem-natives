@@ -6,11 +6,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0XD2CB95A3
 
  * This native is not implemented.
- * 
- * ------------------------------------------------------------------
- * @param {string} data
- * @param {number} objectId
- * @param {string} tree
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} data
+ * @param {number} objectId
+ * @param {string} tree
  * @returns {EntityIndex}  
  */
 export function experimentalLoadCloneCreate(data: string, objectId: number, tree: string): EntityIndex {

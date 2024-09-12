@@ -6,8 +6,8 @@ import { PiMenuHideSettings } from '@ivanzaida/structures'
  * 0x608D1A3E3DEAEBAF
 
  * 
- * ------------------------------------------------------------------
- * @param {PiMenuHideSettings} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {PiMenuHideSettings} data [Ref]
  */
 export function playstatsPimenuHideOptions(data: PiMenuHideSettings /* ptr */): void {
 	const playstatsPimenuHideOptions_result = Citizen.invokeNative<void>('0x608D1A3E3DEAEBAF', data.dataView);

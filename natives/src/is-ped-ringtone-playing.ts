@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x129DE7ED6456C4CA
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} ped
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} ped
  * @returns {boolean}  
  */
 export function isPedRingtonePlaying(ped: EntityIndex): boolean {

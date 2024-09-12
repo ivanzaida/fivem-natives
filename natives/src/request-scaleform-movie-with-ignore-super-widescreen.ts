@@ -6,10 +6,10 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0xEDB29E4B0AB3D876
 
  * Requests that a scaleform movie is streamed in (only allows 1 instance of a movie active at one time)
- * Another REQUEST_SCALEFORM_MOVIE equivalent.
- * 
- * ------------------------------------------------------------------
- * @param {string} filename
+ * Another REQUEST_SCALEFORM_MOVIE equivalent.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} filename
  * @returns {ScaleformIndex}  
  */
 export function requestScaleformMovieWithIgnoreSuperWidescreen(filename: string): ScaleformIndex {

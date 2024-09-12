@@ -4,8 +4,8 @@
  * 0xBFF989187F281795
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHashToCheck
+ * ------------------------------------------------------------------
+ * @param {number} contextHashToCheck
  * @returns {boolean}  
  */
 export function pauseMenuIsContextActive(contextHashToCheck: number): boolean {

@@ -6,8 +6,8 @@ import { EPhotoOperationStatus } from '@ivanzaida/structures'
  * 0x86AAD2BE6D9F7463
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
  * @returns {EPhotoOperationStatus}  
  */
 export function getStatusOfLoadMissionCreatorPhoto(szContentID: string): EPhotoOperationStatus {

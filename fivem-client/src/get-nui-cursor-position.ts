@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0XBDBA226F
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} x [Ref]
- * @param {IntRef} y [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} x [Ref]
+ * @param {IntRef} y [Ref]
  */
 export function getNuiCursorPosition(x: IntRef /* ptr */, y: IntRef /* ptr */): void {
 	const getNuiCursorPosition_result = Citizen.invokeNative<void>('0XBDBA226F', x.dataView, y.dataView);

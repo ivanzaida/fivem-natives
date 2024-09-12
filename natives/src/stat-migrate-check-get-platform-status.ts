@@ -6,9 +6,9 @@ import { EMigrationPlatform, AvailableSaveData, EMigrationStatus } from '@ivanza
  * 0x0FE2E7ACE70D240E
 
  * 
- * ------------------------------------------------------------------
- * @param {EMigrationPlatform} platform
- * @param {AvailableSaveData} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {EMigrationPlatform} platform
+ * @param {AvailableSaveData} data [Ref]
  * @returns {EMigrationStatus}  
  */
 export function statMigrateCheckGetPlatformStatus(platform: EMigrationPlatform | number, data: AvailableSaveData /* ptr */): EMigrationStatus {

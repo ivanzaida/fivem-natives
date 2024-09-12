@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xCE1294F698971209
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} forceSurface
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} forceSurface
  */
 export function forceSubmarineSurfaceMode(vehicle: VehicleIndex, forceSurface: boolean): void {
 	const forceSubmarineSurfaceMode_result = Citizen.invokeNative<void>('0xCE1294F698971209', vehicle, forceSurface);

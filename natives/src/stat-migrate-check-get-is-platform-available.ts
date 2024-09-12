@@ -6,8 +6,8 @@ import { EMigrationPlatform, EMigrationResultCodes } from '@ivanzaida/structures
  * 0xE76F74E4C982A0D4
 
  * 
- * ------------------------------------------------------------------
- * @param {EMigrationPlatform} platform
+ * ------------------------------------------------------------------
+ * @param {EMigrationPlatform} platform
  * @returns {EMigrationResultCodes}  
  */
 export function statMigrateCheckGetIsPlatformAvailable(platform: EMigrationPlatform | number): EMigrationResultCodes {

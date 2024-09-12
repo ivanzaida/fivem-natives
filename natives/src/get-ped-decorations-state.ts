@@ -6,9 +6,9 @@ import { PedIndex, EPedDecorationsState } from '@ivanzaida/structures'
  * 0x1ACEEA8FD72F77BC
 
  * Get the state of decorations (tattoos/decals) on a ped, if any
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {EPedDecorationsState}  
  */
 export function getPedDecorationsState(ped: PedIndex): EPedDecorationsState {

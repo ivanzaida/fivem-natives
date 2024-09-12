@@ -4,8 +4,8 @@
  * 0x497B2CD637A94E2A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {boolean}  
  */
 export function isDoorClosed(doorEnumHash: number): boolean {

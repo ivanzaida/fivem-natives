@@ -6,8 +6,8 @@ import { BwFragileGoods } from '@ivanzaida/structures'
  * 0xEA483A47960FF65E
 
  * 
- * ------------------------------------------------------------------
- * @param {BwFragileGoods} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BwFragileGoods} data [Ref]
  */
 export function playstatsBwFragileGoods(data: BwFragileGoods /* ptr */): void {
 	const playstatsBwFragileGoods_result = Citizen.invokeNative<void>('0xEA483A47960FF65E', data.dataView);

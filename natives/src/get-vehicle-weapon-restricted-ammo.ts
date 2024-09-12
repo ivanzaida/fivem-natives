@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x73C3D75DAC71F876
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} vehicleWeapon
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} vehicleWeapon
  * @returns {number}  
  */
 export function getVehicleWeaponRestrictedAmmo(vehicle: VehicleIndex, vehicleWeapon: number): number {

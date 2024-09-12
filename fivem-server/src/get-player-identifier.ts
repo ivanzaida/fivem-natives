@@ -4,9 +4,9 @@
  * 0X7302DBCF
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
- * @param {number} identifier
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
+ * @param {number} identifier
  * @returns {string}  
  */
 export function getPlayerIdentifier(playerSrc: string, identifier: number): string {

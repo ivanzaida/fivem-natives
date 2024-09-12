@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xDF1A809B241FEE24
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerIdx
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerIdx
  */
 export function resetPlayerInputGait(playerIdx: PlayerIndex): void {
 	const resetPlayerInputGait_result = Citizen.invokeNative<void>('0xDF1A809B241FEE24', playerIdx);

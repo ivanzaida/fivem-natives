@@ -4,8 +4,8 @@
  * 0xE84254DC19B3CA6B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} vehicleModelNameHash
+ * ------------------------------------------------------------------
+ * @param {number} vehicleModelNameHash
  */
 export function preloadVehicleAudioBank(vehicleModelNameHash: number): void {
 	const preloadVehicleAudioBank_result = Citizen.invokeNative<void>('0xE84254DC19B3CA6B', vehicleModelNameHash);

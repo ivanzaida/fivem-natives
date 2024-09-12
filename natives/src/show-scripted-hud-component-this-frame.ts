@@ -6,8 +6,8 @@ import { EEScriptHudComponent } from '@ivanzaida/structures'
  * 0x06DF266B26D6C535
 
  * 
- * ------------------------------------------------------------------
- * @param {EEScriptHudComponent} hudComponent
+ * ------------------------------------------------------------------
+ * @param {EEScriptHudComponent} hudComponent
  */
 export function showScriptedHudComponentThisFrame(hudComponent: EEScriptHudComponent | number): void {
 	const showScriptedHudComponentThisFrame_result = Citizen.invokeNative<void>('0x06DF266B26D6C535', hudComponent);

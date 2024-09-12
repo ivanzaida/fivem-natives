@@ -6,11 +6,11 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3644984C9D7B57EF
 
  * angle is ped's view cone
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} pedIndex1
- * @param {PedIndex} pedIndex2
- * @param {number} degrees
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} pedIndex1
+ * @param {PedIndex} pedIndex2
+ * @param {number} degrees
  * @returns {boolean}  
  */
 export function isPedFacingPed(pedIndex1: PedIndex, pedIndex2: PedIndex, degrees: number): boolean {

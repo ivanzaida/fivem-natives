@@ -4,10 +4,10 @@
  * 0xF9372EC61E6191AF
 
  * Applies a multiplier to the distances used for spawning/removing ambient peds
- * Should be called every frame for the duration that it is required.
- * 
- * ------------------------------------------------------------------
- * @param {number} multiplier
+ * Should be called every frame for the duration that it is required.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} multiplier
  */
 export function setAmbientPedRangeMultiplierThisFrame(multiplier: number): void {
 	const setAmbientPedRangeMultiplierThisFrame_result = Citizen.invokeNative<void>('0xF9372EC61E6191AF', multiplier);

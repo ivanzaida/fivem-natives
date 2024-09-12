@@ -6,10 +6,10 @@ import { NetworkIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x4C48F052678AA7EF
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
- * @param {PlayerIndex} playerId
- * @param {boolean} alwaysExistsForPlayer
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
+ * @param {PlayerIndex} playerId
+ * @param {boolean} alwaysExistsForPlayer
  */
 export function setNetworkIdAlwaysExistsForPlayer(networkId: NetworkIndex, playerId: PlayerIndex, alwaysExistsForPlayer: boolean): void {
 	const setNetworkIdAlwaysExistsForPlayer_result = Citizen.invokeNative<void>('0x4C48F052678AA7EF', networkId, playerId, alwaysExistsForPlayer);

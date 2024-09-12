@@ -6,11 +6,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x805A7BBF801B49D0
 
  * Despite the name, it does work for any entity type.
- * 
- * ------------------------------------------------------------------
- * @param {number} garageHash
- * @param {EntityIndex} entity
- * @param {number} box
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} garageHash
+ * @param {EntityIndex} entity
+ * @param {number} box
  * @returns {boolean}  
  */
 export function isObjectPartiallyInsideGarage(garageHash: number, entity: EntityIndex, box: number = 1): boolean {

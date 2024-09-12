@@ -4,8 +4,8 @@
  * 0x82C5BFD25578F440
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} state
+ * ------------------------------------------------------------------
+ * @param {boolean} state
  */
 export function setFollowVehicleCamHighAngleModeThisUpdate(state: boolean): void {
 	const setFollowVehicleCamHighAngleModeThisUpdate_result = Citizen.invokeNative<void>('0x82C5BFD25578F440', state);

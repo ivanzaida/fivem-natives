@@ -6,9 +6,9 @@ import { SrcBasketItem } from '@ivanzaida/structures'
  * 0x5E8BF7E974BEA7D7
 
  * 
- * ------------------------------------------------------------------
- * @param {SrcBasketItem} basketItem [Ref]
- * @param {number} quantity
+ * ------------------------------------------------------------------
+ * @param {SrcBasketItem} basketItem [Ref]
+ * @param {number} quantity
  * @returns {boolean}  
  */
 export function netGameserverBasketAddItem(basketItem: SrcBasketItem /* ptr */, quantity: number): boolean {

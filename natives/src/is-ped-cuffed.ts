@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x736821465DA66F80
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedCuffed(ped: PedIndex): boolean {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x220D7AA717CC835C
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {boolean} ensureEntityUpright
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {boolean} ensureEntityUpright
  */
 export function setCargobobPickupMagnetEnsurePickupEntityUpright(cargobob: VehicleIndex, ensureEntityUpright: boolean): void {
 	const setCargobobPickupMagnetEnsurePickupEntityUpright_result = Citizen.invokeNative<void>('0x220D7AA717CC835C', cargobob, ensureEntityUpright);

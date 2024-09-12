@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XB8AF3137
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle The target vehicle.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle The target vehicle.
  * @returns {boolean}  Returns whether or not the target vehicle has been damaged by bullets.
  */
 export function hasVehicleBeenDamagedByBullets(vehicle: VehicleIndex): boolean {

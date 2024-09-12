@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xCF9F92EF5A069BD4
 
  * This is used primarliy in cutscenes
- * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * 
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  */
 export function removeObjectHighDetailModel(object: ObjectIndex): void {
 	const removeObjectHighDetailModel_result = Citizen.invokeNative<void>('0xCF9F92EF5A069BD4', object);

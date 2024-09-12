@@ -4,8 +4,8 @@
  * 0xC0967BD19C389A28
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id
+ * ------------------------------------------------------------------
+ * @param {number} id
  * @returns {boolean}  
  */
 export function leaderboardsGetCacheExists(id: number): boolean {

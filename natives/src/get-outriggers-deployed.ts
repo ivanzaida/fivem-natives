@@ -6,11 +6,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xCC986802D9AE877E
 
  * Checks if Chernobog's stabilizers are deployed or not.
- * These are the metal supports that allow it to fire.
- * This native only applies to the Chernobog.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * These are the metal supports that allow it to fire.
+ * This native only applies to the Chernobog.
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getOutriggersDeployed(vehicle: VehicleIndex): boolean {

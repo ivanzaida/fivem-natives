@@ -4,8 +4,8 @@
  * 0xD553FC562BDEBE1E
 
  * Retrieves if this user has permissions to use the store
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isStoreAvailableToUser(): boolean {

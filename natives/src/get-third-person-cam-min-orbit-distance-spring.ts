@@ -4,7 +4,7 @@
  * 0xBC456FB703431785
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getThirdPersonCamMinOrbitDistanceSpring(): number {

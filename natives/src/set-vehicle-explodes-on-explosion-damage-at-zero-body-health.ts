@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xA964B154E331B3E9
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} set
  */
 export function setVehicleExplodesOnExplosionDamageAtZeroBodyHealth(vehicle: VehicleIndex, set: boolean): void {
 	const setVehicleExplodesOnExplosionDamageAtZeroBodyHealth_result = Citizen.invokeNative<void>('0xA964B154E331B3E9', vehicle, set);

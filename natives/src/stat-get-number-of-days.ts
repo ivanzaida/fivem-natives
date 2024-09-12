@@ -6,10 +6,10 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x4F256B9F00ACB695
 
  * This command can be used on stats that store timer values in milliseconds (like TOTAL_PLAYING_TIME) but their types are
- * are too big to be converted to hours in script.
- * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
+ * are too big to be converted to hours in script.
+ * 
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
  * @returns {number}  
  */
 export function statGetNumberOfDays(keyHash: EStatsenum | number): number {

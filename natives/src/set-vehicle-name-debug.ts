@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xD1ED03B26BD64F6C
 
  * NOTE: Debugging functions are not present in the retail version of the game.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {string} debugName
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {string} debugName
  */
 export function setVehicleNameDebug(vehicle: VehicleIndex, debugName: string): void {
 	const setVehicleNameDebug_result = Citizen.invokeNative<void>('0xD1ED03B26BD64F6C', vehicle, debugName);

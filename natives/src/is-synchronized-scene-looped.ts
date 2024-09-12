@@ -4,9 +4,9 @@
  * 0x7E2BC58952835E3B
 
  * Returns true is the specified scene is looping
- * 
- * ------------------------------------------------------------------
- * @param {number} sceneID
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} sceneID
  * @returns {boolean}  
  */
 export function isSynchronizedSceneLooped(sceneID: number): boolean {

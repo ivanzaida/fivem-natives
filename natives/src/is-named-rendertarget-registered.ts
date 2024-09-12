@@ -4,8 +4,8 @@
  * 0xC13AFEAFC3F7AD96
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {boolean}  
  */
 export function isNamedRendertargetRegistered(name: string): boolean {

@@ -6,8 +6,8 @@ import { Vector3Ref } from '@ivanzaida/structures'
  * 0XE5AF7A82
 
  * Returns the world position the pointer is hovering on the pause map.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {Vector3Ref}  A Vector3 with the pause map pointer world position X and Y values.
  */
 export function getPauseMapPointerWorldPosition(): Vector3Ref {

@@ -4,8 +4,8 @@
  * 0XE5E9EBBB
 
  * Returns the name of the currently executing resource.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {string}  The name of the resource.
  */
 export function getCurrentResourceName(): string {

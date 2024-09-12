@@ -4,9 +4,9 @@
  * 0XC74DA47C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} portalIndex Interior portal index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} portalIndex Interior portal index.
  * @returns {number}  Portal's flag.
  */
 export function getInteriorPortalFlag(interiorId: number, portalIndex: number): number {

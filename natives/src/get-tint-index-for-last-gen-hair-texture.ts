@@ -6,10 +6,10 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xD839A970B98A1E9C
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} pedModelHash
- * @param {number} hairDrawableId
- * @param {number} hairTextureId
+ * ------------------------------------------------------------------
+ * @param {ModelNames} pedModelHash
+ * @param {number} hairDrawableId
+ * @param {number} hairTextureId
  * @returns {number}  
  */
 export function getTintIndexForLastGenHairTexture(pedModelHash: ModelNames, hairDrawableId: number, hairTextureId: number): number {

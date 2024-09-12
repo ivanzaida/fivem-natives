@@ -4,8 +4,8 @@
  * 0X23473EA4
 
  * 
- * ------------------------------------------------------------------
- * @param {string} password
+ * ------------------------------------------------------------------
+ * @param {string} password
  * @returns {string}  
  */
 export function getPasswordHash(password: string): string {

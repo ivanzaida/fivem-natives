@@ -6,7 +6,7 @@ import { ENetGameserverTransactionStatus } from '@ivanzaida/structures'
  * 0x93693D93BD53ACB1
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ENetGameserverTransactionStatus}  
  */
 export function netGameserverDeleteCharacterGetStatus(): ENetGameserverTransactionStatus {

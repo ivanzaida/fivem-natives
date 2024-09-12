@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xE70AAE8EBF7D65BD
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedInAnyBoat(ped: PedIndex): boolean {

@@ -4,8 +4,8 @@
  * 0xE2B94989E87636A6
 
  * indicates that the end state IPL group assets are all in memory and the swap is ready to be finished
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function iplGroupSwapIsReady(): boolean {

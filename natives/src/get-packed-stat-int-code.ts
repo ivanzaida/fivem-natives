@@ -6,9 +6,9 @@ import { EnumToInt } from '@ivanzaida/structures'
  * 0x03CFFD51CE515454
 
  * 
- * ------------------------------------------------------------------
- * @param {EnumToInt} stat
- * @param {number} overrideCharSlot
+ * ------------------------------------------------------------------
+ * @param {EnumToInt} stat
+ * @param {number} overrideCharSlot
  * @returns {number}  
  */
 export function getPackedStatIntCode(stat: EnumToInt, overrideCharSlot: number = 1): number {

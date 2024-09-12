@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x94FC2CFCFFCE172C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} disableFallDeath
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} disableFallDeath
  */
 export function setDisableHighFallDeath(ped: PedIndex, disableFallDeath: boolean): void {
 	const setDisableHighFallDeath_result = Citizen.invokeNative<void>('0x94FC2CFCFFCE172C', ped, disableFallDeath);

@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xCDF8A102C63845CC
 
  * Returns hash of default vehicle horn
- * Hash is stored in audVehicleAudioEntity
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * Hash is stored in audVehicleAudioEntity
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  
  */
 export function getVehicleDefaultHorn(vehicle: VehicleIndex): number {

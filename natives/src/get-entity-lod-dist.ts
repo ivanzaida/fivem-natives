@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x5748CF36AE9EC4E1
 
  * Returns the LOD distance of an entity.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {number}  
  */
 export function getEntityLodDist(entity: EntityIndex): number {

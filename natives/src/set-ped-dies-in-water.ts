@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x34A9A872D3C510BF
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} drownsInWaterFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} drownsInWaterFlag
  */
 export function setPedDiesInWater(ped: PedIndex, drownsInWaterFlag: boolean): void {
 	const setPedDiesInWater_result = Citizen.invokeNative<void>('0x34A9A872D3C510BF', ped, drownsInWaterFlag);

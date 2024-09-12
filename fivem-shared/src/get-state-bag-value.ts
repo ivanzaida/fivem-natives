@@ -4,10 +4,10 @@
  * 0X637F4C75
 
  * Returns the value of a state bag key.
- * 
- * ------------------------------------------------------------------
- * @param {string} bagName
- * @param {string} key
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} bagName
+ * @param {string} key
  * @returns {any}  Value.
  */
 export function getStateBagValue(bagName: string, key: string): any {

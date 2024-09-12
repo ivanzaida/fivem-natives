@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x00941975834A0817
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} treatAsAmbientPed
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} treatAsAmbientPed
  */
 export function setTreatAsAmbientPedForDriverLockon(ped: PedIndex, treatAsAmbientPed: boolean): void {
 	const setTreatAsAmbientPedForDriverLockon_result = Citizen.invokeNative<void>('0x00941975834A0817', ped, treatAsAmbientPed);

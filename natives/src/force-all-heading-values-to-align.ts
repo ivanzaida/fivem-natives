@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF62B077162F79BAA
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function forceAllHeadingValuesToAlign(ped: PedIndex): void {
 	const forceAllHeadingValuesToAlign_result = Citizen.invokeNative<void>('0xF62B077162F79BAA', ped);

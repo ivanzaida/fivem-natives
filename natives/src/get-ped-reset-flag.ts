@@ -6,9 +6,9 @@ import { PedIndex, EPedResetFlags } from '@ivanzaida/structures'
  * 0x025281901DECB32C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedResetFlags} resetFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedResetFlags} resetFlag
  * @returns {boolean}  
  */
 export function getPedResetFlag(ped: PedIndex, resetFlag: EPedResetFlags | number): boolean {

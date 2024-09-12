@@ -6,10 +6,10 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  * 0xAD830DCD82C63F31
 
  * doorID starts at 0, not seeming to skip any numbers. Four door vehicles intuitively range from 0 to 3.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EScDoorList} doorNumber
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EScDoorList} doorNumber
  * @returns {boolean}  
  */
 export function isVehicleDoorDamaged(vehicle: VehicleIndex, doorNumber: EScDoorList | number): boolean {

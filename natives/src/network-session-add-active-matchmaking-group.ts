@@ -6,9 +6,9 @@ import { EMatchmakingGroup } from '@ivanzaida/structures'
  * 0x5A59537D7B87C071
 
  * groupId range: [0, 4]
- * 
- * ------------------------------------------------------------------
- * @param {EMatchmakingGroup} group
+ * 
+ * ------------------------------------------------------------------
+ * @param {EMatchmakingGroup} group
  */
 export function networkSessionAddActiveMatchmakingGroup(group: EMatchmakingGroup | number): void {
 	const networkSessionAddActiveMatchmakingGroup_result = Citizen.invokeNative<void>('0x5A59537D7B87C071', group);

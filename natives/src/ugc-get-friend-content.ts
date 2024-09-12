@@ -6,11 +6,11 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xAE7CAF61C281EAB2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} offset
- * @param {number} maxCount
- * @param {string} szContentType
- * @param {IntRef} descriptionsId [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} offset
+ * @param {number} maxCount
+ * @param {string} szContentType
+ * @param {IntRef} descriptionsId [Ref]
  * @returns {boolean}  
  */
 export function ugcGetFriendContent(offset: number, maxCount: number, szContentType: string, descriptionsId: IntRef /* ptr */): boolean {

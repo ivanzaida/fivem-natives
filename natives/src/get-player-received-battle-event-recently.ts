@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x992BFEB6732434E5
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} time
- * @param {boolean} includeLocalEvents
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} time
+ * @param {boolean} includeLocalEvents
  * @returns {boolean}  
  */
 export function getPlayerReceivedBattleEventRecently(player: PlayerIndex, time: number, includeLocalEvents: boolean = false): boolean {

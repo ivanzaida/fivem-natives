@@ -6,8 +6,8 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0x5DA1DE6C940D22C1
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} obj
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} obj
  * @returns {boolean}  
  */
 export function isAnEntity(obj: ItemIndex): boolean {

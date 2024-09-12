@@ -7,12 +7,12 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0xED2558D599937EFD
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
- * @param {number} distance
- * @param {Vector3} positionOut [Ref]
- * @param {boolean} needsToBeStationary
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
+ * @param {number} distance
+ * @param {Vector3} positionOut [Ref]
+ * @param {boolean} needsToBeStationary
  * @returns {boolean}  
  */
 export function getCoordsOfProjectileTypeWithinDistance(ped: PedIndex, weaponType: EWeaponType | number, distance: number, positionOut: Vector3 /* ptr */, needsToBeStationary: boolean = false): boolean {

@@ -6,10 +6,10 @@ import { BoolRef } from '@ivanzaida/structures'
  * 0xC9DC4A70BE727818
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHash
- * @param {number} tunableHash
- * @param {BoolRef} tunable [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} contextHash
+ * @param {number} tunableHash
+ * @param {BoolRef} tunable [Ref]
  * @returns {boolean}  
  */
 export function networkAccessTunableBoolModificationDetectionRegistrationHash(contextHash: number, tunableHash: number, tunable: BoolRef /* ptr */): boolean {

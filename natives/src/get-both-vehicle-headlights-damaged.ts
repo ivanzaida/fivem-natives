@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xADBCF06C9348EEF5
 
  * Returns true when both headlights are broken. This does not include extralights.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function getBothVehicleHeadlightsDamaged(vehicle: VehicleIndex): boolean {

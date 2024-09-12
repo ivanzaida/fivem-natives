@@ -4,12 +4,12 @@
  * 0x35628CF57A78C4CD
 
  * This will transition back to freemode from a launched activity session.
- * Like above but we immediately host a session.
- * 
- * ------------------------------------------------------------------
- * @param {boolean} withPlayers
- * @param {number} maxPlayers
- * @param {boolean} isPrivate
+ * Like above but we immediately host a session.
+ * 
+ * ------------------------------------------------------------------
+ * @param {boolean} withPlayers
+ * @param {number} maxPlayers
+ * @param {boolean} isPrivate
  * @returns {boolean}  
  */
 export function networkDoTransitionToNewGame(withPlayers: boolean, maxPlayers: number, isPrivate: boolean): boolean {

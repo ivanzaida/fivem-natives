@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XE0BA9FE6
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle The vehicle to obtain data for.
- * @param {number} wheelIndex Index of wheel, 03.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle The vehicle to obtain data for.
+ * @param {number} wheelIndex Index of wheel, 03.
  * @returns {number}  Float representing size of the wheel collider.
  */
 export function getVehicleWheelTireColliderSize(vehicle: VehicleIndex, wheelIndex: number): number {

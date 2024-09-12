@@ -4,8 +4,8 @@
  * 0x5222710997DF7E10
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {boolean} enable
  */
 export function cascadeShadowsSetAircraftMode(enable: boolean): void {
 	const cascadeShadowsSetAircraftMode_result = Citizen.invokeNative<void>('0x5222710997DF7E10', enable);

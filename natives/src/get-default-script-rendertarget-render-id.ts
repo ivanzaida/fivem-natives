@@ -4,9 +4,9 @@
  * 0xB803C9D209A7C3DC
 
  * A render target is a texture that can rendered too.
- * This function is hard-coded to always return 1.
- * 
- * ------------------------------------------------------------------
+ * This function is hard-coded to always return 1.
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getDefaultScriptRendertargetRenderId(): number {

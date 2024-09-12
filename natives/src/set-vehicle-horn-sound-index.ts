@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x315A149C242011DE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} hornSound
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} hornSound
  */
 export function setVehicleHornSoundIndex(vehicle: VehicleIndex, hornSound: number): void {
 	const setVehicleHornSoundIndex_result = Citizen.invokeNative<void>('0x315A149C242011DE', vehicle, hornSound);

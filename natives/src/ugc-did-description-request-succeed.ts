@@ -4,8 +4,8 @@
  * 0x16C0B173B472AF71
 
  * 
- * ------------------------------------------------------------------
- * @param {number} hash
+ * ------------------------------------------------------------------
+ * @param {number} hash
  * @returns {boolean}  
  */
 export function ugcDidDescriptionRequestSucceed(hash: number): boolean {

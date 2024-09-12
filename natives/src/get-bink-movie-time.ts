@@ -6,9 +6,9 @@ import { BinkMovieId } from '@ivanzaida/structures'
  * 0x2362B981748EB883
 
  * In percentage: 0.0 - 100.0
- * 
- * ------------------------------------------------------------------
- * @param {BinkMovieId} movieId
+ * 
+ * ------------------------------------------------------------------
+ * @param {BinkMovieId} movieId
  * @returns {number}  
  */
 export function getBinkMovieTime(movieId: BinkMovieId): number {

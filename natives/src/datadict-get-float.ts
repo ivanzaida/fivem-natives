@@ -4,9 +4,9 @@
  * 0xA481424344CBC893
 
  * 
- * ------------------------------------------------------------------
- * @param {string} dict
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} dict
+ * @param {string} name
  * @returns {number}  
  */
 export function datadictGetFloat(dict: string, name: string): number {

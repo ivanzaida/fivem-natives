@@ -6,13 +6,13 @@ import { PedIndex, EWeaponType, EGeneralweaponType } from '@ivanzaida/structures
  * 0x66B90BA528CFEBCE
 
  * p2 should be FALSE, otherwise it seems to always return FALSE
- * Bool does not check if the weapon is current equipped, unfortunately.
- * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
- * @param {EGeneralweaponType} generalWeaponType
+ * Bool does not check if the weapon is current equipped, unfortunately.
+ * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} typeOfWeapon
+ * @param {EGeneralweaponType} generalWeaponType
  * @returns {boolean}  
  */
 export function hasPedGotWeapon(ped: PedIndex, typeOfWeapon: EWeaponType | number, generalWeaponType: EGeneralweaponType | number = 0): boolean {

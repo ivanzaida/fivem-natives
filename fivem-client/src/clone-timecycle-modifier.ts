@@ -4,9 +4,9 @@
  * 0X54D636B3
 
  * 
- * ------------------------------------------------------------------
- * @param {string} sourceModifierName The source timecycle name.
- * @param {string} clonedModifierName The clone timecycle name, must be unique.
+ * ------------------------------------------------------------------
+ * @param {string} sourceModifierName The source timecycle name.
+ * @param {string} clonedModifierName The clone timecycle name, must be unique.
  * @returns {number}  The cloned timecycle modifier index, or -1 if failed.
  */
 export function cloneTimecycleModifier(sourceModifierName: string, clonedModifierName: string): number {

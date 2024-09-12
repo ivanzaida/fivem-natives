@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xB7BDF91BE073DCFB
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function removeVehicleStuckCheck(vehicle: VehicleIndex): void {
 	const removeVehicleStuckCheck_result = Citizen.invokeNative<void>('0xB7BDF91BE073DCFB', vehicle);

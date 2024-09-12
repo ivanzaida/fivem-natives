@@ -4,8 +4,8 @@
  * 0x219ED949271099BA
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function statCloudSlotLoadFailed(slot: number): boolean {

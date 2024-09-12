@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x4CEC77F224BCD884
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function hasPedHeadBlendFinished(ped: PedIndex): boolean {

@@ -4,8 +4,8 @@
  * 0xE3FAB626C2DBDF88
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedBlushTintForBarber(tint: number): boolean {

@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x7B426C13A6E40397
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getPhoneGestureAnimTotalTime(ped: PedIndex): number {

@@ -4,7 +4,7 @@
  * 0xE8DB952A4BA8F328
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkGetThisScriptIsNetworkScript(): boolean {

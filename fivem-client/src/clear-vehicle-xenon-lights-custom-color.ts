@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X2867ED8C
 
  * Removes vehicle xenon lights custom RGB color.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle The vehicle handle.
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle The vehicle handle.
  */
 export function clearVehicleXenonLightsCustomColor(vehicle: VehicleIndex): void {
 	const clearVehicleXenonLightsCustomColor_result = Citizen.invokeNative<void>('0X2867ED8C', vehicle);

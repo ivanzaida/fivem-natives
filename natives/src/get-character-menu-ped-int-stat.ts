@@ -6,10 +6,10 @@ import { EStatsenum, IntRef } from '@ivanzaida/structures'
  * 0x97A3FD175F8D720C
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {IntRef} data [Ref]
- * @param {number} characterSlot
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {IntRef} data [Ref]
+ * @param {number} characterSlot
  * @returns {boolean}  
  */
 export function getCharacterMenuPedIntStat(keyHash: EStatsenum | number, data: IntRef /* ptr */, characterSlot: number = 1): boolean {

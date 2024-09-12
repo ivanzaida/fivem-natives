@@ -6,10 +6,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  * 0xF069618D9974EB9D
 
  * control: see IS_CONTROL_ENABLED
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
- * @param {EControlAction} action
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
+ * @param {EControlAction} action
  * @returns {number}  
  */
 export function getDisabledControlNormal(control: EControlType | number, action: EControlAction | number): number {

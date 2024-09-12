@@ -6,9 +6,9 @@ import { EHudColours } from '@ivanzaida/structures'
  * 0x7F8D9D14BCF34424
 
  * flashes the minimap display using the color specified
- * 
- * ------------------------------------------------------------------
- * @param {EHudColours} flashColour
+ * 
+ * ------------------------------------------------------------------
+ * @param {EHudColours} flashColour
  */
 export function flashMinimapDisplayWithColor(flashColour: EHudColours | number): void {
 	const flashMinimapDisplayWithColor_result = Citizen.invokeNative<void>('0x7F8D9D14BCF34424', flashColour);

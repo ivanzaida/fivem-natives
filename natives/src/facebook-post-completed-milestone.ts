@@ -6,8 +6,8 @@ import { EMilestoneId } from '@ivanzaida/structures'
  * 0xAE566521443DBC23
 
  * 
- * ------------------------------------------------------------------
- * @param {EMilestoneId} milestoneId
+ * ------------------------------------------------------------------
+ * @param {EMilestoneId} milestoneId
  * @returns {boolean}  
  */
 export function facebookPostCompletedMilestone(milestoneId: EMilestoneId | number): boolean {

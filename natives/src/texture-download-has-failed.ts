@@ -4,9 +4,9 @@
  * 0x26EA30089CAD115D
 
  * Queries whether a texture download request has failed
- * 
- * ------------------------------------------------------------------
- * @param {number} textureDownloadHandle
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} textureDownloadHandle
  * @returns {boolean}  
  */
 export function textureDownloadHasFailed(textureDownloadHandle: number): boolean {

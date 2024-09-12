@@ -6,12 +6,12 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x091AB029AFE429F2
 
  * normal - transition like when your coming out of LSC
- * slow - transition like when you walk into a mission
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} flash
- * @param {boolean} network
+ * slow - transition like when you walk into a mission
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} flash
+ * @param {boolean} network
  */
 export function networkFadeOutEntity(entity: EntityIndex, flash: boolean, network: boolean): void {
 	const networkFadeOutEntity_result = Citizen.invokeNative<void>('0x091AB029AFE429F2', entity, flash, network);

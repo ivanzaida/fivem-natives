@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x0189E96FAC892B16
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} hashedMac [Ref]
- * @param {IntRef} posixTime [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} hashedMac [Ref]
+ * @param {IntRef} posixTime [Ref]
  * @returns {boolean}  
  */
 export function playstatsCreateMatchHistoryId_2(hashedMac: IntRef /* ptr */, posixTime: IntRef /* ptr */): boolean {

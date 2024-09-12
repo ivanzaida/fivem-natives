@@ -6,8 +6,8 @@ import { EBlipSprite, BlipIndex } from '@ivanzaida/structures'
  * 0xB981254932E1095E
 
  * 
- * ------------------------------------------------------------------
- * @param {EBlipSprite} blipSprite
+ * ------------------------------------------------------------------
+ * @param {EBlipSprite} blipSprite
  * @returns {BlipIndex}  
  */
 export function getClosestBlipInfoId(blipSprite: EBlipSprite | number): BlipIndex {

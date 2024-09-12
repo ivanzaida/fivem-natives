@@ -4,8 +4,8 @@
  * 0xF504C9571E86CF76
 
  * 
- * ------------------------------------------------------------------
- * @param {number} token
+ * ------------------------------------------------------------------
+ * @param {number} token
  * @returns {boolean}  
  */
 export function scLicenseplateGetAddIsPending(token: number): boolean {

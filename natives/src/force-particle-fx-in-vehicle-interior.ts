@@ -6,9 +6,9 @@ import { PtfxId } from '@ivanzaida/structures'
  * 0x4E96B177783A9BA6
 
  * 
- * ------------------------------------------------------------------
- * @param {PtfxId} ptfxId
- * @param {boolean} isInVehicleInterior
+ * ------------------------------------------------------------------
+ * @param {PtfxId} ptfxId
+ * @param {boolean} isInVehicleInterior
  */
 export function forceParticleFxInVehicleInterior(ptfxId: PtfxId, isInVehicleInterior: boolean): void {
 	const forceParticleFxInVehicleInterior_result = Citizen.invokeNative<void>('0x4E96B177783A9BA6', ptfxId, isInVehicleInterior);

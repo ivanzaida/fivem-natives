@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x4160C3716329E630
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleAttachedToCargobob(cargobob: VehicleIndex, vehicle: VehicleIndex): boolean {

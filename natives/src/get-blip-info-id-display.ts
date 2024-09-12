@@ -6,8 +6,8 @@ import { BlipIndex, EBlipDisplay } from '@ivanzaida/structures'
  * 0xC4BDFF590B6DE7A5
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blipId
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blipId
  * @returns {EBlipDisplay}  
  */
 export function getBlipInfoIdDisplay(blipId: BlipIndex): EBlipDisplay {

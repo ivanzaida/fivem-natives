@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x37B71363FBA86179
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  * @returns {boolean}  
  */
 export function networkAmIBlockedByPlayer(netPlayerID: PlayerIndex): boolean {

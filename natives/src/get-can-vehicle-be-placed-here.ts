@@ -6,19 +6,19 @@ import { VehicleIndex, EEulerRotOrder } from '@ivanzaida/structures'
  * 0x685A7D56318EFE6D
 
  * Used in decompiled scripts in combination with GET_VEHICLE_SIZE
- * p7 is usually 2
- * p8 is usually 1
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} vehiclePosX
- * @param {number} vehiclePosY
- * @param {number} vehiclePosZ
- * @param {number} eulerAnglesX
- * @param {number} eulerAnglesY
- * @param {number} eulerAnglesZ
- * @param {EEulerRotOrder} rotOrder
- * @param {number} losFlags
+ * p7 is usually 2
+ * p8 is usually 1
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} vehiclePosX
+ * @param {number} vehiclePosY
+ * @param {number} vehiclePosZ
+ * @param {number} eulerAnglesX
+ * @param {number} eulerAnglesY
+ * @param {number} eulerAnglesZ
+ * @param {EEulerRotOrder} rotOrder
+ * @param {number} losFlags
  * @returns {boolean}  
  */
 export function getCanVehicleBePlacedHere(vehicle: VehicleIndex, vehiclePosX: number, vehiclePosY: number, vehiclePosZ: number, eulerAnglesX: number, eulerAnglesY: number, eulerAnglesZ: number, rotOrder: EEulerRotOrder | number = 2, losFlags: number = 1): boolean {

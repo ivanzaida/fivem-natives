@@ -4,8 +4,8 @@
  * 0x21DA82F574DDCFD2
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} isMugshot
+ * ------------------------------------------------------------------
+ * @param {boolean} isMugshot
  */
 export function setTakenPhotoIsMugshot(isMugshot: boolean): void {
 	const setTakenPhotoIsMugshot_result = Citizen.invokeNative<void>('0x21DA82F574DDCFD2', isMugshot);

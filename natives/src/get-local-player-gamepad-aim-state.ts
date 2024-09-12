@@ -4,9 +4,9 @@
  * 0x8783C7E86E757352
 
  * Will return the gamepad setting even if the player is playing on the keyboard and mouse.
- * Returns the local player's targeting mode. See PLAYER::SET_PLAYER_TARGETING_MODE.
- * 
- * ------------------------------------------------------------------
+ * Returns the local player's targeting mode. See PLAYER::SET_PLAYER_TARGETING_MODE.
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getLocalPlayerGamepadAimState(): number {

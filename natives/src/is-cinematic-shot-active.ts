@@ -6,9 +6,9 @@ import { EShotType } from '@ivanzaida/structures'
  * 0xF52DD7BA03015AB4
 
  * Hash is always JOAAT("CAMERA_MAN_SHOT") in decompiled scripts
- * 
- * ------------------------------------------------------------------
- * @param {EShotType} shot
+ * 
+ * ------------------------------------------------------------------
+ * @param {EShotType} shot
  * @returns {boolean}  
  */
 export function isCinematicShotActive(shot: EShotType | number): boolean {

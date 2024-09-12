@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x469AD8A2B1EBB937
 
  * Enable/disable player simulating aiming.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} simulateAiming
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} simulateAiming
  */
 export function setPlayerSimulateAiming(player: PlayerIndex, simulateAiming: boolean): void {
 	const setPlayerSimulateAiming_result = Citizen.invokeNative<void>('0x469AD8A2B1EBB937', player, simulateAiming);

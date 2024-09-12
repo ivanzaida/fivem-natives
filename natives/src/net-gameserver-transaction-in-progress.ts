@@ -4,7 +4,7 @@
  * 0xEBCF66C686AEBDCA
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function netGameserverTransactionInProgress(): boolean {

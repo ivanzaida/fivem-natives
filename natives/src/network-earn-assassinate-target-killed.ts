@@ -4,8 +4,8 @@
  * 0xEEE7837FC8CEDEDF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnAssassinateTargetKilled(amount: number): void {
 	const networkEarnAssassinateTargetKilled_result = Citizen.invokeNative<void>('0xEEE7837FC8CEDEDF', amount);

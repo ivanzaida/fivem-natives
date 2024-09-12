@@ -4,10 +4,10 @@
  * 0xE3E138A155ACC0B9
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
- * @param {boolean} isBookmarked
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
+ * @param {boolean} isBookmarked
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcSetBookmarked(szContentID: string, isBookmarked: boolean, szContentType: string): boolean {

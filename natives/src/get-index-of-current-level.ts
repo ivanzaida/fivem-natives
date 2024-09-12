@@ -6,7 +6,7 @@ import { EELevelIndex } from '@ivanzaida/structures'
  * 0xC5C8FC4D42BFD749
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EELevelIndex}  
  */
 export function getIndexOfCurrentLevel(): EELevelIndex {

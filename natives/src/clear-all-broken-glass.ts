@@ -4,7 +4,7 @@
  * 0xC22A1D86EFB5A8CA
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function clearAllBrokenGlass(): void {
 	const clearAllBrokenGlass_result = Citizen.invokeNative<void>('0xC22A1D86EFB5A8CA', );

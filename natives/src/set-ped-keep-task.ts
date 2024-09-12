@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x44FB298D6382876D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} keepTasksFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} keepTasksFlag
  */
 export function setPedKeepTask(ped: PedIndex, keepTasksFlag: boolean): void {
 	const setPedKeepTask_result = Citizen.invokeNative<void>('0x44FB298D6382876D', ped, keepTasksFlag);

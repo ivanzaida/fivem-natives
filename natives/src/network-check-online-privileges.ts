@@ -4,9 +4,9 @@
  * 0x27AEB178E6BB8021
 
  * 
- * ------------------------------------------------------------------
- * @param {number} gamer
- * @param {boolean} checkHasPrivilege
+ * ------------------------------------------------------------------
+ * @param {number} gamer
+ * @param {boolean} checkHasPrivilege
  * @returns {boolean}  
  */
 export function networkCheckOnlinePrivileges(gamer: number = 1, checkHasPrivilege: boolean = true): boolean {

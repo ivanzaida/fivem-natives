@@ -4,8 +4,8 @@
  * 0x8191C51F9DD9189D
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} isAuto
+ * ------------------------------------------------------------------
+ * @param {boolean} isAuto
  */
 export function lobbySetAutoMpRandomJob(isAuto: boolean): void {
 	const lobbySetAutoMpRandomJob_result = Citizen.invokeNative<void>('0x8191C51F9DD9189D', isAuto);

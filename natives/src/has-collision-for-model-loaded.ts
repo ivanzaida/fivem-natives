@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xB1625FCB7B6A7982
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} model
+ * ------------------------------------------------------------------
+ * @param {ModelNames} model
  * @returns {boolean}  
  */
 export function hasCollisionForModelLoaded(model: ModelNames): boolean {

@@ -4,8 +4,8 @@
  * 0xE72957406FBFB362
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentIsVerified(content: number): boolean {

@@ -4,11 +4,11 @@
  * 0x0752721B56D5DBA3
 
  * Returns defaultValue if the tunable doesn't exist.
- * 
- * ------------------------------------------------------------------
- * @param {number} contextHash
- * @param {number} tunableHash
- * @param {boolean} defaultValue
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} contextHash
+ * @param {number} tunableHash
+ * @param {boolean} defaultValue
  * @returns {boolean}  
  */
 export function networkTryAccessTunableBoolHash(contextHash: number, tunableHash: number, defaultValue: boolean): boolean {

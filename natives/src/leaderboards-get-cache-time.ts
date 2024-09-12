@@ -4,8 +4,8 @@
  * 0x992FDA8495111E7E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id
+ * ------------------------------------------------------------------
+ * @param {number} id
  * @returns {number}  
  */
 export function leaderboardsGetCacheTime(id: number): number {

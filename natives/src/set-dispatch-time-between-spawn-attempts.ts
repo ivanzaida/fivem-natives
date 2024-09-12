@@ -6,10 +6,10 @@ import { EDispatchType } from '@ivanzaida/structures'
  * 0x986164755D8E9A93
 
  * Sets the time between spawn attempts for the dispatch service.
- * 
- * ------------------------------------------------------------------
- * @param {EDispatchType} dispatchType
- * @param {number} timeBetwenSpawnAttempts
+ * 
+ * ------------------------------------------------------------------
+ * @param {EDispatchType} dispatchType
+ * @param {number} timeBetwenSpawnAttempts
  */
 export function setDispatchTimeBetweenSpawnAttempts(dispatchType: EDispatchType | number, timeBetwenSpawnAttempts: number): void {
 	const setDispatchTimeBetweenSpawnAttempts_result = Citizen.invokeNative<void>('0x986164755D8E9A93', dispatchType, timeBetwenSpawnAttempts);

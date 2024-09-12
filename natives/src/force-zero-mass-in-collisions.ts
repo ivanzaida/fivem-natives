@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF1EA3BEE2C40F823
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function forceZeroMassInCollisions(ped: PedIndex): void {
 	const forceZeroMassInCollisions_result = Citizen.invokeNative<void>('0xF1EA3BEE2C40F823', ped);

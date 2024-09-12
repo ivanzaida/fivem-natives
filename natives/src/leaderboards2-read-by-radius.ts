@@ -6,10 +6,10 @@ import { Leaderboard2ReadData, GamerHandle } from '@ivanzaida/structures'
  * 0x15A7798AEEFAC562
 
  * 
- * ------------------------------------------------------------------
- * @param {Leaderboard2ReadData} lbData [Ref]
- * @param {number} radius
- * @param {GamerHandle} pivotGamerHandle [Ref]
+ * ------------------------------------------------------------------
+ * @param {Leaderboard2ReadData} lbData [Ref]
+ * @param {number} radius
+ * @param {GamerHandle} pivotGamerHandle [Ref]
  * @returns {boolean}  
  */
 export function leaderboards2ReadByRadius(lbData: Leaderboard2ReadData /* ptr */, radius: number, pivotGamerHandle: GamerHandle /* ptr */): boolean {

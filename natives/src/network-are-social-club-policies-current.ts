@@ -4,7 +4,7 @@
  * 0xEBF44C5F6EF789C0
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkAreSocialClubPoliciesCurrent(): boolean {

@@ -4,17 +4,17 @@
  * 0x6991BFCE3D87261B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minWSX
- * @param {number} minWSY
- * @param {number} minWSZ
- * @param {number} maxWSX
- * @param {number} maxWSY
- * @param {number} maxWSZ
- * @param {number} pedDensity
- * @param {number} trafficDensity
- * @param {boolean} localOnly
- * @param {boolean} cameraGlobalMultiplier
+ * ------------------------------------------------------------------
+ * @param {number} minWSX
+ * @param {number} minWSY
+ * @param {number} minWSZ
+ * @param {number} maxWSX
+ * @param {number} maxWSY
+ * @param {number} maxWSZ
+ * @param {number} pedDensity
+ * @param {number} trafficDensity
+ * @param {boolean} localOnly
+ * @param {boolean} cameraGlobalMultiplier
  * @returns {number}  
  */
 export function addPopMultiplierArea(minWSX: number, minWSY: number, minWSZ: number, maxWSX: number, maxWSY: number, maxWSZ: number, pedDensity: number, trafficDensity: number, localOnly: boolean, cameraGlobalMultiplier: boolean = true): number {

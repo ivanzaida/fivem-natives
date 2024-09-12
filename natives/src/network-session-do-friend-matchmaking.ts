@@ -6,10 +6,10 @@ import { EMmFlags } from '@ivanzaida/structures'
  * 0x0563974EC0E4F379
 
  * 
- * ------------------------------------------------------------------
- * @param {number} gameMode
- * @param {number} maxPlayers
- * @param {EMmFlags} matchmakingFlags
+ * ------------------------------------------------------------------
+ * @param {number} gameMode
+ * @param {number} maxPlayers
+ * @param {EMmFlags} matchmakingFlags
  * @returns {boolean}  
  */
 export function networkSessionDoFriendMatchmaking(gameMode: number, maxPlayers: number, matchmakingFlags: EMmFlags | number): boolean {

@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xDB3813D934CC6718
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setVehicleReadyForCleanup(vehicle: VehicleIndex): void {
 	const setVehicleReadyForCleanup_result = Citizen.invokeNative<void>('0xDB3813D934CC6718', vehicle);

@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xCCD470854FB0E643
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} plr
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} plr
  * @returns {boolean}  
  */
 export function networkIsPlayerAParticipant(plr: PlayerIndex): boolean {

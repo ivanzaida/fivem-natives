@@ -6,11 +6,11 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  * 0x5CCBA474776568B7
 
  * control: 0: PLAYER_CONTROL, 1: CAMERA_CONTROL, 2: FRONTEND_CONTROL
- * For more info, see https://docs.fivem.net/docs/game-references/controls/
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
- * @param {EControlAction} action
+ * For more info, see https://docs.fivem.net/docs/game-references/controls/
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
+ * @param {EControlAction} action
  * @returns {boolean}  
  */
 export function isControlEnabled(control: EControlType | number, action: EControlAction | number): boolean {

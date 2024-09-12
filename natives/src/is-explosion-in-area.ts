@@ -6,15 +6,15 @@ import { EExplosionTag } from '@ivanzaida/structures'
  * 0x8AC0662A292C36F4
 
  * explosionType: See ADD_EXPLOSION.
- * 
- * ------------------------------------------------------------------
- * @param {EExplosionTag} explosionTag
- * @param {number} posMinX
- * @param {number} posMinY
- * @param {number} posMinZ
- * @param {number} posMaxX
- * @param {number} posMaxY
- * @param {number} posMaxZ
+ * 
+ * ------------------------------------------------------------------
+ * @param {EExplosionTag} explosionTag
+ * @param {number} posMinX
+ * @param {number} posMinY
+ * @param {number} posMinZ
+ * @param {number} posMaxX
+ * @param {number} posMaxY
+ * @param {number} posMaxZ
  * @returns {boolean}  
  */
 export function isExplosionInArea(explosionTag: EExplosionTag | number, posMinX: number, posMinY: number, posMinZ: number, posMaxX: number, posMaxY: number, posMaxZ: number): boolean {

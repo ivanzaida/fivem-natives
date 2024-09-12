@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x75DACB7D11C3CEF4
 
  * Use this to disable the injured on ground nm behaviour when he dies (note, a headshot will still override this currently).
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function disablePedInjuredOnGroundBehaviour(ped: PedIndex): void {
 	const disablePedInjuredOnGroundBehaviour_result = Citizen.invokeNative<void>('0x75DACB7D11C3CEF4', ped);

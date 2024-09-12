@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0xDB27323F0C5EE8D9
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  */
 export function setFlyCamVerticalControlsThisUpdate(camera: CameraIndex): void {
 	const setFlyCamVerticalControlsThisUpdate_result = Citizen.invokeNative<void>('0xDB27323F0C5EE8D9', camera);

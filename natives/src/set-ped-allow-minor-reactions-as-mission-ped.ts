@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x55A8A33A33B949EC
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allowReactions
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allowReactions
  */
 export function setPedAllowMinorReactionsAsMissionPed(ped: PedIndex, allowReactions: boolean): void {
 	const setPedAllowMinorReactionsAsMissionPed_result = Citizen.invokeNative<void>('0x55A8A33A33B949EC', ped, allowReactions);

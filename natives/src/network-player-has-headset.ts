@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xF060DE6D44C11C50
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  * @returns {boolean}  
  */
 export function networkPlayerHasHeadset(netPlayerID: PlayerIndex): boolean {

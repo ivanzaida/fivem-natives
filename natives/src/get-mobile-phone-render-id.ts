@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x90D1A8814E85B166
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} render [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} render [Ref]
  */
 export function getMobilePhoneRenderId(render: IntRef /* ptr */): void {
 	const getMobilePhoneRenderId_result = Citizen.invokeNative<void>('0x90D1A8814E85B166', render.dataView);

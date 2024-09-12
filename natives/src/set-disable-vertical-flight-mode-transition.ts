@@ -6,10 +6,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xF9FC9D29B8DD92DF
 
  * True stops vtols from switching modes. Doesn't stop the sound though.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} plane
- * @param {boolean} disableTransition
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} plane
+ * @param {boolean} disableTransition
  */
 export function setDisableVerticalFlightModeTransition(plane: EntityIndex, disableTransition: boolean): void {
 	const setDisableVerticalFlightModeTransition_result = Citizen.invokeNative<void>('0xF9FC9D29B8DD92DF', plane, disableTransition);

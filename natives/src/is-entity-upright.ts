@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xE99B9AC112F55D16
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} angleToVerticalLimit
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} angleToVerticalLimit
  * @returns {boolean}  
  */
 export function isEntityUpright(entity: EntityIndex, angleToVerticalLimit: number = 90): boolean {

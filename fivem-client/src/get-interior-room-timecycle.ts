@@ -4,9 +4,9 @@
  * 0X82BA3F88
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} roomIndex Interior room index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} roomIndex Interior room index.
  * @returns {number}  Room's timecycle hash.
  */
 export function getInteriorRoomTimecycle(interiorId: number, roomIndex: number): number {

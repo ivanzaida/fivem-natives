@@ -6,8 +6,8 @@ import { StringRef } from '@ivanzaida/structures'
  * 0xD078F914C227CF7B
 
  * 
- * ------------------------------------------------------------------
- * @param {StringRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {StringRef} value [Ref]
  * @returns {boolean}  
  */
 export function scCommunityEventGetDisplayNameForType(value: StringRef /* ptr */): boolean {

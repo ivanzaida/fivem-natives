@@ -4,8 +4,8 @@
  * 0x0DA829364F715C68
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentHasPlayerBookmarked(content: number): boolean {

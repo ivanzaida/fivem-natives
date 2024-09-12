@@ -6,10 +6,10 @@ import { PlayerIndex, EWrecklessType } from '@ivanzaida/structures'
  * 0x4A3BD6441F87BBF1
 
  * Only 1 occurrence. p1 was 2.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {EWrecklessType} wreckless
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {EWrecklessType} wreckless
  * @returns {boolean}  
  */
 export function getIsPlayerDrivingWreckless(player: PlayerIndex, wreckless: EWrecklessType | number): boolean {

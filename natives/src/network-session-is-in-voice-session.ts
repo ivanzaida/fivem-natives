@@ -4,7 +4,7 @@
  * 0x5150DDF9D3BDA9E5
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkSessionIsInVoiceSession(): boolean {

@@ -4,8 +4,8 @@
  * 0xA25C1B5218833F4E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} isEnabled
+ * ------------------------------------------------------------------
+ * @param {boolean} isEnabled
  */
 export function networkSetSpectatorToNonSpectatorTextChat(isEnabled: boolean): void {
 	const networkSetSpectatorToNonSpectatorTextChat_result = Citizen.invokeNative<void>('0xA25C1B5218833F4E', isEnabled);

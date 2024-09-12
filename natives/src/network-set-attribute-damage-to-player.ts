@@ -6,10 +6,10 @@ import { PedIndex, PlayerIndex } from '@ivanzaida/structures'
  * 0x926910F3168C206A
 
  * call to attribute damage done by this ped PedIndex to PlayerIndex
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function networkSetAttributeDamageToPlayer(ped: PedIndex, player: PlayerIndex): boolean {

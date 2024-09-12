@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xB16071F8F0F2A561
 
  * Returns true if the ped is currently opening a door (CTaskOpenDoor).
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedOpeningDoor(ped: PedIndex): boolean {

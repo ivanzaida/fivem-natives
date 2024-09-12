@@ -6,8 +6,8 @@ import { BwAirfreight } from '@ivanzaida/structures'
  * 0xF3621FB07D69B631
 
  * 
- * ------------------------------------------------------------------
- * @param {BwAirfreight} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BwAirfreight} data [Ref]
  */
 export function playstatsBwAirFreight(data: BwAirfreight /* ptr */): void {
 	const playstatsBwAirFreight_result = Citizen.invokeNative<void>('0xF3621FB07D69B631', data.dataView);

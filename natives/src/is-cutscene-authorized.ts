@@ -4,9 +4,9 @@
  * 0xAEF10EAFB97F5540
 
  * This function is hard-coded to always return 1.
- * 
- * ------------------------------------------------------------------
- * @param {string} sceneName
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} sceneName
  * @returns {boolean}  
  */
 export function isCutsceneAuthorized(sceneName: string): boolean {

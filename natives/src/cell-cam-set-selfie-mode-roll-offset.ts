@@ -4,8 +4,8 @@
  * 0x263FA094C828FD3E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} offset
+ * ------------------------------------------------------------------
+ * @param {number} offset
  */
 export function cellCamSetSelfieModeRollOffset(offset: number): void {
 	const cellCamSetSelfieModeRollOffset_result = Citizen.invokeNative<void>('0x263FA094C828FD3E', offset);

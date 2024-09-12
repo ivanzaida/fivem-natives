@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x0AD4EECE226A86F5
 
  * Enables/disables ped's "quiet" footstep sound.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enabed
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enabed
  */
 export function setPedClothEventsEnabled(ped: PedIndex, enabed: boolean): void {
 	const setPedClothEventsEnabled_result = Citizen.invokeNative<void>('0x0AD4EECE226A86F5', ped, enabed);

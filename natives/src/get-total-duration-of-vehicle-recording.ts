@@ -4,10 +4,10 @@
  * 0xE2E30D829A6B8F9E
 
  * See REQUEST_VEHICLE_RECORDING
- * 
- * ------------------------------------------------------------------
- * @param {number} recordingNumber
- * @param {string} recordingName
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} recordingNumber
+ * @param {string} recordingName
  * @returns {number}  
  */
 export function getTotalDurationOfVehicleRecording(recordingNumber: number, recordingName: string): number {

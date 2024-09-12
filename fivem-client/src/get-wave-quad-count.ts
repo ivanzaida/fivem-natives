@@ -4,7 +4,7 @@
  * 0X9250C76
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  Returns the amount of wave quads loaded.
  */
 export function getWaveQuadCount(): number {

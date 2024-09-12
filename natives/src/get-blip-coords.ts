@@ -6,8 +6,8 @@ import { BlipIndex, Vector3 } from '@ivanzaida/structures'
  * 0x3CF9D442F2C902BD
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {Vector3}  
  */
 export function getBlipCoords(blip: BlipIndex): Vector3 {

@@ -4,8 +4,8 @@
  * 0xD4C0EC928BB68223
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} facing
+ * ------------------------------------------------------------------
+ * @param {boolean} facing
  */
 export function golfTrailSetFacing(facing: boolean): void {
 	const golfTrailSetFacing_result = Citizen.invokeNative<void>('0xD4C0EC928BB68223', facing);

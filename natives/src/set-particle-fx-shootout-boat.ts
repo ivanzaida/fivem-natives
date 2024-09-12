@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x8AC9895670AC9049
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  */
 export function setParticleFxShootoutBoat(veh: VehicleIndex): void {
 	const setParticleFxShootoutBoat_result = Citizen.invokeNative<void>('0x8AC9895670AC9049', veh);

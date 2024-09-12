@@ -4,8 +4,8 @@
  * 0x10B4F03DA622008C
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} ready
+ * ------------------------------------------------------------------
+ * @param {boolean} ready
  */
 export function networkSetScriptReadyForEvents(ready: boolean): void {
 	const networkSetScriptReadyForEvents_result = Citizen.invokeNative<void>('0x10B4F03DA622008C', ready);

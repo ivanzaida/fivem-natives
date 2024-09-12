@@ -4,11 +4,11 @@
  * 0x4D64DFA5BE3B2871
 
  * 
- * ------------------------------------------------------------------
- * @param {number} numPedsToRegister
- * @param {number} numVehiclesToRegister
- * @param {number} numObjectsToRegister
- * @param {number} numPickupsToRegister
+ * ------------------------------------------------------------------
+ * @param {number} numPedsToRegister
+ * @param {number} numVehiclesToRegister
+ * @param {number} numObjectsToRegister
+ * @param {number} numPickupsToRegister
  * @returns {boolean}  
  */
 export function canRegisterMissionEntities(numPedsToRegister: number, numVehiclesToRegister: number, numObjectsToRegister: number, numPickupsToRegister: number): boolean {

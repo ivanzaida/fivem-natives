@@ -4,8 +4,8 @@
  * 0xA927617A11A54503
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} state
+ * ------------------------------------------------------------------
+ * @param {boolean} state
  */
 export function setGameplayCamAltitudeFovScalingState(state: boolean): void {
 	const setGameplayCamAltitudeFovScalingState_result = Citizen.invokeNative<void>('0xA927617A11A54503', state);

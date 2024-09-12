@@ -4,8 +4,8 @@
  * 0xCC1EDB9BCC914639
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} newState
+ * ------------------------------------------------------------------
+ * @param {boolean} newState
  */
 export function usingMissionCreator(newState: boolean): void {
 	const usingMissionCreator_result = Citizen.invokeNative<void>('0xCC1EDB9BCC914639', newState);

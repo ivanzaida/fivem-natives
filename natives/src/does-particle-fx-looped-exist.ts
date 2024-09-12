@@ -6,8 +6,8 @@ import { PtfxId } from '@ivanzaida/structures'
  * 0x9CFFB7009B578840
 
  * 
- * ------------------------------------------------------------------
- * @param {PtfxId} ptfxId
+ * ------------------------------------------------------------------
+ * @param {PtfxId} ptfxId
  * @returns {boolean}  
  */
 export function doesParticleFxLoopedExist(ptfxId: PtfxId): boolean {

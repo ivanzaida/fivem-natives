@@ -4,8 +4,8 @@
  * 0xCA7C80E031F9BFD2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  * @returns {boolean}  
  */
 export function doesPopMultiplierSphereExist(index: number): boolean {

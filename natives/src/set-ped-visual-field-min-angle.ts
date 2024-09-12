@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3C7306C2CE967C57
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} angle
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} angle
  */
 export function setPedVisualFieldMinAngle(ped: PedIndex, angle: number): void {
 	const setPedVisualFieldMinAngle_result = Citizen.invokeNative<void>('0x3C7306C2CE967C57', ped, angle);

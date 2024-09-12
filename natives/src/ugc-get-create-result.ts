@@ -6,7 +6,7 @@ import { EUgcError } from '@ivanzaida/structures'
  * 0xE2BDF7F96F1777EA
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EUgcError}  
  */
 export function ugcGetCreateResult(): EUgcError {

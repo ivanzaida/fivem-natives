@@ -6,12 +6,12 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0x98915B4A834CE874
 
  * Hashed version of GET_INTERIOR_AT_COORDS_WITH_TYPE
- * 
- * ------------------------------------------------------------------
- * @param {number} inCoorsX
- * @param {number} inCoorsY
- * @param {number} inCoorsZ
- * @param {number} nameHash
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} inCoorsX
+ * @param {number} inCoorsY
+ * @param {number} inCoorsZ
+ * @param {number} nameHash
  * @returns {InteriorInstanceIndex}  
  */
 export function getInteriorAtCoordsWithTypehash(inCoorsX: number, inCoorsY: number, inCoorsZ: number, nameHash: number): InteriorInstanceIndex {

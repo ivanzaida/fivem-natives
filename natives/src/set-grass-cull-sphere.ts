@@ -6,12 +6,12 @@ import { GrassCullSphereHandle } from '@ivanzaida/structures'
  * 0x5F3592B356EE3A4C
 
  * This function is hard-coded to always return 0.
- * 
- * ------------------------------------------------------------------
- * @param {number} centerX
- * @param {number} centerY
- * @param {number} centerZ
- * @param {number} radius
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} centerX
+ * @param {number} centerY
+ * @param {number} centerZ
+ * @param {number} radius
  * @returns {GrassCullSphereHandle}  
  */
 export function setGrassCullSphere(centerX: number, centerY: number, centerZ: number, radius: number): GrassCullSphereHandle {

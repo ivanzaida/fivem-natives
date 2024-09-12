@@ -4,8 +4,8 @@
  * 0x6633B158164DCD88
 
  * Tests some cinematic camera flags
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isCinematicCamInputActive(): boolean {

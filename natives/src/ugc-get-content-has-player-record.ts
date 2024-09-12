@@ -4,10 +4,10 @@
  * 0x821D66CE02BC23F8
 
  * Whether the local player has a record
- * This won't be the case until the player has rated, bookmarked or set player data
- * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * This won't be the case until the player has rated, bookmarked or set player data
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentHasPlayerRecord(content: number): boolean {

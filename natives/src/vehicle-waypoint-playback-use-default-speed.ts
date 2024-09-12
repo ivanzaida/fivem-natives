@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x6956712D887FB12E
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  */
 export function vehicleWaypointPlaybackUseDefaultSpeed(veh: VehicleIndex): void {
 	const vehicleWaypointPlaybackUseDefaultSpeed_result = Citizen.invokeNative<void>('0x6956712D887FB12E', veh);

@@ -4,8 +4,8 @@
  * 0x8956A309BE90057C
 
  * Checks for privilege 30
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkHasRosPrivilegeMpVoiceCommunication(): boolean {

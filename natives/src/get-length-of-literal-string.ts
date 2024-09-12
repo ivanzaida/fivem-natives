@@ -4,9 +4,9 @@
  * 0x09112CCF7824FE38
 
  * Returns the length of the string passed (much like strlen).
- * 
- * ------------------------------------------------------------------
- * @param {string} literalString
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} literalString
  * @returns {number}  
  */
 export function getLengthOfLiteralString(literalString: string): number {

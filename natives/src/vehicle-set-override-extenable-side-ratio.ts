@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x63CDE093822E42C4
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} overrideRatio
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} overrideRatio
  * @returns {number}  
  */
 export function vehicleSetOverrideExtenableSideRatio(vehicle: VehicleIndex, overrideRatio: boolean): number {

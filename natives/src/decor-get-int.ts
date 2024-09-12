@@ -6,9 +6,9 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0xE2F6FE9B61232165
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
  * @returns {number}  
  */
 export function decorGetInt(guid: ItemIndex, decoratorName: string): number {

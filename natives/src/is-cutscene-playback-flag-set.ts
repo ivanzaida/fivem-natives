@@ -6,8 +6,8 @@ import { ECutscenePlaybackFlags } from '@ivanzaida/structures'
  * 0xFE2EB239B608CDF9
 
  * 
- * ------------------------------------------------------------------
- * @param {ECutscenePlaybackFlags} flags
+ * ------------------------------------------------------------------
+ * @param {ECutscenePlaybackFlags} flags
  * @returns {boolean}  
  */
 export function isCutscenePlaybackFlagSet(flags: ECutscenePlaybackFlags | number): boolean {

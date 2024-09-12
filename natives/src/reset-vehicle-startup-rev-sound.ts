@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xBE72843E382ACF4E
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function resetVehicleStartupRevSound(vehicle: VehicleIndex): void {
 	const resetVehicleStartupRevSound_result = Citizen.invokeNative<void>('0xBE72843E382ACF4E', vehicle);

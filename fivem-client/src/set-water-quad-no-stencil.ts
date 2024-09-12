@@ -4,9 +4,9 @@
  * 0XC3FF42FF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The water quad index
- * @param {boolean} noStencil Unknown effect
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The water quad index
+ * @param {boolean} noStencil Unknown effect
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadNoStencil(waterQuad: number, noStencil: boolean): boolean {

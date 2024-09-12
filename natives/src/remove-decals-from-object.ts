@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x73715B38A9962E7E
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  */
 export function removeDecalsFromObject(object: ObjectIndex): void {
 	const removeDecalsFromObject_result = Citizen.invokeNative<void>('0x73715B38A9962E7E', object);

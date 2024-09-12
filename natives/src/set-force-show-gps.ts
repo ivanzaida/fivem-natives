@@ -4,8 +4,8 @@
  * 0x7F13032016798DAB
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} onOff
+ * ------------------------------------------------------------------
+ * @param {boolean} onOff
  */
 export function setForceShowGps(onOff: boolean): void {
 	const setForceShowGps_result = Citizen.invokeNative<void>('0x7F13032016798DAB', onOff);

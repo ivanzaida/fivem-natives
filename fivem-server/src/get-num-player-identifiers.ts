@@ -4,8 +4,8 @@
  * 0XFF7F66AB
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {number}  
  */
 export function getNumPlayerIdentifiers(playerSrc: string): number {

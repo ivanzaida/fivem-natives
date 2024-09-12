@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9FFBD1A17AAE3E0D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} range
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} range
  */
 export function setPedAiBlipNoticeRange(ped: PedIndex, range: number): void {
 	const setPedAiBlipNoticeRange_result = Citizen.invokeNative<void>('0x9FFBD1A17AAE3E0D', ped, range);

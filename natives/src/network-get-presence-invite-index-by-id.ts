@@ -4,8 +4,8 @@
  * 0x7F36EF28AE77E331
 
  * 
- * ------------------------------------------------------------------
- * @param {number} inviteID
+ * ------------------------------------------------------------------
+ * @param {number} inviteID
  * @returns {number}  
  */
 export function networkGetPresenceInviteIndexById(inviteID: number): number {

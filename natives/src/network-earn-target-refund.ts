@@ -4,9 +4,9 @@
  * 0x1B7FCA28E35CDBB0
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {number} target
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {number} target
  */
 export function networkEarnTargetRefund(amount: number, target: number): void {
 	const networkEarnTargetRefund_result = Citizen.invokeNative<void>('0x1B7FCA28E35CDBB0', amount, target);

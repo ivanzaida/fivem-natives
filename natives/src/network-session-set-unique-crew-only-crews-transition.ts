@@ -4,8 +4,8 @@
  * 0x3A777FFCB6CEEC68
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} onlyCrews
+ * ------------------------------------------------------------------
+ * @param {boolean} onlyCrews
  */
 export function networkSessionSetUniqueCrewOnlyCrewsTransition(onlyCrews: boolean): void {
 	const networkSessionSetUniqueCrewOnlyCrewsTransition_result = Citizen.invokeNative<void>('0x3A777FFCB6CEEC68', onlyCrews);

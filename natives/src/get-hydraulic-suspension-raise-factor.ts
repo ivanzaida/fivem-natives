@@ -6,9 +6,9 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * 0xB9E9F6A235CE5516
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EScWheelList} wheelNumber
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EScWheelList} wheelNumber
  * @returns {number}  
  */
 export function getHydraulicSuspensionRaiseFactor(vehicle: VehicleIndex, wheelNumber: EScWheelList | number): number {

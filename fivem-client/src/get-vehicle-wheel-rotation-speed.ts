@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XEA1859E5
 
  * Gets the rotation speed of a wheel.This is used internally to calcuate GET_VEHICLE_WHEEL_SPEED.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
  * @returns {number}  The angular velocity of the wheel.
  */
 export function getVehicleWheelRotationSpeed(vehicle: VehicleIndex, wheelIndex: number): number {

@@ -6,8 +6,8 @@ import { EWeaponType } from '@ivanzaida/structures'
  * 0xCF56BDC3BD787B97
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weaponType
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weaponType
  */
 export function removeWeaponAsset(weaponType: EWeaponType | number): void {
 	const removeWeaponAsset_result = Citizen.invokeNative<void>('0xCF56BDC3BD787B97', weaponType);

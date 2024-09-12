@@ -4,8 +4,8 @@
  * 0x8FFE1F924EF00340
 
  * 
- * ------------------------------------------------------------------
- * @param {number} leaveFlags
+ * ------------------------------------------------------------------
+ * @param {number} leaveFlags
  * @returns {boolean}  
  */
 export function networkSessionLeave(leaveFlags: number): boolean {

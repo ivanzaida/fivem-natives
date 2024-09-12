@@ -4,8 +4,8 @@
  * 0xEAE605592B9C789F
 
  * Reverse the longest distance without crashing
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetCurrentDrivingReverseDistance(): number {

@@ -6,8 +6,8 @@ import { FmEventAmbMissionCompetitiveUrbanWarfare } from '@ivanzaida/structures'
  * 0xEC859204FA292EDF
 
  * 
- * ------------------------------------------------------------------
- * @param {FmEventAmbMissionCompetitiveUrbanWarfare} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FmEventAmbMissionCompetitiveUrbanWarfare} data [Ref]
  */
 export function playstatsFmEventCompetitiveurbanwarfare(data: FmEventAmbMissionCompetitiveUrbanWarfare /* ptr */): void {
 	const playstatsFmEventCompetitiveurbanwarfare_result = Citizen.invokeNative<void>('0xEC859204FA292EDF', data.dataView);

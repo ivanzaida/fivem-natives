@@ -6,8 +6,8 @@ import { CameraIndex } from '@ivanzaida/structures'
  * 0xEF763079652110C0
 
  * 
- * ------------------------------------------------------------------
- * @param {CameraIndex} camera
+ * ------------------------------------------------------------------
+ * @param {CameraIndex} camera
  * @returns {number}  
  */
 export function getCamFarClip(camera: CameraIndex): number {

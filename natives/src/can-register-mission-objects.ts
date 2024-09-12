@@ -4,8 +4,8 @@
  * 0x78D35ABAF71764AD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} numObjectsToRegister
+ * ------------------------------------------------------------------
+ * @param {number} numObjectsToRegister
  * @returns {boolean}  
  */
 export function canRegisterMissionObjects(numObjectsToRegister: number): boolean {

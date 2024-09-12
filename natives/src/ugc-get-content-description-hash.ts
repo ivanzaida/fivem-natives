@@ -4,8 +4,8 @@
  * 0x8715A76F8294FEE0
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {number}  
  */
 export function ugcGetContentDescriptionHash(content: number): number {

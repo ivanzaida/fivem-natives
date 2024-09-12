@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x74CD4FE549433E92
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedPlantingBomb(ped: PedIndex): boolean {

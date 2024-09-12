@@ -6,12 +6,12 @@ import { VehicleNodeId } from '@ivanzaida/structures'
  * 0x8D4953B2FFED058B
 
  * Returns whether the given node has GPS allowed (to be used with a node index obtained by the above function(s) and within the same frame!)
- * Returns false for nodes that aren't used for GPS routes.
- * Example:
- * Nodes in Fort Zancudo and LSIA are false
- * 
- * ------------------------------------------------------------------
- * @param {VehicleNodeId} nodeId
+ * Returns false for nodes that aren't used for GPS routes.
+ * Example:
+ * Nodes in Fort Zancudo and LSIA are false
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleNodeId} nodeId
  * @returns {boolean}  
  */
 export function getVehicleNodeIsGpsAllowed(nodeId: VehicleNodeId): boolean {

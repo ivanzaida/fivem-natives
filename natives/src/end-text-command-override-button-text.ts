@@ -4,8 +4,8 @@
  * 0xC5999CADF163C996
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  */
 export function endTextCommandOverrideButtonText(slot: number): void {
 	const endTextCommandOverrideButtonText_result = Citizen.invokeNative<void>('0xC5999CADF163C996', slot);

@@ -6,9 +6,9 @@ import { TimeDatatype } from '@ivanzaida/structures'
  * 0xF55707B152A1A749
 
  * Return time formatted in h:mm:ss.ms
- * 
- * ------------------------------------------------------------------
- * @param {TimeDatatype} time
+ * 
+ * ------------------------------------------------------------------
+ * @param {TimeDatatype} time
  * @returns {string}  
  */
 export function getTimeAsString(time: TimeDatatype): string {

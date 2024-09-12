@@ -6,9 +6,9 @@ import { ScenarioBlockingIndex } from '@ivanzaida/structures'
  * 0xD7B6A43ACC36D868
 
  * 
- * ------------------------------------------------------------------
- * @param {ScenarioBlockingIndex} scenarioBlocking
- * @param {boolean} network
+ * ------------------------------------------------------------------
+ * @param {ScenarioBlockingIndex} scenarioBlocking
+ * @param {boolean} network
  */
 export function removeScenarioBlockingArea(scenarioBlocking: ScenarioBlockingIndex, network: boolean = false): void {
 	const removeScenarioBlockingArea_result = Citizen.invokeNative<void>('0xD7B6A43ACC36D868', scenarioBlocking, network);

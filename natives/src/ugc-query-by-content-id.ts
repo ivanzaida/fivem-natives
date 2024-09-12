@@ -4,10 +4,10 @@
  * 0xA5D1672BB8378B6A
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContentID
- * @param {boolean} latest
- * @param {string} szContentType
+ * ------------------------------------------------------------------
+ * @param {string} szContentID
+ * @param {boolean} latest
+ * @param {string} szContentType
  * @returns {boolean}  
  */
 export function ugcQueryByContentId(szContentID: string, latest: boolean, szContentType: string): boolean {

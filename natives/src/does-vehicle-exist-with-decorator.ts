@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x824A2D0AB16C9E1A
 
  * Returns whether a vehicle exists with the specified decorator
- * 
- * ------------------------------------------------------------------
- * @param {string} decoratorLabel
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} decoratorLabel
  * @returns {VehicleIndex}  
  */
 export function doesVehicleExistWithDecorator(decoratorLabel: string): VehicleIndex {

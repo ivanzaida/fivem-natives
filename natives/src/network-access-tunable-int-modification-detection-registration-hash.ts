@@ -6,10 +6,10 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xDF6F5F7DECDD6CA3
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHash
- * @param {number} tunableHash
- * @param {IntRef} tunable [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} contextHash
+ * @param {number} tunableHash
+ * @param {IntRef} tunable [Ref]
  * @returns {boolean}  
  */
 export function networkAccessTunableIntModificationDetectionRegistrationHash(contextHash: number, tunableHash: number, tunable: IntRef /* ptr */): boolean {

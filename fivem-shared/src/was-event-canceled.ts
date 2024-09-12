@@ -4,8 +4,8 @@
  * 0X58382A19
 
  * Returns whether or not the currently executing event was canceled.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  A boolean.
  */
 export function wasEventCanceled(): boolean {

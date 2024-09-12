@@ -6,10 +6,10 @@ import { EStatsenum, FloatRef } from '@ivanzaida/structures'
  * 0x2F0966A034F5ADC6
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {FloatRef} data [Ref]
- * @param {number} player
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {FloatRef} data [Ref]
+ * @param {number} player
  * @returns {boolean}  
  */
 export function statGetFloat(keyHash: EStatsenum | number, data: FloatRef /* ptr */, player: number = 1): boolean {

@@ -4,8 +4,8 @@
  * 0x5CAC0C9085C92014
 
  * 
- * ------------------------------------------------------------------
- * @param {number} invite
+ * ------------------------------------------------------------------
+ * @param {number} invite
  * @returns {boolean}  
  */
 export function networkGetPresenceInviteIsTournament(invite: number): boolean {

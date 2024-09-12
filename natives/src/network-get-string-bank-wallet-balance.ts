@@ -4,8 +4,8 @@
  * 0xFA33924AB598C47C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} character
+ * ------------------------------------------------------------------
+ * @param {number} character
  * @returns {string}  
  */
 export function networkGetStringBankWalletBalance(character: number = 1): string {

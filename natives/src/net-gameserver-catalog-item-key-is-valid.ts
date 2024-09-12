@@ -4,8 +4,8 @@
  * 0x206AC354EB77B7FD
 
  * 
- * ------------------------------------------------------------------
- * @param {number} itemkey
+ * ------------------------------------------------------------------
+ * @param {number} itemkey
  * @returns {boolean}  
  */
 export function netGameserverCatalogItemKeyIsValid(itemkey: number): boolean {

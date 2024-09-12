@@ -4,7 +4,7 @@
  * 0x4AAE1A24667185BB
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsTransitionVisibilityLocked(): boolean {

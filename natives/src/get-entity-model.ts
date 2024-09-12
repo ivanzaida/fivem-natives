@@ -6,9 +6,9 @@ import { EntityIndex, ModelNames } from '@ivanzaida/structures'
  * 0x4B423FAA24E8ABF0
 
  * Returns the model hash from the entity
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {ModelNames}  
  */
 export function getEntityModel(entity: EntityIndex): ModelNames {

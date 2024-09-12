@@ -4,7 +4,7 @@
  * 0xB3FA103AA6383C28
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function canRequestAssetsForCutsceneEntity(): boolean {

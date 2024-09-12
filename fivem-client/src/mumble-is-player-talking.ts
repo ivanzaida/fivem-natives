@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0X33EEF97F
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player The target player.
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player The target player.
  * @returns {boolean}  Whether or not the player is talking.
  */
 export function mumbleIsPlayerTalking(player: PlayerIndex): boolean {

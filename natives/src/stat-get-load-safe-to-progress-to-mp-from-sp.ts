@@ -4,7 +4,7 @@
  * 0xDD07F250CCC73F1A
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function statGetLoadSafeToProgressToMpFromSp(): boolean {

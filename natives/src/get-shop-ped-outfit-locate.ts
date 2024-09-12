@@ -4,8 +4,8 @@
  * 0x1D814CA2350EAA9E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} nameHash
+ * ------------------------------------------------------------------
+ * @param {number} nameHash
  * @returns {number}  
  */
 export function getShopPedOutfitLocate(nameHash: number): number {

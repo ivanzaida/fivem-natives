@@ -6,10 +6,10 @@ import { StringRef } from '@ivanzaida/structures'
  * 0xC7B4A5CCCF31FA28
 
  * 
- * ------------------------------------------------------------------
- * @param {number} msg
- * @param {string} name
- * @param {StringRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} msg
+ * @param {string} name
+ * @param {StringRef} value [Ref]
  * @returns {boolean}  
  */
 export function scInboxMessageGetDataString(msg: number, name: string, value: StringRef /* ptr */): boolean {

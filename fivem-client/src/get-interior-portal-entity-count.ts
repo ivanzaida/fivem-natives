@@ -4,9 +4,9 @@
  * 0XC68021B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} interiorId The target interior.
- * @param {number} portalIndex Interior portal index.
+ * ------------------------------------------------------------------
+ * @param {number} interiorId The target interior.
+ * @param {number} portalIndex Interior portal index.
  * @returns {number}  Portal entity count.
  */
 export function getInteriorPortalEntityCount(interiorId: number, portalIndex: number): number {

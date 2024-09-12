@@ -6,13 +6,13 @@ import { EExplosionTag } from '@ivanzaida/structures'
  * 0x8764A5B95AE1F967
 
  * explosionType: See ADD_EXPLOSION.
- * 
- * ------------------------------------------------------------------
- * @param {EExplosionTag} explosionTag
- * @param {number} centrePosX
- * @param {number} centrePosY
- * @param {number} centrePosZ
- * @param {number} radius
+ * 
+ * ------------------------------------------------------------------
+ * @param {EExplosionTag} explosionTag
+ * @param {number} centrePosX
+ * @param {number} centrePosY
+ * @param {number} centrePosZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isExplosionInSphere(explosionTag: EExplosionTag | number, centrePosX: number, centrePosY: number, centrePosZ: number, radius: number): boolean {

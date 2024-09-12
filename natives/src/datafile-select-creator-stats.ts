@@ -4,9 +4,9 @@
  * 0x5B82DD87BDF8750F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} creator
- * @param {number} datafile
+ * ------------------------------------------------------------------
+ * @param {number} creator
+ * @param {number} datafile
  * @returns {boolean}  
  */
 export function datafileSelectCreatorStats(creator: number, datafile: number = 0): boolean {

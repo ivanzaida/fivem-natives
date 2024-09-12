@@ -6,7 +6,7 @@ import { ECancelSaveMigrationStatus } from '@ivanzaida/structures'
  * 0x8D48140414CDD574
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ECancelSaveMigrationStatus}  
  */
 export function statGetCancelSaveMigrationStatus(): ECancelSaveMigrationStatus {

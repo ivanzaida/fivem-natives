@@ -6,10 +6,10 @@ import { EntityIndex, ShapetestIndex } from '@ivanzaida/structures'
  * 0x33B15CA8B699DF5B
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} losFlags
- * @param {number} options
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} losFlags
+ * @param {number} options
  * @returns {ShapetestIndex}  
  */
 export function startShapeTestBoundingBox(entity: EntityIndex, losFlags: number = 126, options: number = 4): ShapetestIndex {

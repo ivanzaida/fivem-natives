@@ -4,10 +4,10 @@
  * 0xD1BAD83E70275AEB
 
  * 
- * ------------------------------------------------------------------
- * @param {number} character
- * @param {boolean} clearBank
- * @param {number} reason
+ * ------------------------------------------------------------------
+ * @param {number} character
+ * @param {boolean} clearBank
+ * @param {number} reason
  * @returns {boolean}  
  */
 export function netGameserverDeleteCharacter(character: number, clearBank: boolean, reason: number): boolean {

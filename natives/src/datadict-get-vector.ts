@@ -6,9 +6,9 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0xEF1E4460FF33D01E
 
  * 
- * ------------------------------------------------------------------
- * @param {string} dict
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} dict
+ * @param {string} name
  * @returns {Vector3}  
  */
 export function datadictGetVector(dict: string, name: string): Vector3 {

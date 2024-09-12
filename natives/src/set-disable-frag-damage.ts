@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x091DA52005030F41
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entityId
- * @param {boolean} disableDamage
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entityId
+ * @param {boolean} disableDamage
  */
 export function setDisableFragDamage(entityId: EntityIndex, disableDamage: boolean): void {
 	const setDisableFragDamage_result = Citizen.invokeNative<void>('0x091DA52005030F41', entityId, disableDamage);

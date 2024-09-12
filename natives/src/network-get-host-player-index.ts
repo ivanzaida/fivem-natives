@@ -6,7 +6,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x53A6D90B4FBC585D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {PlayerIndex}  
  */
 export function networkGetHostPlayerIndex(): PlayerIndex {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xE5ECA5B21BBFA1E5
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} checkForZeroHealth
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} checkForZeroHealth
  * @returns {boolean}  
  */
 export function arePlaneControlPanelsIntact(vehicle: VehicleIndex, checkForZeroHealth: boolean = false): boolean {

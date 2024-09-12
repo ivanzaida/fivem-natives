@@ -4,8 +4,8 @@
  * 0x91F40F276617074F
 
  * Perform the longest wheelie on a motorcycle
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetCurrentRearWheelDistance(): number {

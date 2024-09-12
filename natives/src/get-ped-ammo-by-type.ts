@@ -6,9 +6,9 @@ import { PedIndex, EAmmoType } from '@ivanzaida/structures'
  * 0xFC4FF8B60E6C8641
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EAmmoType} ammoType
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EAmmoType} ammoType
  * @returns {number}  
  */
 export function getPedAmmoByType(ped: PedIndex, ammoType: EAmmoType | number): number {

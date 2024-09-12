@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x0DD5D60B63FBBFC2
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} objectID
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} objectID
  * @returns {boolean}  
  */
 export function getHasObjectBeenCompletelyDestroyed(objectID: ObjectIndex): boolean {

@@ -6,8 +6,8 @@ import { EWeaponType, EWeaponGroup } from '@ivanzaida/structures'
  * 0x6CC7A2E68E8A565A
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weapon
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weapon
  * @returns {EWeaponGroup}  
  */
 export function getWeapontypeGroup(weapon: EWeaponType | number): EWeaponGroup {

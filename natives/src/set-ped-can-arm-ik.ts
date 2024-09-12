@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x59481BA67136FCF1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enableIK
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enableIK
  */
 export function setPedCanArmIk(ped: PedIndex, enableIK: boolean): void {
 	const setPedCanArmIk_result = Citizen.invokeNative<void>('0x59481BA67136FCF1', ped, enableIK);

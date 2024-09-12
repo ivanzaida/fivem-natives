@@ -4,8 +4,8 @@
  * 0x92F061476F865C31
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} setPadShakes
+ * ------------------------------------------------------------------
+ * @param {boolean} setPadShakes
  */
 export function setPlayerpadShakesWhenControllerDisabled(setPadShakes: boolean): void {
 	const setPlayerpadShakesWhenControllerDisabled_result = Citizen.invokeNative<void>('0x92F061476F865C31', setPadShakes);

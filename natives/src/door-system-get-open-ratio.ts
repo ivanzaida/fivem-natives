@@ -4,8 +4,8 @@
  * 0x8CA2126DEA4C3796
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {number}  
  */
 export function doorSystemGetOpenRatio(doorEnumHash: number): number {

@@ -6,12 +6,12 @@ import { VehicleIndex, EHomingLockonState } from '@ivanzaida/structures'
  * 0XFBDE9FD8
 
  * Returns a value depending on the lock-on state of vehicle weapons.
- * 0: not locked on
- * 1: locking on
- * 2: locked on
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 0: not locked on
+ * 1: locking on
+ * 2: locked on
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {EHomingLockonState}  
  */
 export function getVehicleHomingLockonState(vehicle: VehicleIndex): EHomingLockonState {

@@ -4,8 +4,8 @@
  * 0x416DEBEC2AF19312
 
  * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * ------------------------------------------------------------------
+ * @param {number} amount
  */
 export function networkEarnCasinoTimeTrialWin(amount: number): void {
 	const networkEarnCasinoTimeTrialWin_result = Citizen.invokeNative<void>('0x416DEBEC2AF19312', amount);

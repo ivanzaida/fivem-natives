@@ -6,8 +6,8 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0xB0E14182FAD64944
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
  * @returns {boolean}  
  */
 export function doesPickupExist(pickupID: PickupIndex): boolean {

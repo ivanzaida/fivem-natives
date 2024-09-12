@@ -4,8 +4,8 @@
  * 0x6E8A7BB566D1F7AF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} shockingEventId
+ * ------------------------------------------------------------------
+ * @param {number} shockingEventId
  * @returns {boolean}  
  */
 export function removeShockingEvent(shockingEventId: number): boolean {

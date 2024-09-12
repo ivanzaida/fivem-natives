@@ -4,9 +4,9 @@
  * 0X67D2E605
 
  * Gets the current time online for a specified player.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc A player.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc A player.
  * @returns {number}  The current time online in seconds.
  */
 export function getPlayerTimeOnline(playerSrc: string): number {

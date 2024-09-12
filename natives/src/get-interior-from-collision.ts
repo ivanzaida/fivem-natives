@@ -6,10 +6,10 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0x91398220755C14BF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} inCoorsX
- * @param {number} inCoorsY
- * @param {number} inCoorsZ
+ * ------------------------------------------------------------------
+ * @param {number} inCoorsX
+ * @param {number} inCoorsY
+ * @param {number} inCoorsZ
  * @returns {InteriorInstanceIndex}  
  */
 export function getInteriorFromCollision(inCoorsX: number, inCoorsY: number, inCoorsZ: number): InteriorInstanceIndex {

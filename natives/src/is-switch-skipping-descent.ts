@@ -4,8 +4,8 @@
  * 0xE386B6872B2E38EF
 
  * returns true if active switch will skip the descent entirely
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isSwitchSkippingDescent(): boolean {

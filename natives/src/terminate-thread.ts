@@ -6,8 +6,8 @@ import { Threadid } from '@ivanzaida/structures'
  * 0xC3CF96F73FC43848
 
  * 
- * ------------------------------------------------------------------
- * @param {Threadid} thread
+ * ------------------------------------------------------------------
+ * @param {Threadid} thread
  */
 export function terminateThread(thread: Threadid): void {
 	const terminateThread_result = Citizen.invokeNative<void>('0xC3CF96F73FC43848', thread);

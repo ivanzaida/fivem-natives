@@ -6,7 +6,7 @@ import { EFrontendMenuScreen } from '@ivanzaida/structures'
  * 0x2EE7F7571D5CF4C1
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EFrontendMenuScreen}  
  */
 export function getScreenCodeWantsScriptToControl(): EFrontendMenuScreen {

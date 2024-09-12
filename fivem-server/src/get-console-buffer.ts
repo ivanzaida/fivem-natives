@@ -4,8 +4,8 @@
  * 0XE57429FA
 
  * Returns the current console output buffer.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {string}  The most recent game console output, as a string.
  */
 export function getConsoleBuffer(): string {

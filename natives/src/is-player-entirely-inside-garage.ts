@@ -6,11 +6,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xA9BDD6C662512CA7
 
  * 
- * ------------------------------------------------------------------
- * @param {number} garageHash
- * @param {PlayerIndex} player
- * @param {number} margin
- * @param {number} box
+ * ------------------------------------------------------------------
+ * @param {number} garageHash
+ * @param {PlayerIndex} player
+ * @param {number} margin
+ * @param {number} box
  * @returns {boolean}  
  */
 export function isPlayerEntirelyInsideGarage(garageHash: number, player: PlayerIndex, margin: number = 0, box: number = 1): boolean {

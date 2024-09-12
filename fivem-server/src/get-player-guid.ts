@@ -4,8 +4,8 @@
  * 0XE52D9680
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc
  * @returns {string}  
  */
 export function getPlayerGuid(playerSrc: string): string {

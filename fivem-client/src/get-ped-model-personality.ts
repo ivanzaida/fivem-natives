@@ -4,9 +4,9 @@
  * 0XFE08CAD6
 
  * Gets a ped model's personality type.
- * 
- * ------------------------------------------------------------------
- * @param {number} modelHash Ped's model.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} modelHash Ped's model.
  * @returns {number}  
  */
 export function getPedModelPersonality(modelHash: number): number {

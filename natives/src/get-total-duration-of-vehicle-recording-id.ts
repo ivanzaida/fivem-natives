@@ -6,8 +6,8 @@ import { RecordingId } from '@ivanzaida/structures'
  * 0x1F921E74406AE806
 
  * 
- * ------------------------------------------------------------------
- * @param {RecordingId} index
+ * ------------------------------------------------------------------
+ * @param {RecordingId} index
  * @returns {number}  
  */
 export function getTotalDurationOfVehicleRecordingId(index: RecordingId): number {

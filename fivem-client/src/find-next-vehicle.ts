@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X8839120D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} findHandle
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} findHandle
+ * @param {IntRef} outEntity [Ref]
  * @returns {boolean}  
  */
 export function findNextVehicle(findHandle: number, outEntity: IntRef /* ptr */): boolean {

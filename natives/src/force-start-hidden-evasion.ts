@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x6B6014A58DEBCCF3
 
  * This has been found in use in the decompiled files.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function forceStartHiddenEvasion(player: PlayerIndex): void {
 	const forceStartHiddenEvasion_result = Citizen.invokeNative<void>('0x6B6014A58DEBCCF3', player);

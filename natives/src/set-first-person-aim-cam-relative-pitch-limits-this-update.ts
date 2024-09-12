@@ -4,9 +4,9 @@
  * 0x5842BDBDE92FEEB1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minRelativePitch
- * @param {number} maxRelativePitch
+ * ------------------------------------------------------------------
+ * @param {number} minRelativePitch
+ * @param {number} maxRelativePitch
  */
 export function setFirstPersonAimCamRelativePitchLimitsThisUpdate(minRelativePitch: number, maxRelativePitch: number): void {
 	const setFirstPersonAimCamRelativePitchLimitsThisUpdate_result = Citizen.invokeNative<void>('0x5842BDBDE92FEEB1', minRelativePitch, maxRelativePitch);

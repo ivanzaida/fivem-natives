@@ -6,9 +6,9 @@ import { NetworkClanDesc } from '@ivanzaida/structures'
  * 0xDF6959109D35BAAB
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkClanDesc} memberInfo [Ref]
- * @param {number} membership
+ * ------------------------------------------------------------------
+ * @param {NetworkClanDesc} memberInfo [Ref]
+ * @param {number} membership
  * @returns {boolean}  
  */
 export function networkClanGetMembershipDesc(memberInfo: NetworkClanDesc /* ptr */, membership: number): boolean {

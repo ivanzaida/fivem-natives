@@ -4,8 +4,8 @@
  * 0X62FC38D0
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
  * @returns {number}  
  */
 export function getAirDragMultiplierForPlayersVehicle(playerSrc: string): number {

@@ -4,8 +4,8 @@
  * 0xCD06D7490DF9B6BA
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enabled
+ * ------------------------------------------------------------------
+ * @param {boolean} enabled
  */
 export function setAmbientVehicleNeonEnabled(enabled: boolean): void {
 	const setAmbientVehicleNeonEnabled_result = Citizen.invokeNative<void>('0xCD06D7490DF9B6BA', enabled);

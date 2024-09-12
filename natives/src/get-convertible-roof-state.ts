@@ -6,13 +6,13 @@ import { VehicleIndex, EConvertibleRoofState } from '@ivanzaida/structures'
  * 0x54DA32C15F7A6ABA
 
  * Get the current state of a convertible roof
- * 0 -> up
- * 1 -> lowering down
- * 2 -> down
- * 3 -> raising up
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 0 -> up
+ * 1 -> lowering down
+ * 2 -> down
+ * 3 -> raising up
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {EConvertibleRoofState}  
  */
 export function getConvertibleRoofState(vehicle: VehicleIndex): EConvertibleRoofState {

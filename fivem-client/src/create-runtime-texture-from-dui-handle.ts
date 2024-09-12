@@ -4,11 +4,11 @@
  * 0XB135472B
 
  * Creates a runtime texture from a DUI handle.
- * 
- * ------------------------------------------------------------------
- * @param {number} txd A handle to the runtime TXD to create the runtime texture in.
- * @param {string} txn The name for the texture in the runtime texture dictionary.
- * @param {string} duiHandle The DUI handle returned from GET\_DUI\_HANDLE.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} txd A handle to the runtime TXD to create the runtime texture in.
+ * @param {string} txn The name for the texture in the runtime texture dictionary.
+ * @param {string} duiHandle The DUI handle returned from GET\_DUI\_HANDLE.
  * @returns {number}  The runtime texture handle.
  */
 export function createRuntimeTextureFromDuiHandle(txd: number, txn: string, duiHandle: string): number {

@@ -4,9 +4,9 @@
  * 0x94796772E71D5123
 
  * value must be < 255
- * 
- * ------------------------------------------------------------------
- * @param {number} propertyID
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} propertyID
  */
 export function networkSetPropertyId(propertyID: number): void {
 	const networkSetPropertyId_result = Citizen.invokeNative<void>('0x94796772E71D5123', propertyID);

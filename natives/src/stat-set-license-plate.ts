@@ -6,9 +6,9 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x9E1D4641E6A5C2F0
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {string} licensePlate
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {string} licensePlate
  * @returns {boolean}  
  */
 export function statSetLicensePlate(keyHash: EStatsenum | number, licensePlate: string): boolean {

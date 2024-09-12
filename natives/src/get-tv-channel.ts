@@ -6,7 +6,7 @@ import { ETvchanneltype } from '@ivanzaida/structures'
  * 0x6609A7E82612E0DF
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ETvchanneltype}  
  */
 export function getTvChannel(): ETvchanneltype {

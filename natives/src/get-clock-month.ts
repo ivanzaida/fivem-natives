@@ -6,7 +6,7 @@ import { EMonthOfYear } from '@ivanzaida/structures'
  * 0x8825A6E0A30BDCB8
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {EMonthOfYear}  
  */
 export function getClockMonth(): EMonthOfYear {

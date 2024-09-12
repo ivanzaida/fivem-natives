@@ -6,8 +6,8 @@ import { EActivityIsland } from '@ivanzaida/structures'
  * 0x4470407B9FB1A6E0
 
  * 
- * ------------------------------------------------------------------
- * @param {EActivityIsland} activityIsland
+ * ------------------------------------------------------------------
+ * @param {EActivityIsland} activityIsland
  */
 export function networkTransitionSetActivityIsland(activityIsland: EActivityIsland | number): void {
 	const networkTransitionSetActivityIsland_result = Citizen.invokeNative<void>('0x4470407B9FB1A6E0', activityIsland);

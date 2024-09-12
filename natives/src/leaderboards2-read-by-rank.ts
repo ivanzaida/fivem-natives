@@ -6,10 +6,10 @@ import { Leaderboard2ReadData } from '@ivanzaida/structures'
  * 0xCB7FE0F272C209AB
 
  * 
- * ------------------------------------------------------------------
- * @param {Leaderboard2ReadData} lbData [Ref]
- * @param {number} rankStart
- * @param {number} numRows
+ * ------------------------------------------------------------------
+ * @param {Leaderboard2ReadData} lbData [Ref]
+ * @param {number} rankStart
+ * @param {number} numRows
  * @returns {boolean}  
  */
 export function leaderboards2ReadByRank(lbData: Leaderboard2ReadData /* ptr */, rankStart: number, numRows: number): boolean {

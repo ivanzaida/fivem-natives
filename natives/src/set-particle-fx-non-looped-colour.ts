@@ -4,11 +4,11 @@
  * 0x857B645DF072448C
 
  * only works on some fx's, not networked
- * 
- * ------------------------------------------------------------------
- * @param {number} colR
- * @param {number} colG
- * @param {number} colB
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} colR
+ * @param {number} colG
+ * @param {number} colB
  */
 export function setParticleFxNonLoopedColour(colR: number, colG: number, colB: number): void {
 	const setParticleFxNonLoopedColour_result = Citizen.invokeNative<void>('0x857B645DF072448C', colR, colG, colB);

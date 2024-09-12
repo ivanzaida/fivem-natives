@@ -6,9 +6,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0X4A557117
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function getVehicleLockOnTarget(vehicle: VehicleIndex, entity: EntityIndex): boolean {

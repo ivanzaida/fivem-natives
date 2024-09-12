@@ -6,10 +6,10 @@ import { EControlType } from '@ivanzaida/structures'
  * 0x93D020792180298F
 
  * Returns time in ms since last input.
- * control: see IS_CONTROL_ENABLED
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
+ * control: see IS_CONTROL_ENABLED
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
  * @returns {number}  
  */
 export function getControlHowLongAgo(control: EControlType | number): number {

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1A90E9DC88A85C9D
 
  * Checks whether the horn of a vehicle is currently played.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  * @returns {boolean}  
  */
 export function isHornActive(veh: VehicleIndex): boolean {

@@ -4,8 +4,8 @@
  * 0x0F15249D24BC5ADA
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} finishCurrentLine
+ * ------------------------------------------------------------------
+ * @param {boolean} finishCurrentLine
  * @returns {number}  
  */
 export function stopScriptedConversation(finishCurrentLine: boolean): number {

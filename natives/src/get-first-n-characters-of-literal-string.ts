@@ -4,10 +4,10 @@
  * 0x570D616FD7B4715D
 
  * If the label doesn't exist in either of these two blocks then the command returns FALSE.
- * 
- * ------------------------------------------------------------------
- * @param {string} literalString
- * @param {number} numberOfCharacters
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} literalString
+ * @param {number} numberOfCharacters
  * @returns {string}  
  */
 export function getFirstNCharactersOfLiteralString(literalString: string, numberOfCharacters: number): string {

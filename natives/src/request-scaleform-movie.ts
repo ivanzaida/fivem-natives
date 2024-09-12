@@ -6,9 +6,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0x8DE4F68A9728925E
 
  * Requests that a scaleform movie is streamed in (only allows 1 instance of a movie active at one time)
- * 
- * ------------------------------------------------------------------
- * @param {string} filename
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} filename
  * @returns {ScaleformIndex}  
  */
 export function requestScaleformMovie(filename: string): ScaleformIndex {

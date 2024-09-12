@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xD25BEA95F6673491
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  * @returns {number}  
  */
 export function getVehicleWaypointProgress(veh: VehicleIndex): number {

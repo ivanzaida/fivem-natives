@@ -4,8 +4,8 @@
  * 0xB715358D51663C7A
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} pedsDropMoney
+ * ------------------------------------------------------------------
+ * @param {boolean} pedsDropMoney
  */
 export function setAmbientPedsDropMoney(pedsDropMoney: boolean): void {
 	const setAmbientPedsDropMoney_result = Citizen.invokeNative<void>('0xB715358D51663C7A', pedsDropMoney);

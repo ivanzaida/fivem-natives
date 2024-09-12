@@ -4,10 +4,10 @@
  * 0xE3C69C184ADC05C0
 
  * 
- * ------------------------------------------------------------------
- * @param {number} player
- * @param {number} sphere
- * @param {boolean} targettable
+ * ------------------------------------------------------------------
+ * @param {number} player
+ * @param {number} sphere
+ * @param {boolean} targettable
  */
 export function setPlayerTargettableForAirDefenceSphere(player: number, sphere: number, targettable: boolean): void {
 	const setPlayerTargettableForAirDefenceSphere_result = Citizen.invokeNative<void>('0xE3C69C184ADC05C0', player, sphere, targettable);

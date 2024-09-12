@@ -4,9 +4,9 @@
  * 0xD97AF335F8ACDB0F
 
  * Hardcoded to return 0.
- * 
- * ------------------------------------------------------------------
- * @param {number} amount
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} amount
  * @returns {number}  
  */
 export function networkSpendEarnedFromBankAndWallets(amount: number): number {

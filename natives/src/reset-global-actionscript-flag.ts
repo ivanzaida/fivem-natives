@@ -4,8 +4,8 @@
  * 0x2DD8C72847DFACDF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  */
 export function resetGlobalActionscriptFlag(index: number): void {
 	const resetGlobalActionscriptFlag_result = Citizen.invokeNative<void>('0x2DD8C72847DFACDF', index);

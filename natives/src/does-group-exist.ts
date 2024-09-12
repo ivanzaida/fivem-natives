@@ -6,8 +6,8 @@ import { GroupIndex } from '@ivanzaida/structures'
  * 0xDC469CE2BE7CE722
 
  * 
- * ------------------------------------------------------------------
- * @param {GroupIndex} uniqueGroupID
+ * ------------------------------------------------------------------
+ * @param {GroupIndex} uniqueGroupID
  * @returns {boolean}  
  */
 export function doesGroupExist(uniqueGroupID: GroupIndex): boolean {

@@ -4,8 +4,8 @@
  * 0xD80197DCA1803BB2
 
  * 
- * ------------------------------------------------------------------
- * @param {number} voiceChannel
+ * ------------------------------------------------------------------
+ * @param {number} voiceChannel
  */
 export function networkSetVoiceChannel(voiceChannel: number): void {
 	const networkSetVoiceChannel_result = Citizen.invokeNative<void>('0xD80197DCA1803BB2', voiceChannel);

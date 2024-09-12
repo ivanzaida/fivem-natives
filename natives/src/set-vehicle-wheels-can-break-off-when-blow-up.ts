@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x7300EAE2F99BE3B7
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} canWheelsBreakoff
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} canWheelsBreakoff
  */
 export function setVehicleWheelsCanBreakOffWhenBlowUp(vehicle: VehicleIndex, canWheelsBreakoff: boolean): void {
 	const setVehicleWheelsCanBreakOffWhenBlowUp_result = Citizen.invokeNative<void>('0x7300EAE2F99BE3B7', vehicle, canWheelsBreakoff);

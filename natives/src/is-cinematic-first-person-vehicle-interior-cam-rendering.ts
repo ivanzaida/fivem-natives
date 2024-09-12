@@ -4,7 +4,7 @@
  * 0x9CA0AFAD60564183
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isCinematicFirstPersonVehicleInteriorCamRendering(): boolean {

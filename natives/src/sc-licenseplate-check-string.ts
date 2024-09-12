@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x4FB031EC3F28B77C
 
  * 
- * ------------------------------------------------------------------
- * @param {string} textString
- * @param {IntRef} outToken [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} textString
+ * @param {IntRef} outToken [Ref]
  * @returns {boolean}  
  */
 export function scLicenseplateCheckString(textString: string, outToken: IntRef /* ptr */): boolean {

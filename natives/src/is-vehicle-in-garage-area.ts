@@ -6,11 +6,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xFE448E8C2209CA31
 
  * garageName example "Michael - Beverly Hills"
- * Full list of garages by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/garages.json
- * 
- * ------------------------------------------------------------------
- * @param {string} garageName
- * @param {VehicleIndex} vehicle
+ * Full list of garages by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/garages.json
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} garageName
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleInGarageArea(garageName: string, vehicle: VehicleIndex): boolean {

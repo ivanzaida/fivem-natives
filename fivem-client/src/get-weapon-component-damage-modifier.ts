@@ -4,9 +4,9 @@
  * 0X4A0E3855
 
  * A getter for `CWeaponDamageModifier` in a weapon component.
- * 
- * ------------------------------------------------------------------
- * @param {number} componentHash Weapon component name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} componentHash Weapon component name hash.
  * @returns {number}  A weapon component damage modifier.
  */
 export function getWeaponComponentDamageModifier(componentHash: number): number {

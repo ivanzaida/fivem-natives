@@ -6,9 +6,9 @@ import { PedheadshotId } from '@ivanzaida/structures'
  * 0x445B6F53EA9E6A6F
 
  * gtaforums.com/topic/885580-ped-headshotmugshot-txd/
- * 
- * ------------------------------------------------------------------
- * @param {PedheadshotId} headshotId
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedheadshotId} headshotId
  * @returns {boolean}  
  */
 export function isPedheadshotReady(headshotId: PedheadshotId): boolean {

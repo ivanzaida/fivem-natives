@@ -4,8 +4,8 @@
  * 0xCE3E870AC37B4253
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerName
+ * ------------------------------------------------------------------
+ * @param {string} playerName
  */
 export function scaleformMovieMethodAddParamPlayerNameString(playerName: string): void {
 	const scaleformMovieMethodAddParamPlayerNameString_result = Citizen.invokeNative<void>('0xCE3E870AC37B4253', playerName);

@@ -4,8 +4,8 @@
  * 0xBBDA792448DB5A89
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function toFloat(value: number): number {

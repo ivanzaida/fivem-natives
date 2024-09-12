@@ -6,7 +6,7 @@ import { ESavemigrationStatusCodes } from '@ivanzaida/structures'
  * 0x340CF8A9750C3D1A
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {ESavemigrationStatusCodes}  
  */
 export function savemigrationMpGetStatus(): ESavemigrationStatusCodes {

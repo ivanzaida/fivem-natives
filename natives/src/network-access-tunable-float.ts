@@ -6,10 +6,10 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0xC244AC9DF2DBD29F
 
  * 
- * ------------------------------------------------------------------
- * @param {string} szContext
- * @param {string} szTunableName
- * @param {FloatRef} tunable [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} szContext
+ * @param {string} szTunableName
+ * @param {FloatRef} tunable [Ref]
  * @returns {boolean}  
  */
 export function networkAccessTunableFloat(szContext: string, szTunableName: string, tunable: FloatRef /* ptr */): boolean {

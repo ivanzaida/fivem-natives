@@ -4,8 +4,8 @@
  * 0xB2F5BE72B0EC2DEE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} param
+ * ------------------------------------------------------------------
+ * @param {number} param
  */
 export function seethroughSetFadeStartdistance(param: number): void {
 	const seethroughSetFadeStartdistance_result = Citizen.invokeNative<void>('0xB2F5BE72B0EC2DEE', param);

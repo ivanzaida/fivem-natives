@@ -6,10 +6,10 @@ import { TransitionMembers } from '@ivanzaida/structures'
  * 0xE82C4DFDE9FB1B8B
 
  * Returns count.
- * 
- * ------------------------------------------------------------------
- * @param {TransitionMembers} invite [Ref]
- * @param {number} maxMembers
+ * 
+ * ------------------------------------------------------------------
+ * @param {TransitionMembers} invite [Ref]
+ * @param {number} maxMembers
  * @returns {number}  
  */
 export function networkGetTransitionMembers(invite: TransitionMembers /* ptr */, maxMembers: number): number {

@@ -6,10 +6,10 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x58103281724A16DE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} msg
- * @param {string} name
- * @param {IntRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} msg
+ * @param {string} name
+ * @param {IntRef} value [Ref]
  * @returns {boolean}  
  */
 export function scInboxMessageGetDataInt(msg: number, name: string, value: IntRef /* ptr */): boolean {

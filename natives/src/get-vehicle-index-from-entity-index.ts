@@ -6,9 +6,9 @@ import { EntityIndex, VehicleIndex } from '@ivanzaida/structures'
  * 0xE93EDE86BBB66532
 
  * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {VehicleIndex}  
  */
 export function getVehicleIndexFromEntityIndex(entity: EntityIndex): VehicleIndex {

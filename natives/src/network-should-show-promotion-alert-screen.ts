@@ -4,7 +4,7 @@
  * 0xCA8FCC9293149C67
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkShouldShowPromotionAlertScreen(): boolean {

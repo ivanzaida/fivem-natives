@@ -6,8 +6,8 @@ import { ENetGameserverTransactionStatus } from '@ivanzaida/structures'
  * 0x606408352C7741AD
 
  * Same as 0x23789E777D14CE44
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {ENetGameserverTransactionStatus}  
  */
 export function netGameserverTransferWalletToBankGetStatus(): ENetGameserverTransactionStatus {

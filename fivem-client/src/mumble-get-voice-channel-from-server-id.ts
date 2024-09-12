@@ -4,9 +4,9 @@
  * 0X221C09F1
 
  * Returns the mumble voice channel from a player's server id.
- * 
- * ------------------------------------------------------------------
- * @param {number} serverId The player's server id.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} serverId The player's server id.
  * @returns {number}  Int representing the identifier of the voice channel.
  */
 export function mumbleGetVoiceChannelFromServerId(serverId: number): number {

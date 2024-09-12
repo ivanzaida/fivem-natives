@@ -4,9 +4,9 @@
  * 0xAC98CA65AD9A3215
 
  * Used to be known as _SET_TEXT_COMPONENT_FORMAT
- * 
- * ------------------------------------------------------------------
- * @param {string} mainTextLabel
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} mainTextLabel
  */
 export function beginTextCommandDisplayHelp(mainTextLabel: string): void {
 	const beginTextCommandDisplayHelp_result = Citizen.invokeNative<void>('0xAC98CA65AD9A3215', mainTextLabel);

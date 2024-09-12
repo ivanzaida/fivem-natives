@@ -4,9 +4,9 @@
  * 0x5BD19E1149597B09
 
  * Returns true is the specified scene is set to hold last frame
- * 
- * ------------------------------------------------------------------
- * @param {number} sceneID
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} sceneID
  * @returns {boolean}  
  */
 export function isSynchronizedSceneHoldLastFrame(sceneID: number): boolean {

@@ -6,9 +6,9 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x859EED8E8B695F08
 
  * Returns max traction of the specified vehicle model.
- * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * 
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {number}  
  */
 export function getVehicleModelMaxTraction(vehicleModelHashKey: ModelNames): number {

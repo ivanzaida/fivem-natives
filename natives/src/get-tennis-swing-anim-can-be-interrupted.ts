@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD4DBCC67CA333F7D
 
  * If the swing anim has reached the interruptible point.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function getTennisSwingAnimCanBeInterrupted(ped: PedIndex): boolean {

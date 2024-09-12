@@ -6,11 +6,11 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0x88F483FBD433696A
 
  * start of an actionscript method called on a scaleform movie
- * Push a function from the Scaleform onto the stack
- * 
- * ------------------------------------------------------------------
- * @param {ScaleformIndex} scaleformMovieId
- * @param {string} methodName
+ * Push a function from the Scaleform onto the stack
+ * 
+ * ------------------------------------------------------------------
+ * @param {ScaleformIndex} scaleformMovieId
+ * @param {string} methodName
  * @returns {boolean}  
  */
 export function beginScaleformMovieMethod(scaleformMovieId: ScaleformIndex, methodName: string): boolean {

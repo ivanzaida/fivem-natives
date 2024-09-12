@@ -6,8 +6,8 @@ import { Vector3Ref } from '@ivanzaida/structures'
  * 0XFFEEF513
 
  * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
  * @returns {Vector3Ref}  
  */
 export function networkGetVoiceProximityOverrideForPlayer(playerSrc: string): Vector3Ref {

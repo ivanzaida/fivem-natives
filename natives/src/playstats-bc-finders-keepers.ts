@@ -6,8 +6,8 @@ import { BcFindersKeepers } from '@ivanzaida/structures'
  * 0x719970758F252DBF
 
  * 
- * ------------------------------------------------------------------
- * @param {BcFindersKeepers} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BcFindersKeepers} data [Ref]
  */
 export function playstatsBcFindersKeepers(data: BcFindersKeepers /* ptr */): void {
 	const playstatsBcFindersKeepers_result = Citizen.invokeNative<void>('0x719970758F252DBF', data.dataView);

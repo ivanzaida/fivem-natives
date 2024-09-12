@@ -4,8 +4,8 @@
  * 0x5A50E8F361E4CFB1
 
  * Returns profile setting 243.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function getIsUsingHoodCamera(): boolean {

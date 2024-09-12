@@ -4,9 +4,9 @@
  * 0x106F99CDCDEED9A0
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {boolean} delay To true to use texture streamed separatly as a rendertarget
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {boolean} delay To true to use texture streamed separatly as a rendertarget
  * @returns {boolean}  
  */
 export function registerNamedRendertarget(name: string, delay: boolean = false): boolean {

@@ -6,11 +6,11 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  * 0x875A214D5EBCA509
 
  * Returns whether a control was newly pressed since the last check.
- * control: see IS_CONTROL_ENABLED
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
- * @param {EControlAction} action
+ * control: see IS_CONTROL_ENABLED
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
+ * @param {EControlAction} action
  * @returns {boolean}  
  */
 export function isControlJustPressed(control: EControlType | number, action: EControlAction | number): boolean {

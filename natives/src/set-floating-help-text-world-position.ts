@@ -6,11 +6,11 @@ import { EEHelpTextFloatingId } from '@ivanzaida/structures'
  * 0xF2095B7705BD9724
 
  * 
- * ------------------------------------------------------------------
- * @param {EEHelpTextFloatingId} id
- * @param {number} worldPosX
- * @param {number} worldPosY
- * @param {number} worldPosZ
+ * ------------------------------------------------------------------
+ * @param {EEHelpTextFloatingId} id
+ * @param {number} worldPosX
+ * @param {number} worldPosY
+ * @param {number} worldPosZ
  */
 export function setFloatingHelpTextWorldPosition(id: EEHelpTextFloatingId | number, worldPosX: number, worldPosY: number, worldPosZ: number): void {
 	const setFloatingHelpTextWorldPosition_result = Citizen.invokeNative<void>('0xF2095B7705BD9724', id, worldPosX, worldPosY, worldPosZ);

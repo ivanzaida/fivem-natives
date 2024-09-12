@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x8CF553A05B97089A
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} dropsWeaponsFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} dropsWeaponsFlag
  */
 export function setPedDropsWeaponsWhenDead(ped: PedIndex, dropsWeaponsFlag: boolean): void {
 	const setPedDropsWeaponsWhenDead_result = Citizen.invokeNative<void>('0x8CF553A05B97089A', ped, dropsWeaponsFlag);

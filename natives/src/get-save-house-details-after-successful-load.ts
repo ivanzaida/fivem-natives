@@ -7,11 +7,11 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0xD1CA4C3A111D9BBF
 
  * 
- * ------------------------------------------------------------------
- * @param {Vector3} vecReturnCoords [Ref]
- * @param {FloatRef} outHeading [Ref]
- * @param {BoolRef} outFadeIn [Ref]
- * @param {BoolRef} outSnapToGround [Ref]
+ * ------------------------------------------------------------------
+ * @param {Vector3} vecReturnCoords [Ref]
+ * @param {FloatRef} outHeading [Ref]
+ * @param {BoolRef} outFadeIn [Ref]
+ * @param {BoolRef} outSnapToGround [Ref]
  * @returns {boolean}  
  */
 export function getSaveHouseDetailsAfterSuccessfulLoad(vecReturnCoords: Vector3 /* ptr */, outHeading: FloatRef /* ptr */, outFadeIn: BoolRef /* ptr */, outSnapToGround: BoolRef /* ptr */): boolean {

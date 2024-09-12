@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x8B5EECBB010D0C63
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} target
+ * ------------------------------------------------------------------
+ * @param {PedIndex} target
  * @returns {number}  
  */
 export function countPedsInCombatWithTarget(target: PedIndex): number {

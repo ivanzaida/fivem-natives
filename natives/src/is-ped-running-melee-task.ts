@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x942229677774817C
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedRunningMeleeTask(ped: PedIndex): boolean {

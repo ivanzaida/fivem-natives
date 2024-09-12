@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x7E30BA14928608A0
 
  * Assigns some ambient voice to the ped.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedVoiceFull(ped: PedIndex): void {
 	const setPedVoiceFull_result = Citizen.invokeNative<void>('0x7E30BA14928608A0', ped);

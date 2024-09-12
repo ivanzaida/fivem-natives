@@ -6,8 +6,8 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x2B2ABCEBD9B1F36F
 
  * 
- * ------------------------------------------------------------------
- * @param {FloatRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {FloatRef} value [Ref]
  * @returns {boolean}  
  */
 export function statGetFlyingAltitude(value: FloatRef /* ptr */): boolean {

@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xB245818227933E3A
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {number}  
  */
 export function getVehicleModelMaxBrakingMaxMods(vehicleModelHashKey: ModelNames): number {

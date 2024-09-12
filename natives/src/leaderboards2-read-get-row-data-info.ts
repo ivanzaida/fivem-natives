@@ -6,9 +6,9 @@ import { LeaderboardRowData } from '@ivanzaida/structures'
  * 0xA8236CAFF38CEF7C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} row
- * @param {LeaderboardRowData} lbReadData [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} row
+ * @param {LeaderboardRowData} lbReadData [Ref]
  * @returns {boolean}  
  */
 export function leaderboards2ReadGetRowDataInfo(row: number, lbReadData: LeaderboardRowData /* ptr */): boolean {

@@ -6,8 +6,8 @@ import { BcSalvage } from '@ivanzaida/structures'
  * 0x760C934FF448A9F0
 
  * 
- * ------------------------------------------------------------------
- * @param {BcSalvage} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BcSalvage} data [Ref]
  */
 export function playstatsBcSalvage(data: BcSalvage /* ptr */): void {
 	const playstatsBcSalvage_result = Citizen.invokeNative<void>('0x760C934FF448A9F0', data.dataView);

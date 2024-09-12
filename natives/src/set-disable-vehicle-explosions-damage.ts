@@ -4,8 +4,8 @@
  * 0xB3AB0B43CABD4F3E
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} disableDamage
+ * ------------------------------------------------------------------
+ * @param {boolean} disableDamage
  */
 export function setDisableVehicleExplosionsDamage(disableDamage: boolean): void {
 	const setDisableVehicleExplosionsDamage_result = Citizen.invokeNative<void>('0xB3AB0B43CABD4F3E', disableDamage);

@@ -4,8 +4,8 @@
  * 0x58B5B800DED763EE
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} newState
+ * ------------------------------------------------------------------
+ * @param {boolean} newState
  */
 export function setMinigameInProgress(newState: boolean): void {
 	const setMinigameInProgress_result = Citizen.invokeNative<void>('0x58B5B800DED763EE', newState);

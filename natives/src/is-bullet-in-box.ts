@@ -4,14 +4,14 @@
  * 0x5BF86E66F9BF0BE9
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minCoorsX
- * @param {number} minCoorsY
- * @param {number} minCoorsZ
- * @param {number} maxCoorsX
- * @param {number} maxCoorsY
- * @param {number} maxCoorsZ
- * @param {boolean} isPlayer Checks if the player fired the bullet.
+ * ------------------------------------------------------------------
+ * @param {number} minCoorsX
+ * @param {number} minCoorsY
+ * @param {number} minCoorsZ
+ * @param {number} maxCoorsX
+ * @param {number} maxCoorsY
+ * @param {number} maxCoorsZ
+ * @param {boolean} isPlayer Checks if the player fired the bullet.
  * @returns {boolean}  
  */
 export function isBulletInBox(minCoorsX: number, minCoorsY: number, minCoorsZ: number, maxCoorsX: number, maxCoorsY: number, maxCoorsZ: number, isPlayer: boolean = true): boolean {

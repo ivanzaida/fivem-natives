@@ -6,9 +6,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  * 0x8F46B8E54248FD48
 
  * Retrieve a gamertag from a gamerHandle (async)
- * 
- * ------------------------------------------------------------------
- * @param {GamerHandle} gamerHandle [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {GamerHandle} gamerHandle [Ref]
  * @returns {boolean}  
  */
 export function networkGamertagFromHandleStart(gamerHandle: GamerHandle /* ptr */): boolean {

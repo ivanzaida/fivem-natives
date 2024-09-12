@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x16C7AB5DAFB71459
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function taskClearDefensiveArea(ped: PedIndex): void {
 	const taskClearDefensiveArea_result = Citizen.invokeNative<void>('0x16C7AB5DAFB71459', ped);

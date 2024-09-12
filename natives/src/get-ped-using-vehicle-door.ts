@@ -6,10 +6,10 @@ import { VehicleIndex, EScDoorList, PedIndex } from '@ivanzaida/structures'
  * 0x11AEF334072BBF99
 
  * doorId: see SET_VEHICLE_DOOR_SHUT
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EScDoorList} doorNumber
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EScDoorList} doorNumber
  * @returns {PedIndex}  
  */
 export function getPedUsingVehicleDoor(vehicle: VehicleIndex, doorNumber: EScDoorList | number): PedIndex {

@@ -4,7 +4,7 @@
  * 0xEF8AE79C28640CD2
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function clearValidVehicleHitHashes(): void {
 	const clearValidVehicleHitHashes_result = Citizen.invokeNative<void>('0xEF8AE79C28640CD2', );

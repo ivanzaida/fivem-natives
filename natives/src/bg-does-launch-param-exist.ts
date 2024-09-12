@@ -4,9 +4,9 @@
  * 0x9F05118582DBA146
 
  * 
- * ------------------------------------------------------------------
- * @param {number} bgScriptId
- * @param {string} paramName
+ * ------------------------------------------------------------------
+ * @param {number} bgScriptId
+ * @param {string} paramName
  * @returns {boolean}  
  */
 export function bgDoesLaunchParamExist(bgScriptId: number, paramName: string): boolean {

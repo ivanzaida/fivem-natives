@@ -6,12 +6,12 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x22F25CEE5BAA4944
 
  * p3 is probably characterSlot or BOOL save, always -1
- * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
- * @param {DataView} data [Ref]
- * @param {number} sizeOfData
- * @param {number} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
+ * @param {DataView} data [Ref]
+ * @param {number} sizeOfData
+ * @param {number} player
  * @returns {boolean}  
  */
 export function statGetDate(keyHash: EStatsenum | number, data: DataView /* ptr */, sizeOfData: number, player: number = 1): boolean {

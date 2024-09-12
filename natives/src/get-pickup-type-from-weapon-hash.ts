@@ -6,9 +6,9 @@ import { EWeaponType, EPickupType } from '@ivanzaida/structures'
  * 0x9D3736A21578FCE2
 
  * Returns the pickup hash for the given weapon hash
- * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weaponType
+ * 
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weaponType
  * @returns {EPickupType}  
  */
 export function getPickupTypeFromWeaponHash(weaponType: EWeaponType | number): EPickupType {

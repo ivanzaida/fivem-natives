@@ -4,7 +4,7 @@
  * 0x8BDB5F6FED3994AD
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkSessionIsVoiceSessionBusy(): boolean {

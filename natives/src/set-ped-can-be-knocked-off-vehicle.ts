@@ -6,10 +6,10 @@ import { PedIndex, EVehicleKnockoff } from '@ivanzaida/structures'
  * 0x68F395D64BC35E68
 
  * state: https://alloc8or.re/gta5/doc/enums/eKnockOffVehicle.txt
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EVehicleKnockoff} canBeKnockedOffFlag
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EVehicleKnockoff} canBeKnockedOffFlag
  */
 export function setPedCanBeKnockedOffVehicle(ped: PedIndex, canBeKnockedOffFlag: EVehicleKnockoff | number): void {
 	const setPedCanBeKnockedOffVehicle_result = Citizen.invokeNative<void>('0x68F395D64BC35E68', ped, canBeKnockedOffFlag);

@@ -6,9 +6,9 @@ import { CheckpointIndex } from '@ivanzaida/structures'
  * 0x6F331FADCE88574B
 
  * Unknown. Called after creating a checkpoint (type: 51) in the creators.
- * 
- * ------------------------------------------------------------------
- * @param {CheckpointIndex} uniqueCheckpoint
+ * 
+ * ------------------------------------------------------------------
+ * @param {CheckpointIndex} uniqueCheckpoint
  */
 export function setCheckpointDecalRotAlignedToCameraRot(uniqueCheckpoint: CheckpointIndex): void {
 	const setCheckpointDecalRotAlignedToCameraRot_result = Citizen.invokeNative<void>('0x6F331FADCE88574B', uniqueCheckpoint);

@@ -6,11 +6,11 @@ import { PedIndex, EWeaponType, IntRef } from '@ivanzaida/structures'
  * 0x0227CB6AD5598268
 
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
- * @param {IntRef} outAmmoInClip [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
+ * @param {IntRef} outAmmoInClip [Ref]
  * @returns {boolean}  
  */
 export function getAmmoInClip(ped: PedIndex, weaponType: EWeaponType | number, outAmmoInClip: IntRef /* ptr */): boolean {

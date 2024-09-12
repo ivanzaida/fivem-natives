@@ -4,8 +4,8 @@
  * 0XC8A9CE08
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  * @returns {string}  
  */
 export function getPlayerFromIndex(index: number): string {

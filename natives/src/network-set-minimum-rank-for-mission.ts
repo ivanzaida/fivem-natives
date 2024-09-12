@@ -4,8 +4,8 @@
  * 0x0A2A73F751726916
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minimumRank
+ * ------------------------------------------------------------------
+ * @param {number} minimumRank
  */
 export function networkSetMinimumRankForMission(minimumRank: number): void {
 	const networkSetMinimumRankForMission_result = Citizen.invokeNative<void>('0x0A2A73F751726916', minimumRank);

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x0B1BCFB3741AF8B2
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} locked
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} locked
  */
 export function setVehicleDoorsLockedForNonScriptPlayers(vehicle: VehicleIndex, locked: boolean): void {
 	const setVehicleDoorsLockedForNonScriptPlayers_result = Citizen.invokeNative<void>('0x0B1BCFB3741AF8B2', vehicle, locked);

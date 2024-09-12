@@ -4,8 +4,8 @@
  * 0x24F333D2B21DC3EC
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {number}  
  */
 export function appGetFloat(name: string): number {

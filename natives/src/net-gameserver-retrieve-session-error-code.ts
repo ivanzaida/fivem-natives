@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x38C09A49FBCCE839
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} errorCode [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} errorCode [Ref]
  * @returns {boolean}  
  */
 export function netGameserverRetrieveSessionErrorCode(errorCode: IntRef /* ptr */): boolean {

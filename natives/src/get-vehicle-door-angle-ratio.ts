@@ -6,10 +6,10 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  * 0x7BFB76C576628F3D
 
  * doorId: see SET_VEHICLE_DOOR_SHUT
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EScDoorList} doorNumber
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EScDoorList} doorNumber
  * @returns {number}  
  */
 export function getVehicleDoorAngleRatio(vehicle: VehicleIndex, doorNumber: EScDoorList | number): number {

@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xD724351CCF90F653
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allowSwitch
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allowSwitch
  */
 export function setPedCanSwitchWeapon(ped: PedIndex, allowSwitch: boolean): void {
 	const setPedCanSwitchWeapon_result = Citizen.invokeNative<void>('0xD724351CCF90F653', ped, allowSwitch);

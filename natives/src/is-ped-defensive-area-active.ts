@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x4B3F6436660DC25C
 
  * Checks if the ped's defensive area is active
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} checkSecondaryDefensiveArea
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} checkSecondaryDefensiveArea
  * @returns {boolean}  
  */
 export function isPedDefensiveAreaActive(ped: PedIndex, checkSecondaryDefensiveArea: boolean): boolean {

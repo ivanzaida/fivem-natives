@@ -6,9 +6,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x032F99DF3B301AFA
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {number} routeColour
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
+ * @param {number} routeColour
  */
 export function setBlipRouteColour(blip: BlipIndex, routeColour: number): void {
 	const setBlipRouteColour_result = Citizen.invokeNative<void>('0x032F99DF3B301AFA', blip, routeColour);

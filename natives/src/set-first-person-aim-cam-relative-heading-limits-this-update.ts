@@ -4,9 +4,9 @@
  * 0xBB76112874174E25
 
  * 
- * ------------------------------------------------------------------
- * @param {number} minRelativeHeading
- * @param {number} maxRelativeHeading
+ * ------------------------------------------------------------------
+ * @param {number} minRelativeHeading
+ * @param {number} maxRelativeHeading
  */
 export function setFirstPersonAimCamRelativeHeadingLimitsThisUpdate(minRelativeHeading: number, maxRelativeHeading: number): void {
 	const setFirstPersonAimCamRelativeHeadingLimitsThisUpdate_result = Citizen.invokeNative<void>('0xBB76112874174E25', minRelativeHeading, maxRelativeHeading);

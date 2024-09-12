@@ -4,7 +4,7 @@
  * 0x6317659BFF055A5F
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function clearVehicleGeneratorAreaOfInterest(): void {
 	const clearVehicleGeneratorAreaOfInterest_result = Citizen.invokeNative<void>('0x6317659BFF055A5F', );

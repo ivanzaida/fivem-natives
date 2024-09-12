@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x598200EB0DCC8A9D
 
  * Returns a string which is the codename of the vehicle's currently selected secondary color
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {string}  
  */
 export function getVehicleModColor_2Name(vehicle: VehicleIndex): string {

@@ -4,10 +4,10 @@
  * 0x117ED8E568A3BE94
 
  * 
- * ------------------------------------------------------------------
- * @param {string} radioStationName
- * @param {string} trackName
- * @param {number} timeOffsetMs
+ * ------------------------------------------------------------------
+ * @param {string} radioStationName
+ * @param {string} trackName
+ * @param {number} timeOffsetMs
  */
 export function setRadioTrackWithStartOffset(radioStationName: string, trackName: string, timeOffsetMs: number): void {
 	const setRadioTrackWithStartOffset_result = Citizen.invokeNative<void>('0x117ED8E568A3BE94', radioStationName, trackName, timeOffsetMs);

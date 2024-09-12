@@ -6,9 +6,9 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  * 0x4D867CF71882EEA6
 
  * Returns the last position for this entity received over the network (Note: This may be different to where the entity is on the local machine currently)
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {Vector3}  
  */
 export function networkGetLastEntityPosReceivedOverNetwork(entity: EntityIndex): Vector3 {

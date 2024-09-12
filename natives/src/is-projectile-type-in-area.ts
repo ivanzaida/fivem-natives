@@ -6,16 +6,16 @@ import { EWeaponType } from '@ivanzaida/structures'
  * 0x7A082DC02E5E00C1
 
  * Determines whether there is a projectile of a specific type within the specified coordinates. The coordinates form a axis-aligned bounding box.
- * 
- * ------------------------------------------------------------------
- * @param {number} minCoorsX
- * @param {number} minCoorsY
- * @param {number} minCoorsZ
- * @param {number} maxCoorsX
- * @param {number} maxCoorsY
- * @param {number} maxCoorsZ
- * @param {EWeaponType} weaponType
- * @param {boolean} isPlayer
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} minCoorsX
+ * @param {number} minCoorsY
+ * @param {number} minCoorsZ
+ * @param {number} maxCoorsX
+ * @param {number} maxCoorsY
+ * @param {number} maxCoorsZ
+ * @param {EWeaponType} weaponType
+ * @param {boolean} isPlayer
  * @returns {boolean}  
  */
 export function isProjectileTypeInArea(minCoorsX: number, minCoorsY: number, minCoorsZ: number, maxCoorsX: number, maxCoorsY: number, maxCoorsZ: number, weaponType: EWeaponType | number, isPlayer: boolean = false): boolean {

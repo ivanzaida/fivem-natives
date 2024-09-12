@@ -6,10 +6,10 @@ import { StringRef } from '@ivanzaida/structures'
  * 0x59632E3312C5FFDF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} eventId
- * @param {string} name
- * @param {StringRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} eventId
+ * @param {string} name
+ * @param {StringRef} value [Ref]
  * @returns {boolean}  
  */
 export function scCommunityEventGetExtraDataStringById(eventId: number, name: string, value: StringRef /* ptr */): boolean {

@@ -6,9 +6,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  * 0xF44F8CDAE3ED0ACB
 
  * val is 1-20. Return is related to INSTRUCTIONAL_BUTTONS, COLOUR_SWITCHER_02, etc?
- * 
- * ------------------------------------------------------------------
- * @param {ScaleformIndex} scaleformMovieId
+ * 
+ * ------------------------------------------------------------------
+ * @param {ScaleformIndex} scaleformMovieId
  * @returns {boolean}  
  */
 export function isScaleformMovieDeleting(scaleformMovieId: ScaleformIndex): boolean {

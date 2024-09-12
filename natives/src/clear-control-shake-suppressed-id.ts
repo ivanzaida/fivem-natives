@@ -6,9 +6,9 @@ import { EControlType } from '@ivanzaida/structures'
  * 0xF27E6847E6EE009E
 
  * control: see IS_CONTROL_ENABLED
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
  */
 export function clearControlShakeSuppressedId(control: EControlType | number): void {
 	const clearControlShakeSuppressedId_result = Citizen.invokeNative<void>('0xF27E6847E6EE009E', control);

@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xC4DBC6C793A97252
 
  * Returns last vehicle that was rammed by the given vehicle using the shunt boost.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {VehicleIndex}  
  */
 export function getLastShuntVehicle(vehicle: VehicleIndex): VehicleIndex {

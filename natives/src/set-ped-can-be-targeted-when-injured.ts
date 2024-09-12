@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x11FB2E1F7BAAB75A
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allowTargetWhenInjured
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allowTargetWhenInjured
  */
 export function setPedCanBeTargetedWhenInjured(ped: PedIndex, allowTargetWhenInjured: boolean): void {
 	const setPedCanBeTargetedWhenInjured_result = Citizen.invokeNative<void>('0x11FB2E1F7BAAB75A', ped, allowTargetWhenInjured);

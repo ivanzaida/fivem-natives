@@ -4,8 +4,8 @@
  * 0xB4CD52D6B8305BD4
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHashToCheck
+ * ------------------------------------------------------------------
+ * @param {number} contextHashToCheck
  */
 export function pauseMenuDeactivateContext(contextHashToCheck: number): void {
 	const pauseMenuDeactivateContext_result = Citizen.invokeNative<void>('0xB4CD52D6B8305BD4', contextHashToCheck);

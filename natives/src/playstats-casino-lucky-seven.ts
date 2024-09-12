@@ -6,8 +6,8 @@ import { Luckysevenmetric } from '@ivanzaida/structures'
  * 0xCDD1396DEA43BDA8
 
  * 
- * ------------------------------------------------------------------
- * @param {Luckysevenmetric} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {Luckysevenmetric} data [Ref]
  */
 export function playstatsCasinoLuckySeven(data: Luckysevenmetric /* ptr */): void {
 	const playstatsCasinoLuckySeven_result = Citizen.invokeNative<void>('0xCDD1396DEA43BDA8', data.dataView);

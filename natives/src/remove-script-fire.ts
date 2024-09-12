@@ -6,8 +6,8 @@ import { FireIndex } from '@ivanzaida/structures'
  * 0xCA60A45D232EEDDB
 
  * 
- * ------------------------------------------------------------------
- * @param {FireIndex} fire
+ * ------------------------------------------------------------------
+ * @param {FireIndex} fire
  */
 export function removeScriptFire(fire: FireIndex): void {
 	const removeScriptFire_result = Citizen.invokeNative<void>('0xCA60A45D232EEDDB', fire);

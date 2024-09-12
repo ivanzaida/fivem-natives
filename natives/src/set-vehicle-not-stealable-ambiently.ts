@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x9BC299A7D57D7CAA
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} stealable
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} stealable
  */
 export function setVehicleNotStealableAmbiently(vehicle: VehicleIndex, stealable: boolean): void {
 	const setVehicleNotStealableAmbiently_result = Citizen.invokeNative<void>('0x9BC299A7D57D7CAA', vehicle, stealable);

@@ -6,9 +6,9 @@ import { PickupIndex } from '@ivanzaida/structures'
  * 0x57303BAC3E5DA035
 
  * 
- * ------------------------------------------------------------------
- * @param {PickupIndex} pickupID
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {PickupIndex} pickupID
+ * @param {string} name
  */
 export function addPickupToInteriorRoomByName(pickupID: PickupIndex, name: string): void {
 	const addPickupToInteriorRoomByName_result = Citizen.invokeNative<void>('0x57303BAC3E5DA035', pickupID, name);

@@ -4,10 +4,10 @@
  * 0x54D01A0F98391D5B
 
  * Returns CGameWorldHeightMap's maximum Z value at specified point (grid node).
- * 
- * ------------------------------------------------------------------
- * @param {number} x
- * @param {number} y
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} x
+ * @param {number} y
  * @returns {number}  
  */
 export function getApproxHeightForPoint(x: number, y: number): number {

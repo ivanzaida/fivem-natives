@@ -4,8 +4,8 @@
  * 0X29B440DC
 
  * 
- * ------------------------------------------------------------------
- * @param {string} resourceName
+ * ------------------------------------------------------------------
+ * @param {string} resourceName
  * @returns {boolean}  
  */
 export function startResource(resourceName: string): boolean {

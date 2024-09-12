@@ -4,7 +4,7 @@
  * 0xADED703C1F8CC52B
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkHasSocialNetworkingSharingPriv(): boolean {

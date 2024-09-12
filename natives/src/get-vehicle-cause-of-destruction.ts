@@ -6,14 +6,14 @@ import { VehicleIndex, EWeaponType } from '@ivanzaida/structures'
  * 0xC713B16D0F5FBF9D
 
  * iVar3 = get_vehicle_cause_of_destruction(uLocal_248[iVar2]);
- * if (iVar3 == joaat("weapon_stickybomb"))
- * {
- * 	func_171(726);
- * 	iLocal_260 = 1;
- * }
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * if (iVar3 == joaat("weapon_stickybomb"))
+ * {
+ * 	func_171(726);
+ * 	iLocal_260 = 1;
+ * }
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {EWeaponType}  
  */
 export function getVehicleCauseOfDestruction(vehicle: VehicleIndex): EWeaponType {

@@ -4,9 +4,9 @@
  * 0xFF7C26AC7D71757C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} row
- * @param {number} column
+ * ------------------------------------------------------------------
+ * @param {number} row
+ * @param {number} column
  * @returns {number}  
  */
 export function leaderboards2ReadGetRowDataFloat(row: number, column: number): number {

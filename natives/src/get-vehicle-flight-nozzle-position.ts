@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xCEE6D67EEF78C2D7
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} plane
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} plane
  * @returns {number}  
  */
 export function getVehicleFlightNozzlePosition(plane: EntityIndex): number {

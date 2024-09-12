@@ -4,8 +4,8 @@
  * 0x3E13E4D6100E6A83
 
  * 
- * ------------------------------------------------------------------
- * @param {number} highlight
+ * ------------------------------------------------------------------
+ * @param {number} highlight
  * @returns {boolean}  
  */
 export function setWarningMessageOptionHighlight(highlight: number): boolean {

@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x9F1D63C7BDCDFBC5
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} netPlayerID
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} netPlayerID
  * @returns {boolean}  
  */
 export function networkIsPlayerMutedByMe(netPlayerID: PlayerIndex): boolean {

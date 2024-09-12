@@ -4,8 +4,8 @@
  * 0xDEC275C3811D6AD8
 
  * 
- * ------------------------------------------------------------------
- * @param {number} offset
+ * ------------------------------------------------------------------
+ * @param {number} offset
  */
 export function cellCamSetSelfieModeHeadRollOffset(offset: number): void {
 	const cellCamSetSelfieModeHeadRollOffset_result = Citizen.invokeNative<void>('0xDEC275C3811D6AD8', offset);

@@ -4,9 +4,9 @@
  * 0xAFEA31CC8C88FC36
 
  * 
- * ------------------------------------------------------------------
- * @param {number} contextHash
- * @param {number} tunableHash
+ * ------------------------------------------------------------------
+ * @param {number} contextHash
+ * @param {number} tunableHash
  * @returns {boolean}  
  */
 export function networkDoesTunableExistHash(contextHash: number, tunableHash: number): boolean {

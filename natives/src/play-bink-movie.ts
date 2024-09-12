@@ -6,8 +6,8 @@ import { BinkMovieId } from '@ivanzaida/structures'
  * 0x202024EB1E643238
 
  * 
- * ------------------------------------------------------------------
- * @param {BinkMovieId} movieId
+ * ------------------------------------------------------------------
+ * @param {BinkMovieId} movieId
  */
 export function playBinkMovie(movieId: BinkMovieId): void {
 	const playBinkMovie_result = Citizen.invokeNative<void>('0x202024EB1E643238', movieId);

@@ -4,8 +4,8 @@
  * 0x837A06CA50CB0287
 
  * 
- * ------------------------------------------------------------------
- * @param {number} slot
+ * ------------------------------------------------------------------
+ * @param {number} slot
  * @returns {boolean}  
  */
 export function netGameserverStartSession(slot: number): boolean {

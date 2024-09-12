@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x4BD41CDB13AC8486
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  */
 export function suppressWitnessesCallingPoliceThisFrame(player: PlayerIndex): void {
 	const suppressWitnessesCallingPoliceThisFrame_result = Citizen.invokeNative<void>('0x4BD41CDB13AC8486', player);

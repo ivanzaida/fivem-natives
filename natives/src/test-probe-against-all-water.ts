@@ -7,21 +7,21 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0xDB947915FA4FB5D5
 
  * enum eScriptWaterTestResult
- * {
- * 	SCRIPT_WATER_TEST_RESULT_NONE,
- * 	SCRIPT_WATER_TEST_RESULT_WATER,
- * 	SCRIPT_WATER_TEST_RESULT_BLOCKED,
- * };
- * 
- * ------------------------------------------------------------------
- * @param {number} startPosX
- * @param {number} startPosY
- * @param {number} startPosZ
- * @param {number} endPosX
- * @param {number} endPosY
- * @param {number} endPosZ
- * @param {number} blockingFlags
- * @param {Vector3} intersectionPos [Ref]
+ * {
+ * 	SCRIPT_WATER_TEST_RESULT_NONE,
+ * 	SCRIPT_WATER_TEST_RESULT_WATER,
+ * 	SCRIPT_WATER_TEST_RESULT_BLOCKED,
+ * };
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} startPosX
+ * @param {number} startPosY
+ * @param {number} startPosZ
+ * @param {number} endPosX
+ * @param {number} endPosY
+ * @param {number} endPosZ
+ * @param {number} blockingFlags
+ * @param {Vector3} intersectionPos [Ref]
  * @returns {EScriptWaterTestResult}  
  */
 export function testProbeAgainstAllWater(startPosX: number, startPosY: number, startPosZ: number, endPosX: number, endPosY: number, endPosZ: number, blockingFlags: number, intersectionPos: Vector3 /* ptr */): EScriptWaterTestResult {

@@ -4,9 +4,9 @@
  * 0x5F7C6361179DFFC4
 
  * This command should be used for the BASKET and SERVICES.
- * 
- * ------------------------------------------------------------------
- * @param {number} transactionId
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} transactionId
  * @returns {boolean}  
  */
 export function netGameserverCheckoutStart(transactionId: number): boolean {

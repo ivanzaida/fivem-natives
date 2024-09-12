@@ -4,8 +4,8 @@
  * 0x71D93B57D07F9804
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function sqrt(value: number): number {

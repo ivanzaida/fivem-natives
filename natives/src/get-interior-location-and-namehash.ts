@@ -7,10 +7,10 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x97A631B5F81A6197
 
  * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
- * @param {Vector3} position [Ref]
- * @param {IntRef} nameHash [Ref]
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
+ * @param {Vector3} position [Ref]
+ * @param {IntRef} nameHash [Ref]
  */
 export function getInteriorLocationAndNamehash(interiorInstance: InteriorInstanceIndex, position: Vector3 /* ptr */, nameHash: IntRef /* ptr */): void {
 	const positionPtr = new Vector3Ref();

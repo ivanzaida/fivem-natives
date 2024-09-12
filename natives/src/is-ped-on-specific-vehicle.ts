@@ -6,9 +6,9 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  * 0x6A89FD77560DE959
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isPedOnSpecificVehicle(ped: PedIndex, vehicle: VehicleIndex): boolean {

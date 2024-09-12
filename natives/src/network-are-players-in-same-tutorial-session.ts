@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xDFAE61B1AEF262C2
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} firstPlayer
- * @param {PlayerIndex} secondPlayer
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} firstPlayer
+ * @param {PlayerIndex} secondPlayer
  * @returns {boolean}  
  */
 export function networkArePlayersInSameTutorialSession(firstPlayer: PlayerIndex, secondPlayer: PlayerIndex): boolean {

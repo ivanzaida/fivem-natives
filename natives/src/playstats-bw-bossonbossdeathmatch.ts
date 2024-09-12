@@ -6,8 +6,8 @@ import { BwBossOnBossDeathMatch } from '@ivanzaida/structures'
  * 0x80D4C93EC30B0786
 
  * 
- * ------------------------------------------------------------------
- * @param {BwBossOnBossDeathMatch} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BwBossOnBossDeathMatch} data [Ref]
  */
 export function playstatsBwBossonbossdeathmatch(data: BwBossOnBossDeathMatch /* ptr */): void {
 	const playstatsBwBossonbossdeathmatch_result = Citizen.invokeNative<void>('0x80D4C93EC30B0786', data.dataView);

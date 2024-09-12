@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x661428616F87F180
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedRagdollForceFall(ped: PedIndex): void {
 	const setPedRagdollForceFall_result = Citizen.invokeNative<void>('0x661428616F87F180', ped);

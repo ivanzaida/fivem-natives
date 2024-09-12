@@ -6,9 +6,9 @@ import { PlayerIndex, EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  * 0xBF807E7C66B0BF4B
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {EEulerRotOrder} rotOrder
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {EEulerRotOrder} rotOrder
  * @returns {Vector3}  
  */
 export function getFinalRenderedRemotePlayerCamRot(player: PlayerIndex, rotOrder: EEulerRotOrder | number = 2): Vector3 {

@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0X3BB78F05
 
  * Internal function for ensuring an entity has a state bag.
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function ensureEntityStateBag(entity: EntityIndex): void {
 	const ensureEntityStateBag_result = Citizen.invokeNative<void>('0X3BB78F05', entity);

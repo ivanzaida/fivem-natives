@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xC69E0125145BB58A
 
  * Seems to do the exact same as INTERIOR::GET_ROOM_KEY_FROM_ENTITY
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  * @returns {number}  
  */
 export function getKeyForEntityInRoom(entity: EntityIndex): number {

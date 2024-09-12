@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x81E9E7612B0E4BCE
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allow
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allow
  */
 export function setPedCanRagdollFromPlayerImpact(ped: PedIndex, allow: boolean): void {
 	const setPedCanRagdollFromPlayerImpact_result = Citizen.invokeNative<void>('0x81E9E7612B0E4BCE', ped, allow);

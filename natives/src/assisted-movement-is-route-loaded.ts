@@ -4,8 +4,8 @@
  * 0x6C9A2A441E73E5E6
 
  * 
- * ------------------------------------------------------------------
- * @param {string} routeName
+ * ------------------------------------------------------------------
+ * @param {string} routeName
  * @returns {boolean}  
  */
 export function assistedMovementIsRouteLoaded(routeName: string): boolean {

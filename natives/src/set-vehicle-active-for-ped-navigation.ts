@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x8AFDFB10F32CB1A8
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} isActive
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} isActive
  */
 export function setVehicleActiveForPedNavigation(vehicle: VehicleIndex, isActive: boolean): void {
 	const setVehicleActiveForPedNavigation_result = Citizen.invokeNative<void>('0x8AFDFB10F32CB1A8', vehicle, isActive);

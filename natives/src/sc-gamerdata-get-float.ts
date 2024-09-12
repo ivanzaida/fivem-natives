@@ -6,9 +6,9 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x974E385E2B593AD0
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {FloatRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {FloatRef} value [Ref]
  * @returns {boolean}  
  */
 export function scGamerdataGetFloat(name: string, value: FloatRef /* ptr */): boolean {

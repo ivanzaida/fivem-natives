@@ -6,10 +6,10 @@ import { EPickupType } from '@ivanzaida/structures'
  * 0xAC96042A1278D845
 
  * returns pickup hash.
- * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
- * 
- * ------------------------------------------------------------------
- * @param {EPickupType} oldPickupType
+ * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
+ * ------------------------------------------------------------------
+ * @param {EPickupType} oldPickupType
  * @returns {EPickupType}  
  */
 export function convertOldPickupTypeToNew(oldPickupType: EPickupType | number): EPickupType {

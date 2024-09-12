@@ -4,14 +4,14 @@
  * 0x59A8C2AB2084CAF7
 
  * xyz - relative to the world origin.
- * 
- * ------------------------------------------------------------------
- * @param {number} firstCoorsX
- * @param {number} firstCoorsY
- * @param {number} firstCoorsZ
- * @param {number} secondCoorsX
- * @param {number} secondCoorsY
- * @param {number} secondCoorsZ
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} firstCoorsX
+ * @param {number} firstCoorsY
+ * @param {number} firstCoorsZ
+ * @param {number} secondCoorsX
+ * @param {number} secondCoorsY
+ * @param {number} secondCoorsZ
  * @returns {boolean}  
  */
 export function isCopPedInArea_3D(firstCoorsX: number, firstCoorsY: number, firstCoorsZ: number, secondCoorsX: number, secondCoorsY: number, secondCoorsZ: number): boolean {

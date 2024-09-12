@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x33D6B8520C268EC8
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getMaxRangeOfCurrentPedWeapon(ped: PedIndex): number {

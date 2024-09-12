@@ -6,8 +6,8 @@ import { Threadid } from '@ivanzaida/structures'
  * 0xF40767E41852FB72
 
  * 
- * ------------------------------------------------------------------
- * @param {Threadid} thread
+ * ------------------------------------------------------------------
+ * @param {Threadid} thread
  * @returns {boolean}  
  */
 export function isThreadActive(thread: Threadid): boolean {

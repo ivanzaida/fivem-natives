@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x314C37CF34534BCB
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} towTruckVehicle
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} towTruckVehicle
  * @returns {EntityIndex}  
  */
 export function getEntityAttachedToTowTruck(towTruckVehicle: EntityIndex): EntityIndex {

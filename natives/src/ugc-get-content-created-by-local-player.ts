@@ -4,8 +4,8 @@
  * 0xB678B17485F07C58
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentCreatedByLocalPlayer(content: number): boolean {

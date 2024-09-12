@@ -6,9 +6,9 @@ import { Leaderboard2ReadData, GamerHandle } from '@ivanzaida/structures'
  * 0xFAFBA6521BA828B9
 
  * 
- * ------------------------------------------------------------------
- * @param {Leaderboard2ReadData} lbData [Ref]
- * @param {GamerHandle} handleData [Ref]
+ * ------------------------------------------------------------------
+ * @param {Leaderboard2ReadData} lbData [Ref]
+ * @param {GamerHandle} handleData [Ref]
  * @returns {boolean}  
  */
 export function leaderboards2ReadByHandle(lbData: Leaderboard2ReadData /* ptr */, handleData: GamerHandle /* ptr */): boolean {

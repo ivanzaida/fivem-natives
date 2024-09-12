@@ -4,8 +4,8 @@
  * 0x2E9F58AD6FE93DFF
 
  * 
- * ------------------------------------------------------------------
- * @param {number} numVehiclesToRegister
+ * ------------------------------------------------------------------
+ * @param {number} numVehiclesToRegister
  * @returns {boolean}  
  */
 export function canRegisterMissionVehicles(numVehiclesToRegister: number): boolean {

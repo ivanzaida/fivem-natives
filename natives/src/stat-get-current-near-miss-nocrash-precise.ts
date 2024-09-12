@@ -4,9 +4,9 @@
  * 0xDA0C268B09050750
 
  * Warning, this is used for challenges
- * Perform the most near misses with other vehicles in a land vehicle without crashing
- * 
- * ------------------------------------------------------------------
+ * Perform the most near misses with other vehicles in a land vehicle without crashing
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function statGetCurrentNearMissNocrashPrecise(): number {

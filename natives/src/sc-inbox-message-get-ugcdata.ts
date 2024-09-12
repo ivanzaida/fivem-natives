@@ -6,9 +6,9 @@ import { UgcStateUpdateData } from '@ivanzaida/structures'
  * 0x0D6C8EFC46788359
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
- * @param {UgcStateUpdateData} outdata [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} index
+ * @param {UgcStateUpdateData} outdata [Ref]
  * @returns {boolean}  
  */
 export function scInboxMessageGetUgcdata(index: number, outdata: UgcStateUpdateData /* ptr */): boolean {

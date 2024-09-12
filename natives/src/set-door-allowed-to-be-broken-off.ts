@@ -6,11 +6,11 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  * 0xBDE75E2FCBF91A6C
 
  * doorId: see SET_VEHICLE_DOOR_SHUT
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EScDoorList} doorNumber
- * @param {boolean} doorBreakageAllowed
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EScDoorList} doorNumber
+ * @param {boolean} doorBreakageAllowed
  */
 export function setDoorAllowedToBeBrokenOff(vehicle: VehicleIndex, doorNumber: EScDoorList | number, doorBreakageAllowed: boolean): void {
 	const setDoorAllowedToBeBrokenOff_result = Citizen.invokeNative<void>('0xBDE75E2FCBF91A6C', vehicle, doorNumber, doorBreakageAllowed);

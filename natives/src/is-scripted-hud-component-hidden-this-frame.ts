@@ -6,8 +6,8 @@ import { EEScriptHudComponent } from '@ivanzaida/structures'
  * 0xDBDF2670A7C650DF
 
  * 
- * ------------------------------------------------------------------
- * @param {EEScriptHudComponent} hudComponent
+ * ------------------------------------------------------------------
+ * @param {EEScriptHudComponent} hudComponent
  * @returns {boolean}  
  */
 export function isScriptedHudComponentHiddenThisFrame(hudComponent: EEScriptHudComponent | number): boolean {

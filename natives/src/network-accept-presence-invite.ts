@@ -4,8 +4,8 @@
  * 0xA69636D9FC46B96C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} invite
+ * ------------------------------------------------------------------
+ * @param {number} invite
  * @returns {boolean}  
  */
 export function networkAcceptPresenceInvite(invite: number): boolean {

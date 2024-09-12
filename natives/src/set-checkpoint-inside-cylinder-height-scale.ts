@@ -6,9 +6,9 @@ import { CheckpointIndex } from '@ivanzaida/structures'
  * 0xF7A330D622F9A04F
 
  * 
- * ------------------------------------------------------------------
- * @param {CheckpointIndex} uniqueCheckpoint
- * @param {number} insideCylinderHeightScale
+ * ------------------------------------------------------------------
+ * @param {CheckpointIndex} uniqueCheckpoint
+ * @param {number} insideCylinderHeightScale
  */
 export function setCheckpointInsideCylinderHeightScale(uniqueCheckpoint: CheckpointIndex, insideCylinderHeightScale: number): void {
 	const setCheckpointInsideCylinderHeightScale_result = Citizen.invokeNative<void>('0xF7A330D622F9A04F', uniqueCheckpoint, insideCylinderHeightScale);

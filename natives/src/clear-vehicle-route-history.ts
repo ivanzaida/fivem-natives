@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xD2B08CD9D81655CE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function clearVehicleRouteHistory(vehicle: VehicleIndex): void {
 	const clearVehicleRouteHistory_result = Citizen.invokeNative<void>('0xD2B08CD9D81655CE', vehicle);

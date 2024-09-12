@@ -6,7 +6,7 @@ import { Threadid } from '@ivanzaida/structures'
  * 0x8F76B2250AC806FA
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {Threadid}  
  */
 export function getIdOfThisThread(): Threadid {

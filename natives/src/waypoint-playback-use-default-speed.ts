@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF2BE617CD4ED96CD
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function waypointPlaybackUseDefaultSpeed(ped: PedIndex): void {
 	const waypointPlaybackUseDefaultSpeed_result = Citizen.invokeNative<void>('0xF2BE617CD4ED96CD', ped);

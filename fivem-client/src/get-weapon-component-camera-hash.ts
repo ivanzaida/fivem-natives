@@ -4,9 +4,9 @@
  * 0XACB7E68F
 
  * A getter for `CameraHash` in a weapon scope component.
- * 
- * ------------------------------------------------------------------
- * @param {number} componentHash Weapon component name hash.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} componentHash Weapon component name hash.
  * @returns {number}  The hash of the scope camera.
  */
 export function getWeaponComponentCameraHash(componentHash: number): number {

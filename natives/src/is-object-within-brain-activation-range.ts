@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x71C1A46B17126AA4
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  * @returns {boolean}  
  */
 export function isObjectWithinBrainActivationRange(object: ObjectIndex): boolean {

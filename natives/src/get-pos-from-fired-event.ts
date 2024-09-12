@@ -7,10 +7,10 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x6B7357A27B4D68F1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EEventNames} eventType
- * @param {Vector3} outPos [Ref]
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EEventNames} eventType
+ * @param {Vector3} outPos [Ref]
  * @returns {boolean}  
  */
 export function getPosFromFiredEvent(ped: PedIndex, eventType: EEventNames | number, outPos: Vector3 /* ptr */): boolean {

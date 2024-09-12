@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x80DCC55011762DB5
 
  * Removes all time delay from aiming to firing for players.  Use when forcing an aim animation outside the standard set.
- * Must be called every frame.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * Must be called every frame.
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedNoTimeDelayBeforeShot(ped: PedIndex): void {
 	const setPedNoTimeDelayBeforeShot_result = Citizen.invokeNative<void>('0x80DCC55011762DB5', ped);

@@ -6,8 +6,8 @@ import { BlipIndex, EHudColours } from '@ivanzaida/structures'
  * 0x2B91B956D741B8CE
 
  * 
- * ------------------------------------------------------------------
- * @param {BlipIndex} blip
+ * ------------------------------------------------------------------
+ * @param {BlipIndex} blip
  * @returns {EHudColours}  
  */
 export function getBlipHudColour(blip: BlipIndex): EHudColours {

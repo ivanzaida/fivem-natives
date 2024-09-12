@@ -6,7 +6,7 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0x8999FC36EFA332BC
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {BlipIndex}  
  */
 export function getNorthBlidIndex(): BlipIndex {

@@ -6,10 +6,10 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  * 0x75E4D52830820775
 
  * Only used once in the entire game scripts.
- * Does not actually return anything.
- * 
- * ------------------------------------------------------------------
- * @param {InteriorInstanceIndex} interiorInstance
+ * Does not actually return anything.
+ * 
+ * ------------------------------------------------------------------
+ * @param {InteriorInstanceIndex} interiorInstance
  * @returns {boolean}  
  */
 export function setInteriorInUse(interiorInstance: InteriorInstanceIndex): boolean {

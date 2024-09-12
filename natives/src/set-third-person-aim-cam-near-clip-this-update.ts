@@ -4,8 +4,8 @@
  * 0x9696D418BC147507
 
  * 
- * ------------------------------------------------------------------
- * @param {number} nearClip
+ * ------------------------------------------------------------------
+ * @param {number} nearClip
  */
 export function setThirdPersonAimCamNearClipThisUpdate(nearClip: number): void {
 	const setThirdPersonAimCamNearClipThisUpdate_result = Citizen.invokeNative<void>('0x9696D418BC147507', nearClip);

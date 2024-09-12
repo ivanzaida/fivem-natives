@@ -4,8 +4,8 @@
  * 0x5679681143C10F0A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} friend
+ * ------------------------------------------------------------------
+ * @param {number} friend
  * @returns {boolean}  
  */
 export function networkIsFriendIndexOnline(friend: number): boolean {

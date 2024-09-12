@@ -4,8 +4,8 @@
  * 0x11A87C58414E6C46
 
  * 
- * ------------------------------------------------------------------
- * @param {number} token
+ * ------------------------------------------------------------------
+ * @param {number} token
  * @returns {boolean}  
  */
 export function scProfanityGetCheckIsPending(token: number): boolean {

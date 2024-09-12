@@ -4,8 +4,8 @@
  * 0xF2DB717A73826179
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {number} value
  * @returns {number}  
  */
 export function round(value: number): number {

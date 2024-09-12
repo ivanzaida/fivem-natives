@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xE61689C28FFE2DAF
 
  * Returns false if the vehicle has the FLAG_NO_RESPRAY flag set.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleSprayable(vehicle: VehicleIndex): boolean {

@@ -4,7 +4,7 @@
  * 0x48392085C5B52584
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function disableCinematicBonnetCameraThisUpdate(): void {
 	const disableCinematicBonnetCameraThisUpdate_result = Citizen.invokeNative<void>('0x48392085C5B52584', );

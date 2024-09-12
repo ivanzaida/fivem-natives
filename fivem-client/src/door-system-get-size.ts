@@ -4,7 +4,7 @@
  * 0X237613B3
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  The number of doors registered in the system
  */
 export function doorSystemGetSize(): number {

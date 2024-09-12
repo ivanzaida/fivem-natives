@@ -6,9 +6,9 @@ import { ItemIndex, ItemsetIndex } from '@ivanzaida/structures'
  * 0xD0EC006D02DA188E
 
  * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} objToCheck
- * @param {ItemsetIndex} itemSet
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} objToCheck
+ * @param {ItemsetIndex} itemSet
  * @returns {boolean}  
  */
 export function isInItemset(objToCheck: ItemIndex, itemSet: ItemsetIndex): boolean {

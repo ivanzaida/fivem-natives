@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x5730F7F898FC023D
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} pickupID
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} pickupID
+ * @param {boolean} set
  */
 export function setPickupObjectArrowMarker(pickupID: ObjectIndex, set: boolean = true): void {
 	const setPickupObjectArrowMarker_result = Citizen.invokeNative<void>('0x5730F7F898FC023D', pickupID, set);

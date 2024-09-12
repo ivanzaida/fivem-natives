@@ -4,7 +4,7 @@
  * 0x37F4AB46DE999660
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkHasReceivedHostBroadcastData(): boolean {

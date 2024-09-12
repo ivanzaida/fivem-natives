@@ -4,8 +4,8 @@
  * 0x87EDD05291B7412C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {number} index
  * @returns {boolean}  
  */
 export function doesPopMultiplierAreaExist(index: number): boolean {

@@ -6,10 +6,10 @@ import { ETextBlockSlots } from '@ivanzaida/structures'
  * 0x4AB15E3851FF326B
 
  * Request additional text for DLC, see above for more info
- * 
- * ------------------------------------------------------------------
- * @param {string} textBlockName
- * @param {ETextBlockSlots} slotNumber
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} textBlockName
+ * @param {ETextBlockSlots} slotNumber
  */
 export function requestAdditionalTextForDlc(textBlockName: string, slotNumber: ETextBlockSlots | number): void {
 	const requestAdditionalTextForDlc_result = Citizen.invokeNative<void>('0x4AB15E3851FF326B', textBlockName, slotNumber);

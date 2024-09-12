@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x04F239EFD194C236
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} abilitySlot
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {number} abilitySlot
  */
 export function updateSpecialAbilityFromStat(player: PlayerIndex, abilitySlot: number = 0): void {
 	const updateSpecialAbilityFromStat_result = Citizen.invokeNative<void>('0x04F239EFD194C236', player, abilitySlot);

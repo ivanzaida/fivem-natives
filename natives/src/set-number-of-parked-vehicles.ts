@@ -4,8 +4,8 @@
  * 0xECDFDC2E8AC2D613
 
  * 
- * ------------------------------------------------------------------
- * @param {number} newNumberOfParkedCars
+ * ------------------------------------------------------------------
+ * @param {number} newNumberOfParkedCars
  */
 export function setNumberOfParkedVehicles(newNumberOfParkedCars: number): void {
 	const setNumberOfParkedVehicles_result = Citizen.invokeNative<void>('0xECDFDC2E8AC2D613', newNumberOfParkedCars);

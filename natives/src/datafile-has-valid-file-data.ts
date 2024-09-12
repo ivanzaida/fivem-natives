@@ -4,8 +4,8 @@
  * 0x5661708D0BBCF4DC
 
  * 
- * ------------------------------------------------------------------
- * @param {number} cloudRequestID
+ * ------------------------------------------------------------------
+ * @param {number} cloudRequestID
  * @returns {boolean}  
  */
 export function datafileHasValidFileData(cloudRequestID: number): boolean {

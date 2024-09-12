@@ -4,9 +4,9 @@
  * 0X2E310ACD
 
  * 
- * ------------------------------------------------------------------
- * @param {string} password
- * @param {string} hash
+ * ------------------------------------------------------------------
+ * @param {string} password
+ * @param {string} hash
  * @returns {boolean}  
  */
 export function verifyPasswordHash(password: string, hash: string): boolean {

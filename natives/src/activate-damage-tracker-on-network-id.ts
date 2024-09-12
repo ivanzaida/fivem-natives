@@ -6,9 +6,9 @@ import { NetworkIndex } from '@ivanzaida/structures'
  * 0x7B95E064D91BFE49
 
  * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} networkId
- * @param {boolean} activateTracker
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} networkId
+ * @param {boolean} activateTracker
  */
 export function activateDamageTrackerOnNetworkId(networkId: NetworkIndex, activateTracker: boolean): void {
 	const activateDamageTrackerOnNetworkId_result = Citizen.invokeNative<void>('0x7B95E064D91BFE49', networkId, activateTracker);

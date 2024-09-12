@@ -6,8 +6,8 @@ import { EWeaponcomponentType, ModelNames } from '@ivanzaida/structures'
  * 0xB39F6B1C186F538E
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponcomponentType} weaponComponent
+ * ------------------------------------------------------------------
+ * @param {EWeaponcomponentType} weaponComponent
  * @returns {ModelNames}  
  */
 export function getWeaponComponentTypeModel(weaponComponent: EWeaponcomponentType | number): ModelNames {

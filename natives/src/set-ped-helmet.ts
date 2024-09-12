@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xECF7FE1783A38672
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enable
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enable
  */
 export function setPedHelmet(ped: PedIndex, enable: boolean): void {
 	const setPedHelmet_result = Citizen.invokeNative<void>('0xECF7FE1783A38672', ped, enable);

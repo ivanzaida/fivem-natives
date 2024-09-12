@@ -6,9 +6,9 @@ import { VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * 0x333A2A6253C809D2
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EVehicleSeat} seat
  * @returns {boolean}  
  */
 export function isTurretSeat(vehicle: VehicleIndex, seat: EVehicleSeat | number): boolean {

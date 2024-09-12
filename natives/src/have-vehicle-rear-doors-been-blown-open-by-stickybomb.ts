@@ -4,7 +4,7 @@
  * 0x6B407F2525E93644
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function haveVehicleRearDoorsBeenBlownOpenByStickybomb(): boolean {

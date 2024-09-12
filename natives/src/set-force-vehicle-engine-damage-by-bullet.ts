@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xA7C024F5E73C2EE0
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} forceEngineDamage
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} forceEngineDamage
  */
 export function setForceVehicleEngineDamageByBullet(vehicle: VehicleIndex, forceEngineDamage: boolean): void {
 	const setForceVehicleEngineDamageByBullet_result = Citizen.invokeNative<void>('0xA7C024F5E73C2EE0', vehicle, forceEngineDamage);

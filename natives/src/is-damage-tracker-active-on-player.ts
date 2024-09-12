@@ -6,8 +6,8 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xE29ED67EC061E70B
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId
  * @returns {boolean}  
  */
 export function isDamageTrackerActiveOnPlayer(playerId: PlayerIndex): boolean {

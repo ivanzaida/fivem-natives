@@ -6,8 +6,8 @@ import { EStatsenum } from '@ivanzaida/structures'
  * 0x77A7B5685F038D01
 
  * 
- * ------------------------------------------------------------------
- * @param {EStatsenum} keyHash
+ * ------------------------------------------------------------------
+ * @param {EStatsenum} keyHash
  * @returns {number}  
  */
 export function statGetNumberOfSeconds(keyHash: EStatsenum | number): number {

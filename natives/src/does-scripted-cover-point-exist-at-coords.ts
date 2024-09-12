@@ -4,11 +4,11 @@
  * 0xB4AC30A54094D002
 
  * Checks if there is a cover point at position
- * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
  * @returns {boolean}  
  */
 export function doesScriptedCoverPointExistAtCoords(coorsX: number, coorsY: number, coorsZ: number): boolean {

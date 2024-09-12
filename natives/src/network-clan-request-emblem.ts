@@ -4,8 +4,8 @@
  * 0xC8FEAF9D86CA72E6
 
  * 
- * ------------------------------------------------------------------
- * @param {number} clanId
+ * ------------------------------------------------------------------
+ * @param {number} clanId
  * @returns {boolean}  
  */
 export function networkClanRequestEmblem(clanId: number): boolean {

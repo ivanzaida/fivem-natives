@@ -6,9 +6,9 @@ import { NetworkIndex, ObjectIndex } from '@ivanzaida/structures'
  * 0xAB3646235DE50E93
 
  * gets the object id of a network id
- * 
- * ------------------------------------------------------------------
- * @param {NetworkIndex} netID
+ * 
+ * ------------------------------------------------------------------
+ * @param {NetworkIndex} netID
  * @returns {ObjectIndex}  
  */
 export function netToObj(netID: NetworkIndex): ObjectIndex {

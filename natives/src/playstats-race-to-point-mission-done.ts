@@ -6,11 +6,11 @@ import { RaceToPointInfo } from '@ivanzaida/structures'
  * 0xC93D3E846508BAF3
 
  * 
- * ------------------------------------------------------------------
- * @param {number} ambientMissionId
- * @param {number} xpEarned
- * @param {number} cashEarned
- * @param {RaceToPointInfo} rtopInfo [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} ambientMissionId
+ * @param {number} xpEarned
+ * @param {number} cashEarned
+ * @param {RaceToPointInfo} rtopInfo [Ref]
  */
 export function playstatsRaceToPointMissionDone(ambientMissionId: number, xpEarned: number, cashEarned: number, rtopInfo: RaceToPointInfo /* ptr */): void {
 	const playstatsRaceToPointMissionDone_result = Citizen.invokeNative<void>('0xC93D3E846508BAF3', ambientMissionId, xpEarned, cashEarned, rtopInfo.dataView);

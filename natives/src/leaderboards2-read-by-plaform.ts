@@ -6,10 +6,10 @@ import { Leaderboard2ReadData } from '@ivanzaida/structures'
  * 0x86A2F61D43CBFF3E
 
  * 
- * ------------------------------------------------------------------
- * @param {Leaderboard2ReadData} lbData [Ref]
- * @param {string} gamerHandler
- * @param {string} platform
+ * ------------------------------------------------------------------
+ * @param {Leaderboard2ReadData} lbData [Ref]
+ * @param {string} gamerHandler
+ * @param {string} platform
  * @returns {boolean}  
  */
 export function leaderboards2ReadByPlaform(lbData: Leaderboard2ReadData /* ptr */, gamerHandler: string, platform: string): boolean {

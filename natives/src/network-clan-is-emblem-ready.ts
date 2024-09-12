@@ -6,9 +6,9 @@ import { StringRef } from '@ivanzaida/structures'
  * 0xAE4A8E8C58358A87
 
  * 
- * ------------------------------------------------------------------
- * @param {number} clanId
- * @param {StringRef} outTXDName [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} clanId
+ * @param {StringRef} outTXDName [Ref]
  * @returns {boolean}  
  */
 export function networkClanIsEmblemReady(clanId: number, outTXDName: StringRef /* ptr */): boolean {

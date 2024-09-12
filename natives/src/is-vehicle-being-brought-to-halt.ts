@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x0AB6C098FE20C23A
 
  * Returns true if vehicle is halted by BRING_VEHICLE_TO_HALT
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {boolean}  
  */
 export function isVehicleBeingBroughtToHalt(vehicle: VehicleIndex): boolean {

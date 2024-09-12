@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xB4E9A7A3A518ECC1
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} maxSpeed
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {number} maxSpeed
  */
 export function setEntityMaxSpeed(entity: EntityIndex, maxSpeed: number): void {
 	const setEntityMaxSpeed_result = Citizen.invokeNative<void>('0xB4E9A7A3A518ECC1', entity, maxSpeed);

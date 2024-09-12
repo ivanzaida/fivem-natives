@@ -4,8 +4,8 @@
  * 0xD1BF9B570A0EBA3A
 
  * 
- * ------------------------------------------------------------------
- * @param {number} cloudRequestID
+ * ------------------------------------------------------------------
+ * @param {number} cloudRequestID
  * @returns {boolean}  
  */
 export function datafileDeleteRequestedFile(cloudRequestID: number): boolean {

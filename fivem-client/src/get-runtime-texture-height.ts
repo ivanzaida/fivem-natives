@@ -4,9 +4,9 @@
  * 0X3574AACE
 
  * Gets the height of the specified runtime texture.
- * 
- * ------------------------------------------------------------------
- * @param {number} tex A handle to the runtime texture.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} tex A handle to the runtime texture.
  * @returns {number}  The height in pixels.
  */
 export function getRuntimeTextureHeight(tex: number): number {

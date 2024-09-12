@@ -6,9 +6,9 @@ import { EDateFormat } from '@ivanzaida/structures'
  * 0xD676FB5DAC59FB72
 
  * Returns the current system date formatting type
- * Possible return values: 0, 1, 2
- * 
- * ------------------------------------------------------------------
+ * Possible return values: 0, 1, 2
+ * 
+ * ------------------------------------------------------------------
  * @returns {EDateFormat}  
  */
 export function localizationGetSystemDateType(): EDateFormat {

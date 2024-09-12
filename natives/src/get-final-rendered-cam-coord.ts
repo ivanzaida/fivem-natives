@@ -6,7 +6,7 @@ import { Vector3 } from '@ivanzaida/structures'
  * 0x02AF3EA0F67D2329
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {Vector3}  
  */
 export function getFinalRenderedCamCoord(): Vector3 {

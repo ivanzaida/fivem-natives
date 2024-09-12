@@ -4,7 +4,7 @@
  * 0xA342A3763B3AFB6C
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function forceAllowSnowFootVfxOnIce(): void {
 	const forceAllowSnowFootVfxOnIce_result = Citizen.invokeNative<void>('0xA342A3763B3AFB6C', );

@@ -4,8 +4,8 @@
  * 0x52DCAA722383A060
 
  * 
- * ------------------------------------------------------------------
- * @param {number} hash
+ * ------------------------------------------------------------------
+ * @param {number} hash
  * @returns {number}  
  */
 export function ugcRequestCachedDescription(hash: number): number {

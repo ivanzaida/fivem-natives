@@ -4,7 +4,7 @@
  * 0x464C2B9EE565B093
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function freeMemoryForLowQualityPhoto(): void {
 	const freeMemoryForLowQualityPhoto_result = Citizen.invokeNative<void>('0x464C2B9EE565B093', );

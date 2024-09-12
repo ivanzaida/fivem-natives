@@ -6,10 +6,10 @@ import { PedIndex, ObjectIndex } from '@ivanzaida/structures'
  * 0xF3DC3DD7A741C1D5
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} attach
- * @param {boolean} clearVariation
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} attach
+ * @param {boolean} clearVariation
  * @returns {ObjectIndex}  
  */
 export function createParachuteBagObject(ped: PedIndex, attach: boolean, clearVariation: boolean): ObjectIndex {

@@ -4,8 +4,8 @@
  * 0xDB47943DB2DB40C5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} distance
+ * ------------------------------------------------------------------
+ * @param {number} distance
  * @returns {boolean}  
  */
 export function setFlashLightFadeDistance(distance: number): boolean {

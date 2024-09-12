@@ -4,8 +4,8 @@
  * 0xAECC5FA98C879D67
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} scriptCanBePaused
+ * ------------------------------------------------------------------
+ * @param {boolean} scriptCanBePaused
  */
 export function setThisScriptCanBePaused(scriptCanBePaused: boolean): void {
 	const setThisScriptCanBePaused_result = Citizen.invokeNative<void>('0xAECC5FA98C879D67', scriptCanBePaused);

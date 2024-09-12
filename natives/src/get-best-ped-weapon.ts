@@ -6,10 +6,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0xF3D409E30929BD33
 
  * p1 is always 0 in the scripts.
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} ignoreAmmoCheck
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} ignoreAmmoCheck
  * @returns {EWeaponType}  
  */
 export function getBestPedWeapon(ped: PedIndex, ignoreAmmoCheck: boolean = false): EWeaponType {

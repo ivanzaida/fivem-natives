@@ -4,8 +4,8 @@
  * 0X74E927B0
 
  * 
- * ------------------------------------------------------------------
- * @param {number} value Proximity value.
+ * ------------------------------------------------------------------
+ * @param {number} value Proximity value.
  */
 export function mumbleSetTalkerProximity(value: number): void {
 	const mumbleSetTalkerProximity_result = Citizen.invokeNative<void>('0X74E927B0', value);

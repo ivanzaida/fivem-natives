@@ -6,16 +6,16 @@ import { EExplosionTag } from '@ivanzaida/structures'
  * 0x9D27D35452DED6B5
 
  * explosionType: See ADD_EXPLOSION, -1 for any explosion type
- * 
- * ------------------------------------------------------------------
- * @param {EExplosionTag} explosionTag
- * @param {number} pos1X
- * @param {number} pos1Y
- * @param {number} pos1Z
- * @param {number} pos2X
- * @param {number} pos2Y
- * @param {number} pos2Z
- * @param {number} areaWidth
+ * 
+ * ------------------------------------------------------------------
+ * @param {EExplosionTag} explosionTag
+ * @param {number} pos1X
+ * @param {number} pos1Y
+ * @param {number} pos1Z
+ * @param {number} pos2X
+ * @param {number} pos2Y
+ * @param {number} pos2Z
+ * @param {number} areaWidth
  * @returns {boolean}  
  */
 export function isExplosionInAngledArea(explosionTag: EExplosionTag | number, pos1X: number, pos1Y: number, pos1Z: number, pos2X: number, pos2Y: number, pos2Z: number, areaWidth: number): boolean {

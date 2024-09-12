@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X23E46BD7
 
  * This is a getter for [SET_HELI_TAIL_EXPLODE_THROW_DASHBOARD](#_0x3EC8BF18AA453FE9)
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} heli The helicopter to check
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} heli The helicopter to check
  * @returns {boolean}  Returns `true` if the helicopter's tail boom can break, `false` if it cannot.
  */
 export function isHeliTailBoomBreakable(heli: VehicleIndex): boolean {

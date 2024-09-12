@@ -4,9 +4,9 @@
  * 0x25ABFB435E16C7D9
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} isImportant
- * @param {boolean} cacheMessage
+ * ------------------------------------------------------------------
+ * @param {boolean} isImportant
+ * @param {boolean} cacheMessage
  * @returns {number}  
  */
 export function endTextCommandThefeedPostTicker(isImportant: boolean, cacheMessage: boolean = true): number {

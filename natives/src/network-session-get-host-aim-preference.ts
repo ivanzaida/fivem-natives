@@ -4,7 +4,7 @@
  * 0x672C2841CFBEC1A5
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function networkSessionGetHostAimPreference(): number {

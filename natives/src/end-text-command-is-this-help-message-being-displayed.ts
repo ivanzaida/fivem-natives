@@ -6,8 +6,8 @@ import { EEHelpMessageId } from '@ivanzaida/structures'
  * 0x7EBCD400E7DE179C
 
  * 
- * ------------------------------------------------------------------
- * @param {EEHelpMessageId} helpId
+ * ------------------------------------------------------------------
+ * @param {EEHelpMessageId} helpId
  * @returns {boolean}  
  */
 export function endTextCommandIsThisHelpMessageBeingDisplayed(helpId: EEHelpMessageId | number): boolean {

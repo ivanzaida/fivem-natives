@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X137260D1
 
  * List of known states:```1: Not wheeling.65: Vehicle is ready to do wheelie (burnouting).129: Vehicle is doing wheelie.```
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle Vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle Vehicle
  * @returns {number}  Vehicle's current wheelie state.
  */
 export function getVehicleWheelieState(vehicle: VehicleIndex): number {

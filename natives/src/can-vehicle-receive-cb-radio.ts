@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x798A910E92BD7584
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  * @returns {boolean}  
  */
 export function canVehicleReceiveCbRadio(veh: VehicleIndex): boolean {

@@ -4,7 +4,7 @@
  * 0x68CB8278CA2DB28D
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkJoinPreviouslyFailedSession(): boolean {

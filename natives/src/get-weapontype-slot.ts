@@ -6,8 +6,8 @@ import { EWeaponType, EWeaponSlot } from '@ivanzaida/structures'
  * 0xF06CB8927A8EE0DE
 
  * 
- * ------------------------------------------------------------------
- * @param {EWeaponType} weapon
+ * ------------------------------------------------------------------
+ * @param {EWeaponType} weapon
  * @returns {EWeaponSlot}  
  */
 export function getWeapontypeSlot(weapon: EWeaponType | number): EWeaponSlot {

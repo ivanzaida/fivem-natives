@@ -6,10 +6,10 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x24CAD023099769B1
 
  * Only need to pass the model in if the scene has both an IG_ and CS_ version of the same model
- * 
- * ------------------------------------------------------------------
- * @param {string} entitySceneName
- * @param {ModelNames} model
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} entitySceneName
+ * @param {ModelNames} model
  * @returns {boolean}  
  */
 export function doesCutsceneEntityExist(entitySceneName: string, model: ModelNames = 0): boolean {

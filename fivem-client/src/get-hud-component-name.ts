@@ -4,8 +4,8 @@
  * 0XA91866BC
 
  * 
- * ------------------------------------------------------------------
- * @param {number} id The hud component id.
+ * ------------------------------------------------------------------
+ * @param {number} id The hud component id.
  * @returns {string}  The hud component name.
  */
 export function getHudComponentName(id: number): string {

@@ -6,9 +6,9 @@ import { PedIndex, IntRef } from '@ivanzaida/structures'
  * 0xB76C3F86B744BBA5
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {IntRef} outBoneTag [Ref]
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {IntRef} outBoneTag [Ref]
  * @returns {boolean}  
  */
 export function getPedLastDamageBone(ped: PedIndex, outBoneTag: IntRef /* ptr */): boolean {

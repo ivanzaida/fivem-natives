@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1F46B2A1DBF8BD25
 
  * Max 1000.
- * At 0 the tail rotor will stall.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * At 0 the tail rotor will stall.
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {number}  
  */
 export function getHeliTailRotorHealth(vehicle: VehicleIndex): number {

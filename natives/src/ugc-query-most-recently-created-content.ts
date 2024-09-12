@@ -6,11 +6,11 @@ import { EUgcBoolOption } from '@ivanzaida/structures'
  * 0xA598E27B609E1B5E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} offset
- * @param {number} maxCount
- * @param {string} szContentType
- * @param {EUgcBoolOption} openOption
+ * ------------------------------------------------------------------
+ * @param {number} offset
+ * @param {number} maxCount
+ * @param {string} szContentType
+ * @param {EUgcBoolOption} openOption
  * @returns {boolean}  
  */
 export function ugcQueryMostRecentlyCreatedContent(offset: number, maxCount: number, szContentType: string, openOption: EUgcBoolOption | number): boolean {

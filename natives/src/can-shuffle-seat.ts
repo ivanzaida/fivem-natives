@@ -6,10 +6,10 @@ import { VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * 0x2955FC7A22330E7F
 
  * Command to check if a ped could shuffle from this seat. This is a bit expensive,
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {EVehicleSeat} seat
  * @returns {boolean}  
  */
 export function canShuffleSeat(vehicle: VehicleIndex, seat: EVehicleSeat | number): boolean {

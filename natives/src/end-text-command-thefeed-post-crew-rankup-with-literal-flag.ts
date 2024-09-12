@@ -4,12 +4,12 @@
  * 0xC36615DCBE463B8A
 
  * 
- * ------------------------------------------------------------------
- * @param {string} subtitle
- * @param {string} tXD
- * @param {string} tXN
- * @param {boolean} isImportant
- * @param {boolean} subtitleIsLiteral
+ * ------------------------------------------------------------------
+ * @param {string} subtitle
+ * @param {string} tXD
+ * @param {string} tXN
+ * @param {boolean} isImportant
+ * @param {boolean} subtitleIsLiteral
  * @returns {number}  
  */
 export function endTextCommandThefeedPostCrewRankupWithLiteralFlag(subtitle: string, tXD: string, tXN: string, isImportant: boolean, subtitleIsLiteral: boolean): number {

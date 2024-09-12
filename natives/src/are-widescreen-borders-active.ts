@@ -4,8 +4,8 @@
  * 0xE7BF6BF496713374
 
  * set via SET_WIDESCREEN_BORDERS
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function areWidescreenBordersActive(): boolean {

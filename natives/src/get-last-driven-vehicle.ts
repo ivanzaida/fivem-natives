@@ -6,7 +6,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1D25F777D0165BF3
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {VehicleIndex}  
  */
 export function getLastDrivenVehicle(): VehicleIndex {

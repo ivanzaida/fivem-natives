@@ -6,9 +6,9 @@ import { PopzoneId } from '@ivanzaida/structures'
  * 0x148523145C045769
 
  * cellphone range 1- 5 used for signal bar in iFruit phone
- * 
- * ------------------------------------------------------------------
- * @param {PopzoneId} zoneId
+ * 
+ * ------------------------------------------------------------------
+ * @param {PopzoneId} zoneId
  * @returns {number}  
  */
 export function getZoneScumminess(zoneId: PopzoneId): number {

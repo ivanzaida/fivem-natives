@@ -4,8 +4,8 @@
  * 0xF9A2335AB37CF17E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} densityMult
+ * ------------------------------------------------------------------
+ * @param {number} densityMult
  */
 export function setPedDensityMultiplierThisFrame(densityMult: number): void {
 	const setPedDensityMultiplierThisFrame_result = Citizen.invokeNative<void>('0xF9A2335AB37CF17E', densityMult);

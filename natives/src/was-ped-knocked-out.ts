@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x969DAA52492D900B
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function wasPedKnockedOut(ped: PedIndex): boolean {

@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x395F718BB649E570
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} weaponObject
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} weaponObject
  * @returns {number}  
  */
 export function getWeaponObjectTintIndex(weaponObject: ObjectIndex): number {

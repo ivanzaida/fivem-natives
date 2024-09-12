@@ -4,8 +4,8 @@
  * 0xA97D041A0700AC71
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {string}  
  */
 export function ugcGetContentUserName(content: number): string {

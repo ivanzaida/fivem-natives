@@ -6,11 +6,11 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x9586B50628529A63
 
  * Starts a task to check an entered string for profanity on the ROS/Social Club services.
- * See also: 1753344C770358AE, 82E4A58BABC15AE7.
- * 
- * ------------------------------------------------------------------
- * @param {string} textString
- * @param {IntRef} outToken [Ref]
+ * See also: 1753344C770358AE, 82E4A58BABC15AE7.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} textString
+ * @param {IntRef} outToken [Ref]
  * @returns {boolean}  
  */
 export function scProfanityCheckString(textString: string, outToken: IntRef /* ptr */): boolean {

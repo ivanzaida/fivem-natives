@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xCA7159F2C5FF745A
 
  * Returns the license plate text from a vehicle. 8 chars maximum.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  * @returns {string}  
  */
 export function getVehicleNumberPlateText(vehicle: VehicleIndex): string {

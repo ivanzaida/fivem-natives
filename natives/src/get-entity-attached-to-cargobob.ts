@@ -6,8 +6,8 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0xA60E0FC9E433408C
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
  * @returns {EntityIndex}  
  */
 export function getEntityAttachedToCargobob(cargobob: VehicleIndex): EntityIndex {

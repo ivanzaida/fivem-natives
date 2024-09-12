@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x730536B32F041BA6
 
  * Makes the vehicle accept no passengers.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} allowLockon
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} allowLockon
  */
 export function setVehicleAllowNoPassengersLockon(vehicle: VehicleIndex, allowLockon: boolean): void {
 	const setVehicleAllowNoPassengersLockon_result = Citizen.invokeNative<void>('0x730536B32F041BA6', vehicle, allowLockon);

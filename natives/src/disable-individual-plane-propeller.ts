@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x36746293A73925EB
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} propeller
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} propeller
  */
 export function disableIndividualPlanePropeller(vehicle: VehicleIndex, propeller: number): void {
 	const disableIndividualPlanePropeller_result = Citizen.invokeNative<void>('0x36746293A73925EB', vehicle, propeller);

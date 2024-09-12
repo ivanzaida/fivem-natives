@@ -6,8 +6,8 @@ import { EBriefType } from '@ivanzaida/structures'
  * 0x9004B02246EEC817
 
  * 
- * ------------------------------------------------------------------
- * @param {EBriefType} briefType
+ * ------------------------------------------------------------------
+ * @param {EBriefType} briefType
  * @returns {boolean}  
  */
 export function doesLatestBriefStringExist(briefType: EBriefType | number): boolean {

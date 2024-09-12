@@ -4,8 +4,8 @@
  * 0xEDC191D9E24A6A2D
 
  * 
- * ------------------------------------------------------------------
- * @param {number} newAccuracy
+ * ------------------------------------------------------------------
+ * @param {number} newAccuracy
  */
 export function setAmbientLawPedAccuracyModifier(newAccuracy: number): void {
 	const setAmbientLawPedAccuracyModifier_result = Citizen.invokeNative<void>('0xEDC191D9E24A6A2D', newAccuracy);

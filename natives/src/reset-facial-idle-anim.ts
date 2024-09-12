@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xCE0A933AAD7CE47D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function resetFacialIdleAnim(ped: PedIndex): void {
 	const resetFacialIdleAnim_result = Citizen.invokeNative<void>('0xCE0A933AAD7CE47D', ped);

@@ -4,7 +4,7 @@
  * 0x4C7F9ACFABADEB9E
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function networkGetPositionHashOfThisScript(): number {

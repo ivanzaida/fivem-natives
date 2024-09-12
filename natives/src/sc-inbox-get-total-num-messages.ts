@@ -4,8 +4,8 @@
  * 0x2CA28CCB7CECACE7
 
  * This number may change (bigger or smaller) as we refresh our local inbox
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function scInboxGetTotalNumMessages(): number {

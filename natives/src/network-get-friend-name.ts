@@ -4,8 +4,8 @@
  * 0x5FDC59F83F2D1C9F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} friend
+ * ------------------------------------------------------------------
+ * @param {number} friend
  * @returns {string}  
  */
 export function networkGetFriendName(friend: number): string {

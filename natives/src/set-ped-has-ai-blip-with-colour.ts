@@ -6,11 +6,11 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xF42995E2FC0559E0
 
  * color: see SET_BLIP_COLOUR
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} onOff
- * @param {number} colour
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} onOff
+ * @param {number} colour
  */
 export function setPedHasAiBlipWithColour(ped: PedIndex, onOff: boolean, colour: number): void {
 	const setPedHasAiBlipWithColour_result = Citizen.invokeNative<void>('0xF42995E2FC0559E0', ped, onOff, colour);

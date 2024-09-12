@@ -4,9 +4,9 @@
  * 0x20279DB6A8C883E5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} sceneId
- * @param {string} audioEvent
+ * ------------------------------------------------------------------
+ * @param {number} sceneId
+ * @param {string} audioEvent
  * @returns {boolean}  
  */
 export function prepareSynchronizedAudioEventForScene(sceneId: number, audioEvent: string): boolean {

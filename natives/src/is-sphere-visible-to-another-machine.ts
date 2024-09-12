@@ -4,11 +4,11 @@
  * 0x809E97B5B52A6418
 
  * 
- * ------------------------------------------------------------------
- * @param {number} posX
- * @param {number} posY
- * @param {number} posZ
- * @param {number} radius
+ * ------------------------------------------------------------------
+ * @param {number} posX
+ * @param {number} posY
+ * @param {number} posZ
+ * @param {number} radius
  * @returns {boolean}  
  */
 export function isSphereVisibleToAnotherMachine(posX: number, posY: number, posZ: number, radius: number): boolean {

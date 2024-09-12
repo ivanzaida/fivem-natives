@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xBA4223DE7F0708BA
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} modelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} modelHashKey
  * @returns {boolean}  
  */
 export function isModelAPed(modelHashKey: ModelNames): boolean {

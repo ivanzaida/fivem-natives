@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x588D8FDC61F7CFAD
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function clearVehicleCustomSecondaryColour(vehicle: VehicleIndex): void {
 	const clearVehicleCustomSecondaryColour_result = Citizen.invokeNative<void>('0x588D8FDC61F7CFAD', vehicle);

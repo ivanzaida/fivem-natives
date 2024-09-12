@@ -6,8 +6,8 @@ import { CheckpointIndex } from '@ivanzaida/structures'
  * 0xA46D09CA7F9EE44B
 
  * 
- * ------------------------------------------------------------------
- * @param {CheckpointIndex} uniqueCheckpoint
+ * ------------------------------------------------------------------
+ * @param {CheckpointIndex} uniqueCheckpoint
  */
 export function setCheckpointForceOldArrowPointing(uniqueCheckpoint: CheckpointIndex): void {
 	const setCheckpointForceOldArrowPointing_result = Citizen.invokeNative<void>('0xA46D09CA7F9EE44B', uniqueCheckpoint);

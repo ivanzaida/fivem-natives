@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xEFD4518EFFDFB602
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} enableUpperBodyDamageOnly
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} enableUpperBodyDamageOnly
  */
 export function setPedUpperBodyDamageOnly(ped: PedIndex, enableUpperBodyDamageOnly: boolean): void {
 	const setPedUpperBodyDamageOnly_result = Citizen.invokeNative<void>('0xEFD4518EFFDFB602', ped, enableUpperBodyDamageOnly);

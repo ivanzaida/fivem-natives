@@ -6,8 +6,8 @@ import { EUgcCategory } from '@ivanzaida/structures'
  * 0x9FFE2545E71B490E
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {EUgcCategory}  
  */
 export function ugcGetContentCategory(content: number): EUgcCategory {

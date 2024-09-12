@@ -6,9 +6,9 @@ import { ENetworkRosPrivilegeid } from '@ivanzaida/structures'
  * 0x428539069343758E
 
  * index is always 18 in scripts
- * 
- * ------------------------------------------------------------------
- * @param {ENetworkRosPrivilegeid} privilegeId
+ * 
+ * ------------------------------------------------------------------
+ * @param {ENetworkRosPrivilegeid} privilegeId
  * @returns {boolean}  
  */
 export function networkHasRosPrivilege(privilegeId: ENetworkRosPrivilegeid | number): boolean {

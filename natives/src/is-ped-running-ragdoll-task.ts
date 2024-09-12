@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x86521C678E8AA3FF
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedRunningRagdollTask(ped: PedIndex): boolean {

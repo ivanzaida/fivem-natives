@@ -6,8 +6,8 @@ import { FmEventAmbMissionDeadDrop } from '@ivanzaida/structures'
  * 0x41A58057D21172EA
 
  * 
- * ------------------------------------------------------------------
- * @param {FmEventAmbMissionDeadDrop} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {FmEventAmbMissionDeadDrop} data [Ref]
  */
 export function playstatsFmEventDeaddrop(data: FmEventAmbMissionDeadDrop /* ptr */): void {
 	const playstatsFmEventDeaddrop_result = Citizen.invokeNative<void>('0x41A58057D21172EA', data.dataView);

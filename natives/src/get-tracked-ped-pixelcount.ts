@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x9AD0C5A6374B4A86
 
  * Test for a ped visibility using hardware visibility tracking
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {number}  
  */
 export function getTrackedPedPixelcount(ped: PedIndex): number {

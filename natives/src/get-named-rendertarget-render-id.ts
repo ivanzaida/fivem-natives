@@ -4,8 +4,8 @@
  * 0x08732C0099FA1813
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {number}  
  */
 export function getNamedRendertargetRenderId(name: string): number {

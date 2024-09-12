@@ -6,9 +6,9 @@ import { EControlType } from '@ivanzaida/structures'
  * 0xAE231F549813BBDF
 
  * control: unused parameter
- * 
- * ------------------------------------------------------------------
- * @param {EControlType} control
+ * 
+ * ------------------------------------------------------------------
+ * @param {EControlType} control
  * @returns {boolean}  
  */
 export function isUsingKeyboardAndMouse(control: EControlType | number): boolean {

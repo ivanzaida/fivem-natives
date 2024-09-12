@@ -4,8 +4,8 @@
  * 0xD6F9DEE4765092A9
 
  * 
- * ------------------------------------------------------------------
- * @param {string} stringToTest
+ * ------------------------------------------------------------------
+ * @param {string} stringToTest
  * @returns {boolean}  
  */
 export function isStringNullOrEmpty(stringToTest: string): boolean {

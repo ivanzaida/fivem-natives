@@ -4,7 +4,7 @@
  * 0x47C5F1CAA6A07D67
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkHavePlatformSubscription(): boolean {

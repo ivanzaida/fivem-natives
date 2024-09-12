@@ -4,7 +4,7 @@
  * 0x48BD57D0DD17786A
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function setAttachedVehicleToTowTruckArm(): void {
 	const setAttachedVehicleToTowTruckArm_result = Citizen.invokeNative<void>('0x48BD57D0DD17786A', );

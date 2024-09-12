@@ -4,9 +4,9 @@
  * 0XCC8CA25
 
  * Check whether specified channel exists on the Mumble server.
- * 
- * ------------------------------------------------------------------
- * @param {number} channel A game voice channel ID.
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} channel A game voice channel ID.
  * @returns {boolean}  True if the specific channel exists. False otherwise.
  */
 export function mumbleDoesChannelExist(channel: number): boolean {

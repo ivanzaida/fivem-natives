@@ -6,9 +6,9 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xD92F8845433585F0
 
  * 9.8  thrust if air vehicle, else 0.38 + drive force?
- * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * 
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {number}  
  */
 export function getVehicleModelAccelerationMaxMods(vehicleModelHashKey: ModelNames): number {

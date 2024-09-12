@@ -4,8 +4,8 @@
  * 0x5F9F81C08516558E
 
  * Returns whether the player is signed into Social Club.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkIsSignedIn(): boolean {

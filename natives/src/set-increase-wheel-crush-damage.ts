@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xEB7247ECF9313934
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} increaseDamage
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} increaseDamage
  */
 export function setIncreaseWheelCrushDamage(vehicle: VehicleIndex, increaseDamage: boolean): void {
 	const setIncreaseWheelCrushDamage_result = Citizen.invokeNative<void>('0xEB7247ECF9313934', vehicle, increaseDamage);

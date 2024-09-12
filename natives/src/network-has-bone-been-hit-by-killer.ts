@@ -4,8 +4,8 @@
  * 0x4B8C68B93333048F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} bone
+ * ------------------------------------------------------------------
+ * @param {number} bone
  * @returns {boolean}  
  */
 export function networkHasBoneBeenHitByKiller(bone: number): boolean {

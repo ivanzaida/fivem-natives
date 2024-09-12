@@ -6,10 +6,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xC4A38E060739AAF9
 
  * Enable/disable whether a player leaves behind a ped if they leave a session.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} leavePedBehind
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} leavePedBehind
  */
 export function setPlayerLeavePedBehind(player: PlayerIndex, leavePedBehind: boolean): void {
 	const setPlayerLeavePedBehind_result = Citizen.invokeNative<void>('0xC4A38E060739AAF9', player, leavePedBehind);

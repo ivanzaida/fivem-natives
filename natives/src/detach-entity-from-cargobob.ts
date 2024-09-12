@@ -6,9 +6,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x9CF923758A7DEF91
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function detachEntityFromCargobob(cargobob: VehicleIndex, entity: EntityIndex): boolean {

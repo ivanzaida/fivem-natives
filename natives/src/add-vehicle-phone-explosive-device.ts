@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xD213EC7C7B81BCEE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function addVehiclePhoneExplosiveDevice(vehicle: VehicleIndex): void {
 	const addVehiclePhoneExplosiveDevice_result = Citizen.invokeNative<void>('0xD213EC7C7B81BCEE', vehicle);

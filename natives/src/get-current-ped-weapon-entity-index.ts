@@ -6,9 +6,9 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x484426882F80CACE
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} doDeadCheck
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} doDeadCheck
  * @returns {EntityIndex}  
  */
 export function getCurrentPedWeaponEntityIndex(ped: PedIndex, doDeadCheck: boolean = true): EntityIndex {

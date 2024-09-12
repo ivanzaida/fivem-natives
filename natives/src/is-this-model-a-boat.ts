@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0xEA4F815FDC353FEF
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} vehicleModelHashKey
+ * ------------------------------------------------------------------
+ * @param {ModelNames} vehicleModelHashKey
  * @returns {boolean}  
  */
 export function isThisModelABoat(vehicleModelHashKey: ModelNames): boolean {

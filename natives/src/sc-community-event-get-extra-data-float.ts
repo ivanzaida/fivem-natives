@@ -6,9 +6,9 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0x8D59CDA8F573220D
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {FloatRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {FloatRef} value [Ref]
  * @returns {boolean}  
  */
 export function scCommunityEventGetExtraDataFloat(name: string, value: FloatRef /* ptr */): boolean {

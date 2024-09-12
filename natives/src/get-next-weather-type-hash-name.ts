@@ -4,9 +4,9 @@
  * 0x60B554F782F2E6A6
 
  * Gets the hash name of the next weather type (the one we are currently interpolating towards)
- * Returns weather name hash
- * 
- * ------------------------------------------------------------------
+ * Returns weather name hash
+ * 
+ * ------------------------------------------------------------------
  * @returns {number}  
  */
 export function getNextWeatherTypeHashName(): number {

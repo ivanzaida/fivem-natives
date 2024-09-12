@@ -7,8 +7,8 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x78C4EBB0251847E2
 
  * 
- * ------------------------------------------------------------------
- * @param {Vector3} outPositionVector [Ref]
+ * ------------------------------------------------------------------
+ * @param {Vector3} outPositionVector [Ref]
  */
 export function getMobilePhonePosition(outPositionVector: Vector3 /* ptr */): void {
 	const outPositionVectorPtr = new Vector3Ref();

@@ -4,7 +4,7 @@
  * 0X5550BF9F
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {number}  Current fuel consumption rate multiplier. 0 means that fuel is not consumed.
  */
 export function getFuelConsumptionRateMultiplier(): number {

@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x2808DFFEC5749CCF
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} plane
- * @param {number} nozzleRatio
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} plane
+ * @param {number} nozzleRatio
  */
 export function setVehicleFlightNozzlePosition(plane: EntityIndex, nozzleRatio: number): void {
 	const setVehicleFlightNozzlePosition_result = Citizen.invokeNative<void>('0x2808DFFEC5749CCF', plane, nozzleRatio);

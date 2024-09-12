@@ -6,8 +6,8 @@ import { PedIndex, BlipIndex } from '@ivanzaida/structures'
  * 0xA95E5FB2D27EECF2
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} pedID
+ * ------------------------------------------------------------------
+ * @param {PedIndex} pedID
  * @returns {BlipIndex}  
  */
 export function getAiPedPedBlipIndex(pedID: PedIndex): BlipIndex {

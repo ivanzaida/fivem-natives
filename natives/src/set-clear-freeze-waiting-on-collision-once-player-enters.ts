@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xA133EF296C37D6E6
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} clearWaitingOnCollision
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} clearWaitingOnCollision
  */
 export function setClearFreezeWaitingOnCollisionOncePlayerEnters(vehicle: VehicleIndex, clearWaitingOnCollision: boolean): void {
 	const setClearFreezeWaitingOnCollisionOncePlayerEnters_result = Citizen.invokeNative<void>('0xA133EF296C37D6E6', vehicle, clearWaitingOnCollision);

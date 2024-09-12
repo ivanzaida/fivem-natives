@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x1A6B031C358F6071
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function allowTrainToBeRemovedByPopulation(vehicle: VehicleIndex): void {
 	const allowTrainToBeRemovedByPopulation_result = Citizen.invokeNative<void>('0x1A6B031C358F6071', vehicle);

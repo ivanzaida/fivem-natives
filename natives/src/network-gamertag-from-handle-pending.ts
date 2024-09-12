@@ -4,7 +4,7 @@
  * 0x6B6DB41744C41D5E
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkGamertagFromHandlePending(): boolean {

@@ -4,7 +4,7 @@
  * 0x666ACF938032B583
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function startEndUserBenchmark(): void {
 	const startEndUserBenchmark_result = Citizen.invokeNative<void>('0x666ACF938032B583', );

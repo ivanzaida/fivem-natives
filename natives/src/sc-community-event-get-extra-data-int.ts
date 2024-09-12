@@ -6,9 +6,9 @@ import { IntRef } from '@ivanzaida/structures'
  * 0xDBAD1B5E0100936B
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
- * @param {IntRef} value [Ref]
+ * ------------------------------------------------------------------
+ * @param {string} name
+ * @param {IntRef} value [Ref]
  * @returns {boolean}  
  */
 export function scCommunityEventGetExtraDataInt(name: string, value: IntRef /* ptr */): boolean {

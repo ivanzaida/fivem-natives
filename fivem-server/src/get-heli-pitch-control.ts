@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X1944AC95
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} heli The helicopter to check.
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} heli The helicopter to check.
  * @returns {number}  Returns a value representing the pitch control of the helicopter. The values range from `-1.0` (nose down) to `1.0` (nose up), with `0.0` indicating no pitch input.
  */
 export function getHeliPitchControl(heli: VehicleIndex): number {

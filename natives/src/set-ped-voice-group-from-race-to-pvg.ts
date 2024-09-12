@@ -6,10 +6,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x4349438F7A83A186
 
  * Dat151RelType == 29
- * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} raceToPVGHash
+ * 
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} raceToPVGHash
  */
 export function setPedVoiceGroupFromRaceToPvg(ped: PedIndex, raceToPVGHash: number): void {
 	const setPedVoiceGroupFromRaceToPvg_result = Citizen.invokeNative<void>('0x4349438F7A83A186', ped, raceToPVGHash);

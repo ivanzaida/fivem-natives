@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x903DAFB544C5CA0D
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} playerId
- * @param {boolean} includePlayersVehicle
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} playerId
+ * @param {boolean} includePlayersVehicle
  */
 export function setPlayerInvisibleLocally(playerId: PlayerIndex, includePlayersVehicle: boolean = false): void {
 	const setPlayerInvisibleLocally_result = Citizen.invokeNative<void>('0x903DAFB544C5CA0D', playerId, includePlayersVehicle);

@@ -4,8 +4,8 @@
  * 0xFFEDCFBF2A7D07DE
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {boolean}  
  */
 export function ugcGetContentHasLoResPhoto(content: number): boolean {

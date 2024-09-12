@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0xE6896553A815F074
 
  * Checks if the player has been spotted in a stolen vehicle
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function hasPlayerBeenSpottedInStolenVehicle(player: PlayerIndex): boolean {

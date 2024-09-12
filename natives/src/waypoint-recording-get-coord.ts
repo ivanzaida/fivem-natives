@@ -7,12 +7,12 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * 0x653B8254D6830E88
 
  * Full list of waypoint recordings by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/waypointRecordings.json
- * For a full list of the points, see here: goo.gl/wIH0vn
- * 
- * ------------------------------------------------------------------
- * @param {string} recordingName
- * @param {number} waypoint
- * @param {Vector3} outCoord [Ref]
+ * For a full list of the points, see here: goo.gl/wIH0vn
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} recordingName
+ * @param {number} waypoint
+ * @param {Vector3} outCoord [Ref]
  * @returns {boolean}  
  */
 export function waypointRecordingGetCoord(recordingName: string, waypoint: number, outCoord: Vector3 /* ptr */): boolean {

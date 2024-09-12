@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xE2F63CAB8DDA4016
 
  * Command to open a bomb bay, this isn't setup like a normal door.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function openBombBayDoors(vehicle: VehicleIndex): void {
 	const openBombBayDoors_result = Citizen.invokeNative<void>('0xE2F63CAB8DDA4016', vehicle);

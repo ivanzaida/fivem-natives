@@ -4,8 +4,8 @@
  * 0xC638DA98694CE80F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} identifierHash
+ * ------------------------------------------------------------------
+ * @param {number} identifierHash
  * @returns {boolean}  
  */
 export function isDlcVehicleMod(identifierHash: number): boolean {

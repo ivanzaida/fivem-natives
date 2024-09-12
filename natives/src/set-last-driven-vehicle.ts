@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xC9BBB26582F3058A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setLastDrivenVehicle(vehicle: VehicleIndex): void {
 	const setLastDrivenVehicle_result = Citizen.invokeNative<void>('0xC9BBB26582F3058A', vehicle);

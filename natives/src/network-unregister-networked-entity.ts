@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0xE34E2B2CD0086B03
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
  */
 export function networkUnregisterNetworkedEntity(entity: EntityIndex): void {
 	const networkUnregisterNetworkedEntity_result = Citizen.invokeNative<void>('0xE34E2B2CD0086B03', entity);

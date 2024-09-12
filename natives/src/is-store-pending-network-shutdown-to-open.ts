@@ -4,7 +4,7 @@
  * 0x4CEC1EF3DCEEDD1C
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function isStorePendingNetworkShutdownToOpen(): boolean {

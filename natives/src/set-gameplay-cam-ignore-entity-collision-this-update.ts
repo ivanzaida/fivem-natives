@@ -6,8 +6,8 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x159356D054E19158
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} index
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} index
  */
 export function setGameplayCamIgnoreEntityCollisionThisUpdate(index: EntityIndex): void {
 	const setGameplayCamIgnoreEntityCollisionThisUpdate_result = Citizen.invokeNative<void>('0x159356D054E19158', index);

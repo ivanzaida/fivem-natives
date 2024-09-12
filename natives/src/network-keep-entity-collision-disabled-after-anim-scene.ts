@@ -6,10 +6,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x69BED8420A766753
 
  * Stops the Cutscene anim manager from enabling the collision of the entity
- * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} keepCollisionDisabled
+ * 
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entity
+ * @param {boolean} keepCollisionDisabled
  */
 export function networkKeepEntityCollisionDisabledAfterAnimScene(entity: EntityIndex, keepCollisionDisabled: boolean): void {
 	const networkKeepEntityCollisionDisabledAfterAnimScene_result = Citizen.invokeNative<void>('0x69BED8420A766753', entity, keepCollisionDisabled);

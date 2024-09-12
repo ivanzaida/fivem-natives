@@ -4,9 +4,9 @@
  * 0xCEBBA737179CE3D0
 
  * 
- * ------------------------------------------------------------------
- * @param {string[]} arr
- * @param {number} index
+ * ------------------------------------------------------------------
+ * @param {string[]} arr
+ * @param {number} index
  * @returns {number}  
  */
 export function dataarrayGetFloat(arr: string[], index: number): number {

@@ -4,8 +4,8 @@
  * 0X97B2F9F8
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} enabled
+ * ------------------------------------------------------------------
+ * @param {boolean} enabled
  * @returns {boolean}  
  */
 export function setTextChatEnabled(enabled: boolean): boolean {

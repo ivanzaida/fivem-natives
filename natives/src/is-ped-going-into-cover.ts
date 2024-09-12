@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3F055D2CBA242A5D
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  * @returns {boolean}  
  */
 export function isPedGoingIntoCover(ped: PedIndex): boolean {

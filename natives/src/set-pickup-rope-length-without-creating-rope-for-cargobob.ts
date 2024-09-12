@@ -6,10 +6,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x907862D7EED879DE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} cargobob
- * @param {number} detachedRopeLength
- * @param {number} attachedRopeLength
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} cargobob
+ * @param {number} detachedRopeLength
+ * @param {number} attachedRopeLength
  */
 export function setPickupRopeLengthWithoutCreatingRopeForCargobob(cargobob: VehicleIndex, detachedRopeLength: number, attachedRopeLength: number): void {
 	const setPickupRopeLengthWithoutCreatingRopeForCargobob_result = Citizen.invokeNative<void>('0x907862D7EED879DE', cargobob, detachedRopeLength, attachedRopeLength);

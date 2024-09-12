@@ -6,9 +6,9 @@ import { PedIndex, EPedRagdollComponents } from '@ivanzaida/structures'
  * 0xA2EFF78CEBC29932
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedRagdollComponents} ragdollComponent
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedRagdollComponents} ragdollComponent
  * @returns {number}  
  */
 export function getPedRagdollBoneIndex(ped: PedIndex, ragdollComponent: EPedRagdollComponents | number): number {

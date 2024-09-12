@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xFEC8EAE457274AD3
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function removeDecalsFromVehicle(vehicle: VehicleIndex): void {
 	const removeDecalsFromVehicle_result = Citizen.invokeNative<void>('0xFEC8EAE457274AD3', vehicle);

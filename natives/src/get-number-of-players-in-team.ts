@@ -4,8 +4,8 @@
  * 0x18476AA515A4460B
 
  * 
- * ------------------------------------------------------------------
- * @param {number} team
+ * ------------------------------------------------------------------
+ * @param {number} team
  * @returns {number}  
  */
 export function getNumberOfPlayersInTeam(team: number): number {

@@ -6,8 +6,8 @@ import { IntRef } from '@ivanzaida/structures'
  * 0X3FF9D340
 
  * 
- * ------------------------------------------------------------------
- * @param {IntRef} outEntity [Ref]
+ * ------------------------------------------------------------------
+ * @param {IntRef} outEntity [Ref]
  * @returns {number}  
  */
 export function findFirstPickup(outEntity: IntRef /* ptr */): number {

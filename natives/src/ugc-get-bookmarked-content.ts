@@ -6,11 +6,11 @@ import { IntRef } from '@ivanzaida/structures'
  * 0x30385B4D972827A5
 
  * 
- * ------------------------------------------------------------------
- * @param {number} offset
- * @param {number} maxCount
- * @param {string} szContentType
- * @param {IntRef} descriptionsId [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} offset
+ * @param {number} maxCount
+ * @param {string} szContentType
+ * @param {IntRef} descriptionsId [Ref]
  * @returns {boolean}  
  */
 export function ugcGetBookmarkedContent(offset: number, maxCount: number, szContentType: string, descriptionsId: IntRef /* ptr */): boolean {

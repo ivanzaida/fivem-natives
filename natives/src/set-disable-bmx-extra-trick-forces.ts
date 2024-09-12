@@ -4,8 +4,8 @@
  * 0xB65B0A6A52A484B5
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} disableExtraTrickForces
+ * ------------------------------------------------------------------
+ * @param {boolean} disableExtraTrickForces
  */
 export function setDisableBmxExtraTrickForces(disableExtraTrickForces: boolean): void {
 	const setDisableBmxExtraTrickForces_result = Citizen.invokeNative<void>('0xB65B0A6A52A484B5', disableExtraTrickForces);

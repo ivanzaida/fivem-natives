@@ -6,8 +6,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0x711CB952E5BE087E
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
  * @returns {boolean}  
  */
 export function placeObjectOnGroundOrObjectProperly(object: ObjectIndex): boolean {

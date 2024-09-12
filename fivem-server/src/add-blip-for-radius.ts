@@ -6,11 +6,11 @@ import { BlipIndex } from '@ivanzaida/structures'
  * 0X4626756C
 
  * 
- * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} size
+ * ------------------------------------------------------------------
+ * @param {number} coorsX
+ * @param {number} coorsY
+ * @param {number} coorsZ
+ * @param {number} size
  * @returns {BlipIndex}  
  */
 export function addBlipForRadius(coorsX: number, coorsY: number, coorsZ: number, size: number): BlipIndex {

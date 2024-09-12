@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x771C914E893FD9EB
 
  * Appears once in "re_dealgonewrong"
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {boolean}  
  */
 export function getIsPlayerDrivingOnHighway(player: PlayerIndex): boolean {

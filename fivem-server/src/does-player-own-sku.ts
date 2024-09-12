@@ -4,10 +4,10 @@
  * 0X167ABA27
 
  * Requests whether or not the player owns the specified SKU.
- * 
- * ------------------------------------------------------------------
- * @param {string} playerSrc The player handle
- * @param {number} skuId The ID of the SKU.
+ * 
+ * ------------------------------------------------------------------
+ * @param {string} playerSrc The player handle
+ * @param {number} skuId The ID of the SKU.
  * @returns {boolean}  A boolean.
  */
 export function doesPlayerOwnSku(playerSrc: string, skuId: number): boolean {

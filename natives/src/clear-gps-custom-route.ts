@@ -4,7 +4,7 @@
  * 0x3C42C704473E4986
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  */
 export function clearGpsCustomRoute(): void {
 	const clearGpsCustomRoute_result = Citizen.invokeNative<void>('0x3C42C704473E4986', );

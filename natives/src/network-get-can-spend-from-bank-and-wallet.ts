@@ -4,10 +4,10 @@
  * 0x818CFAC7819E0460
 
  * Returns true if bank balance + wallet balance >= amount.
- * 
- * ------------------------------------------------------------------
- * @param {number} amount
- * @param {number} character
+ * 
+ * ------------------------------------------------------------------
+ * @param {number} amount
+ * @param {number} character
  * @returns {boolean}  
  */
 export function networkGetCanSpendFromBankAndWallet(amount: number, character: number = 1): boolean {

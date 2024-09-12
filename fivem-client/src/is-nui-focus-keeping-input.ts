@@ -4,8 +4,8 @@
  * 0X39C9DC92
 
  * Checks if keyboard input is enabled during NUI focus using `SET_NUI_FOCUS_KEEP_INPUT`.
- * 
- * ------------------------------------------------------------------
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  True or false.
  */
 export function isNuiFocusKeepingInput(): boolean {

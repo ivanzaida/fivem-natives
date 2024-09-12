@@ -4,10 +4,10 @@
  * 0x996932F6DFE01964
 
  * 
- * ------------------------------------------------------------------
- * @param {string} scriptName
- * @param {number} instanceId
- * @param {number} positionHash
+ * ------------------------------------------------------------------
+ * @param {string} scriptName
+ * @param {number} instanceId
+ * @param {number} positionHash
  * @returns {number}  
  */
 export function networkGetNumScriptParticipants(scriptName: string, instanceId: number = 1, positionHash: number = 0): number {

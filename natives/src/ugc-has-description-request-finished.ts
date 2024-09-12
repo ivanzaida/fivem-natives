@@ -4,8 +4,8 @@
  * 0x28F3FD2263FCE777
 
  * 
- * ------------------------------------------------------------------
- * @param {number} hash
+ * ------------------------------------------------------------------
+ * @param {number} hash
  * @returns {boolean}  
  */
 export function ugcHasDescriptionRequestFinished(hash: number): boolean {

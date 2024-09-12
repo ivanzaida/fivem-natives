@@ -6,11 +6,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X35ED100D
 
  * Sets the rotation speed of a wheel.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
- * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} wheelIndex
- * @param {number} speed
+ * 
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} wheelIndex
+ * @param {number} speed
  */
 export function setVehicleWheelRotationSpeed(vehicle: VehicleIndex, wheelIndex: number, speed: number): void {
 	const setVehicleWheelRotationSpeed_result = Citizen.invokeNative<void>('0X35ED100D', vehicle, wheelIndex, speed);

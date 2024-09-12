@@ -4,8 +4,8 @@
  * 0x5F27287D37B4D40D
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} active
+ * ------------------------------------------------------------------
+ * @param {boolean} active
  */
 export function usePlayerColourInsteadOfTeamColour(active: boolean): void {
 	const usePlayerColourInsteadOfTeamColour_result = Citizen.invokeNative<void>('0x5F27287D37B4D40D', active);

@@ -6,8 +6,8 @@ import { BcCarJacking } from '@ivanzaida/structures'
  * 0xAC598BA78ED25971
 
  * 
- * ------------------------------------------------------------------
- * @param {BcCarJacking} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {BcCarJacking} data [Ref]
  */
 export function playstatsBcCarJacking(data: BcCarJacking /* ptr */): void {
 	const playstatsBcCarJacking_result = Citizen.invokeNative<void>('0xAC598BA78ED25971', data.dataView);

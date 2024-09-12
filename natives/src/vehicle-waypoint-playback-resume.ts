@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x5FC3A3680DA3531A
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
  */
 export function vehicleWaypointPlaybackResume(veh: VehicleIndex): void {
 	const vehicleWaypointPlaybackResume_result = Citizen.invokeNative<void>('0x5FC3A3680DA3531A', veh);

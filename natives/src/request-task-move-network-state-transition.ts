@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x442A7753A4EB7411
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {string} stateName
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {string} stateName
  * @returns {boolean}  
  */
 export function requestTaskMoveNetworkStateTransition(ped: PedIndex, stateName: string): boolean {

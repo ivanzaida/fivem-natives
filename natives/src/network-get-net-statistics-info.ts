@@ -6,9 +6,9 @@ import { NetStatisticsInfo } from '@ivanzaida/structures'
  * 0xDF399EF490797927
 
  * Does nothing (it's a nullsub).
- * 
- * ------------------------------------------------------------------
- * @param {NetStatisticsInfo} info [Ref]
+ * 
+ * ------------------------------------------------------------------
+ * @param {NetStatisticsInfo} info [Ref]
  */
 export function networkGetNetStatisticsInfo(info: NetStatisticsInfo /* ptr */): void {
 	const networkGetNetStatisticsInfo_result = Citizen.invokeNative<void>('0xDF399EF490797927', info.dataView);

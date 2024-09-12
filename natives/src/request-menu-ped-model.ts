@@ -6,8 +6,8 @@ import { ModelNames } from '@ivanzaida/structures'
  * 0x99EE60555ADD76D0
 
  * 
- * ------------------------------------------------------------------
- * @param {ModelNames} model
+ * ------------------------------------------------------------------
+ * @param {ModelNames} model
  */
 export function requestMenuPedModel(model: ModelNames): void {
 	const requestMenuPedModel_result = Citizen.invokeNative<void>('0x99EE60555ADD76D0', model);

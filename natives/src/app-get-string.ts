@@ -4,8 +4,8 @@
  * 0x9C05D47937B35A7C
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {string}  
  */
 export function appGetString(name: string): string {

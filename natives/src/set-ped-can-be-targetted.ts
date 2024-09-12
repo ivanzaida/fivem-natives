@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3F58BFCF656F0DF1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} allowTargetted
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} allowTargetted
  */
 export function setPedCanBeTargetted(ped: PedIndex, allowTargetted: boolean): void {
 	const setPedCanBeTargetted_result = Citizen.invokeNative<void>('0x3F58BFCF656F0DF1', ped, allowTargetted);

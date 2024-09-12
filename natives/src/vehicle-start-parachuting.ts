@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xDCD94B3260CB762C
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} allowPlayerCancelParachuting
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} allowPlayerCancelParachuting
  */
 export function vehicleStartParachuting(vehicle: VehicleIndex, allowPlayerCancelParachuting: boolean = true): void {
 	const vehicleStartParachuting_result = Citizen.invokeNative<void>('0xDCD94B3260CB762C', vehicle, allowPlayerCancelParachuting);

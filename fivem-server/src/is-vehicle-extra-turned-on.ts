@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X42098B5
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} extra
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} extra
  * @returns {boolean}  
  */
 export function isVehicleExtraTurnedOn(vehicle: VehicleIndex, extra: number): boolean {

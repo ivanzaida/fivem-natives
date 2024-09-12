@@ -6,8 +6,8 @@ import { Threecardpokermetric } from '@ivanzaida/structures'
  * 0x5B04C6D6A21F6BDE
 
  * 
- * ------------------------------------------------------------------
- * @param {Threecardpokermetric} data [Ref]
+ * ------------------------------------------------------------------
+ * @param {Threecardpokermetric} data [Ref]
  */
 export function playstatsCasinoThreeCardPoker(data: Threecardpokermetric /* ptr */): void {
 	const playstatsCasinoThreeCardPoker_result = Citizen.invokeNative<void>('0x5B04C6D6A21F6BDE', data.dataView);

@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xABA0B084615631D7
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} maxTime
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {number} maxTime
  */
 export function setPedMaxTimeInWater(ped: PedIndex, maxTime: number): void {
 	const setPedMaxTimeInWater_result = Citizen.invokeNative<void>('0xABA0B084615631D7', ped, maxTime);

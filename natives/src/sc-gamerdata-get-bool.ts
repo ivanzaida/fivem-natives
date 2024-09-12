@@ -4,8 +4,8 @@
  * 0x65395D04908A6F78
 
  * 
- * ------------------------------------------------------------------
- * @param {string} name
+ * ------------------------------------------------------------------
+ * @param {string} name
  * @returns {boolean}  
  */
 export function scGamerdataGetBool(name: string): boolean {

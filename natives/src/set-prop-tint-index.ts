@@ -6,9 +6,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  * 0xD3CBD77236B58852
 
  * 
- * ------------------------------------------------------------------
- * @param {ObjectIndex} object
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {ObjectIndex} object
+ * @param {number} tint
  */
 export function setPropTintIndex(object: ObjectIndex, tint: number): void {
 	const setPropTintIndex_result = Citizen.invokeNative<void>('0xD3CBD77236B58852', object, tint);

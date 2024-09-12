@@ -4,8 +4,8 @@
  * 0x116CDE00FC231A4B
 
  * 
- * ------------------------------------------------------------------
- * @param {string} friendName
+ * ------------------------------------------------------------------
+ * @param {string} friendName
  * @returns {boolean}  
  */
 export function networkIsFriendInMultiplayer(friendName: string): boolean {

@@ -4,8 +4,8 @@
  * 0xCBC4C0F54C8BFFD1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} tint
+ * ------------------------------------------------------------------
+ * @param {number} tint
  * @returns {boolean}  
  */
 export function isPedHairTintForCreator(tint: number): boolean {

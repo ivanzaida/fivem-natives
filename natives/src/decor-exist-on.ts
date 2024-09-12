@@ -6,10 +6,10 @@ import { ItemIndex } from '@ivanzaida/structures'
  * 0xD130E7CDEE903624
 
  * Returns whether or not the specified property is set for the entity.
- * 
- * ------------------------------------------------------------------
- * @param {ItemIndex} guid
- * @param {string} decoratorName
+ * 
+ * ------------------------------------------------------------------
+ * @param {ItemIndex} guid
+ * @param {string} decoratorName
  * @returns {boolean}  
  */
 export function decorExistOn(guid: ItemIndex, decoratorName: string): boolean {

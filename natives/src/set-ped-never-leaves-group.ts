@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xBC14FFDBE1C32C51
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} neverLeavesGroupFlag
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {boolean} neverLeavesGroupFlag
  */
 export function setPedNeverLeavesGroup(ped: PedIndex, neverLeavesGroupFlag: boolean): void {
 	const setPedNeverLeavesGroup_result = Citizen.invokeNative<void>('0xBC14FFDBE1C32C51', ped, neverLeavesGroupFlag);

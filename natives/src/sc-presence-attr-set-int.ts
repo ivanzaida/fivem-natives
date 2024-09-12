@@ -6,9 +6,9 @@ import { EScPresAttrId } from '@ivanzaida/structures'
  * 0x1A84C6BBF1FCC329
 
  * 
- * ------------------------------------------------------------------
- * @param {EScPresAttrId} valueId
- * @param {number} value
+ * ------------------------------------------------------------------
+ * @param {EScPresAttrId} valueId
+ * @param {number} value
  * @returns {boolean}  
  */
 export function scPresenceAttrSetInt(valueId: EScPresAttrId | number, value: number): boolean {

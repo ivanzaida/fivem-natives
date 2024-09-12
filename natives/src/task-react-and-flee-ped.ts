@@ -6,9 +6,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0x3EE6720350A31CAB
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {PedIndex} otherPed
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {PedIndex} otherPed
  */
 export function taskReactAndFleePed(ped: PedIndex, otherPed: PedIndex): void {
 	const taskReactAndFleePed_result = Citizen.invokeNative<void>('0x3EE6720350A31CAB', ped, otherPed);

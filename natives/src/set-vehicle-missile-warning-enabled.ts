@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x41F9D74D334CF57B
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} veh
- * @param {boolean} enabled
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} veh
+ * @param {boolean} enabled
  */
 export function setVehicleMissileWarningEnabled(veh: VehicleIndex, enabled: boolean): void {
 	const setVehicleMissileWarningEnabled_result = Citizen.invokeNative<void>('0x41F9D74D334CF57B', veh, enabled);

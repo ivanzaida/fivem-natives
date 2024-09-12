@@ -6,9 +6,9 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  * 0x2E0309EF5F2EBDB1
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EntityIndex} entity
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function isPedHeadtrackingEntity(ped: PedIndex, entity: EntityIndex): boolean {

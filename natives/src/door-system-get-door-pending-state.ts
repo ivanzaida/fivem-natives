@@ -6,8 +6,8 @@ import { EDoorState } from '@ivanzaida/structures'
  * 0xE2A2194077783E19
 
  * 
- * ------------------------------------------------------------------
- * @param {number} doorEnumHash
+ * ------------------------------------------------------------------
+ * @param {number} doorEnumHash
  * @returns {EDoorState}  
  */
 export function doorSystemGetDoorPendingState(doorEnumHash: number): EDoorState {

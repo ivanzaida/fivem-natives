@@ -4,8 +4,8 @@
  * 0x4ECB46EDAD7EA53D
 
  * 
- * ------------------------------------------------------------------
- * @param {boolean} vibrate
+ * ------------------------------------------------------------------
+ * @param {boolean} vibrate
  */
 export function thefeedSetVibrateParameterForNextMessage(vibrate: boolean): void {
 	const thefeedSetVibrateParameterForNextMessage_result = Citizen.invokeNative<void>('0x4ECB46EDAD7EA53D', vibrate);

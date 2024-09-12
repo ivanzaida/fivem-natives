@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x17E5F27FA417E82E
 
  * Returns the PlayerAccountId of the given player. This is a persistent unique identifier received from ROS in our credentials.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {number}  
  */
 export function networkGetPlayerAccountId(player: PlayerIndex): number {

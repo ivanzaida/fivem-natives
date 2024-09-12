@@ -4,9 +4,9 @@
  * 0x5318F44DB7A13F50
 
  * Returns true if we're in the constrained PLM (Process Lifetime Management) mode (executing with reduced CPU/GPU allocation)
- * aka "constrained"
- * 
- * ------------------------------------------------------------------
+ * aka "constrained"
+ * 
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function plmIsInConstrainedMode(): boolean {

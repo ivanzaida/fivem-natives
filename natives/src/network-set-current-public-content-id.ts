@@ -4,8 +4,8 @@
  * 0xF49F5AE96EF1A683
 
  * 
- * ------------------------------------------------------------------
- * @param {string} newPublicContentId
+ * ------------------------------------------------------------------
+ * @param {string} newPublicContentId
  */
 export function networkSetCurrentPublicContentId(newPublicContentId: string): void {
 	const networkSetCurrentPublicContentId_result = Citizen.invokeNative<void>('0xF49F5AE96EF1A683', newPublicContentId);

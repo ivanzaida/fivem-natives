@@ -6,10 +6,10 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  * 0xCA362C769B0F4F0E
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedComponent} componentNumber
- * @param {number} tagHash
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EPedComponent} componentNumber
+ * @param {number} tagHash
  * @returns {boolean}  
  */
 export function doesCurrentPedComponentHaveRestrictionTag(ped: PedIndex, componentNumber: EPedComponent | number, tagHash: number): boolean {

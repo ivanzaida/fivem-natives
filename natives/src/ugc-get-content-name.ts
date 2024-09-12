@@ -4,8 +4,8 @@
  * 0xB3C23ED232D01319
 
  * 
- * ------------------------------------------------------------------
- * @param {number} content
+ * ------------------------------------------------------------------
+ * @param {number} content
  * @returns {string}  
  */
 export function ugcGetContentName(content: number): string {

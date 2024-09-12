@@ -6,9 +6,9 @@ import { LeaderboardUpdateData } from '@ivanzaida/structures'
  * 0xFFC169CFE58B4AE2
 
  * 
- * ------------------------------------------------------------------
- * @param {LeaderboardUpdateData} lbData [Ref]
- * @param {string} eventType
+ * ------------------------------------------------------------------
+ * @param {LeaderboardUpdateData} lbData [Ref]
+ * @param {string} eventType
  * @returns {boolean}  
  */
 export function leaderboards2WriteDataForEventType(lbData: LeaderboardUpdateData /* ptr */, eventType: string): boolean {

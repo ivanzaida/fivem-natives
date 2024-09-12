@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0x67697883F8C7E424
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {boolean} set
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {boolean} set
  */
 export function setNetworkVehicleAsGhost(vehicle: VehicleIndex, set: boolean): void {
 	const setNetworkVehicleAsGhost_result = Citizen.invokeNative<void>('0x67697883F8C7E424', vehicle, set);

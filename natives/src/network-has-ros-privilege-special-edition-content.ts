@@ -4,7 +4,7 @@
  * 0x753B42F8D561B8E2
 
  * 
- * ------------------------------------------------------------------
+ * ------------------------------------------------------------------
  * @returns {boolean}  
  */
 export function networkHasRosPrivilegeSpecialEditionContent(): boolean {

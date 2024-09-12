@@ -6,8 +6,8 @@ import { EProfileSetting } from '@ivanzaida/structures'
  * 0x38640D2193CB547F
 
  * 
- * ------------------------------------------------------------------
- * @param {EProfileSetting} setting
+ * ------------------------------------------------------------------
+ * @param {EProfileSetting} setting
  * @returns {number}  
  */
 export function getProfileSetting(setting: EProfileSetting | number): number {

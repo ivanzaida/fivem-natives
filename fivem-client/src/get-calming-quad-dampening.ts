@@ -6,9 +6,9 @@ import { FloatRef } from '@ivanzaida/structures'
  * 0XB0E3A058
 
  * 
- * ------------------------------------------------------------------
- * @param {number} waterQuad The calming quad index
- * @param {FloatRef} calmingQuadDampening [Ref]
+ * ------------------------------------------------------------------
+ * @param {number} waterQuad The calming quad index
+ * @param {FloatRef} calmingQuadDampening [Ref]
  * @returns {boolean}  Returns true on success. Dampening value is undefined on failure
  */
 export function getCalmingQuadDampening(waterQuad: number, calmingQuadDampening: FloatRef /* ptr */): boolean {

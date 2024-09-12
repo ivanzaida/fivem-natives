@@ -4,8 +4,8 @@
  * 0x9F0C06CFBACDD6A1
 
  * 
- * ------------------------------------------------------------------
- * @param {number} soundId
+ * ------------------------------------------------------------------
+ * @param {number} soundId
  * @returns {boolean}  
  */
 export function hasSoundFinished(soundId: number): boolean {

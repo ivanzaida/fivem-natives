@@ -6,9 +6,9 @@ import { PlayerIndex, PedIndex } from '@ivanzaida/structures'
  * 0x56E414973C2A8C0E
 
  * Gets the ped for a specified player index.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
  * @returns {PedIndex}  
  */
 export function getPlayerPed(player: PlayerIndex): PedIndex {

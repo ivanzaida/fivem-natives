@@ -6,8 +6,8 @@ import { PedIndex } from '@ivanzaida/structures'
  * 0xB739D4CB4D58B663
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
  */
 export function setPedIncreasedAvoidanceRadius(ped: PedIndex): void {
 	const setPedIncreasedAvoidanceRadius_result = Citizen.invokeNative<void>('0xB739D4CB4D58B663', ped);

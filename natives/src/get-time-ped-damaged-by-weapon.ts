@@ -6,9 +6,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 0x81B96B8125212E06
 
  * 
- * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} weaponType
+ * ------------------------------------------------------------------
+ * @param {PedIndex} ped
+ * @param {EWeaponType} weaponType
  * @returns {number}  
  */
 export function getTimePedDamagedByWeapon(ped: PedIndex, weaponType: EWeaponType | number): number {

@@ -6,8 +6,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0xC023C55477474DBE
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
  */
 export function setVehForcedRadioThisFrame(vehicle: VehicleIndex): void {
 	const setVehForcedRadioThisFrame_result = Citizen.invokeNative<void>('0xC023C55477474DBE', vehicle);

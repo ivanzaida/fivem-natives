@@ -6,9 +6,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 0x21478251925DBFD7
 
  * 
- * ------------------------------------------------------------------
- * @param {EntityIndex} entityIndex1
- * @param {EntityIndex} entityIndex2
+ * ------------------------------------------------------------------
+ * @param {EntityIndex} entityIndex1
+ * @param {EntityIndex} entityIndex2
  * @returns {boolean}  
  */
 export function isEntityAttachedToEntity(entityIndex1: EntityIndex, entityIndex2: EntityIndex): boolean {

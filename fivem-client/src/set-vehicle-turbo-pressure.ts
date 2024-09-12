@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0X6485615E
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} pressure
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} pressure
  */
 export function setVehicleTurboPressure(vehicle: VehicleIndex, pressure: number): void {
 	const setVehicleTurboPressure_result = Citizen.invokeNative<void>('0X6485615E', vehicle, pressure);

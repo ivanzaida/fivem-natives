@@ -6,10 +6,10 @@ import { PlayerIndex, EntityIndex } from '@ivanzaida/structures'
  * 0xE5D813FA6F741B01
 
  * Gets a value indicating whether the specified player is currently aiming freely at the specified entity.
- * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {EntityIndex} entity
+ * 
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {EntityIndex} entity
  * @returns {boolean}  
  */
 export function isPlayerFreeAimingAtEntity(player: PlayerIndex, entity: EntityIndex): boolean {

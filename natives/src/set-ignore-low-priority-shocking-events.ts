@@ -6,9 +6,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * 0x50402A290336E9AF
 
  * 
- * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} ignoreEvents
+ * ------------------------------------------------------------------
+ * @param {PlayerIndex} player
+ * @param {boolean} ignoreEvents
  */
 export function setIgnoreLowPriorityShockingEvents(player: PlayerIndex, ignoreEvents: boolean): void {
 	const setIgnoreLowPriorityShockingEvents_result = Citizen.invokeNative<void>('0x50402A290336E9AF', player, ignoreEvents);

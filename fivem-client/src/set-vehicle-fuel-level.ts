@@ -6,9 +6,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 0XBA970511
 
  * 
- * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {number} level
+ * ------------------------------------------------------------------
+ * @param {VehicleIndex} vehicle
+ * @param {number} level
  */
 export function setVehicleFuelLevel(vehicle: VehicleIndex, level: number): void {
 	const setVehicleFuelLevel_result = Citizen.invokeNative<void>('0XBA970511', vehicle, level);

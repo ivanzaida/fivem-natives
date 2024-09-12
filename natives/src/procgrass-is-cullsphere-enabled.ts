@@ -4,8 +4,8 @@
  * 0x67A272C42918EF9F
 
  * 
- * ------------------------------------------------------------------
- * @param {number} idx
+ * ------------------------------------------------------------------
+ * @param {number} idx
  * @returns {boolean}  
  */
 export function procgrassIsCullsphereEnabled(idx: number): boolean {

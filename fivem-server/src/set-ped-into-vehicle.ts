@@ -1,4 +1,4 @@
-import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
+import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_INTO_VEHICLE
@@ -17,9 +17,9 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
  * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * @param {number} seatIndex See eSeatPosition declared in [IS_VEHICLE_SEAT_FREE](\_0x22AC59A870E6A669). 2 for the first available seat.
  */
-export function setPedIntoVehicle(ped: PedIndex, vehicle: VehicleIndex, seat: EVehicleSeat | number = 1): void {
-	const setPedIntoVehicle_result = Citizen.invokeNative<void>('0x7500C79', ped, vehicle, seat);
+export function setPedIntoVehicle(ped: PedIndex, vehicle: VehicleIndex, seatIndex: number): void {
+	const setPedIntoVehicle_result = Citizen.invokeNative<void>('0x7500C79', ped, vehicle, seatIndex);
 	return setPedIntoVehicle_result;
 }

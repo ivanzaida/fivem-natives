@@ -17,7 +17,7 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  * }
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * @param {VehicleIndex} vehicle A vehicle handle.
  * @returns {ELockState}  
  */
 export function getVehicleDoorLockStatus(vehicle: VehicleIndex): ELockState {

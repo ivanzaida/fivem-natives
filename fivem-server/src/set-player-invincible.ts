@@ -10,10 +10,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * (DWORD )(playerPedAddress + 0x188) |= (1 << 9);
  * 
  * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {boolean} invincible
+ * @param {PlayerIndex} player The player index.
+ * @param {boolean} bInvincible
  */
-export function setPlayerInvincible(player: PlayerIndex, invincible: boolean): void {
-	const setPlayerInvincible_result = Citizen.invokeNative<void>('0xDFB9A2A2', player, invincible);
+export function setPlayerInvincible(player: PlayerIndex, bInvincible: boolean): void {
+	const setPlayerInvincible_result = Citizen.invokeNative<void>('0xDFB9A2A2', player, bInvincible);
 	return setPlayerInvincible_result;
 }

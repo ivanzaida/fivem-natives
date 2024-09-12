@@ -1,4 +1,4 @@
-import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_VEHICLE_LOCK_ON_TARGET
@@ -7,11 +7,10 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EntityIndex} entity
+ * @param {VehicleIndex} vehicle The vehicle to check.
  * @returns {boolean}  
  */
-export function getVehicleLockOnTarget(vehicle: VehicleIndex, entity: EntityIndex): boolean {
-	const getVehicleLockOnTarget_result = Citizen.invokeNative<boolean>('0x4A557117', vehicle, entity);
+export function getVehicleLockOnTarget(vehicle: VehicleIndex): boolean {
+	const getVehicleLockOnTarget_result = Citizen.invokeNative<boolean>('0x4A557117', vehicle);
 	return getVehicleLockOnTarget_result;
 }

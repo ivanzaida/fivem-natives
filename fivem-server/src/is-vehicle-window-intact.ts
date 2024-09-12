@@ -1,4 +1,4 @@
-import { VehicleIndex, EScWindowList } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:IS_VEHICLE_WINDOW_INTACT
@@ -14,11 +14,11 @@ import { VehicleIndex, EScWindowList } from '@ivanzaida/structures'
  * Those numbers go on for vehicles that have more than 4 doors with windows.
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EScWindowList} windowNumber
+ * @param {VehicleIndex} vehicle The target vehicle.
+ * @param {number} windowIndex The window index.
  * @returns {boolean}  
  */
-export function isVehicleWindowIntact(vehicle: VehicleIndex, windowNumber: EScWindowList | number): boolean {
-	const isVehicleWindowIntact_result = Citizen.invokeNative<boolean>('0xAC4EF23D', vehicle, windowNumber);
+export function isVehicleWindowIntact(vehicle: VehicleIndex, windowIndex: number): boolean {
+	const isVehicleWindowIntact_result = Citizen.invokeNative<boolean>('0xAC4EF23D', vehicle, windowIndex);
 	return isVehicleWindowIntact_result;
 }

@@ -1,4 +1,4 @@
-import { PedIndex, EFiringType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_SHOOT_AT_COORD
@@ -9,13 +9,13 @@ import { PedIndex, EFiringType } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {number} targetCoorsX
- * @param {number} targetCoorsY
- * @param {number} targetCoorsZ
+ * @param {number} x
+ * @param {number} y
+ * @param {number} z
  * @param {number} duration
- * @param {EFiringType} firingType
+ * @param {number} firingPattern
  */
-export function taskShootAtCoord(ped: PedIndex, targetCoorsX: number, targetCoorsY: number, targetCoorsZ: number, duration: number, firingType: EFiringType | number): void {
-	const taskShootAtCoord_result = Citizen.invokeNative<void>('0x601C22E3', ped, targetCoorsX, targetCoorsY, targetCoorsZ, duration, firingType);
+export function taskShootAtCoord(ped: PedIndex, x: number, y: number, z: number, duration: number, firingPattern: number): void {
+	const taskShootAtCoord_result = Citizen.invokeNative<void>('0x601C22E3', ped, x, y, z, duration, firingPattern);
 	return taskShootAtCoord_result;
 }

@@ -1,4 +1,4 @@
-import { EPedType, ModelNames, PedIndex } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:CREATE_PED
@@ -12,17 +12,17 @@ import { EPedType, ModelNames, PedIndex } from '@ivanzaida/structures'
  * Full list of peds by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/peds.json
  * 
  * ------------------------------------------------------------------
- * @param {EPedType} pedType
- * @param {ModelNames} pedModelHashKey
- * @param {number} newCoorsX
- * @param {number} newCoorsY
- * @param {number} newCoorsZ
- * @param {number} pedHeading
- * @param {boolean} registerAsNetworkObject
- * @param {boolean} scriptHostObject
+ * @param {number} pedType Unused. Peds get set to CIVMALE/CIVFEMALE/etc. no matter the value specified.
+ * @param {number} modelHash The model of ped to spawn.
+ * @param {number} x Spawn coordinate X component.
+ * @param {number} y Spawn coordinate Y component.
+ * @param {number} z Spawn coordinate Z component.
+ * @param {number} heading Heading to face towards, in degrees.
+ * @param {boolean} isNetwork Whether to create a network object for the ped. If false, the ped exists only locally.
+ * @param {boolean} bScriptHostPed Whether to register the ped as pinned to the script host in the R\ network model.
  * @returns {PedIndex}  
  */
-export function createPed(pedType: EPedType | number, pedModelHashKey: ModelNames, newCoorsX: number, newCoorsY: number, newCoorsZ: number, pedHeading: number = 0, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true): PedIndex {
-	const createPed_result = Citizen.invokeNative<PedIndex>('0x389EF71', pedType, pedModelHashKey, newCoorsX, newCoorsY, newCoorsZ, pedHeading, registerAsNetworkObject, scriptHostObject);
+export function createPed(pedType: number, modelHash: number, x: number, y: number, z: number, heading: number, isNetwork: boolean, bScriptHostPed: boolean): PedIndex {
+	const createPed_result = Citizen.invokeNative<PedIndex>('0x389EF71', pedType, modelHash, x, y, z, heading, isNetwork, bScriptHostPed);
 	return createPed_result;
 }

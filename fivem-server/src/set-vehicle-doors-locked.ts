@@ -1,4 +1,4 @@
-import { VehicleIndex, ELockState } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_VEHICLE_DOORS_LOCKED
@@ -21,10 +21,10 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  * };
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {ELockState} newLockState
+ * @param {VehicleIndex} vehicle The vehicle whose doors are to be locked.
+ * @param {number} doorLockStatus The lock state to apply to the vehicle's doors, see eVehicleLockState.
  */
-export function setVehicleDoorsLocked(vehicle: VehicleIndex, newLockState: ELockState | number): void {
-	const setVehicleDoorsLocked_result = Citizen.invokeNative<void>('0x4CDD35D0', vehicle, newLockState);
+export function setVehicleDoorsLocked(vehicle: VehicleIndex, doorLockStatus: number): void {
+	const setVehicleDoorsLocked_result = Citizen.invokeNative<void>('0x4CDD35D0', vehicle, doorLockStatus);
 	return setVehicleDoorsLocked_result;
 }

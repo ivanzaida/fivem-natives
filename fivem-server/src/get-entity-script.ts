@@ -9,10 +9,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity
- * @param {number} instanceId
  * @returns {string}  
  */
-export function getEntityScript(entity: EntityIndex, instanceId: number): string {
-	const getEntityScript_result = Citizen.invokeNative<string>('0xB7F70784', entity, instanceId);
+export function getEntityScript(entity: EntityIndex): string {
+	const getEntityScript_result = Citizen.invokeNative<string>('0xB7F70784', entity);
 	return getEntityScript_result;
 }

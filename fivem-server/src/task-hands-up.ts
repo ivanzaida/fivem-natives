@@ -1,4 +1,4 @@
-import { PedIndex, ETaskHandsUpFlags } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_HANDS_UP
@@ -11,12 +11,12 @@ import { PedIndex, ETaskHandsUpFlags } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {number} time
- * @param {PedIndex} pedToFace
- * @param {number} timeToFacePed
- * @param {ETaskHandsUpFlags} flags
+ * @param {number} duration
+ * @param {PedIndex} facingPed
+ * @param {number} p3
+ * @param {boolean} p4
  */
-export function taskHandsUp(ped: PedIndex, time: number, pedToFace: PedIndex = null!, timeToFacePed: number = 1, flags: ETaskHandsUpFlags | number = 0): void {
-	const taskHandsUp_result = Citizen.invokeNative<void>('0x8DCC19C5', ped, time, pedToFace, timeToFacePed, flags);
+export function taskHandsUp(ped: PedIndex, duration: number, facingPed: PedIndex, p3: number, p4: boolean): void {
+	const taskHandsUp_result = Citizen.invokeNative<void>('0x8DCC19C5', ped, duration, facingPed, p3, p4);
 	return taskHandsUp_result;
 }

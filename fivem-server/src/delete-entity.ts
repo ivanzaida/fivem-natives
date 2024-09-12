@@ -8,7 +8,7 @@ import { EntityIndex } from '@ivanzaida/structures'
  * Deletes the specified entity, then sets the handle pointed to by the pointer to NULL.
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The entity to delete.
  */
 export function deleteEntity(entity: EntityIndex): void {
 	const deleteEntity_result = Citizen.invokeNative<void>('0xFAA3D236', entity);

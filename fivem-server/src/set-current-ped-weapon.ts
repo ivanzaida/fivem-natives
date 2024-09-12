@@ -1,4 +1,4 @@
-import { PedIndex, EWeaponType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_CURRENT_PED_WEAPON
@@ -9,10 +9,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
- * @param {boolean} forceInHand
+ * @param {number} weaponHash
+ * @param {boolean} bForceInHand
  */
-export function setCurrentPedWeapon(ped: PedIndex, typeOfWeapon: EWeaponType | number, forceInHand: boolean = false): void {
-	const setCurrentPedWeapon_result = Citizen.invokeNative<void>('0xB8278882', ped, typeOfWeapon, forceInHand);
+export function setCurrentPedWeapon(ped: PedIndex, weaponHash: number, bForceInHand: boolean): void {
+	const setCurrentPedWeapon_result = Citizen.invokeNative<void>('0xB8278882', ped, weaponHash, bForceInHand);
 	return setCurrentPedWeapon_result;
 }

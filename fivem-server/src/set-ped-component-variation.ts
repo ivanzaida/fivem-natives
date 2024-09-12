@@ -1,4 +1,4 @@
-import { PedIndex, EPedComponent } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_COMPONENT_VARIATION
@@ -29,13 +29,13 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  * Examples: https://gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EPedComponent} componentNumber
- * @param {number} newDrawableNumber
- * @param {number} newTextureNumber
- * @param {number} newPaletteNumber
+ * @param {PedIndex} ped The ped handle.
+ * @param {number} componentId The component that you want to set.
+ * @param {number} drawableId The drawable id that is going to be set. Refer to [GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](\_0x27561561732A7842).
+ * @param {number} textureId The texture id of the drawable. Refer to [GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](\_0x8F7156A3142A6BAD).
+ * @param {number} paletteId 0 to 3.
  */
-export function setPedComponentVariation(ped: PedIndex, componentNumber: EPedComponent | number, newDrawableNumber: number, newTextureNumber: number, newPaletteNumber: number = 0): void {
-	const setPedComponentVariation_result = Citizen.invokeNative<void>('0xD4F7B05C', ped, componentNumber, newDrawableNumber, newTextureNumber, newPaletteNumber);
+export function setPedComponentVariation(ped: PedIndex, componentId: number, drawableId: number, textureId: number, paletteId: number): void {
+	const setPedComponentVariation_result = Citizen.invokeNative<void>('0xD4F7B05C', ped, componentId, drawableId, textureId, paletteId);
 	return setPedComponentVariation_result;
 }

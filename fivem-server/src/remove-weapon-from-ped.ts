@@ -1,4 +1,4 @@
-import { PedIndex, EWeaponType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:REMOVE_WEAPON_FROM_PED
@@ -16,9 +16,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
+ * @param {number} weaponHash
  */
-export function removeWeaponFromPed(ped: PedIndex, typeOfWeapon: EWeaponType | number): void {
-	const removeWeaponFromPed_result = Citizen.invokeNative<void>('0x9C37F220', ped, typeOfWeapon);
+export function removeWeaponFromPed(ped: PedIndex, weaponHash: number): void {
+	const removeWeaponFromPed_result = Citizen.invokeNative<void>('0x9C37F220', ped, weaponHash);
 	return removeWeaponFromPed_result;
 }

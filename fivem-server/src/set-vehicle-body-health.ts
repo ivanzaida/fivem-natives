@@ -11,9 +11,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {number} health
+ * @param {number} value
  */
-export function setVehicleBodyHealth(vehicle: VehicleIndex, health: number): void {
-	const setVehicleBodyHealth_result = Citizen.invokeNative<void>('0x920C2517', vehicle, health);
+export function setVehicleBodyHealth(vehicle: VehicleIndex, value: number): void {
+	const setVehicleBodyHealth_result = Citizen.invokeNative<void>('0x920C2517', vehicle, value);
 	return setVehicleBodyHealth_result;
 }

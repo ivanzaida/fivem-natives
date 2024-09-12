@@ -1,4 +1,4 @@
-import { EntityIndex, EApplyForceType } from '@ivanzaida/structures'
+import { EntityIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:APPLY_FORCE_TO_ENTITY
@@ -27,22 +27,22 @@ import { EntityIndex, EApplyForceType } from '@ivanzaida/structures'
  * p8 !!! Whenever I set this !=0, my script stopped.
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {EApplyForceType} applyType
- * @param {number} forceX
- * @param {number} forceY
- * @param {number} forceZ
- * @param {number} offsetX
- * @param {number} offsetY
- * @param {number} offsetZ
- * @param {number} component
- * @param {boolean} localForce
- * @param {boolean} localOffset
- * @param {boolean} scaleByMass
- * @param {boolean} triggerAudio
- * @param {boolean} scaleByTimeWarp
+ * @param {EntityIndex} entity The entity you want to apply a force on
+ * @param {number} forceType See native description above for a list of commonly used values
+ * @param {number} x Force amount (X)
+ * @param {number} y Force amount (Y)
+ * @param {number} z Force amount (Z)
+ * @param {number} offX Rotation/offset force (X)
+ * @param {number} offY Rotation/offset force (Y)
+ * @param {number} offZ Rotation/offset force (Z)
+ * @param {number} boneIndex (Often 0) Entity bone index
+ * @param {boolean} isDirectionRel (Usually false) Vector defined in local (bodyfixed) coordinate frame
+ * @param {boolean} ignoreUpVec (Usually true)
+ * @param {boolean} isForceRel (Usually true) When true, force gets multiplied with the objects mass and different objects will have the same acceleration
+ * @param {boolean} p12 (Usually false)
+ * @param {boolean} p13 (Usually true)
  */
-export function applyForceToEntity(entity: EntityIndex, applyType: EApplyForceType | number, forceX: number, forceY: number, forceZ: number, offsetX: number, offsetY: number, offsetZ: number, component: number, localForce: boolean, localOffset: boolean, scaleByMass: boolean, triggerAudio: boolean = false, scaleByTimeWarp: boolean = true): void {
-	const applyForceToEntity_result = Citizen.invokeNative<void>('0xC1C0855A', entity, applyType, forceX, forceY, forceZ, offsetX, offsetY, offsetZ, component, localForce, localOffset, scaleByMass, triggerAudio, scaleByTimeWarp);
+export function applyForceToEntity(entity: EntityIndex, forceType: number, x: number, y: number, z: number, offX: number, offY: number, offZ: number, boneIndex: number, isDirectionRel: boolean, ignoreUpVec: boolean, isForceRel: boolean, p12: boolean, p13: boolean): void {
+	const applyForceToEntity_result = Citizen.invokeNative<void>('0xC1C0855A', entity, forceType, x, y, z, offX, offY, offZ, boneIndex, isDirectionRel, ignoreUpVec, isForceRel, p12, p13);
 	return applyForceToEntity_result;
 }

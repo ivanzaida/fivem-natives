@@ -1,4 +1,4 @@
-import { PedIndex, VehicleIndex, EVehicleSeat, EEnterExitVehicleFlags } from '@ivanzaida/structures'
+import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_ENTER_VEHICLE
@@ -19,13 +19,13 @@ import { PedIndex, VehicleIndex, EVehicleSeat, EEnterExitVehicleFlags } from '@i
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
  * @param {VehicleIndex} vehicle
- * @param {number} time 1 the ped will never warp into the vehicle.
- * @param {EVehicleSeat} seat
- * @param {number} moveBlendRatio
- * @param {EEnterExitVehicleFlags} flags
- * @param {string} overridenClipSet
+ * @param {number} timeout
+ * @param {number} seatIndex See eSeatPosition declared in [IS_VEHICLE_SEAT_FREE](\_0x22AC59A870E6A669).
+ * @param {number} speed
+ * @param {number} flag
+ * @param {any} p6
  */
-export function taskEnterVehicle(ped: PedIndex, vehicle: VehicleIndex, time: number = 20000, seat: EVehicleSeat | number = 1, moveBlendRatio: number = 2, flags: EEnterExitVehicleFlags | number = 1, overridenClipSet: string = null!): void {
-	const taskEnterVehicle_result = Citizen.invokeNative<void>('0xB8689B4E', ped, vehicle, time, seat, moveBlendRatio, flags, overridenClipSet);
+export function taskEnterVehicle(ped: PedIndex, vehicle: VehicleIndex, timeout: number, seatIndex: number, speed: number, flag: number, p6: any): void {
+	const taskEnterVehicle_result = Citizen.invokeNative<void>('0xB8689B4E', ped, vehicle, timeout, seatIndex, speed, flag, p6);
 	return taskEnterVehicle_result;
 }

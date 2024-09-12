@@ -1,4 +1,4 @@
-import { PedIndex, EPedConfigFlags } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_CONFIG_FLAG
@@ -469,10 +469,10 @@ import { PedIndex, EPedConfigFlags } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EPedConfigFlags} configFlag
- * @param {boolean} flag
+ * @param {number} flagId
+ * @param {boolean} value
  */
-export function setPedConfigFlag(ped: PedIndex, configFlag: EPedConfigFlags | number, flag: boolean): void {
-	const setPedConfigFlag_result = Citizen.invokeNative<void>('0x9CFBE10D', ped, configFlag, flag);
+export function setPedConfigFlag(ped: PedIndex, flagId: number, value: boolean): void {
+	const setPedConfigFlag_result = Citizen.invokeNative<void>('0x9CFBE10D', ped, flagId, value);
 	return setPedConfigFlag_result;
 }

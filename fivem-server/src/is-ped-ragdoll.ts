@@ -8,7 +8,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * If the ped handle passed through the parenthesis is in a ragdoll state this will return true.
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * @param {PedIndex} ped The target ped.
  * @returns {boolean}  
  */
 export function isPedRagdoll(ped: PedIndex): boolean {

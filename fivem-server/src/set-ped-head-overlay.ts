@@ -1,4 +1,4 @@
-import { PedIndex, EHeadOverlaySlot } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_HEAD_OVERLAY
@@ -24,12 +24,12 @@ import { PedIndex, EHeadOverlaySlot } from '@ivanzaida/structures'
  * 12              Add Body Blemishes    0 - 1, 255
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EHeadOverlaySlot} slot
- * @param {number} tex
- * @param {number} blend
+ * @param {PedIndex} ped The ped entity
+ * @param {number} overlayID The overlay id displayed up above.
+ * @param {number} index An integer representing the index (from 0 to _GET_NUM_OVERLAY_VALUES(overlayID)1)
+ * @param {number} opacity A float ranging from 0.0 to 1.0
  */
-export function setPedHeadOverlay(ped: PedIndex, slot: EHeadOverlaySlot | number, tex: number, blend: number): void {
-	const setPedHeadOverlay_result = Citizen.invokeNative<void>('0xD28DBA90', ped, slot, tex, blend);
+export function setPedHeadOverlay(ped: PedIndex, overlayID: number, index: number, opacity: number): void {
+	const setPedHeadOverlay_result = Citizen.invokeNative<void>('0xD28DBA90', ped, overlayID, index, opacity);
 	return setPedHeadOverlay_result;
 }

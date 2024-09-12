@@ -18,19 +18,19 @@ import { PedIndex } from '@ivanzaida/structures'
  * gtaforums.com/topic/858970-all-gtao-face-ids-pedset-ped-head-blend-data-explained
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {number} head0
- * @param {number} head1
- * @param {number} head2
- * @param {number} tex0
- * @param {number} tex1
- * @param {number} tex2
- * @param {number} headBlend
- * @param {number} texBlend
- * @param {number} varBlend
- * @param {boolean} parent
+ * @param {PedIndex} ped The ped entity
+ * @param {number} shapeFirstID Controls the shape of the first ped's face
+ * @param {number} shapeSecondID Controls the shape of the second ped's face
+ * @param {number} shapeThirdID Controls the shape of the third ped's face
+ * @param {number} skinFirstID Controls the first id's skin tone
+ * @param {number} skinSecondID Controls the second id's skin tone
+ * @param {number} skinThirdID Controls the third id's skin tone
+ * @param {number} shapeMix 0.0  1.0 Of whose characteristics to take Mother  Father (shapeFirstID and shapeSecondID)
+ * @param {number} skinMix 0.0  1.0 Of whose characteristics to take Mother  Father (skinFirstID and skinSecondID)
+ * @param {number} thirdMix Overrides the others in favor of the third IDs.
+ * @param {boolean} isParent IsParent is set for "children" of the player character's grandparents during oldgen character creation. It has unknown effect otherwise.
  */
-export function setPedHeadBlendData(ped: PedIndex, head0: number, head1: number, head2: number, tex0: number, tex1: number, tex2: number, headBlend: number, texBlend: number, varBlend: number, parent: boolean = false): void {
-	const setPedHeadBlendData_result = Citizen.invokeNative<void>('0x60746B88', ped, head0, head1, head2, tex0, tex1, tex2, headBlend, texBlend, varBlend, parent);
+export function setPedHeadBlendData(ped: PedIndex, shapeFirstID: number, shapeSecondID: number, shapeThirdID: number, skinFirstID: number, skinSecondID: number, skinThirdID: number, shapeMix: number, skinMix: number, thirdMix: number, isParent: boolean): void {
+	const setPedHeadBlendData_result = Citizen.invokeNative<void>('0x60746B88', ped, shapeFirstID, shapeSecondID, shapeThirdID, skinFirstID, skinSecondID, skinThirdID, shapeMix, skinMix, thirdMix, isParent);
 	return setPedHeadBlendData_result;
 }

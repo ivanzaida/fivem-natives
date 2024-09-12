@@ -1,4 +1,4 @@
-import { ModelNames, VehicleIndex } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:CREATE_VEHICLE
@@ -11,17 +11,16 @@ import { ModelNames, VehicleIndex } from '@ivanzaida/structures'
  * p7 when set to true allows you to spawn vehicles under -100 z.
  * 
  * ------------------------------------------------------------------
- * @param {ModelNames} modelHashKey
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} vehicleHeading
- * @param {boolean} registerAsNetworkObject
- * @param {boolean} scriptHostObject
- * @param {boolean} ignoreGroundCheck
+ * @param {number} modelHash The model of vehicle to spawn.
+ * @param {number} x Spawn coordinate X component.
+ * @param {number} y Spawn coordinate Y component.
+ * @param {number} z Spawn coordinate Z component.
+ * @param {number} heading Heading to face towards, in degrees.
+ * @param {boolean} isNetwork Whether to create a network object for the vehicle. If false, the vehicle exists only locally.
+ * @param {boolean} netMissionEntity Whether to register the vehicle as pinned to the script host in the R\ network model.
  * @returns {VehicleIndex}  
  */
-export function createVehicle(modelHashKey: ModelNames, coorsX: number, coorsY: number, coorsZ: number, vehicleHeading: number = 0, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true, ignoreGroundCheck: boolean = false): VehicleIndex {
-	const createVehicle_result = Citizen.invokeNative<VehicleIndex>('0xDD75460A', modelHashKey, coorsX, coorsY, coorsZ, vehicleHeading, registerAsNetworkObject, scriptHostObject, ignoreGroundCheck);
+export function createVehicle(modelHash: number, x: number, y: number, z: number, heading: number, isNetwork: boolean, netMissionEntity: boolean): VehicleIndex {
+	const createVehicle_result = Citizen.invokeNative<VehicleIndex>('0xDD75460A', modelHash, x, y, z, heading, isNetwork, netMissionEntity);
 	return createVehicle_result;
 }

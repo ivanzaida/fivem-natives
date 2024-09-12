@@ -8,10 +8,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {number} extra
+ * @param {number} extraId
  * @returns {boolean}  
  */
-export function isVehicleExtraTurnedOn(vehicle: VehicleIndex, extra: number): boolean {
-	const isVehicleExtraTurnedOn_result = Citizen.invokeNative<boolean>('0x42098B5', vehicle, extra);
+export function isVehicleExtraTurnedOn(vehicle: VehicleIndex, extraId: number): boolean {
+	const isVehicleExtraTurnedOn_result = Citizen.invokeNative<boolean>('0x42098B5', vehicle, extraId);
 	return isVehicleExtraTurnedOn_result;
 }

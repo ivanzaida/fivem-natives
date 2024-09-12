@@ -1,5 +1,3 @@
-import { PlayerIndex } from '@ivanzaida/structures'
-
 /**
  * CFX:GET_PLAYER_WANTED_LEVEL
  *
@@ -7,10 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * @param {string} playerSrc The target player
  * @returns {number}  
  */
-export function getPlayerWantedLevel(player: PlayerIndex): number {
-	const getPlayerWantedLevel_result = Citizen.invokeNative<number>('0xBDCDD163', player);
+export function getPlayerWantedLevel(playerSrc: string): number {
+	const getPlayerWantedLevel_result = Citizen.invokeNative<number>('0xBDCDD163', playerSrc);
 	return getPlayerWantedLevel_result;
 }

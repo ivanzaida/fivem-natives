@@ -1,4 +1,4 @@
-import { PedIndex, VehicleIndex, EFiringPatternHash } from '@ivanzaida/structures'
+import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_DRIVE_BY
@@ -13,18 +13,18 @@ import { PedIndex, VehicleIndex, EFiringPatternHash } from '@ivanzaida/structure
  * I marked p7 as pedAccuracy as it seems it's mostly 100 (Completely Accurate), 75, 90, etc. Although this could be the ammo count within the gun, but I highly doubt it. I will change this comment once I find out if it's ammo count or not.
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {PedIndex} otherPed
+ * @param {PedIndex} driverPed
+ * @param {PedIndex} targetPed
  * @param {VehicleIndex} targetVehicle
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} abortRange
- * @param {number} frequencyPercentage
- * @param {boolean} pushUnderneathDrivingTaskIfDriving
- * @param {EFiringPatternHash} firingPatternHash Allows you to set the firing pattern from a list
+ * @param {number} targetX
+ * @param {number} targetY
+ * @param {number} targetZ
+ * @param {number} distanceToShoot
+ * @param {number} pedAccuracy
+ * @param {boolean} p8
+ * @param {number} firingPattern
  */
-export function taskDriveBy(ped: PedIndex, otherPed: PedIndex, targetVehicle: VehicleIndex, coorsX: number, coorsY: number, coorsZ: number, abortRange: number, frequencyPercentage: number, pushUnderneathDrivingTaskIfDriving: boolean = false, firingPatternHash: EFiringPatternHash | number = 753768974): void {
-	const taskDriveBy_result = Citizen.invokeNative<void>('0x2B84D1C4', ped, otherPed, targetVehicle, coorsX, coorsY, coorsZ, abortRange, frequencyPercentage, pushUnderneathDrivingTaskIfDriving, firingPatternHash);
+export function taskDriveBy(driverPed: PedIndex, targetPed: PedIndex, targetVehicle: VehicleIndex, targetX: number, targetY: number, targetZ: number, distanceToShoot: number, pedAccuracy: number, p8: boolean, firingPattern: number): void {
+	const taskDriveBy_result = Citizen.invokeNative<void>('0x2B84D1C4', driverPed, targetPed, targetVehicle, targetX, targetY, targetZ, distanceToShoot, pedAccuracy, p8, firingPattern);
 	return taskDriveBy_result;
 }

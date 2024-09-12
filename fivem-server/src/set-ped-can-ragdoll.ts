@@ -8,9 +8,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {boolean} unlock
+ * @param {boolean} toggle
  */
-export function setPedCanRagdoll(ped: PedIndex, unlock: boolean): void {
-	const setPedCanRagdoll_result = Citizen.invokeNative<void>('0xCF1384C4', ped, unlock);
+export function setPedCanRagdoll(ped: PedIndex, toggle: boolean): void {
+	const setPedCanRagdoll_result = Citizen.invokeNative<void>('0xCF1384C4', ped, toggle);
 	return setPedCanRagdoll_result;
 }

@@ -8,9 +8,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {PedIndex} otherPed
+ * @param {PedIndex} fleeTarget
  */
-export function taskReactAndFleePed(ped: PedIndex, otherPed: PedIndex): void {
-	const taskReactAndFleePed_result = Citizen.invokeNative<void>('0x8A632BD8', ped, otherPed);
+export function taskReactAndFleePed(ped: PedIndex, fleeTarget: PedIndex): void {
+	const taskReactAndFleePed_result = Citizen.invokeNative<void>('0x8A632BD8', ped, fleeTarget);
 	return taskReactAndFleePed_result;
 }

@@ -1,5 +1,3 @@
-import { PlayerIndex } from '@ivanzaida/structures'
-
 /**
  * CFX:GET_PLAYER_INVINCIBLE
  *
@@ -19,10 +17,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *  }
  * 
  * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * @param {string} playerSrc The player handle
  * @returns {boolean}  
  */
-export function getPlayerInvincible(player: PlayerIndex): boolean {
-	const getPlayerInvincible_result = Citizen.invokeNative<boolean>('0x680C90EE', player);
+export function getPlayerInvincible(playerSrc: string): boolean {
+	const getPlayerInvincible_result = Citizen.invokeNative<boolean>('0x680C90EE', playerSrc);
 	return getPlayerInvincible_result;
 }

@@ -1,4 +1,4 @@
-import { PedIndex, VehicleIndex, EEnterExitVehicleFlags } from '@ivanzaida/structures'
+import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_LEAVE_VEHICLE
@@ -18,9 +18,9 @@ import { PedIndex, VehicleIndex, EEnterExitVehicleFlags } from '@ivanzaida/struc
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
  * @param {VehicleIndex} vehicle
- * @param {EEnterExitVehicleFlags} flags
+ * @param {number} flags
  */
-export function taskLeaveVehicle(ped: PedIndex, vehicle: VehicleIndex, flags: EEnterExitVehicleFlags | number = 0): void {
+export function taskLeaveVehicle(ped: PedIndex, vehicle: VehicleIndex, flags: number): void {
 	const taskLeaveVehicle_result = Citizen.invokeNative<void>('0x7B1141C6', ped, vehicle, flags);
 	return taskLeaveVehicle_result;
 }

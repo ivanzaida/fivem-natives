@@ -8,7 +8,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * Returns whether the entity is in stealth mode
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * @param {PedIndex} ped The target ped.
  * @returns {boolean}  
  */
 export function getPedStealthMovement(ped: PedIndex): boolean {

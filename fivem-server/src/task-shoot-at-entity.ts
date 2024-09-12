@@ -1,4 +1,4 @@
-import { PedIndex, EntityIndex, EFiringType } from '@ivanzaida/structures'
+import { EntityIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_SHOOT_AT_ENTITY
@@ -16,12 +16,12 @@ import { PedIndex, EntityIndex, EFiringType } from '@ivanzaida/structures'
  * Firing Pattern Hash Information: https://pastebin.com/Px036isB
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
  * @param {EntityIndex} entity
- * @param {number} time
- * @param {EFiringType} firingType
+ * @param {EntityIndex} target
+ * @param {number} duration
+ * @param {number} firingPattern
  */
-export function taskShootAtEntity(ped: PedIndex, entity: EntityIndex, time: number, firingType: EFiringType | number): void {
-	const taskShootAtEntity_result = Citizen.invokeNative<void>('0xAC0631C9', ped, entity, time, firingType);
+export function taskShootAtEntity(entity: EntityIndex, target: EntityIndex, duration: number, firingPattern: number): void {
+	const taskShootAtEntity_result = Citizen.invokeNative<void>('0xAC0631C9', entity, target, duration, firingPattern);
 	return taskShootAtEntity_result;
 }

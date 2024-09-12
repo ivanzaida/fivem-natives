@@ -1,4 +1,4 @@
-import { PlayerIndex, ESetPlayerControlFlags } from '@ivanzaida/structures'
+import { PlayerIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PLAYER_CONTROL
@@ -25,10 +25,10 @@ import { PlayerIndex, ESetPlayerControlFlags } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player
- * @param {boolean} setControlOn
- * @param {ESetPlayerControlFlags} flags Are taken as a combination of the values in 'SET_PLAYER_CONTROL_FLAGS' above.
+ * @param {boolean} bHasControl
+ * @param {number} flags
  */
-export function setPlayerControl(player: PlayerIndex, setControlOn: boolean, flags: ESetPlayerControlFlags | number = 0): void {
-	const setPlayerControl_result = Citizen.invokeNative<void>('0xD17AFCD8', player, setControlOn, flags);
+export function setPlayerControl(player: PlayerIndex, bHasControl: boolean, flags: number): void {
+	const setPlayerControl_result = Citizen.invokeNative<void>('0xD17AFCD8', player, bHasControl, flags);
 	return setPlayerControl_result;
 }

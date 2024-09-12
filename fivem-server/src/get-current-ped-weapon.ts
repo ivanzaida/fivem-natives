@@ -1,4 +1,4 @@
-import { PedIndex, EWeaponType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_CURRENT_PED_WEAPON
@@ -11,12 +11,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * disassembly said that?
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {EWeaponType} outWeaponType
- * @param {boolean} doDeadCheck
+ * @param {PedIndex} ped The target ped.
  * @returns {boolean}  
  */
-export function getCurrentPedWeapon(ped: PedIndex, outWeaponType: EWeaponType | number, doDeadCheck: boolean = true): boolean {
-	const getCurrentPedWeapon_result = Citizen.invokeNative<boolean>('0xB0237302', ped, outWeaponType, doDeadCheck);
+export function getCurrentPedWeapon(ped: PedIndex): boolean {
+	const getCurrentPedWeapon_result = Citizen.invokeNative<boolean>('0xB0237302', ped);
 	return getCurrentPedWeapon_result;
 }

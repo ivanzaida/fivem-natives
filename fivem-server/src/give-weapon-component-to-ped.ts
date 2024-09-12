@@ -1,4 +1,4 @@
-import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:GIVE_WEAPON_COMPONENT_TO_PED
@@ -9,10 +9,10 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
- * @param {EWeaponcomponentType} typeOfComponent
+ * @param {number} weaponHash
+ * @param {number} componentHash
  */
-export function giveWeaponComponentToPed(ped: PedIndex, typeOfWeapon: EWeaponType | number, typeOfComponent: EWeaponcomponentType | number): void {
-	const giveWeaponComponentToPed_result = Citizen.invokeNative<void>('0x3E1E286D', ped, typeOfWeapon, typeOfComponent);
+export function giveWeaponComponentToPed(ped: PedIndex, weaponHash: number, componentHash: number): void {
+	const giveWeaponComponentToPed_result = Citizen.invokeNative<void>('0x3E1E286D', ped, weaponHash, componentHash);
 	return giveWeaponComponentToPed_result;
 }

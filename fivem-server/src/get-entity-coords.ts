@@ -12,11 +12,10 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  * `alive` = Unused by the game, potentially used by debug builds of GTA in order to assert whether or not an entity was alive.
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} doDeadCheck If false then the command will not assert if the entity has not been checked for being dead
+ * @param {EntityIndex} entity The entity to get the coordinates from.
  * @returns {Vector3}  
  */
-export function getEntityCoords(entity: EntityIndex, doDeadCheck: boolean = true): Vector3 {
-	const getEntityCoords_result = Citizen.invokeNative<Vector3>('0x1647F1CB', entity, doDeadCheck);
+export function getEntityCoords(entity: EntityIndex): Vector3 {
+	const getEntityCoords_result = Citizen.invokeNative<Vector3>('0x1647F1CB', entity);
 	return getEntityCoords_result;
 }

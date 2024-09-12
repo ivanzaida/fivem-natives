@@ -1,4 +1,4 @@
-import { PedIndex, EntityIndex, EEgotoEntityFlags } from '@ivanzaida/structures'
+import { EntityIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_GO_TO_ENTITY
@@ -15,15 +15,15 @@ import { PedIndex, EntityIndex, EEgotoEntityFlags } from '@ivanzaida/structures'
  * };
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
  * @param {EntityIndex} entity
- * @param {number} time Is chosen to be 1 the ped will never warp.
- * @param {number} seekRadius
- * @param {number} moveBlendRatio
- * @param {number} slowDownDistance
- * @param {EEgotoEntityFlags} gotoFlags
+ * @param {EntityIndex} target
+ * @param {number} duration
+ * @param {number} distance
+ * @param {number} speed
+ * @param {number} p5
+ * @param {number} p6
  */
-export function taskGoToEntity(ped: PedIndex, entity: EntityIndex, time: number = 20000, seekRadius: number = 0.5, moveBlendRatio: number = 2, slowDownDistance: number = 2, gotoFlags: EEgotoEntityFlags | number = 0): void {
-	const taskGoToEntity_result = Citizen.invokeNative<void>('0x374827C2', ped, entity, time, seekRadius, moveBlendRatio, slowDownDistance, gotoFlags);
+export function taskGoToEntity(entity: EntityIndex, target: EntityIndex, duration: number, distance: number, speed: number, p5: number, p6: number): void {
+	const taskGoToEntity_result = Citizen.invokeNative<void>('0x374827C2', entity, target, duration, distance, speed, p5, p6);
 	return taskGoToEntity_result;
 }

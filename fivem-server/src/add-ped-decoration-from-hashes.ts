@@ -32,10 +32,10 @@ import { PedIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {number} collectionNameHash
- * @param {number} presetNameHash
+ * @param {number} collection
+ * @param {number} overlay
  */
-export function addPedDecorationFromHashes(ped: PedIndex, collectionNameHash: number, presetNameHash: number): void {
-	const addPedDecorationFromHashes_result = Citizen.invokeNative<void>('0x70559AC7', ped, collectionNameHash, presetNameHash);
+export function addPedDecorationFromHashes(ped: PedIndex, collection: number, overlay: number): void {
+	const addPedDecorationFromHashes_result = Citizen.invokeNative<void>('0x70559AC7', ped, collection, overlay);
 	return addPedDecorationFromHashes_result;
 }

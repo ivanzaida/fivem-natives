@@ -1,4 +1,4 @@
-import { PedIndex, EStartRagdollTask } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_TO_RAGDOLL
@@ -24,15 +24,15 @@ import { PedIndex, EStartRagdollTask } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {number} minTime
- * @param {number} maxTime
- * @param {EStartRagdollTask} startTask
- * @param {boolean} abortIfInjured
- * @param {boolean} abortIfDead
- * @param {boolean} forceScriptControl If you require to control a ped's ragdoll even though they may take additional damage This both stops the ped from becoming injured and lowers the magnitude of any bullet impact forces.
+ * @param {number} time1 Time(ms) Ped is in ragdoll mode; only applies to ragdoll types 0 and not 1.
+ * @param {number} time2
+ * @param {number} ragdollType
+ * @param {boolean} p4
+ * @param {boolean} p5
+ * @param {boolean} p6
  * @returns {boolean}  
  */
-export function setPedToRagdoll(ped: PedIndex, minTime: number, maxTime: number, startTask: EStartRagdollTask | number, abortIfInjured: boolean = true, abortIfDead: boolean = true, forceScriptControl: boolean = false): boolean {
-	const setPedToRagdoll_result = Citizen.invokeNative<boolean>('0x83CB5052', ped, minTime, maxTime, startTask, abortIfInjured, abortIfDead, forceScriptControl);
+export function setPedToRagdoll(ped: PedIndex, time1: number, time2: number, ragdollType: number, p4: boolean, p5: boolean, p6: boolean): boolean {
+	const setPedToRagdoll_result = Citizen.invokeNative<boolean>('0x83CB5052', ped, time1, time2, ragdollType, p4, p5, p6);
 	return setPedToRagdoll_result;
 }

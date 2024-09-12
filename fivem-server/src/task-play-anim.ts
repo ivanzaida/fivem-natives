@@ -1,4 +1,4 @@
-import { PedIndex, EAnimationFlags, EIkControlFlags } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_PLAY_ANIM
@@ -55,18 +55,18 @@ import { PedIndex, EAnimationFlags, EIkControlFlags } from '@ivanzaida/structure
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {string} animDictName
- * @param {string} animName
- * @param {number} blendInDelta
- * @param {number} blendOutDelta
- * @param {number} timeToPlay
- * @param {EAnimationFlags} animFlags
- * @param {number} startPhase
- * @param {boolean} phaseControlled
- * @param {EIkControlFlags} ikFlags
- * @param {boolean} allowOverrideCloneUpdate
+ * @param {string} animDictionary
+ * @param {string} animationName
+ * @param {number} blendInSpeed
+ * @param {number} blendOutSpeed
+ * @param {number} duration
+ * @param {number} flag
+ * @param {number} playbackRate
+ * @param {boolean} lockX
+ * @param {boolean} lockY
+ * @param {boolean} lockZ
  */
-export function taskPlayAnim(ped: PedIndex, animDictName: string, animName: string, blendInDelta: number = 8, blendOutDelta: number = 8, timeToPlay: number = 1, animFlags: EAnimationFlags | number = 0, startPhase: number = 0, phaseControlled: boolean = false, ikFlags: EIkControlFlags | number = 0, allowOverrideCloneUpdate: boolean = false): void {
-	const taskPlayAnim_result = Citizen.invokeNative<void>('0x5AB552C6', ped, animDictName, animName, blendInDelta, blendOutDelta, timeToPlay, animFlags, startPhase, phaseControlled, ikFlags, allowOverrideCloneUpdate);
+export function taskPlayAnim(ped: PedIndex, animDictionary: string, animationName: string, blendInSpeed: number, blendOutSpeed: number, duration: number, flag: number, playbackRate: number, lockX: boolean, lockY: boolean, lockZ: boolean): void {
+	const taskPlayAnim_result = Citizen.invokeNative<void>('0x5AB552C6', ped, animDictionary, animationName, blendInSpeed, blendOutSpeed, duration, flag, playbackRate, lockX, lockY, lockZ);
 	return taskPlayAnim_result;
 }

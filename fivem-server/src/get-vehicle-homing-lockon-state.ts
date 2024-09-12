@@ -11,7 +11,7 @@ import { VehicleIndex, EHomingLockonState } from '@ivanzaida/structures'
  * 2: locked on
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * @param {VehicleIndex} vehicle The vehicle to check.
  * @returns {EHomingLockonState}  
  */
 export function getVehicleHomingLockonState(vehicle: VehicleIndex): EHomingLockonState {

@@ -9,7 +9,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * At 0 the main rotor will stall.
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * @param {VehicleIndex} vehicle The target vehicle.
  * @returns {number}  
  */
 export function getHeliMainRotorHealth(vehicle: VehicleIndex): number {

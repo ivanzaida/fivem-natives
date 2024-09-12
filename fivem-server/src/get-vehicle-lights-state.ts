@@ -1,4 +1,4 @@
-import { VehicleIndex } from '@ivanzaida/structures'
+import { VehicleIndex, BoolRef } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_VEHICLE_LIGHTS_STATE
@@ -8,12 +8,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * Returns FALSE if vehicle does not exist
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicleID
- * @param {number} lightsOn
- * @param {number} fullBeam
+ * @param {VehicleIndex} vehicle
+ * @param {BoolRef} lightsOn [Ref]
+ * @param {BoolRef} highbeamsOn [Ref]
  * @returns {boolean}  
  */
-export function getVehicleLightsState(vehicleID: VehicleIndex, lightsOn: number, fullBeam: number): boolean {
-	const getVehicleLightsState_result = Citizen.invokeNative<boolean>('0x7C278621', vehicleID, lightsOn, fullBeam);
+export function getVehicleLightsState(vehicle: VehicleIndex, lightsOn: BoolRef /* ptr */, highbeamsOn: BoolRef /* ptr */): boolean {
+	const getVehicleLightsState_result = Citizen.invokeNative<boolean>('0x7C278621', vehicle, lightsOn.dataView, highbeamsOn.dataView);
 	return getVehicleLightsState_result;
 }

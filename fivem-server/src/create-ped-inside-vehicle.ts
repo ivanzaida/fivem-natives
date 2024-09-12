@@ -1,4 +1,4 @@
-import { VehicleIndex, EPedType, ModelNames, EVehicleSeat, PedIndex } from '@ivanzaida/structures'
+import { VehicleIndex, PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:CREATE_PED_INSIDE_VEHICLE
@@ -14,14 +14,14 @@ import { VehicleIndex, EPedType, ModelNames, EVehicleSeat, PedIndex } from '@iva
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {EPedType} pedType
- * @param {ModelNames} pedModelHashKey
- * @param {EVehicleSeat} seat
- * @param {boolean} registerAsNetworkObject
- * @param {boolean} scriptHostObject
+ * @param {number} pedType See [CREATE_PED](\_0xD49F9B0955C367DE)
+ * @param {number} modelHash
+ * @param {number} seat
+ * @param {boolean} isNetwork
+ * @param {boolean} bScriptHostPed
  * @returns {PedIndex}  
  */
-export function createPedInsideVehicle(vehicle: VehicleIndex, pedType: EPedType | number, pedModelHashKey: ModelNames, seat: EVehicleSeat | number = 1, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true): PedIndex {
-	const createPedInsideVehicle_result = Citizen.invokeNative<PedIndex>('0x3000F092', vehicle, pedType, pedModelHashKey, seat, registerAsNetworkObject, scriptHostObject);
+export function createPedInsideVehicle(vehicle: VehicleIndex, pedType: number, modelHash: number, seat: number, isNetwork: boolean, bScriptHostPed: boolean): PedIndex {
+	const createPedInsideVehicle_result = Citizen.invokeNative<PedIndex>('0x3000F092', vehicle, pedType, modelHash, seat, isNetwork, bScriptHostPed);
 	return createPedInsideVehicle_result;
 }

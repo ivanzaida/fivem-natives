@@ -1,4 +1,4 @@
-import { PlayerIndex, ModelNames } from '@ivanzaida/structures'
+import { PlayerIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PLAYER_MODEL
@@ -9,10 +9,10 @@ import { PlayerIndex, ModelNames } from '@ivanzaida/structures'
  * Make sure to request the model first and wait until it has loaded.
  * 
  * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {ModelNames} playerModelHashKey
+ * @param {PlayerIndex} player The player to set the model for
+ * @param {number} model The model to use
  */
-export function setPlayerModel(player: PlayerIndex, playerModelHashKey: ModelNames): void {
-	const setPlayerModel_result = Citizen.invokeNative<void>('0x774A4C54', player, playerModelHashKey);
+export function setPlayerModel(player: PlayerIndex, model: number): void {
+	const setPlayerModel_result = Citizen.invokeNative<void>('0x774A4C54', player, model);
 	return setPlayerModel_result;
 }

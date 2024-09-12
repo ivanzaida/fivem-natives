@@ -1,4 +1,4 @@
-import { PedIndex, ETaskCombatPedFlags, ETaskThreatResponseFlags } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_COMBAT_PED
@@ -11,11 +11,11 @@ import { PedIndex, ETaskCombatPedFlags, ETaskThreatResponseFlags } from '@ivanza
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {PedIndex} otherPed
- * @param {ETaskCombatPedFlags} combatFlags
- * @param {ETaskThreatResponseFlags} taskThreatResponseFlags
+ * @param {PedIndex} targetPed
+ * @param {number} p2
+ * @param {number} p3
  */
-export function taskCombatPed(ped: PedIndex, otherPed: PedIndex, combatFlags: ETaskCombatPedFlags | number = 0, taskThreatResponseFlags: ETaskThreatResponseFlags | number = 16): void {
-	const taskCombatPed_result = Citizen.invokeNative<void>('0xCB0D8932', ped, otherPed, combatFlags, taskThreatResponseFlags);
+export function taskCombatPed(ped: PedIndex, targetPed: PedIndex, p2: number, p3: number): void {
+	const taskCombatPed_result = Citizen.invokeNative<void>('0xCB0D8932', ped, targetPed, p2, p3);
 	return taskCombatPed_result;
 }

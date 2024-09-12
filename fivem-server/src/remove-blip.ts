@@ -1,4 +1,4 @@
-import { BlipIndex } from '@ivanzaida/structures'
+import { IntRef } from '@ivanzaida/structures'
 
 /**
  * CFX:REMOVE_BLIP
@@ -24,9 +24,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  * Remove blip will currently crash your game, just artificially remove the blip by setting the sprite to a id that is 'invisible'.
  * 
  * ------------------------------------------------------------------
- * @param {BlipIndex} blipId
+ * @param {IntRef} blip Blip handle to remove. [Ref]
  */
-export function removeBlip(blipId: BlipIndex): void {
-	const removeBlip_result = Citizen.invokeNative<void>('0xD8C3C1CD', blipId);
+export function removeBlip(blip: IntRef /* ptr */): void {
+	const removeBlip_result = Citizen.invokeNative<void>('0xD8C3C1CD', blip.dataView);
 	return removeBlip_result;
 }

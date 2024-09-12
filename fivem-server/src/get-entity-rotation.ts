@@ -1,4 +1,4 @@
-import { EntityIndex, EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
+import { EntityIndex, Vector3 } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_ENTITY_ROTATION
@@ -20,10 +20,9 @@ import { EntityIndex, EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity
- * @param {EEulerRotOrder} rotOrder
  * @returns {Vector3}  
  */
-export function getEntityRotation(entity: EntityIndex, rotOrder: EEulerRotOrder | number = 2): Vector3 {
-	const getEntityRotation_result = Citizen.invokeNative<Vector3>('0x8FF45B04', entity, rotOrder);
+export function getEntityRotation(entity: EntityIndex): Vector3 {
+	const getEntityRotation_result = Citizen.invokeNative<Vector3>('0x8FF45B04', entity);
 	return getEntityRotation_result;
 }

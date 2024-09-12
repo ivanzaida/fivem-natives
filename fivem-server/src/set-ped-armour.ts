@@ -11,9 +11,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {number} armour
+ * @param {number} amount
  */
-export function setPedArmour(ped: PedIndex, armour: number): void {
-	const setPedArmour_result = Citizen.invokeNative<void>('0x4E3A0CC4', ped, armour);
+export function setPedArmour(ped: PedIndex, amount: number): void {
+	const setPedArmour_result = Citizen.invokeNative<void>('0x4E3A0CC4', ped, amount);
 	return setPedArmour_result;
 }

@@ -8,9 +8,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {boolean} alarmSet
+ * @param {boolean} state
  */
-export function setVehicleAlarm(vehicle: VehicleIndex, alarmSet: boolean): void {
-	const setVehicleAlarm_result = Citizen.invokeNative<void>('0x24877D84', vehicle, alarmSet);
+export function setVehicleAlarm(vehicle: VehicleIndex, state: boolean): void {
+	const setVehicleAlarm_result = Citizen.invokeNative<void>('0x24877D84', vehicle, state);
 	return setVehicleAlarm_result;
 }

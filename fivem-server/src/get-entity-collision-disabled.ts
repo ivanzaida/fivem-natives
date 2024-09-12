@@ -7,7 +7,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The target entity.
  * @returns {boolean}  
  */
 export function getEntityCollisionDisabled(entity: EntityIndex): boolean {

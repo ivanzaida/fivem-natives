@@ -9,11 +9,11 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  * If the Ped is not in a vehicle and includeLastVehicle is true, the vehicle they were last in is returned.
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {boolean} considerEnteringAsInVehicle
+ * @param {PedIndex} ped The target ped
+ * @param {boolean} lastVehicle False = CurrentVehicle, True = LastVehicle
  * @returns {VehicleIndex}  
  */
-export function getVehiclePedIsIn(ped: PedIndex, considerEnteringAsInVehicle: boolean = false): VehicleIndex {
-	const getVehiclePedIsIn_result = Citizen.invokeNative<VehicleIndex>('0xAFE92319', ped, considerEnteringAsInVehicle);
+export function getVehiclePedIsIn(ped: PedIndex, lastVehicle: boolean): VehicleIndex {
+	const getVehiclePedIsIn_result = Citizen.invokeNative<VehicleIndex>('0xAFE92319', ped, lastVehicle);
 	return getVehiclePedIsIn_result;
 }

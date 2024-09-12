@@ -1,4 +1,4 @@
-import { EntityIndex } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_VEHICLE_FLIGHT_NOZZLE_POSITION
@@ -7,10 +7,10 @@ import { EntityIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} plane
+ * @param {VehicleIndex} vehicle The vehicle to check.
  * @returns {number}  
  */
-export function getVehicleFlightNozzlePosition(plane: EntityIndex): number {
-	const getVehicleFlightNozzlePosition_result = Citizen.invokeNative<number>('0xAD40AD55', plane);
+export function getVehicleFlightNozzlePosition(vehicle: VehicleIndex): number {
+	const getVehicleFlightNozzlePosition_result = Citizen.invokeNative<number>('0xAD40AD55', vehicle);
 	return getVehicleFlightNozzlePosition_result;
 }

@@ -14,7 +14,7 @@ import { VehicleIndex, ELandingGearState } from '@ivanzaida/structures'
  * Returns the current state of the vehicles landing gear.
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
+ * @param {VehicleIndex} vehicle The vehicle to check.
  * @returns {ELandingGearState}  
  */
 export function getLandingGearState(vehicle: VehicleIndex): ELandingGearState {

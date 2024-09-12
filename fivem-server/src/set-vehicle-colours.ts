@@ -14,10 +14,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {number} colour1
- * @param {number} colour2
+ * @param {number} colorPrimary
+ * @param {number} colorSecondary
  */
-export function setVehicleColours(vehicle: VehicleIndex, colour1: number, colour2: number): void {
-	const setVehicleColours_result = Citizen.invokeNative<void>('0x57F24253', vehicle, colour1, colour2);
+export function setVehicleColours(vehicle: VehicleIndex, colorPrimary: number, colorSecondary: number): void {
+	const setVehicleColours_result = Citizen.invokeNative<void>('0x57F24253', vehicle, colorPrimary, colorSecondary);
 	return setVehicleColours_result;
 }

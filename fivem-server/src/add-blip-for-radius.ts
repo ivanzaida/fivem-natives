@@ -7,13 +7,13 @@ import { BlipIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {number} coorsX
- * @param {number} coorsY
- * @param {number} coorsZ
- * @param {number} size
+ * @param {number} posX The x position of the blip (you can also send a vector3 instead of the bulk coordinates)
+ * @param {number} posY The y position of the blip (you can also send a vector3 instead of the bulk coordinates)
+ * @param {number} posZ The z position of the blip (you can also send a vector3 instead of the bulk coordinates)
+ * @param {number} radius The number that defines the radius of the blip circle
  * @returns {BlipIndex}  
  */
-export function addBlipForRadius(coorsX: number, coorsY: number, coorsZ: number, size: number): BlipIndex {
-	const addBlipForRadius_result = Citizen.invokeNative<BlipIndex>('0x4626756C', coorsX, coorsY, coorsZ, size);
+export function addBlipForRadius(posX: number, posY: number, posZ: number, radius: number): BlipIndex {
+	const addBlipForRadius_result = Citizen.invokeNative<BlipIndex>('0x4626756C', posX, posY, posZ, radius);
 	return addBlipForRadius_result;
 }

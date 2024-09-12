@@ -12,16 +12,16 @@ import { EntityIndex } from '@ivanzaida/structures'
  * Axis - Invert Axis Flags
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} newCoorsX
- * @param {number} newCoorsY
- * @param {number} newCoorsZ
- * @param {boolean} doDeadCheck If false then the command will not assert if the entity has not been checked for being dead
- * @param {boolean} keepTasks
- * @param {boolean} keepIK
- * @param {boolean} doWarp Calling with the nondefault value of FALSE implies that the object has continuous motion and should not clear contacts nor space for itself.
+ * @param {EntityIndex} entity The entity to change coordinates for.
+ * @param {number} xPos The X coordinate.
+ * @param {number} yPos The Y coordinate.
+ * @param {number} zPos The Z coordinate, ground level.
+ * @param {boolean} alive Unused by the game, potentially used by debug builds of GTA in order to assert whether or not an entity was alive.
+ * @param {boolean} deadFlag Whether to disable physics for dead peds, too, and not just living peds.
+ * @param {boolean} ragdollFlag A special flag used for ragdolling peds.
+ * @param {boolean} clearArea Whether to clear any entities in the target area.
  */
-export function setEntityCoords(entity: EntityIndex, newCoorsX: number, newCoorsY: number, newCoorsZ: number, doDeadCheck: boolean = true, keepTasks: boolean = false, keepIK: boolean = false, doWarp: boolean = true): void {
-	const setEntityCoords_result = Citizen.invokeNative<void>('0xDF70B41B', entity, newCoorsX, newCoorsY, newCoorsZ, doDeadCheck, keepTasks, keepIK, doWarp);
+export function setEntityCoords(entity: EntityIndex, xPos: number, yPos: number, zPos: number, alive: boolean, deadFlag: boolean, ragdollFlag: boolean, clearArea: boolean): void {
+	const setEntityCoords_result = Citizen.invokeNative<void>('0xDF70B41B', entity, xPos, yPos, zPos, alive, deadFlag, ragdollFlag, clearArea);
 	return setEntityCoords_result;
 }

@@ -1,4 +1,4 @@
-import { PedIndex, EWeaponType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_AMMO
@@ -9,11 +9,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
- * @param {number} amountOfAmmo
- * @param {boolean} ignoreDeadCheck
+ * @param {number} weaponHash
+ * @param {number} ammo
  */
-export function setPedAmmo(ped: PedIndex, typeOfWeapon: EWeaponType | number, amountOfAmmo: number, ignoreDeadCheck: boolean = false): void {
-	const setPedAmmo_result = Citizen.invokeNative<void>('0xBF90DF1A', ped, typeOfWeapon, amountOfAmmo, ignoreDeadCheck);
+export function setPedAmmo(ped: PedIndex, weaponHash: number, ammo: number): void {
+	const setPedAmmo_result = Citizen.invokeNative<void>('0xBF90DF1A', ped, weaponHash, ammo);
 	return setPedAmmo_result;
 }

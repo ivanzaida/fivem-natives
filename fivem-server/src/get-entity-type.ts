@@ -12,7 +12,7 @@ import { EntityIndex, EEntityType } from '@ivanzaida/structures'
  * 3 = object
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The entity to get the type of.
  * @returns {EEntityType}  
  */
 export function getEntityType(entity: EntityIndex): EEntityType {

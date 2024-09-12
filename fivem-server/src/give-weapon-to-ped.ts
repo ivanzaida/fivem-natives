@@ -1,4 +1,4 @@
-import { PedIndex, EWeaponType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:GIVE_WEAPON_TO_PED
@@ -9,12 +9,12 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EWeaponType} typeOfWeapon
- * @param {number} amountOfAmmo
- * @param {boolean} forceIntoHand
- * @param {boolean} equip
+ * @param {number} weaponHash
+ * @param {number} ammoCount
+ * @param {boolean} isHidden
+ * @param {boolean} bForceInHand
  */
-export function giveWeaponToPed(ped: PedIndex, typeOfWeapon: EWeaponType | number, amountOfAmmo: number, forceIntoHand: boolean = false, equip: boolean = true): void {
-	const giveWeaponToPed_result = Citizen.invokeNative<void>('0xC4D88A85', ped, typeOfWeapon, amountOfAmmo, forceIntoHand, equip);
+export function giveWeaponToPed(ped: PedIndex, weaponHash: number, ammoCount: number, isHidden: boolean, bForceInHand: boolean): void {
+	const giveWeaponToPed_result = Citizen.invokeNative<void>('0xC4D88A85', ped, weaponHash, ammoCount, isHidden, bForceInHand);
 	return giveWeaponToPed_result;
 }

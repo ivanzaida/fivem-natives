@@ -13,10 +13,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * VEHICLE::SET_VEHICLE_NUMBER_PLATE_TEXT(veh, plateText);
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {string} licencePlateTxtMax8Chars
+ * @param {VehicleIndex} vehicle The vehicle to set the plate for
+ * @param {string} plateText The text to set the plate to, 8 chars maximum
  */
-export function setVehicleNumberPlateText(vehicle: VehicleIndex, licencePlateTxtMax8Chars: string): void {
-	const setVehicleNumberPlateText_result = Citizen.invokeNative<void>('0x400F9556', vehicle, licencePlateTxtMax8Chars);
+export function setVehicleNumberPlateText(vehicle: VehicleIndex, plateText: string): void {
+	const setVehicleNumberPlateText_result = Citizen.invokeNative<void>('0x400F9556', vehicle, plateText);
 	return setVehicleNumberPlateText_result;
 }

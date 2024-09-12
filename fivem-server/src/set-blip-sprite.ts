@@ -1,4 +1,4 @@
-import { BlipIndex, EBlipSprite } from '@ivanzaida/structures'
+import { BlipIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_BLIP_SPRITE
@@ -12,10 +12,10 @@ import { BlipIndex, EBlipSprite } from '@ivanzaida/structures'
  * https://gtaxscripting.blogspot.com/2016/05/gta-v-blips-id-and-image.html
  * 
  * ------------------------------------------------------------------
- * @param {BlipIndex} blip
- * @param {EBlipSprite} sprite
+ * @param {BlipIndex} blip The blip to change.
+ * @param {number} spriteId The sprite ID to set.
  */
-export function setBlipSprite(blip: BlipIndex, sprite: EBlipSprite | number): void {
-	const setBlipSprite_result = Citizen.invokeNative<void>('0x8DBBB0B9', blip, sprite);
+export function setBlipSprite(blip: BlipIndex, spriteId: number): void {
+	const setBlipSprite_result = Citizen.invokeNative<void>('0x8DBBB0B9', blip, spriteId);
 	return setBlipSprite_result;
 }

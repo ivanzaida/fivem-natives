@@ -1,4 +1,4 @@
-import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
+import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:TASK_WARP_PED_INTO_VEHICLE
@@ -17,9 +17,9 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
  * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
+ * @param {number} seatIndex See eSeatPosition declared in [IS_VEHICLE_SEAT_FREE](\_0x22AC59A870E6A669).
  */
-export function taskWarpPedIntoVehicle(ped: PedIndex, vehicle: VehicleIndex, seat: EVehicleSeat | number = 1): void {
-	const taskWarpPedIntoVehicle_result = Citizen.invokeNative<void>('0x65D4A35D', ped, vehicle, seat);
+export function taskWarpPedIntoVehicle(ped: PedIndex, vehicle: VehicleIndex, seatIndex: number): void {
+	const taskWarpPedIntoVehicle_result = Citizen.invokeNative<void>('0x65D4A35D', ped, vehicle, seatIndex);
 	return taskWarpPedIntoVehicle_result;
 }

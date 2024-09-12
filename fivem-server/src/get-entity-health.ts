@@ -16,7 +16,7 @@ import { EntityIndex } from '@ivanzaida/structures'
  * float health = (float )(entityAddress + 0x280);
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The entity to check the health of
  * @returns {number}  
  */
 export function getEntityHealth(entity: EntityIndex): number {

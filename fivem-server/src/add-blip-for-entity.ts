@@ -12,7 +12,7 @@ import { EntityIndex, BlipIndex } from '@ivanzaida/structures'
  * HUD::SET_BLIP_AS_FRIENDLY(blip, true);
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The entity handle to create the blip.
  * @returns {BlipIndex}  
  */
 export function addBlipForEntity(entity: EntityIndex): BlipIndex {

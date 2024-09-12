@@ -11,11 +11,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * disableNoMission-  Disables When Off Mission- appears to always be false
  * 
  * ------------------------------------------------------------------
- * @param {PlayerIndex} player
- * @param {number} wantedLevel
- * @param {boolean} delayLawResponse
+ * @param {PlayerIndex} player the target player
+ * @param {number} wantedLevel the wanted level 15
+ * @param {boolean} delayedResponse false = 010sec police spawn response time, true = 1020sec police spawn response time
  */
-export function setPlayerWantedLevel(player: PlayerIndex, wantedLevel: number, delayLawResponse: boolean = false): void {
-	const setPlayerWantedLevel_result = Citizen.invokeNative<void>('0xB7A0914B', player, wantedLevel, delayLawResponse);
+export function setPlayerWantedLevel(player: PlayerIndex, wantedLevel: number, delayedResponse: boolean): void {
+	const setPlayerWantedLevel_result = Citizen.invokeNative<void>('0xB7A0914B', player, wantedLevel, delayedResponse);
 	return setPlayerWantedLevel_result;
 }

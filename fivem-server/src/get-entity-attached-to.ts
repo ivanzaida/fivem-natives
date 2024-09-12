@@ -7,7 +7,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The entity to check.
  * @returns {EntityIndex}  
  */
 export function getEntityAttachedTo(entity: EntityIndex): EntityIndex {

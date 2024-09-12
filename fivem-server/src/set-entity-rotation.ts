@@ -1,4 +1,4 @@
-import { EntityIndex, EEulerRotOrder } from '@ivanzaida/structures'
+import { EntityIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_ENTITY_ROTATION
@@ -12,14 +12,14 @@ import { EntityIndex, EEulerRotOrder } from '@ivanzaida/structures'
  * p5 is usually set as true
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {number} newRotationX
- * @param {number} newRotationY
- * @param {number} newRotationZ
- * @param {EEulerRotOrder} rotOrder
- * @param {boolean} doDeadCheck
+ * @param {EntityIndex} entity The entity to rotate.
+ * @param {number} pitch The pitch (Xaxis) rotation in degrees.
+ * @param {number} roll The roll (Yaxis) rotation in degrees.
+ * @param {number} yaw The yaw (Zaxis) rotation in degrees.
+ * @param {number} rotationOrder Specifies the order in which yaw, pitch, and roll are applied, see [GET_ENTITY_ROTATION](\_0xAFBD61CC738D9EB9) for the available rotation orders.
+ * @param {boolean} bDeadCheck Usually set to true. Determines whether to check if the entity is dead before applying the rotation.
  */
-export function setEntityRotation(entity: EntityIndex, newRotationX: number, newRotationY: number, newRotationZ: number, rotOrder: EEulerRotOrder | number = 2, doDeadCheck: boolean = true): void {
-	const setEntityRotation_result = Citizen.invokeNative<void>('0xA345EFE', entity, newRotationX, newRotationY, newRotationZ, rotOrder, doDeadCheck);
+export function setEntityRotation(entity: EntityIndex, pitch: number, roll: number, yaw: number, rotationOrder: number, bDeadCheck: boolean): void {
+	const setEntityRotation_result = Citizen.invokeNative<void>('0xA345EFE', entity, pitch, roll, yaw, rotationOrder, bDeadCheck);
 	return setEntityRotation_result;
 }

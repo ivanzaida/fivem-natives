@@ -7,7 +7,7 @@ import { PedIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * @param {PedIndex} ped The target ped.
  * @returns {boolean}  
  */
 export function isFlashLightOn(ped: PedIndex): boolean {

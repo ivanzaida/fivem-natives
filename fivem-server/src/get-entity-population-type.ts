@@ -8,7 +8,7 @@ import { EntityIndex, EEntityPopulationType } from '@ivanzaida/structures'
  * A population type, from the following enum: https://alloc8or.re/gta5/doc/enums/ePopulationType.txt
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity the entity to obtain the population type from
  * @returns {EEntityPopulationType}  
  */
 export function getEntityPopulationType(entity: EntityIndex): EEntityPopulationType {

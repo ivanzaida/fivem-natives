@@ -1,5 +1,3 @@
-import { PlayerIndex } from '@ivanzaida/structures'
-
 /**
  * CFX:GET_PLAYER_TEAM
  *
@@ -9,10 +7,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * Does nothing in singleplayer.
  * 
  * ------------------------------------------------------------------
- * @param {PlayerIndex} player
+ * @param {string} playerSrc The player handle
  * @returns {number}  
  */
-export function getPlayerTeam(player: PlayerIndex): number {
-	const getPlayerTeam_result = Citizen.invokeNative<number>('0x9873E404', player);
+export function getPlayerTeam(playerSrc: string): number {
+	const getPlayerTeam_result = Citizen.invokeNative<number>('0x9873E404', playerSrc);
 	return getPlayerTeam_result;
 }

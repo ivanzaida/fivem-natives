@@ -1,4 +1,4 @@
-import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_VEHICLE_DOOR_BROKEN
@@ -9,10 +9,10 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {EScDoorList} doorNumber
- * @param {boolean} dissapear
+ * @param {number} doorIndex
+ * @param {boolean} deleteDoor
  */
-export function setVehicleDoorBroken(vehicle: VehicleIndex, doorNumber: EScDoorList | number, dissapear: boolean): void {
-	const setVehicleDoorBroken_result = Citizen.invokeNative<void>('0x8147FEA7', vehicle, doorNumber, dissapear);
+export function setVehicleDoorBroken(vehicle: VehicleIndex, doorIndex: number, deleteDoor: boolean): void {
+	const setVehicleDoorBroken_result = Citizen.invokeNative<void>('0x8147FEA7', vehicle, doorIndex, deleteDoor);
 	return setVehicleDoorBroken_result;
 }

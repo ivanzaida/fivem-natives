@@ -1,4 +1,4 @@
-import { PedIndex, ERagdollFallTypes } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_TO_RAGDOLL_WITH_FALL
@@ -21,22 +21,22 @@ import { PedIndex, ERagdollFallTypes } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {number} minTime
- * @param {number} maxTime
- * @param {ERagdollFallTypes} fallType
- * @param {number} vecDirectionX
- * @param {number} vecDirectionY
- * @param {number} vecDirectionZ
- * @param {number} groundHeight
- * @param {number} vecGrab1X
- * @param {number} vecGrab1Y
- * @param {number} vecGrab1Z
- * @param {number} vecGrab2X
- * @param {number} vecGrab2Y
- * @param {number} vecGrab2Z
+ * @param {number} time
+ * @param {number} p2
+ * @param {number} ragdollType
+ * @param {number} x
+ * @param {number} y
+ * @param {number} z
+ * @param {number} p7
+ * @param {number} p8
+ * @param {number} p9
+ * @param {number} p10
+ * @param {number} p11
+ * @param {number} p12
+ * @param {number} p13
  * @returns {boolean}  
  */
-export function setPedToRagdollWithFall(ped: PedIndex, minTime: number, maxTime: number, fallType: ERagdollFallTypes | number, vecDirectionX: number, vecDirectionY: number, vecDirectionZ: number, groundHeight: number, vecGrab1X: number, vecGrab1Y: number, vecGrab1Z: number, vecGrab2X: number, vecGrab2Y: number, vecGrab2Z: number): boolean {
-	const setPedToRagdollWithFall_result = Citizen.invokeNative<boolean>('0xFA12E286', ped, minTime, maxTime, fallType, vecDirectionX, vecDirectionY, vecDirectionZ, groundHeight, vecGrab1X, vecGrab1Y, vecGrab1Z, vecGrab2X, vecGrab2Y, vecGrab2Z);
+export function setPedToRagdollWithFall(ped: PedIndex, time: number, p2: number, ragdollType: number, x: number, y: number, z: number, p7: number, p8: number, p9: number, p10: number, p11: number, p12: number, p13: number): boolean {
+	const setPedToRagdollWithFall_result = Citizen.invokeNative<boolean>('0xFA12E286', ped, time, p2, ragdollType, x, y, z, p7, p8, p9, p10, p11, p12, p13);
 	return setPedToRagdollWithFall_result;
 }

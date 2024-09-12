@@ -1,4 +1,4 @@
-import { PedIndex, EPedRaceType } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_RANDOM_COMPONENT_VARIATION
@@ -12,9 +12,9 @@ import { PedIndex, EPedRaceType } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EPedRaceType} race
+ * @param {number} p1
  */
-export function setPedRandomComponentVariation(ped: PedIndex, race: EPedRaceType | number = 0): void {
-	const setPedRandomComponentVariation_result = Citizen.invokeNative<void>('0x4111BA46', ped, race);
+export function setPedRandomComponentVariation(ped: PedIndex, p1: number): void {
+	const setPedRandomComponentVariation_result = Citizen.invokeNative<void>('0x4111BA46', ped, p1);
 	return setPedRandomComponentVariation_result;
 }

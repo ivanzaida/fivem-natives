@@ -10,11 +10,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity
- * @param {number} velocityComponenttX
- * @param {number} velocityComponenttY
- * @param {number} velocityComponenttZ
+ * @param {number} x
+ * @param {number} y
+ * @param {number} z
  */
-export function setEntityVelocity(entity: EntityIndex, velocityComponenttX: number, velocityComponenttY: number, velocityComponenttZ: number): void {
-	const setEntityVelocity_result = Citizen.invokeNative<void>('0xFF5A1988', entity, velocityComponenttX, velocityComponenttY, velocityComponenttZ);
+export function setEntityVelocity(entity: EntityIndex, x: number, y: number, z: number): void {
+	const setEntityVelocity_result = Citizen.invokeNative<void>('0xFF5A1988', entity, x, y, z);
 	return setEntityVelocity_result;
 }

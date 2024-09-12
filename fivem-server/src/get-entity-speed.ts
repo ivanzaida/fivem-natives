@@ -16,7 +16,7 @@ import { EntityIndex } from '@ivanzaida/structures'
  * ------------------------------------------------------------
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
+ * @param {EntityIndex} entity The entity to get the speed of
  * @returns {number}  
  */
 export function getEntitySpeed(entity: EntityIndex): number {

@@ -1,4 +1,4 @@
-import { VehicleIndex } from '@ivanzaida/structures'
+import { VehicleIndex, IntRef } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_VEHICLE_COLOURS
@@ -8,10 +8,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {number} outColour1
- * @param {number} outColour2
+ * @param {IntRef} colorPrimary [Ref]
+ * @param {IntRef} colorSecondary [Ref]
  */
-export function getVehicleColours(vehicle: VehicleIndex, outColour1: number, outColour2: number): void {
-	const getVehicleColours_result = Citizen.invokeNative<void>('0x40D82D88', vehicle, outColour1, outColour2);
+export function getVehicleColours(vehicle: VehicleIndex, colorPrimary: IntRef /* ptr */, colorSecondary: IntRef /* ptr */): void {
+	const getVehicleColours_result = Citizen.invokeNative<void>('0x40D82D88', vehicle, colorPrimary.dataView, colorSecondary.dataView);
 	return getVehicleColours_result;
 }

@@ -8,10 +8,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  * Freezes or unfreezes an entity preventing its coordinates to change by the player if set to `true`. You can still change the entity position using SET_ENTITY_COORDS.
  * 
  * ------------------------------------------------------------------
- * @param {EntityIndex} entity
- * @param {boolean} frozenByScriptFlag
+ * @param {EntityIndex} entity The entity to freeze/unfreeze.
+ * @param {boolean} toggle Freeze or unfreeze entity.
  */
-export function freezeEntityPosition(entity: EntityIndex, frozenByScriptFlag: boolean): void {
-	const freezeEntityPosition_result = Citizen.invokeNative<void>('0x65C16D57', entity, frozenByScriptFlag);
+export function freezeEntityPosition(entity: EntityIndex, toggle: boolean): void {
+	const freezeEntityPosition_result = Citizen.invokeNative<void>('0x65C16D57', entity, toggle);
 	return freezeEntityPosition_result;
 }

@@ -1,4 +1,4 @@
-import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
+import { VehicleIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:IS_VEHICLE_TYRE_BURST
@@ -19,11 +19,11 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle
- * @param {EScWheelList} wheelNumber
- * @param {boolean} isBurstToRim
+ * @param {number} wheelID
+ * @param {boolean} completely
  * @returns {boolean}  
  */
-export function isVehicleTyreBurst(vehicle: VehicleIndex, wheelNumber: EScWheelList | number, isBurstToRim: boolean = false): boolean {
-	const isVehicleTyreBurst_result = Citizen.invokeNative<boolean>('0x48C80210', vehicle, wheelNumber, isBurstToRim);
+export function isVehicleTyreBurst(vehicle: VehicleIndex, wheelID: number, completely: boolean): boolean {
+	const isVehicleTyreBurst_result = Citizen.invokeNative<boolean>('0x48C80210', vehicle, wheelID, completely);
 	return isVehicleTyreBurst_result;
 }

@@ -1,4 +1,4 @@
-import { VehicleIndex, EVehicleSeat, PedIndex } from '@ivanzaida/structures'
+import { VehicleIndex, PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:GET_PED_IN_VEHICLE_SEAT
@@ -17,12 +17,11 @@ import { VehicleIndex, EVehicleSeat, PedIndex } from '@ivanzaida/structures'
  * If p2 is true it uses a different GetOccupant function.
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicle
- * @param {EVehicleSeat} seat
- * @param {boolean} considerPedUsingSeat
+ * @param {VehicleIndex} vehicle The target vehicle.
+ * @param {number} seatIndex See eSeatPosition declared in [IS_VEHICLE_SEAT_FREE](_0x22AC59A870E6A669).
  * @returns {PedIndex}  
  */
-export function getPedInVehicleSeat(vehicle: VehicleIndex, seat: EVehicleSeat | number = 1, considerPedUsingSeat: boolean = false): PedIndex {
-	const getPedInVehicleSeat_result = Citizen.invokeNative<PedIndex>('0x388FDE9A', vehicle, seat, considerPedUsingSeat);
+export function getPedInVehicleSeat(vehicle: VehicleIndex, seatIndex: number): PedIndex {
+	const getPedInVehicleSeat_result = Citizen.invokeNative<PedIndex>('0x388FDE9A', vehicle, seatIndex);
 	return getPedInVehicleSeat_result;
 }

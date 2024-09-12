@@ -7,7 +7,7 @@ import { PedIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * @param {PedIndex} ped Ped id. Use PlayerPedId() for your own character.
  */
 export function clearPedTasks(ped: PedIndex): void {
 	const clearPedTasks_result = Citizen.invokeNative<void>('0xDE3316AB', ped);

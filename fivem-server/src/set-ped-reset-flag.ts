@@ -1,4 +1,4 @@
-import { PedIndex, EPedResetFlags } from '@ivanzaida/structures'
+import { PedIndex } from '@ivanzaida/structures'
 
 /**
  * CFX:SET_PED_RESET_FLAG
@@ -11,10 +11,10 @@ import { PedIndex, EPedResetFlags } from '@ivanzaida/structures'
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped
- * @param {EPedResetFlags} resetFlag
- * @param {boolean} flag
+ * @param {number} flagId
+ * @param {boolean} doReset
  */
-export function setPedResetFlag(ped: PedIndex, resetFlag: EPedResetFlags | number, flag: boolean): void {
-	const setPedResetFlag_result = Citizen.invokeNative<void>('0xCFF6FF66', ped, resetFlag, flag);
+export function setPedResetFlag(ped: PedIndex, flagId: number, doReset: boolean): void {
+	const setPedResetFlag_result = Citizen.invokeNative<void>('0xCFF6FF66', ped, flagId, doReset);
 	return setPedResetFlag_result;
 }

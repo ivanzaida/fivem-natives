@@ -9,7 +9,7 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  * Is best to check if the Ped is dead before asking for its killer.
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * @param {PedIndex} ped The target ped
  * @returns {EntityIndex}  
  */
 export function getPedSourceOfDeath(ped: PedIndex): EntityIndex {

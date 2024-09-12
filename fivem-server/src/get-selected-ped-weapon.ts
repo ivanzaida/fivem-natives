@@ -17,7 +17,7 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
  * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
+ * @param {PedIndex} ped The target ped.
  * @returns {EWeaponType}  
  */
 export function getSelectedPedWeapon(ped: PedIndex): EWeaponType {

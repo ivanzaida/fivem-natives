@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           always-auth: true
-          node-version: '21'
+          node-version: '22'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
@@ -25,5 +25,7 @@ jobs:
 
       - name: Build And Deploy
         run: yarn deployToNpm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       

@@ -1,13 +1,14 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "@ivanzaida/fivem-client",
   "author": "ivanzaida <lurkmorr228@gmail.com>",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@ivanzaida/structures": "0.0.1"
+    "@ivanzaida/structures": "0.0.2"
   },
   "devDependencies": {
     "typescript": "^5.5.4"

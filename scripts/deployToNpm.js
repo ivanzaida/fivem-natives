@@ -8,7 +8,6 @@ const main = () => {
     writeFileSync('.npmrc', `//registry.npmjs.org/:_authToken=${process.env.NODE_AUTH_TOKEN}`);
     const pkgJson = require('../package.json');
 
-    const version = pkgJson.version;
 
     const workspaces = pkgJson.workspaces;
 
@@ -16,10 +15,8 @@ const main = () => {
         const projectPath = path.resolve(element);
         const pkgJsonPath = path.join(projectPath, `package.json`);
         const pkgJson = JSON.parse(readFileSync(pkgJsonPath, 'utf8'));
-        pkgJson.version = version;
-        writeFileSync(pkgJsonPath, JSON.stringify(pkgJson, null, 2));
+        const version = pkgJson.version;
         const workspaceName = pkgJson.name;
-     
 
         let versionMismatch = false;
         const packageVersion = `${workspaceName}@${version}`;
@@ -33,8 +30,8 @@ const main = () => {
         if (!versionMismatch) {
             log(`Version ${version} of ${workspaceName} already exists on npm. Skipping...`);
             return;
-        } 
-        
+        }
+
         log(`Building project ${workspaceName}...`);
         execSync(`yarn workspace ${workspaceName} build`, {});
 

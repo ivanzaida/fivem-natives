@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1-test",
+  "version": "0.0.1",
   "name": "@ivanzaida/natives",
   "author": "ivanzaida <lurkmorr228@gmail.com>",
   "main": "dist/index.js",

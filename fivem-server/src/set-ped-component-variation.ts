@@ -3,7 +3,7 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_COMPONENT_VARIATION
  *
- * 0XD4F7B05C
+ * 0xD4F7B05C
 
  * This command sets the drawable and texture for one component of the ped's model. Each ped model can have several drawables for each component.
  * Each drawable can have several textures. You should check that the new drawable index is within range for the component (body part) for the ped's model (using GET_NUMBER_OF_CHAR_DRAWABLE_VARIATIONS.
@@ -36,6 +36,6 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  * @param {number} newPaletteNumber
  */
 export function setPedComponentVariation(ped: PedIndex, componentNumber: EPedComponent | number, newDrawableNumber: number, newTextureNumber: number, newPaletteNumber: number = 0): void {
-	const setPedComponentVariation_result = Citizen.invokeNative<void>('0XD4F7B05C', ped, componentNumber, newDrawableNumber, newTextureNumber, newPaletteNumber);
+	const setPedComponentVariation_result = Citizen.invokeNative<void>('0xD4F7B05C', ped, componentNumber, newDrawableNumber, newTextureNumber, newPaletteNumber);
 	return setPedComponentVariation_result;
 }

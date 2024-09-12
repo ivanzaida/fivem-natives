@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:FIND_NEXT_OBJECT
  *
- * 0X4E129DBF
+ * 0x4E129DBF
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function findNextObject(findHandle: number, outEntity: IntRef /* ptr */): boolean {
-	const findNextObject_result = Citizen.invokeNative<boolean>('0X4E129DBF', findHandle, outEntity.dataView);
+	const findNextObject_result = Citizen.invokeNative<boolean>('0x4E129DBF', findHandle, outEntity.dataView);
 	return findNextObject_result;
 }

@@ -12,7 +12,7 @@ export class SessionEvent {
 		this.dataView = dataView;
 	}
 
-	public get nEventID(): ESessionEventType {
+	public get nEventId(): ESessionEventType {
 		return this.dataView.getInt32(0, true) as ESessionEventType
 	}
 

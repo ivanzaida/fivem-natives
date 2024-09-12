@@ -9,7 +9,7 @@ export class MpOutfitsData {
 		this.dataView = dataView;
 	}
 
-	public get componentDrawableID(): number[] {
+	public get componentDrawableId(): number[] {
 		return [
 			this.dataView.getInt32(0, true),
 			this.dataView.getInt32(8, true),
@@ -26,7 +26,7 @@ export class MpOutfitsData {
 		]
 	}
 
-	public get componentTextureID(): number[] {
+	public get componentTextureId(): number[] {
 		return [
 			this.dataView.getInt32(96, true),
 			this.dataView.getInt32(104, true),
@@ -43,7 +43,7 @@ export class MpOutfitsData {
 		]
 	}
 
-	public get propDrawableID(): number[] {
+	public get propDrawableId(): number[] {
 		return [
 			this.dataView.getInt32(192, true),
 			this.dataView.getInt32(200, true),
@@ -57,7 +57,7 @@ export class MpOutfitsData {
 		]
 	}
 
-	public get propTextureID(): number[] {
+	public get propTextureId(): number[] {
 		return [
 			this.dataView.getInt32(264, true),
 			this.dataView.getInt32(272, true),
@@ -71,7 +71,7 @@ export class MpOutfitsData {
 		]
 	}
 
-	public get dLCTattooOverlay(): number[] {
+	public get dLcTattooOverlay(): number[] {
 		return [
 			this.dataView.getInt32(336, true),
 			this.dataView.getInt32(344, true),

@@ -101,7 +101,7 @@ export class FmHeistPrepEnded {
 		return this.dataView.getInt32(176, true)
 	}
 
-	public get heistSessionID(): number {
+	public get heistSessionId(): number {
 		return this.dataView.getInt32(184, true)
 	}
 
@@ -173,7 +173,7 @@ export class FmHeistPrepEnded {
 		return this.dataView.getInt32(320, true)
 	}
 
-	public get sessionID(): number {
+	public get sessionId(): number {
 		return this.dataView.getInt32(328, true)
 	}
 

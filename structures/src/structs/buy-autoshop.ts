@@ -13,7 +13,7 @@ export class BuyAutoshop {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get location_amount(): number {
+	public get locationAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class BuyAutoshop {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get style_amount(): number {
+	public get styleAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class BuyAutoshop {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get tint_amount(): number {
+	public get tintAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,15 +37,15 @@ export class BuyAutoshop {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get emblem_amount(): number {
+	public get emblemAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
-	public get crew_name(): number {
+	public get crewName(): number {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get crew_name_amount(): number {
+	public get crewNameAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class BuyAutoshop {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get staff_amount(): number {
+	public get staffAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,15 +61,15 @@ export class BuyAutoshop {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get lift_amount(): number {
+	public get liftAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 
-	public get personal_quarter(): number {
+	public get personalQuarter(): number {
 		return this.dataView.getInt32(112, true)
 	}
 
-	public get personal_quarter_amount(): number {
+	public get personalQuarterAmount(): number {
 		return this.dataView.getInt32(120, true)
 	}
 }

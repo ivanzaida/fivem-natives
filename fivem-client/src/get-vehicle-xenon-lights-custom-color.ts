@@ -3,7 +3,7 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_XENON_LIGHTS_CUSTOM_COLOR
  *
- * 0XC715F730
+ * 0xC715F730
 
  * Returns vehicle xenon lights custom RGB color values. Do note this native doesn't return non-RGB colors that was set with [_SET_VEHICLE_XENON_LIGHTS_COLOR](#_0xE41033B25D003A07).
  * 
@@ -15,6 +15,6 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  A boolean indicating if vehicle have custom xenon lights RGB color.
  */
 export function getVehicleXenonLightsCustomColor(vehicle: VehicleIndex, red: IntRef /* ptr */, green: IntRef /* ptr */, blue: IntRef /* ptr */): boolean {
-	const getVehicleXenonLightsCustomColor_result = Citizen.invokeNative<boolean>('0XC715F730', vehicle, red.dataView, green.dataView, blue.dataView);
+	const getVehicleXenonLightsCustomColor_result = Citizen.invokeNative<boolean>('0xC715F730', vehicle, red.dataView, green.dataView, blue.dataView);
 	return getVehicleXenonLightsCustomColor_result;
 }

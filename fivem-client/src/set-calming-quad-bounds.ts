@@ -1,7 +1,7 @@
 /**
  * CFX:SET_CALMING_QUAD_BOUNDS
  *
- * 0XC5945BD9
+ * 0xC5945BD9
 
  * 
  * ------------------------------------------------------------------
@@ -13,6 +13,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setCalmingQuadBounds(waterQuad: number, minX: number, minY: number, maxX: number, maxY: number): boolean {
-	const setCalmingQuadBounds_result = Citizen.invokeNative<boolean>('0XC5945BD9', waterQuad, minX, minY, maxX, maxY);
+	const setCalmingQuadBounds_result = Citizen.invokeNative<boolean>('0xC5945BD9', waterQuad, minX, minY, maxX, maxY);
 	return setCalmingQuadBounds_result;
 }

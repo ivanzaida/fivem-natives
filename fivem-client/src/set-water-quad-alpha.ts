@@ -1,7 +1,7 @@
 /**
  * CFX:SET_WATER_QUAD_ALPHA
  *
- * 0XF49797EB
+ * 0xF49797EB
 
  * 
  * ------------------------------------------------------------------
@@ -13,6 +13,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadAlpha(waterQuad: number, a0: number, a1: number, a2: number, a3: number): boolean {
-	const setWaterQuadAlpha_result = Citizen.invokeNative<boolean>('0XF49797EB', waterQuad, a0, a1, a2, a3);
+	const setWaterQuadAlpha_result = Citizen.invokeNative<boolean>('0xF49797EB', waterQuad, a0, a1, a2, a3);
 	return setWaterQuadAlpha_result;
 }

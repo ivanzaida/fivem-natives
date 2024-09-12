@@ -11,7 +11,7 @@ export class PresenceInviteRemovedEvent {
 		this.dataView = dataView;
 	}
 
-	public get inviteID(): number {
+	public get inviteId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

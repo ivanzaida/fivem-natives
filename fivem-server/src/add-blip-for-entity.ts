@@ -3,7 +3,7 @@ import { EntityIndex, BlipIndex } from '@ivanzaida/structures'
 /**
  * CFX:ADD_BLIP_FOR_ENTITY
  *
- * 0X30822554
+ * 0x30822554
 
  * Returns red ( default ) blip attached to entity.
  * Example:
@@ -16,6 +16,6 @@ import { EntityIndex, BlipIndex } from '@ivanzaida/structures'
  * @returns {BlipIndex}  
  */
 export function addBlipForEntity(entity: EntityIndex): BlipIndex {
-	const addBlipForEntity_result = Citizen.invokeNative<BlipIndex>('0X30822554', entity);
+	const addBlipForEntity_result = Citizen.invokeNative<BlipIndex>('0x30822554', entity);
 	return addBlipForEntity_result;
 }

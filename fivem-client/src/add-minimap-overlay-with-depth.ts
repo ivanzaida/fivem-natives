@@ -1,7 +1,7 @@
 /**
  * CFX:ADD_MINIMAP_OVERLAY_WITH_DEPTH
  *
- * 0XED0935B5
+ * 0xED0935B5
 
  * Loads a minimap overlay from a GFx file in the current resource.
  * 
@@ -11,6 +11,6 @@
  * @returns {number}  A minimap overlay ID.
  */
 export function addMinimapOverlayWithDepth(name: string, depth: number): number {
-	const addMinimapOverlayWithDepth_result = Citizen.invokeNative<number>('0XED0935B5', name, depth);
+	const addMinimapOverlayWithDepth_result = Citizen.invokeNative<number>('0xED0935B5', name, depth);
 	return addMinimapOverlayWithDepth_result;
 }

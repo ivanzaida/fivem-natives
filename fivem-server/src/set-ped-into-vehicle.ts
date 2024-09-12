@@ -3,7 +3,7 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_INTO_VEHICLE
  *
- * 0X7500C79
+ * 0x7500C79
 
  * Ped: The ped to warp.
  * vehicle: The vehicle to warp the ped into.
@@ -20,6 +20,6 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * @param {EVehicleSeat} seat
  */
 export function setPedIntoVehicle(ped: PedIndex, vehicle: VehicleIndex, seat: EVehicleSeat | number = 1): void {
-	const setPedIntoVehicle_result = Citizen.invokeNative<void>('0X7500C79', ped, vehicle, seat);
+	const setPedIntoVehicle_result = Citizen.invokeNative<void>('0x7500C79', ped, vehicle, seat);
 	return setPedIntoVehicle_result;
 }

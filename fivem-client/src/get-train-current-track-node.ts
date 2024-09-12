@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_TRAIN_CURRENT_TRACK_NODE
  *
- * 0XE015E854
+ * 0xE015E854
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  Train's current track node index.
  */
 export function getTrainCurrentTrackNode(train: VehicleIndex): number {
-	const getTrainCurrentTrackNode_result = Citizen.invokeNative<number>('0XE015E854', train);
+	const getTrainCurrentTrackNode_result = Citizen.invokeNative<number>('0xE015E854', train);
 	return getTrainCurrentTrackNode_result;
 }

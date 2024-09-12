@@ -137,11 +137,11 @@ export class CasinoStoryMissionEnded {
 		return this.dataView.getInt8(248) === 1;
 	}
 
-	public get bossUUID(): number {
+	public get bossUuid(): number {
 		return this.dataView.getInt32(256, true)
 	}
 
-	public get bossUUID2(): number {
+	public get bossUuid2(): number {
 		return this.dataView.getInt32(264, true)
 	}
 
@@ -153,7 +153,7 @@ export class CasinoStoryMissionEnded {
 		return this.dataView.getInt32(280, true)
 	}
 
-	public get missionID(): number {
+	public get missionId(): number {
 		return this.dataView.getInt32(288, true)
 	}
 

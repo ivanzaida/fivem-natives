@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_CUSTOM_PRIMARY_COLOUR
  *
- * 0X1C2B9FEF
+ * 0x1C2B9FEF
 
  * 
  * ------------------------------------------------------------------
@@ -13,6 +13,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} blue
  */
 export function getVehicleCustomPrimaryColour(vehicle: VehicleIndex, red: number, green: number, blue: number): void {
-	const getVehicleCustomPrimaryColour_result = Citizen.invokeNative<void>('0X1C2B9FEF', vehicle, red, green, blue);
+	const getVehicleCustomPrimaryColour_result = Citizen.invokeNative<void>('0x1C2B9FEF', vehicle, red, green, blue);
 	return getVehicleCustomPrimaryColour_result;
 }

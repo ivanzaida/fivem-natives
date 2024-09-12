@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_MAX_HEALTH
  *
- * 0XC7AE6AA1
+ * 0xC7AE6AA1
 
  * Return an integer value of entity's maximum health.
  * Example:
@@ -15,6 +15,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getEntityMaxHealth(entity: EntityIndex): number {
-	const getEntityMaxHealth_result = Citizen.invokeNative<number>('0XC7AE6AA1', entity);
+	const getEntityMaxHealth_result = Citizen.invokeNative<number>('0xC7AE6AA1', entity);
 	return getEntityMaxHealth_result;
 }

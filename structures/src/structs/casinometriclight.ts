@@ -13,7 +13,7 @@ export class Casinometriclight {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get tableID(): number {
+	public get tableId(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -53,7 +53,7 @@ export class Casinometriclight {
 		return this.dataView.getInt8(80) === 1;
 	}
 
-	public get hostID(): number {
+	public get hostId(): number {
 		return this.dataView.getInt32(88, true)
 	}
 

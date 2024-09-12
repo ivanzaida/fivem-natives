@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_INTERIOR_ROOM_EXTENTS
  *
- * 0XF9E795DD
+ * 0xF9E795DD
 
  * 
  * ------------------------------------------------------------------
@@ -17,6 +17,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @param {FloatRef} bbMaxZ [Ref]
  */
 export function getInteriorRoomExtents(interiorId: number, roomIndex: number, bbMinX: FloatRef /* ptr */, bbMinY: FloatRef /* ptr */, bbMinZ: FloatRef /* ptr */, bbMaxX: FloatRef /* ptr */, bbMaxY: FloatRef /* ptr */, bbMaxZ: FloatRef /* ptr */): void {
-	const getInteriorRoomExtents_result = Citizen.invokeNative<void>('0XF9E795DD', interiorId, roomIndex, bbMinX.dataView, bbMinY.dataView, bbMinZ.dataView, bbMaxX.dataView, bbMaxY.dataView, bbMaxZ.dataView);
+	const getInteriorRoomExtents_result = Citizen.invokeNative<void>('0xF9E795DD', interiorId, roomIndex, bbMinX.dataView, bbMinY.dataView, bbMinZ.dataView, bbMaxX.dataView, bbMaxY.dataView, bbMaxZ.dataView);
 	return getInteriorRoomExtents_result;
 }

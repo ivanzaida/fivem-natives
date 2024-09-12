@@ -3,7 +3,7 @@ import { PedIndex, VehicleIndex, EEnterExitVehicleFlags } from '@ivanzaida/struc
 /**
  * CFX:TASK_LEAVE_VEHICLE
  *
- * 0X7B1141C6
+ * 0x7B1141C6
 
  * Flags from decompiled scripts:
  * 0 = normal exit and closes door.
@@ -21,6 +21,6 @@ import { PedIndex, VehicleIndex, EEnterExitVehicleFlags } from '@ivanzaida/struc
  * @param {EEnterExitVehicleFlags} flags
  */
 export function taskLeaveVehicle(ped: PedIndex, vehicle: VehicleIndex, flags: EEnterExitVehicleFlags | number = 0): void {
-	const taskLeaveVehicle_result = Citizen.invokeNative<void>('0X7B1141C6', ped, vehicle, flags);
+	const taskLeaveVehicle_result = Citizen.invokeNative<void>('0x7B1141C6', ped, vehicle, flags);
 	return taskLeaveVehicle_result;
 }

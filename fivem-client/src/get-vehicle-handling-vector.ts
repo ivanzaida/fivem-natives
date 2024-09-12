@@ -3,7 +3,7 @@ import { VehicleIndex, Vector3Ref } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_HANDLING_VECTOR
  *
- * 0XFB341304
+ * 0xFB341304
 
  * Returns the effective handling data of a vehicle as a vector value.Example: `local inertiaMultiplier = GetVehicleHandlingVector(vehicle, 'CHandlingData', 'vecInertiaMultiplier')`
  * 
@@ -14,6 +14,6 @@ import { VehicleIndex, Vector3Ref } from '@ivanzaida/structures'
  * @returns {Vector3Ref}  An integer.
  */
 export function getVehicleHandlingVector(vehicle: VehicleIndex, class_: string, fieldName: string): Vector3Ref {
-	const getVehicleHandlingVector_result = Citizen.invokeNative<Vector3Ref>('0XFB341304', vehicle, class_, fieldName);
+	const getVehicleHandlingVector_result = Citizen.invokeNative<Vector3Ref>('0xFB341304', vehicle, class_, fieldName);
 	return getVehicleHandlingVector_result;
 }

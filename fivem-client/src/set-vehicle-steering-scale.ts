@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_STEERING_SCALE
  *
- * 0XEB46596F
+ * 0xEB46596F
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} scale
  */
 export function setVehicleSteeringScale(vehicle: VehicleIndex, scale: number): void {
-	const setVehicleSteeringScale_result = Citizen.invokeNative<void>('0XEB46596F', vehicle, scale);
+	const setVehicleSteeringScale_result = Citizen.invokeNative<void>('0xEB46596F', vehicle, scale);
 	return setVehicleSteeringScale_result;
 }

@@ -3,7 +3,7 @@ import { VehicleIndex, EScWindowList } from '@ivanzaida/structures'
 /**
  * CFX:IS_VEHICLE_WINDOW_INTACT
  *
- * 0XAC4EF23D
+ * 0xAC4EF23D
 
  * This will return false if the window is broken, or rolled down.
  * Window indexes:
@@ -19,6 +19,6 @@ import { VehicleIndex, EScWindowList } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isVehicleWindowIntact(vehicle: VehicleIndex, windowNumber: EScWindowList | number): boolean {
-	const isVehicleWindowIntact_result = Citizen.invokeNative<boolean>('0XAC4EF23D', vehicle, windowNumber);
+	const isVehicleWindowIntact_result = Citizen.invokeNative<boolean>('0xAC4EF23D', vehicle, windowNumber);
 	return isVehicleWindowIntact_result;
 }

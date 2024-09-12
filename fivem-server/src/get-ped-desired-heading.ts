@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_DESIRED_HEADING
  *
- * 0XC182F76E
+ * 0xC182F76E
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {number}  Returns ped's desired heading.
  */
 export function getPedDesiredHeading(ped: PedIndex): number {
-	const getPedDesiredHeading_result = Citizen.invokeNative<number>('0XC182F76E', ped);
+	const getPedDesiredHeading_result = Citizen.invokeNative<number>('0xC182F76E', ped);
 	return getPedDesiredHeading_result;
 }

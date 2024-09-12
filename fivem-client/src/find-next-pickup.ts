@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:FIND_NEXT_PICKUP
  *
- * 0X4107EF0F
+ * 0x4107EF0F
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function findNextPickup(findHandle: number, outEntity: IntRef /* ptr */): boolean {
-	const findNextPickup_result = Citizen.invokeNative<boolean>('0X4107EF0F', findHandle, outEntity.dataView);
+	const findNextPickup_result = Citizen.invokeNative<boolean>('0x4107EF0F', findHandle, outEntity.dataView);
 	return findNextPickup_result;
 }

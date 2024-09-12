@@ -1,7 +1,7 @@
 /**
  * CFX:SET_WEATHER_CYCLE_ENTRY
  *
- * 0XD264D4E1
+ * 0xD264D4E1
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@
  * @returns {boolean}  Returns true if all parameters were valid, otherwise false.
  */
 export function setWeatherCycleEntry(index: number, typeName: string, timeMult: number): boolean {
-	const setWeatherCycleEntry_result = Citizen.invokeNative<boolean>('0XD264D4E1', index, typeName, timeMult);
+	const setWeatherCycleEntry_result = Citizen.invokeNative<boolean>('0xD264D4E1', index, typeName, timeMult);
 	return setWeatherCycleEntry_result;
 }

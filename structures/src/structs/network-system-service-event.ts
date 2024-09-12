@@ -9,7 +9,7 @@ export class NetworkSystemServiceEvent {
 		this.dataView = dataView;
 	}
 
-	public get eventID(): number {
+	public get eventId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

@@ -3,7 +3,7 @@ import { EntityIndex, EApplyForceType } from '@ivanzaida/structures'
 /**
  * CFX:APPLY_FORCE_TO_ENTITY
  *
- * 0XC1C0855A
+ * 0xC1C0855A
 
  * Documented here:
  * gtaforums.com/topic/885669-precisely-define-object-physics/
@@ -43,6 +43,6 @@ import { EntityIndex, EApplyForceType } from '@ivanzaida/structures'
  * @param {boolean} scaleByTimeWarp
  */
 export function applyForceToEntity(entity: EntityIndex, applyType: EApplyForceType | number, forceX: number, forceY: number, forceZ: number, offsetX: number, offsetY: number, offsetZ: number, component: number, localForce: boolean, localOffset: boolean, scaleByMass: boolean, triggerAudio: boolean = false, scaleByTimeWarp: boolean = true): void {
-	const applyForceToEntity_result = Citizen.invokeNative<void>('0XC1C0855A', entity, applyType, forceX, forceY, forceZ, offsetX, offsetY, offsetZ, component, localForce, localOffset, scaleByMass, triggerAudio, scaleByTimeWarp);
+	const applyForceToEntity_result = Citizen.invokeNative<void>('0xC1C0855A', entity, applyType, forceX, forceY, forceZ, offsetX, offsetY, offsetZ, component, localForce, localOffset, scaleByMass, triggerAudio, scaleByTimeWarp);
 	return applyForceToEntity_result;
 }

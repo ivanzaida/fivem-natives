@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:SELECT_ENTITY_AT_POS
  *
- * 0XAFE8D405
+ * 0xAFE8D405
 
  * Gets the selected entity at the specified mouse cursor position, and changes the current selection depth. This function supports SDK infrastructure and is not intended to be used directly from your code.
  * 
@@ -15,6 +15,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {EntityIndex}  An entity handle, or zero.
  */
 export function selectEntityAtPos(fracX: number, fracY: number, hitFlags: number, precise: boolean): EntityIndex {
-	const selectEntityAtPos_result = Citizen.invokeNative<EntityIndex>('0XAFE8D405', fracX, fracY, hitFlags, precise);
+	const selectEntityAtPos_result = Citizen.invokeNative<EntityIndex>('0xAFE8D405', fracX, fracY, hitFlags, precise);
 	return selectEntityAtPos_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:SET_RUNTIME_TEXTURE_PIXEL
  *
- * 0XAB65ACEE
+ * 0xAB65ACEE
 
  * Sets a pixel in the specified runtime texture. This will have to be committed using `COMMIT_RUNTIME_TEXTURE` to have any effect.
  * 
@@ -15,6 +15,6 @@
  * @param {number} a The new A value (0255).
  */
 export function setRuntimeTexturePixel(tex: number, x: number, y: number, r: number, g: number, b: number, a: number): void {
-	const setRuntimeTexturePixel_result = Citizen.invokeNative<void>('0XAB65ACEE', tex, x, y, r, g, b, a);
+	const setRuntimeTexturePixel_result = Citizen.invokeNative<void>('0xAB65ACEE', tex, x, y, r, g, b, a);
 	return setRuntimeTexturePixel_result;
 }

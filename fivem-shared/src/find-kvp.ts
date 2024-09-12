@@ -1,7 +1,7 @@
 /**
  * CFX:FIND_KVP
  *
- * 0XBD7BEBC5
+ * 0xBD7BEBC5
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {string}  None.
  */
 export function findKvp(handle: number): string {
-	const findKvp_result = Citizen.invokeNative<string>('0XBD7BEBC5', handle);
+	const findKvp_result = Citizen.invokeNative<string>('0xBD7BEBC5', handle);
 	return findKvp_result;
 }

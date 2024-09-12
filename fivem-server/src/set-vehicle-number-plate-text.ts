@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_NUMBER_PLATE_TEXT
  *
- * 0X400F9556
+ * 0x400F9556
 
  * Sets a vehicle's license plate text.  8 chars maximum.
  * Example:
@@ -17,6 +17,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {string} licencePlateTxtMax8Chars
  */
 export function setVehicleNumberPlateText(vehicle: VehicleIndex, licencePlateTxtMax8Chars: string): void {
-	const setVehicleNumberPlateText_result = Citizen.invokeNative<void>('0X400F9556', vehicle, licencePlateTxtMax8Chars);
+	const setVehicleNumberPlateText_result = Citizen.invokeNative<void>('0x400F9556', vehicle, licencePlateTxtMax8Chars);
 	return setVehicleNumberPlateText_result;
 }

@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_PED_HANDCUFFED
  *
- * 0X25865633
+ * 0x25865633
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {boolean}  Whether or not the ped is handcuffed.
  */
 export function isPedHandcuffed(ped: PedIndex): boolean {
-	const isPedHandcuffed_result = Citizen.invokeNative<boolean>('0X25865633', ped);
+	const isPedHandcuffed_result = Citizen.invokeNative<boolean>('0x25865633', ped);
 	return isPedHandcuffed_result;
 }

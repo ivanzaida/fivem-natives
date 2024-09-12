@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_ROOM_NAME
  *
- * 0X11755DF2
+ * 0x11755DF2
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {string}  Room's name.
  */
 export function getInteriorRoomName(interiorId: number, roomIndex: number): string {
-	const getInteriorRoomName_result = Citizen.invokeNative<string>('0X11755DF2', interiorId, roomIndex);
+	const getInteriorRoomName_result = Citizen.invokeNative<string>('0x11755DF2', interiorId, roomIndex);
 	return getInteriorRoomName_result;
 }

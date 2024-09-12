@@ -3,7 +3,7 @@ import { ModelNames, ObjectIndex } from '@ivanzaida/structures'
 /**
  * CFX:CREATE_OBJECT
  *
- * 0X2F7AA05C
+ * 0x2F7AA05C
 
  * List of object models that can be created without any additional effort like making sure ytyp is loaded etc: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini
  * 
@@ -18,6 +18,6 @@ import { ModelNames, ObjectIndex } from '@ivanzaida/structures'
  * @returns {ObjectIndex}  
  */
 export function createObject(model: ModelNames, newCoorsX: number, newCoorsY: number, newCoorsZ: number, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true, forceToBeObject: boolean = false): ObjectIndex {
-	const createObject_result = Citizen.invokeNative<ObjectIndex>('0X2F7AA05C', model, newCoorsX, newCoorsY, newCoorsZ, registerAsNetworkObject, scriptHostObject, forceToBeObject);
+	const createObject_result = Citizen.invokeNative<ObjectIndex>('0x2F7AA05C', model, newCoorsX, newCoorsY, newCoorsZ, registerAsNetworkObject, scriptHostObject, forceToBeObject);
 	return createObject_result;
 }

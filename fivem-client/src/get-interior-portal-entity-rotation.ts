@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_INTERIOR_PORTAL_ENTITY_ROTATION
  *
- * 0X9F9CEB63
+ * 0x9F9CEB63
 
  * 
  * ------------------------------------------------------------------
@@ -16,6 +16,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @param {FloatRef} rotW [Ref]
  */
 export function getInteriorPortalEntityRotation(interiorId: number, portalIndex: number, entityIndex: number, rotX: FloatRef /* ptr */, rotY: FloatRef /* ptr */, rotZ: FloatRef /* ptr */, rotW: FloatRef /* ptr */): void {
-	const getInteriorPortalEntityRotation_result = Citizen.invokeNative<void>('0X9F9CEB63', interiorId, portalIndex, entityIndex, rotX.dataView, rotY.dataView, rotZ.dataView, rotW.dataView);
+	const getInteriorPortalEntityRotation_result = Citizen.invokeNative<void>('0x9F9CEB63', interiorId, portalIndex, entityIndex, rotX.dataView, rotY.dataView, rotZ.dataView, rotW.dataView);
 	return getInteriorPortalEntityRotation_result;
 }

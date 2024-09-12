@@ -3,7 +3,7 @@ import { VehicleIndex, EVehicleSeat, PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_IN_VEHICLE_SEAT
  *
- * 0X388FDE9A
+ * 0x388FDE9A
 
  * If there is no ped in the seat, and the game considers the vehicle as ambient population, this will create a random occupant ped in the seat, which may be cleaned up by the game fairly soon if not marked as script-owned mission entity.
  * Seat indexes:
@@ -23,6 +23,6 @@ import { VehicleIndex, EVehicleSeat, PedIndex } from '@ivanzaida/structures'
  * @returns {PedIndex}  
  */
 export function getPedInVehicleSeat(vehicle: VehicleIndex, seat: EVehicleSeat | number = 1, considerPedUsingSeat: boolean = false): PedIndex {
-	const getPedInVehicleSeat_result = Citizen.invokeNative<PedIndex>('0X388FDE9A', vehicle, seat, considerPedUsingSeat);
+	const getPedInVehicleSeat_result = Citizen.invokeNative<PedIndex>('0x388FDE9A', vehicle, seat, considerPedUsingSeat);
 	return getPedInVehicleSeat_result;
 }

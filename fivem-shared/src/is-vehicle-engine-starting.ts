@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_VEHICLE_ENGINE_STARTING
  *
- * 0XBB340D04
+ * 0xBB340D04
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isVehicleEngineStarting(vehicle: VehicleIndex): boolean {
-	const isVehicleEngineStarting_result = Citizen.invokeNative<boolean>('0XBB340D04', vehicle);
+	const isVehicleEngineStarting_result = Citizen.invokeNative<boolean>('0xBB340D04', vehicle);
 	return isVehicleEngineStarting_result;
 }

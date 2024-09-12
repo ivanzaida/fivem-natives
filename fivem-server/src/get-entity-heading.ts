@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_HEADING
  *
- * 0X972CC383
+ * 0x972CC383
 
  * Gets the entity's heading in degrees. If the entity is a ped in a vehicle, then the heading of the
  * vehicle is returned;
@@ -14,6 +14,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getEntityHeading(entity: EntityIndex): number {
-	const getEntityHeading_result = Citizen.invokeNative<number>('0X972CC383', entity);
+	const getEntityHeading_result = Citizen.invokeNative<number>('0x972CC383', entity);
 	return getEntityHeading_result;
 }

@@ -24,11 +24,11 @@ export class PresenceInviteEvent {
 		return this.dataView.getInt32(168, true)
 	}
 
-	public get activityID(): number {
+	public get activityId(): number {
 		return this.dataView.getInt32(176, true)
 	}
 
-	public get inviteID(): number {
+	public get inviteId(): number {
 		return this.dataView.getInt32(184, true)
 	}
 

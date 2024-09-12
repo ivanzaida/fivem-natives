@@ -3,7 +3,7 @@ import { PedIndex, VehicleIndex, EFiringPatternHash } from '@ivanzaida/structure
 /**
  * CFX:TASK_DRIVE_BY
  *
- * 0X2B84D1C4
+ * 0x2B84D1C4
 
  * Example:
  * TASK::TASK_DRIVE_BY(l_467[1/22/], PLAYER::PLAYER_PED_ID(), 0, 0.0, 0.0, 2.0, 300.0, 100, 0, ${firing_pattern_burst_fire_driveby});
@@ -25,6 +25,6 @@ import { PedIndex, VehicleIndex, EFiringPatternHash } from '@ivanzaida/structure
  * @param {EFiringPatternHash} firingPatternHash Allows you to set the firing pattern from a list
  */
 export function taskDriveBy(ped: PedIndex, otherPed: PedIndex, targetVehicle: VehicleIndex, coorsX: number, coorsY: number, coorsZ: number, abortRange: number, frequencyPercentage: number, pushUnderneathDrivingTaskIfDriving: boolean = false, firingPatternHash: EFiringPatternHash | number = 753768974): void {
-	const taskDriveBy_result = Citizen.invokeNative<void>('0X2B84D1C4', ped, otherPed, targetVehicle, coorsX, coorsY, coorsZ, abortRange, frequencyPercentage, pushUnderneathDrivingTaskIfDriving, firingPatternHash);
+	const taskDriveBy_result = Citizen.invokeNative<void>('0x2B84D1C4', ped, otherPed, targetVehicle, coorsX, coorsY, coorsZ, abortRange, frequencyPercentage, pushUnderneathDrivingTaskIfDriving, firingPatternHash);
 	return taskDriveBy_result;
 }

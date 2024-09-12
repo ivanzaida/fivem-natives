@@ -1,7 +1,7 @@
 /**
  * CFX:GET_ROPE_UPDATE_ORDER
  *
- * 0X2AB2E0F6
+ * 0x2AB2E0F6
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {number}  The rope's update order.
  */
 export function getRopeUpdateOrder(rope: number): number {
-	const getRopeUpdateOrder_result = Citizen.invokeNative<number>('0X2AB2E0F6', rope);
+	const getRopeUpdateOrder_result = Citizen.invokeNative<number>('0x2AB2E0F6', rope);
 	return getRopeUpdateOrder_result;
 }

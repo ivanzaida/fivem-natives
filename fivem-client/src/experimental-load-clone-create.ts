@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:EXPERIMENTAL_LOAD_CLONE_CREATE
  *
- * 0XD2CB95A3
+ * 0xD2CB95A3
 
  * This native is not implemented.
  * 
@@ -14,6 +14,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {EntityIndex}  
  */
 export function experimentalLoadCloneCreate(data: string, objectId: number, tree: string): EntityIndex {
-	const experimentalLoadCloneCreate_result = Citizen.invokeNative<EntityIndex>('0XD2CB95A3', data, objectId, tree);
+	const experimentalLoadCloneCreate_result = Citizen.invokeNative<EntityIndex>('0xD2CB95A3', data, objectId, tree);
 	return experimentalLoadCloneCreate_result;
 }

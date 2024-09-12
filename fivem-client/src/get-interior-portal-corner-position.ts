@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_INTERIOR_PORTAL_CORNER_POSITION
  *
- * 0XF772BB2C
+ * 0xF772BB2C
 
  * 
  * ------------------------------------------------------------------
@@ -15,6 +15,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @param {FloatRef} posZ [Ref]
  */
 export function getInteriorPortalCornerPosition(interiorId: number, portalIndex: number, cornerIndex: number, posX: FloatRef /* ptr */, posY: FloatRef /* ptr */, posZ: FloatRef /* ptr */): void {
-	const getInteriorPortalCornerPosition_result = Citizen.invokeNative<void>('0XF772BB2C', interiorId, portalIndex, cornerIndex, posX.dataView, posY.dataView, posZ.dataView);
+	const getInteriorPortalCornerPosition_result = Citizen.invokeNative<void>('0xF772BB2C', interiorId, portalIndex, cornerIndex, posX.dataView, posY.dataView, posZ.dataView);
 	return getInteriorPortalCornerPosition_result;
 }

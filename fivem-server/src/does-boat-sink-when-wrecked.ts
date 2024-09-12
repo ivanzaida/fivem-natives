@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:DOES_BOAT_SINK_WHEN_WRECKED
  *
- * 0X43F15989
+ * 0x43F15989
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  Returns whether or not the boat sinks when wrecked.
  */
 export function doesBoatSinkWhenWrecked(vehicle: VehicleIndex): boolean {
-	const doesBoatSinkWhenWrecked_result = Citizen.invokeNative<boolean>('0X43F15989', vehicle);
+	const doesBoatSinkWhenWrecked_result = Citizen.invokeNative<boolean>('0x43F15989', vehicle);
 	return doesBoatSinkWhenWrecked_result;
 }

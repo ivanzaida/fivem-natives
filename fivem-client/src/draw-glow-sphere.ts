@@ -1,7 +1,7 @@
 /**
  * CFX:DRAW_GLOW_SPHERE
  *
- * 0XBD25EC89
+ * 0xBD25EC89
 
  * Draw a glow sphere this frame. Up to 256 per single frame.
  * 
@@ -18,6 +18,6 @@
  * @param {boolean} marker Draw as a marker, otherwise as an overlay.
  */
 export function drawGlowSphere(posX: number, posY: number, posZ: number, radius: number, colorR: number, colorG: number, colorB: number, intensity: number, invert: boolean, marker: boolean): void {
-	const drawGlowSphere_result = Citizen.invokeNative<void>('0XBD25EC89', posX, posY, posZ, radius, colorR, colorG, colorB, intensity, invert, marker);
+	const drawGlowSphere_result = Citizen.invokeNative<void>('0xBD25EC89', posX, posY, posZ, radius, colorR, colorG, colorB, intensity, invert, marker);
 	return drawGlowSphere_result;
 }

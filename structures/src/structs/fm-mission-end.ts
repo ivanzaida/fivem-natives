@@ -9,7 +9,7 @@ export class FmMissionEnd {
 		this.dataView = dataView;
 	}
 
-	public get groupID(): number {
+	public get groupId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
@@ -21,7 +21,7 @@ export class FmMissionEnd {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get sessionID(): number {
+	public get sessionId(): number {
 		return this.dataView.getInt32(24, true)
 	}
 

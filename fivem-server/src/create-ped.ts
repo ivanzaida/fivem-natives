@@ -3,7 +3,7 @@ import { EPedType, ModelNames, PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:CREATE_PED
  *
- * 0X389EF71
+ * 0x389EF71
 
  * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
  * ScriptHostObject:		If true, this object has been created by the host portion of a network script and is vital to that script - it must always exist regardless of who is hosting the script.
@@ -23,6 +23,6 @@ import { EPedType, ModelNames, PedIndex } from '@ivanzaida/structures'
  * @returns {PedIndex}  
  */
 export function createPed(pedType: EPedType | number, pedModelHashKey: ModelNames, newCoorsX: number, newCoorsY: number, newCoorsZ: number, pedHeading: number = 0, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true): PedIndex {
-	const createPed_result = Citizen.invokeNative<PedIndex>('0X389EF71', pedType, pedModelHashKey, newCoorsX, newCoorsY, newCoorsZ, pedHeading, registerAsNetworkObject, scriptHostObject);
+	const createPed_result = Citizen.invokeNative<PedIndex>('0x389EF71', pedType, pedModelHashKey, newCoorsX, newCoorsY, newCoorsZ, pedHeading, registerAsNetworkObject, scriptHostObject);
 	return createPed_result;
 }

@@ -13,7 +13,7 @@ export class SpentOnTruck {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get vehicle_amount(): number {
+	public get vehicleAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnTruck {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get trailer_amount(): number {
+	public get trailerAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnTruck {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get slot1_amount(): number {
+	public get slot1Amount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnTruck {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get slot2_amount(): number {
+	public get slot2Amount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnTruck {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get slot3_amount(): number {
+	public get slot3Amount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnTruck {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get colorscheme_amount(): number {
+	public get colorschemeAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 }

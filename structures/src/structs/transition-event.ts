@@ -12,7 +12,7 @@ export class TransitionEvent {
 		this.dataView = dataView;
 	}
 
-	public get nEventID(): ETransitionEventType {
+	public get nEventId(): ETransitionEventType {
 		return this.dataView.getInt32(0, true) as ETransitionEventType
 	}
 

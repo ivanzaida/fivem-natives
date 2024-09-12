@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_HANDBRAKE
  *
- * 0X483B013C
+ * 0x483B013C
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function getVehicleHandbrake(vehicle: VehicleIndex): boolean {
-	const getVehicleHandbrake_result = Citizen.invokeNative<boolean>('0X483B013C', vehicle);
+	const getVehicleHandbrake_result = Citizen.invokeNative<boolean>('0x483B013C', vehicle);
 	return getVehicleHandbrake_result;
 }

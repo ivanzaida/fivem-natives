@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_MOVEMENT_CLIPSET
  *
- * 0X69E81E3D
+ * 0x69E81E3D
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {number}  The current movement clipset hash.
  */
 export function getPedMovementClipset(ped: PedIndex): number {
-	const getPedMovementClipset_result = Citizen.invokeNative<number>('0X69E81E3D', ped);
+	const getPedMovementClipset_result = Citizen.invokeNative<number>('0x69E81E3D', ped);
 	return getPedMovementClipset_result;
 }

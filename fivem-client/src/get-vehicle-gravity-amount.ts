@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_GRAVITY_AMOUNT
  *
- * 0XB48A1292
+ * 0xB48A1292
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleGravityAmount(vehicle: VehicleIndex): number {
-	const getVehicleGravityAmount_result = Citizen.invokeNative<number>('0XB48A1292', vehicle);
+	const getVehicleGravityAmount_result = Citizen.invokeNative<number>('0xB48A1292', vehicle);
 	return getVehicleGravityAmount_result;
 }

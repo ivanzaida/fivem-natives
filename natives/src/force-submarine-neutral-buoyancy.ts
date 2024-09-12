@@ -7,10 +7,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
 
  * 
  * ------------------------------------------------------------------
- * @param {VehicleIndex} vehicleIndex
+ * @param {VehicleIndex} vehicle
  * @param {number} timeMS
  */
-export function forceSubmarineNeutralBuoyancy(vehicleIndex: VehicleIndex, timeMS: number): void {
-	const forceSubmarineNeutralBuoyancy_result = Citizen.invokeNative<void>('0xBADC5521D958DD40', vehicleIndex, timeMS);
+export function forceSubmarineNeutralBuoyancy(vehicle: VehicleIndex, timeMS: number): void {
+	const forceSubmarineNeutralBuoyancy_result = Citizen.invokeNative<void>('0xBADC5521D958DD40', vehicle, timeMS);
 	return forceSubmarineNeutralBuoyancy_result;
 }

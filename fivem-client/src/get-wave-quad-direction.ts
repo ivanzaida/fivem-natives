@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WAVE_QUAD_DIRECTION
  *
- * 0XCCE49A1C
+ * 0xCCE49A1C
 
  * 
  * ------------------------------------------------------------------
@@ -13,6 +13,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns true on success. Direction values are undefined on failure
  */
 export function getWaveQuadDirection(waveQuad: number, directionX: FloatRef /* ptr */, directionY: FloatRef /* ptr */): boolean {
-	const getWaveQuadDirection_result = Citizen.invokeNative<boolean>('0XCCE49A1C', waveQuad, directionX.dataView, directionY.dataView);
+	const getWaveQuadDirection_result = Citizen.invokeNative<boolean>('0xCCE49A1C', waveQuad, directionX.dataView, directionY.dataView);
 	return getWaveQuadDirection_result;
 }

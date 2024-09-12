@@ -3,7 +3,7 @@ import { PedIndex, VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
 /**
  * CFX:TASK_GO_TO_COORD_ANY_MEANS
  *
- * 0XF91DF93B
+ * 0xF91DF93B
 
  * example from fm_mission_controller
  * TASK::TASK_GO_TO_COORD_ANY_MEANS(l_649, sub_f7e86(-1, 0), 1.0, 0, 0, 786603, 0xbf800000);
@@ -20,6 +20,6 @@ import { PedIndex, VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
  * @param {number} maxRangeToShootTargets
  */
 export function taskGoToCoordAnyMeans(ped: PedIndex, coorsX: number, coorsY: number, coorsZ: number, moveBlendRatio: number, vehicle: VehicleIndex, useLongRangeVehiclePathing: boolean = false, drivingFlags: EDrivingmode | number = 786603, maxRangeToShootTargets: number = 1): void {
-	const taskGoToCoordAnyMeans_result = Citizen.invokeNative<void>('0XF91DF93B', ped, coorsX, coorsY, coorsZ, moveBlendRatio, vehicle, useLongRangeVehiclePathing, drivingFlags, maxRangeToShootTargets);
+	const taskGoToCoordAnyMeans_result = Citizen.invokeNative<void>('0xF91DF93B', ped, coorsX, coorsY, coorsZ, moveBlendRatio, vehicle, useLongRangeVehiclePathing, drivingFlags, maxRangeToShootTargets);
 	return taskGoToCoordAnyMeans_result;
 }

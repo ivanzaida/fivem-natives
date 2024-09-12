@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_MAP_ZOOM_DATA_LEVEL
  *
- * 0X1363A998
+ * 0x1363A998
 
  * Returns the zoom level data by index from mapzoomdata.meta file.
  * 
@@ -17,6 +17,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @returns {boolean}  A boolean indicating TRUE if the data was received successfully.
  */
 export function getMapZoomDataLevel(index: number, zoomScale: FloatRef /* ptr */, zoomSpeed: FloatRef /* ptr */, scrollSpeed: FloatRef /* ptr */, tilesX: FloatRef /* ptr */, tilesY: FloatRef /* ptr */): boolean {
-	const getMapZoomDataLevel_result = Citizen.invokeNative<boolean>('0X1363A998', index, zoomScale.dataView, zoomSpeed.dataView, scrollSpeed.dataView, tilesX.dataView, tilesY.dataView);
+	const getMapZoomDataLevel_result = Citizen.invokeNative<boolean>('0x1363A998', index, zoomScale.dataView, zoomSpeed.dataView, scrollSpeed.dataView, tilesX.dataView, tilesY.dataView);
 	return getMapZoomDataLevel_result;
 }

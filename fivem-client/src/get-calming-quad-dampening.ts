@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_CALMING_QUAD_DAMPENING
  *
- * 0XB0E3A058
+ * 0xB0E3A058
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns true on success. Dampening value is undefined on failure
  */
 export function getCalmingQuadDampening(waterQuad: number, calmingQuadDampening: FloatRef /* ptr */): boolean {
-	const getCalmingQuadDampening_result = Citizen.invokeNative<boolean>('0XB0E3A058', waterQuad, calmingQuadDampening.dataView);
+	const getCalmingQuadDampening_result = Citizen.invokeNative<boolean>('0xB0E3A058', waterQuad, calmingQuadDampening.dataView);
 	return getCalmingQuadDampening_result;
 }

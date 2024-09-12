@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WATER_QUAD_IS_INVISIBLE
  *
- * 0X1DEDBD77
+ * 0x1DEDBD77
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns if the given water quad is invisible
  */
 export function getWaterQuadIsInvisible(waterQuad: number, isInvisible: IntRef /* ptr */): boolean {
-	const getWaterQuadIsInvisible_result = Citizen.invokeNative<boolean>('0X1DEDBD77', waterQuad, isInvisible.dataView);
+	const getWaterQuadIsInvisible_result = Citizen.invokeNative<boolean>('0x1DEDBD77', waterQuad, isInvisible.dataView);
 	return getWaterQuadIsInvisible_result;
 }

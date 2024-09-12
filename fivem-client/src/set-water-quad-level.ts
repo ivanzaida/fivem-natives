@@ -1,7 +1,7 @@
 /**
  * CFX:SET_WATER_QUAD_LEVEL
  *
- * 0X6292F7A8
+ * 0x6292F7A8
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadLevel(waterQuad: number, level: number): boolean {
-	const setWaterQuadLevel_result = Citizen.invokeNative<boolean>('0X6292F7A8', waterQuad, level);
+	const setWaterQuadLevel_result = Citizen.invokeNative<boolean>('0x6292F7A8', waterQuad, level);
 	return setWaterQuadLevel_result;
 }

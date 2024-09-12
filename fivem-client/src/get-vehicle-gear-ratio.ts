@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_GEAR_RATIO
  *
- * 0X82E794B7
+ * 0x82E794B7
 
  * Gets vehicles gear ratio on choosen gear.
  * 
@@ -13,6 +13,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleGearRatio(vehicle: VehicleIndex, gear: number): number {
-	const getVehicleGearRatio_result = Citizen.invokeNative<number>('0X82E794B7', vehicle, gear);
+	const getVehicleGearRatio_result = Citizen.invokeNative<number>('0x82E794B7', vehicle, gear);
 	return getVehicleGearRatio_result;
 }

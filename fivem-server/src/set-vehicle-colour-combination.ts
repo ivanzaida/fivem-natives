@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_COLOUR_COMBINATION
  *
- * 0XA557AEAD
+ * 0xA557AEAD
 
  * Car models have a number of colour combinations preset for them in carvariations.pso.meta
  * Use GET_NUM_CAR_COLOURS first to find out how many combinations there are.
@@ -14,6 +14,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} colourCombination
  */
 export function setVehicleColourCombination(vehicle: VehicleIndex, colourCombination: number): void {
-	const setVehicleColourCombination_result = Citizen.invokeNative<void>('0XA557AEAD', vehicle, colourCombination);
+	const setVehicleColourCombination_result = Citizen.invokeNative<void>('0xA557AEAD', vehicle, colourCombination);
 	return setVehicleColourCombination_result;
 }

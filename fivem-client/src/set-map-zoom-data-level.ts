@@ -1,7 +1,7 @@
 /**
  * CFX:SET_MAP_ZOOM_DATA_LEVEL
  *
- * 0X447C718E
+ * 0x447C718E
 
  * Sets values to the zoom level data by index.
  * 
@@ -14,6 +14,6 @@
  * @param {number} tilesY vTiles Y.
  */
 export function setMapZoomDataLevel(index: number, zoomScale: number, zoomSpeed: number, scrollSpeed: number, tilesX: number, tilesY: number): void {
-	const setMapZoomDataLevel_result = Citizen.invokeNative<void>('0X447C718E', index, zoomScale, zoomSpeed, scrollSpeed, tilesX, tilesY);
+	const setMapZoomDataLevel_result = Citizen.invokeNative<void>('0x447C718E', index, zoomScale, zoomSpeed, scrollSpeed, tilesX, tilesY);
 	return setMapZoomDataLevel_result;
 }

@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_FUEL_LEVEL
  *
- * 0X5F739BB8
+ * 0x5F739BB8
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleFuelLevel(vehicle: VehicleIndex): number {
-	const getVehicleFuelLevel_result = Citizen.invokeNative<number>('0X5F739BB8', vehicle);
+	const getVehicleFuelLevel_result = Citizen.invokeNative<number>('0x5F739BB8', vehicle);
 	return getVehicleFuelLevel_result;
 }

@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PLAYER_MAX_ARMOUR
  *
- * 0X2A50657
+ * 0x2A50657
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getPlayerMaxArmour(player: PlayerIndex): number {
-	const getPlayerMaxArmour_result = Citizen.invokeNative<number>('0X2A50657', player);
+	const getPlayerMaxArmour_result = Citizen.invokeNative<number>('0x2A50657', player);
 	return getPlayerMaxArmour_result;
 }

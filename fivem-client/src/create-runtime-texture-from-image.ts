@@ -1,7 +1,7 @@
 /**
  * CFX:CREATE_RUNTIME_TEXTURE_FROM_IMAGE
  *
- * 0X786D8BC3
+ * 0x786D8BC3
 
  * Creates a runtime texture from the specified file in the current resource or a base64 data URL.
  * 
@@ -12,6 +12,6 @@
  * @returns {number}  A runtime texture handle.
  */
 export function createRuntimeTextureFromImage(txd: number, txn: string, fileName: string): number {
-	const createRuntimeTextureFromImage_result = Citizen.invokeNative<number>('0X786D8BC3', txd, txn, fileName);
+	const createRuntimeTextureFromImage_result = Citizen.invokeNative<number>('0x786D8BC3', txd, txn, fileName);
 	return createRuntimeTextureFromImage_result;
 }

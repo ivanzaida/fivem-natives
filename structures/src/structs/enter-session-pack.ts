@@ -9,31 +9,31 @@ export class EnterSessionPack {
 		this.dataView = dataView;
 	}
 
-	public get enterp_Prop(): number {
+	public get enterpProp(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get enterp_Veh(): number {
+	public get enterpVeh(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get enterp_Weapon(): number {
+	public get enterpWeapon(): number {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get enterp_Tattoo1(): number {
+	public get enterpTattoo1(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
-	public get enterp_Tattoo2(): number {
+	public get enterpTattoo2(): number {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get enterp_Clothing1(): number {
+	public get enterpClothing1(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
-	public get enterp_Clothing2(): number {
+	public get enterpClothing2(): number {
 		return this.dataView.getInt32(48, true)
 	}
 }

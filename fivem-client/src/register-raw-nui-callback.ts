@@ -1,7 +1,7 @@
 /**
  * CFX:REGISTER_RAW_NUI_CALLBACK
  *
- * 0XA8AE9C2F
+ * 0xA8AE9C2F
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @param {Function} callback
  */
 export function registerRawNuiCallback(callbackType: string, callback: Function): void {
-	const registerRawNuiCallback_result = Citizen.invokeNative<void>('0XA8AE9C2F', callbackType, callback);
+	const registerRawNuiCallback_result = Citizen.invokeNative<void>('0xA8AE9C2F', callbackType, callback);
 	return registerRawNuiCallback_result;
 }

@@ -3,7 +3,7 @@ import { VehicleIndex, ELandingGearState } from '@ivanzaida/structures'
 /**
  * CFX:GET_LANDING_GEAR_STATE
  *
- * 0XA6F02670
+ * 0xA6F02670
 
  * Landing gear states:
  * 0: Deployed
@@ -18,6 +18,6 @@ import { VehicleIndex, ELandingGearState } from '@ivanzaida/structures'
  * @returns {ELandingGearState}  
  */
 export function getLandingGearState(vehicle: VehicleIndex): ELandingGearState {
-	const getLandingGearState_result = Citizen.invokeNative<ELandingGearState>('0XA6F02670', vehicle);
+	const getLandingGearState_result = Citizen.invokeNative<ELandingGearState>('0xA6F02670', vehicle);
 	return getLandingGearState_result;
 }

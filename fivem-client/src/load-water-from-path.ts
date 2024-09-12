@@ -1,7 +1,7 @@
 /**
  * CFX:LOAD_WATER_FROM_PATH
  *
- * 0XF5102568
+ * 0xF5102568
 
  * Define the xml in a resources fxmanifest, under the file(s) section.
  * 
@@ -11,6 +11,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function loadWaterFromPath(resourceName: string, fileName: string): boolean {
-	const loadWaterFromPath_result = Citizen.invokeNative<boolean>('0XF5102568', resourceName, fileName);
+	const loadWaterFromPath_result = Citizen.invokeNative<boolean>('0xF5102568', resourceName, fileName);
 	return loadWaterFromPath_result;
 }

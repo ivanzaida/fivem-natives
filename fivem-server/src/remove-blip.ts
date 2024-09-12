@@ -3,7 +3,7 @@ import { BlipIndex } from '@ivanzaida/structures'
 /**
  * CFX:REMOVE_BLIP
  *
- * 0XD8C3C1CD
+ * 0xD8C3C1CD
 
  * In the C++ SDK, this seems not to work-- the blip isn't removed immediately. I use it for saving cars.
  * E.g.:
@@ -27,6 +27,6 @@ import { BlipIndex } from '@ivanzaida/structures'
  * @param {BlipIndex} blipId
  */
 export function removeBlip(blipId: BlipIndex): void {
-	const removeBlip_result = Citizen.invokeNative<void>('0XD8C3C1CD', blipId);
+	const removeBlip_result = Citizen.invokeNative<void>('0xD8C3C1CD', blipId);
 	return removeBlip_result;
 }

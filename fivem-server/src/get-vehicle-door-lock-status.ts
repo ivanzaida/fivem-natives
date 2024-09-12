@@ -3,7 +3,7 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_DOOR_LOCK_STATUS
  *
- * 0XD72CEF2
+ * 0xD72CEF2
 
  * enum VehicleLockStatus = {
  *     None = 0,
@@ -21,6 +21,6 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  * @returns {ELockState}  
  */
 export function getVehicleDoorLockStatus(vehicle: VehicleIndex): ELockState {
-	const getVehicleDoorLockStatus_result = Citizen.invokeNative<ELockState>('0XD72CEF2', vehicle);
+	const getVehicleDoorLockStatus_result = Citizen.invokeNative<ELockState>('0xD72CEF2', vehicle);
 	return getVehicleDoorLockStatus_result;
 }

@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_ARMOUR
  *
- * 0X2CE311A7
+ * 0x2CE311A7
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getPedArmour(ped: PedIndex): number {
-	const getPedArmour_result = Citizen.invokeNative<number>('0X2CE311A7', ped);
+	const getPedArmour_result = Citizen.invokeNative<number>('0x2CE311A7', ped);
 	return getPedArmour_result;
 }

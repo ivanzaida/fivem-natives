@@ -85,7 +85,7 @@ export class JobLtsRoundInfo {
 		return this.dataView.getInt32(144, true)
 	}
 
-	public get playlistID(): number {
+	public get playlistId(): number {
 		return this.dataView.getInt32(152, true)
 	}
 

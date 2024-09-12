@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_WHEEL_POWER
  *
- * 0XD203287
+ * 0xD203287
 
  * Gets power being sent to a wheel.Max number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.
  * 
@@ -13,6 +13,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleWheelPower(vehicle: VehicleIndex, wheelIndex: number): number {
-	const getVehicleWheelPower_result = Citizen.invokeNative<number>('0XD203287', vehicle, wheelIndex);
+	const getVehicleWheelPower_result = Citizen.invokeNative<number>('0xD203287', vehicle, wheelIndex);
 	return getVehicleWheelPower_result;
 }

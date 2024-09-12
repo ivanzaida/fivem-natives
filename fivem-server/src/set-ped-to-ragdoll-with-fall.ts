@@ -3,7 +3,7 @@ import { PedIndex, ERagdollFallTypes } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_TO_RAGDOLL_WITH_FALL
  *
- * 0XFA12E286
+ * 0xFA12E286
 
  * Return variable is never used in R's scripts.
  * Not sure what p2 does. It seems like it would be a time judging by it's usage in R's scripts, but didn't seem to affect anything in my testings.
@@ -37,6 +37,6 @@ import { PedIndex, ERagdollFallTypes } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function setPedToRagdollWithFall(ped: PedIndex, minTime: number, maxTime: number, fallType: ERagdollFallTypes | number, vecDirectionX: number, vecDirectionY: number, vecDirectionZ: number, groundHeight: number, vecGrab1X: number, vecGrab1Y: number, vecGrab1Z: number, vecGrab2X: number, vecGrab2Y: number, vecGrab2Z: number): boolean {
-	const setPedToRagdollWithFall_result = Citizen.invokeNative<boolean>('0XFA12E286', ped, minTime, maxTime, fallType, vecDirectionX, vecDirectionY, vecDirectionZ, groundHeight, vecGrab1X, vecGrab1Y, vecGrab1Z, vecGrab2X, vecGrab2Y, vecGrab2Z);
+	const setPedToRagdollWithFall_result = Citizen.invokeNative<boolean>('0xFA12E286', ped, minTime, maxTime, fallType, vecDirectionX, vecDirectionY, vecDirectionZ, groundHeight, vecGrab1X, vecGrab1Y, vecGrab1Z, vecGrab2X, vecGrab2Y, vecGrab2Z);
 	return setPedToRagdollWithFall_result;
 }

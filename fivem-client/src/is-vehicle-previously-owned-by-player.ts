@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_VEHICLE_PREVIOUSLY_OWNED_BY_PLAYER
  *
- * 0XF849ED67
+ * 0xF849ED67
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isVehiclePreviouslyOwnedByPlayer(vehicle: VehicleIndex): boolean {
-	const isVehiclePreviouslyOwnedByPlayer_result = Citizen.invokeNative<boolean>('0XF849ED67', vehicle);
+	const isVehiclePreviouslyOwnedByPlayer_result = Citizen.invokeNative<boolean>('0xF849ED67', vehicle);
 	return isVehiclePreviouslyOwnedByPlayer_result;
 }

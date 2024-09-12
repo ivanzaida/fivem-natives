@@ -15,7 +15,7 @@ export class AdminInvitedEvent {
 		return new GamerHandle(new DataView(this.dataView.buffer.slice(0, 104)))
 	}
 
-	public get isSCTV(): boolean {
+	public get isSctv(): boolean {
 		return this.dataView.getInt8(104) === 1;
 	}
 }

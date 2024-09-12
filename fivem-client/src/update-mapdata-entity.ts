@@ -1,7 +1,7 @@
 /**
  * CFX:UPDATE_MAPDATA_ENTITY
  *
- * 0XFC52CB91
+ * 0xFC52CB91
 
  * Transiently updates the entity with the specified mapdata index and entity index.This function supports SDK infrastructure and is not intended to be used directly from your code.
  * 
@@ -11,6 +11,6 @@
  * @param {any} entityDef The new entity definition in fwEntityDef format.
  */
 export function updateMapdataEntity(mapdata: number, entity: number, entityDef: any): void {
-	const updateMapdataEntity_result = Citizen.invokeNative<void>('0XFC52CB91', mapdata, entity, entityDef);
+	const updateMapdataEntity_result = Citizen.invokeNative<void>('0xFC52CB91', mapdata, entity, entityDef);
 	return updateMapdataEntity_result;
 }

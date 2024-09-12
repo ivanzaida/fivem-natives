@@ -1,7 +1,7 @@
 /**
  * CFX:STATE_BAG_HAS_KEY
  *
- * 0X12A330
+ * 0x12A330
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Returns true if the data associated with the specified key exists; otherwise, returns false.
  */
 export function stateBagHasKey(bagName: string, key: string): boolean {
-	const stateBagHasKey_result = Citizen.invokeNative<boolean>('0X12A330', bagName, key);
+	const stateBagHasKey_result = Citizen.invokeNative<boolean>('0x12A330', bagName, key);
 	return stateBagHasKey_result;
 }

@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_COLOURS
  *
- * 0X57F24253
+ * 0x57F24253
 
  * Colours can be found in carcols.dat
  * colorPrimary & colorSecondary are the paint index for the vehicle.
@@ -18,6 +18,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} colour2
  */
 export function setVehicleColours(vehicle: VehicleIndex, colour1: number, colour2: number): void {
-	const setVehicleColours_result = Citizen.invokeNative<void>('0X57F24253', vehicle, colour1, colour2);
+	const setVehicleColours_result = Citizen.invokeNative<void>('0x57F24253', vehicle, colour1, colour2);
 	return setVehicleColours_result;
 }

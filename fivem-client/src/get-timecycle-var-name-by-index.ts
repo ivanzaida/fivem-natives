@@ -1,7 +1,7 @@
 /**
  * CFX:GET_TIMECYCLE_VAR_NAME_BY_INDEX
  *
- * 0XC6C55AAF
+ * 0xC6C55AAF
 
  * See [GET_TIMECYCLE_VAR_COUNT](#_0x838B34D8).
  * 
@@ -10,6 +10,6 @@
  * @returns {string}  The name of a timecycle variable.
  */
 export function getTimecycleVarNameByIndex(varIndex: number): string {
-	const getTimecycleVarNameByIndex_result = Citizen.invokeNative<string>('0XC6C55AAF', varIndex);
+	const getTimecycleVarNameByIndex_result = Citizen.invokeNative<string>('0xC6C55AAF', varIndex);
 	return getTimecycleVarNameByIndex_result;
 }

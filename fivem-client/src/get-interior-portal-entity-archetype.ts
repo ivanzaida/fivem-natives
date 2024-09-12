@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_PORTAL_ENTITY_ARCHETYPE
  *
- * 0X9A0E1700
+ * 0x9A0E1700
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@
  * @returns {number}  Portal entity archetype.
  */
 export function getInteriorPortalEntityArchetype(interiorId: number, portalIndex: number, entityIndex: number): number {
-	const getInteriorPortalEntityArchetype_result = Citizen.invokeNative<number>('0X9A0E1700', interiorId, portalIndex, entityIndex);
+	const getInteriorPortalEntityArchetype_result = Citizen.invokeNative<number>('0x9A0E1700', interiorId, portalIndex, entityIndex);
 	return getInteriorPortalEntityArchetype_result;
 }

@@ -17,7 +17,7 @@ export class ExtraEvent {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get sessionID(): number {
+	public get sessionId(): number {
 		return this.dataView.getInt32(16, true)
 	}
 

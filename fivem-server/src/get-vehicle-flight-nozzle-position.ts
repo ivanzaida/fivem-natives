@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_FLIGHT_NOZZLE_POSITION
  *
- * 0XAD40AD55
+ * 0xAD40AD55
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleFlightNozzlePosition(plane: EntityIndex): number {
-	const getVehicleFlightNozzlePosition_result = Citizen.invokeNative<number>('0XAD40AD55', plane);
+	const getVehicleFlightNozzlePosition_result = Citizen.invokeNative<number>('0xAD40AD55', plane);
 	return getVehicleFlightNozzlePosition_result;
 }

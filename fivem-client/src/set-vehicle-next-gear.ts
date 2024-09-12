@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_NEXT_GEAR
  *
- * 0X3A4566F4
+ * 0x3A4566F4
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} nextGear The vehicles next gear.
  */
 export function setVehicleNextGear(vehicle: VehicleIndex, nextGear: number): void {
-	const setVehicleNextGear_result = Citizen.invokeNative<void>('0X3A4566F4', vehicle, nextGear);
+	const setVehicleNextGear_result = Citizen.invokeNative<void>('0x3A4566F4', vehicle, nextGear);
 	return setVehicleNextGear_result;
 }

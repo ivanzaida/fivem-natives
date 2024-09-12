@@ -9,7 +9,7 @@ export class RobberyPrep {
 		this.dataView = dataView;
 	}
 
-	public get playthroughID(): number {
+	public get playthroughId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
@@ -17,11 +17,11 @@ export class RobberyPrep {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get sessionID(): number {
+	public get sessionId(): number {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get strandID(): number {
+	public get strandId(): number {
 		return this.dataView.getInt32(24, true)
 	}
 

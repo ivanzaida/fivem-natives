@@ -1,7 +1,7 @@
 /**
  * CFX:SET_INTERIOR_PORTAL_ENTITY_FLAG
  *
- * 0X8349CD76
+ * 0x8349CD76
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@
  * @param {number} flag New flag value.
  */
 export function setInteriorPortalEntityFlag(interiorId: number, portalIndex: number, entityIndex: number, flag: number): void {
-	const setInteriorPortalEntityFlag_result = Citizen.invokeNative<void>('0X8349CD76', interiorId, portalIndex, entityIndex, flag);
+	const setInteriorPortalEntityFlag_result = Citizen.invokeNative<void>('0x8349CD76', interiorId, portalIndex, entityIndex, flag);
 	return setInteriorPortalEntityFlag_result;
 }

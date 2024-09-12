@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_CLUTCH
  *
- * 0X1DAD4583
+ * 0x1DAD4583
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleClutch(vehicle: VehicleIndex): number {
-	const getVehicleClutch_result = Citizen.invokeNative<number>('0X1DAD4583', vehicle);
+	const getVehicleClutch_result = Citizen.invokeNative<number>('0x1DAD4583', vehicle);
 	return getVehicleClutch_result;
 }

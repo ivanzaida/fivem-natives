@@ -47,7 +47,7 @@ export class ShopWeaponData {
 		return new StringRef(new DataView(this.dataView.buffer.slice(88, 31))).value
 	}
 
-	public get weaponTT(): string {
+	public get weaponTt(): string {
 		return new StringRef(new DataView(this.dataView.buffer.slice(120, 31))).value
 	}
 

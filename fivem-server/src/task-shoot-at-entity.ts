@@ -3,7 +3,7 @@ import { PedIndex, EntityIndex, EFiringType } from '@ivanzaida/structures'
 /**
  * CFX:TASK_SHOOT_AT_ENTITY
  *
- * 0XAC0631C9
+ * 0xAC0631C9
 
  * If -1 is passed to Time the ped will never give up on the task.
  * //this part of the code is to determine at which entity the player is aiming, for example if you want to create a mod where you give orders to peds
@@ -22,6 +22,6 @@ import { PedIndex, EntityIndex, EFiringType } from '@ivanzaida/structures'
  * @param {EFiringType} firingType
  */
 export function taskShootAtEntity(ped: PedIndex, entity: EntityIndex, time: number, firingType: EFiringType | number): void {
-	const taskShootAtEntity_result = Citizen.invokeNative<void>('0XAC0631C9', ped, entity, time, firingType);
+	const taskShootAtEntity_result = Citizen.invokeNative<void>('0xAC0631C9', ped, entity, time, firingType);
 	return taskShootAtEntity_result;
 }

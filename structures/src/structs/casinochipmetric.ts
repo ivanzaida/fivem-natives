@@ -13,7 +13,7 @@ export class Casinochipmetric {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get transactionID(): number {
+	public get transactionId(): number {
 		return this.dataView.getInt32(8, true)
 	}
 

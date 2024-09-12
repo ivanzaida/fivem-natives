@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WATER_QUAD_NO_STENCIL
  *
- * 0X6F4ACBA
+ * 0x6F4ACBA
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns if the given water quad has no stencil.
  */
 export function getWaterQuadNoStencil(waterQuad: number, noStencil: IntRef /* ptr */): boolean {
-	const getWaterQuadNoStencil_result = Citizen.invokeNative<boolean>('0X6F4ACBA', waterQuad, noStencil.dataView);
+	const getWaterQuadNoStencil_result = Citizen.invokeNative<boolean>('0x6F4ACBA', waterQuad, noStencil.dataView);
 	return getWaterQuadNoStencil_result;
 }

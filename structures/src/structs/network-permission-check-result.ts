@@ -9,7 +9,7 @@ export class NetworkPermissionCheckResult {
 		this.dataView = dataView;
 	}
 
-	public get checkID(): number {
+	public get checkId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

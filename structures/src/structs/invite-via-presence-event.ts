@@ -20,7 +20,7 @@ export class InviteViaPresenceEvent {
 		return new GamerHandle(new DataView(this.dataView.buffer.slice(64, 104)))
 	}
 
-	public get contentID(): string {
+	public get contentId(): string {
 		return new StringRef(new DataView(this.dataView.buffer.slice(168, 23))).value
 	}
 
@@ -36,7 +36,7 @@ export class InviteViaPresenceEvent {
 		return this.dataView.getInt8(208) === 1;
 	}
 
-	public get inviteID(): number {
+	public get inviteId(): number {
 		return this.dataView.getInt32(216, true)
 	}
 }

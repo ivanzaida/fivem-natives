@@ -14,11 +14,11 @@ export class PortablePickupEvent {
 		this.dataView = dataView;
 	}
 
-	public get pickupID(): ObjectIndex {
+	public get pickupId(): ObjectIndex {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get pickupNetID(): NetworkIndex {
+	public get pickupNetId(): NetworkIndex {
 		return this.dataView.getInt32(8, true)
 	}
 

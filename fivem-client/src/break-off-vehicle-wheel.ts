@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:BREAK_OFF_VEHICLE_WHEEL
  *
- * 0XA274CADB
+ * 0xA274CADB
 
  * Break off vehicle wheel by index. The `leaveDebrisTrail` flag requires `putOnFire` to be true.
  * 
@@ -16,6 +16,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {boolean} putOnFire Set wheel on fire once detached.
  */
 export function breakOffVehicleWheel(vehicle: VehicleIndex, wheelIndex: number, leaveDebrisTrail: boolean, deleteWheel: boolean, unknownFlag: boolean, putOnFire: boolean): void {
-	const breakOffVehicleWheel_result = Citizen.invokeNative<void>('0XA274CADB', vehicle, wheelIndex, leaveDebrisTrail, deleteWheel, unknownFlag, putOnFire);
+	const breakOffVehicleWheel_result = Citizen.invokeNative<void>('0xA274CADB', vehicle, wheelIndex, leaveDebrisTrail, deleteWheel, unknownFlag, putOnFire);
 	return breakOffVehicleWheel_result;
 }

@@ -3,7 +3,7 @@ import { NetworkIndex, EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:NETWORK_GET_ENTITY_FROM_NETWORK_ID
  *
- * 0X5B912C3F
+ * 0x5B912C3F
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { NetworkIndex, EntityIndex } from '@ivanzaida/structures'
  * @returns {EntityIndex}  
  */
 export function networkGetEntityFromNetworkId(networkId: NetworkIndex): EntityIndex {
-	const networkGetEntityFromNetworkId_result = Citizen.invokeNative<EntityIndex>('0X5B912C3F', networkId);
+	const networkGetEntityFromNetworkId_result = Citizen.invokeNative<EntityIndex>('0x5B912C3F', networkId);
 	return networkGetEntityFromNetworkId_result;
 }

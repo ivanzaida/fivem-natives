@@ -3,7 +3,7 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
 /**
  * CFX:REMOVE_WEAPON_COMPONENT_FROM_PED
  *
- * 0X412AA00D
+ * 0x412AA00D
 
  * Full list of weapons & components by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
  * 
@@ -13,6 +13,6 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
  * @param {EWeaponcomponentType} typeOfComponent
  */
 export function removeWeaponComponentFromPed(ped: PedIndex, typeOfWeapon: EWeaponType | number, typeOfComponent: EWeaponcomponentType | number): void {
-	const removeWeaponComponentFromPed_result = Citizen.invokeNative<void>('0X412AA00D', ped, typeOfWeapon, typeOfComponent);
+	const removeWeaponComponentFromPed_result = Citizen.invokeNative<void>('0x412AA00D', ped, typeOfWeapon, typeOfComponent);
 	return removeWeaponComponentFromPed_result;
 }

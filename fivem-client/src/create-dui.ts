@@ -1,7 +1,7 @@
 /**
  * CFX:CREATE_DUI
  *
- * 0X23EAF899
+ * 0x23EAF899
 
  * Creates a DUI browser. This can be used to draw on a runtime texture using CREATE\_RUNTIME\_TEXTURE\_FROM\_DUI\_HANDLE.
  * 
@@ -12,6 +12,6 @@
  * @returns {number}  A DUI object.
  */
 export function createDui(url: string, width: number, height: number): number {
-	const createDui_result = Citizen.invokeNative<number>('0X23EAF899', url, width, height);
+	const createDui_result = Citizen.invokeNative<number>('0x23EAF899', url, width, height);
 	return createDui_result;
 }

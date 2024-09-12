@@ -121,7 +121,7 @@ export class JobActivityInfo {
 		return this.dataView.getInt32(216, true)
 	}
 
-	public get playlistID(): number {
+	public get playlistId(): number {
 		return this.dataView.getInt32(224, true)
 	}
 

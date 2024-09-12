@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_GRAVITY_AMOUNT
  *
- * 0X1A963E58
+ * 0x1A963E58
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} gravity
  */
 export function setVehicleGravityAmount(vehicle: VehicleIndex, gravity: number): void {
-	const setVehicleGravityAmount_result = Citizen.invokeNative<void>('0X1A963E58', vehicle, gravity);
+	const setVehicleGravityAmount_result = Citizen.invokeNative<void>('0x1A963E58', vehicle, gravity);
 	return setVehicleGravityAmount_result;
 }

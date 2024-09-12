@@ -1,7 +1,7 @@
 /**
  * CFX:SEND_LOADING_SCREEN_MESSAGE
  *
- * 0X8BBE6CC0
+ * 0x8BBE6CC0
 
  * Sends a message to the `loadingScreen` NUI frame, which contains the HTML page referenced in `loadscreen` resources.
  * 
@@ -10,6 +10,6 @@
  * @returns {boolean}  A success value.
  */
 export function sendLoadingScreenMessage(jsonString: string): boolean {
-	const sendLoadingScreenMessage_result = Citizen.invokeNative<boolean>('0X8BBE6CC0', jsonString);
+	const sendLoadingScreenMessage_result = Citizen.invokeNative<boolean>('0x8BBE6CC0', jsonString);
 	return sendLoadingScreenMessage_result;
 }

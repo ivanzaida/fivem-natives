@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PLAYER_PING
  *
- * 0XFF1290D4
+ * 0xFF1290D4
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {number}  
  */
 export function getPlayerPing(playerSrc: string): number {
-	const getPlayerPing_result = Citizen.invokeNative<number>('0XFF1290D4', playerSrc);
+	const getPlayerPing_result = Citizen.invokeNative<number>('0xFF1290D4', playerSrc);
 	return getPlayerPing_result;
 }

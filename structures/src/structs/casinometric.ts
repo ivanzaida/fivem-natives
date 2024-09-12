@@ -17,11 +17,11 @@ export class Casinometric {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get tableID(): number {
+	public get tableId(): number {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get handID(): number {
+	public get handId(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -85,7 +85,7 @@ export class Casinometric {
 		return this.dataView.getInt8(144) === 1;
 	}
 
-	public get hostID(): number {
+	public get hostId(): number {
 		return this.dataView.getInt32(152, true)
 	}
 

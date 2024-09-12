@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:FIND_FIRST_OBJECT
  *
- * 0XFAA6CB5D
+ * 0xFAA6CB5D
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function findFirstObject(outEntity: IntRef /* ptr */): number {
-	const findFirstObject_result = Citizen.invokeNative<number>('0XFAA6CB5D', outEntity.dataView);
+	const findFirstObject_result = Citizen.invokeNative<number>('0xFAA6CB5D', outEntity.dataView);
 	return findFirstObject_result;
 }

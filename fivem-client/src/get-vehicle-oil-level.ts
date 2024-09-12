@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_OIL_LEVEL
  *
- * 0XFC7F8EF4
+ * 0xFC7F8EF4
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleOilLevel(vehicle: VehicleIndex): number {
-	const getVehicleOilLevel_result = Citizen.invokeNative<number>('0XFC7F8EF4', vehicle);
+	const getVehicleOilLevel_result = Citizen.invokeNative<number>('0xFC7F8EF4', vehicle);
 	return getVehicleOilLevel_result;
 }

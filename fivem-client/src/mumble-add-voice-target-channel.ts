@@ -1,7 +1,7 @@
 /**
  * CFX:MUMBLE_ADD_VOICE_TARGET_CHANNEL
  *
- * 0X4D386C9E
+ * 0x4D386C9E
 
  * Adds the specified channel to the target list for the specified Mumble voice target ID.
  * 
@@ -10,6 +10,6 @@
  * @param {number} channel A game voice channel ID.
  */
 export function mumbleAddVoiceTargetChannel(targetId: number, channel: number): void {
-	const mumbleAddVoiceTargetChannel_result = Citizen.invokeNative<void>('0X4D386C9E', targetId, channel);
+	const mumbleAddVoiceTargetChannel_result = Citizen.invokeNative<void>('0x4D386C9E', targetId, channel);
 	return mumbleAddVoiceTargetChannel_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:APPLY_WEATHER_CYCLES
  *
- * 0X3422291C
+ * 0x3422291C
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Returns true if all parameters were valid, otherwise false.
  */
 export function applyWeatherCycles(numEntries: number, msPerCycle: number): boolean {
-	const applyWeatherCycles_result = Citizen.invokeNative<boolean>('0X3422291C', numEntries, msPerCycle);
+	const applyWeatherCycles_result = Citizen.invokeNative<boolean>('0x3422291C', numEntries, msPerCycle);
 	return applyWeatherCycles_result;
 }

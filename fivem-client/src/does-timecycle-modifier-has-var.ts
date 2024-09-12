@@ -1,7 +1,7 @@
 /**
  * CFX:DOES_TIMECYCLE_MODIFIER_HAS_VAR
  *
- * 0XC53BB6D3
+ * 0xC53BB6D3
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Whether or not variable by name was found on the specified timecycle modifier.
  */
 export function doesTimecycleModifierHasVar(modifierName: string, varName: string): boolean {
-	const doesTimecycleModifierHasVar_result = Citizen.invokeNative<boolean>('0XC53BB6D3', modifierName, varName);
+	const doesTimecycleModifierHasVar_result = Citizen.invokeNative<boolean>('0xC53BB6D3', modifierName, varName);
 	return doesTimecycleModifierHasVar_result;
 }

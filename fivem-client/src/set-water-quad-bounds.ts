@@ -1,7 +1,7 @@
 /**
  * CFX:SET_WATER_QUAD_BOUNDS
  *
- * 0X80AD144C
+ * 0x80AD144C
 
  * This native allows you to update the bounds of a specified water quad index.
  * 
@@ -14,6 +14,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadBounds(waterQuad: number, minX: number, minY: number, maxX: number, maxY: number): boolean {
-	const setWaterQuadBounds_result = Citizen.invokeNative<boolean>('0X80AD144C', waterQuad, minX, minY, maxX, maxY);
+	const setWaterQuadBounds_result = Citizen.invokeNative<boolean>('0x80AD144C', waterQuad, minX, minY, maxX, maxY);
 	return setWaterQuadBounds_result;
 }

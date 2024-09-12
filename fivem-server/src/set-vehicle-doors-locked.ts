@@ -3,7 +3,7 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_DOORS_LOCKED
  *
- * 0X4CDD35D0
+ * 0x4CDD35D0
 
  * enum eVehicleLockState
  * {
@@ -25,6 +25,6 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  * @param {ELockState} newLockState
  */
 export function setVehicleDoorsLocked(vehicle: VehicleIndex, newLockState: ELockState | number): void {
-	const setVehicleDoorsLocked_result = Citizen.invokeNative<void>('0X4CDD35D0', vehicle, newLockState);
+	const setVehicleDoorsLocked_result = Citizen.invokeNative<void>('0x4CDD35D0', vehicle, newLockState);
 	return setVehicleDoorsLocked_result;
 }

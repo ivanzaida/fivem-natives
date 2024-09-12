@@ -1,7 +1,7 @@
 /**
  * CFX:CREATE_RUNTIME_TEXTURE_FROM_DUI_HANDLE
  *
- * 0XB135472B
+ * 0xB135472B
 
  * Creates a runtime texture from a DUI handle.
  * 
@@ -12,6 +12,6 @@
  * @returns {number}  The runtime texture handle.
  */
 export function createRuntimeTextureFromDuiHandle(txd: number, txn: string, duiHandle: string): number {
-	const createRuntimeTextureFromDuiHandle_result = Citizen.invokeNative<number>('0XB135472B', txd, txn, duiHandle);
+	const createRuntimeTextureFromDuiHandle_result = Citizen.invokeNative<number>('0xB135472B', txd, txn, duiHandle);
 	return createRuntimeTextureFromDuiHandle_result;
 }

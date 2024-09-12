@@ -3,7 +3,7 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_CAUSE_OF_DEATH
  *
- * 0X63458C27
+ * 0x63458C27
 
  * Returns the hash of the weapon/model/object that killed the ped.
  * 
@@ -12,6 +12,6 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * @returns {EWeaponType}  
  */
 export function getPedCauseOfDeath(ped: PedIndex): EWeaponType {
-	const getPedCauseOfDeath_result = Citizen.invokeNative<EWeaponType>('0X63458C27', ped);
+	const getPedCauseOfDeath_result = Citizen.invokeNative<EWeaponType>('0x63458C27', ped);
 	return getPedCauseOfDeath_result;
 }

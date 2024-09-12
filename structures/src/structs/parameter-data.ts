@@ -9,7 +9,7 @@ export class ParameterData {
 		this.dataView = dataView;
 	}
 
-	public get parameterID(): number {
+	public get parameterId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

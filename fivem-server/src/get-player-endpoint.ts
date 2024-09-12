@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PLAYER_ENDPOINT
  *
- * 0XFEE404F9
+ * 0xFEE404F9
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {string}  
  */
 export function getPlayerEndpoint(playerSrc: string): string {
-	const getPlayerEndpoint_result = Citizen.invokeNative<string>('0XFEE404F9', playerSrc);
+	const getPlayerEndpoint_result = Citizen.invokeNative<string>('0xFEE404F9', playerSrc);
 	return getPlayerEndpoint_result;
 }

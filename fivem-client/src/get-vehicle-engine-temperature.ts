@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_ENGINE_TEMPERATURE
  *
- * 0XF4F495CB
+ * 0xF4F495CB
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleEngineTemperature(vehicle: VehicleIndex): number {
-	const getVehicleEngineTemperature_result = Citizen.invokeNative<number>('0XF4F495CB', vehicle);
+	const getVehicleEngineTemperature_result = Citizen.invokeNative<number>('0xF4F495CB', vehicle);
 	return getVehicleEngineTemperature_result;
 }

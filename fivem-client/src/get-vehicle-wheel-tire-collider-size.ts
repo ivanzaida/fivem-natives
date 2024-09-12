@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_WHEEL_TIRE_COLLIDER_SIZE
  *
- * 0XE0BA9FE6
+ * 0xE0BA9FE6
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  Float representing size of the wheel collider.
  */
 export function getVehicleWheelTireColliderSize(vehicle: VehicleIndex, wheelIndex: number): number {
-	const getVehicleWheelTireColliderSize_result = Citizen.invokeNative<number>('0XE0BA9FE6', vehicle, wheelIndex);
+	const getVehicleWheelTireColliderSize_result = Citizen.invokeNative<number>('0xE0BA9FE6', vehicle, wheelIndex);
 	return getVehicleWheelTireColliderSize_result;
 }

@@ -11,7 +11,7 @@ export class UgcUseridIdQuery {
 		this.dataView = dataView;
 	}
 
-	public get userID(): string[] {
+	public get userId(): string[] {
 		return [
 			new StringRef(new DataView(this.dataView.buffer.slice(0, 63))).value,
 			new StringRef(new DataView(this.dataView.buffer.slice(64, 63))).value,

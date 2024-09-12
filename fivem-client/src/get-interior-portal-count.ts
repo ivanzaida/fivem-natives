@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_PORTAL_COUNT
  *
- * 0XD05BB8B1
+ * 0xD05BB8B1
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {number}  The amount of portals in interior.
  */
 export function getInteriorPortalCount(interiorId: number): number {
-	const getInteriorPortalCount_result = Citizen.invokeNative<number>('0XD05BB8B1', interiorId);
+	const getInteriorPortalCount_result = Citizen.invokeNative<number>('0xD05BB8B1', interiorId);
 	return getInteriorPortalCount_result;
 }

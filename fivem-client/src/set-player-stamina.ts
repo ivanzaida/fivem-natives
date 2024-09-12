@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_PLAYER_STAMINA
  *
- * 0XA9EC16C7
+ * 0xA9EC16C7
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @returns {boolean}  Did you manage to set the value.
  */
 export function setPlayerStamina(playerId: PlayerIndex, stamina: number): boolean {
-	const setPlayerStamina_result = Citizen.invokeNative<boolean>('0XA9EC16C7', playerId, stamina);
+	const setPlayerStamina_result = Citizen.invokeNative<boolean>('0xA9EC16C7', playerId, stamina);
 	return setPlayerStamina_result;
 }

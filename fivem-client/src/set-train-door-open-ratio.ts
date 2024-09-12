@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_TRAIN_DOOR_OPEN_RATIO
  *
- * 0X2468DBE8
+ * 0x2468DBE8
 
  * Sets the ratio that a door is open for on a train.
  * 
@@ -13,6 +13,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} ratio A value between 0.0 (fully closed) and 1.0 (fully open).
  */
 export function setTrainDoorOpenRatio(train: VehicleIndex, doorIndex: number, ratio: number): void {
-	const setTrainDoorOpenRatio_result = Citizen.invokeNative<void>('0X2468DBE8', train, doorIndex, ratio);
+	const setTrainDoorOpenRatio_result = Citizen.invokeNative<void>('0x2468DBE8', train, doorIndex, ratio);
 	return setTrainDoorOpenRatio_result;
 }

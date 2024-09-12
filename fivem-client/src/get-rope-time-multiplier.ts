@@ -1,7 +1,7 @@
 /**
  * CFX:GET_ROPE_TIME_MULTIPLIER
  *
- * 0XF341E6CA
+ * 0xF341E6CA
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {number}  The rope's time multiplier.
  */
 export function getRopeTimeMultiplier(rope: number): number {
-	const getRopeTimeMultiplier_result = Citizen.invokeNative<number>('0XF341E6CA', rope);
+	const getRopeTimeMultiplier_result = Citizen.invokeNative<number>('0xF341E6CA', rope);
 	return getRopeTimeMultiplier_result;
 }

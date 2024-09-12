@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_ENGINE_HEALTH
  *
- * 0X8880038A
+ * 0x8880038A
 
  * 1000.0 = full,  0.0 = go on fire,  -1000.0 = burnt out
  * While on fire, burning engine "may" set the petrol tank on fire as well, but there's only a chance of this.
@@ -22,6 +22,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleEngineHealth(vehicle: VehicleIndex): number {
-	const getVehicleEngineHealth_result = Citizen.invokeNative<number>('0X8880038A', vehicle);
+	const getVehicleEngineHealth_result = Citizen.invokeNative<number>('0x8880038A', vehicle);
 	return getVehicleEngineHealth_result;
 }

@@ -11,23 +11,23 @@ export class RobberyFinale {
 		this.dataView = dataView;
 	}
 
-	public get playthroughID(): number {
+	public get playthroughId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get missionID(): number {
+	public get missionId(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get sessionID(): number {
+	public get sessionId(): number {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get strandID(): number {
+	public get strandId(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
-	public get publicContentID(): string {
+	public get publicContentId(): string {
 		return new StringRef(new DataView(this.dataView.buffer.slice(32, 31))).value
 	}
 

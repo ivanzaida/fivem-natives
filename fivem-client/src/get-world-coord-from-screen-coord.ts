@@ -3,7 +3,7 @@ import { Vector3Ref } from '@ivanzaida/structures'
 /**
  * CFX:GET_WORLD_COORD_FROM_SCREEN_COORD
  *
- * 0XC81D0659
+ * 0xC81D0659
 
  * Converts a screen coordinate into its relative world coordinate.
  * 
@@ -14,6 +14,6 @@ import { Vector3Ref } from '@ivanzaida/structures'
  * @param {Vector3Ref} normalVector The screen normal vector pointer. [Ref]
  */
 export function getWorldCoordFromScreenCoord(screenX: number, screenY: number, worldVector: Vector3Ref /* ptr */, normalVector: Vector3Ref /* ptr */): void {
-	const getWorldCoordFromScreenCoord_result = Citizen.invokeNative<void>('0XC81D0659', screenX, screenY, worldVector.dataView, normalVector.dataView);
+	const getWorldCoordFromScreenCoord_result = Citizen.invokeNative<void>('0xC81D0659', screenX, screenY, worldVector.dataView, normalVector.dataView);
 	return getWorldCoordFromScreenCoord_result;
 }

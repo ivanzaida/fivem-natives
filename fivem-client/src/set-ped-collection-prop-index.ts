@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_COLLECTION_PROP_INDEX
  *
- * 0X75240BCB
+ * 0x75240BCB
 
  * An alternative to [SET_PED_PROP_INDEX](#_0x93376B65A266EB5F) that uses local collection indexing instead of the global one.The local / collection relative indexing is useful because the global index may get shifted after Title Update. While local index will remain the same which simplifies migration to the newer game version.Collection name and local index inside the collection can be obtained from the global index using [GET_PED_COLLECTION_NAME_FROM_PROP](#_0x8ED0C17) and [GET_PED_COLLECTION_LOCAL_INDEX_FROM_PROP](#_0xFBDB885F) natives.
  * 
@@ -16,6 +16,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {boolean} attach Attached or not.
  */
 export function setPedCollectionPropIndex(ped: PedIndex, anchorPoint: number, collection: string, propIndex: number, textureId: number, attach: boolean): void {
-	const setPedCollectionPropIndex_result = Citizen.invokeNative<void>('0X75240BCB', ped, anchorPoint, collection, propIndex, textureId, attach);
+	const setPedCollectionPropIndex_result = Citizen.invokeNative<void>('0x75240BCB', ped, anchorPoint, collection, propIndex, textureId, attach);
 	return setPedCollectionPropIndex_result;
 }

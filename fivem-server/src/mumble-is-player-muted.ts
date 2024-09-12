@@ -1,7 +1,7 @@
 /**
  * CFX:MUMBLE_IS_PLAYER_MUTED
  *
- * 0X1D5D50C2
+ * 0x1D5D50C2
 
  * Checks if the player is currently muted
  * 
@@ -10,6 +10,6 @@
  * @returns {boolean}  Whether or not the player is muted
  */
 export function mumbleIsPlayerMuted(playerSrc: number): boolean {
-	const mumbleIsPlayerMuted_result = Citizen.invokeNative<boolean>('0X1D5D50C2', playerSrc);
+	const mumbleIsPlayerMuted_result = Citizen.invokeNative<boolean>('0x1D5D50C2', playerSrc);
 	return mumbleIsPlayerMuted_result;
 }

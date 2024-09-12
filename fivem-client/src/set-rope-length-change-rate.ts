@@ -1,7 +1,7 @@
 /**
  * CFX:SET_ROPE_LENGTH_CHANGE_RATE
  *
- * 0X69B680A7
+ * 0x69B680A7
 
  * Set's the ropes length change rate, which is the speed that rope should wind if started.
  * 
@@ -10,6 +10,6 @@
  * @param {number} lengthChangeRate The rope's new length change rate.
  */
 export function setRopeLengthChangeRate(rope: number, lengthChangeRate: number): void {
-	const setRopeLengthChangeRate_result = Citizen.invokeNative<void>('0X69B680A7', rope, lengthChangeRate);
+	const setRopeLengthChangeRate_result = Citizen.invokeNative<void>('0x69B680A7', rope, lengthChangeRate);
 	return setRopeLengthChangeRate_result;
 }

@@ -13,7 +13,7 @@ export class SpendIslandHeist {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get heavy_weapon(): number {
+	public get heavyWeapon(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpendIslandHeist {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get air_support(): number {
+	public get airSupport(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpendIslandHeist {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get weapon_stash(): number {
+	public get weaponStash(): number {
 		return this.dataView.getInt32(40, true)
 	}
 

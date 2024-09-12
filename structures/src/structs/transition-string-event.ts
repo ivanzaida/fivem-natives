@@ -16,7 +16,7 @@ export class TransitionStringEvent {
 		return new GamerHandle(new DataView(this.dataView.buffer.slice(0, 104)))
 	}
 
-	public get parameterID(): number {
+	public get parameterId(): number {
 		return this.dataView.getInt32(104, true)
 	}
 

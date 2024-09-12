@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WATER_QUAD_BOUNDS
  *
- * 0X42E9A06A
+ * 0x42E9A06A
 
  * 
  * ------------------------------------------------------------------
@@ -15,6 +15,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns true on success. Bounds are undefined on failure
  */
 export function getWaterQuadBounds(waterQuad: number, minX: IntRef /* ptr */, minY: IntRef /* ptr */, maxX: IntRef /* ptr */, maxY: IntRef /* ptr */): boolean {
-	const getWaterQuadBounds_result = Citizen.invokeNative<boolean>('0X42E9A06A', waterQuad, minX.dataView, minY.dataView, maxX.dataView, maxY.dataView);
+	const getWaterQuadBounds_result = Citizen.invokeNative<boolean>('0x42E9A06A', waterQuad, minX.dataView, minY.dataView, maxX.dataView, maxY.dataView);
 	return getWaterQuadBounds_result;
 }

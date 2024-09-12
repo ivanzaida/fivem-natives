@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_HANDLING_FIELD
  *
- * 0X2BA40795
+ * 0x2BA40795
 
  * Sets a handling override for a specific vehicle. Certain handling flags can only be set globally using `SET_HANDLING_FIELD`, this might require some experimentation.Example: `SetVehicleHandlingField(vehicle, 'CHandlingData', 'fSteeringLock', 360.0)`
  * 
@@ -14,6 +14,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {any} value The value to set.
  */
 export function setVehicleHandlingField(vehicle: VehicleIndex, class_: string, fieldName: string, value: any): void {
-	const setVehicleHandlingField_result = Citizen.invokeNative<void>('0X2BA40795', vehicle, class_, fieldName, value);
+	const setVehicleHandlingField_result = Citizen.invokeNative<void>('0x2BA40795', vehicle, class_, fieldName, value);
 	return setVehicleHandlingField_result;
 }

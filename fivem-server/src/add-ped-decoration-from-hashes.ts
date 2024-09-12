@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:ADD_PED_DECORATION_FROM_HASHES
  *
- * 0X70559AC7
+ * 0x70559AC7
 
  * Same as ADD_PED_DECORATION, but with hashes
  * Applies an Item from a PedDecorationCollection to a ped. These include tattoos and shirt decals.
@@ -36,6 +36,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {number} presetNameHash
  */
 export function addPedDecorationFromHashes(ped: PedIndex, collectionNameHash: number, presetNameHash: number): void {
-	const addPedDecorationFromHashes_result = Citizen.invokeNative<void>('0X70559AC7', ped, collectionNameHash, presetNameHash);
+	const addPedDecorationFromHashes_result = Citizen.invokeNative<void>('0x70559AC7', ped, collectionNameHash, presetNameHash);
 	return addPedDecorationFromHashes_result;
 }

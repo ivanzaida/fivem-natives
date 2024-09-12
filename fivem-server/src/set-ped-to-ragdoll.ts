@@ -3,7 +3,7 @@ import { PedIndex, EStartRagdollTask } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_TO_RAGDOLL
  *
- * 0X83CB5052
+ * 0x83CB5052
 
  * A ped will only switch to a ragdoll if it's onscreen and within range of the player.
  * p4/p5: Unused in TU27
@@ -33,6 +33,6 @@ import { PedIndex, EStartRagdollTask } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function setPedToRagdoll(ped: PedIndex, minTime: number, maxTime: number, startTask: EStartRagdollTask | number, abortIfInjured: boolean = true, abortIfDead: boolean = true, forceScriptControl: boolean = false): boolean {
-	const setPedToRagdoll_result = Citizen.invokeNative<boolean>('0X83CB5052', ped, minTime, maxTime, startTask, abortIfInjured, abortIfDead, forceScriptControl);
+	const setPedToRagdoll_result = Citizen.invokeNative<boolean>('0x83CB5052', ped, minTime, maxTime, startTask, abortIfInjured, abortIfDead, forceScriptControl);
 	return setPedToRagdoll_result;
 }

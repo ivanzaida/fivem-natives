@@ -11,7 +11,7 @@ export class UgcContentIdQuery {
 		this.dataView = dataView;
 	}
 
-	public get contentID(): string[] {
+	public get contentId(): string[] {
 		return [
 			new StringRef(new DataView(this.dataView.buffer.slice(0, 23))).value,
 			new StringRef(new DataView(this.dataView.buffer.slice(24, 23))).value,

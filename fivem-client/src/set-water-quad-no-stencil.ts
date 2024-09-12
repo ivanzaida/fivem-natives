@@ -1,7 +1,7 @@
 /**
  * CFX:SET_WATER_QUAD_NO_STENCIL
  *
- * 0XC3FF42FF
+ * 0xC3FF42FF
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadNoStencil(waterQuad: number, noStencil: boolean): boolean {
-	const setWaterQuadNoStencil_result = Citizen.invokeNative<boolean>('0XC3FF42FF', waterQuad, noStencil);
+	const setWaterQuadNoStencil_result = Citizen.invokeNative<boolean>('0xC3FF42FF', waterQuad, noStencil);
 	return setWaterQuadNoStencil_result;
 }

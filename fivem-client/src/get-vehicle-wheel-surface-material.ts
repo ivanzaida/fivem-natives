@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_WHEEL_SURFACE_MATERIAL
  *
- * 0XA7F04022
+ * 0xA7F04022
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  Integer representing the index of the current surface material of that wheel. Check materials.dat for the indexes.
  */
 export function getVehicleWheelSurfaceMaterial(vehicle: VehicleIndex, wheelIndex: number): number {
-	const getVehicleWheelSurfaceMaterial_result = Citizen.invokeNative<number>('0XA7F04022', vehicle, wheelIndex);
+	const getVehicleWheelSurfaceMaterial_result = Citizen.invokeNative<number>('0xA7F04022', vehicle, wheelIndex);
 	return getVehicleWheelSurfaceMaterial_result;
 }

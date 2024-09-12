@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_WHEEL_HEALTH
  *
- * 0XB22ECEFD
+ * 0xB22ECEFD
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} health
  */
 export function setVehicleWheelHealth(vehicle: VehicleIndex, wheelIndex: number, health: number): void {
-	const setVehicleWheelHealth_result = Citizen.invokeNative<void>('0XB22ECEFD', vehicle, wheelIndex, health);
+	const setVehicleWheelHealth_result = Citizen.invokeNative<void>('0xB22ECEFD', vehicle, wheelIndex, health);
 	return setVehicleWheelHealth_result;
 }

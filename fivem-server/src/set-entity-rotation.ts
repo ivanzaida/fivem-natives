@@ -3,7 +3,7 @@ import { EntityIndex, EEulerRotOrder } from '@ivanzaida/structures'
 /**
  * CFX:SET_ENTITY_ROTATION
  *
- * 0XA345EFE
+ * 0xA345EFE
 
  * rotationOrder refers to the order yaw pitch roll is applied
  * value ranges from 0 to 5. What you use for rotationOrder when setting must be the same as rotationOrder when getting the rotation.
@@ -20,6 +20,6 @@ import { EntityIndex, EEulerRotOrder } from '@ivanzaida/structures'
  * @param {boolean} doDeadCheck
  */
 export function setEntityRotation(entity: EntityIndex, newRotationX: number, newRotationY: number, newRotationZ: number, rotOrder: EEulerRotOrder | number = 2, doDeadCheck: boolean = true): void {
-	const setEntityRotation_result = Citizen.invokeNative<void>('0XA345EFE', entity, newRotationX, newRotationY, newRotationZ, rotOrder, doDeadCheck);
+	const setEntityRotation_result = Citizen.invokeNative<void>('0xA345EFE', entity, newRotationX, newRotationY, newRotationZ, rotOrder, doDeadCheck);
 	return setEntityRotation_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:SET_AUDIO_SUBMIX_EFFECT_PARAM_FLOAT
  *
- * 0X9A209B3C
+ * 0x9A209B3C
 
  * Sets a floating-point parameter for a submix effect.
  * 
@@ -12,6 +12,6 @@
  * @param {number} paramValue The parameter value to set.
  */
 export function setAudioSubmixEffectParamFloat(submixId: number, effectSlot: number, paramIndex: number, paramValue: number): void {
-	const setAudioSubmixEffectParamFloat_result = Citizen.invokeNative<void>('0X9A209B3C', submixId, effectSlot, paramIndex, paramValue);
+	const setAudioSubmixEffectParamFloat_result = Citizen.invokeNative<void>('0x9A209B3C', submixId, effectSlot, paramIndex, paramValue);
 	return setAudioSubmixEffectParamFloat_result;
 }

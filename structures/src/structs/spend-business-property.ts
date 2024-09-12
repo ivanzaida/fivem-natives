@@ -9,7 +9,7 @@ export class SpendBusinessProperty {
 		this.dataView = dataView;
 	}
 
-	public get businessID(): number {
+	public get businessId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

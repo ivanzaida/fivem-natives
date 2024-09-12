@@ -9,7 +9,7 @@ export class CloudFileResponseEvent {
 		this.dataView = dataView;
 	}
 
-	public get requestID(): number {
+	public get requestId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

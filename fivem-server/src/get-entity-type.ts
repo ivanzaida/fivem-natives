@@ -3,7 +3,7 @@ import { EntityIndex, EEntityType } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_TYPE
  *
- * 0XB1BD08D
+ * 0xB1BD08D
 
  * Returns:
  * 0 = no entity
@@ -16,6 +16,6 @@ import { EntityIndex, EEntityType } from '@ivanzaida/structures'
  * @returns {EEntityType}  
  */
 export function getEntityType(entity: EntityIndex): EEntityType {
-	const getEntityType_result = Citizen.invokeNative<EEntityType>('0XB1BD08D', entity);
+	const getEntityType_result = Citizen.invokeNative<EEntityType>('0xB1BD08D', entity);
 	return getEntityType_result;
 }

@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_NUI_CURSOR_POSITION
  *
- * 0XBDBA226F
+ * 0xBDBA226F
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @param {IntRef} y [Ref]
  */
 export function getNuiCursorPosition(x: IntRef /* ptr */, y: IntRef /* ptr */): void {
-	const getNuiCursorPosition_result = Citizen.invokeNative<void>('0XBDBA226F', x.dataView, y.dataView);
+	const getNuiCursorPosition_result = Citizen.invokeNative<void>('0xBDBA226F', x.dataView, y.dataView);
 	return getNuiCursorPosition_result;
 }

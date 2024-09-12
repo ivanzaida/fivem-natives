@@ -1,7 +1,7 @@
 /**
  * CFX:DUPLICATE_FUNCTION_REFERENCE
  *
- * 0XF4E2079D
+ * 0xF4E2079D
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {string}  
  */
 export function duplicateFunctionReference(referenceIdentity: string): string {
-	const duplicateFunctionReference_result = Citizen.invokeNative<string>('0XF4E2079D', referenceIdentity);
+	const duplicateFunctionReference_result = Citizen.invokeNative<string>('0xF4E2079D', referenceIdentity);
 	return duplicateFunctionReference_result;
 }

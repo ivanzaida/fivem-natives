@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_HEAD_BLEND_DATA
  *
- * 0X60746B88
+ * 0x60746B88
 
  * The data set with this function auguments the ped variation, it does _not_ replace it and a variation will be required on the ped too.
  * The "shape" parameters control the shape of the ped's face. The "skin" parameters control the skin tone. ShapeMix and skinMix control how much the first and second IDs contribute,(typically mother and father.) ThirdMix overrides the others in favor of the third IDs. IsParent is set for "children" of the player character's grandparents during old-gen character creation. It has unknown effect otherwise.
@@ -31,6 +31,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {boolean} parent
  */
 export function setPedHeadBlendData(ped: PedIndex, head0: number, head1: number, head2: number, tex0: number, tex1: number, tex2: number, headBlend: number, texBlend: number, varBlend: number, parent: boolean = false): void {
-	const setPedHeadBlendData_result = Citizen.invokeNative<void>('0X60746B88', ped, head0, head1, head2, tex0, tex1, tex2, headBlend, texBlend, varBlend, parent);
+	const setPedHeadBlendData_result = Citizen.invokeNative<void>('0x60746B88', ped, head0, head1, head2, tex0, tex1, tex2, headBlend, texBlend, varBlend, parent);
 	return setPedHeadBlendData_result;
 }

@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_ENTITY_COORDS
  *
- * 0XDF70B41B
+ * 0xDF70B41B
 
  * If you want to set the coords of a ped in a vehicle, use SET_PED_COORDS_KEEP_VEHICLE.
  * If you set the z component of VecNewCoors to INVALID_WORLD_Z  this command to automatically find the ground z for your entity if there is collision.
@@ -22,6 +22,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @param {boolean} doWarp Calling with the nondefault value of FALSE implies that the object has continuous motion and should not clear contacts nor space for itself.
  */
 export function setEntityCoords(entity: EntityIndex, newCoorsX: number, newCoorsY: number, newCoorsZ: number, doDeadCheck: boolean = true, keepTasks: boolean = false, keepIK: boolean = false, doWarp: boolean = true): void {
-	const setEntityCoords_result = Citizen.invokeNative<void>('0XDF70B41B', entity, newCoorsX, newCoorsY, newCoorsZ, doDeadCheck, keepTasks, keepIK, doWarp);
+	const setEntityCoords_result = Citizen.invokeNative<void>('0xDF70B41B', entity, newCoorsX, newCoorsY, newCoorsZ, doDeadCheck, keepTasks, keepIK, doWarp);
 	return setEntityCoords_result;
 }

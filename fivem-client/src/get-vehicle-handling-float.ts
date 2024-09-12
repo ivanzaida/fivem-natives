@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_HANDLING_FLOAT
  *
- * 0X642FC12F
+ * 0x642FC12F
 
  * Returns the effective handling data of a vehicle as a floating-point value.Example: `local fSteeringLock = GetVehicleHandlingFloat(vehicle, 'CHandlingData', 'fSteeringLock')`
  * 
@@ -14,6 +14,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  A floating-point value.
  */
 export function getVehicleHandlingFloat(vehicle: VehicleIndex, class_: string, fieldName: string): number {
-	const getVehicleHandlingFloat_result = Citizen.invokeNative<number>('0X642FC12F', vehicle, class_, fieldName);
+	const getVehicleHandlingFloat_result = Citizen.invokeNative<number>('0x642FC12F', vehicle, class_, fieldName);
 	return getVehicleHandlingFloat_result;
 }

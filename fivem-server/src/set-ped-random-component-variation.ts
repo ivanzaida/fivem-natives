@@ -3,7 +3,7 @@ import { PedIndex, EPedRaceType } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_RANDOM_COMPONENT_VARIATION
  *
- * 0X4111BA46
+ * 0x4111BA46
 
  * Ensures that any skin tones which appear in different textures will be consistent for a characte
  * p1 is always 0 in R scripts.
@@ -15,6 +15,6 @@ import { PedIndex, EPedRaceType } from '@ivanzaida/structures'
  * @param {EPedRaceType} race
  */
 export function setPedRandomComponentVariation(ped: PedIndex, race: EPedRaceType | number = 0): void {
-	const setPedRandomComponentVariation_result = Citizen.invokeNative<void>('0X4111BA46', ped, race);
+	const setPedRandomComponentVariation_result = Citizen.invokeNative<void>('0x4111BA46', ped, race);
 	return setPedRandomComponentVariation_result;
 }

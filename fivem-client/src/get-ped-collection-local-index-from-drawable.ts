@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_COLLECTION_LOCAL_INDEX_FROM_DRAWABLE
  *
- * 0X94EB1FE4
+ * 0x94EB1FE4
 
  * Gets local index inside a collection (which can be obtained using [GET_PED_COLLECTION_NAME_FROM_DRAWABLE](#_0xD6BBA48B)) for the given global drawable ID. The collection name and index are used in functions like [SET_PED_COLLECTION_COMPONENT_VARIATION](#_0x88711BBA).
  * 
@@ -14,6 +14,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {number}  Local index inside a collection that the given global drawable ID corresponds to. Returns -1 if Ped is not found or the global index is out of bounds.
  */
 export function getPedCollectionLocalIndexFromDrawable(ped: PedIndex, componentId: number, drawableId: number): number {
-	const getPedCollectionLocalIndexFromDrawable_result = Citizen.invokeNative<number>('0X94EB1FE4', ped, componentId, drawableId);
+	const getPedCollectionLocalIndexFromDrawable_result = Citizen.invokeNative<number>('0x94EB1FE4', ped, componentId, drawableId);
 	return getPedCollectionLocalIndexFromDrawable_result;
 }

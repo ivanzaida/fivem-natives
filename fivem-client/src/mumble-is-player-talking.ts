@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:MUMBLE_IS_PLAYER_TALKING
  *
- * 0X33EEF97F
+ * 0x33EEF97F
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @returns {boolean}  Whether or not the player is talking.
  */
 export function mumbleIsPlayerTalking(player: PlayerIndex): boolean {
-	const mumbleIsPlayerTalking_result = Citizen.invokeNative<boolean>('0X33EEF97F', player);
+	const mumbleIsPlayerTalking_result = Citizen.invokeNative<boolean>('0x33EEF97F', player);
 	return mumbleIsPlayerTalking_result;
 }

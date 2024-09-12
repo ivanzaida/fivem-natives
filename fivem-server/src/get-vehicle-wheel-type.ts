@@ -3,7 +3,7 @@ import { VehicleIndex, EModWheelType } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_WHEEL_TYPE
  *
- * 0XDA58D7AE
+ * 0xDA58D7AE
 
  * Returns an int
  * Wheel Types:
@@ -27,6 +27,6 @@ import { VehicleIndex, EModWheelType } from '@ivanzaida/structures'
  * @returns {EModWheelType}  
  */
 export function getVehicleWheelType(vehicle: VehicleIndex): EModWheelType {
-	const getVehicleWheelType_result = Citizen.invokeNative<EModWheelType>('0XDA58D7AE', vehicle);
+	const getVehicleWheelType_result = Citizen.invokeNative<EModWheelType>('0xDA58D7AE', vehicle);
 	return getVehicleWheelType_result;
 }

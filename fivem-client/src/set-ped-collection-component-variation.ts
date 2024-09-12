@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_COLLECTION_COMPONENT_VARIATION
  *
- * 0X88711BBA
+ * 0x88711BBA
 
  * An alternative to [SET_PED_COMPONENT_VARIATION](#_0x262B14F48D29DE80) that uses local collection indexing instead of the global one.The local / collection relative indexing is useful because the global index may get shifted after Title Update. While local index will remain the same which simplifies migration to the newer game version.Collection name and local index inside the collection can be obtained from the global index using [GET_PED_COLLECTION_NAME_FROM_DRAWABLE](#_0xD6BBA48B) and [GET_PED_COLLECTION_LOCAL_INDEX_FROM_DRAWABLE](#_0x94EB1FE4) natives.
  * 
@@ -16,6 +16,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {number} paletteId 0 to 3.
  */
 export function setPedCollectionComponentVariation(ped: PedIndex, componentId: number, collection: string, drawableId: number, textureId: number, paletteId: number): void {
-	const setPedCollectionComponentVariation_result = Citizen.invokeNative<void>('0X88711BBA', ped, componentId, collection, drawableId, textureId, paletteId);
+	const setPedCollectionComponentVariation_result = Citizen.invokeNative<void>('0x88711BBA', ped, componentId, collection, drawableId, textureId, paletteId);
 	return setPedCollectionComponentVariation_result;
 }

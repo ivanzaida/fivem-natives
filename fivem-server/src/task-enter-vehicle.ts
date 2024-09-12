@@ -3,7 +3,7 @@ import { PedIndex, VehicleIndex, EVehicleSeat, EEnterExitVehicleFlags } from '@i
 /**
  * CFX:TASK_ENTER_VEHICLE
  *
- * 0XB8689B4E
+ * 0xB8689B4E
 
  * speed 1.0 = walk, 2.0 = run
  * p5 1 = normal, 3 = teleport to vehicle, 16 = teleport directly into vehicle
@@ -26,6 +26,6 @@ import { PedIndex, VehicleIndex, EVehicleSeat, EEnterExitVehicleFlags } from '@i
  * @param {string} overridenClipSet
  */
 export function taskEnterVehicle(ped: PedIndex, vehicle: VehicleIndex, time: number = 20000, seat: EVehicleSeat | number = 1, moveBlendRatio: number = 2, flags: EEnterExitVehicleFlags | number = 1, overridenClipSet: string = null!): void {
-	const taskEnterVehicle_result = Citizen.invokeNative<void>('0XB8689B4E', ped, vehicle, time, seat, moveBlendRatio, flags, overridenClipSet);
+	const taskEnterVehicle_result = Citizen.invokeNative<void>('0xB8689B4E', ped, vehicle, time, seat, moveBlendRatio, flags, overridenClipSet);
 	return taskEnterVehicle_result;
 }

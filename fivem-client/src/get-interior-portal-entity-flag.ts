@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_PORTAL_ENTITY_FLAG
  *
- * 0X9DA2E811
+ * 0x9DA2E811
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@
  * @returns {number}  Portal entity flag.
  */
 export function getInteriorPortalEntityFlag(interiorId: number, portalIndex: number, entityIndex: number): number {
-	const getInteriorPortalEntityFlag_result = Citizen.invokeNative<number>('0X9DA2E811', interiorId, portalIndex, entityIndex);
+	const getInteriorPortalEntityFlag_result = Citizen.invokeNative<number>('0x9DA2E811', interiorId, portalIndex, entityIndex);
 	return getInteriorPortalEntityFlag_result;
 }

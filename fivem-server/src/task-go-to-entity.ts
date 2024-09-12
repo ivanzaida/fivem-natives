@@ -3,7 +3,7 @@ import { PedIndex, EntityIndex, EEgotoEntityFlags } from '@ivanzaida/structures'
 /**
  * CFX:TASK_GO_TO_ENTITY
  *
- * 0X374827C2
+ * 0x374827C2
 
  * The entity will move towards the target until time is over (duration) or get in target's range (distance). p5 and p6 are unknown, but you could leave p5 = 1073741824 or 100 or even 0 (didn't see any difference but on the decompiled scripts, they use 1073741824 mostly) and p6 = 0
  * Note: I've only tested it on entity -> ped and target -> vehicle. It could work differently on other entities, didn't try it yet.
@@ -24,6 +24,6 @@ import { PedIndex, EntityIndex, EEgotoEntityFlags } from '@ivanzaida/structures'
  * @param {EEgotoEntityFlags} gotoFlags
  */
 export function taskGoToEntity(ped: PedIndex, entity: EntityIndex, time: number = 20000, seekRadius: number = 0.5, moveBlendRatio: number = 2, slowDownDistance: number = 2, gotoFlags: EEgotoEntityFlags | number = 0): void {
-	const taskGoToEntity_result = Citizen.invokeNative<void>('0X374827C2', ped, entity, time, seekRadius, moveBlendRatio, slowDownDistance, gotoFlags);
+	const taskGoToEntity_result = Citizen.invokeNative<void>('0x374827C2', ped, entity, time, seekRadius, moveBlendRatio, slowDownDistance, gotoFlags);
 	return taskGoToEntity_result;
 }

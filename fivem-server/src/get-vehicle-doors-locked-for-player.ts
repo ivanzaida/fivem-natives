@@ -3,7 +3,7 @@ import { VehicleIndex, PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER
  *
- * 0X1DC50247
+ * 0x1DC50247
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { VehicleIndex, PlayerIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function getVehicleDoorsLockedForPlayer(vehicle: VehicleIndex, player: PlayerIndex): boolean {
-	const getVehicleDoorsLockedForPlayer_result = Citizen.invokeNative<boolean>('0X1DC50247', vehicle, player);
+	const getVehicleDoorsLockedForPlayer_result = Citizen.invokeNative<boolean>('0x1DC50247', vehicle, player);
 	return getVehicleDoorsLockedForPlayer_result;
 }

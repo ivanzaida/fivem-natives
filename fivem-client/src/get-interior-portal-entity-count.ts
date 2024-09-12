@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_PORTAL_ENTITY_COUNT
  *
- * 0XC68021B
+ * 0xC68021B
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {number}  Portal entity count.
  */
 export function getInteriorPortalEntityCount(interiorId: number, portalIndex: number): number {
-	const getInteriorPortalEntityCount_result = Citizen.invokeNative<number>('0XC68021B', interiorId, portalIndex);
+	const getInteriorPortalEntityCount_result = Citizen.invokeNative<number>('0xC68021B', interiorId, portalIndex);
 	return getInteriorPortalEntityCount_result;
 }

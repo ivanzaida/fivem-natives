@@ -3,7 +3,7 @@ import { PlayerIndex, ESetPlayerControlFlags } from '@ivanzaida/structures'
 /**
  * CFX:SET_PLAYER_CONTROL
  *
- * 0XD17AFCD8
+ * 0xD17AFCD8
 
  * This command can be used to temporarily disable the player’s controls. The controls should be switched back on again as soon as possible.
  * NOTE Turning this on will make vehicles proof from bullets etc. Likewise when the player controls are turned back on it will make ALL the vehicles vunerable again,
@@ -29,6 +29,6 @@ import { PlayerIndex, ESetPlayerControlFlags } from '@ivanzaida/structures'
  * @param {ESetPlayerControlFlags} flags Are taken as a combination of the values in 'SET_PLAYER_CONTROL_FLAGS' above.
  */
 export function setPlayerControl(player: PlayerIndex, setControlOn: boolean, flags: ESetPlayerControlFlags | number = 0): void {
-	const setPlayerControl_result = Citizen.invokeNative<void>('0XD17AFCD8', player, setControlOn, flags);
+	const setPlayerControl_result = Citizen.invokeNative<void>('0xD17AFCD8', player, setControlOn, flags);
 	return setPlayerControl_result;
 }

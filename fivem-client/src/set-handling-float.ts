@@ -1,7 +1,7 @@
 /**
  * CFX:SET_HANDLING_FLOAT
  *
- * 0X90DD01C
+ * 0x90DD01C
 
  * Sets a global handling override for a specific vehicle class. The name is supposed to match the `handlingName` field from handling.meta.Example: `SetHandlingFloat('AIRTUG', 'CHandlingData', 'fSteeringLock', 360.0)`
  * 
@@ -12,6 +12,6 @@
  * @param {number} value The floatingpoint value to set.
  */
 export function setHandlingFloat(vehicle: string, class_: string, fieldName: string, value: number): void {
-	const setHandlingFloat_result = Citizen.invokeNative<void>('0X90DD01C', vehicle, class_, fieldName, value);
+	const setHandlingFloat_result = Citizen.invokeNative<void>('0x90DD01C', vehicle, class_, fieldName, value);
 	return setHandlingFloat_result;
 }

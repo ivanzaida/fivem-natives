@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_INTERIOR_ROTATION
  *
- * 0X5A039998
+ * 0x5A039998
 
  * 
  * ------------------------------------------------------------------
@@ -14,6 +14,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @param {FloatRef} rotW [Ref]
  */
 export function getInteriorRotation(interiorId: number, rotx: FloatRef /* ptr */, rotY: FloatRef /* ptr */, rotZ: FloatRef /* ptr */, rotW: FloatRef /* ptr */): void {
-	const getInteriorRotation_result = Citizen.invokeNative<void>('0X5A039998', interiorId, rotx.dataView, rotY.dataView, rotZ.dataView, rotW.dataView);
+	const getInteriorRotation_result = Citizen.invokeNative<void>('0x5A039998', interiorId, rotx.dataView, rotY.dataView, rotZ.dataView, rotW.dataView);
 	return getInteriorRotation_result;
 }

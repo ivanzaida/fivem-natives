@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WATER_QUAD_ALPHA
  *
- * 0X14088095
+ * 0x14088095
 
  * 
  * ------------------------------------------------------------------
@@ -15,6 +15,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns true on success. Alpha values are undefined on failure
  */
 export function getWaterQuadAlpha(waterQuad: number, a0: IntRef /* ptr */, a1: IntRef /* ptr */, a2: IntRef /* ptr */, a3: IntRef /* ptr */): boolean {
-	const getWaterQuadAlpha_result = Citizen.invokeNative<boolean>('0X14088095', waterQuad, a0.dataView, a1.dataView, a2.dataView, a3.dataView);
+	const getWaterQuadAlpha_result = Citizen.invokeNative<boolean>('0x14088095', waterQuad, a0.dataView, a1.dataView, a2.dataView, a3.dataView);
 	return getWaterQuadAlpha_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:CLONE_TIMECYCLE_MODIFIER
  *
- * 0X54D636B3
+ * 0x54D636B3
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {number}  The cloned timecycle modifier index, or -1 if failed.
  */
 export function cloneTimecycleModifier(sourceModifierName: string, clonedModifierName: string): number {
-	const cloneTimecycleModifier_result = Citizen.invokeNative<number>('0X54D636B3', sourceModifierName, clonedModifierName);
+	const cloneTimecycleModifier_result = Citizen.invokeNative<number>('0x54D636B3', sourceModifierName, clonedModifierName);
 	return cloneTimecycleModifier_result;
 }

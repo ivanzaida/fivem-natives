@@ -13,7 +13,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get location_amount(): number {
+	public get locationAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get style_amount(): number {
+	public get styleAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get graphics_amount(): number {
+	public get graphicsAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get orbcannon_amount(): number {
+	public get orbcannonAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get secroom_amount(): number {
+	public get secroomAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get lounge_amount(): number {
+	public get loungeAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,7 +61,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get livingquarter_amount(): number {
+	public get livingquarterAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 
@@ -69,7 +69,7 @@ export class SpentOnBase {
 		return this.dataView.getInt32(112, true)
 	}
 
-	public get privacyglass_amount(): number {
+	public get privacyglassAmount(): number {
 		return this.dataView.getInt32(120, true)
 	}
 }

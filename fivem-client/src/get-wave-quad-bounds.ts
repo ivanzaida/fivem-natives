@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WAVE_QUAD_BOUNDS
  *
- * 0XF86136DB
+ * 0xF86136DB
 
  * 
  * ------------------------------------------------------------------
@@ -15,6 +15,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns true on success. Bounds are undefined on failure
  */
 export function getWaveQuadBounds(waveQuad: number, minX: IntRef /* ptr */, minY: IntRef /* ptr */, maxX: IntRef /* ptr */, maxY: IntRef /* ptr */): boolean {
-	const getWaveQuadBounds_result = Citizen.invokeNative<boolean>('0XF86136DB', waveQuad, minX.dataView, minY.dataView, maxX.dataView, maxY.dataView);
+	const getWaveQuadBounds_result = Citizen.invokeNative<boolean>('0xF86136DB', waveQuad, minX.dataView, minY.dataView, maxX.dataView, maxY.dataView);
 	return getWaveQuadBounds_result;
 }

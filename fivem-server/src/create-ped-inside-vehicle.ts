@@ -3,7 +3,7 @@ import { VehicleIndex, EPedType, ModelNames, EVehicleSeat, PedIndex } from '@iva
 /**
  * CFX:CREATE_PED_INSIDE_VEHICLE
  *
- * 0X3000F092
+ * 0x3000F092
 
  * If any_seat_is passed in the command will assert.
  * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
@@ -22,6 +22,6 @@ import { VehicleIndex, EPedType, ModelNames, EVehicleSeat, PedIndex } from '@iva
  * @returns {PedIndex}  
  */
 export function createPedInsideVehicle(vehicle: VehicleIndex, pedType: EPedType | number, pedModelHashKey: ModelNames, seat: EVehicleSeat | number = 1, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true): PedIndex {
-	const createPedInsideVehicle_result = Citizen.invokeNative<PedIndex>('0X3000F092', vehicle, pedType, pedModelHashKey, seat, registerAsNetworkObject, scriptHostObject);
+	const createPedInsideVehicle_result = Citizen.invokeNative<PedIndex>('0x3000F092', vehicle, pedType, pedModelHashKey, seat, registerAsNetworkObject, scriptHostObject);
 	return createPedInsideVehicle_result;
 }

@@ -3,7 +3,7 @@ import { ModelNames, VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:CREATE_VEHICLE
  *
- * 0XDD75460A
+ * 0xDD75460A
 
  * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
  * ScriptHostObject:		If true, this object has been created by the host portion of a network script and is vital to that script - it must always exist regardless of who is hosting the script.
@@ -22,6 +22,6 @@ import { ModelNames, VehicleIndex } from '@ivanzaida/structures'
  * @returns {VehicleIndex}  
  */
 export function createVehicle(modelHashKey: ModelNames, coorsX: number, coorsY: number, coorsZ: number, vehicleHeading: number = 0, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true, ignoreGroundCheck: boolean = false): VehicleIndex {
-	const createVehicle_result = Citizen.invokeNative<VehicleIndex>('0XDD75460A', modelHashKey, coorsX, coorsY, coorsZ, vehicleHeading, registerAsNetworkObject, scriptHostObject, ignoreGroundCheck);
+	const createVehicle_result = Citizen.invokeNative<VehicleIndex>('0xDD75460A', modelHashKey, coorsX, coorsY, coorsZ, vehicleHeading, registerAsNetworkObject, scriptHostObject, ignoreGroundCheck);
 	return createVehicle_result;
 }

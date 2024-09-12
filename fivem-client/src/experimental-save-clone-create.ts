@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:EXPERIMENTAL_SAVE_CLONE_CREATE
  *
- * 0X9D65CAD2
+ * 0x9D65CAD2
 
  * This native is not implemented.
  * 
@@ -12,6 +12,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {string}  
  */
 export function experimentalSaveCloneCreate(entity: EntityIndex): string {
-	const experimentalSaveCloneCreate_result = Citizen.invokeNative<string>('0X9D65CAD2', entity);
+	const experimentalSaveCloneCreate_result = Citizen.invokeNative<string>('0x9D65CAD2', entity);
 	return experimentalSaveCloneCreate_result;
 }

@@ -3,7 +3,7 @@ import { PedIndex, EAnimationFlags, EIkControlFlags } from '@ivanzaida/structure
 /**
  * CFX:TASK_PLAY_ANIM
  *
- * 0X5AB552C6
+ * 0x5AB552C6
 
  * Plays an anim on the specified ped
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
@@ -67,6 +67,6 @@ import { PedIndex, EAnimationFlags, EIkControlFlags } from '@ivanzaida/structure
  * @param {boolean} allowOverrideCloneUpdate
  */
 export function taskPlayAnim(ped: PedIndex, animDictName: string, animName: string, blendInDelta: number = 8, blendOutDelta: number = 8, timeToPlay: number = 1, animFlags: EAnimationFlags | number = 0, startPhase: number = 0, phaseControlled: boolean = false, ikFlags: EIkControlFlags | number = 0, allowOverrideCloneUpdate: boolean = false): void {
-	const taskPlayAnim_result = Citizen.invokeNative<void>('0X5AB552C6', ped, animDictName, animName, blendInDelta, blendOutDelta, timeToPlay, animFlags, startPhase, phaseControlled, ikFlags, allowOverrideCloneUpdate);
+	const taskPlayAnim_result = Citizen.invokeNative<void>('0x5AB552C6', ped, animDictName, animName, blendInDelta, blendOutDelta, timeToPlay, animFlags, startPhase, phaseControlled, ikFlags, allowOverrideCloneUpdate);
 	return taskPlayAnim_result;
 }

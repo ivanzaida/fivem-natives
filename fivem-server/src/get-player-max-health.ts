@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PLAYER_MAX_HEALTH
  *
- * 0X8154E470
+ * 0x8154E470
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {number}  
  */
 export function getPlayerMaxHealth(playerSrc: string): number {
-	const getPlayerMaxHealth_result = Citizen.invokeNative<number>('0X8154E470', playerSrc);
+	const getPlayerMaxHealth_result = Citizen.invokeNative<number>('0x8154E470', playerSrc);
 	return getPlayerMaxHealth_result;
 }

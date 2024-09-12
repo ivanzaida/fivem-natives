@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_WHEEL_Y_ROTATION
  *
- * 0XC6C2171F
+ * 0xC6C2171F
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} value
  */
 export function setVehicleWheelYRotation(vehicle: VehicleIndex, wheelIndex: number, value: number): void {
-	const setVehicleWheelYRotation_result = Citizen.invokeNative<void>('0XC6C2171F', vehicle, wheelIndex, value);
+	const setVehicleWheelYRotation_result = Citizen.invokeNative<void>('0xC6C2171F', vehicle, wheelIndex, value);
 	return setVehicleWheelYRotation_result;
 }

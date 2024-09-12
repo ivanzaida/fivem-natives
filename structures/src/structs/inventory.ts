@@ -41,7 +41,7 @@ export class Inventory {
 		return this.dataView.getInt32(56, true)
 	}
 
-	public get purchaseID(): number {
+	public get purchaseId(): number {
 		return this.dataView.getInt32(64, true)
 	}
 

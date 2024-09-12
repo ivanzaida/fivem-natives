@@ -9,15 +9,15 @@ export class CarclubPoints {
 		this.dataView = dataView;
 	}
 
-	public get boss_id1(): number {
+	public get bossId1(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get boss_id2(): number {
+	public get bossId2(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get match_id(): number {
+	public get matchId(): number {
 		return this.dataView.getInt32(16, true)
 	}
 

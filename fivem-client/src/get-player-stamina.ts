@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PLAYER_STAMINA
  *
- * 0XE415EC5C
+ * 0xE415EC5C
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @returns {number}  The value of player stamina.
  */
 export function getPlayerStamina(playerId: PlayerIndex): number {
-	const getPlayerStamina_result = Citizen.invokeNative<number>('0XE415EC5C', playerId);
+	const getPlayerStamina_result = Citizen.invokeNative<number>('0xE415EC5C', playerId);
 	return getPlayerStamina_result;
 }

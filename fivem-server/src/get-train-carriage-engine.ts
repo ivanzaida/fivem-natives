@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_TRAIN_CARRIAGE_ENGINE
  *
- * 0X95070FA
+ * 0x95070FA
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  The train engine carriage.
  */
 export function getTrainCarriageEngine(train: VehicleIndex): number {
-	const getTrainCarriageEngine_result = Citizen.invokeNative<number>('0X95070FA', train);
+	const getTrainCarriageEngine_result = Citizen.invokeNative<number>('0x95070FA', train);
 	return getTrainCarriageEngine_result;
 }

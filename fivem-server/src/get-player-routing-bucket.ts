@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PLAYER_ROUTING_BUCKET
  *
- * 0X52441C34
+ * 0x52441C34
 
  * Gets the routing bucket for the specified player.Routing buckets are also known as 'dimensions' or 'virtual worlds' in past echoes, however they are population-aware.
  * 
@@ -10,6 +10,6 @@
  * @returns {number}  The routing bucket ID.
  */
 export function getPlayerRoutingBucket(playerSrc: string): number {
-	const getPlayerRoutingBucket_result = Citizen.invokeNative<number>('0X52441C34', playerSrc);
+	const getPlayerRoutingBucket_result = Citizen.invokeNative<number>('0x52441C34', playerSrc);
 	return getPlayerRoutingBucket_result;
 }

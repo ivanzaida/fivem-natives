@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:CREATE_VEHICLE_SERVER_SETTER
  *
- * 0X6AE51D4B
+ * 0x6AE51D4B
 
  * Equivalent to CREATE_VEHICLE, but it uses 'server setter' logic (like the former CREATE_AUTOMOBILE) as a workaround forreliability concerns regarding entity creation RPC.Unlike CREATE_AUTOMOBILE, this supports other vehicle types as well.
  * 
@@ -17,6 +17,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {VehicleIndex}  A script handle for the vehicle.
  */
 export function createVehicleServerSetter(modelHash: number, type: string, x: number, y: number, z: number, heading: number): VehicleIndex {
-	const createVehicleServerSetter_result = Citizen.invokeNative<VehicleIndex>('0X6AE51D4B', modelHash, type, x, y, z, heading);
+	const createVehicleServerSetter_result = Citizen.invokeNative<VehicleIndex>('0x6AE51D4B', modelHash, type, x, y, z, heading);
 	return createVehicleServerSetter_result;
 }

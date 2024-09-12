@@ -1,7 +1,7 @@
 /**
  * CFX:SET_DISCORD_RICH_PRESENCE_ACTION
  *
- * 0XCBBC3FAC
+ * 0xCBBC3FAC
 
  * Sets a clickable button to be displayed in a player's Discord rich presence.
  * 
@@ -11,6 +11,6 @@
  * @param {string} url The URL to open when clicking the button. This has to start with fivem
  */
 export function setDiscordRichPresenceAction(index: number, label: string, url: string): void {
-	const setDiscordRichPresenceAction_result = Citizen.invokeNative<void>('0XCBBC3FAC', index, label, url);
+	const setDiscordRichPresenceAction_result = Citizen.invokeNative<void>('0xCBBC3FAC', index, label, url);
 	return setDiscordRichPresenceAction_result;
 }

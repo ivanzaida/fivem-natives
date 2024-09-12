@@ -1,7 +1,7 @@
 /**
  * CFX:GET_ROPE_LENGTH_CHANGE_RATE
  *
- * 0X66D70EA3
+ * 0x66D70EA3
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {number}  The rope's length change rate.
  */
 export function getRopeLengthChangeRate(rope: number): number {
-	const getRopeLengthChangeRate_result = Citizen.invokeNative<number>('0X66D70EA3', rope);
+	const getRopeLengthChangeRate_result = Citizen.invokeNative<number>('0x66D70EA3', rope);
 	return getRopeLengthChangeRate_result;
 }

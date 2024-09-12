@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_ROLL_BIAS
  *
- * 0X264B45DE
+ * 0x264B45DE
 
  * Set the vehicle's roll bias. Only works on planes.
  * 
@@ -12,6 +12,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} value Roll bias value.
  */
 export function setVehicleRollBias(vehicle: VehicleIndex, value: number): void {
-	const setVehicleRollBias_result = Citizen.invokeNative<void>('0X264B45DE', vehicle, value);
+	const setVehicleRollBias_result = Citizen.invokeNative<void>('0x264B45DE', vehicle, value);
 	return setVehicleRollBias_result;
 }

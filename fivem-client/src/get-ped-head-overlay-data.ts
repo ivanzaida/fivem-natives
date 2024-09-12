@@ -3,7 +3,7 @@ import { PedIndex, IntRef, FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_PED_HEAD_OVERLAY_DATA
  *
- * 0XC46EE605
+ * 0xC46EE605
 
  * A getter for [SET_PED_HEAD_OVERLAY](#_0x48F44967FA05CC1E) and [_SET_PED_HEAD_OVERLAY_COLOR](#_0x497BF74A7B9CB952) natives.
  * 
@@ -18,6 +18,6 @@ import { PedIndex, IntRef, FloatRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns ped's head overlay data.
  */
 export function getPedHeadOverlayData(ped: PedIndex, index: number, overlayValue: IntRef /* ptr */, colourType: IntRef /* ptr */, firstColour: IntRef /* ptr */, secondColour: IntRef /* ptr */, overlayOpacity: FloatRef /* ptr */): boolean {
-	const getPedHeadOverlayData_result = Citizen.invokeNative<boolean>('0XC46EE605', ped, index, overlayValue.dataView, colourType.dataView, firstColour.dataView, secondColour.dataView, overlayOpacity.dataView);
+	const getPedHeadOverlayData_result = Citizen.invokeNative<boolean>('0xC46EE605', ped, index, overlayValue.dataView, colourType.dataView, firstColour.dataView, secondColour.dataView, overlayOpacity.dataView);
 	return getPedHeadOverlayData_result;
 }

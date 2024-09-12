@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_ENTITY_POSITION_FROZEN
  *
- * 0XEDBE6ADD
+ * 0xEDBE6ADD
 
  * A getter for [FREEZE_ENTITY_POSITION](#_0x428CA6DBD1094446).
  * 
@@ -12,6 +12,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {boolean}  Boolean stating if it is frozen or not.
  */
 export function isEntityPositionFrozen(entity: EntityIndex): boolean {
-	const isEntityPositionFrozen_result = Citizen.invokeNative<boolean>('0XEDBE6ADD', entity);
+	const isEntityPositionFrozen_result = Citizen.invokeNative<boolean>('0xEDBE6ADD', entity);
 	return isEntityPositionFrozen_result;
 }

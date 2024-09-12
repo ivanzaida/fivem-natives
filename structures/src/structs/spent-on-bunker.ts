@@ -13,7 +13,7 @@ export class SpentOnBunker {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get location_amount(): number {
+	public get locationAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnBunker {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get style_amount(): number {
+	public get styleAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnBunker {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get personalquarter_amount(): number {
+	public get personalquarterAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnBunker {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get firingrange_amount(): number {
+	public get firingrangeAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnBunker {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get gunlocker_amount(): number {
+	public get gunlockerAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnBunker {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get caddy_amount(): number {
+	public get caddyAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 }

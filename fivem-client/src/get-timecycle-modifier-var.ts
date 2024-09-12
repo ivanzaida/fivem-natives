@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_TIMECYCLE_MODIFIER_VAR
  *
- * 0XA7109E12
+ * 0xA7109E12
 
  * 
  * ------------------------------------------------------------------
@@ -14,6 +14,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @returns {boolean}  Whether or not variable by name was found on the specified timecycle modifier.
  */
 export function getTimecycleModifierVar(modifierName: string, varName: string, value1: FloatRef /* ptr */, value2: FloatRef /* ptr */): boolean {
-	const getTimecycleModifierVar_result = Citizen.invokeNative<boolean>('0XA7109E12', modifierName, varName, value1.dataView, value2.dataView);
+	const getTimecycleModifierVar_result = Citizen.invokeNative<boolean>('0xA7109E12', modifierName, varName, value1.dataView, value2.dataView);
 	return getTimecycleModifierVar_result;
 }

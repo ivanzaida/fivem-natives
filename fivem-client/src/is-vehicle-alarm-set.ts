@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_VEHICLE_ALARM_SET
  *
- * 0XDC921211
+ * 0xDC921211
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isVehicleAlarmSet(vehicle: VehicleIndex): boolean {
-	const isVehicleAlarmSet_result = Citizen.invokeNative<boolean>('0XDC921211', vehicle);
+	const isVehicleAlarmSet_result = Citizen.invokeNative<boolean>('0xDC921211', vehicle);
 	return isVehicleAlarmSet_result;
 }

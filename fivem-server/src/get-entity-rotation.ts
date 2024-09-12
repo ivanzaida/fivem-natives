@@ -3,7 +3,7 @@ import { EntityIndex, EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_ROTATION
  *
- * 0X8FF45B04
+ * 0x8FF45B04
 
  * The angles are between -180 and 180 not between 0 to 360
  * rotationOrder is the order yaw, pitch and roll is applied. Usually 2. Returns a vector where the Z coordinate is the yaw.
@@ -24,6 +24,6 @@ import { EntityIndex, EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  * @returns {Vector3}  
  */
 export function getEntityRotation(entity: EntityIndex, rotOrder: EEulerRotOrder | number = 2): Vector3 {
-	const getEntityRotation_result = Citizen.invokeNative<Vector3>('0X8FF45B04', entity, rotOrder);
+	const getEntityRotation_result = Citizen.invokeNative<Vector3>('0x8FF45B04', entity, rotOrder);
 	return getEntityRotation_result;
 }

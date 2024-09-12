@@ -1,7 +1,7 @@
 /**
  * CFX:GET_RUNTIME_TEXTURE_HEIGHT
  *
- * 0X3574AACE
+ * 0x3574AACE
 
  * Gets the height of the specified runtime texture.
  * 
@@ -10,6 +10,6 @@
  * @returns {number}  The height in pixels.
  */
 export function getRuntimeTextureHeight(tex: number): number {
-	const getRuntimeTextureHeight_result = Citizen.invokeNative<number>('0X3574AACE', tex);
+	const getRuntimeTextureHeight_result = Citizen.invokeNative<number>('0x3574AACE', tex);
 	return getRuntimeTextureHeight_result;
 }

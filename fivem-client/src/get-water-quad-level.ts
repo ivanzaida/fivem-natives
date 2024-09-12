@@ -3,7 +3,7 @@ import { FloatRef } from '@ivanzaida/structures'
 /**
  * CFX:GET_WATER_QUAD_LEVEL
  *
- * 0X6523816B
+ * 0x6523816B
 
  * level is defined as "z" in water.xml
  * 
@@ -13,6 +13,6 @@ import { FloatRef } from '@ivanzaida/structures'
  * @returns {boolean}  Returns true on success. Level is undefined on failure
  */
 export function getWaterQuadLevel(waterQuad: number, waterQuadLevel: FloatRef /* ptr */): boolean {
-	const getWaterQuadLevel_result = Citizen.invokeNative<boolean>('0X6523816B', waterQuad, waterQuadLevel.dataView);
+	const getWaterQuadLevel_result = Citizen.invokeNative<boolean>('0x6523816B', waterQuad, waterQuadLevel.dataView);
 	return getWaterQuadLevel_result;
 }

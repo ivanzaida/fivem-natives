@@ -13,7 +13,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get aircraft_amount(): number {
+	public get aircraftAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get interiortint_amount(): number {
+	public get interiortintAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get turret_amount(): number {
+	public get turretAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get weaponworkshop_amount(): number {
+	public get weaponworkshopAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get vehicleworkshop_amount(): number {
+	public get vehicleworkshopAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get countermeasures_amount(): number {
+	public get countermeasuresAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,7 +61,7 @@ export class SpentOnTiltrotor {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get bombs_amount(): number {
+	public get bombsAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 }

@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_ATTACHED_TO
  *
- * 0XFE1589F9
+ * 0xFE1589F9
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {EntityIndex}  
  */
 export function getEntityAttachedTo(entity: EntityIndex): EntityIndex {
-	const getEntityAttachedTo_result = Citizen.invokeNative<EntityIndex>('0XFE1589F9', entity);
+	const getEntityAttachedTo_result = Citizen.invokeNative<EntityIndex>('0xFE1589F9', entity);
 	return getEntityAttachedTo_result;
 }

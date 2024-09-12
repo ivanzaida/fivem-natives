@@ -9,7 +9,7 @@ export class ScriptError {
 		this.dataView = dataView;
 	}
 
-	public get scriptID(): number {
+	public get scriptId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 }

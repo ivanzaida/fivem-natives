@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PLAYER_INVINCIBLE
  *
- * 0X680C90EE
+ * 0x680C90EE
 
  * Returns the Player's Invincible status.
  * This function will always return false if 0x733A643B5B0C53C1 is used to set the invincibility status. To always get the correct result, use this:
@@ -23,6 +23,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function getPlayerInvincible(player: PlayerIndex): boolean {
-	const getPlayerInvincible_result = Citizen.invokeNative<boolean>('0X680C90EE', player);
+	const getPlayerInvincible_result = Citizen.invokeNative<boolean>('0x680C90EE', player);
 	return getPlayerInvincible_result;
 }

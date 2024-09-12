@@ -1,7 +1,7 @@
 /**
  * CFX:CREATE_RUNTIME_TEXTURE
  *
- * 0XFEC3766D
+ * 0xFEC3766D
 
  * Creates a blank runtime texture.
  * 
@@ -13,6 +13,6 @@
  * @returns {number}  A runtime texture handle.
  */
 export function createRuntimeTexture(txd: number, txn: string, width: number, height: number): number {
-	const createRuntimeTexture_result = Citizen.invokeNative<number>('0XFEC3766D', txd, txn, width, height);
+	const createRuntimeTexture_result = Citizen.invokeNative<number>('0xFEC3766D', txd, txn, width, height);
 	return createRuntimeTexture_result;
 }

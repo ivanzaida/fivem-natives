@@ -3,7 +3,7 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
 /**
  * CFX:REMOVE_WEAPON_FROM_PED
  *
- * 0X9C37F220
+ * 0x9C37F220
 
  * This native removes a specified weapon from your selected ped.
  * Example:
@@ -19,6 +19,6 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * @param {EWeaponType} typeOfWeapon
  */
 export function removeWeaponFromPed(ped: PedIndex, typeOfWeapon: EWeaponType | number): void {
-	const removeWeaponFromPed_result = Citizen.invokeNative<void>('0X9C37F220', ped, typeOfWeapon);
+	const removeWeaponFromPed_result = Citizen.invokeNative<void>('0x9C37F220', ped, typeOfWeapon);
 	return removeWeaponFromPed_result;
 }

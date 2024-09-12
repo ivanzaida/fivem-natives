@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX
  *
- * 0X499747B6
+ * 0x499747B6
 
  * Returns the PlateType of a vehicle
  *       Blue_on_White_1 = 3,
@@ -18,6 +18,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleNumberPlateTextIndex(vehicle: VehicleIndex): number {
-	const getVehicleNumberPlateTextIndex_result = Citizen.invokeNative<number>('0X499747B6', vehicle);
+	const getVehicleNumberPlateTextIndex_result = Citizen.invokeNative<number>('0x499747B6', vehicle);
 	return getVehicleNumberPlateTextIndex_result;
 }

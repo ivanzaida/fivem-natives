@@ -3,7 +3,7 @@ import { ModelNames, ObjectIndex } from '@ivanzaida/structures'
 /**
  * CFX:CREATE_OBJECT_NO_OFFSET
  *
- * 0X58040420
+ * 0x58040420
 
  * List of object models that can be created without any additional effort like making sure ytyp is loaded etc: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini
  * 
@@ -18,6 +18,6 @@ import { ModelNames, ObjectIndex } from '@ivanzaida/structures'
  * @returns {ObjectIndex}  
  */
 export function createObjectNoOffset(model: ModelNames, newCoorsX: number, newCoorsY: number, newCoorsZ: number, registerAsNetworkObject: boolean = true, scriptHostObject: boolean = true, forceToBeObject: boolean = false): ObjectIndex {
-	const createObjectNoOffset_result = Citizen.invokeNative<ObjectIndex>('0X58040420', model, newCoorsX, newCoorsY, newCoorsZ, registerAsNetworkObject, scriptHostObject, forceToBeObject);
+	const createObjectNoOffset_result = Citizen.invokeNative<ObjectIndex>('0x58040420', model, newCoorsX, newCoorsY, newCoorsZ, registerAsNetworkObject, scriptHostObject, forceToBeObject);
 	return createObjectNoOffset_result;
 }

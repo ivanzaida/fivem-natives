@@ -13,7 +13,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get location_amount(): number {
+	public get locationAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get style_amount(): number {
+	public get styleAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get graphics_amount(): number {
+	public get graphicsAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get colour_amount(): number {
+	public get colourAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get floor_amount(): number {
+	public get floorAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get mechanic_amount(): number {
+	public get mechanicAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,7 +61,7 @@ export class SpentOnArena {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get personalQuarters_amount(): number {
+	public get personalQuartersAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 }

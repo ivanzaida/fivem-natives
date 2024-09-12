@@ -13,7 +13,7 @@ export class BuyAgency {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get location_amount(): number {
+	public get locationAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class BuyAgency {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get style_amount(): number {
+	public get styleAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class BuyAgency {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get wallpaper_amount(): number {
+	public get wallpaperAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,31 +37,31 @@ export class BuyAgency {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get tint_amount(): number {
+	public get tintAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
-	public get personal_quarter(): number {
+	public get personalQuarter(): number {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get personal_quarter_amount(): number {
+	public get personalQuarterAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
-	public get weapon_workshop(): number {
+	public get weaponWorkshop(): number {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get weapon_workshop_amount(): number {
+	public get weaponWorkshopAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
-	public get vehicle_workshop(): number {
+	public get vehicleWorkshop(): number {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get vehicle_workshop_amount(): number {
+	public get vehicleWorkshopAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 }

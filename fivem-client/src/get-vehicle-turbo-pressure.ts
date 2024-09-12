@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_TURBO_PRESSURE
  *
- * 0XE02B51D7
+ * 0xE02B51D7
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleTurboPressure(vehicle: VehicleIndex): number {
-	const getVehicleTurboPressure_result = Citizen.invokeNative<number>('0XE02B51D7', vehicle);
+	const getVehicleTurboPressure_result = Citizen.invokeNative<number>('0xE02B51D7', vehicle);
 	return getVehicleTurboPressure_result;
 }

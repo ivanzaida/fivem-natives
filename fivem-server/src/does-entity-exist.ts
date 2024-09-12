@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:DOES_ENTITY_EXIST
  *
- * 0X3AC90869
+ * 0x3AC90869
 
  * Checks whether an entity exists in the game world.
  * 
@@ -12,6 +12,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function doesEntityExist(entity: EntityIndex): boolean {
-	const doesEntityExist_result = Citizen.invokeNative<boolean>('0X3AC90869', entity);
+	const doesEntityExist_result = Citizen.invokeNative<boolean>('0x3AC90869', entity);
 	return doesEntityExist_result;
 }

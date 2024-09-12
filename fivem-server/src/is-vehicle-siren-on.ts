@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_VEHICLE_SIREN_ON
  *
- * 0X25EB5873
+ * 0x25EB5873
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isVehicleSirenOn(vehicle: VehicleIndex): boolean {
-	const isVehicleSirenOn_result = Citizen.invokeNative<boolean>('0X25EB5873', vehicle);
+	const isVehicleSirenOn_result = Citizen.invokeNative<boolean>('0x25EB5873', vehicle);
 	return isVehicleSirenOn_result;
 }

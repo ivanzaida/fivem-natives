@@ -3,7 +3,7 @@ import { PedIndex, EPedConfigFlags } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_CONFIG_FLAG
  *
- * 0X9CFBE10D
+ * 0x9CFBE10D
 
  * enum ePedConfigFlags
  * {
@@ -473,6 +473,6 @@ import { PedIndex, EPedConfigFlags } from '@ivanzaida/structures'
  * @param {boolean} flag
  */
 export function setPedConfigFlag(ped: PedIndex, configFlag: EPedConfigFlags | number, flag: boolean): void {
-	const setPedConfigFlag_result = Citizen.invokeNative<void>('0X9CFBE10D', ped, configFlag, flag);
+	const setPedConfigFlag_result = Citizen.invokeNative<void>('0x9CFBE10D', ped, configFlag, flag);
 	return setPedConfigFlag_result;
 }

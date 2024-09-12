@@ -1,7 +1,7 @@
 /**
  * CFX:TRIGGER_EVENT_INTERNAL
  *
- * 0X91310870
+ * 0x91310870
 
  * The backing function for TriggerEvent.
  * 
@@ -11,6 +11,6 @@
  * @param {number} payloadLength
  */
 export function triggerEventInternal(eventName: string, eventPayload: string, payloadLength: number): void {
-	const triggerEventInternal_result = Citizen.invokeNative<void>('0X91310870', eventName, eventPayload, payloadLength);
+	const triggerEventInternal_result = Citizen.invokeNative<void>('0x91310870', eventName, eventPayload, payloadLength);
 	return triggerEventInternal_result;
 }

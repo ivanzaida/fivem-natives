@@ -3,7 +3,7 @@ import { BlipIndex } from '@ivanzaida/structures'
 /**
  * CFX:ADD_BLIP_FOR_RADIUS
  *
- * 0X4626756C
+ * 0x4626756C
 
  * 
  * ------------------------------------------------------------------
@@ -14,6 +14,6 @@ import { BlipIndex } from '@ivanzaida/structures'
  * @returns {BlipIndex}  
  */
 export function addBlipForRadius(coorsX: number, coorsY: number, coorsZ: number, size: number): BlipIndex {
-	const addBlipForRadius_result = Citizen.invokeNative<BlipIndex>('0X4626756C', coorsX, coorsY, coorsZ, size);
+	const addBlipForRadius_result = Citizen.invokeNative<BlipIndex>('0x4626756C', coorsX, coorsY, coorsZ, size);
 	return addBlipForRadius_result;
 }

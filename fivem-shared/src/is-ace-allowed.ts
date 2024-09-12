@@ -1,7 +1,7 @@
 /**
  * CFX:IS_ACE_ALLOWED
  *
- * 0X7EBB9929
+ * 0x7EBB9929
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {boolean}  
  */
 export function isAceAllowed(object: string): boolean {
-	const isAceAllowed_result = Citizen.invokeNative<boolean>('0X7EBB9929', object);
+	const isAceAllowed_result = Citizen.invokeNative<boolean>('0x7EBB9929', object);
 	return isAceAllowed_result;
 }

@@ -3,7 +3,7 @@ import { PedIndex, EHeadOverlaySlot } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_HEAD_OVERLAY
  *
- * 0XD28DBA90
+ * 0xD28DBA90
 
  * This function sets an overlay texture on a blended head. The ped index given needs to be an MP ped with a blended head, which means
  * SET_PED_HEAD_BLEND_DATA needs to have already been called on this ped before this function is called.
@@ -30,6 +30,6 @@ import { PedIndex, EHeadOverlaySlot } from '@ivanzaida/structures'
  * @param {number} blend
  */
 export function setPedHeadOverlay(ped: PedIndex, slot: EHeadOverlaySlot | number, tex: number, blend: number): void {
-	const setPedHeadOverlay_result = Citizen.invokeNative<void>('0XD28DBA90', ped, slot, tex, blend);
+	const setPedHeadOverlay_result = Citizen.invokeNative<void>('0xD28DBA90', ped, slot, tex, blend);
 	return setPedHeadOverlay_result;
 }

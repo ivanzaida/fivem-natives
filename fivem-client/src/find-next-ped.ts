@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:FIND_NEXT_PED
  *
- * 0XAB09B548
+ * 0xAB09B548
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function findNextPed(findHandle: number, outEntity: IntRef /* ptr */): boolean {
-	const findNextPed_result = Citizen.invokeNative<boolean>('0XAB09B548', findHandle, outEntity.dataView);
+	const findNextPed_result = Citizen.invokeNative<boolean>('0xAB09B548', findHandle, outEntity.dataView);
 	return findNextPed_result;
 }

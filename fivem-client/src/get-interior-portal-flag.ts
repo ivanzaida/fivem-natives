@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_PORTAL_FLAG
  *
- * 0XC74DA47C
+ * 0xC74DA47C
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {number}  Portal's flag.
  */
 export function getInteriorPortalFlag(interiorId: number, portalIndex: number): number {
-	const getInteriorPortalFlag_result = Citizen.invokeNative<number>('0XC74DA47C', interiorId, portalIndex);
+	const getInteriorPortalFlag_result = Citizen.invokeNative<number>('0xC74DA47C', interiorId, portalIndex);
 	return getInteriorPortalFlag_result;
 }

@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_PED_COLLECTION_COMPONENT_VARIATION_GEN9_EXCLUSIVE
  *
- * 0X33B2AFA2
+ * 0x33B2AFA2
 
  * An alternative to [IS_PED_COMPONENT_VARIATION_GEN9_EXCLUSIVE](#_0xC767B581) that uses local collection indexing instead of the global one.The local / collection relative indexing is useful because the global index may get shifted after Title Update. While local index will remain the same which simplifies migration to the newer game version.Collection name and local index inside the collection can be obtained from the global index using [GET_PED_COLLECTION_NAME_FROM_DRAWABLE](#_0xD6BBA48B) and [GET_PED_COLLECTION_LOCAL_INDEX_FROM_DRAWABLE](#_0x94EB1FE4) natives.
  * 
@@ -15,6 +15,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {boolean}  Whether or not the ped component variation is a gen9 exclusive (stub assets).
  */
 export function isPedCollectionComponentVariationGen9Exclusive(ped: PedIndex, componentId: number, collection: string, drawableId: number): boolean {
-	const isPedCollectionComponentVariationGen9Exclusive_result = Citizen.invokeNative<boolean>('0X33B2AFA2', ped, componentId, collection, drawableId);
+	const isPedCollectionComponentVariationGen9Exclusive_result = Citizen.invokeNative<boolean>('0x33B2AFA2', ped, componentId, collection, drawableId);
 	return isPedCollectionComponentVariationGen9Exclusive_result;
 }

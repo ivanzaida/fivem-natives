@@ -1,7 +1,7 @@
 /**
  * CFX:SET_CALMING_QUAD_DAMPENING
  *
- * 0X67977501
+ * 0x67977501
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setCalmingQuadDampening(calmingQuad: number, dampening: number): boolean {
-	const setCalmingQuadDampening_result = Citizen.invokeNative<boolean>('0X67977501', calmingQuad, dampening);
+	const setCalmingQuadDampening_result = Citizen.invokeNative<boolean>('0x67977501', calmingQuad, dampening);
 	return setCalmingQuadDampening_result;
 }

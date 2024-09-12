@@ -3,7 +3,7 @@ import { PedIndex, EPedPropPosition } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_PROP_INDEX
  *
- * 0X829F2E2
+ * 0x829F2E2
 
  * ComponentId can be set to various things based on what category you're wanting to set
  * enum PedPropsData
@@ -23,6 +23,6 @@ import { PedIndex, EPedPropPosition } from '@ivanzaida/structures'
  * @param {boolean} syncWithBlend
  */
 export function setPedPropIndex(ped: PedIndex, position: EPedPropPosition | number, newProp: number, newText: number = 0, syncWithBlend: boolean = false): void {
-	const setPedPropIndex_result = Citizen.invokeNative<void>('0X829F2E2', ped, position, newProp, newText, syncWithBlend);
+	const setPedPropIndex_result = Citizen.invokeNative<void>('0x829F2E2', ped, position, newProp, newText, syncWithBlend);
 	return setPedPropIndex_result;
 }

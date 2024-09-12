@@ -1,7 +1,7 @@
 /**
  * CFX:SET_AUDIO_SUBMIX_EFFECT_PARAM_INT
  *
- * 0X77FAE2B8
+ * 0x77FAE2B8
 
  * Sets an integer parameter for a submix effect.
  * 
@@ -12,6 +12,6 @@
  * @param {number} paramValue The parameter value to set.
  */
 export function setAudioSubmixEffectParamInt(submixId: number, effectSlot: number, paramIndex: number, paramValue: number): void {
-	const setAudioSubmixEffectParamInt_result = Citizen.invokeNative<void>('0X77FAE2B8', submixId, effectSlot, paramIndex, paramValue);
+	const setAudioSubmixEffectParamInt_result = Citizen.invokeNative<void>('0x77FAE2B8', submixId, effectSlot, paramIndex, paramValue);
 	return setAudioSubmixEffectParamInt_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:GET_RESOURCE_METADATA
  *
- * 0X964BAB1D
+ * 0x964BAB1D
 
  * Gets the metadata value at a specified key/index from a resource's manifest.See also: [Resource manifest](https://docs.fivem.net/resources/manifest/)
  * 
@@ -12,6 +12,6 @@
  * @returns {string}  
  */
 export function getResourceMetadata(resourceName: string, metadataKey: string, index: number): string {
-	const getResourceMetadata_result = Citizen.invokeNative<string>('0X964BAB1D', resourceName, metadataKey, index);
+	const getResourceMetadata_result = Citizen.invokeNative<string>('0x964BAB1D', resourceName, metadataKey, index);
 	return getResourceMetadata_result;
 }

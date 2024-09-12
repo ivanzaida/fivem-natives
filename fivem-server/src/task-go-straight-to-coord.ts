@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:TASK_GO_STRAIGHT_TO_COORD
  *
- * 0X80A9E7A7
+ * 0x80A9E7A7
 
  * 
  * ------------------------------------------------------------------
@@ -17,6 +17,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {number} targetRadius
  */
 export function taskGoStraightToCoord(ped: PedIndex, coorsX: number, coorsY: number, coorsZ: number, moveBlendRatio: number, time: number = 20000, finalHeading: number = 40000, targetRadius: number = 0.5): void {
-	const taskGoStraightToCoord_result = Citizen.invokeNative<void>('0X80A9E7A7', ped, coorsX, coorsY, coorsZ, moveBlendRatio, time, finalHeading, targetRadius);
+	const taskGoStraightToCoord_result = Citizen.invokeNative<void>('0x80A9E7A7', ped, coorsX, coorsY, coorsZ, moveBlendRatio, time, finalHeading, targetRadius);
 	return taskGoStraightToCoord_result;
 }

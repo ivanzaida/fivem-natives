@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_NUMBER_OF_PED_COLLECTION_PROP_TEXTURE_VARIATIONS
  *
- * 0X75CAF9CC
+ * 0x75CAF9CC
 
  * An alternative to [GET_NUMBER_OF_PED_PROP_TEXTURE_VARIATIONS](#_0xA6E7F1CEB523E171) that uses local collection indexing instead of the global one.
  * 
@@ -15,6 +15,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {number}  Number of texture variations available for the given prop. Returns 0 if ped or collection does not exist or index is out of bounds.
  */
 export function getNumberOfPedCollectionPropTextureVariations(ped: PedIndex, anchorPoint: number, collection: string, propIndex: number): number {
-	const getNumberOfPedCollectionPropTextureVariations_result = Citizen.invokeNative<number>('0X75CAF9CC', ped, anchorPoint, collection, propIndex);
+	const getNumberOfPedCollectionPropTextureVariations_result = Citizen.invokeNative<number>('0x75CAF9CC', ped, anchorPoint, collection, propIndex);
 	return getNumberOfPedCollectionPropTextureVariations_result;
 }

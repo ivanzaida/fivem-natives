@@ -13,7 +13,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get truck_amount(): number {
+	public get truckAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get tint_amount(): number {
+	public get tintAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get pattern_amount(): number {
+	public get patternAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get missileLauncher_amount(): number {
+	public get missileLauncherAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get droneStation_amount(): number {
+	public get droneStationAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get weaponWorkshop_amount(): number {
+	public get weaponWorkshopAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,7 +61,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get bike_amount(): number {
+	public get bikeAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 
@@ -69,7 +69,7 @@ export class SpentOnHackerTruck {
 		return this.dataView.getInt32(112, true)
 	}
 
-	public get bikeWorkshop_amount(): number {
+	public get bikeWorkshopAmount(): number {
 		return this.dataView.getInt32(120, true)
 	}
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_PORTAL_ROOM_TO
  *
- * 0X3F47F0E8
+ * 0x3F47F0E8
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {number}  Portal's room TO index.
  */
 export function getInteriorPortalRoomTo(interiorId: number, portalIndex: number): number {
-	const getInteriorPortalRoomTo_result = Citizen.invokeNative<number>('0X3F47F0E8', interiorId, portalIndex);
+	const getInteriorPortalRoomTo_result = Citizen.invokeNative<number>('0x3F47F0E8', interiorId, portalIndex);
 	return getInteriorPortalRoomTo_result;
 }

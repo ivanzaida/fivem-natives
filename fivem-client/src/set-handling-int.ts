@@ -1,7 +1,7 @@
 /**
  * CFX:SET_HANDLING_INT
  *
- * 0X8AB3F46C
+ * 0x8AB3F46C
 
  * Sets a global handling override for a specific vehicle class. The name is supposed to match the `handlingName` field from handling.meta.
  * 
@@ -12,6 +12,6 @@
  * @param {number} value The integer value to set.
  */
 export function setHandlingInt(vehicle: string, class_: string, fieldName: string, value: number): void {
-	const setHandlingInt_result = Citizen.invokeNative<void>('0X8AB3F46C', vehicle, class_, fieldName, value);
+	const setHandlingInt_result = Citizen.invokeNative<void>('0x8AB3F46C', vehicle, class_, fieldName, value);
 	return setHandlingInt_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PLAYER_TIME_ONLINE
  *
- * 0X67D2E605
+ * 0x67D2E605
 
  * Gets the current time online for a specified player.
  * 
@@ -10,6 +10,6 @@
  * @returns {number}  The current time online in seconds.
  */
 export function getPlayerTimeOnline(playerSrc: string): number {
-	const getPlayerTimeOnline_result = Citizen.invokeNative<number>('0X67D2E605', playerSrc);
+	const getPlayerTimeOnline_result = Citizen.invokeNative<number>('0x67D2E605', playerSrc);
 	return getPlayerTimeOnline_result;
 }

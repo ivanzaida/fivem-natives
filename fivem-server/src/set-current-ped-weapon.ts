@@ -3,7 +3,7 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
 /**
  * CFX:SET_CURRENT_PED_WEAPON
  *
- * 0XB8278882
+ * 0xB8278882
 
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
  * 
@@ -13,6 +13,6 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * @param {boolean} forceInHand
  */
 export function setCurrentPedWeapon(ped: PedIndex, typeOfWeapon: EWeaponType | number, forceInHand: boolean = false): void {
-	const setCurrentPedWeapon_result = Citizen.invokeNative<void>('0XB8278882', ped, typeOfWeapon, forceInHand);
+	const setCurrentPedWeapon_result = Citizen.invokeNative<void>('0xB8278882', ped, typeOfWeapon, forceInHand);
 	return setCurrentPedWeapon_result;
 }

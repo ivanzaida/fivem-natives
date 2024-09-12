@@ -1,7 +1,7 @@
 /**
  * CFX:SET_TIMECYCLE_MODIFIER_VAR
  *
- * 0X6E0A422B
+ * 0x6E0A422B
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@
  * @param {number} value2 The second value of variable.
  */
 export function setTimecycleModifierVar(modifierName: string, varName: string, value1: number, value2: number): void {
-	const setTimecycleModifierVar_result = Citizen.invokeNative<void>('0X6E0A422B', modifierName, varName, value1, value2);
+	const setTimecycleModifierVar_result = Citizen.invokeNative<void>('0x6E0A422B', modifierName, varName, value1, value2);
 	return setTimecycleModifierVar_result;
 }

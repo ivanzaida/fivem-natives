@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PLAYER_NAME
  *
- * 0X406B4B20
+ * 0x406B4B20
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @returns {string}  
  */
 export function getPlayerName(player: PlayerIndex): string {
-	const getPlayerName_result = Citizen.invokeNative<string>('0X406B4B20', player);
+	const getPlayerName_result = Citizen.invokeNative<string>('0x406B4B20', player);
 	return getPlayerName_result;
 }

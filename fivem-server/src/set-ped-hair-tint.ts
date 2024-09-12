@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_PED_HAIR_TINT
  *
- * 0XA23FE32C
+ * 0xA23FE32C
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {number} tint2
  */
 export function setPedHairTint(ped: PedIndex, tint: number, tint2: number = 0): void {
-	const setPedHairTint_result = Citizen.invokeNative<void>('0XA23FE32C', ped, tint, tint2);
+	const setPedHairTint_result = Citizen.invokeNative<void>('0xA23FE32C', ped, tint, tint2);
 	return setPedHairTint_result;
 }

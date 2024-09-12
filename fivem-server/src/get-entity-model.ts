@@ -3,7 +3,7 @@ import { EntityIndex, ModelNames } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_MODEL
  *
- * 0XDAFCB3EC
+ * 0xDAFCB3EC
 
  * Returns the model hash from the entity
  * 
@@ -12,6 +12,6 @@ import { EntityIndex, ModelNames } from '@ivanzaida/structures'
  * @returns {ModelNames}  
  */
 export function getEntityModel(entity: EntityIndex): ModelNames {
-	const getEntityModel_result = Citizen.invokeNative<ModelNames>('0XDAFCB3EC', entity);
+	const getEntityModel_result = Citizen.invokeNative<ModelNames>('0xDAFCB3EC', entity);
 	return getEntityModel_result;
 }

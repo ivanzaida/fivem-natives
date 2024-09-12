@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_TRAIN_DOOR_COUNT
  *
- * 0X99974721
+ * 0x99974721
 
  * Gets the door count for the specified train.
  * 
@@ -12,6 +12,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  The door count.
  */
 export function getTrainDoorCount(train: VehicleIndex): number {
-	const getTrainDoorCount_result = Citizen.invokeNative<number>('0X99974721', train);
+	const getTrainDoorCount_result = Citizen.invokeNative<number>('0x99974721', train);
 	return getTrainDoorCount_result;
 }

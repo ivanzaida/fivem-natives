@@ -3,7 +3,7 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
 /**
  * CFX:GET_SELECTED_PED_WEAPON
  *
- * 0XD240123E
+ * 0xD240123E
 
  * Returns the hash of the weapon.
  *             var num7 = WEAPON::GET_SELECTED_PED_WEAPON(num4);
@@ -21,6 +21,6 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * @returns {EWeaponType}  
  */
 export function getSelectedPedWeapon(ped: PedIndex): EWeaponType {
-	const getSelectedPedWeapon_result = Citizen.invokeNative<EWeaponType>('0XD240123E', ped);
+	const getSelectedPedWeapon_result = Citizen.invokeNative<EWeaponType>('0xD240123E', ped);
 	return getSelectedPedWeapon_result;
 }

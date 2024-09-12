@@ -123,7 +123,7 @@ export class Heist3Finale {
 		return this.dataView.getInt32(240, true)
 	}
 
-	public get useEMP(): number {
+	public get useEmp(): number {
 		return this.dataView.getInt32(248, true)
 	}
 

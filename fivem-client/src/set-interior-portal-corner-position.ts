@@ -1,7 +1,7 @@
 /**
  * CFX:SET_INTERIOR_PORTAL_CORNER_POSITION
  *
- * 0X87F43553
+ * 0x87F43553
 
  * 
  * ------------------------------------------------------------------
@@ -13,6 +13,6 @@
  * @param {number} posZ
  */
 export function setInteriorPortalCornerPosition(interiorId: number, portalIndex: number, cornerIndex: number, posX: number, posY: number, posZ: number): void {
-	const setInteriorPortalCornerPosition_result = Citizen.invokeNative<void>('0X87F43553', interiorId, portalIndex, cornerIndex, posX, posY, posZ);
+	const setInteriorPortalCornerPosition_result = Citizen.invokeNative<void>('0x87F43553', interiorId, portalIndex, cornerIndex, posX, posY, posZ);
 	return setInteriorPortalCornerPosition_result;
 }

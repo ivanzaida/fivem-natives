@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_NUMBER_OF_WHEELS
  *
- * 0XEDF4B0FC
+ * 0xEDF4B0FC
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleNumberOfWheels(vehicle: VehicleIndex): number {
-	const getVehicleNumberOfWheels_result = Citizen.invokeNative<number>('0XEDF4B0FC', vehicle);
+	const getVehicleNumberOfWheels_result = Citizen.invokeNative<number>('0xEDF4B0FC', vehicle);
 	return getVehicleNumberOfWheels_result;
 }

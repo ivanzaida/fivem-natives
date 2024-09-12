@@ -47,15 +47,15 @@ export class NetworkClanDesc {
 		return this.dataView.getInt32(144, true)
 	}
 
-	public get clanColor_Red(): number {
+	public get clanColorRed(): number {
 		return this.dataView.getInt32(152, true)
 	}
 
-	public get clanColor_Green(): number {
+	public get clanColorGreen(): number {
 		return this.dataView.getInt32(160, true)
 	}
 
-	public get clanColor_Blue(): number {
+	public get clanColorBlue(): number {
 		return this.dataView.getInt32(168, true)
 	}
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:SET_WATER_QUAD_HAS_LIMITED_DEPTH
  *
- * 0XD1FDCFC1
+ * 0xD1FDCFC1
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  Returns true on success.
  */
 export function setWaterQuadHasLimitedDepth(waterQuad: number, hasLimitedDepth: boolean): boolean {
-	const setWaterQuadHasLimitedDepth_result = Citizen.invokeNative<boolean>('0XD1FDCFC1', waterQuad, hasLimitedDepth);
+	const setWaterQuadHasLimitedDepth_result = Citizen.invokeNative<boolean>('0xD1FDCFC1', waterQuad, hasLimitedDepth);
 	return setWaterQuadHasLimitedDepth_result;
 }

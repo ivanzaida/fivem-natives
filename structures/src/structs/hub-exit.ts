@@ -9,7 +9,7 @@ export class HubExit {
 		this.dataView = dataView;
 	}
 
-	public get hubID(): number {
+	public get hubId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 

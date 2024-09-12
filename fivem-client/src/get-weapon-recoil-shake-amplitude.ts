@@ -1,7 +1,7 @@
 /**
  * CFX:GET_WEAPON_RECOIL_SHAKE_AMPLITUDE
  *
- * 0X5E1AF5F
+ * 0x5E1AF5F
 
  * A getter for the recoil shake amplitude of a weapon.
  * 
@@ -10,6 +10,6 @@
  * @returns {number}  The recoil shake amplitude of a weapon.
  */
 export function getWeaponRecoilShakeAmplitude(weaponHash: number): number {
-	const getWeaponRecoilShakeAmplitude_result = Citizen.invokeNative<number>('0X5E1AF5F', weaponHash);
+	const getWeaponRecoilShakeAmplitude_result = Citizen.invokeNative<number>('0x5E1AF5F', weaponHash);
 	return getWeaponRecoilShakeAmplitude_result;
 }

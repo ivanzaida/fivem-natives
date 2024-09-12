@@ -1,7 +1,7 @@
 /**
  * CFX:GET_INTERIOR_ROOM_TIMECYCLE
  *
- * 0X82BA3F88
+ * 0x82BA3F88
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {number}  Room's timecycle hash.
  */
 export function getInteriorRoomTimecycle(interiorId: number, roomIndex: number): number {
-	const getInteriorRoomTimecycle_result = Citizen.invokeNative<number>('0X82BA3F88', interiorId, roomIndex);
+	const getInteriorRoomTimecycle_result = Citizen.invokeNative<number>('0x82BA3F88', interiorId, roomIndex);
 	return getInteriorRoomTimecycle_result;
 }

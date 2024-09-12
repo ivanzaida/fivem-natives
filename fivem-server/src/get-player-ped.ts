@@ -3,7 +3,7 @@ import { PlayerIndex, PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_PLAYER_PED
  *
- * 0X6E31E993
+ * 0x6E31E993
 
  * Gets the ped for a specified player index.
  * 
@@ -12,6 +12,6 @@ import { PlayerIndex, PedIndex } from '@ivanzaida/structures'
  * @returns {PedIndex}  
  */
 export function getPlayerPed(player: PlayerIndex): PedIndex {
-	const getPlayerPed_result = Citizen.invokeNative<PedIndex>('0X6E31E993', player);
+	const getPlayerPed_result = Citizen.invokeNative<PedIndex>('0x6E31E993', player);
 	return getPlayerPed_result;
 }

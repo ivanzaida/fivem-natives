@@ -13,7 +13,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(0, true)
 	}
 
-	public get masterBedroom_amount(): number {
+	public get masterBedroomAmount(): number {
 		return this.dataView.getInt32(8, true)
 	}
 
@@ -21,7 +21,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get lounge_amount(): number {
+	public get loungeAmount(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -29,7 +29,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get spa_amount(): number {
+	public get spaAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
@@ -37,7 +37,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get barParty_amount(): number {
+	public get barPartyAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,7 +45,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get dealer_amount(): number {
+	public get dealerAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
@@ -53,7 +53,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get extraBedroom_amount(): number {
+	public get extraBedroomAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,7 +61,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get extraBedroom2_amount(): number {
+	public get extraBedroom2Amount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 
@@ -69,7 +69,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(112, true)
 	}
 
-	public get mediaRoom_amount(): number {
+	public get mediaRoomAmount(): number {
 		return this.dataView.getInt32(120, true)
 	}
 
@@ -77,7 +77,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(128, true)
 	}
 
-	public get garage_amount(): number {
+	public get garageAmount(): number {
 		return this.dataView.getInt32(136, true)
 	}
 
@@ -85,7 +85,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(144, true)
 	}
 
-	public get colour_amount(): number {
+	public get colourAmount(): number {
 		return this.dataView.getInt32(152, true)
 	}
 
@@ -93,7 +93,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(160, true)
 	}
 
-	public get graphics_amount(): number {
+	public get graphicsAmount(): number {
 		return this.dataView.getInt32(168, true)
 	}
 
@@ -101,7 +101,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(176, true)
 	}
 
-	public get office_amount(): number {
+	public get officeAmount(): number {
 		return this.dataView.getInt32(184, true)
 	}
 
@@ -109,7 +109,7 @@ export class SpentOnCasino {
 		return this.dataView.getInt32(192, true)
 	}
 
-	public get preset_amount(): number {
+	public get presetAmount(): number {
 		return this.dataView.getInt32(200, true)
 	}
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PASSWORD_HASH
  *
- * 0X23473EA4
+ * 0x23473EA4
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {string}  
  */
 export function getPasswordHash(password: string): string {
-	const getPasswordHash_result = Citizen.invokeNative<string>('0X23473EA4', password);
+	const getPasswordHash_result = Citizen.invokeNative<string>('0x23473EA4', password);
 	return getPasswordHash_result;
 }

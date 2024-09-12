@@ -1,7 +1,7 @@
 /**
  * CFX:GET_HUD_COMPONENT_NAME
  *
- * 0XA91866BC
+ * 0xA91866BC
 
  * 
  * ------------------------------------------------------------------
@@ -9,6 +9,6 @@
  * @returns {string}  The hud component name.
  */
 export function getHudComponentName(id: number): string {
-	const getHudComponentName_result = Citizen.invokeNative<string>('0XA91866BC', id);
+	const getHudComponentName_result = Citizen.invokeNative<string>('0xA91866BC', id);
 	return getHudComponentName_result;
 }

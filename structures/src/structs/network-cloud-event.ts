@@ -12,7 +12,7 @@ export class NetworkCloudEvent {
 		this.dataView = dataView;
 	}
 
-	public get nEventID(): ECloudEventId {
+	public get nEventId(): ECloudEventId {
 		return this.dataView.getInt32(0, true) as ECloudEventId
 	}
 

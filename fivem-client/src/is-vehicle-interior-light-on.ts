@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_VEHICLE_INTERIOR_LIGHT_ON
  *
- * 0XA411F72C
+ * 0xA411F72C
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isVehicleInteriorLightOn(vehicle: VehicleIndex): boolean {
-	const isVehicleInteriorLightOn_result = Citizen.invokeNative<boolean>('0XA411F72C', vehicle);
+	const isVehicleInteriorLightOn_result = Citizen.invokeNative<boolean>('0xA411F72C', vehicle);
 	return isVehicleInteriorLightOn_result;
 }

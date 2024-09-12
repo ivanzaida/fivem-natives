@@ -3,7 +3,7 @@ import { PedIndex } from '@ivanzaida/structures'
 /**
  * CFX:IS_PED_USING_ACTION_MODE
  *
- * 0X5AE7EDA2
+ * 0x5AE7EDA2
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { PedIndex } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function isPedUsingActionMode(ped: PedIndex): boolean {
-	const isPedUsingActionMode_result = Citizen.invokeNative<boolean>('0X5AE7EDA2', ped);
+	const isPedUsingActionMode_result = Citizen.invokeNative<boolean>('0x5AE7EDA2', ped);
 	return isPedUsingActionMode_result;
 }

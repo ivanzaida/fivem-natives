@@ -3,7 +3,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_PLAYER_WANTED_LEVEL
  *
- * 0XB7A0914B
+ * 0xB7A0914B
 
  * The wanted level change will not take place for 10 seconds or su (emulating the time it takes a citizen to report the crime) unless SET_PLAYER_WANTED_LEVEL_NOW is called immediately after
  * Call SET_PLAYER_WANTED_LEVEL_NOW for immediate effect
@@ -16,6 +16,6 @@ import { PlayerIndex } from '@ivanzaida/structures'
  * @param {boolean} delayLawResponse
  */
 export function setPlayerWantedLevel(player: PlayerIndex, wantedLevel: number, delayLawResponse: boolean = false): void {
-	const setPlayerWantedLevel_result = Citizen.invokeNative<void>('0XB7A0914B', player, wantedLevel, delayLawResponse);
+	const setPlayerWantedLevel_result = Citizen.invokeNative<void>('0xB7A0914B', player, wantedLevel, delayLawResponse);
 	return setPlayerWantedLevel_result;
 }

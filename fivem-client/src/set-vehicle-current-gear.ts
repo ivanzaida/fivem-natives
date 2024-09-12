@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_CURRENT_GEAR
  *
- * 0X8923DD42
+ * 0x8923DD42
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} gear The gear you want the vehicle to use.
  */
 export function setVehicleCurrentGear(vehicle: VehicleIndex, gear: number): void {
-	const setVehicleCurrentGear_result = Citizen.invokeNative<void>('0X8923DD42', vehicle, gear);
+	const setVehicleCurrentGear_result = Citizen.invokeNative<void>('0x8923DD42', vehicle, gear);
 	return setVehicleCurrentGear_result;
 }

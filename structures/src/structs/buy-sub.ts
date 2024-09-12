@@ -9,7 +9,7 @@ export class BuySub {
 		this.dataView = dataView;
 	}
 
-	public get submarine_amount(): number {
+	public get submarineAmount(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
@@ -17,7 +17,7 @@ export class BuySub {
 		return this.dataView.getInt32(8, true)
 	}
 
-	public get color_amount(): number {
+	public get colorAmount(): number {
 		return this.dataView.getInt32(16, true)
 	}
 
@@ -25,19 +25,19 @@ export class BuySub {
 		return this.dataView.getInt32(24, true)
 	}
 
-	public get flag_amount(): number {
+	public get flagAmount(): number {
 		return this.dataView.getInt32(32, true)
 	}
 
-	public get anti_aircraft_amount(): number {
+	public get antiAircraftAmount(): number {
 		return this.dataView.getInt32(40, true)
 	}
 
-	public get missile_station(): number {
+	public get missileStation(): number {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get missile_station_amount(): number {
+	public get missileStationAmount(): number {
 		return this.dataView.getInt32(56, true)
 	}
 
@@ -45,15 +45,15 @@ export class BuySub {
 		return this.dataView.getInt32(64, true)
 	}
 
-	public get sonar_amount(): number {
+	public get sonarAmount(): number {
 		return this.dataView.getInt32(72, true)
 	}
 
-	public get weapon_workshop(): number {
+	public get weaponWorkshop(): number {
 		return this.dataView.getInt32(80, true)
 	}
 
-	public get weapon_workshop_amount(): number {
+	public get weaponWorkshopAmount(): number {
 		return this.dataView.getInt32(88, true)
 	}
 
@@ -61,7 +61,7 @@ export class BuySub {
 		return this.dataView.getInt32(96, true)
 	}
 
-	public get avisa_pool_amount(): number {
+	public get avisaPoolAmount(): number {
 		return this.dataView.getInt32(104, true)
 	}
 
@@ -69,7 +69,7 @@ export class BuySub {
 		return this.dataView.getInt32(112, true)
 	}
 
-	public get seasparrow_pool_amount(): number {
+	public get seasparrowPoolAmount(): number {
 		return this.dataView.getInt32(120, true)
 	}
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:MUMBLE_DOES_CHANNEL_EXIST
  *
- * 0XCC8CA25
+ * 0xCC8CA25
 
  * Check whether specified channel exists on the Mumble server.
  * 
@@ -10,6 +10,6 @@
  * @returns {boolean}  True if the specific channel exists. False otherwise.
  */
 export function mumbleDoesChannelExist(channel: number): boolean {
-	const mumbleDoesChannelExist_result = Citizen.invokeNative<boolean>('0XCC8CA25', channel);
+	const mumbleDoesChannelExist_result = Citizen.invokeNative<boolean>('0xCC8CA25', channel);
 	return mumbleDoesChannelExist_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:GET_PLAYER_TOKEN
  *
- * 0X54C06897
+ * 0x54C06897
 
  * Gets a player's token. Tokens can be used to enhance banning logic, however are specific to a server.
  * 
@@ -11,6 +11,6 @@
  * @returns {string}  A token value.
  */
 export function getPlayerToken(playerSrc: string, index: number): string {
-	const getPlayerToken_result = Citizen.invokeNative<string>('0X54C06897', playerSrc, index);
+	const getPlayerToken_result = Citizen.invokeNative<string>('0x54C06897', playerSrc, index);
 	return getPlayerToken_result;
 }

@@ -13,7 +13,7 @@ export class NetworkRosChanged {
 		return this.dataView.getInt8(0) === 1;
 	}
 
-	public get validRockstarID(): boolean {
+	public get validRockstarId(): boolean {
 		return this.dataView.getInt8(8) === 1;
 	}
 }

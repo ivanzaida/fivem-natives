@@ -1,7 +1,7 @@
 /**
  * CFX:SET_INTERIOR_ROOM_FLAG
  *
- * 0X5518D60B
+ * 0x5518D60B
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @param {number} flag New flag value.
  */
 export function setInteriorRoomFlag(interiorId: number, roomIndex: number, flag: number): void {
-	const setInteriorRoomFlag_result = Citizen.invokeNative<void>('0X5518D60B', interiorId, roomIndex, flag);
+	const setInteriorRoomFlag_result = Citizen.invokeNative<void>('0x5518D60B', interiorId, roomIndex, flag);
 	return setInteriorRoomFlag_result;
 }

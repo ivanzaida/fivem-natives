@@ -3,7 +3,7 @@ import { IntRef } from '@ivanzaida/structures'
 /**
  * CFX:FIND_NEXT_VEHICLE
  *
- * 0X8839120D
+ * 0x8839120D
 
  * 
  * ------------------------------------------------------------------
@@ -12,6 +12,6 @@ import { IntRef } from '@ivanzaida/structures'
  * @returns {boolean}  
  */
 export function findNextVehicle(findHandle: number, outEntity: IntRef /* ptr */): boolean {
-	const findNextVehicle_result = Citizen.invokeNative<boolean>('0X8839120D', findHandle, outEntity.dataView);
+	const findNextVehicle_result = Citizen.invokeNative<boolean>('0x8839120D', findHandle, outEntity.dataView);
 	return findNextVehicle_result;
 }

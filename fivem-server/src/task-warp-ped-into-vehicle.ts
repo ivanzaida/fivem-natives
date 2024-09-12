@@ -3,7 +3,7 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
 /**
  * CFX:TASK_WARP_PED_INTO_VEHICLE
  *
- * 0X65D4A35D
+ * 0x65D4A35D
 
  * Seat Numbers
  * -------------------------------
@@ -20,6 +20,6 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * @param {EVehicleSeat} seat
  */
 export function taskWarpPedIntoVehicle(ped: PedIndex, vehicle: VehicleIndex, seat: EVehicleSeat | number = 1): void {
-	const taskWarpPedIntoVehicle_result = Citizen.invokeNative<void>('0X65D4A35D', ped, vehicle, seat);
+	const taskWarpPedIntoVehicle_result = Citizen.invokeNative<void>('0x65D4A35D', ped, vehicle, seat);
 	return taskWarpPedIntoVehicle_result;
 }

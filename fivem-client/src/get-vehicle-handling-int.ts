@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_HANDLING_INT
  *
- * 0X27396C75
+ * 0x27396C75
 
  * Returns the effective handling data of a vehicle as an integer value.Example: `local modelFlags = GetVehicleHandlingInt(vehicle, 'CHandlingData', 'strModelFlags')`
  * 
@@ -14,6 +14,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  An integer.
  */
 export function getVehicleHandlingInt(vehicle: VehicleIndex, class_: string, fieldName: string): number {
-	const getVehicleHandlingInt_result = Citizen.invokeNative<number>('0X27396C75', vehicle, class_, fieldName);
+	const getVehicleHandlingInt_result = Citizen.invokeNative<number>('0x27396C75', vehicle, class_, fieldName);
 	return getVehicleHandlingInt_result;
 }

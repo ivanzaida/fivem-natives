@@ -36,11 +36,11 @@ export class InviteEvent {
 		return this.dataView.getInt32(136, true)
 	}
 
-	public get activityID(): number {
+	public get activityId(): number {
 		return this.dataView.getInt32(144, true)
 	}
 
-	public get isSCTV(): boolean {
+	public get isSctv(): boolean {
 		return this.dataView.getInt8(152) === 1;
 	}
 

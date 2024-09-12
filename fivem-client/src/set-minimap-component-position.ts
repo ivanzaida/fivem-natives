@@ -1,7 +1,7 @@
 /**
  * CFX:SET_MINIMAP_COMPONENT_POSITION
  *
- * 0X3E882B23
+ * 0x3E882B23
 
  * Overrides the minimap component data (from `common:/data/ui/frontend.xml`) for a specified component.
  * 
@@ -15,6 +15,6 @@
  * @param {number} sizeY Equivalent to the sizeY field in frontend.xml.
  */
 export function setMinimapComponentPosition(name: string, alignX: string, alignY: string, posX: number, posY: number, sizeX: number, sizeY: number): void {
-	const setMinimapComponentPosition_result = Citizen.invokeNative<void>('0X3E882B23', name, alignX, alignY, posX, posY, sizeX, sizeY);
+	const setMinimapComponentPosition_result = Citizen.invokeNative<void>('0x3E882B23', name, alignX, alignY, posX, posY, sizeX, sizeY);
 	return setMinimapComponentPosition_result;
 }

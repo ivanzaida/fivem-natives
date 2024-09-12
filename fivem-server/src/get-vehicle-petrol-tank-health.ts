@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_PETROL_TANK_HEALTH
  *
- * 0XE41595CE
+ * 0xE41595CE
 
  * 1000.0 = full,  0.0 = go on fire,  -1000.0 = burnt out
  * Petrol tank "will" explode when health reaches -1000.0
@@ -17,6 +17,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehiclePetrolTankHealth(vehicle: VehicleIndex): number {
-	const getVehiclePetrolTankHealth_result = Citizen.invokeNative<number>('0XE41595CE', vehicle);
+	const getVehiclePetrolTankHealth_result = Citizen.invokeNative<number>('0xE41595CE', vehicle);
 	return getVehiclePetrolTankHealth_result;
 }

@@ -3,7 +3,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_VEHICLE_HIGH_GEAR
  *
- * 0XF1D1D689
+ * 0xF1D1D689
 
  * 
  * ------------------------------------------------------------------
@@ -11,6 +11,6 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getVehicleHighGear(vehicle: VehicleIndex): number {
-	const getVehicleHighGear_result = Citizen.invokeNative<number>('0XF1D1D689', vehicle);
+	const getVehicleHighGear_result = Citizen.invokeNative<number>('0xF1D1D689', vehicle);
 	return getVehicleHighGear_result;
 }

@@ -1,7 +1,7 @@
 /**
  * CFX:IS_PRINCIPAL_ACE_ALLOWED
  *
- * 0X37CF52CE
+ * 0x37CF52CE
 
  * 
  * ------------------------------------------------------------------
@@ -10,6 +10,6 @@
  * @returns {boolean}  
  */
 export function isPrincipalAceAllowed(principal: string, object: string): boolean {
-	const isPrincipalAceAllowed_result = Citizen.invokeNative<boolean>('0X37CF52CE', principal, object);
+	const isPrincipalAceAllowed_result = Citizen.invokeNative<boolean>('0x37CF52CE', principal, object);
 	return isPrincipalAceAllowed_result;
 }

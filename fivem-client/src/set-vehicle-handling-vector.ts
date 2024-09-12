@@ -3,7 +3,7 @@ import { VehicleIndex, Vector3Ref } from '@ivanzaida/structures'
 /**
  * CFX:SET_VEHICLE_HANDLING_VECTOR
  *
- * 0X12497890
+ * 0x12497890
 
  * Sets a handling override for a specific vehicle. Certain handling flags can only be set globally using `SET_HANDLING_VECTOR`, this might require some experimentation.
  * 
@@ -14,6 +14,6 @@ import { VehicleIndex, Vector3Ref } from '@ivanzaida/structures'
  * @param {Vector3Ref} value The Vector3 value to set.
  */
 export function setVehicleHandlingVector(vehicle: VehicleIndex, class_: string, fieldName: string, value: Vector3Ref): void {
-	const setVehicleHandlingVector_result = Citizen.invokeNative<void>('0X12497890', vehicle, class_, fieldName, value);
+	const setVehicleHandlingVector_result = Citizen.invokeNative<void>('0x12497890', vehicle, class_, fieldName, value);
 	return setVehicleHandlingVector_result;
 }

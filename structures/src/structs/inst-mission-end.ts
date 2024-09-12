@@ -11,7 +11,7 @@ export class InstMissionEnd {
 		this.dataView = dataView;
 	}
 
-	public get groupID(): number {
+	public get groupId(): number {
 		return this.dataView.getInt32(0, true)
 	}
 
@@ -23,7 +23,7 @@ export class InstMissionEnd {
 		return this.dataView.getInt32(16, true)
 	}
 
-	public get sessionID(): number {
+	public get sessionId(): number {
 		return this.dataView.getInt32(24, true)
 	}
 
@@ -39,7 +39,7 @@ export class InstMissionEnd {
 		return this.dataView.getInt32(48, true)
 	}
 
-	public get publicContentID(): string {
+	public get publicContentId(): string {
 		return new StringRef(new DataView(this.dataView.buffer.slice(56, 31))).value
 	}
 

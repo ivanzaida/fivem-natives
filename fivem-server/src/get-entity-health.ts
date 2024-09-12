@@ -3,7 +3,7 @@ import { EntityIndex } from '@ivanzaida/structures'
 /**
  * CFX:GET_ENTITY_HEALTH
  *
- * 0X8E3222B7
+ * 0x8E3222B7
 
  * Returns an integer value of entity's current health.
  * Example of range for ped:
@@ -20,6 +20,6 @@ import { EntityIndex } from '@ivanzaida/structures'
  * @returns {number}  
  */
 export function getEntityHealth(entity: EntityIndex): number {
-	const getEntityHealth_result = Citizen.invokeNative<number>('0X8E3222B7', entity);
+	const getEntityHealth_result = Citizen.invokeNative<number>('0x8E3222B7', entity);
 	return getEntityHealth_result;
 }

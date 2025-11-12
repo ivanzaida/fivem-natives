@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x6F3AF5B029E1AD6C
 
- * Sets whether weapon impacts apply a greater force to this object
+ * 
+ * Sets whether weapon impacts apply a greater force to this object
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

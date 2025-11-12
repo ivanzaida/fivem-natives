@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x9E132DB7E05C6EAB
 
- * This is the proper way of attaching vehicles to the car carrier, it's what Rockstar uses. Video Demo: https://www.youtube.com/watch?v=2lVEIzf7bgo
+ * 
+ * This is the proper way of attaching vehicles to the car carrier, it's what Rockstar uses. Video Demo: https://www.youtube.com/watch?v=2lVEIzf7bgo
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

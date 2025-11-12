@@ -3,9 +3,11 @@
  *
  * 0xFFEB5F24B372DFF6
 
- * Returns true if path nodes are loaded for the region specified
+ * 
+ * Returns true if path nodes are loaded for the region specified
  * Unlike LOAD_ALL_PATH_NODES(), we don't return a bool for the initial request,
  * so use this function to query if the nodes you want are loaded
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

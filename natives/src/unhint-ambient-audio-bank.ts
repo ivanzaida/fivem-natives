@@ -3,7 +3,9 @@
  *
  * 0x3A2C09DEA2F7A5FB
 
- * This is a legacy function: please use UNHINT_SCRIPT_AUDIO_BANK instead
+ * 
+ * This is a legacy function: please use UNHINT_SCRIPT_AUDIO_BANK instead
+ * 
  * 
  * ------------------------------------------------------------------
  */

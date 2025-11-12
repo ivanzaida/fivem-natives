@@ -3,8 +3,11 @@
  *
  * 0x0DAFB2A5B123922B
 
- * Switch to extra set of pin radiuses
+ * 
+ * Switch to extra set of pin radiuses
+ * 
  * Every occurrence was either 0 or 2.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pkg

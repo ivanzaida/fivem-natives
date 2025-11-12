@@ -3,7 +3,9 @@
  *
  * 0xEB205B72FDDFDFC6
 
- * Disables the player's teleportation
+ * 
+ * Disables the player's teleportation
+ * 
  * 
  * ------------------------------------------------------------------
  */

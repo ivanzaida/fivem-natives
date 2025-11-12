@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x288AD228
 
- * Check if Vehicle Secondary is avaliable for customize
+ * 
+ * Check if Vehicle Secondary is avaliable for customize
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

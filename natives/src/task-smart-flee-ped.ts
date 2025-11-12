@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD844F5E50DAB6FF7
 
- * Makes a ped run away from another ped (fleeTarget).
+ * 
+ * Makes a ped run away from another ped (fleeTarget).
+ * 
  * distance = ped will flee this distance.
  * fleeTime = ped will flee for this amount of time, set to "-1" to flee forever
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

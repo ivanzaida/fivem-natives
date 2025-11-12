@@ -3,7 +3,9 @@
  *
  * 0x0000000050597EE2
 
- * Gets the current frame time.
+ * 
+ * Gets the current frame time.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

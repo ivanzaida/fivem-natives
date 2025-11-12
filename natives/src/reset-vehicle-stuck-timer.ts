@@ -5,7 +5,9 @@ import { VehicleIndex, EEVehStuckTypes } from '@ivanzaida/structures'
  *
  * 0x3CA4868519920C8D
 
- * The inner function has a switch on the second parameter. It's the stuck timer index.
+ * 
+ * The inner function has a switch on the second parameter. It's the stuck timer index.
+ * 
  * Here's some pseudo code I wrote for the inner function:
  * void __fastcall NATIVE_RESET_VEHICLE_STUCK_TIMER_INNER(CUnknown unknownClassInVehicle, int timerIndex)
  * {
@@ -27,6 +29,7 @@ import { VehicleIndex, EEVehStuckTypes } from '@ivanzaida/structures'
  *         break;
  *     };
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

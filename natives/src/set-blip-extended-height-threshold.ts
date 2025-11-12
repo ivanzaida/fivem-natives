@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xC4F090C2EC0D0FBF
 
- * Must be toggled before being queued for animation
+ * 
+ * Must be toggled before being queued for animation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

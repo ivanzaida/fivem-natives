@@ -5,11 +5,14 @@ import { EControlType } from '@ivanzaida/structures'
  *
  * 0x97A041099E92C69F
 
- * control: see IS_CONTROL_ENABLED
+ * 
+ * control: see IS_CONTROL_ENABLED
  * duration in milliseconds
  * frequency should range from about 10 (slow vibration) to 255 (very fast)
+ * 
  * example:
  * SET_CONTROL_SHAKE(PLAYER_CONTROL, 100, 200);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

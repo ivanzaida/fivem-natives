@@ -6,12 +6,14 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0xDB947915FA4FB5D5
 
- * enum eScriptWaterTestResult
+ * 
+ * enum eScriptWaterTestResult
  * {
  * 	SCRIPT_WATER_TEST_RESULT_NONE,
  * 	SCRIPT_WATER_TEST_RESULT_WATER,
  * 	SCRIPT_WATER_TEST_RESULT_BLOCKED,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startPosX

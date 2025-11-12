@@ -5,7 +5,9 @@ import { PedIndex, EPedType } from '@ivanzaida/structures'
  *
  * 0x0DFE7358172FC006
 
- * https://alloc8or.re/gta5/doc/enums/ePedType.txt
+ * 
+ * https://alloc8or.re/gta5/doc/enums/ePedType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

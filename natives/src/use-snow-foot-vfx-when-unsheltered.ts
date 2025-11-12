@@ -3,7 +3,9 @@
  *
  * 0x1258AD6DBC2FBAE1
 
- * Forces footstep tracks on all surfaces.
+ * 
+ * Forces footstep tracks on all surfaces.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xBB7E639305F91EF7
 
- * Will return false if the player does not have a vehicle weapon selected, or the weapon does not have the ability to be homing toggled.
+ * 
+ * Will return false if the player does not have a vehicle weapon selected, or the weapon does not have the ability to be homing toggled.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

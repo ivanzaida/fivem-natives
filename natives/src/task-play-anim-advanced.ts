@@ -5,9 +5,13 @@ import { PedIndex, EAnimationFlags, EEulerRotOrder, EIkControlFlags } from '@iva
  *
  * 0x9F5225AA1E102B7A
 
- * As for task_play_anim, but provides the function to specify an inital position and rotation to playback the anim from
+ * 
+ * As for task_play_anim, but provides the function to specify an inital position and rotation to playback the anim from
+ * 
  * It's similar to TASK_PLAY_ANIM, except the first 6 floats let you specify the initial position and rotation of the task. (Ped gets teleported to the position).
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

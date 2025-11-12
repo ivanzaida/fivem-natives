@@ -3,8 +3,10 @@
  *
  * 0x3AABE0CD8115D72E
 
- * Force the RageSec plugin to check the integrity of all script variables registered
+ * 
+ * Force the RageSec plugin to check the integrity of all script variables registered
  * for protection.
+ * 
  * 
  * ------------------------------------------------------------------
  */

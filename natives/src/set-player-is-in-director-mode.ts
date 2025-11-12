@@ -3,8 +3,10 @@
  *
  * 0x8BF557F9256B2A6E
 
- * If toggle is true, hides special ability bar / character name in the pause menu
+ * 
+ * If toggle is true, hides special ability bar / character name in the pause menu
  * If toggle is false, shows special ability bar / character name in the pause menu
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} isInDirectorMode

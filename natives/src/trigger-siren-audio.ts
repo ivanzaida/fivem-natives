@@ -5,9 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xE868283F11B10F97
 
- * Actually sets the siren audio active. If attempting to enable a siren on a driverless vehicle,
+ * 
+ * Actually sets the siren audio active. If attempting to enable a siren on a driverless vehicle,
  * you may need to use this to kick off the actual sound (generally we only trigger the audio if
  * a driver is in the vehicle)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

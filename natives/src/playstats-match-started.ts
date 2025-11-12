@@ -5,9 +5,11 @@ import { MatchStartInfo } from '@ivanzaida/structures'
  *
  * 0x6DA5DF2F00E56237
 
- * Tells the PlayStats that a match has started.
+ * 
+ * Tells the PlayStats that a match has started.
  * The host needs to call PLAYSTATS_CREATE_MATCH_HISTORY_ID and share the values
  * of matchHistoryIdA & matchHistoryIdB among all match participants.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} matchCreator

@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x4CBC5D1BC117616B
 
- * Set camera as active/inactive.
+ * 
+ * Set camera as active/inactive.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

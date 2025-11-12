@@ -3,7 +3,9 @@
  *
  * 0x3D88441D252699DF
 
- * Shows a menu for reporting UGC content.
+ * 
+ * Shows a menu for reporting UGC content.
+ * 
  * 
  * ------------------------------------------------------------------
  */

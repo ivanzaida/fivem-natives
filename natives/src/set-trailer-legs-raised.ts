@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x632030977D1CE430
 
- * in the decompiled scripts, seems to be always called on the vehicle right after being attached to a trailer.
+ * 
+ * in the decompiled scripts, seems to be always called on the vehicle right after being attached to a trailer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} trailer

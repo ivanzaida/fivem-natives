@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x94A68DA412C4007D
 
- * Stops the cargobob from being able to attach any vehicle
+ * 
+ * Stops the cargobob from being able to attach any vehicle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

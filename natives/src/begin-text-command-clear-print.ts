@@ -3,7 +3,9 @@
  *
  * 0x7C59282918D59E1B
 
- * clears a print text command with this text
+ * 
+ * clears a print text command with this text
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mainTextLabel

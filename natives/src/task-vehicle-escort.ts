@@ -5,9 +5,13 @@ import { PedIndex, VehicleIndex, EntityIndex, EVehicleEscortType, EDrivingmode }
  *
  * 0x6AA87C4ADF4A6BFF
 
- * Tells a vehicle to escort another entity.
+ * 
+ * Tells a vehicle to escort another entity.
+ * 
  * Makes a ped follow the targetVehicle with <minDistance> in between.
+ * 
  * note: minDistance is ignored if drivingstyle is avoiding traffic, but Rushed is fine.
+ * 
  * Mode: The mode defines the relative position to the targetVehicle. The ped will try to position its vehicle there.
  * -1 = behind
  * 0 = ahead
@@ -15,8 +19,11 @@ import { PedIndex, VehicleIndex, EntityIndex, EVehicleEscortType, EDrivingmode }
  * 2 = right
  * 3 = back left
  * 4 = back right
+ * 
  * if the target is closer than noRoadsDistance, the driver will ignore pathing/roads and follow you directly.
+ * 
  * Driving Styles guide: gtaforums.com/topic/822314-guide-driving-styles/
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

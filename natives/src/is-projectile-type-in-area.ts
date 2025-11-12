@@ -5,7 +5,9 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0x7A082DC02E5E00C1
 
- * Determines whether there is a projectile of a specific type within the specified coordinates. The coordinates form a axis-aligned bounding box.
+ * 
+ * Determines whether there is a projectile of a specific type within the specified coordinates. The coordinates form a axis-aligned bounding box.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minCoorsX

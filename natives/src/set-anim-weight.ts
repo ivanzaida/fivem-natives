@@ -5,7 +5,9 @@ import { EntityIndex, EAnimPriorityFlags } from '@ivanzaida/structures'
  *
  * 0xD395C44C3F7C3BB4
 
- * Sets the blend weight of a clip playing on the scripted anim task,
+ * 
+ * Sets the blend weight of a clip playing on the scripted anim task,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

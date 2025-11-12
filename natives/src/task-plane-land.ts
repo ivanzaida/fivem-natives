@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6F09ACD24CD7E2D1
 
- * Tells a ped in a plane to land
+ * 
+ * Tells a ped in a plane to land
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x2A09425009DAD0F5
 
- * Possible shake types (updated b617d):
+ * 
+ * Possible shake types (updated b617d):
+ * 
  * DEATH_FAIL_IN_EFFECT_SHAKE
  * DRUNK_SHAKE
  * FAMILY5_DRUG_TRIP_SHAKE
@@ -17,7 +19,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  * ROAD_VIBRATION_SHAKE
  * SKY_DIVING_SHAKE
  * VIBRATE_SHAKE
+ * 
  * Full list of cam shake types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

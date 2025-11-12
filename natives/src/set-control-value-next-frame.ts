@@ -5,9 +5,12 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x11E5CA6A9B6D7D2A
 
- * This is for simulating player input.
+ * 
+ * This is for simulating player input.
  * value is a float value from 0 - 1
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x92DF696E2104166F
 
- * The anim set hash is a hash of the name of the actual anim set to use
+ * 
+ * The anim set hash is a hash of the name of the actual anim set to use
  * The animSetVariableHash is the has of the name of the variable anim set you are setting, and should start with a $ symbol
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

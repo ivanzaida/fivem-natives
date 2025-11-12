@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xD935AEB5CFA7FA1B
 
- * Returns true if the joint in the object is at its minimum angle
+ * 
+ * Returns true if the joint in the object is at its minimum angle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

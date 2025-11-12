@@ -3,9 +3,12 @@
  *
  * 0x6850C7B3D44B92DA
 
- * Once custom GPS route is defined (by whatever means) this sets it to render, or turns it off
+ * 
+ * Once custom GPS route is defined (by whatever means) this sets it to render, or turns it off
+ * 
  * radarThickness: The width of the GPS route on the radar
  * mapThickness: The width of the GPS route on the map
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} on

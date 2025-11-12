@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x97FBC735CAFB56C8
 
- * i could be time. Only example in the decompiled scripts uses it as -1.
+ * 
+ * i could be time. Only example in the decompiled scripts uses it as -1.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

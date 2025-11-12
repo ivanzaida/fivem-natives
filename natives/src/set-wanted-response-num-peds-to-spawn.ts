@@ -5,7 +5,9 @@ import { EDispatchType } from '@ivanzaida/structures'
  *
  * 0x5844B0328AB76BBF
 
- * Sets the number of peds to spawn for the wanted response.
+ * 
+ * Sets the number of peds to spawn for the wanted response.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EDispatchType} dispatchType

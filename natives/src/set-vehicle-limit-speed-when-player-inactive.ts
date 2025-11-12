@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x3F413690B5A371F4
 
- * Sets whether a player controlled vehicle will limit it's speed when the
+ * 
+ * Sets whether a player controlled vehicle will limit it's speed when the
  * player's control is disabled (used in cutscenes etc).  Default is to limit
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

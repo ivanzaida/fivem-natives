@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex, EVehicleMission, EDrivingmode } from '@ivanzaid
  *
  * 0xB3DA477F44309390
 
- * missionType: https://alloc8or.re/gta5/doc/enums/eVehicleMissionType.txt
+ * 
+ * missionType: https://alloc8or.re/gta5/doc/enums/eVehicleMissionType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

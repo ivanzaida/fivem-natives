@@ -5,7 +5,9 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x6A3837CF4CF46A9D
 
- * This function gets the tint index of the parachute for the player
+ * 
+ * This function gets the tint index of the parachute for the player
+ * 
  * Tints:
  *   None = -1,
  *     Rainbow = 0,
@@ -22,6 +24,7 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *   HighAltitude = 11,
  *     Airbone = 12,
  *  Sunrise = 13,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,9 @@ import { CameraIndex, PedIndex, EPedBonetag } from '@ivanzaida/structures'
  *
  * 0xA327B87671869834
 
- * Parameters p0-p5 seems correct. The bool p6 is unknown, but through every X360 script it's always 1. Please correct p0-p5 if any prove to be wrong.
+ * 
+ * Parameters p0-p5 seems correct. The bool p6 is unknown, but through every X360 script it's always 1. Please correct p0-p5 if any prove to be wrong.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

@@ -5,9 +5,11 @@ import { PedIndex, EWeaponType, EAmmoType } from '@ivanzaida/structures'
  *
  * 0x1820CC8352D1B6EE
 
- * Returns the base/default ammo type of the specified ped's specified weapon.
+ * 
+ * Returns the base/default ammo type of the specified ped's specified weapon.
  * Use GET_PED_AMMO_TYPE_FROM_WEAPON if you want current ammo type (like AMMO_MG_INCENDIARY/AMMO_MG_TRACER while using MkII magazines) and use this if you want base ammo type. (AMMO_MG)
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

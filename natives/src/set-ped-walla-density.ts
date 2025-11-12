@@ -3,8 +3,10 @@
  *
  * 0x30CC8BA35211A422
 
- * density -> Desired walla density
+ * 
+ * density -> Desired walla density
  * applyValue ->  How much the desired density affects the actual one.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} density

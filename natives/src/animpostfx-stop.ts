@@ -3,8 +3,11 @@
  *
  * 0x21172E4DF035B893
 
- * See ANIMPOSTFX_PLAY
+ * 
+ * See ANIMPOSTFX_PLAY
+ * 
  * Full list of animpostFX / screen effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animPostFxNamesCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} effectName

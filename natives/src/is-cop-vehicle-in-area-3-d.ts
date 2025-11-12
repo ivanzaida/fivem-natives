@@ -3,11 +3,14 @@
  *
  * 0x00CC36CA06DD06AD
 
- * Usage:
+ * 
+ * Usage:
+ * 
  * public bool isCopInRange(Vector3 Location, float Range)
  *         {
  *             return Function.Call<bool>(Hash.IS_COP_PED_IN_AREA_3D, Location.X - Range, Location.Y - Range, Location.Z - Range, Location.X + Range, Location.Y + Range, Location.Z + Range);
  *         }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} firstCoorsX

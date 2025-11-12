@@ -5,7 +5,8 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x829F2E2
 
- * ComponentId can be set to various things based on what category you're wanting to set
+ * 
+ * ComponentId can be set to various things based on what category you're wanting to set
  * enum PedPropsData
  * {
  *     PED_PROP_HATS = 0,
@@ -14,6 +15,7 @@ import { PedIndex } from '@ivanzaida/structures'
  *     PED_PROP_WATCHES = 3,
  * };
  * Usage: SET_PED_PROP_INDEX(playerPed, PED_PROP_HATS, GET_NUMBER_OF_PED_PROP_DRAWABLE_VARIATIONS(playerPed, PED_PROP_HATS), GET_NUMBER_OF_PED_PROP_TEXTURE_VARIATIONS(playerPed, PED_PROP_HATS, 0), TRUE);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The ped handle.

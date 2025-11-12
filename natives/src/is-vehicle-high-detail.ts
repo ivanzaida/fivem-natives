@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB3F63B683EB1995A
 
- * Used primarily for cut scenes
+ * 
+ * Used primarily for cut scenes
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,7 +3,9 @@
  *
  * 0x6E2FA5434737D22F
 
- * Hardcoded to not work in SP.
+ * 
+ * Hardcoded to not work in SP.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} fadeOut

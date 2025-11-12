@@ -5,9 +5,11 @@ import { CameraIndex, ECamSplineNodeFlags } from '@ivanzaida/structures'
  *
  * 0xF5317F0839442D94
 
- * p0 is the spline camera to which the node is being added.
+ * 
+ * p0 is the spline camera to which the node is being added.
  * p1 is the camera used to create the node.
  * p3 is always 3 in scripts. It might be smoothing style or rotation order.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

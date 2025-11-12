@@ -5,7 +5,9 @@ import { EntityIndex, ModelNames } from '@ivanzaida/structures'
  *
  * 0xDAFCB3EC
 
- * Returns the model hash from the entity
+ * 
+ * Returns the model hash from the entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

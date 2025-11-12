@@ -3,9 +3,11 @@
  *
  * 0x9091BFD6A05E20ED
 
- * overrides the LOD scale. for example if you have specific camera FOV behaviour that result
+ * 
+ * overrides the LOD scale. for example if you have specific camera FOV behaviour that result
  * in a LOD scale between fOldMin and fOldMax, we take the camera-fov-desired LOD scale and instead calculate
  * a new LOD scale in the range fNewMin to fNewMax.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} oldMin

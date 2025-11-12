@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x3423BC61BC6BD401
 
- * Sets a flag on heli and another vehicle type.
+ * 
+ * Sets a flag on heli and another vehicle type.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

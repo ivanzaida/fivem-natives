@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x1F6D8B404B68A2BC
 
- * Indicate that an entity is inside an object, to avoid it being affect by puddles.
+ * 
+ * Indicate that an entity is inside an object, to avoid it being affect by puddles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

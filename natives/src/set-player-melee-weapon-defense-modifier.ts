@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xECD5F8110C183253
 
- * This function will change the given players defense multiplier against melee damage
+ * 
+ * This function will change the given players defense multiplier against melee damage
+ * 
  * modifier's min value is 0.1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

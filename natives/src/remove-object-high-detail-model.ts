@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xCF9F92EF5A069BD4
 
- * This is used primarliy in cutscenes
+ * 
+ * This is used primarliy in cutscenes
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

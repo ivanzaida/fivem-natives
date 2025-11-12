@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xBD1B952A9BBB567F
 
- * Use to reset the start time of a Natural Motion task. For specific scenarios where timeout (and return to animation) must
+ * 
+ * Use to reset the start time of a Natural Motion task. For specific scenarios where timeout (and return to animation) must
  * be avoided, call this every frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

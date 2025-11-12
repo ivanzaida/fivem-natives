@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x66D6CECFEEC87130
 
- * Removes a previously created persistent force-to-object effect on map, if one exists and matches exactly
+ * 
+ * Removes a previously created persistent force-to-object effect on map, if one exists and matches exactly
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

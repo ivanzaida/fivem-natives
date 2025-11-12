@@ -5,9 +5,12 @@ import { EntityIndex, ShapetestIndex } from '@ivanzaida/structures'
  *
  * 0x14C30F326F5883DA
 
- * Returns SHAPETEST_INDEX of 0 if it fails to create the shapetest request (there is a limit to the number that can be in the system)
+ * 
+ * Returns SHAPETEST_INDEX of 0 if it fails to create the shapetest request (there is a limit to the number that can be in the system)
  * WARNING  THIS COMMAND IS MUCH MORE EXPENSIVE THAN USING THE ASYNCHRONOUS VERSION (START_SHAPE_TEST_LOS_PROBE). PLEASE TRY THAT FIRST!
+ * 
  * Does the same as 0x7EE9F5D83DD4F90E, except blocking until the shape test completes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startPosX

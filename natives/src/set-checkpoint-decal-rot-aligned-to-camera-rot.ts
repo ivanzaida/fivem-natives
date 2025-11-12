@@ -5,7 +5,9 @@ import { CheckpointIndex } from '@ivanzaida/structures'
  *
  * 0x6F331FADCE88574B
 
- * Unknown. Called after creating a checkpoint (type: 51) in the creators.
+ * 
+ * Unknown. Called after creating a checkpoint (type: 51) in the creators.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CheckpointIndex} uniqueCheckpoint

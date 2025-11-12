@@ -5,8 +5,11 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x4AAE7492E7D81A57
 
- * Seems to return values between -1 and 1 for controls like gas and steering.
+ * 
+ * Seems to return values between -1 and 1 for controls like gas and steering.
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

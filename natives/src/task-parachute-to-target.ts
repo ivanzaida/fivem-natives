@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD62DC69EB22834CE
 
- * makes ped parachute to coords x y z. Works well with PATHFIND::GET_SAFE_COORD_FOR_PED
+ * 
+ * makes ped parachute to coords x y z. Works well with PATHFIND::GET_SAFE_COORD_FOR_PED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

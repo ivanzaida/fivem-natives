@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xBB361D7264AC4FD8
 
- * Colour3 and Colour4 should be taken from the list in carcols.dat.
+ * 
+ * Colour3 and Colour4 should be taken from the list in carcols.dat.
+ * 
  * They use the same color indexs as SET_VEHICLE_COLOURS.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

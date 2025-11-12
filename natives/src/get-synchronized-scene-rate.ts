@@ -3,7 +3,9 @@
  *
  * 0x81A27DBBC2296EB2
 
- * Returns the current playback rate of the provided synchronized scene
+ * 
+ * Returns the current playback rate of the provided synchronized scene
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

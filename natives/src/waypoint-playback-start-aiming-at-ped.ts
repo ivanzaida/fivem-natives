@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x5316592ADD122C13
 
- * Starts the ped aiming at the specified ped or coordinates whilst already following a waypoint-recording
+ * 
+ * Starts the ped aiming at the specified ped or coordinates whilst already following a waypoint-recording
  * bRunAndGun - specifies whether to use "run & gun" to shoot over shoulder whilst running (ie. ped doesn't strafe)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

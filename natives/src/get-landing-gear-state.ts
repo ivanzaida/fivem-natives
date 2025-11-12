@@ -5,13 +5,17 @@ import { VehicleIndex, ELandingGearState } from '@ivanzaida/structures'
  *
  * 0x68F7F7C5DF6717F8
 
- * Landing gear states:
+ * 
+ * Landing gear states:
+ * 
  * 0: Deployed
  * 1: Closing (Retracting)
  * 2: (Landing gear state 2 is never used.)
  * 3: Opening (Deploying)
  * 4: Retracted
+ * 
  * Returns the current state of the vehicles landing gear.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

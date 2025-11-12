@@ -3,7 +3,9 @@
  *
  * 0xB0B88048B5914A7A
 
- * Returns true if profile setting 208 is equal to 0.
+ * 
+ * Returns true if profile setting 208 is equal to 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

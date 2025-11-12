@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x1BB5389ACC6BFCFC
 
- * This function will change the given players vehicle damage multiplier
+ * 
+ * This function will change the given players vehicle damage multiplier
+ * 
  * modifier's min value is 0.1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

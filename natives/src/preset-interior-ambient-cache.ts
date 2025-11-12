@@ -3,8 +3,11 @@
  *
  * 0x8CBAC8B951402F69
 
- * Only one match in the scripts:
+ * 
+ * Only one match in the scripts:
+ * 
  * GRAPHICS::PRESET_INTERIOR_AMBIENT_CACHE("int_carrier_hanger");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} modifierName

@@ -5,7 +5,9 @@ import { ScaleformIndex, EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0xCC3DB9CC9CA34EE8
 
- * movies are drawn in order, with the latest drawn on top.
+ * 
+ * movies are drawn in order, with the latest drawn on top.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

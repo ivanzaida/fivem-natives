@@ -3,7 +3,9 @@
  *
  * 0x7619E49E996C8A15
 
- * Changes the car jump control to require a double-tap to activate.
+ * 
+ * Changes the car jump control to require a double-tap to activate.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} useDoubleClick

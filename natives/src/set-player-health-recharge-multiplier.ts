@@ -5,9 +5,12 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x02DC05627BC628AF
 
- * This function alters how quicky the players health can recharge
+ * 
+ * This function alters how quicky the players health can recharge
+ * 
  * `regenRate`: The recharge multiplier, a value between 0.0 and 1.0.
  * Use 1.0 to reset it back to normal
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0xB5396F1FB088FE38
 
- * Allows a ped to perform a sequnce of tasks. Any tasks added to a sequence must take in a Null ped_index.
+ * 
+ * Allows a ped to perform a sequnce of tasks. Any tasks added to a sequence must take in a Null ped_index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} sequence [Ref]

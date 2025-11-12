@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xA612CEAF809E9032
 
- * Makes the provided entity visible for yourself for the current frame.
+ * 
+ * Makes the provided entity visible for yourself for the current frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

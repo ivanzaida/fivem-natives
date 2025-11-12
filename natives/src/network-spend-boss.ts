@@ -3,8 +3,10 @@
  *
  * 0x773A6B5BEC33A424
 
- * Pay money to the Boss
+ * 
+ * Pay money to the Boss
  * DEPRECATED !
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} bossId1

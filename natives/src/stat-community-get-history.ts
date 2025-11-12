@@ -5,8 +5,10 @@ import { EStatsenum, FloatRef } from '@ivanzaida/structures'
  *
  * 0x3BD9AF4ED006CA00
 
- * Retrieve the Community (Stock Market) stat history value with id keyHash and history depth equal to depth.
+ * 
+ * Retrieve the Community (Stock Market) stat history value with id keyHash and history depth equal to depth.
  * Maximum depth is 5.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

@@ -5,9 +5,12 @@ import { CameraIndex, EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0x5E5CEC33463AD803
 
- * Sets the rotation of the cam.
+ * 
+ * Sets the rotation of the cam.
  * Last parameter unknown.
+ * 
  * Last parameter seems to always be set to 2.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

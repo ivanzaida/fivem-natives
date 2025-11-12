@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7D6A73BC9D136D34
 
- * Use this to force the ped to use the injured on ground nm behaviour when he dies (note, a headshot will still override this currently).
+ * 
+ * Use this to force the ped to use the injured on ground nm behaviour when he dies (note, a headshot will still override this currently).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

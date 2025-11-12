@@ -3,7 +3,9 @@
  *
  * 0x68C0C5563ECBBAB6
 
- * PARAM NOTES :Default value is a 3D locate
+ * 
+ * PARAM NOTES :Default value is a 3D locate
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

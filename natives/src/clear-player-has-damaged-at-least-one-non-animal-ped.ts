@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xD6AD454C9B73DD75
 
- * Exclude the animals.
+ * 
+ * Exclude the animals.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,8 +5,10 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x44EFE8009F436110
 
- * Grabs the closest building with the specified model and sets tint index on it.
+ * 
+ * Grabs the closest building with the specified model and sets tint index on it.
  * If no object is found in the range or other error, then returns FALSE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scrVecCentreCoorsX

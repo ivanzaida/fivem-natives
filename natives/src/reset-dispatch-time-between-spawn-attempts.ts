@@ -5,7 +5,9 @@ import { EDispatchType } from '@ivanzaida/structures'
  *
  * 0x5FBC5D27DD8DFF61
 
- * Resets the time between spawn attempts for the dispatch service.
+ * 
+ * Resets the time between spawn attempts for the dispatch service.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EDispatchType} dispatchType

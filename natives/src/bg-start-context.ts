@@ -3,7 +3,9 @@
  *
  * 0x34D5EB1E6F706A50
 
- * Inserts the given context into the background scripts context map.
+ * 
+ * Inserts the given context into the background scripts context map.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} context

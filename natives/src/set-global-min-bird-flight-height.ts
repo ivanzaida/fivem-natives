@@ -3,8 +3,10 @@
  *
  * 0x78081A114400EA30
 
- * Needs to be looped! And yes, it does work and is not a hash collision.
+ * 
+ * Needs to be looped! And yes, it does work and is not a hash collision.
  * Birds will try to reach the given height.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} height

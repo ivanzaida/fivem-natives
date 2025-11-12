@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x2DCB8CA1FE6895AB
 
- * Use this command to attach a synchronized scene to an entity. Once attached, the root of the scene will follow the
+ * 
+ * Use this command to attach a synchronized scene to an entity. Once attached, the root of the scene will follow the
  * ped until DETACH_SYNCHRONIZED_SCENE is called. When attached, the scene's origin becomes an offset from the parent object.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

@@ -3,8 +3,10 @@
  *
  * 0x3C77232660BA1403
 
- * Will make the wanted display flash for as long as it's displayed
+ * 
+ * Will make the wanted display flash for as long as it's displayed
  * but WON'T force it to display. That's being wanteds' job.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} shouldBeFlashing

@@ -5,7 +5,9 @@ import { CameraIndex, ECamSplineNodeFlags } from '@ivanzaida/structures'
  *
  * 0x471C8924B79628DE
 
- * p2 is always 2 in scripts. It might be smoothing style or rotation order.
+ * 
+ * p2 is always 2 in scripts. It might be smoothing style or rotation order.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

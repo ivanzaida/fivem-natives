@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x04D8F5CAFCB48E24
 
- * Set the localplayer antagonistic to. pedIndex - .
+ * 
+ * Set the localplayer antagonistic to. pedIndex - .
  * If the index is -1 the it only sets the antagonistic flag.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} isAntagonisticTo

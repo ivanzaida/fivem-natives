@@ -3,7 +3,9 @@
  *
  * 0xAC98CA65AD9A3215
 
- * Used to be known as _SET_TEXT_COMPONENT_FORMAT
+ * 
+ * Used to be known as _SET_TEXT_COMPONENT_FORMAT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mainTextLabel

@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xD69CE161FE614531
 
- * Returns stat hash based on dataType, statIndex/statId and characterSlot. Related to CStatsMpCharacterMappingData
+ * 
+ * Returns stat hash based on dataType, statIndex/statId and characterSlot. Related to CStatsMpCharacterMappingData
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {ModelNames}  

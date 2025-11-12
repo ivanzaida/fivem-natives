@@ -3,7 +3,9 @@
  *
  * 0x6CA7A80BDD78C062
 
- * p1 was always -1
+ * 
+ * p1 was always -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} phoneNumberString

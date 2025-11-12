@@ -3,7 +3,9 @@
  *
  * 0xB80A7611D19E162B
 
- * Some property related to gates. Native name between ``DOOR_SYSTEM_SET_AUTOMATIC_RATE`` and ``DOOR_SYSTEM_SET_DOOR_STATE``.
+ * 
+ * Some property related to gates. Native name between ``DOOR_SYSTEM_SET_AUTOMATIC_RATE`` and ``DOOR_SYSTEM_SET_DOOR_STATE``.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

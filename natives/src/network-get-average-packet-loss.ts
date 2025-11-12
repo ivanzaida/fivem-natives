@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xA26711392EBF5371
 
- * Returns a packet loss metric for packets send to the specified remote player. This is just a ratio of sync messages acked divided by sync messages sent.
+ * 
+ * Returns a packet loss metric for packets send to the specified remote player. This is just a ratio of sync messages acked divided by sync messages sent.
  * This should only be called on remote players.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

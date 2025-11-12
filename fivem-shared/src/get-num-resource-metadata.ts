@@ -3,7 +3,7 @@
  *
  * 0x776E864
 
- * Gets the amount of metadata values with the specified key existing in the specified resource's manifest.See also: [Resource manifest](https://docs.fivem.net/resources/manifest/)
+ * Gets the amount of metadata values with the specified key existing in the specified resource's manifest.See also: [Resource manifest](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/)
  * 
  * ------------------------------------------------------------------
  * @param {string} resourceName The resource name.

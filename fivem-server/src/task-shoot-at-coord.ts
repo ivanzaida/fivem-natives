@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x601C22E3
 
- * Firing Pattern Hash Information: https://pastebin.com/Px036isB
+ * 
+ * Firing Pattern Hash Information: https://pastebin.com/Px036isB
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

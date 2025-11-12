@@ -5,8 +5,11 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x2B6A03197E4C7EEF
 
- * Gets local system time as year, month, day, hour, minute and second.
+ * 
+ * Gets local system time as year, month, day, hour, minute and second.
+ * 
  * Example usage:
+ * 
  * int year;
  * int month;
  * int day;
@@ -14,7 +17,9 @@ import { IntRef } from '@ivanzaida/structures'
  * int minute;
  * int second;
  * or use std::tm struct
+ * 
  * TIME::GET_LOCAL_TIME(&year, &month, &day, &hour, &minute, &second);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} year [Ref]

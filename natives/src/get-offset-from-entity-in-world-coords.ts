@@ -5,10 +5,13 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x0D1381B6E0F3987D
 
- * Offset values are relative to the entity.
+ * 
+ * Offset values are relative to the entity.
+ * 
  * x = left/right
  * y = forward/backward
  * z = up/down
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

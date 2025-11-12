@@ -5,7 +5,8 @@ import { ShopWeaponData } from '@ivanzaida/structures'
  *
  * 0xDF94727C5BBB298F
 
- * dlcWeaponIndex takes a number from 0 - GET_NUM_DLC_WEAPONS() - 1.
+ * 
+ * dlcWeaponIndex takes a number from 0 - GET_NUM_DLC_WEAPONS() - 1.
  * struct DlcWeaponData
  * {
  * int emptyCheck; //use DLC1::IS_CONTENT_ITEM_LOCKED on this
@@ -27,6 +28,7 @@ import { ShopWeaponData } from '@ivanzaida/structures'
  * char desc2Label[64]; // usually "the" + name
  * char upperCaseNameLabel[64];
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} dlc

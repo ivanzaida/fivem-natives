@@ -5,7 +5,8 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x9CFBE10D
 
- * enum ePedConfigFlags
+ * 
+ * enum ePedConfigFlags
  * {
  * 	_CPED_CONFIG_FLAG_0xC63DE95E = 1,
  * 	CPED_CONFIG_FLAG_NoCriticalHits = 2,
@@ -466,6 +467,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * 	_CPED_CONFIG_FLAG_0x4BD5EBAD = 457,
  * 	CPED_CONFIG_FLAG_DontChangeTargetFromMelee = 458,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

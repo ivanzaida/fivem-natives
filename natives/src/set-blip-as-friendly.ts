@@ -5,8 +5,10 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x6A52036D51C7E18E
 
- * false for enemy
+ * 
+ * false for enemy
  * true for friendly
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

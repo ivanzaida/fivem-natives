@@ -3,7 +3,9 @@
  *
  * 0x758F97A0C79EEFBF
 
- * Returns the number of navmeshes which exist in the given area (irrespective of whether they are currently loaded or not)
+ * 
+ * Returns the number of navmeshes which exist in the given area (irrespective of whether they are currently loaded or not)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

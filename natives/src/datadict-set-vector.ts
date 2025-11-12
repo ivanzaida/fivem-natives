@@ -3,7 +3,9 @@
  *
  * 0xD0DC0D28BA9FD4AD
 
- * This will overwrite any existing dictionary entry with the same name
+ * 
+ * This will overwrite any existing dictionary entry with the same name
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} dict

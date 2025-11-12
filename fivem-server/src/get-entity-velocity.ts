@@ -5,8 +5,10 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0xC14C9B6B
 
- * Gets the current velocity of the entity. If the entity is a ped in a vehicle, then the
+ * 
+ * Gets the current velocity of the entity. If the entity is a ped in a vehicle, then the
  * velocity of the vehicle is returned;
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,7 +3,9 @@
  *
  * 0xE6FCB8178DFE489F
 
- * this is to help with tralers, etc. please don't use this in general
+ * 
+ * this is to help with tralers, etc. please don't use this in general
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} cloudHatName

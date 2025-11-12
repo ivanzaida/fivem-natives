@@ -3,7 +3,9 @@
  *
  * 0x437E61CD71AF1EBA
 
- * Use to allow spectator fullscreen viewing/navigation of race map
+ * 
+ * Use to allow spectator fullscreen viewing/navigation of race map
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} open

@@ -3,8 +3,11 @@
  *
  * 0x5F6C263433E7851E
 
- * Controls how fast bobbleheads and tsurikawas move on each axis.
+ * 
+ * Controls how fast bobbleheads and tsurikawas move on each axis.
+ * 
  * p2 is probably z, but changing that value didn't seem to have a noticeable effect.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} vecVelocityX

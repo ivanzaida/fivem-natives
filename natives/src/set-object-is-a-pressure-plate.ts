@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x806B9D97E4C16543
 
- * Sets whether an articulated object behaves as a pressure plate
+ * 
+ * Sets whether an articulated object behaves as a pressure plate
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

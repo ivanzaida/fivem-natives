@@ -3,8 +3,10 @@
  *
  * 0x5A18938160AE52D0
 
- * colors you input not same as you think?
+ * 
+ * colors you input not same as you think?
  * A: for some reason its R B G A
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} red

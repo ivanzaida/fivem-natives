@@ -5,11 +5,14 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7BEAE55022AB21EB
 
- * Overrides the vehicle's horn hash.
+ * 
+ * Overrides the vehicle's horn hash.
  * When changing this hash on a vehicle, it will not return the 'overwritten' hash. It will still always return the default horn hash (same as GET_VEHICLE_DEFAULT_HORN)
+ * 
  * vehicle - the vehicle whose horn should be overwritten
  * mute - p1 seems to be an option for muting the horn
  * p2 - maybe a horn id, since the function AUDIO::GET_VEHICLE_DEFAULT_HORN(veh) exists?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} veh

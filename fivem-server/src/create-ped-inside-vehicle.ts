@@ -5,12 +5,16 @@ import { VehicleIndex, PedIndex } from '@ivanzaida/structures'
  *
  * 0x3000F092
 
- * If any_seat_is passed in the command will assert.
+ * 
+ * If any_seat_is passed in the command will assert.
  * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
  * ScriptHostObject:		If true, this object has been created by the host portion of a network script and is vital to that script - it must always exist regardless of who is hosting the script.
  * If false, the object has been created by the client portion of a network script and can be removed when the client who created it leaves the script session.
+ * 
  * pedType: see CREATE_PED
+ * 
  * Full list of peds by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/peds.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

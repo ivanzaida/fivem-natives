@@ -3,7 +3,9 @@
  *
  * 0x6625908717AE7808
 
- * Sets the ideal spawn distance for the dispatch services.
+ * 
+ * Sets the ideal spawn distance for the dispatch services.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} idealSpawnDistance

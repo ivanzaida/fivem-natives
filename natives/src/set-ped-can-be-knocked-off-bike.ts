@@ -5,7 +5,9 @@ import { PedIndex, EBikeKnockoff } from '@ivanzaida/structures'
  *
  * 0xE57B0AA791ADBC93
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

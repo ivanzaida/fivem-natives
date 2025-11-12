@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x9780872414DA43F8
 
- * returns true if player is wanted and has been seen at least once by cops.
+ * 
+ * returns true if player is wanted and has been seen at least once by cops.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

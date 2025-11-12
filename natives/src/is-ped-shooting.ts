@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x65F146FF416F109F
 
- * Returns whether the specified ped is shooting.
+ * 
+ * Returns whether the specified ped is shooting.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

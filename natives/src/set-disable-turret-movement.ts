@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF2B6BC6177886AEF
 
- * Disables turret movement when called in a loop. You can still fire and aim. You cannot shoot backwards though.
+ * 
+ * Disables turret movement when called in a loop. You can still fire and aim. You cannot shoot backwards though.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

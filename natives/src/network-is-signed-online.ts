@@ -3,8 +3,11 @@
  *
  * 0x261E3728EE56B3AC
 
- * Returns whether the game is not in offline mode.
+ * 
+ * Returns whether the game is not in offline mode.
+ * 
  * seemed not to work for some ppl
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

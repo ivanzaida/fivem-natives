@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x771C914E893FD9EB
 
- * Appears once in "re_dealgonewrong"
+ * 
+ * Appears once in "re_dealgonewrong"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

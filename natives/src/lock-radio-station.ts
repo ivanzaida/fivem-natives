@@ -3,9 +3,12 @@
  *
  * 0xCA3C8048CFD52E02
 
- * Lock or unlock the given radio station. This disables the radio station completely - it
+ * 
+ * Lock or unlock the given radio station. This disables the radio station completely - it
  * won't be selectable on the radio wheel or ever be heard coming from a vehicle/ambient emitter
+ * 
  * Disables the radio station (hides it from the radio wheel).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} radioStationName

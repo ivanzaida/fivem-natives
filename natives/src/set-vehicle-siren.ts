@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4539850624F18A9E
 
- * Activate siren on vehicle (Only works if the vehicle has a siren).
+ * 
+ * Activate siren on vehicle (Only works if the vehicle has a siren).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

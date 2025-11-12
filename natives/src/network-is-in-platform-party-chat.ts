@@ -3,7 +3,9 @@
  *
  * 0x03D7696E3D331706
 
- * Hardcoded to return false.
+ * 
+ * Hardcoded to return false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

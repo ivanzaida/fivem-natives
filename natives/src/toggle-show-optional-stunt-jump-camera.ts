@@ -3,8 +3,11 @@
  *
  * 0xCE366B3838FC5CC5
 
- * enable/disable optional stunt camera
+ * 
+ * enable/disable optional stunt camera
+ * 
  * Toggles some stunt jump stuff.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} show

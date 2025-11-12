@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x5524CAF18378DF39
 
- * Stand still (?)
+ * 
+ * Stand still (?)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

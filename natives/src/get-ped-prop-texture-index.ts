@@ -5,8 +5,10 @@ import { PedIndex, EPedPropPosition } from '@ivanzaida/structures'
  *
  * 0x0DC23FA727759F9F
 
- * List of component/props ID
+ * 
+ * List of component/props ID
  * gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

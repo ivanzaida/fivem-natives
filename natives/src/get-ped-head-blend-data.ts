@@ -5,7 +5,9 @@ import { PedIndex, PedHeadBlendData } from '@ivanzaida/structures'
  *
  * 0x5CB7287FD7611BC7
 
- * Gets the current blend data for a given ped, this data can be fed back into SET_PED_HEAD_BLEND_DATA
+ * 
+ * Gets the current blend data for a given ped, this data can be fed back into SET_PED_HEAD_BLEND_DATA
+ * 
  * The pointer is to a padded struct that matches the arguments to SET_PED_HEAD_BLEND_DATA(...). There are 4 bytes of padding after each field.
  * pass this struct in the second parameter
  * struct headBlendData
@@ -30,6 +32,7 @@ import { PedIndex, PedHeadBlendData } from '@ivanzaida/structures'
  *     int padding9;
  *     bool isParent;
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

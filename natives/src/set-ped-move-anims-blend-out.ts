@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x6EC1B5B2C6C31862
 
- * Cant be used on network scripts.
+ * 
+ * Cant be used on network scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

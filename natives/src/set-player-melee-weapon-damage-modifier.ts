@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xA8762533460B016B
 
- * This function will change the given players melee damage multiplier
+ * 
+ * This function will change the given players melee damage multiplier
+ * 
  * modifier's min value is 0.1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

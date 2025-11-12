@@ -5,7 +5,9 @@ import { ENetworkRosPrivilegeid } from '@ivanzaida/structures'
  *
  * 0x428539069343758E
 
- * index is always 18 in scripts
+ * 
+ * index is always 18 in scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ENetworkRosPrivilegeid} privilegeId

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x40321B83
 
- * Returns whether the entity is in stealth mode
+ * 
+ * Returns whether the entity is in stealth mode
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The target ped.

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x6C15571532CF7F95
 
- * Returns whether we are connected to the specified player via a relay server connection. This should only be called on remote players.
+ * 
+ * Returns whether we are connected to the specified player via a relay server connection. This should only be called on remote players.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

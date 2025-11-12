@@ -3,7 +3,9 @@
  *
  * 0xB9BE1957DDE28FC8
 
- * p0 seems to range from 0 to 7
+ * 
+ * p0 seems to range from 0 to 7
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} prefix

@@ -3,7 +3,9 @@
  *
  * 0x7C64D5DE5CA79A81
 
- * Requires manual management of game stream handles (i.e., 0xBE4390CB40B3E627).
+ * 
+ * Requires manual management of game stream handles (i.e., 0xBE4390CB40B3E627).
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x31D57F4EF7BE9F0B
 
- * Works just like SET_VEHICLE_ENGINE_HEALTH, but only for planes.
+ * 
+ * Works just like SET_VEHICLE_ENGINE_HEALTH, but only for planes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { EntityIndex, AnimData } from '@ivanzaida/structures'
  *
  * 0x24E88846ADF60E68
 
- * Plays one or more anims on the specified entity
+ * 
+ * Plays one or more anims on the specified entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,8 +3,11 @@
  *
  * 0x8553FB74D3BF41C8
 
- * Retrieve the category text ID for a specific product and cat index
+ * 
+ * Retrieve the category text ID for a specific product and cat index
+ * 
  * index2 is unused
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} item

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4A8C381C258A124D
 
- * Returns current player ped
+ * 
+ * Returns current player ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {PedIndex}  

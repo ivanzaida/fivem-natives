@@ -3,8 +3,10 @@
  *
  * 0xACFD9F78275919B3
 
- * If toggle is true, the map is shown in full screen
+ * 
+ * If toggle is true, the map is shown in full screen
  * If toggle is false, the map is shown in normal mode
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} lock

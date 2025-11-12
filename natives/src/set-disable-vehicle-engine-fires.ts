@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x64134834C866AE60
 
- * Sets whether an engine fire can occur
+ * 
+ * Sets whether an engine fire can occur
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

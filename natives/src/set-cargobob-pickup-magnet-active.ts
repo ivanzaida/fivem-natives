@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x279E935A91EF72DA
 
- * Won't attract or magnetize to any helicopters or planes of course, but that's common sense.
+ * 
+ * Won't attract or magnetize to any helicopters or planes of course, but that's common sense.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

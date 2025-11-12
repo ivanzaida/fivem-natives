@@ -5,7 +5,9 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0x9F8FB43463B75A3D
 
- * See IS_POINT_IN_ANGLED_AREA for the definition of an angled area.
+ * 
+ * See IS_POINT_IN_ANGLED_AREA for the definition of an angled area.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} vecAngledAreaPoint1X

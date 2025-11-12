@@ -3,8 +3,10 @@
  *
  * 0x93F98BC782D307FF
 
- * Use this to inform code that an invite can be processed during a player switch
+ * 
+ * Use this to inform code that an invite can be processed during a player switch
  * This is normally blocked.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} allow

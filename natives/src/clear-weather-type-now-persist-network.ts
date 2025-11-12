@@ -3,9 +3,11 @@
  *
  * 0x4EAA4126FEE56C40
 
- * Clears any persisting weather and allows a blend back to the network global timer
+ * 
+ * Clears any persisting weather and allows a blend back to the network global timer
  * A transition time of 0 will instantly snap
  * Specify in milliseconds
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} transitionTime

@@ -3,7 +3,9 @@
  *
  * 0x3611A662967FC11C
 
- * Deletes the given context from the background scripts context map.
+ * 
+ * Deletes the given context from the background scripts context map.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} context

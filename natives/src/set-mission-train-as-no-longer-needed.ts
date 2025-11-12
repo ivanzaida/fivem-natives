@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0xC4929897EF5CADC2
 
- * p1 is always 0
+ * 
+ * p1 is always 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} train [Ref]

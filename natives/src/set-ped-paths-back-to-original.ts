@@ -3,8 +3,11 @@
  *
  * 0xE649818AF72843C4
 
- * It is not cool to call a SET_PED_PATHS_IN_AREA(true)  to undo a SET_PED_PATHS_IN_AREA(false) because the nodes that were originally off would now be on.
+ * 
+ * It is not cool to call a SET_PED_PATHS_IN_AREA(true)  to undo a SET_PED_PATHS_IN_AREA(false) because the nodes that were originally off would now be on.
+ * 
  * p6 is always 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsMinX

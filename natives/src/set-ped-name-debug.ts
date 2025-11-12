@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xEB418CA245FFE897
 
- * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
+ * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
  * untested but char name could also be a hash for a localized string
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

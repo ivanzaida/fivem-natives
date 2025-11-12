@@ -5,8 +5,10 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x851E914CBFC1A1DF
 
- * Retrieve status from the operation started in NET_GAMESERVER_REFRESH_SERVER_CATALOG. Returns TRUE is status is successfull.
+ * 
+ * Retrieve status from the operation started in NET_GAMESERVER_REFRESH_SERVER_CATALOG. Returns TRUE is status is successfull.
  * Returns FALSE when the status is PENDING/FAILED.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} currentStatus [Ref]

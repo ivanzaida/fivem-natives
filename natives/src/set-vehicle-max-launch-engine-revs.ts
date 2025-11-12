@@ -3,8 +3,10 @@
  *
  * 0x5AE614ECA5FDD423
 
- * 0.0f = engine rev minimum
+ * 
+ * 0.0f = engine rev minimum
  * 1.0f = engine rev limit
+ * 
  * 
  * ------------------------------------------------------------------
  */

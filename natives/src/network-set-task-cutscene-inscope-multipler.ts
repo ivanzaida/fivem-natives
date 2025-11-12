@@ -3,8 +3,11 @@
  *
  * 0x44EF980B0D19828F
 
- * A value between 1.0 and 5.0
+ * 
+ * A value between 1.0 and 5.0
+ * 
  * _NETWORK_SET_TASK_CUTSCENE_PROXIMITY_SCALE?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} multiplier

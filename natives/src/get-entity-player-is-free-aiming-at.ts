@@ -5,8 +5,10 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x66EE98F15844BE4D
 
- * Returns TRUE if it found an entity in your crosshair within range of your weapon. Assigns the handle of the target to the entity that you pass it.
+ * 
+ * Returns TRUE if it found an entity in your crosshair within range of your weapon. Assigns the handle of the target to the entity that you pass it.
  * Returns false if no entity found.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

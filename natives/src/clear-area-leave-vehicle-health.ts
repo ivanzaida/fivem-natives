@@ -3,8 +3,11 @@
  *
  * 0x4FEBA5060BFD5111
 
- * All fires and explosions in the area are also cleared
+ * 
+ * All fires and explosions in the area are also cleared
+ * 
  * MISC::CLEAR_AREA_LEAVE_VEHICLE_HEALTH(x, y, z, radius, false, false, false, false); seem to make all objects go away, peds, vehicles etc. All booleans set to true doesn't seem to change anything.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

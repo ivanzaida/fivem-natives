@@ -3,8 +3,11 @@
  *
  * 0x6026EB0A2A2F509E
 
- * Checks if title update is required
+ * 
+ * Checks if title update is required
+ * 
  * This function is hard-coded to always return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

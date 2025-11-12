@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xE54C4227DC826E1C
 
- * When this ped is performing their scenario exit probes, all of the probes will be checked in one frame.
+ * 
+ * When this ped is performing their scenario exit probes, all of the probes will be checked in one frame.
  * Use with caution!  This can cause performance issues if overused.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x19B15B2D6C049166
 
- * Returns true if the vehicle controlled by the ped is currently unable to find a valid route to go back to road
+ * 
+ * Returns true if the vehicle controlled by the ped is currently unable to find a valid route to go back to road
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,7 +3,9 @@
  *
  * 0x425BBE19F25A57AB
 
- * If you set the wanted multiplier to a low value 0.01 and a cop see you shoot a ped in face you wil still get a wanted level.
+ * 
+ * If you set the wanted multiplier to a low value 0.01 and a cop see you shoot a ped in face you wil still get a wanted level.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} multiplier

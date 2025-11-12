@@ -3,7 +3,9 @@
  *
  * 0xBE923A0FDD781C93
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} edgeAmount

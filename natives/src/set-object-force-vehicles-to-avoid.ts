@@ -5,9 +5,12 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x6FDDD37A4022A641
 
- * Set to TRUE to force vehicles to ignore the height check and avoid this
+ * 
+ * Set to TRUE to force vehicles to ignore the height check and avoid this
  * object regardless of how tall it is
+ * 
  * Overrides a flag on the object which determines if the object should be avoided by a vehicle in task CTaskVehicleGoToPointWithAvoidanceAutomobile.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} objectID

@@ -3,9 +3,11 @@
  *
  * 0x8128CB4AD398D07B
 
- * Sets the hud's health display values directly
+ * 
+ * Sets the hud's health display values directly
  * TURNS OFF REAL-TIME QUERYING. So you'll need to turn this off when you're done
  * by passing in iHealth = -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} health

@@ -5,8 +5,11 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0xC3B77DE416935168
 
- * The "disabled" variant of GET_CONTROL_UNBOUND_NORMAL.
+ * 
+ * The "disabled" variant of GET_CONTROL_UNBOUND_NORMAL.
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

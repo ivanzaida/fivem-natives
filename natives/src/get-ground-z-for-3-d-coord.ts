@@ -5,14 +5,19 @@ import { FloatRef } from '@ivanzaida/structures'
  *
  * 0xB1EAADCB692D69CE
 
- * The command will return TRUE if it finds collision, FALSE if not.
+ * 
+ * The command will return TRUE if it finds collision, FALSE if not.
+ * 
  * Gets the ground elevation at the specified position. Note that if the specified position is below ground level, the function will output zero!
+ * 
  * x: Position on the X-axis to get ground elevation at.
  * y: Position on the Y-axis to get ground elevation at.
  * z: Position on the Z-axis to get ground elevation at.
  * groundZ: The ground elevation at the specified position.
  * ignoreWater: Nearly always 0, very rarely 1 in the scripts: https://gfycat.com/NiftyTatteredCricket
+ * 
  * Bear in mind this native can only calculate the elevation when the coordinates are within the client's render distance.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

@@ -3,7 +3,9 @@
  *
  * 0x9E36887F0AA9DF6D
 
- * Call this command every frame. Only runs in dev and bank release. Requires script -> Draw Debug Lines And Spheres widget to be active.
+ * 
+ * Call this command every frame. Only runs in dev and bank release. Requires script -> Draw Debug Lines And Spheres widget to be active.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsFirstX

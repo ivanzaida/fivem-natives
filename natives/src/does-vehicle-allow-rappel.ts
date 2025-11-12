@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEE6C44D4C8883EC4
 
- * Returns true if the vehicle has the FLAG_ALLOWS_RAPPEL flag set.
+ * 
+ * Returns true if the vehicle has the FLAG_ALLOWS_RAPPEL flag set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

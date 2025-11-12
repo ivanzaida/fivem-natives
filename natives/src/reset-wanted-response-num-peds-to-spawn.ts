@@ -3,7 +3,9 @@
  *
  * 0x3C6FB3D7478BC495
 
- * Resets the number of peds to spawn for the wanted response.
+ * 
+ * Resets the number of peds to spawn for the wanted response.
+ * 
  * 
  * ------------------------------------------------------------------
  */

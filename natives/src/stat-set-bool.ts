@@ -5,8 +5,10 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0xF1D0B0CE940F620D
 
- * Example:
+ * 
+ * Example:
  *  STATS::STAT_SET_BOOL(MISC::GET_HASH_KEY("MPPLY_MELEECHLENGECOMPLETED"), trur, true);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

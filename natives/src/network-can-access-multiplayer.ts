@@ -5,7 +5,8 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x0C81430427CA20D7
 
- * Return TRUE if the game can ACCESS multiplayer.
+ * 
+ * Return TRUE if the game can ACCESS multiplayer.
  * Check this function once. If FALSE, fall out of MP.
  * Must be called prior to:
  * NETWORK_SESSION_ENTER
@@ -15,9 +16,12 @@ import { IntRef } from '@ivanzaida/structures'
  * NETWORK_SESSION_ACTIVITY_QUICKMATCH
  * NETWORK_SESSION_HOST
  * Code deal with NETWORK_SESSION_JOIN_INVITE
+ * 
  * 11 - Need to download tunables.
  * 12 - Need to download background script.
+ * 
  * Returns 1 if the multiplayer is loaded, otherwhise 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} accessCode [Ref]

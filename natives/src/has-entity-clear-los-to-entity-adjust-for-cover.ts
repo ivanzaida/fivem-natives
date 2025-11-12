@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x4EAD67A3E57A9458
 
- * Checks if the entity has a clear line of sight to another entity. If the 2 entities are peds then
+ * 
+ * Checks if the entity has a clear line of sight to another entity. If the 2 entities are peds then
  * the LOS check is done between the heads of the 2 peds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} firstEntity

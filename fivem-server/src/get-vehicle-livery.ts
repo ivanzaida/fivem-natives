@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEC82A51D
 
- * -1 = no livery
+ * 
+ * -1 = no livery
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

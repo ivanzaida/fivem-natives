@@ -5,7 +5,9 @@ import { EDecalRendersettingId, DecalId } from '@ivanzaida/structures'
  *
  * 0x0153AEF89004E87C
 
- * decal types:
+ * 
+ * decal types:
+ * 
  * public enum DecalTypes
  * {
  *     splatters_blood = 1010,
@@ -61,6 +63,7 @@ import { EDecalRendersettingId, DecalId } from '@ivanzaida/structures'
  *     porousPool_water_ped_drip,
  *     liquidTrail_water = 9050
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EDecalRendersettingId} renderSettingsId

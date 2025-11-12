@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x75690DF4B79CDDCC
 
- * This has been found in use in the decompiled files.
+ * 
+ * This has been found in use in the decompiled files.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

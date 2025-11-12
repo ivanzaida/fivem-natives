@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x566C977EEAE1C0D1
 
- * Note it might work best if ambient tasks make sure the player has been free for an ambient task for a few seconds depending on the situation.
+ * 
+ * Note it might work best if ambient tasks make sure the player has been free for an ambient task for a few seconds depending on the situation.
  * (E.g. if the player hasn't done anything interesting for 5 seconds, allow cab hailing)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

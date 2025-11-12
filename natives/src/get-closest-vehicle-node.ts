@@ -6,8 +6,11 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x3875519517101875
 
- * The commands will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
+ * The commands will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
  * https://gtaforums.com/topic/843561-pathfind-node-types
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

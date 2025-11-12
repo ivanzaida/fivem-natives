@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xA8F635A578C0CE07
 
- * Checks if a gamer handle is valid
+ * 
+ * Checks if a gamer handle is valid
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

@@ -5,11 +5,14 @@ import { EntityIndex, EExplosionTag } from '@ivanzaida/structures'
  *
  * 0x8F03CD462437C002
 
- * Creates an explosion at the co-ordinates owned by a specific ped.
+ * 
+ * Creates an explosion at the co-ordinates owned by a specific ped.
  * Size scale between 0.01 and 1.0
+ * 
  * isAudible: If explosion makes a sound.
  * isInvisible: If the explosion is invisible or not.
  * explosionType: See ADD_EXPLOSION.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} explosionOwner

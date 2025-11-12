@@ -5,7 +5,9 @@ import { ModelNames, VehicleGeneratorIndex } from '@ivanzaida/structures'
  *
  * 0x7E711C5CE9160738
 
- * Creates a script vehicle generator at the given coordinates. Most parameters after the model hash are unknown.
+ * 
+ * Creates a script vehicle generator at the given coordinates. Most parameters after the model hash are unknown.
+ * 
  * Parameters:
  * x/y/z - Generator position
  * heading - Generator heading
@@ -18,7 +20,9 @@ import { ModelNames, VehicleGeneratorIndex } from '@ivanzaida/structures'
  * p14 - Unknown (usally FALSE, only two instances of TRUE)
  * p15 - Unknown (always TRUE)
  * p16 - Unknown (always -1)
+ * 
  * Vector3 coords = GET_ENTITY_COORDS(PLAYER_PED_ID(), 0);    CREATE_SCRIPT_VEHICLE_GENERATOR(coords.x, coords.y, coords.z, 1.0f, 5.0f, 3.0f, GET_HASH_KEY("adder"), -1. -1, -1, -1, -1, true, false, false, false, true, -1);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} newCoorsX

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x1312DDD8385AEE4E
 
- * Enables/disables the ability to wheelie on motorcycles.
+ * 
+ * Enables/disables the ability to wheelie on motorcycles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { DecisionMakerType, EEventNames } from '@ivanzaida/structures'
  *
  * 0x6E32AA16336291E4
 
- * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
+ * 
+ * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {DecisionMakerType} decisionMakerId

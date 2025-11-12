@@ -5,7 +5,9 @@ import { CheckpointIndex } from '@ivanzaida/structures'
  *
  * 0xEA8732A7013AB8DC
 
- * This does not move an existing checkpoint... so wtf.
+ * 
+ * This does not move an existing checkpoint... so wtf.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CheckpointIndex} uniqueCheckpoint

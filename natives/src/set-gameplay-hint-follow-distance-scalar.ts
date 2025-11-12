@@ -3,7 +3,9 @@
  *
  * 0x39723B4B969CC059
 
- * Call at the start of the hint to avoid pops.
+ * 
+ * Call at the start of the hint to avoid pops.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} distanceScalar

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x0FD8B5F4BB15CD71
 
- * Makes the specified ped stand still for (time) milliseconds.
+ * 
+ * Makes the specified ped stand still for (time) milliseconds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

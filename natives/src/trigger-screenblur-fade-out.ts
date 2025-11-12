@@ -3,7 +3,9 @@
  *
  * 0xB63687B4F0E3E236
 
- * time in ms to transition from fully blurred to normal
+ * 
+ * time in ms to transition from fully blurred to normal
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} duration

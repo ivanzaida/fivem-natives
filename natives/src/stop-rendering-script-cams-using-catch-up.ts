@@ -5,8 +5,11 @@ import { ECamSplineSmoothingFlags, ERenderingOptionFlags } from '@ivanzaida/stru
  *
  * 0xC289B882CEF4CAC9
 
- * The script must have created a camera that can be rendered. Note that rendering is typically not stopped if another script thread still expects it to be active (see bShouldApplyAcrossAllThreads.)
+ * 
+ * The script must have created a camera that can be rendered. Note that rendering is typically not stopped if another script thread still expects it to be active (see bShouldApplyAcrossAllThreads.)
+ * 
  * This native makes the gameplay camera zoom into first person/third person with a special effect.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} shouldApplyAcrossAllThreads

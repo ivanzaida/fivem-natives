@@ -3,9 +3,11 @@
  *
  * 0xBF5A33B684B68C2B
 
- * Returns true if the image is loaded, so it can repeatedly called until the image is available.
+ * 
+ * Returns true if the image is loaded, so it can repeatedly called until the image is available.
  * Once loaded the image is in the TXD:TextureName returned by GET_COMMERCE_ITEM_TEXTURENAME
  * For example, GET_COMMERCE_ITEM_TEXTURENAME returns "TestTexture", the downloaded texture is in TestTexture:TestTexture
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

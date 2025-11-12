@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE8B604AD9A55DE39
 
- * Only works as host.
+ * 
+ * Only works as host.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} netPlayerID

@@ -3,7 +3,9 @@
  *
  * 0x4E71BD4E0B8022F5
 
- * Displays a bunch of icons above the players name, and level, and their name twice
+ * 
+ * Displays a bunch of icons above the players name, and level, and their name twice
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} playerNum

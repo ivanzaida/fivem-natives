@@ -6,8 +6,10 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x4C6A124A4C49BC22
 
- * Call this with bOverride=TRUE to force the player to respawn at vecCoords with fHeading instead of at a savehouse after a load.
+ * 
+ * Call this with bOverride=TRUE to force the player to respawn at vecCoords with fHeading instead of at a savehouse after a load.
  * These settings will be applied to all saves until you call the command again with bOverride=FALSE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} override

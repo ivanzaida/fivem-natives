@@ -5,8 +5,11 @@ import { TimeDatatype } from '@ivanzaida/structures'
  *
  * 0xDBA141080166EAA2
 
- * Return TRUE if Time1 is greater than Time2. FALSE otherwise.
+ * 
+ * Return TRUE if Time1 is greater than Time2. FALSE otherwise.
+ * 
  * Subtracts the first argument from the second, then returns whether the result is negative.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {TimeDatatype} time1

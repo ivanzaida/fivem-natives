@@ -3,7 +3,9 @@
  *
  * 0xA25A07F63AC497BB
 
- * Gets the number of categories a specified product is contained in
+ * 
+ * Gets the number of categories a specified product is contained in
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

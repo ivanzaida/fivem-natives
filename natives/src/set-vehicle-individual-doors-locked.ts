@@ -5,7 +5,9 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  *
  * 0x1F4C790D1AC5AFF9
 
- * doorId: see SET_VEHICLE_DOOR_SHUT
+ * 
+ * doorId: see SET_VEHICLE_DOOR_SHUT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

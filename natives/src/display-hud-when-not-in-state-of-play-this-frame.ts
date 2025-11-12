@@ -3,7 +3,9 @@
  *
  * 0xDB1A0120CD3E3005
 
- * Enables drawing some hud components, such as help labels, this frame, when the player is dead.
+ * 
+ * Enables drawing some hud components, such as help labels, this frame, when the player is dead.
+ * 
  * 
  * ------------------------------------------------------------------
  */

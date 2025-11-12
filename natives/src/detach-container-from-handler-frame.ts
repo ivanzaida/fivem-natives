@@ -5,9 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7AA69E5CE0F1C51A
 
- * Detaches any container which has been attached to the handler's frame. It is up to the script what to
+ * 
+ * Detaches any container which has been attached to the handler's frame. It is up to the script what to
  * do with the objects once detached.
  * This command will complain if nothing is attached to the handler's frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} handler

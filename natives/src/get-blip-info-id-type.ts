@@ -5,7 +5,8 @@ import { BlipIndex, EERadarBlipType } from '@ivanzaida/structures'
  *
  * 0x6AEAF32EC173BB39
 
- * Returns a value based on what the blip is attached to
+ * 
+ * Returns a value based on what the blip is attached to
  * 1 - Vehicle
  * 2 - Ped
  * 3 - Object
@@ -13,6 +14,7 @@ import { BlipIndex, EERadarBlipType } from '@ivanzaida/structures'
  * 5 - unk
  * 6 - Pickup
  * 7 - Radius
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blipId

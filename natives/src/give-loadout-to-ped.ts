@@ -5,8 +5,10 @@ import { PedIndex, ELoadoutType } from '@ivanzaida/structures'
  *
  * 0x9C1B023459284932
 
- * Gives the specified loadout to the specified ped.
+ * 
+ * Gives the specified loadout to the specified ped.
  * Loadouts are defined in common.rpf\data\ai\loadouts.meta
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

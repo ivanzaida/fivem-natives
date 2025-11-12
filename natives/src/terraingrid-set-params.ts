@@ -3,13 +3,18 @@
  *
  * 0xDF3F4CBE546A000D
 
- * This native is used along with these two natives: `TERRAINGRID_ACTIVATE` and `TERRAINGRID_SET_COLOURS`.
+ * 
+ * This native is used along with these two natives: `TERRAINGRID_ACTIVATE` and `TERRAINGRID_SET_COLOURS`.
  * This native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
+ * 
  * All those natives combined they will output something like this: https://i.imgur.com/TC6cku6.png
+ * 
  * This native renders a box at the given position, with a special shader that renders a grid on world geometry behind it. This box does not have backface culling.
  * The forward args here are a direction vector, something similar to what's returned by GET_ENTITY_FORWARD_VECTOR.
  * normalHeight and heightDiff are used for positioning the color gradient of the grid, colors specified via TERRAINGRID_SET_COLOURS.
+ * 
  * Example with box superimposed on the image to demonstrate: https://i.imgur.com/wdqskxd.jpg
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centrePosX

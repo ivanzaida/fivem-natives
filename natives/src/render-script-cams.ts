@@ -5,11 +5,15 @@ import { ERenderingOptionFlags } from '@ivanzaida/structures'
  *
  * 0xE37AF9002E782BA0
 
- * The script must have created a camera that can be rendered. Note that rendering is typically not stopped if another script thread still expects it to be active (see bShouldApplyAcrossAllThreads.)
+ * 
+ * The script must have created a camera that can be rendered. Note that rendering is typically not stopped if another script thread still expects it to be active (see bShouldApplyAcrossAllThreads.)
+ * 
  * doGameCamInterp - smooth transition between the camera's positions (interpolation)
  * duration - Time in milliseconds for the transition to happen
+ * 
  * If you have created a script (rendering) camera, and want to go back to the character (gameplay) camera, call this native with setActive set to false.
  * Setting doGameCamInterp to 1 will smooth the transition.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} setActive

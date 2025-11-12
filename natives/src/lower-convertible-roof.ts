@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x232B023FE4D977E2
 
- * Lower the roof on a convertible
+ * 
+ * Lower the roof on a convertible
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

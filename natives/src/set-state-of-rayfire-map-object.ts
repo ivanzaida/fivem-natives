@@ -5,7 +5,8 @@ import { RayfireIndex, ERayFireMapObjectState } from '@ivanzaida/structures'
  *
  * 0xBF86159B8525B1AE
 
- * To set a ray fire object up for the map. If you find the named ray fire object
+ * 
+ * To set a ray fire object up for the map. If you find the named ray fire object
  * Set its state to RFMO_STATE_PRIMING
  * Check that its primed.
  * When primed Set its state to CE_STATE_START_ANIM
@@ -17,12 +18,14 @@ import { RayfireIndex, ERayFireMapObjectState } from '@ivanzaida/structures'
  * RFMO_STATE_RESET
  * RFMO_STATE_PAUSED
  * RFMO_STATE_RESUME
+ * 
  * Defines the state of a destructible object.
  * Use the GET_RAYFIRE_MAP_OBJECT native to find an object's handle with its name / coords.
  * State 2 == object just spawned
  * State 4 == Beginning of the animation
  * State 6 == Start animation
  * State 9 == End of the animation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {RayfireIndex} rayFireObject

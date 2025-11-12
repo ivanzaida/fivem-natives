@@ -3,7 +3,9 @@
  *
  * 0x26E61E347F8C2FB5
 
- * Team-only chat is disabled by default.
+ * 
+ * Team-only chat is disabled by default.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} teamOnlyChat

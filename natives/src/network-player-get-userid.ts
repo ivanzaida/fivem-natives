@@ -5,8 +5,10 @@ import { PlayerIndex, GamerUserid } from '@ivanzaida/structures'
  *
  * 0x4DE98A9A01197527
 
- * Returns a string of the player's Rockstar Id.
+ * 
+ * Returns a string of the player's Rockstar Id.
  * Takes a 24 char buffer. Returns the buffer or "Invalid" if rlGamerInfo of the given player cannot be retrieved or the player doesn't exist.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

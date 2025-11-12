@@ -5,10 +5,12 @@ import { EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0x6A668C52322FABB2
 
- * Use this immediately after starting a player switch if the first frame of the outro
+ * 
+ * Use this immediately after starting a player switch if the first frame of the outro
  * camera (e.g. motion builder cam etc) isn't the same as the ped position. this allows streaming
  * to request that scene (instead of a sphere around the new ped pos).
  * overrides the end scene for the player switch
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} camPosX

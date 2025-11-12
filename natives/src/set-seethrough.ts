@@ -3,7 +3,9 @@
  *
  * 0x29D3BA4C46972A1C
 
- * Toggles Heatvision on/off.
+ * 
+ * Toggles Heatvision on/off.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} onOff

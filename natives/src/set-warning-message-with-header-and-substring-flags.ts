@@ -5,7 +5,9 @@ import { FeWarningFlags, EWarningMessageFlags } from '@ivanzaida/structures'
  *
  * 0x701919482C74B5AB
 
- * SubStringFlags allows one or both of the substrings to be literal strings so that the names of UGC missions can be displayed.
+ * 
+ * SubStringFlags allows one or both of the substrings to be literal strings so that the names of UGC missions can be displayed.
+ * 
  * You can use this native for custom input, without having to use any scaleform-related natives.
  * The native must be called on tick.
  * The entryHeader must be a valid label.
@@ -20,6 +22,7 @@ import { FeWarningFlags, EWarningMessageFlags } from '@ivanzaida/structures'
  * SET_WARNING_MESSAGE_WITH_HEADER_AND_SUBSTRING_FLAGS("ALERT", "JL_INVITE_ND", 66, "", true, -1, -1, "Testing line 1", "Testing line 2", true, 0);
  * Screenshot:
  * https://imgur.com/a/IYA7vJ8
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} headerTextLabel

@@ -3,10 +3,12 @@
  *
  * 0xAAEAC50F94519B77
 
- * Telemetry sent when formation ENDS
+ * 
+ * Telemetry sent when formation ENDS
  * formationStyle - formation Style
  * duration - how long formation lasted on the road
  * membersAmount - Max number of MC members involved
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} bossId1

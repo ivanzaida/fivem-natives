@@ -3,7 +3,9 @@
  *
  * 0x66AEB7CADFF26E0B
 
- * Used only once in the scripts (taxi_clowncar)
+ * 
+ * Used only once in the scripts (taxi_clowncar)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} isVehicleInterior

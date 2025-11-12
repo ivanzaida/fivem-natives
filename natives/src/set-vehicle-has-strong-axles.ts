@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5FE0938FDE9B0958
 
- * if true, axles won't bend.
+ * 
+ * if true, axles won't bend.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

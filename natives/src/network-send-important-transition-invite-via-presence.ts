@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xA8778038A42EA249
 
- * Contains the string "NETWORK_SEND_PRESENCE_TRANSITION_INVITE" but so does 0xC116FF9B4D488291; seems to fit alphabetically here, tho.
+ * 
+ * Contains the string "NETWORK_SEND_PRESENCE_TRANSITION_INVITE" but so does 0xC116FF9B4D488291; seems to fit alphabetically here, tho.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

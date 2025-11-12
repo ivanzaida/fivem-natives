@@ -5,7 +5,9 @@ import { ECamViewMode } from '@ivanzaida/structures'
  *
  * 0x3B5989D5DB08A155
 
- * See viewmode enum in CAM.GET_FOLLOW_VEHICLE_CAM_VIEW_MODE for return value
+ * 
+ * See viewmode enum in CAM.GET_FOLLOW_VEHICLE_CAM_VIEW_MODE for return value
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {ECamViewMode}  

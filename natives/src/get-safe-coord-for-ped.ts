@@ -6,14 +6,20 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0xC0EEE6A2207F3CB8
 
- * Checks to see if it can find a safe bit of ground to place a ped.
+ * 
+ * Checks to see if it can find a safe bit of ground to place a ped.
  * This command has been extended to provide a set of bitflags to give more control over how it searches for positions.
  * (The old onlyOnPavement parameter still works but you should start using the GSC_FLAG_ONLY_PAVEMENT instead as it will be removed eventually.)
  * Use this carefully since it can have a considerable performance hit, having to stall the game whilst it queries navmesh polygons
+ * 
  * Flags can be found [here](https://vhub.wiki/enums/GET_SAFE_COORD_FLAGS)
+ * 
  * When a safe coord could not be found the result of a function is false and outSafeCoors == Vector3.Zero.
+ * 
  * In the scripts these flags are used: 0, 14, 12, 16, 20, 21, 28. 0 is most commonly used, then 16.
+ * 
  * 16 works for me, 0 crashed the script.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

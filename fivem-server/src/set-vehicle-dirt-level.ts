@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x2B39128B
 
- * You can't use values greater than 15.0
+ * 
+ * You can't use values greater than 15.0
  * Also, R does (float)(rand() % 15) to get a random dirt level when generating a vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle The vehicle to set.

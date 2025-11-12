@@ -5,7 +5,9 @@ import { NetSignallingInfo } from '@ivanzaida/structures'
  *
  * 0xDC05070D5646C09C
 
- * Does nothing (it's a nullsub).
+ * 
+ * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetSignallingInfo} info [Ref]

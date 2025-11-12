@@ -3,10 +3,15 @@
  *
  * 0x0A3136AD174470CC
 
- * Draws the subtitle at middle center of the screen.
+ * 
+ * Draws the subtitle at middle center of the screen.
+ * 
  * int duration = time in milliseconds to show text on screen before disappearing
+ * 
  * drawImmediately = If true, the text will be drawn immediately, if false, the text will be drawn after the previous subtitle has finished
+ * 
  * Used to be known as _DRAW_SUBTITLE_TIMED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} duration

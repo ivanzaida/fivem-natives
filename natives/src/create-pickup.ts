@@ -5,9 +5,12 @@ import { EPickupType, ModelNames, PickupIndex } from '@ivanzaida/structures'
  *
  * 0x8D4CAF9A056EA9E4
 
- * Creates a pickup spawner which can be referenced by the script and will spawn a pickup whenever the player gets near. This spawner can also
+ * 
+ * Creates a pickup spawner which can be referenced by the script and will spawn a pickup whenever the player gets near. This spawner can also
  * regenerate the pickup after it is collected. The spawner is removed when the script terminates.
+ * 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} type

@@ -3,7 +3,9 @@
  *
  * 0x79C9D43F3FE4480B
 
- * p8 seems to always be false.
+ * 
+ * p8 seems to always be false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionStartX

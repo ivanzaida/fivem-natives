@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xA347DA69520FE64A
 
- * Only used with the "akula" and "annihilator2" in the decompiled native scripts.
+ * 
+ * Only used with the "akula" and "annihilator2" in the decompiled native scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

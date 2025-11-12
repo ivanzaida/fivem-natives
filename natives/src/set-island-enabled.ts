@@ -3,7 +3,9 @@
  *
  * 0x105F8712C3E145BF
 
- * Enables the specified island. For more information, see islandhopper.meta
+ * 
+ * Enables the specified island. For more information, see islandhopper.meta
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} islandName

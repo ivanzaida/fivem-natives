@@ -5,13 +5,16 @@ import { ModelNames, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x66D94742BB3D032F
 
- * Gets a random vehicle in a sphere at the specified position, of the specified radius.
+ * 
+ * Gets a random vehicle in a sphere at the specified position, of the specified radius.
+ * 
  * x: The X-component of the position of the sphere.
  * y: The Y-component of the position of the sphere.
  * z: The Z-component of the position of the sphere.
  * radius: The radius of the sphere. Max is 9999.9004.
  * modelHash: The vehicle model to limit the selection to. Pass 0 for any model.
  * flags: The bitwise flags that modifies the behaviour of this function.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

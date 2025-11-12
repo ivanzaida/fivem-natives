@@ -5,9 +5,13 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x3AE0EEB34FAAC92B
 
- * Specifies a new walking animation to use when the ped is walking around
+ * 
+ * Specifies a new walking animation to use when the ped is walking around
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * Full list of movement clipsets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/movementClipsetsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

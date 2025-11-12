@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4DC7FAAC148F9B2F
 
- * The parameter fade is a value from 0-1, where 0 is fresh paint.
+ * 
+ * The parameter fade is a value from 0-1, where 0 is fresh paint.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

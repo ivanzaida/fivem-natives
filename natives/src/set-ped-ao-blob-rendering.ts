@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x949A46B6409BF541
 
- * Enable/disable ped shadow (ambient occlusion). https://gfycat.com/thankfulesteemedgecko
+ * 
+ * Enable/disable ped shadow (ambient occlusion). https://gfycat.com/thankfulesteemedgecko
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

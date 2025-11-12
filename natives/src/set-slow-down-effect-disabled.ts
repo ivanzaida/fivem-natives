@@ -3,7 +3,9 @@
  *
  * 0x0A158DF97B623950
 
- * Disables the screen effects and sound effects when driving over a slowdown pad.
+ * 
+ * Disables the screen effects and sound effects when driving over a slowdown pad.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} invertControls

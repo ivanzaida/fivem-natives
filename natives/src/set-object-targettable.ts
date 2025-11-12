@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x918FE23DCE5B8322
 
- * Only four objects can be targettable at any time.
+ * 
+ * Only four objects can be targettable at any time.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} objectID

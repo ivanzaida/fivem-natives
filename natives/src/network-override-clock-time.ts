@@ -3,8 +3,10 @@
  *
  * 0xAFD3BC0F6EBB5474
 
- * Works in Singleplayer too.
+ * 
+ * Works in Singleplayer too.
  * Passing wrong data (e.g. hours above 23) will cause the game to crash.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} hour

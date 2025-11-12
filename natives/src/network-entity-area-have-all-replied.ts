@@ -3,8 +3,10 @@
  *
  * 0x31B34E18DE46CC94
 
- * Checks if all players have replied to say whether this area is occupied or not
+ * 
+ * Checks if all players have replied to say whether this area is occupied or not
  * The areaID is the ID returned by NETWORK_ADD_ENTITY_AREA
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} areaID

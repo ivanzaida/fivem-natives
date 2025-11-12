@@ -5,10 +5,12 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x1CACC0A56175FE7D
 
- * Sends telemetry event to Rinforming that this machine thinks given remote player is cheating/hacker.
+ * 
+ * Sends telemetry event to Rinforming that this machine thinks given remote player is cheating/hacker.
  * Event contains both player A and B, is flagged as a SCRIPT_CHEAT_DETECTION cheat detected, and attaches extraInfo1&2 as script extra proofs.
  * extraInfo may contain whatever script needs relevant to identify which actual script triggered this event, or why remote may be a hacker.
  * Returns TRUE if the ROS telemetry event was corretly sent to Rservers.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} plyCheater

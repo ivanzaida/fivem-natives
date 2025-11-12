@@ -3,8 +3,11 @@
  *
  * 0x8B47D286AAC499D6
 
- * Call this command every frame. Only runs in dev and bank release. Requires script -> Draw Debug Lines And Spheres widget to be active.
+ * 
+ * Call this command every frame. Only runs in dev and bank release. Requires script -> Draw Debug Lines And Spheres widget to be active.
+ * 
  * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} text

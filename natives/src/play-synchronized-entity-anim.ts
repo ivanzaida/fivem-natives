@@ -5,11 +5,15 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x381D671BCFC294D9
 
- * Use this to add an entity with a specifically authored anim to a synchronized scene created with CREATE_SYNCHRONIZED_SCENE
+ * 
+ * Use this to add an entity with a specifically authored anim to a synchronized scene created with CREATE_SYNCHRONIZED_SCENE
  * Note: as part of this process the entity's collision will be deactivated. To turn it back on again, use SET_ENTITY_COLLISION or pass
  * a true value to the ActivateCollision parameter of STOP_SYNCHRONISED_ENTITY_ANIM.
+ * 
  * p4 and p7 are usually 1000.0f.
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

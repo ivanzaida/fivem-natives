@@ -3,7 +3,9 @@
  *
  * 0x0752721B56D5DBA3
 
- * Returns defaultValue if the tunable doesn't exist.
+ * 
+ * Returns defaultValue if the tunable doesn't exist.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} contextHash

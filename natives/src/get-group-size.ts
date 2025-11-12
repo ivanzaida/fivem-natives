@@ -5,7 +5,9 @@ import { GroupIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0xE6E9D3B5BEFF0EB3
 
- * p1 may be a BOOL representing whether or not the group even exists
+ * 
+ * p1 may be a BOOL representing whether or not the group even exists
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GroupIndex} uniqueGroupID

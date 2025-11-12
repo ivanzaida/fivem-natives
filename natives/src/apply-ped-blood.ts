@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xFFD554A221AA80F0
 
- * This function assumes you know what component was hit, so I can reverse transform the position into the models space.
+ * 
+ * This function assumes you know what component was hit, so I can reverse transform the position into the models space.
+ * 
  * woundTypes:
  * - soak_splat
  * - wound_sheet
@@ -20,6 +22,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * - BasicSlash
  * - Scripted_Ped_Splash_Back
  * - BackSplash
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

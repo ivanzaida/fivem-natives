@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x15263A2A8A135DF3
 
- * Also known as _RECHARGE_SPECIAL_ABILITY
+ * 
+ * Also known as _RECHARGE_SPECIAL_ABILITY
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -3,7 +3,9 @@
  *
  * 0xD5681045964A2975
 
- * Possible shake types (updated b617d):
+ * 
+ * Possible shake types (updated b617d):
+ * 
  * DEATH_FAIL_IN_EFFECT_SHAKE
  * DRUNK_SHAKE
  * FAMILY5_DRUG_TRIP_SHAKE
@@ -15,7 +17,9 @@
  * ROAD_VIBRATION_SHAKE
  * SKY_DIVING_SHAKE
  * VIBRATE_SHAKE
+ * 
  * Full list of cam shake types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} shakeName

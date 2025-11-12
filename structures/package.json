@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "@ivanzaida/structures",
   "author": "ivanzaida <lurkmorr228@gmail.com>",
   "main": "dist/index.js",

@@ -3,7 +3,9 @@
  *
  * 0x57C238FEAF0677E0
 
- * Gets the identifier for a product
+ * 
+ * Gets the identifier for a product
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

@@ -5,7 +5,9 @@ import { FloatRef, EScriptWaterTestResult } from '@ivanzaida/structures'
  *
  * 0x53875E6971DE2FBF
 
- * See TEST_PROBE_AGAINST_ALL_WATER.
+ * 
+ * See TEST_PROBE_AGAINST_ALL_WATER.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startPosX

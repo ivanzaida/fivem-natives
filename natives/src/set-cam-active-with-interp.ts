@@ -5,7 +5,9 @@ import { CameraIndex, ECameraGraphType } from '@ivanzaida/structures'
  *
  * 0xB56F35D8A770F80F
 
- * Previous declaration void SET_CAM_ACTIVE_WITH_INTERP(Cam camTo, Cam camFrom, int duration, BOOL easeLocation, BOOL easeRotation) is completely wrong. The last two params are integers not BOOLs...
+ * 
+ * Previous declaration void SET_CAM_ACTIVE_WITH_INTERP(Cam camTo, Cam camFrom, int duration, BOOL easeLocation, BOOL easeRotation) is completely wrong. The last two params are integers not BOOLs...
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} destinationCam

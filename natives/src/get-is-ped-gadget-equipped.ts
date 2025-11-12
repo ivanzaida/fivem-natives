@@ -5,7 +5,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0x08DAD6B08438A17C
 
- * gadgetHash - was always 0xFBAB5776 ("GADGET_PARACHUTE").
+ * 
+ * gadgetHash - was always 0xFBAB5776 ("GADGET_PARACHUTE").
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

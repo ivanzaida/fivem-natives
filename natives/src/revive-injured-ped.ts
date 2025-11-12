@@ -5,10 +5,15 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB713CAFC12DED3BE
 
- * This can only be applied to an injured ped
+ * 
+ * This can only be applied to an injured ped
+ * 
  * It will revive/cure the injured ped. The condition is ped must not be dead.
+ * 
  * Upon setting and converting the health int, found, if health falls below 5, the ped will lay on the ground in pain(Maximum default health is 100).
+ * 
  * This function is well suited there.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

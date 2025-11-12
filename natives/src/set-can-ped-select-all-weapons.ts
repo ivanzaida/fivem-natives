@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB21FD0EEB76F0296
 
- * Disable all weapons. Does the same as 0xB4771B9AAF4E68E4 except for all weapons.
+ * 
+ * Disable all weapons. Does the same as 0xB4771B9AAF4E68E4 except for all weapons.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,7 +3,9 @@
  *
  * 0xB7A628320EFF8E47
 
- * Calculates distance between vectors but does not perform Sqrt operations. (Its way faster)
+ * 
+ * Calculates distance between vectors but does not perform Sqrt operations. (Its way faster)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x1

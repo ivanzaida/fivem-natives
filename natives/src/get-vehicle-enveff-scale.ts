@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD1DBD3830272ECAA
 
- * The result is a value from 0-1, where 0 is fresh paint.
+ * 
+ * The result is a value from 0-1, where 0 is fresh paint.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

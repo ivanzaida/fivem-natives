@@ -3,8 +3,10 @@
  *
  * 0xAFF91C9040AC6A43
 
- * Returns whether the UI 3D scene manager is not in use already: only one user can interface with the
+ * 
+ * Returns whether the UI 3D scene manager is not in use already: only one user can interface with the
  * manager at a given time.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

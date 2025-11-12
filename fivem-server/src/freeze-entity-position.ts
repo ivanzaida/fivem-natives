@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x65C16D57
 
- * Freezes or unfreezes an entity preventing its coordinates to change by the player if set to `true`. You can still change the entity position using SET_ENTITY_COORDS.
+ * 
+ * Freezes or unfreezes an entity preventing its coordinates to change by the player if set to `true`. You can still change the entity position using SET_ENTITY_COORDS.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity to freeze/unfreeze.

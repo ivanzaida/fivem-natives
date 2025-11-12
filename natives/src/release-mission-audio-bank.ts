@@ -3,7 +3,9 @@
  *
  * 0xAF648ACD10AB3A0F
 
- * This is a legacy function: please use REQUEST_SCRIPT_AUDIO_BANK instead
+ * 
+ * This is a legacy function: please use REQUEST_SCRIPT_AUDIO_BANK instead
+ * 
  * 
  * ------------------------------------------------------------------
  */

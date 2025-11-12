@@ -5,8 +5,11 @@ import { PedIndex, EEwdrScriptFlags } from '@ivanzaida/structures'
  *
  * 0x761F56E633460973
 
- * Makes ped walk around the area.
+ * 
+ * Makes ped walk around the area.
+ * 
  * set p1 to 10.0f and p2 to 10 if you want the ped to walk anywhere without a duration.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

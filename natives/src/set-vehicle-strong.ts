@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD05AF216D970F274
 
- * If set to true, vehicle will not take crash damage, but is still susceptible to damage from bullets and explosives
+ * 
+ * If set to true, vehicle will not take crash damage, but is still susceptible to damage from bullets and explosives
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x883E603A316F6D3B
 
- * Give agitated action task to the target ped with confront subtask
+ * 
+ * Give agitated action task to the target ped with confront subtask
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} targetPed

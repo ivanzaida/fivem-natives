@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x495131016E1A03BE
 
- * Force the reversing beep to be active, even though the vehicle may not be in reverse gear
+ * 
+ * Force the reversing beep to be active, even though the vehicle may not be in reverse gear
  * (nb. the beep will not actually play unless the vehicle is also moving backwards)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

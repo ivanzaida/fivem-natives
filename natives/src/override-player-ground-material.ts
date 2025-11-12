@@ -3,7 +3,9 @@
  *
  * 0x1E0388A9E6A3BF5B
 
- * Sets audio flag "OverridePlayerGroundMaterial"
+ * 
+ * Sets audio flag "OverridePlayerGroundMaterial"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} overriddenMaterialHash

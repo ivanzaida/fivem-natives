@@ -3,8 +3,11 @@
  *
  * 0x1C18D23E19C76212
 
- * Creating a new post, will wipe any currently open posts
+ * 
+ * Creating a new post, will wipe any currently open posts
+ * 
  * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} captionString

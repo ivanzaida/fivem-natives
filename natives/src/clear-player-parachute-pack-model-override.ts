@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xBDAA517C3D10DB80
 
- * An override for parachute pack model. clears the call to SET_PLAYER_PARACHUTE_MODEL_OVERRIDE.
+ * 
+ * An override for parachute pack model. clears the call to SET_PLAYER_PARACHUTE_MODEL_OVERRIDE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

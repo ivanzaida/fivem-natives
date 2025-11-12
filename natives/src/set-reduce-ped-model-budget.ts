@@ -3,8 +3,10 @@
  *
  * 0x9E635675ADA39E95
 
- * If we are playing back then this loads the list and does
+ * 
+ * If we are playing back then this loads the list and does
  * a load scene for the initial set of objects. If we are recording this initialises the record
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} reduce

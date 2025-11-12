@@ -5,7 +5,9 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0x5766C800B3721367
 
- * Returns true if the specified network id is controlled by someone else.
+ * 
+ * Returns true if the specified network id is controlled by someone else.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

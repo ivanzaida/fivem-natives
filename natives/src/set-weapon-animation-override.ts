@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x06119A351A3080C2
 
- * Changes the selected ped aiming animation style.
+ * 
+ * Changes the selected ped aiming animation style.
  * Note : You must use GET_HASH_KEY!
+ * 
  * Strings to use with GET_HASH_KEY :
+ * 
  *     "Ballistic",
  *     "Default",
  *   "Fat",
@@ -38,6 +41,7 @@ import { PedIndex } from '@ivanzaida/structures'
  *     "Michael",
  *   "SuperFat",
  *  "Trevor"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

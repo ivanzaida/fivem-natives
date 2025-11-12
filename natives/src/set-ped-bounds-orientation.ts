@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xEABB1C18FA028606
 
- * Must be called each frame otherwise ped's mover capsule bound will blend back to the default orientation.
+ * 
+ * Must be called each frame otherwise ped's mover capsule bound will blend back to the default orientation.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

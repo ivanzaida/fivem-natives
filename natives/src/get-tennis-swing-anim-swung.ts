@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x812812F60647A0F8
 
- * If the swing anim has reached the interruptible point.
+ * 
+ * If the swing anim has reached the interruptible point.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

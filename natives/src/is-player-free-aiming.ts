@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x1C751EF63BF4D501
 
- * Gets a value indicating whether the specified player is currently aiming freely.
+ * 
+ * Gets a value indicating whether the specified player is currently aiming freely.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

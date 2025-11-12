@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF5706A3E4A060916
 
- * Allow a MISSION vehicle to disable homing missle targetting (synced over network).
+ * 
+ * Allow a MISSION vehicle to disable homing missle targetting (synced over network).
  * This is a different flag to "SET_VEHICLE_ALLOW_HOMING_MISSLE_LOCKON", please ensure it's set/cleared accordingly!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

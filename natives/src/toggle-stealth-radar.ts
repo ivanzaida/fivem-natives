@@ -3,8 +3,10 @@
  *
  * 0x541F544DCB68FDF2
 
- * This switches between the original GTA4 simple blips for chars
+ * 
+ * This switches between the original GTA4 simple blips for chars
  * and perception cone rendering for chars.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} on

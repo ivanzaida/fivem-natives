@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xD41EE13851E1A5D7
 
- * Retrieve a gamer handle from it's member id representation
+ * 
+ * Retrieve a gamer handle from it's member id representation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} memberId

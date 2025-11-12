@@ -5,7 +5,9 @@ import { EntityIndex, BlipIndex } from '@ivanzaida/structures'
  *
  * 0xCA048D064CB64920
 
- * Returns the Blip handle of given Entity.
+ * 
+ * Returns the Blip handle of given Entity.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

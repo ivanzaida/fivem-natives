@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB44335AF5013DA2A
 
- * Sweat is set to 100.0 or 0.0 in the decompiled scripts.
+ * 
+ * Sweat is set to 100.0 or 0.0 in the decompiled scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,9 +5,13 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x6F0064B122E0462C
 
- * Plays ambient speech. See also _0x5C57B85D.
+ * 
+ * Plays ambient speech. See also _0x5C57B85D.
+ * 
  * See PLAY_PED_AMBIENT_SPEECH_NATIVE for parameter specifications.
+ * 
  * Full list of speeches and voices names by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/speeches.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

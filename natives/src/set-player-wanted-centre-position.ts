@@ -5,12 +5,15 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xEFE2B06D5134CD46
 
- * # Predominant call signatures
+ * 
+ * # Predominant call signatures
  * PLAYER::SET_PLAYER_WANTED_CENTRE_POSITION(PLAYER::PLAYER_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 1));
+ * 
  * # Parameter value ranges
  * P0: PLAYER::PLAYER_ID()
  * P1: ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 1)
  * P2: Not set by any call
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

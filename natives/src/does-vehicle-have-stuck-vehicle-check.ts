@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x67AC1AE8A2697D67
 
- * Maximum amount of vehicles with vehicle stuck check appears to be 16.
+ * 
+ * Maximum amount of vehicles with vehicle stuck check appears to be 16.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

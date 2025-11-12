@@ -5,8 +5,10 @@ import { PedIndex, EChatFlags } from '@ivanzaida/structures'
  *
  * 0x4663BE37E4E93BC6
 
- * p2 tend to be 16, 17 or 1
+ * 
+ * p2 tend to be 16, 17 or 1
  * p3 to p7 tend to be 0.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

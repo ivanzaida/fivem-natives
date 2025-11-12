@@ -5,8 +5,10 @@ import { EPlayerListType } from '@ivanzaida/structures'
  *
  * 0xAD5E28295E97B3FB
 
- * Checks for when the playerlist changes, and triggers for the new stats to be grabbed.
+ * 
+ * Checks for when the playerlist changes, and triggers for the new stats to be grabbed.
  * Returns true when the Player List is up to date.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPlayerListType} type

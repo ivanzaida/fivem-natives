@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x9B1FD51B92E0C07E
 
- * The behaviour will be the same as TASK_STAND_GUARD, but will only patrol inside the defensive area and inside fMaxPatrolProximity, if the ped shouldn't patrol the area, set fMaxPatrolProximity to 0.0
+ * 
+ * The behaviour will be the same as TASK_STAND_GUARD, but will only patrol inside the defensive area and inside fMaxPatrolProximity, if the ped shouldn't patrol the area, set fMaxPatrolProximity to 0.0
  * The area is specified using vAreaCentre and fAreaRadius the same format as SET_PED_SPHERE_DEFENSIVE_AREA.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

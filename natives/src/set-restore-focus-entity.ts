@@ -5,10 +5,12 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x9E3DFB4BEB42BEDF
 
- * The game focus is used for loading map data, collisions, object population etc.
+ * 
+ * The game focus is used for loading map data, collisions, object population etc.
  * This command overrides it for the specified entity.
  * Special case - on player switch termination script may want to restore
  * focus to a specific ped rather than the default current player ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,7 +3,8 @@
  *
  * 0xE2E1B9096BCD8C5C
 
- * Parameters:
+ * 
+ * Parameters:
  *  pos - coordinate where the spotlight is located
  *  dir - the direction vector the spotlight should aim at from its current position
  *  r,g,b - color of the spotlight
@@ -12,6 +13,7 @@
  *  roundness - "smoothness" of the circle edge
  *  radius - the radius size of the spotlight
  *  falloff - the falloff size of the light's edge (example: www.i.imgur.com/DemAWeO.jpg)
+ * 
  * Example in C# (spotlight aims at the closest vehicle):
  * Vector3 myPos = Game.Player.Character.Position;
  * Vehicle nearest = World.GetClosestVehicle(myPos , 1000f);
@@ -19,6 +21,7 @@
  * Vector3 dirVector = destinationCoords - myPos;
  * dirVector.Normalize();
  * Function.Call(Hash.DRAW_SPOT_LIGHT, pos.X, pos.Y, pos.Z, dirVector.X, dirVector.Y, dirVector.Z, 255, 255, 255, 100.0f, 1f, 0.0f, 13.0f, 1f);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

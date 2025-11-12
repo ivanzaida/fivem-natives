@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x14A90D05363A2A09
 
- * HAS_ANIM_EVENT_FIRED requires the entity to have an anim director. You can use this command
+ * 
+ * HAS_ANIM_EVENT_FIRED requires the entity to have an anim director. You can use this command
  * to check that the entity has an anim director before calling that command.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

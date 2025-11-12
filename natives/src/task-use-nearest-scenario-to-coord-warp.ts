@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xCDA51E8BE6E5790A
 
- * Make sure the scenario point or objects its attached to is loaded at the time.
+ * 
+ * Make sure the scenario point or objects its attached to is loaded at the time.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

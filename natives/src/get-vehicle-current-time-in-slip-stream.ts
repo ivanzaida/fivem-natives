@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8A278879AFDDD37B
 
- * Returns a float value between 0.0 and 3.0 related to its slipstream draft (boost/speedup).
+ * 
+ * Returns a float value between 0.0 and 3.0 related to its slipstream draft (boost/speedup).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

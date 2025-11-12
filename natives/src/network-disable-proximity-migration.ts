@@ -5,8 +5,10 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0xF35461D41398F92C
 
- * Prevents the entity dynamically migrating to nearby players, it can still migrate by other means. You need to call this every frame
+ * 
+ * Prevents the entity dynamically migrating to nearby players, it can still migrate by other means. You need to call this every frame
  * while you need it disabled
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

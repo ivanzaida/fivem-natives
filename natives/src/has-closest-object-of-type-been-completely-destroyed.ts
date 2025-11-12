@@ -5,8 +5,10 @@ import { ModelNames, ESearchLocationFlags } from '@ivanzaida/structures'
  *
  * 0xF701B83DA32F7F87
 
- * Does a world search and returns TRUE if the closest fraggable object with the specified model has had all breakable bits
+ * 
+ * Does a world search and returns TRUE if the closest fraggable object with the specified model has had all breakable bits
  * broken off.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scrVecCoorsX

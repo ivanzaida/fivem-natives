@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7F9BCC1F05831CC1
 
- * Sets the ideal pursuit distance when chasing a vehicle. The ped must be running TASK_VEHICLE_CHASE.
+ * 
+ * Sets the ideal pursuit distance when chasing a vehicle. The ped must be running TASK_VEHICLE_CHASE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

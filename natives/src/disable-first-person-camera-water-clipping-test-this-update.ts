@@ -3,7 +3,9 @@
  *
  * 0xFFFF1D7E51F1970B
 
- * Sets some flag on cinematic camera
+ * 
+ * Sets some flag on cinematic camera
+ * 
  * 
  * ------------------------------------------------------------------
  */

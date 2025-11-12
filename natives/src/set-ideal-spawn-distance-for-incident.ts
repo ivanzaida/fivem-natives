@@ -5,7 +5,9 @@ import { IncidentIndex } from '@ivanzaida/structures'
  *
  * 0xBF2292E4C98122D5
 
- * Sets the ideal spawn distance for the incident
+ * 
+ * Sets the ideal spawn distance for the incident
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IncidentIndex} incident

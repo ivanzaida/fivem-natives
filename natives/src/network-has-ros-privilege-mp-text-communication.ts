@@ -3,7 +3,9 @@
  *
  * 0xD9719341663C385F
 
- * Checks for privilege 29
+ * 
+ * Checks for privilege 29
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

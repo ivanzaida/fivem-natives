@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xD80C3522AC21FDB8
 
- * Removes a previously created model swap, if one exists and matches exactly
+ * 
+ * Removes a previously created model swap, if one exists and matches exactly
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

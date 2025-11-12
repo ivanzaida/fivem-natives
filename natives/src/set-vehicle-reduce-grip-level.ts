@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xFCF78891ECB409E9
 
- * val is 0-3
+ * 
+ * val is 0-3
  * Often used in conjunction with: SET_VEHICLE_REDUCE_GRIP
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

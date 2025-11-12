@@ -5,8 +5,11 @@ import { TimeDatatype } from '@ivanzaida/structures'
  *
  * 0xAD5B43C219C4CB92
 
- * Returns a time datatype variable offset by Offset milliseconds
+ * 
+ * Returns a time datatype variable offset by Offset milliseconds
+ * 
  * Adds the first argument to the second.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {TimeDatatype} time1

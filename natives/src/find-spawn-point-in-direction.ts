@@ -6,10 +6,13 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x604F09F8F9DA5404
 
- * Finds a spawn point in a given direction
+ * 
+ * Finds a spawn point in a given direction
+ * 
  * Finds a position ahead of the player by predicting the players next actions.
  * The positions match path finding node positions.
  * When roads diverge, the position may rapidly change between two or more positions. This is due to the engine not being certain of which path the player will take.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

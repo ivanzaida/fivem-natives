@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD93B65D497A805BA
 
- * Gets the hash of the voice name in use by Audio
+ * 
+ * Gets the hash of the voice name in use by Audio
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

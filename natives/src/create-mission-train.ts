@@ -5,14 +5,17 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x767956351E028F74
 
- * Train models HAVE TO be loaded (requested) before you use this.
+ * 
+ * Train models HAVE TO be loaded (requested) before you use this.
  * For variation 15 - request:
+ * 
  * freight
  * freightcar
  * freightgrain
  * freightcont1
  * freightcont2
  * freighttrailer
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} carriageConfiguration

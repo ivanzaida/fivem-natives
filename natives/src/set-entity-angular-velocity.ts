@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x7B6B10D7260C93CF
 
- * The ang speeds are measured in degrees ( in radians ) per frame.
+ * 
+ * The ang speeds are measured in degrees ( in radians ) per frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

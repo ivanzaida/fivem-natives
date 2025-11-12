@@ -3,7 +3,9 @@
  *
  * 0x9544C7327A08C661
 
- * displays wanted star above head
+ * 
+ * displays wanted star above head
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} playerNum

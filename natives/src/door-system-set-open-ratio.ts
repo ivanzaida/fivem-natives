@@ -3,9 +3,11 @@
  *
  * 0x3A15B21067339E98
 
- * Sets the ajar angle of a door.
+ * 
+ * Sets the ajar angle of a door.
  * Ranges from -1.0 to 1.0, and 0.0 is closed / default.
  * `forceUpdate` on true invokes DOOR_SYSTEM_SET_DOOR_STATE otherwise requestDoor is unused.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

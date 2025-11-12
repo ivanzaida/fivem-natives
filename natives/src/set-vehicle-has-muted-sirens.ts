@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xBC5009F300C00558
 
- * If set to true, prevents vehicle sirens from having sound, leaving only the lights.
+ * 
+ * If set to true, prevents vehicle sirens from having sound, leaving only the lights.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

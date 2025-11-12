@@ -5,7 +5,9 @@ import { FloatRef } from '@ivanzaida/structures'
  *
  * 0x7CF3DDFB660E9328
 
- * This command does not take the waves into account so the result will be the same between different frames
+ * 
+ * This command does not take the waves into account so the result will be the same between different frames
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

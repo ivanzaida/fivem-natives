@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x579FA5568DE0C2A0
 
- * Checks via CVehicleModelInfo
+ * 
+ * Checks via CVehicleModelInfo
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

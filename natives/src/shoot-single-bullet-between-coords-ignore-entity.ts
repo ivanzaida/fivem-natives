@@ -5,7 +5,9 @@ import { EWeaponType, PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x2D8982A81816E618
 
- * entity - entity to ignore
+ * 
+ * entity - entity to ignore
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startCoorsX

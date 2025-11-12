@@ -3,10 +3,14 @@
  *
  * 0x43C8A7F0D458B663
 
- * Toggles whether random trains are created for the specified train track
+ * 
+ * Toggles whether random trains are created for the specified train track
+ * 
  * Toggles whether ambient trains can spawn on the specified track or not
+ * 
  * `trackId` is the internal id of the train track to switch.
  * `state` is whether ambient trains can spawn or not
+ * 
  * trackIds
  * 0 (`trains1.dat`) Main track around SA
  * 1 (`trains2.dat`) Davis Quartz Quarry branch
@@ -21,6 +25,7 @@
  * 10 (`trains11.dat`) Part of metro track near mission row
  * 11 (`trains12.dat`) Yankton prologue mission train
  * Full list of all train tracks + track nodes by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/traintracks.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} track

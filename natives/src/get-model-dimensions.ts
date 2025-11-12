@@ -6,9 +6,13 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0xC93BAF616F1C680F
 
- * Gets the dimensions of a model.
+ * 
+ * Gets the dimensions of a model.
+ * 
  * Calculate (maximum - minimum) to get the size, in which case, Y will be how long the model is.
+ * 
  * Example from the scripts: MISC::GET_MODEL_DIMENSIONS(ENTITY::GET_ENTITY_MODEL(PLAYER::PLAYER_PED_ID()), &v_1A, &v_17);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} modelHashKey

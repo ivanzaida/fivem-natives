@@ -5,11 +5,14 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x31240ACBC2A082EA
 
- * Modifies the player special ability meter with a medium charge.
+ * 
+ * Modifies the player special ability meter with a medium charge.
  * If increment is true it will add a charge other remove.
  * If ignoreActive is true the charge will be added even if the ability is currently active
  * otherwise command is ignored.
+ * 
  * Only 1 match. Both p1 & p2 were true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

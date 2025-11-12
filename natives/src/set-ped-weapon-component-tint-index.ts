@@ -5,7 +5,8 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
  *
  * 0x834F4286803834DE
 
- * Colors:
+ * 
+ * Colors:
  * 0 = Gray
  * 1 = Dark Gray
  * 2 = Black
@@ -39,6 +40,7 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
  * 30 = Turquoise
  * 31 = Dark Green
  * Full list of weapons, components, tint indexes & weapon liveries by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

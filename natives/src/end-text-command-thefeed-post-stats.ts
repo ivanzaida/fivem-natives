@@ -5,8 +5,10 @@ import { EAbilityIcon } from '@ivanzaida/structures'
  *
  * 0x0AAAE599E05E67D2
 
- * List of picture names: https://pastebin.com/XdpJVbHz
+ * 
+ * List of picture names: https://pastebin.com/XdpJVbHz
  * Example result: https://i.imgur.com/SdEZ22m.png
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} titleString

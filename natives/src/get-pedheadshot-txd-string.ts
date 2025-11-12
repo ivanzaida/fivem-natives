@@ -5,7 +5,9 @@ import { PedheadshotId } from '@ivanzaida/structures'
  *
  * 0x008C0EB38E4459EE
 
- * gtaforums.com/topic/885580-ped-headshotmugshot-txd/
+ * 
+ * gtaforums.com/topic/885580-ped-headshotmugshot-txd/
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedheadshotId} headshotId

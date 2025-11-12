@@ -3,8 +3,10 @@
  *
  * 0x5ADE92AC7A2490B6
 
- * Returns TRUE if the script file can be found on disc
+ * 
+ * Returns TRUE if the script file can be found on disc
  * Does the same as DOES_SCRIPT_EXIST but takes an integer containing the hash of the script name instead of the name as a string.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} hashOfScriptName

@@ -3,7 +3,9 @@
  *
  * 0x0BE32015EBE87354
 
- * Does nothing. It's a nullsub.
+ * 
+ * Does nothing. It's a nullsub.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} shuntOnStick

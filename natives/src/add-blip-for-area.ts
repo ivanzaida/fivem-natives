@@ -5,13 +5,19 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xAF737D3DF3BD2AD0
 
- * Adds a rectangular blip for the specified coordinates/area.
+ * 
+ * Adds a rectangular blip for the specified coordinates/area.
+ * 
  * It is recommended to use SET_BLIP_ROTATION and SET_BLIP_COLOUR to make the blip not rotate along with the camera.
+ * 
  * By default, the blip will show as a _regular_ blip with the specified color/sprite if it is outside of the minimap view.
+ * 
  * Example image:
  * minimap https://w.wew.wtf/pdcjig.png
  * big map https://w.wew.wtf/zgcjcm.png
+ * 
  * (Native name is _likely_ to actually be ADD_BLIP_FOR_AREA, but due to the usual reasons this can't be confirmed)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

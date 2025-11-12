@@ -5,11 +5,15 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x389EF71
 
- * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
+ * 
+ * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
  * ScriptHostObject:		If true, this object has been created by the host portion of a network script and is vital to that script - it must always exist regardless of who is hosting the script.
  * If false, the object has been created by the client portion of a network script and can be removed when the client who created it leaves the script session.
+ * 
  * https://alloc8or.re/gta5/doc/enums/ePedType.txt
+ * 
  * Full list of peds by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/peds.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pedType Unused. Peds get set to CIVMALE/CIVFEMALE/etc. no matter the value specified.

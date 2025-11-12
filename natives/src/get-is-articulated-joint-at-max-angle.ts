@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xA06DCC0EBCEFF7EA
 
- * Returns true if the joint in the object is at its maximum angle
+ * 
+ * Returns true if the joint in the object is at its maximum angle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

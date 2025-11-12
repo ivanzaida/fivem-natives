@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0x677540FE33795D26
 
- * Retrieve the local players gamer handle (this will be invalid if no local player is signed in)
+ * 
+ * Retrieve the local players gamer handle (this will be invalid if no local player is signed in)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

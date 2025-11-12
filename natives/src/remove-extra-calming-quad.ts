@@ -3,7 +3,9 @@
  *
  * 0x6880878FB8B44799
 
- * p0 is the handle returned from ADD_EXTRA_CALMING_QUAD
+ * 
+ * p0 is the handle returned from ADD_EXTRA_CALMING_QUAD
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} idx

@@ -3,8 +3,10 @@
  *
  * 0xF4DE15907AAE2E3A
 
- * Realtime Multiplayer
+ * 
+ * Realtime Multiplayer
  * This should be called every frame that real time multiplayer should be disabled
+ * 
  * 
  * ------------------------------------------------------------------
  */

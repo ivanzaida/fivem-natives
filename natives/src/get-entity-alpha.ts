@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x3D2DD3A02C8AA9A8
 
- * Return the alpha of an entity
+ * 
+ * Return the alpha of an entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

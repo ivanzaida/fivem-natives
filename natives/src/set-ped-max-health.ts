@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x36A20106D0B42723
 
- * Sets the maximum health of a ped.
+ * 
+ * Sets the maximum health of a ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

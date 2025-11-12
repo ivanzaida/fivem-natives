@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xC0086E5CBF13BBF7
 
- * Use this to remove an entity from a synchronized scene
+ * 
+ * Use this to remove an entity from a synchronized scene
+ * 
  * p1 sync task id?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,9 +5,12 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xDECEB0709855F876
 
- * Checks if the entity is a specific zone on the map.
+ * 
+ * Checks if the entity is a specific zone on the map.
  * If the entity is a ped in a vehicle, then the coords of the vehicle are used in the check.
+ * 
  * Full list of zones by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/zones.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,8 +3,10 @@
  *
  * 0xB8BA7F44DF1575E1
 
- * return : script thread id, 0 if failed
+ * 
+ * return : script thread id, 0 if failed
  * Pass pointer to struct of args in p1, size of struct goes into p2
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptName

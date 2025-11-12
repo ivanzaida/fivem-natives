@@ -3,7 +3,9 @@
  *
  * 0x8349F3048B5A74C7
 
- * this applies an override indefinitely, so turn it off with an fPercentage of -1 (any negative value)
+ * 
+ * this applies an override indefinitely, so turn it off with an fPercentage of -1 (any negative value)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} percentage

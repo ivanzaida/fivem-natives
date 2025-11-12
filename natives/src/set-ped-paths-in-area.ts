@@ -3,7 +3,9 @@
  *
  * 0x79CA429D8B4B057A
 
- * When a path is switched off, no peds will be created on it and peds that already exist will not use this path to get to a destination.
+ * 
+ * When a path is switched off, no peds will be created on it and peds that already exist will not use this path to get to a destination.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minCoorsX

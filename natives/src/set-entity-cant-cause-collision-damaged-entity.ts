@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x37419414971A4C4B
 
- * Sets an entity to not have collision damage from the other entity
+ * 
+ * Sets an entity to not have collision damage from the other entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

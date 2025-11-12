@@ -5,9 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB0EBCEBA08F63848
 
- * Makes this vehicle cause ambient vehicles that get in its way to hurry away.
+ * 
+ * Makes this vehicle cause ambient vehicles that get in its way to hurry away.
  * Does not affect mission vehicles
  * This is a reset flag, it must be called each frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

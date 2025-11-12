@@ -5,7 +5,9 @@ import { ESwitchType } from '@ivanzaida/structures'
  *
  * 0x1403FEB4554982F8
 
- * returns the type of currently active player switch
+ * 
+ * returns the type of currently active player switch
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {ESwitchType}  

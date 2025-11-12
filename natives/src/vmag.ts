@@ -3,7 +3,9 @@
  *
  * 0x652D2EEEF1D3E62C
 
- * Calculates the magnitude of a vector.
+ * 
+ * Calculates the magnitude of a vector.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

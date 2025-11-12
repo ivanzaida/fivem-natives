@@ -3,9 +3,13 @@
  *
  * 0xB661D6EC3F065818
 
- * Begins the text command for the busy spinner.
+ * 
+ * Begins the text command for the busy spinner.
  * End with END_TEXT_COMMAND_BUSYSPINNER_ON.
+ * 
  * Initializes the text entry for the the text next to a loading prompt. All natives for building UI texts can be used here
+ * 
+ * 
  * e.g
  * void StartLoadingMessage(char text, int spinnerType = 3)
  *   {
@@ -22,6 +26,8 @@
  *         WAIT(timeMs);
  *      BUSYSPINNER_OFF();
  *  }
+ * 
+ * 
  * These are some localized strings used in the loading spinner.
  * "PM_WAIT"                   = Please Wait
  * "CELEB_WPLYRS"              = Waiting For Players.
@@ -37,6 +43,7 @@
  * "HUD_QUITTING"                           =  Quiting session
  * "KILL_STRIP_IDM"                         = Waiting for to accept
  * "MP_SPINLOADING"                      = Loading
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mainTextLabel

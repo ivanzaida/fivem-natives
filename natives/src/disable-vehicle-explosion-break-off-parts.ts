@@ -3,8 +3,10 @@
  *
  * 0x5CB3E2A3FC6B7543
 
- * Disables parts breaking off during vehicle explosion. Helps in reducing cost of physics
+ * 
+ * Disables parts breaking off during vehicle explosion. Helps in reducing cost of physics
  * This should be called every frame as the code re-enables this in every frame
+ * 
  * 
  * ------------------------------------------------------------------
  */

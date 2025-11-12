@@ -3,7 +3,9 @@
  *
  * 0x20D6C2B867DA2FCA
 
- * p3 could be heading. Needs more research.
+ * 
+ * p3 could be heading. Needs more research.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xE423A13CB489E307
 
- * Returns index of the current vehicle's secondary livery. A getter for SET_VEHICLE_LIVERY2.
+ * 
+ * Returns index of the current vehicle's secondary livery. A getter for SET_VEHICLE_LIVERY2.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

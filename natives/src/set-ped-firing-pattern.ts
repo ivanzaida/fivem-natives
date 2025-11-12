@@ -5,7 +5,8 @@ import { PedIndex, EFiringPatternHash } from '@ivanzaida/structures'
  *
  * 0x675B6F5098262382
 
- * FIRING_PATTERN_BURST_FIRE = 0xD6FF6D61 ( 1073727030 )
+ * 
+ * FIRING_PATTERN_BURST_FIRE = 0xD6FF6D61 ( 1073727030 )
  * FIRING_PATTERN_BURST_FIRE_IN_COVER = 0x026321F1 ( 40051185 )
  * FIRING_PATTERN_BURST_FIRE_DRIVEBY = 0xD31265F2 ( -753768974 )
  * FIRING_PATTERN_FROM_GROUND = 0x2264E5D6 ( 577037782 )
@@ -21,7 +22,9 @@ import { PedIndex, EFiringPatternHash } from '@ivanzaida/structures'
  * FIRING_PATTERN_BURST_FIRE_MICRO = 0x42EF03FD ( 1122960381 )
  * FIRING_PATTERN_SHORT_BURSTS = 0x1A92D7DF ( 445831135 )
  * FIRING_PATTERN_SLOW_FIRE_TANK = 0xE2CA3A71 ( -490063247 )
+ * 
  * Firing pattern info: https://pastebin.com/Px036isB
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

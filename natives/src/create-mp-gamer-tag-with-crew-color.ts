@@ -3,7 +3,9 @@
  *
  * 0xBC529C919C370B10
 
- * clanFlag: takes a number 0-5
+ * 
+ * clanFlag: takes a number 0-5
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} playerNum

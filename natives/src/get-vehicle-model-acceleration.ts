@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x1C6BE134527C543C
 
- * Returns the acceleration of the specified model.
+ * 
+ * Returns the acceleration of the specified model.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

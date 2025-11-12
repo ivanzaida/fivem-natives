@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x10BAD2FED582B598
 
- * Used to query driveby tasks given by TASK_DRIVE_BY with bPushUnderneathDrivingTaskIfDriving set on peds driving
+ * 
+ * Used to query driveby tasks given by TASK_DRIVE_BY with bPushUnderneathDrivingTaskIfDriving set on peds driving
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

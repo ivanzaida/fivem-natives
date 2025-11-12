@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xD3CE8D1E6564B011
 
- * To check if the model is an amphibious car, use IS_THIS_MODEL_AN_AMPHIBIOUS_CAR.
+ * 
+ * To check if the model is an amphibious car, use IS_THIS_MODEL_AN_AMPHIBIOUS_CAR.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

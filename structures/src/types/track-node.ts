@@ -1,0 +1,1 @@
+export type TrackNode = { nodeIndex: number, trackId: number };

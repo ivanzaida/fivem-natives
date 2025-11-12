@@ -3,7 +3,9 @@
  *
  * 0x29F4FA4B0206645D
 
- * Displays cash change notifications on HUD.
+ * 
+ * Displays cash change notifications on HUD.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} fakeWalletDifference

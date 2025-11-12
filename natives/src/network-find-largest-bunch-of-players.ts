@@ -6,7 +6,9 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x644DD5C4A28FAEF3
 
- * p0 is always 0. p1 is pointing to a global.
+ * 
+ * p0 is always 0. p1 is pointing to a global.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} friendly

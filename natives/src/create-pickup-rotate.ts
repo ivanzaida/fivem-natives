@@ -5,12 +5,16 @@ import { EPickupType, EEulerRotOrder, ModelNames, PickupIndex } from '@ivanzaida
  *
  * 0x6FCBED6282FF5DA5
 
- * Creates a pickup spawner which can be referenced by the script and will spawn a pickup whenever the player gets near. This spawner can also
+ * 
+ * Creates a pickup spawner which can be referenced by the script and will spawn a pickup whenever the player gets near. This spawner can also
  * regenerate the pickup after it is collected. The spawner is removed when the script terminates.
+ * 
  * flags:
  * 8 (1 << 3): place on ground
  * 512 (1 << 9): spin around
+ * 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} type

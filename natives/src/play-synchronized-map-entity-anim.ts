@@ -5,11 +5,15 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xB75A7F8E568F3BE6
 
- * Use this to add an entity with a specifically authored anim to a synchronized scene created with CREATE_SYNCHRONIZED_SCENE
+ * 
+ * Use this to add an entity with a specifically authored anim to a synchronized scene created with CREATE_SYNCHRONIZED_SCENE
  * Note: as part of this process the entity's collision will be deactivated. To turn it back on again, use SET_ENTITY_COLLISION or pass
  * a true value to the ActivateCollision parameter of STOP_SYNCHRONISED_ENTITY_ANIM.
+ * 
  * p6,p7 probably animname and animdict
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

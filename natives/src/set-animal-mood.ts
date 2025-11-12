@@ -5,7 +5,9 @@ import { PedIndex, EAudAnimalMood } from '@ivanzaida/structures'
  *
  * 0xB66A5C25E8DCC180
 
- * mood can be 0 or 1 (it's not a boolean value!). Effects audio of the animal.
+ * 
+ * mood can be 0 or 1 (it's not a boolean value!). Effects audio of the animal.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

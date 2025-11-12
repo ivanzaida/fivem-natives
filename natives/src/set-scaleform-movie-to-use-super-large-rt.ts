@@ -5,8 +5,11 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0x6CDCD138191E7A06
 
- * sets that the scaleform movie will be rendered to a super large render target (2048x1024)
+ * 
+ * sets that the scaleform movie will be rendered to a super large render target (2048x1024)
+ * 
  * This native is used in some casino scripts to fit the scaleform in the rendertarget.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

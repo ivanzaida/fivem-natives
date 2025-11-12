@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB79D107D2E0D7E43
 
- * No observed effect.
+ * 
+ * No observed effect.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x5C61336874E84777
 
- * name: "MP_FEMALE_ACTION" found multiple times in the b617d scripts.
+ * 
+ * name: "MP_FEMALE_ACTION" found multiple times in the b617d scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

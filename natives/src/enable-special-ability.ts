@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE0A0D0E41195BAC0
 
- * A disabled special ability will allow the meter to be filled/depleted but the player can't activate the ability.
+ * 
+ * A disabled special ability will allow the meter to be filled/depleted but the player can't activate the ability.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

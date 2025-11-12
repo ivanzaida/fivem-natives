@@ -3,8 +3,11 @@
  *
  * 0x3A9A35C27C7B6D3C
 
- * This command works in the same way as FORCE_CLEANUP but only affects script threads with the given name
+ * 
+ * This command works in the same way as FORCE_CLEANUP but only affects script threads with the given name
+ * 
  * PLAYER::FORCE_CLEANUP_FOR_ALL_THREADS_WITH_THIS_NAME("pb_prostitute", 1); // Found in decompilation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} name

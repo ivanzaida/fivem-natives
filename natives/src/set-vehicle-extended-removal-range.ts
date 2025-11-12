@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8C1172B230F4EB1A
 
- * Max value is 32767
+ * 
+ * Max value is 32767
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

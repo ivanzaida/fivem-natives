@@ -5,7 +5,9 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0x465DA23A52B88B07
 
- * p1 always true.
+ * 
+ * p1 always true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

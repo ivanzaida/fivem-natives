@@ -3,7 +3,9 @@
  *
  * 0xED11291F7127888E
 
- * Sets profile setting 866
+ * 
+ * Sets profile setting 866
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} value

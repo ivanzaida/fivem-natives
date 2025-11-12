@@ -3,7 +3,9 @@
  *
  * 0x144FBCDDF1717161
 
- * This function is hard-coded to always return 0.
+ * 
+ * This function is hard-coded to always return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

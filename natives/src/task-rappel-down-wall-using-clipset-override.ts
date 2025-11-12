@@ -5,10 +5,13 @@ import { PedIndex, RopeIndex } from '@ivanzaida/structures'
  *
  * 0x82F4A39274853E9D
 
- * This command handles rappelling down the side of a building given a specific rope and a desired height
+ * 
+ * This command handles rappelling down the side of a building given a specific rope and a desired height
  * The specified ped will need to be in position prior to calling this task, otherwise he/she will be warped
+ * 
  * Attaches a ped to a rope and allows player control to rappel down a wall. Disables all collisions while on the rope.
  * p10: Usually 1 in the scripts, clipSet: Clipset to use for the task, minZ: Minimum Z that the player can descend to, ropeHandle: Rope to attach this task to created with ADD_ROPE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

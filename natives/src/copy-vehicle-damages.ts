@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF9639F1B33AF0EF8
 
- * Copies sourceVehicle's damage (broken bumpers, broken lights, etc.) to targetVehicle.
+ * 
+ * Copies sourceVehicle's damage (broken bumpers, broken lights, etc.) to targetVehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} srcVehicle

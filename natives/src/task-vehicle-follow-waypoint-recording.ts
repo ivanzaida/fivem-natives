@@ -5,7 +5,8 @@ import { PedIndex, VehicleIndex, EDrivingmode, EEwaypointFollowFlags } from '@iv
  *
  * 0x43E9B2BD3668B432
 
- * p2 = Waypoint recording string (found in update\update.rpf\x64\levels\gta5\waypointrec.rpf
+ * 
+ * p2 = Waypoint recording string (found in update\update.rpf\x64\levels\gta5\waypointrec.rpf
  * p3 = 786468
  * p4 = 0
  * p5 = 16
@@ -13,7 +14,9 @@ import { PedIndex, VehicleIndex, EDrivingmode, EEwaypointFollowFlags } from '@iv
  * p7/8/9 = usually v3.zero
  * p10 = bool (repeat?)
  * p11 = 1073741824
+ * 
  * Full list of waypoint recordings by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/waypointRecordings.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

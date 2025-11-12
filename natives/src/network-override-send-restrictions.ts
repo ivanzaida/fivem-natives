@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x7453501DC1481684
 
- * This is used alongside the native,
+ * 
+ * This is used alongside the native,
  * 'NETWORK_OVERRIDE_RECEIVE_RESTRICTIONS'. Read its description for more info.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} playerID

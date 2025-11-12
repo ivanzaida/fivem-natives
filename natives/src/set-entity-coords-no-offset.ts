@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x62C438C53BB57AFD
 
- * If you set the z component of VecNewCoors to INVALID_WORLD_Z  this command to automatically find the ground z for your entity if there is collision.
+ * 
+ * If you set the z component of VecNewCoors to INVALID_WORLD_Z  this command to automatically find the ground z for your entity if there is collision.
+ * 
  * Axis - Invert Axis Flags
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

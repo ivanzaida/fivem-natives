@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x5D0510F58106E4FF
 
- * Set if auto-give the player scuba gear when he exits certain vehicles.
+ * 
+ * Set if auto-give the player scuba gear when he exits certain vehicles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

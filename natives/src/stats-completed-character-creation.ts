@@ -3,7 +3,9 @@
  *
  * 0xCD2B99375CA577C6
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} char

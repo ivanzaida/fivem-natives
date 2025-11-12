@@ -3,7 +3,9 @@
  *
  * 0x56943E0C3826FD0D
 
- * Used to prevent delays for missions peds getting in stealth mode, forcing stealth mode
+ * 
+ * Used to prevent delays for missions peds getting in stealth mode, forcing stealth mode
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} stealthMode

@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xF7323733F48D067F
 
- * See https://imgur.com/a/lLkEsMN
+ * 
+ * See https://imgur.com/a/lLkEsMN
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

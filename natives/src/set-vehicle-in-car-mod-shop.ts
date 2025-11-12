@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x20DA3970E29472BE
 
- * If set to TRUE, it seems to suppress door noises and doesn't allow the horn to be continuous.
+ * 
+ * If set to TRUE, it seems to suppress door noises and doesn't allow the horn to be continuous.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

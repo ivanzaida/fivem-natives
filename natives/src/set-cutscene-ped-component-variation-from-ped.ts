@@ -5,9 +5,11 @@ import { PedIndex, ModelNames } from '@ivanzaida/structures'
  *
  * 0x2F19C4305F0B8DA7
 
- * Always apply this to the CS version, all cs variations will be copied to the ig version, if one is present.
+ * 
+ * Always apply this to the CS version, all cs variations will be copied to the ig version, if one is present.
  * Use CAN_REQUEST_ASSETS_FOR_CUTSCENE_ENTITY to be sure that the variation request has been made
  * as this command only returns true FOR A SINGLE FRAME.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} sceneHandle

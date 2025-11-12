@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x22E252733390A9A9
 
- * Max 1000.
+ * 
+ * Max 1000.
  * At 0 the main rotor will stall.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

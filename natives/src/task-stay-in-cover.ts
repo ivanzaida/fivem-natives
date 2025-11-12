@@ -5,11 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x115CA3B4F950226D
 
- * This task will cause the ped to continuously look for cover within their defensive area, the defensive area can be moved
+ * 
+ * This task will cause the ped to continuously look for cover within their defensive area, the defensive area can be moved
  * and the ped will move to within the new area.
  * If the defensive area has a direction the ped will always seek cover from that direction.
  * This can only be called on a ped which has a valid defensive area.
+ * 
  * Makes the ped run to take cover
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

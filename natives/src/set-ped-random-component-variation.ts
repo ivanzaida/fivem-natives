@@ -5,10 +5,14 @@ import { PedIndex, EPedRaceType } from '@ivanzaida/structures'
  *
  * 0xC6E8E1D693021E9E
 
- * Ensures that any skin tones which appear in different textures will be consistent for a characte
+ * 
+ * Ensures that any skin tones which appear in different textures will be consistent for a characte
+ * 
  * p1 is always 0 in R scripts.
+ * 
  * List of component/props ID
  * gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

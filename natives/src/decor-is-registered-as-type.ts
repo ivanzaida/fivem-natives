@@ -5,7 +5,9 @@ import { EDecoratorTypes } from '@ivanzaida/structures'
  *
  * 0x77B62CAA5DF0922A
 
- * type: see DECOR_REGISTER
+ * 
+ * type: see DECOR_REGISTER
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} decoratorName

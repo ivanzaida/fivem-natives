@@ -5,7 +5,9 @@ import { EEScriptHudComponent } from '@ivanzaida/structures'
  *
  * 0x98930EDD857375BF
 
- * Requests that a scaleform script hud movie is streamed in
+ * 
+ * Requests that a scaleform script hud movie is streamed in
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEScriptHudComponent} componentId

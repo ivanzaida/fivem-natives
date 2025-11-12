@@ -3,7 +3,9 @@
  *
  * 0x0859E74838FA7854
 
- * Gets whether the order of DLC has ever been bad since the session started
+ * 
+ * Gets whether the order of DLC has ever been bad since the session started
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

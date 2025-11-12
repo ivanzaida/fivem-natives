@@ -3,8 +3,10 @@
  *
  * 0x26BBBC01C3E132A7
 
- * Shows/hides the frontend cursor on the pause menu or similar menus.
+ * 
+ * Shows/hides the frontend cursor on the pause menu or similar menus.
  * Clicking off and then on the game window will show it again.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} visible

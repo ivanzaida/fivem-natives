@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xD0AE52F8786F9DDC
 
- * Unset it before trying to delete the pickup via the DELETE_ENTITY function
+ * 
+ * Unset it before trying to delete the pickup via the DELETE_ENTITY function
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} pickupID

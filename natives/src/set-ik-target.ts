@@ -5,7 +5,9 @@ import { PedIndex, EIkPart, EntityIndex, EIkTargetFlags } from '@ivanzaida/struc
  *
  * 0xF9F66C74E3167674
 
- * Sets the IK target for a given IK part belonging to the ped. The IK target will only be valid for one update, so it needs to be set for as long as it is needed (to avoid IK targets not being cleared and getting stuck enabled).
+ * 
+ * Sets the IK target for a given IK part belonging to the ped. The IK target will only be valid for one update, so it needs to be set for as long as it is needed (to avoid IK targets not being cleared and getting stuck enabled).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

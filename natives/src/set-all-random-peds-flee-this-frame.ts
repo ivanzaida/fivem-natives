@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x9C931A1395CC1AE9
 
- * Gang peds and randoms will all flee instead on this frame
+ * 
+ * Gang peds and randoms will all flee instead on this frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

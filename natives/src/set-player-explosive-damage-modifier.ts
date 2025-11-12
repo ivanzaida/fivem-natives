@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x05DDADC6F9EA8B04
 
- * This function will change the given players explosive damage multiplier.
+ * 
+ * This function will change the given players explosive damage multiplier.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

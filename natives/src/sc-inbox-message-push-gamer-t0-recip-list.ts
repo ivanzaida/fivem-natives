@@ -5,9 +5,11 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0x693B9B4C2F3B9312
 
- * Call this function a bunch of times to put together the list, then call
+ * 
+ * Call this function a bunch of times to put together the list, then call
  * an INBOX_SEND function.  The list is cleared each time the list is used
  * to send a message
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

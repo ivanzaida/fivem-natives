@@ -3,8 +3,10 @@
  *
  * 0x6145620349FC9F57
 
- * Returns the time in seconds that the code will wait for an unresponding player before disconnecting them.
+ * 
+ * Returns the time in seconds that the code will wait for an unresponding player before disconnecting them.
  * If -notimeouts is being used, this will return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

@@ -3,7 +3,7 @@
  *
  * 0xA61C8FC6
 
- * Get an identifier from a player by the type of the identifier.
+ * Get an identifier from a player by the type of the identifier.Known [Identifiers](https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/GetPlayerIdentifiers/#identifier-types)
  * 
  * ------------------------------------------------------------------
  * @param {string} playerSrc The player to get the identifier for

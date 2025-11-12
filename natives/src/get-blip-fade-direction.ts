@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x0857F7FF8AA07F67
 
- * Returns -1, 0, +1, depending on if the blip is fading out, doing nothing, or fading in respectively.
+ * 
+ * Returns -1, 0, +1, depending on if the blip is fading out, doing nothing, or fading in respectively.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

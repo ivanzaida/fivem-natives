@@ -3,7 +3,9 @@
  *
  * 0x6CC07FAD61035099
 
- * Purpose of p0 and p1 unknown.
+ * 
+ * Purpose of p0 and p1 unknown.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minExposure

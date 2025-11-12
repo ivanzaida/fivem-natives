@@ -5,11 +5,13 @@ import { ESpawnpointsFlags } from '@ivanzaida/structures'
  *
  * 0xC9666089A105E4BD
 
- * Same as SPAWNPOINTS_START_SEARCH, except uses the angled area volume definition popular with level-design
+ * 
+ * Same as SPAWNPOINTS_START_SEARCH, except uses the angled area volume definition popular with level-design
  * vPoint1 & vPoint2 define the start and end points of a rectangle, fWidth in size
  * Height of the area is defined by raising one point above the other (a little height we be artificially applied in the case of a flat volume)
  * If optional 'iMaxSearchDurationMS' param is non-zero, search will enter a 'failed' state if this milliseconds duration is exceeded
  * - if the timeout value is specified, script must check for the failure case via SPAWNPOINTS_IS_SEARCH_FAILED()
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} point1X

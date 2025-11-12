@@ -5,11 +5,15 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xEE0BCDB1B5E36BCB
 
- * Makes the specified entity (ped, vehicle or object) persistent. Persistent entities will not automatically be removed by the engine.
+ * 
+ * Makes the specified entity (ped, vehicle or object) persistent. Persistent entities will not automatically be removed by the engine.
+ * 
  * p1 has no effect when either its on or off
  * maybe a quick disassembly will tell us what it does
+ * 
  * p2 has no effect when either its on or off
  * maybe a quick disassembly will tell us what it does
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

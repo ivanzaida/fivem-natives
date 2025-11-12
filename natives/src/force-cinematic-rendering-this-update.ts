@@ -3,7 +3,9 @@
  *
  * 0x48032DB198A2A820
 
- * If there is a cinematic camera rendering this cannot be overridden by the player.
+ * 
+ * If there is a cinematic camera rendering this cannot be overridden by the player.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} activeThisFrame

@@ -3,7 +3,9 @@
  *
  * 0x38BED19EB5C34B41
 
- * platformName must be one of the following: ps3, xbox360, ps4, xboxone
+ * 
+ * platformName must be one of the following: ps3, xbox360, ps4, xboxone
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} sourcePlatform

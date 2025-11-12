@@ -3,7 +3,9 @@
  *
  * 0xEFAF1ADDE0F583C3
 
- * Emergency vehicle map gens and high priorty gens will remain active
+ * 
+ * Emergency vehicle map gens and high priorty gens will remain active
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} active

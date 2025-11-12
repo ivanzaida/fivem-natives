@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x501EBB0523078750
 
- * Returns true if the given ped has a valid pointer to CPlayerInfo in its CPed class. That's all.
+ * 
+ * Returns true if the given ped has a valid pointer to CPlayerInfo in its CPed class. That's all.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

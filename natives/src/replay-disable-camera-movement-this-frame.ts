@@ -3,7 +3,9 @@
  *
  * 0x9D0B099EEAD74270
 
- * This will disable the ability to make camera changes in R Editor.
+ * 
+ * This will disable the ability to make camera changes in R Editor.
+ * 
  * 
  * ------------------------------------------------------------------
  */

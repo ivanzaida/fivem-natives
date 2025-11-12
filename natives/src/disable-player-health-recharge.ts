@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x090F2F734B18CEBF
 
- * Needs to be called every frame.
+ * 
+ * Needs to be called every frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

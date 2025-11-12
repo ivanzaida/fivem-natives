@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xBC64B805EE071A37
 
- * Enable / disable showing route for the Blip-object.
+ * 
+ * Enable / disable showing route for the Blip-object.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

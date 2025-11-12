@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xDA87162A83051958
 
- * If bRacing is set to true, vehicle will use more aggressive
+ * 
+ * If bRacing is set to true, vehicle will use more aggressive
  * avoidance parameters when avoiding other vehicles that are also racing
+ * 
  * p1 (toggle) was always 1 (true) except in one case in the b678 scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

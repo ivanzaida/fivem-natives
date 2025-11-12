@@ -3,8 +3,11 @@
  *
  * 0x1F28B185E40612B5
 
- * Sets a value that determines how aggressive the ocean waves will be. Values of 2.0 or more make for very aggressive waves like you see during a thunderstorm.
+ * 
+ * Sets a value that determines how aggressive the ocean waves will be. Values of 2.0 or more make for very aggressive waves like you see during a thunderstorm.
+ * 
  * Works only ~200 meters around the player.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scaler

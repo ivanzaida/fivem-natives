@@ -3,7 +3,9 @@
  *
  * 0x9C22AADBAF330B36
 
- * Toggles a value (bool) for cutscenes.
+ * 
+ * Toggles a value (bool) for cutscenes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} vibrate

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xB055330FF3BFD8A6
 
- * p1 was always true.
+ * 
+ * p1 was always true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

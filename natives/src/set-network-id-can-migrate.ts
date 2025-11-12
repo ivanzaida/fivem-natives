@@ -5,7 +5,9 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0x8FC511FC963C67E5
 
- * Whether or not another player is allowed to take control of the entity
+ * 
+ * Whether or not another player is allowed to take control of the entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

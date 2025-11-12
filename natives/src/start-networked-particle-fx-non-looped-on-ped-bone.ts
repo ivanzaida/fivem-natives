@@ -5,11 +5,14 @@ import { PedIndex, EPedBonetag } from '@ivanzaida/structures'
  *
  * 0x4E547C301F81B801
 
- * Triggers a named particle effect on a ped bone at an offset position and rotation, that will replicate across the network.
+ * 
+ * Triggers a named particle effect on a ped bone at an offset position and rotation, that will replicate across the network.
  * This should only be used with non-looped particle effects.
  * The particle effect will then play and tidy itself up when finished.
  * There is no access to the particle effect once it has been triggered.
+ * 
  * Full list of particle effect dictionaries and effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} fxName

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE00868707690F6A7
 
- * Set pin frames on peds character cloth
+ * 
+ * Set pin frames on peds character cloth
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

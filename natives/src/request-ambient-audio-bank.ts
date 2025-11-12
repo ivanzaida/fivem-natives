@@ -3,10 +3,13 @@
  *
  * 0x91476A70AA1CB09A
 
- * This is a legacy function: please use REQUEST_SCRIPT_AUDIO_BANK instead
+ * 
+ * This is a legacy function: please use REQUEST_SCRIPT_AUDIO_BANK instead
+ * 
  * All occurrences and usages found in b617d, sorted alphabetically and identical lines removed: https://pastebin.com/XZ1tmGEz
  * Full list of ambient audio bank names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ambientAudioBankNames.json
  * p2 is always -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} bankName

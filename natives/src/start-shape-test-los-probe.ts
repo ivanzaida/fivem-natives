@@ -5,10 +5,15 @@ import { EntityIndex, ShapetestIndex } from '@ivanzaida/structures'
  *
  * 0x120E577522852984
 
- * Returns SHAPETEST_INDEX of 0 if it fails to create the shapetest request (there is a limit to the number that can be in the system)
+ * 
+ * Returns SHAPETEST_INDEX of 0 if it fails to create the shapetest request (there is a limit to the number that can be in the system)
+ * 
  * Asynchronously starts a line-of-sight (raycast) world probe shape test.
+ * 
  * Use the handle with 0x3D87450E15D98694 or 0x65287525D951F6BE until it returns 0 or 2.
+ * 
  * p8 is a bit mask with bits 1, 2 and/or 4, relating to collider types; 4 should usually be used.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startPosX

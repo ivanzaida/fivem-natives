@@ -5,8 +5,11 @@ import { PedIndex, ESyncedScenePlaybackFlags, ERagdollBlockingFlags, EIkControlF
  *
  * 0x3DA436E63AB0F541
 
- * TASK::TASK_SYNCHRONIZED_SCENE(ped, scene, "creatures@rottweiler@in_vehicle@std_car", "get_in", 1000.0, -8.0, 4, 0, 0x447a0000, 0);
+ * 
+ * TASK::TASK_SYNCHRONIZED_SCENE(ped, scene, "creatures@rottweiler@in_vehicle@std_car", "get_in", 1000.0, -8.0, 4, 0, 0x447a0000, 0);
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

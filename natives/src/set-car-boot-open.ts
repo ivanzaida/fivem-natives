@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8E18C9CFBC30C9FF
 
- * Initially used in Max Payne 3, that's why we know the name.
+ * 
+ * Initially used in Max Payne 3, that's why we know the name.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

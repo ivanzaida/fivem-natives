@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xBDEBCB00EBC6F89E
 
- * dlcVehicleIndex is 0 to GET_NUM_DLC_VEHICLS() - 1
+ * 
+ * dlcVehicleIndex is 0 to GET_NUM_DLC_VEHICLS() - 1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

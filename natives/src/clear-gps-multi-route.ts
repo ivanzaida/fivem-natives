@@ -3,8 +3,11 @@
  *
  * 0xC3C7C9791CD79114
 
- * Removes the multi-route
+ * 
+ * Removes the multi-route
+ * 
  * Does the same as SET_GPS_MULTI_ROUTE_RENDER(false);
+ * 
  * 
  * ------------------------------------------------------------------
  */

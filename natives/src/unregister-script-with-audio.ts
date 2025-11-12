@@ -3,8 +3,11 @@
  *
  * 0x6CC88053C1AF072D
 
- * Doesn't need to be called in your cleanup, as TERMINATE_THIS_SCRIPT will take care of it.
+ * 
+ * Doesn't need to be called in your cleanup, as TERMINATE_THIS_SCRIPT will take care of it.
+ * 
  * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  */

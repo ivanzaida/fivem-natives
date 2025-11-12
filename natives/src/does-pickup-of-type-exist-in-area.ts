@@ -5,7 +5,9 @@ import { EPickupType } from '@ivanzaida/structures'
  *
  * 0x6AA6E814FE2A18C2
 
- * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
+ * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} pickupType

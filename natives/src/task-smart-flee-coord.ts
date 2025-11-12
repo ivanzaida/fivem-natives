@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xFD251F92B546F389
 
- * Makes the specified ped flee the specified distance from the specified position.
+ * 
+ * Makes the specified ped flee the specified distance from the specified position.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

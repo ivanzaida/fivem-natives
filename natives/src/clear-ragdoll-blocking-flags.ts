@@ -5,7 +5,9 @@ import { PedIndex, ERagdollBlockingFlags } from '@ivanzaida/structures'
  *
  * 0xBCB78CFBB026B0DF
 
- * See SET_RAGDOLL_BLOCKING_FLAGS for flags
+ * 
+ * See SET_RAGDOLL_BLOCKING_FLAGS for flags
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

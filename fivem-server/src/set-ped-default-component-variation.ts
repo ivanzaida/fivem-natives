@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC866A984
 
- * his might be useful if you create a ped, delete him and then create him again later and need him to look identical to his first appearance.
+ * 
+ * his might be useful if you create a ped, delete him and then create him again later and need him to look identical to his first appearance.
+ * 
  * Sets Ped Default Clothes
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

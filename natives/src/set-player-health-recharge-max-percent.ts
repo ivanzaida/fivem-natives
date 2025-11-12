@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE968651CFDDDE20B
 
- * This function alters the maximum percentage that a player's health can recharge to
+ * 
+ * This function alters the maximum percentage that a player's health can recharge to
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

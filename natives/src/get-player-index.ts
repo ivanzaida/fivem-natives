@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xB6B621402486C3E4
 
- * Returns the same as PLAYER_ID and NETWORK_PLAYER_ID_TO_INT
+ * 
+ * Returns the same as PLAYER_ID and NETWORK_PLAYER_ID_TO_INT
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {PlayerIndex}  

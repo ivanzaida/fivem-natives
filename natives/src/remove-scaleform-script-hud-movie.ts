@@ -5,7 +5,9 @@ import { EEScriptHudComponent } from '@ivanzaida/structures'
  *
  * 0xE38DA3B12A4DAB3B
 
- * removes a scripted hud movie
+ * 
+ * removes a scripted hud movie
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEScriptHudComponent} componentId

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x9DBF1E37DC1A1F46
 
- * Used for helis.
+ * 
+ * Used for helis.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

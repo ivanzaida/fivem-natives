@@ -5,11 +5,15 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4294356B761DCABE
 
- * This native sets the audio of the specified vehicle to the audioName (p1).
+ * 
+ * This native sets the audio of the specified vehicle to the audioName (p1).
+ * 
  * Use the audioNameHash found in vehicles.meta
+ * 
  * Example:
  * _SET_VEHICLE_AUDIO(veh, "ADDER");
  * The selected vehicle will now have the audio of the Adder.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

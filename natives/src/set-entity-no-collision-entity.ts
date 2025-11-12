@@ -5,10 +5,13 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x015E1BBD4DB33542
 
- * Prevents the first entity from colliding with the second entity
+ * 
+ * Prevents the first entity from colliding with the second entity
+ * 
  * Calling this function disables collision between two entities.
  * The importance of the order for entity1 and entity2 is unclear.
  * The third parameter, `thisFrame`, decides whether the collision is to be disabled until it is turned back on, or if it's just this frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,7 +5,9 @@ import { CheckpointIndex } from '@ivanzaida/structures'
  *
  * 0xEDC9B904B870CE80
 
- * Sets the checkpoint color.
+ * 
+ * Sets the checkpoint color.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CheckpointIndex} uniqueCheckpoint

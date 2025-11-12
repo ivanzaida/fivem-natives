@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex, EDrivingstyle, ModelNames, EDrivingmode } from 
  *
  * 0xCF6CC9EA0D2EFE23
 
- * info about driving modes: https://gtaforums.com/topic/822314-guide-driving-styles/
+ * 
+ * info about driving modes: https://gtaforums.com/topic/822314-guide-driving-styles/
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

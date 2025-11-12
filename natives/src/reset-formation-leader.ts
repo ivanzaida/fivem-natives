@@ -3,7 +3,9 @@
  *
  * 0xDFF07C5495BDA6ED
 
- * Resets the effect of SET_FORMATION_LEADER
+ * 
+ * Resets the effect of SET_FORMATION_LEADER
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,8 +5,10 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0xC3A0D70539BCA8F9
 
- * Disables selecting the given weapon. Ped isn't forced to put the gun away. However you can't reselect the weapon if you holster then unholster. Weapon is also grayed out on the weapon wheel.
+ * 
+ * Disables selecting the given weapon. Ped isn't forced to put the gun away. However you can't reselect the weapon if you holster then unholster. Weapon is also grayed out on the weapon wheel.
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

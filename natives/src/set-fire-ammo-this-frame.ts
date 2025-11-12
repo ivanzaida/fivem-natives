@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x6966C09904B48D54
 
- * Set the player has fire ammo this frame
+ * 
+ * Set the player has fire ammo this frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} ped

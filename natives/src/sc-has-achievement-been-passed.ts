@@ -3,7 +3,9 @@
  *
  * 0xF841B04B93D27BA9
 
- * Same as HAS_ACHIEVEMENT_BEEN_PASSED
+ * 
+ * Same as HAS_ACHIEVEMENT_BEEN_PASSED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} id

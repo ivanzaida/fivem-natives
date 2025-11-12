@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xA5498338B4203373
 
- * Sets some bit of vehicle
+ * 
+ * Sets some bit of vehicle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

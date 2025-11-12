@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8ADC49ACBB4FF0E4
 
- * This doesn't stop a piece of dialogue that has been triggered.
+ * 
+ * This doesn't stop a piece of dialogue that has been triggered.
  * This stops the ability to force ambient dialogue if set to true - however setting it to false, then triggering a context, then setting it to true again will allow this.
  * The ped will also be prevented from speaking on remote machines. Use STOP_PED_SPEAKING if you just want to affect the local machine.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

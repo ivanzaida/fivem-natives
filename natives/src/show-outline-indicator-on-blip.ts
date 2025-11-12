@@ -5,8 +5,11 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xAA090F5FC303F771
 
- * Highlights a blip by a cyan color circle.
+ * 
+ * Highlights a blip by a cyan color circle.
+ * 
  * Color can be changed with SET_BLIP_SECONDARY_COLOUR
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

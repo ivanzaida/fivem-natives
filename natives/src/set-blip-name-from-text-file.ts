@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x594D5D0D7071B0DE
 
- * Doesn't work if the label text of gxtEntry is >= 80.
+ * 
+ * Doesn't work if the label text of gxtEntry is >= 80.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

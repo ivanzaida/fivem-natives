@@ -3,7 +3,9 @@
  *
  * 0xA4991DF2B554184E
 
- * Hashed version of BG_END_CONTEXT.
+ * 
+ * Hashed version of BG_END_CONTEXT.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} context

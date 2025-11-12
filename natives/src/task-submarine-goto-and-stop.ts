@@ -5,11 +5,17 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x790442D9A27FBFC1
 
- * Tells a submarine to goto and stop at the position given
+ * 
+ * Tells a submarine to goto and stop at the position given
+ * 
  * Used in am_vehicle_spawn.ysc and am_mp_submarine.ysc.
+ * 
  * p0 is always 0, p5 is always 1
+ * 
  * p1 is the vehicle handle of the submarine. Submarine must have a driver, but the ped handle is not passed to the native.
+ * 
  * Speed can be set by calling SET_DRIVE_TASK_CRUISE_SPEED after
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

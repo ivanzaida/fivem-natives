@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE8B2E2E978035EF0
 
- * Set if auto-give the player a parachute when he gets into a plane or helicopter.
+ * 
+ * Set if auto-give the player a parachute when he gets into a plane or helicopter.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -3,7 +3,9 @@
  *
  * 0x05DB7284C236A9DE
 
- * Returns CGameWorldHeightMap's minimum Z among all grid nodes that intersect with the specified rectangle.
+ * 
+ * Returns CGameWorldHeightMap's minimum Z among all grid nodes that intersect with the specified rectangle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x0

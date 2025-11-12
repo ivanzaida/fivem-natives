@@ -3,9 +3,12 @@
  *
  * 0xA8C09F16998DFD28
 
- * When a navmesh area is disabled, no navigation will occur through this area - peds will walk around
+ * 
+ * When a navmesh area is disabled, no navigation will occur through this area - peds will walk around
+ * 
  * Set toggle true to disable navmesh.
  * Set toggle false to enable navmesh.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minCoorsX

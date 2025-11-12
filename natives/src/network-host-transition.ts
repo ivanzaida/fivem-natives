@@ -5,7 +5,8 @@ import { EActivityIsland, EJobContentCreator } from '@ivanzaida/structures'
  *
  * 0xD8DD13235608C9D0
 
- * p0: Unknown int
+ * 
+ * p0: Unknown int
  * p1: Unknown int
  * p2: Unknown int
  * p3: Unknown int
@@ -15,9 +16,11 @@ import { EActivityIsland, EJobContentCreator } from '@ivanzaida/structures'
  * p7: Unknown int, it's an int according to decompiled scripts, however the value is always 0 or 1.
  * p8: Unknown int, it's an int according to decompiled scripts, however the value is always 0 or 1.
  * p9: Unknown int, sometimes 0, but also 32768 or 16384 appear in decompiled scripst, maybe a flag of some sort?
+ * 
  * From what I can tell it looks like it does the following:
  * Creates/hosts a new transition to another online session, using this in FiveM will result in other players being disconencted from the server/preventing them from joining. This is most likely because I entered the wrong session parameters since they're pretty much all unknown right now.
  * You also need to use `NetworkJoinTransition(Player player)` and `NetworkLaunchTransition()`.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} gameMode

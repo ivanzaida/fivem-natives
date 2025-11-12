@@ -5,7 +5,9 @@ import { ECamViewModeContext, ECamViewMode } from '@ivanzaida/structures'
  *
  * 0x07938654FF332D78
 
- * context: see _GET_CAM_ACTIVE_VIEW_MODE_CONTEXT, viewmode: see CAM.GET_FOLLOW_VEHICLE_CAM_VIEW_MODE
+ * 
+ * context: see _GET_CAM_ACTIVE_VIEW_MODE_CONTEXT, viewmode: see CAM.GET_FOLLOW_VEHICLE_CAM_VIEW_MODE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ECamViewModeContext} context

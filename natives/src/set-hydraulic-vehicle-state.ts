@@ -5,10 +5,12 @@ import { VehicleIndex, EWheelHydraulicScriptState } from '@ivanzaida/structures'
  *
  * 0xA15CBF61198EE519
 
- * States:
+ * 
+ * States:
  * 4 = raise
  * 5 = lower
  * 6 = jump
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

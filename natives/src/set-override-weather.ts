@@ -3,8 +3,11 @@
  *
  * 0x88791F880F624022
 
- * Appears to have an optional bool parameter that is unused in the scripts.
+ * 
+ * Appears to have an optional bool parameter that is unused in the scripts.
+ * 
  * If you pass true, something will be set to zero.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} weather

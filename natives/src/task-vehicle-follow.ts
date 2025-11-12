@@ -5,13 +5,17 @@ import { PedIndex, VehicleIndex, EntityIndex, EDrivingmode } from '@ivanzaida/st
  *
  * 0x1114FB0D0DF739D0
 
- * This task sits sort of in between TASK_VEHICLE_ESCORT and TASK_VEHICLE_CHASE.
+ * 
+ * This task sits sort of in between TASK_VEHICLE_ESCORT and TASK_VEHICLE_CHASE.
  * Not as fine-controlled as ESCORT but not as aggressive as CHASE.
  * This task is preferable to ESCORT when the following vehicle might start off in front
  * of the thing it's supposed to follow
  * Tells a vehicle to follow another entity
+ * 
  * Makes a ped in a vehicle follow an entity (ped, vehicle, etc.)
+ * 
  * drivingStyle: http://gtaforums.com/topic/822314-guide-driving-styles/
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

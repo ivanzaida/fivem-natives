@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x2E361871F6DBB0BB
 
- * p1 is just an assumption. p2 was false and p3 was true.
+ * 
+ * p1 is just an assumption. p2 was false and p3 was true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

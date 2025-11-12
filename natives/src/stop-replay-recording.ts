@@ -3,7 +3,9 @@
  *
  * 0x98188EDB7446A033
 
- * Stops recording and saves the recorded clip.
+ * 
+ * Stops recording and saves the recorded clip.
+ * 
  * 
  * ------------------------------------------------------------------
  */

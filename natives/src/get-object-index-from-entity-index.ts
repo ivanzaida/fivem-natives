@@ -5,7 +5,9 @@ import { EntityIndex, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x0646D07BB2D516CD
 
- * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
+ * 
+ * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

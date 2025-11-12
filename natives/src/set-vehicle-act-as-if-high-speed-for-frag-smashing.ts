@@ -5,10 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x30415B9FFAC70D2C
 
- * Call this to set a vehicle to act as if it has a very high speed when colliding with a frag.
+ * 
+ * Call this to set a vehicle to act as if it has a very high speed when colliding with a frag.
  * Mostly useful for scripted sequencse where a vehicle needs to break through a barrier, but may
  * not be going fast enough to break it
  * This is a reset flag, and will only stay set for one frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

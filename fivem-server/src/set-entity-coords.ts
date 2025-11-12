@@ -5,11 +5,16 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xDF70B41B
 
- * If you want to set the coords of a ped in a vehicle, use SET_PED_COORDS_KEEP_VEHICLE.
+ * 
+ * If you want to set the coords of a ped in a vehicle, use SET_PED_COORDS_KEEP_VEHICLE.
  * If you set the z component of VecNewCoors to INVALID_WORLD_Z  this command to automatically find the ground z for your entity if there is collision.
+ * 
  * p7 is always 1 in the scripts. Set to 1, an area around the destination coords for the moved entity is cleared from other entities.
+ * 
  * Often ends with 1, 0, 0, 1); in the scripts. It works.
+ * 
  * Axis - Invert Axis Flags
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity to change coordinates for.

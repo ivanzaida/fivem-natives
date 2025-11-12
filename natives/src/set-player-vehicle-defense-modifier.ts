@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x7754DB9F9579CEE4
 
- * This function will change the given players defense multiplier against vehicle damage (rammed by, collision damage).
+ * 
+ * This function will change the given players defense multiplier against vehicle damage (rammed by, collision damage).
+ * 
  * modifier's min value is 0.1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

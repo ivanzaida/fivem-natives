@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xCD76801E1106CABE
 
- * duration in milliseconds
+ * 
+ * duration in milliseconds
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

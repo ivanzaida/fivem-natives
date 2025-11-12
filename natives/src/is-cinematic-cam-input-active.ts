@@ -3,7 +3,9 @@
  *
  * 0x6633B158164DCD88
 
- * Tests some cinematic camera flags
+ * 
+ * Tests some cinematic camera flags
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

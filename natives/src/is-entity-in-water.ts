@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x69799E0840A34AFB
 
- * Returns TRUE if the entity is in water
+ * 
+ * Returns TRUE if the entity is in water
  * If the entity is a ped in a vehicle, then the vehicle is also checked.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xE69B8FE2F4FD0178
 
- * If -1 is passed to Time the ped will never give up on the task.
+ * 
+ * If -1 is passed to Time the ped will never give up on the task.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

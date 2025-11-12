@@ -5,8 +5,10 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0x7280E2724C43179B
 
- * Allows a network object(currently only Submarine) to be cloned for other while the owner player is in a tutorial
+ * 
+ * Allows a network object(currently only Submarine) to be cloned for other while the owner player is in a tutorial
  * This resets when the script shuts down but can be reset manually
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

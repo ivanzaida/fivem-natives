@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x24CAD023099769B1
 
- * Only need to pass the model in if the scene has both an IG_ and CS_ version of the same model
+ * 
+ * Only need to pass the model in if the scene has both an IG_ and CS_ version of the same model
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} entitySceneName

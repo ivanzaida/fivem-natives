@@ -5,8 +5,11 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0xFCFCA9D377ED6568
 
- * Valid slot indices are 0 to 7.  This function will return WEAPONTYPE_INVALID for any empty slots
+ * 
+ * Valid slot indices are 0 to 7.  This function will return WEAPONTYPE_INVALID for any empty slots
+ * 
  * Returns the weapon hash active in a specific weapon wheel slotList
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} slot

@@ -3,7 +3,9 @@
  *
  * 0x9049EEEF48D81A2F
 
- * Removes population multiplier sphere
+ * 
+ * Removes population multiplier sphere
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

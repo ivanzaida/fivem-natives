@@ -3,7 +3,9 @@
  *
  * 0x55002CD5D725C226
 
- * Returns true if the initial loading screens are active (when you boot the game)
+ * 
+ * Returns true if the initial loading screens are active (when you boot the game)
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

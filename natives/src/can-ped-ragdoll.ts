@@ -5,9 +5,13 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC24FAA5E8D69F7F8
 
- * A ped will only switch to a ragdoll if it's onscreen and within range of the player.
+ * 
+ * A ped will only switch to a ragdoll if it's onscreen and within range of the player.
+ * 
  * Prevents the ped from going limp.
+ * 
  * [Example: Can prevent peds from falling when standing on moving vehicles.]
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

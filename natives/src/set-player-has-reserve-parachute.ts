@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x2DF241BBC3BB2698
 
- * This function gives the player a reserve parachute.
+ * 
+ * This function gives the player a reserve parachute.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

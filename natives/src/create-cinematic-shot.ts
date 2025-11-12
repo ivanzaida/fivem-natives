@@ -5,12 +5,15 @@ import { EShotType, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x18FB9B483F8E71AB
 
- * SHOT_TYPE - Taken from the list of defined shots
+ * 
+ * SHOT_TYPE - Taken from the list of defined shots
  * Duration of the shot in mili seconds after whch the shot will terminate
  * Attach and look at entities: Depending on the shot you either provide one or two. If incorrectly applied the shot will just not trigger.
  * This command is bound to a specific script so you cannot create one if another script already has
  * The shots will terminate if rendering and the script terminates
+ * 
  * hash is always JOAAT("CAMERA_MAN_SHOT") in decompiled scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EShotType} shot

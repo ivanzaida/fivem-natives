@@ -3,7 +3,9 @@
  *
  * 0x3AA8CFEBC938A945
 
- * BOOL param indicates whether the cam should be destroyed if it belongs to the calling script.
+ * 
+ * BOOL param indicates whether the cam should be destroyed if it belongs to the calling script.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} shouldApplyAcrossAllThreads

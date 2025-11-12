@@ -5,8 +5,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x875A214D5EBCA509
 
- * Returns whether a control was newly pressed since the last check.
+ * 
+ * Returns whether a control was newly pressed since the last check.
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

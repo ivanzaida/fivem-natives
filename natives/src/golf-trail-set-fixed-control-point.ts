@@ -3,11 +3,15 @@
  *
  * 0x4081B44AA3E3FAD3
 
- * 12 matches across 4 scripts. All 4 scripts were job creators.
+ * 
+ * 12 matches across 4 scripts. All 4 scripts were job creators.
+ * 
  * type ranged from 0 - 2.
  * p4 was always 0.2f. Likely scale.
  * assuming p5 - p8 is RGBA, the graphic is always yellow (255, 255, 0, 255).
+ * 
  * Tested but noticed nothing.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} controlPoint

@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x501C6124BE36E301
 
- * Allow the boat boom to swing freely
+ * 
+ * Allow the boat boom to swing freely
+ * 
  * Same call as ALLOW_BOAT_BOOM_TO_ANIMATE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

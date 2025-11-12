@@ -5,9 +5,11 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xCF62A74234A425DB
 
- * Call this function a bunch of times to put together the list, then call
+ * 
+ * Call this function a bunch of times to put together the list, then call
  * an SC_EMAIL_SEND_EMAIL function.  The list is cleared each time the list is used
  * to send a message
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

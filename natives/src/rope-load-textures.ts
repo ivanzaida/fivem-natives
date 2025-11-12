@@ -3,7 +3,9 @@
  *
  * 0x162DAE7141F06640
 
- * Loads rope textures for all ropes in the current scene.
+ * 
+ * Loads rope textures for all ropes in the current scene.
+ * 
  * 
  * ------------------------------------------------------------------
  */

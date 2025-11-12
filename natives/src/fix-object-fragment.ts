@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x30A5E8BBE5D07DE7
 
- * Resets an object (has to be a fragment)
+ * 
+ * Resets an object (has to be a fragment)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

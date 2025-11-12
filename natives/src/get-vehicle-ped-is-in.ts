@@ -5,8 +5,10 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6EF03BE64E058E2F
 
- * Gets the vehicle the specified Ped is in. Returns 0 if the ped is/was not in a vehicle.
+ * 
+ * Gets the vehicle the specified Ped is in. Returns 0 if the ped is/was not in a vehicle.
  * If the Ped is not in a vehicle and includeLastVehicle is true, the vehicle they were last in is returned.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

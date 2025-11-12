@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC722DDBD6C3E86D7
 
- * Returns whether the specified ped is reloading.
+ * 
+ * Returns whether the specified ped is reloading.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

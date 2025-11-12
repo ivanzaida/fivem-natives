@@ -3,7 +3,9 @@
  *
  * 0xF86F13F66FC06EDF
 
- * In singleplayer it does exactly what the name implies. In FiveM / GTA:Online it shows `Disconnecting from GTA Online` HUD and then quits the game.
+ * 
+ * In singleplayer it does exactly what the name implies. In FiveM / GTA:Online it shows `Disconnecting from GTA Online` HUD and then quits the game.
+ * 
  * 
  * ------------------------------------------------------------------
  */

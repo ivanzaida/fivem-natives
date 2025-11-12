@@ -5,12 +5,16 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5DA0536AEAD1FF31
 
- * Sets the tire smoke's color of this vehicle.
+ * 
+ * Sets the tire smoke's color of this vehicle.
+ * 
  * vehicle: The vehicle that is the target of this method.
  * r: The red level in the RGB color code.
  * g: The green level in the RGB color code.
  * b: The blue level in the RGB color code.
+ * 
  * Note: setting r,g,b to 0 will give the car the "Patriot" tire smoke.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

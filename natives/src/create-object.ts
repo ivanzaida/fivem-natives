@@ -5,7 +5,9 @@ import { ModelNames, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x4E55EAB577C13329
 
- * List of object models that can be created without any additional effort like making sure ytyp is loaded etc: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini
+ * 
+ * List of object models that can be created without any additional effort like making sure ytyp is loaded etc: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} model

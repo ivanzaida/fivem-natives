@@ -5,7 +5,9 @@ import { EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0x8E654C1A28DAD371
 
- * Use this command to change a synchronised scene's origin after it has been created
+ * 
+ * Use this command to change a synchronised scene's origin after it has been created
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

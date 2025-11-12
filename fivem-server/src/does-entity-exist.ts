@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x3AC90869
 
- * Checks whether an entity exists in the game world.
+ * 
+ * Checks whether an entity exists in the game world.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

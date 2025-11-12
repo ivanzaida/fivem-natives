@@ -3,8 +3,11 @@
  *
  * 0x278706F2D0A8F29B
 
- * Returns an int which is the next available slot for defining a gps disabled zone
+ * 
+ * Returns an int which is the next available slot for defining a gps disabled zone
+ * 
  * Gets the next zone that has been disabled using SET_GPS_DISABLED_ZONE_AT_INDEX.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

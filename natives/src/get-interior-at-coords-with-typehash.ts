@@ -5,7 +5,9 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0x98915B4A834CE874
 
- * Hashed version of GET_INTERIOR_AT_COORDS_WITH_TYPE
+ * 
+ * Hashed version of GET_INTERIOR_AT_COORDS_WITH_TYPE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} inCoorsX

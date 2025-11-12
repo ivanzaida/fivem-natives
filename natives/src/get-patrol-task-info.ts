@@ -5,8 +5,10 @@ import { PedIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x4CC29C988AA182D9
 
- * The values it returns should be only checked if the function returns true. The function returns TRUE when the ped has the patrol task as his active task.
+ * 
+ * The values it returns should be only checked if the function returns true. The function returns TRUE when the ped has the patrol task as his active task.
  * If the ped is patrolling, the function returns true. If the ped then engages in combat the function will return false until he resumes his patrol task
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { EStatsenum, IntRef } from '@ivanzaida/structures'
  *
  * 0x1F1450A1F4852E10
 
- * p4 is probably characterSlot or BOOL save
+ * 
+ * p4 is probably characterSlot or BOOL save
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

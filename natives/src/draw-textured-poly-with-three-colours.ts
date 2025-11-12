@@ -3,10 +3,14 @@
  *
  * 0xCAB0D2338E17B2AB
 
- * Call this command every frame.
+ * 
+ * Call this command every frame.
+ * 
  * Used for drawling Deadline trailing lights, see deadline.ytd
+ * 
  * Each vertex has its own colour that is blended/illuminated on the texture. Additionally, the R, G, and B components are floats that are int-casted internally.
  * For UVW mapping (u,v,w parameters), reference your favourite internet resource for more details.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsFirstX

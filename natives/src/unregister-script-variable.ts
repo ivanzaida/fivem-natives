@@ -5,8 +5,10 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0xA759D3AD1579CBCB
 
- * Unregister a script variable from protection with RageSec plugin. Use this to
+ * 
+ * Unregister a script variable from protection with RageSec plugin. Use this to
  * remove a script variable that has gone out of scope to avoid false tamper alerts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} scriptVariable [Ref]

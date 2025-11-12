@@ -5,7 +5,9 @@ import { EStatsenum, FloatRef } from '@ivanzaida/structures'
  *
  * 0xB738B2E1369125F6
 
- * p3 is probably characterSlot or BOOL save, always -1
+ * 
+ * p3 is probably characterSlot or BOOL save, always -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE43577CB2EC4FFD6
 
- * Gets the current sprint time remaining
+ * 
+ * Gets the current sprint time remaining
  * At the minute this is for on foot only.  Can be modified for bikes/swimming if needed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

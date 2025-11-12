@@ -3,7 +3,9 @@
  *
  * 0x007DF2AFED58568A
 
- * Use this command to assign the lifetime of a synced scene to the script this function is called from
+ * 
+ * Use this command to assign the lifetime of a synced scene to the script this function is called from
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

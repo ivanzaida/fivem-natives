@@ -3,7 +3,9 @@
  *
  * 0x7BA6D9664C39BE6D
 
- * Returns the string length of the string from the gxt string .
+ * 
+ * Returns the string length of the string from the gxt string .
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textLabel

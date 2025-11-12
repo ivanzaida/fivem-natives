@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xAFC7A89C990C4339
 
- * Not approved for use in network scripts
+ * 
+ * Not approved for use in network scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,10 +5,13 @@ import { EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  *
  * 0x7A6103DCF5EE8CC3
 
- * Used when playing multiple anims together using TASK_PLAY_ANIM. This function returns the rotational offset
+ * 
+ * Used when playing multiple anims together using TASK_PLAY_ANIM. This function returns the rotational offset
  * (pitch, roll and heading, in that order) that will be automatically applied when playing the specified anim
  * using the anim flag AF_EXTRACT_INITIAL_OFFSET from the initial position and orientation specified
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} animDictName

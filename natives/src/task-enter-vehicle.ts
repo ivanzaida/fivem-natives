@@ -5,9 +5,11 @@ import { PedIndex, VehicleIndex, EVehicleSeat, EEnterExitVehicleFlags } from '@i
  *
  * 0xEBA229B2E0BB05E0
 
- * speed 1.0 = walk, 2.0 = run
+ * 
+ * speed 1.0 = walk, 2.0 = run
  * p5 1 = normal, 3 = teleport to vehicle, 16 = teleport directly into vehicle
  * p6 is always 0
+ * 
  * Usage of seat
  * -1 = driver
  * 0 = passenger
@@ -15,6 +17,7 @@ import { PedIndex, VehicleIndex, EVehicleSeat, EEnterExitVehicleFlags } from '@i
  * 2 = right back seat
  * 3 = outside left
  * 4 = outside right
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

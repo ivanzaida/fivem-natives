@@ -3,9 +3,12 @@
  *
  * 0x690E83E7292EA12C
 
- * Allows blocking of Guide Invites and JvP so that players cannot be invited to
+ * 
+ * Allows blocking of Guide Invites and JvP so that players cannot be invited to
  * or join the player via presence.
+ * 
  * Does nothing. It's just a nullsub.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} blocked

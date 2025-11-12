@@ -5,7 +5,9 @@ import { ECellInput } from '@ivanzaida/structures'
  *
  * 0xBF3F90E670404C44
 
- * For move the finger of player, the value of int goes 1 at 5.
+ * 
+ * For move the finger of player, the value of int goes 1 at 5.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ECellInput} cellInput

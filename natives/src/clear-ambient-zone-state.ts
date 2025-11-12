@@ -3,9 +3,13 @@
  *
  * 0xA9B69A9A9C786B86
 
- * This function also has a p2, unknown. Signature AUDIO::CLEAR_AMBIENT_ZONE_STATE(const char zoneName, bool p1, Any p2);
+ * 
+ * This function also has a p2, unknown. Signature AUDIO::CLEAR_AMBIENT_ZONE_STATE(const char zoneName, bool p1, Any p2);
+ * 
  * Still needs more research.
+ * 
  * Full list of ambient zones by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ambientZones.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} zoneName

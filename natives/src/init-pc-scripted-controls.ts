@@ -3,8 +3,11 @@
  *
  * 0x005E8B7CFA7D52A6
 
- * SHUTDOWN_PC_SCRIPTED_CONTROLS() must be called when finished.
+ * 
+ * SHUTDOWN_PC_SCRIPTED_CONTROLS() must be called when finished.
+ * 
  * Used in carsteal3 script with schemeName = "Carsteal4_spycar".
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} schemeName

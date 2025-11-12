@@ -3,7 +3,9 @@
  *
  * 0x8060309EC15DED26
 
- * p0 in the decompiled scripts is always the stat mesh_texblend  0.07 to int
+ * 
+ * p0 in the decompiled scripts is always the stat mesh_texblend  0.07 to int
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} mentalState

@@ -5,7 +5,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4CDD35D0
 
- * enum eVehicleLockState
+ * 
+ * enum eVehicleLockState
  * {
  * 	VEHICLELOCK_NONE,
  * 	VEHICLELOCK_UNLOCKED,
@@ -19,6 +20,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * 	VEHICLELOCK_LOCKED_NO_PASSENGERS,
  * 	VEHICLELOCK_CANNOT_ENTER
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle The vehicle whose doors are to be locked.

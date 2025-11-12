@@ -5,9 +5,12 @@ import { EPauseMenuState } from '@ivanzaida/structures'
  *
  * 0x05AA183DA1344935
 
- * Because 'active' is a relatively fluid term depending on your needs, this function expands IS_PAUSE_MENU_ACTIVE
+ * 
+ * Because 'active' is a relatively fluid term depending on your needs, this function expands IS_PAUSE_MENU_ACTIVE
  * (which effectively just checks == PM_READY)
+ * 
  * Returns:
+ * 
  * 0
  * 5
  * 10
@@ -16,6 +19,7 @@ import { EPauseMenuState } from '@ivanzaida/structures'
  * 25
  * 30
  * 35
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EPauseMenuState}  

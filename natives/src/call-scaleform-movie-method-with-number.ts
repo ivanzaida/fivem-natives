@@ -5,9 +5,13 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0xDBCE37B37A697642
 
- * calls an actionscript method on the passed in movie
+ * 
+ * calls an actionscript method on the passed in movie
+ * 
  * Calls the Scaleform function and passes the parameters as floats.
+ * 
  * The number of parameters passed to the function varies, so the end of the parameter list is represented by -1.0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

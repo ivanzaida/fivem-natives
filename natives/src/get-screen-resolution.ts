@@ -5,9 +5,12 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x5949C3C031610A30
 
- * THIS WILL ALWAYS RETURN 1280x720 REGARDLESS OF THE REAL RESOLUTION THE GAME IS RUNNING AT
+ * 
+ * THIS WILL ALWAYS RETURN 1280x720 REGARDLESS OF THE REAL RESOLUTION THE GAME IS RUNNING AT
+ * 
  * int screenresx,screenresy;
  * GET_SCREEN_RESOLUTION(&screenresx,&screenresy);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} x [Ref]

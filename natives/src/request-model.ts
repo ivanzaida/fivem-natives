@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xEC9DAA34BBB4658C
 
- * Request a model to be loaded into memory.
+ * 
+ * Request a model to be loaded into memory.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} model

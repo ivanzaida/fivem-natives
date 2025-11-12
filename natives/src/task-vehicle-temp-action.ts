@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex, ETempaction } from '@ivanzaida/structures'
  *
  * 0xFCCE667AD0E974AD
 
- * These should only be used for short actions
+ * 
+ * These should only be used for short actions
+ * 
  * '1 - brake
  * '3 - brake + reverse
  * '4 - turn left 90 + braking
@@ -34,8 +36,10 @@ import { PedIndex, VehicleIndex, ETempaction } from '@ivanzaida/structures'
  * '30 - performs a burnout (brake until stop + brake and accelerate)
  * '31 - accelerate + handbrake
  * '32 - accelerate very strong
+ * 
  * Seems to be this:
  * Works on NPCs, but overrides their current task. If inside a task sequence (and not being the last task), "time" will work, otherwise the task will be performed forever until tasked with something else
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

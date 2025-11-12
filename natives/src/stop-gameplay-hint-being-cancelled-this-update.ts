@@ -3,7 +3,9 @@
  *
  * 0xB0325D55FDB2DD7C
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} cancel

@@ -3,8 +3,10 @@
  *
  * 0xE3872E56266EDEDC
 
- * For Steam.
+ * 
+ * For Steam.
  * Does nothing and always returns false in the retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} achievementId

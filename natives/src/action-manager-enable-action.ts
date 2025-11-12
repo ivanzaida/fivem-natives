@@ -3,7 +3,9 @@
  *
  * 0x324833E4F1D15D2D
 
- * Appears to remove stealth kill action from memory
+ * 
+ * Appears to remove stealth kill action from memory
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} actionHash

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x94CC17D69C81292D
 
- * Returns true if the player is riding a train.
+ * 
+ * Returns true if the player is riding a train.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

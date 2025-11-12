@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x87CB58CAE436D6A5
 
- * Gets the current bomb ammo count for a script vehicle.
+ * 
+ * Gets the current bomb ammo count for a script vehicle.
  * Unlike restricted vehicle ammo (which is code fired), this is script-fired and manually decremented, and only stored in vehicle code for network sync purposes.
+ * 
  * Gets the amount of bombs that this vehicle has. As far as I know, this does _not_ impact vehicle weapons or the ammo of those weapons in any way, it is just a way to keep track of the amount of bombs in a specific plane.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,9 +3,11 @@
  *
  * 0x320BC441CADA2E79
 
- * Call each frame to (a) prevent intersecting dynamic objects from reverting to dummy
+ * 
+ * Call each frame to (a) prevent intersecting dynamic objects from reverting to dummy
  * state and (b) promote intersecting dummy objects to real dynamic object state even if it is out of range
  * forces any dummy objects in the specified volume to become real dynamic objects
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

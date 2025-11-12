@@ -3,7 +3,7 @@
  *
  * 0x964BAB1D
 
- * Gets the metadata value at a specified key/index from a resource's manifest.See also: [Resource manifest](https://docs.fivem.net/resources/manifest/)
+ * Gets the metadata value at a specified key/index from a resource's manifest.See also: [Resource manifest](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/)
  * 
  * ------------------------------------------------------------------
  * @param {string} resourceName The resource name.

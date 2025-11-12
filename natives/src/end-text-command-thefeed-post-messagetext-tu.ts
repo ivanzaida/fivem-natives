@@ -5,10 +5,14 @@ import { EFeedTextIcon } from '@ivanzaida/structures'
  *
  * 0x6015BF83F19DAE5C
 
- * This function can show pictures of every texture that can be requested by REQUEST_STREAMED_TEXTURE_DICT.
+ * 
+ * This function can show pictures of every texture that can be requested by REQUEST_STREAMED_TEXTURE_DICT.
+ * 
  * NOTE: 'duration' is a multiplier, so 1.0 is normal, 2.0 is twice as long (very slow), and 0.5 is half as long.
+ * 
  * Example, only occurrence in the scripts:
  * v_8 = HUD::END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_TU("CHAR_SOCIAL_CLUB", "CHAR_SOCIAL_CLUB", 0, 0, &v_9, "", a_5);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} tXD

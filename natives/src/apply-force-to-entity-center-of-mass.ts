@@ -5,7 +5,9 @@ import { EntityIndex, EApplyForceType } from '@ivanzaida/structures'
  *
  * 0x96CCECDBC57DA984
 
- * Applies a force to the specified entity.
+ * 
+ * Applies a force to the specified entity.
+ * 
  * List of force types (p1):
  * public enum ForceType
  * {
@@ -17,8 +19,10 @@ import { EntityIndex, EApplyForceType } from '@ivanzaida/structures'
  *     ForceRotPlusForce = 5
  * }
  * Research/documentation on the gtaforums can be found here https://gtaforums.com/topic/885669-precisely-define-object-physics/) and here https://gtaforums.com/topic/887362-apply-forces-and-momentums-to-entityobject/.
+ * 
  * p6/relative - makes the xyz force not relative to world coords, but to something else
  * p7/highForce - setting false will make the force really low
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

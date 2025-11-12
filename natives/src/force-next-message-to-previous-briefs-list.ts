@@ -5,8 +5,10 @@ import { EEPreviousBriefOverride } from '@ivanzaida/structures'
  *
  * 0xC8B1536BA5FC0F03
 
- * Determines which of the two previous briefs screens (dialogue or god text) the next line of text will appear in
+ * 
+ * Determines which of the two previous briefs screens (dialogue or god text) the next line of text will appear in
  * If the line of text wouldn't ordinarily have been added to either screen then it still won't appear in the previous briefs
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEPreviousBriefOverride} previousBriefsOverride

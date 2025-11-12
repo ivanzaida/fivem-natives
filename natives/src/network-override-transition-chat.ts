@@ -3,8 +3,10 @@
  *
  * 0xDF204CDF19B1E09E
 
- * Override transition chat restrictions that normally separate the main GTAO session from
+ * 
+ * Override transition chat restrictions that normally separate the main GTAO session from
  * the transition players. This should be set when going to a new corona from an activity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} override

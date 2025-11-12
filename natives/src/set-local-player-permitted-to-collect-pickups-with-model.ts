@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xFE931774D31D4525
 
- * Maximum amount of pickup models that can be disallowed is 30.
+ * 
+ * Maximum amount of pickup models that can be disallowed is 30.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} customModel

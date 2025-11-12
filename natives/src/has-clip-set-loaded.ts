@@ -3,10 +3,15 @@
  *
  * 0x8175BC6D49412468
 
- * See the notes for REQUEST_CLIP_SET above
+ * 
+ * See the notes for REQUEST_CLIP_SET above
+ * 
  * Alias for HAS_ANIM_SET_LOADED.
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * Full list of movement clipsets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/movementClipsetsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} animSetName

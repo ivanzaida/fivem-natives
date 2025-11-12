@@ -3,7 +3,9 @@
  *
  * 0x21CDF75488EFB98B
 
- * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
+ * 
+ * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

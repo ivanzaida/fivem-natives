@@ -3,8 +3,10 @@
  *
  * 0x14B872A3D2879E35
 
- * Set to TRUE to allow prologue road nodes from being
+ * 
+ * Set to TRUE to allow prologue road nodes from being
  * loaded, FALSE to disable
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} allow

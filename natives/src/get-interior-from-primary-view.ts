@@ -3,7 +3,9 @@
  *
  * 0x92EA98681B1610F2
 
- * Returns the current interior id from gameplay camera
+ * 
+ * Returns the current interior id from gameplay camera
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

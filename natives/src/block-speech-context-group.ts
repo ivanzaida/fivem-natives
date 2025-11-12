@@ -5,8 +5,10 @@ import { EAudContextBlockTarget } from '@ivanzaida/structures'
  *
  * 0x4D4012166DD4F5AA
 
- * Stop a certain group of peds from using a certain group of speech contexts.  Note that the block will be automatically removed
+ * 
+ * Stop a certain group of peds from using a certain group of speech contexts.  Note that the block will be automatically removed
  * when the calling script finishes
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} groupName

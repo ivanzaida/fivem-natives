@@ -3,10 +3,12 @@
  *
  * 0x0FAB208D4EE01DCE
 
- * Telemetry sent whenever  whenever a RIVAL player:
+ * 
+ * Telemetry sent whenever  whenever a RIVAL player:
  * 1. Steals another CEO's Import Export car and delivers it to thier CEO's warehouse
  * 2. Steals another CEO's Import Export car and delivers it to the cops
  * 3. Steals another CEO's Import Export car and delivers it to the scrapyard
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} bossId1

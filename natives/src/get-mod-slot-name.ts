@@ -5,7 +5,9 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  *
  * 0x04A81F937A270775
 
- * Returns the name for the type of vehicle mod(Armour, engine etc)
+ * 
+ * Returns the name for the type of vehicle mod(Armour, engine etc)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,7 +3,9 @@
  *
  * 0x8943BF9E0F15EDA0
 
- * Full list of waypoint recordings by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/waypointRecordings.json
+ * 
+ * Full list of waypoint recordings by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/waypointRecordings.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} recordingName

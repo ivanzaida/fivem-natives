@@ -5,9 +5,11 @@ import { StringRef } from '@ivanzaida/structures'
  *
  * 0x9CBD6E7B088910A1
 
- * index
+ * 
+ * index
  * -------
  * See function sub_1005 in am_boat_taxi.ysc
+ * 
  * context
  * ----------
  * "BACKUP_VAGOS"
@@ -23,6 +25,7 @@ import { StringRef } from '@ivanzaida/structures'
  * "CHALLENGE"
  * "SHARE_LAST_JOB"
  * "DEFAULT"
+ * 
  * reason
  * ---------
  * "NOTREACHTARGET"
@@ -34,9 +37,11 @@ import { StringRef } from '@ivanzaida/structures'
  * "RECEIVE_LJ_L"
  * "CHALLENGE_PLAYER_LEFT"
  * "DEFAULT"
+ * 
  * unk
  * -----
  * Unknown bool value
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

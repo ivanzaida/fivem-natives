@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7AA365BA6A18440B
 
- * Enable better ped's vehicle during visibility tracking
+ * 
+ * Enable better ped's vehicle during visibility tracking
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

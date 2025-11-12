@@ -5,7 +5,9 @@ import { EHudColours } from '@ivanzaida/structures'
  *
  * 0x4A12B9AB7A7BA5C0
 
- * Argument must be 0.0f or above 38.0f, or it will be ignored.
+ * 
+ * Argument must be 0.0f or above 38.0f, or it will be ignored.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} maxHeight

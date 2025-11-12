@@ -5,8 +5,11 @@ import { PedIndex, VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
  *
  * 0x30FAA55EAF29F9BE
 
- * example from fm_mission_controller
+ * 
+ * example from fm_mission_controller
+ * 
  * TASK::TASK_GO_TO_COORD_ANY_MEANS(l_649, sub_f7e86(-1, 0), 1.0, 0, 0, 786603, 0xbf800000);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

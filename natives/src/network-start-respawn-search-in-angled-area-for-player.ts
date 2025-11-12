@@ -5,7 +5,9 @@ import { PlayerIndex, ERespawnQueryFlags } from '@ivanzaida/structures'
  *
  * 0x243CFDECC076762E
 
- * p8, p9, p10 is another coordinate, or zero, often related to `GET_BLIP_COORDS in the decompiled scripts.
+ * 
+ * p8, p9, p10 is another coordinate, or zero, often related to `GET_BLIP_COORDS in the decompiled scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

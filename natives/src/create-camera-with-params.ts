@@ -5,7 +5,9 @@ import { ECameraType, EEulerRotOrder, CameraIndex } from '@ivanzaida/structures'
  *
  * 0x96A32328480B485C
 
- * p9 uses 2 by default
+ * 
+ * p9 uses 2 by default
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ECameraType} camera

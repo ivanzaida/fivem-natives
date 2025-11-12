@@ -3,7 +3,9 @@
  *
  * 0x3A4500FC2B94720A
 
- * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
+ * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
  * 
  * ------------------------------------------------------------------
  */

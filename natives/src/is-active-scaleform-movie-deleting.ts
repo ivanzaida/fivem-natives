@@ -5,7 +5,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0xA19744810BB29B74
 
- * val is 1-20 (0 will return false)
+ * 
+ * val is 1-20 (0 will return false)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

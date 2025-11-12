@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8B224316C228BF51
 
- * Specifies a new walking animation to use when the ped is walking around
+ * 
+ * Specifies a new walking animation to use when the ped is walking around
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

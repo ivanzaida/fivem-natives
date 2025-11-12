@@ -3,7 +3,9 @@
  *
  * 0x0F3098F5B044D6CE
 
- * Returns true if the current frontend menu is FE_MENU_VERSION_LANDING_MENU
+ * 
+ * Returns true if the current frontend menu is FE_MENU_VERSION_LANDING_MENU
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

@@ -5,8 +5,10 @@ import { ToFreemodeGamers } from '@ivanzaida/structures'
  *
  * 0x9D1FE8B2049C8437
 
- * This will transition back to freemode from a launched activity session.
+ * 
+ * This will transition back to freemode from a launched activity session.
  * Like above but we immediately host a session.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ToFreemodeGamers} gamers [Ref]

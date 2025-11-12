@@ -5,7 +5,8 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x1DEB47A41CF1C17E
 
- * Sets a multiplier to the cost function which decides whether a ped should climb whilst navigating
+ * 
+ * Sets a multiplier to the cost function which decides whether a ped should climb whilst navigating
  * Default value is 1.0 which means the ped behaves as normal
  * The lower the value, the more likely a ped is to use a climb.
  * At 0.5 the ped will be twice as likely to climb as usual
@@ -13,7 +14,9 @@ import { PedIndex } from '@ivanzaida/structures'
  * At 2.0 the ped will be half as likely to use a climb
  * Etc, etc..
  * Be sure to set this back to 1.0 after use, or peds will behave strangely even after the mission ends.
+ * 
  * Default modifier is 1.0, minimum is 0.0 and maximum is 10.0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

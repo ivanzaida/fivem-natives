@@ -3,9 +3,12 @@
  *
  * 0xC05DC36AE101C2BB
 
- * Returns TRUE if we have accepted an invite through the platform UI (Guide / XMB) and are
+ * 
+ * Returns TRUE if we have accepted an invite through the platform UI (Guide / XMB) and are
  * now awaiting session details and user confirmation.
+ * 
  * Seems to be true while "Getting GTA Online session details" shows up.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

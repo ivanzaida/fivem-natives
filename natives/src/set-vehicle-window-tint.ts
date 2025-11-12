@@ -5,7 +5,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xFE620ED8E0A3C209
 
- * enum WindowTints
+ * 
+ * enum WindowTints
  * {
  *  WINDOWTINT_NONE,
  *   WINDOWTINT_PURE_BLACK,
@@ -16,6 +17,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *   WINDOWTINT_GREEN
  * };
  * Full list of all vehicle window tints by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/vehicleColors.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

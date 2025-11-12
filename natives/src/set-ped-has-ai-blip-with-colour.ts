@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xF42995E2FC0559E0
 
- * color: see SET_BLIP_COLOUR
+ * 
+ * color: see SET_BLIP_COLOUR
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

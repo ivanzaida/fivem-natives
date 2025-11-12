@@ -5,13 +5,15 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x05D3F682DDA06C20
 
- * Plates:
+ * 
+ * Plates:
  * Blue/White - 0
  * Yellow/black - 1
  * Yellow/Blue - 2
  * Blue/White2 - 3
  * Blue/White3 - 4
  * Yankton - 5
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

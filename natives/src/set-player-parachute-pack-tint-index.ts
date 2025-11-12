@@ -5,13 +5,16 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xC02C4AB8A5C744D7
 
- * This function sets the tint index of the parachute pack for the player
+ * 
+ * This function sets the tint index of the parachute pack for the player
+ * 
  * tints 0- 13
  * 0 - unkown
  * 1 - unkown
  * 2 - unkown
  * 3 - unkown
  * 4 - unkown
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x5F93A870D439E8B4
 
- * The return value can roughly be considered as a noise range in meters, ramping down over time towards zero.
+ * 
+ * The return value can roughly be considered as a noise range in meters, ramping down over time towards zero.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

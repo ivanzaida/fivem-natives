@@ -5,7 +5,9 @@ import { ItemIndex } from '@ivanzaida/structures'
  *
  * 0xD130E7CDEE903624
 
- * Returns whether or not the specified property is set for the entity.
+ * 
+ * Returns whether or not the specified property is set for the entity.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ItemIndex} guid

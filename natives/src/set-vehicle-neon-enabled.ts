@@ -5,12 +5,15 @@ import { VehicleIndex, ENeonId } from '@ivanzaida/structures'
  *
  * 0xE62930EC6FAABCA5
 
- * Sets the neon lights of the specified vehicle on/off.
+ * 
+ * Sets the neon lights of the specified vehicle on/off.
+ * 
  * Indices:
  * 0 = Left
  * 1 = Right
  * 2 = Front
  * 3 = Back
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

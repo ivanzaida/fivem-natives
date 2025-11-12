@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xBD9FF88287E84727
 
- * Leave an AI ped behind in place of the player when they are moving to an MP cutscene
+ * 
+ * Leave an AI ped behind in place of the player when they are moving to an MP cutscene
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

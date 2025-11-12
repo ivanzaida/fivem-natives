@@ -3,7 +3,9 @@
  *
  * 0xBF3497E24DEAD835
 
- * Use this command to set the loopiung state of a synchronised scene after it has been created.
+ * 
+ * Use this command to set the loopiung state of a synchronised scene after it has been created.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

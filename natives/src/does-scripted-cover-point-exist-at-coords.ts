@@ -3,7 +3,9 @@
  *
  * 0xB4AC30A54094D002
 
- * Checks if there is a cover point at position
+ * 
+ * Checks if there is a cover point at position
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

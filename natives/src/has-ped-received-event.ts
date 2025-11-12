@@ -5,8 +5,10 @@ import { PedIndex, EEventNames } from '@ivanzaida/structures'
  *
  * 0x613F3705BEA060B4
 
- * Returns true if the ped has received the event (this is similar to IS_PED_RESPONDING_TO_EVENT,
+ * 
+ * Returns true if the ped has received the event (this is similar to IS_PED_RESPONDING_TO_EVENT,
  * but will work with blocking of non-temporary events).  EVENT_INVALID can be used to test if the ped has received any event.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

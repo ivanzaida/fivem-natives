@@ -3,7 +3,9 @@
  *
  * 0x41CA829CEAEC6F29
 
- * Setter for GET_FAKE_SPECTATOR_MODE
+ * 
+ * Setter for GET_FAKE_SPECTATOR_MODE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} value

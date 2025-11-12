@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x2A82E9CBC48CF2F8
 
- * Second parameter is unused.
+ * 
+ * Second parameter is unused.
+ * 
  * second parameter was for jetpack in the early stages of gta and the hard coded code is now removed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

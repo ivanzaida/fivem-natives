@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x34864AB7DA700AA6
 
- * Creates an orange ( default ) Blip-object. Returns a Blip-object which can then be modified.
+ * 
+ * Creates an orange ( default ) Blip-object. Returns a Blip-object which can then be modified.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

@@ -3,7 +3,9 @@
  *
  * 0x0C9B2F8C2BD128C2
 
- * Once called each frame hides all above radar notifications.
+ * 
+ * Once called each frame hides all above radar notifications.
+ * 
  * 
  * ------------------------------------------------------------------
  */

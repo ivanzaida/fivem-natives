@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x8026FC64F8CCD292
 
- * None physical attachment - collision is turned off for entity.
+ * 
+ * None physical attachment - collision is turned off for entity.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} firstEntity

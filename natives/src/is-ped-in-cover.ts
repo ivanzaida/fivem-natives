@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD6179D448A06A77F
 
- * p1 is nearly always 0 in the scripts.
+ * 
+ * p1 is nearly always 0 in the scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

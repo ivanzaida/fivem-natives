@@ -5,9 +5,12 @@ import { FeWarningFlags } from '@ivanzaida/structures'
  *
  * 0x7B1776B3B53F8D74
 
- * You can only use text entries. No custom text.
+ * 
+ * You can only use text entries. No custom text.
+ * 
  * Example: SET_WARNING_MESSAGE("t20", 3, "adder", false, -1, 0, 0, true);
  * errorCode: shows an error code at the bottom left if nonzero
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textLabel

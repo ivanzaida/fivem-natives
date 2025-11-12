@@ -5,9 +5,12 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  *
  * 0xD1C578C204015E1F
 
- * This command sets the drawable and texture for one component of the ped's model. Each ped model can have several drawables for each component.
+ * 
+ * This command sets the drawable and texture for one component of the ped's model. Each ped model can have several drawables for each component.
  * Each drawable can have several textures. You should check that the new drawable index is within range for the component (body part) for the ped's model (using GET_NUMBER_OF_CHAR_DRAWABLE_VARIATIONS.
+ * 
  * paletteId: 0 to 3.
+ * 
  * componentId:
  * enum ePedVarComp
  * {
@@ -26,7 +29,9 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  * 	PV_COMP_JBIB,
  * 	PV_COMP_MAX
  * };
+ * 
  * Examples: https://gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

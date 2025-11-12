@@ -5,7 +5,9 @@ import { EntityIndex, PtfxId } from '@ivanzaida/structures'
  *
  * 0xB5BD5079F58A395F
 
- * Full list of particle effect dictionaries and effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json
+ * 
+ * Full list of particle effect dictionaries and effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} fxName

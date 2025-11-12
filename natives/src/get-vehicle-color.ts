@@ -5,7 +5,9 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x8D3F11438EEDD7D2
 
- * What's this for? Primary and Secondary RGB have their own natives and this one doesn't seem specific.
+ * 
+ * What's this for? Primary and Secondary RGB have their own natives and this one doesn't seem specific.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

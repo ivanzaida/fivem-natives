@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xDE69E5D63A1F57E0
 
- * If an entity is in the retained state, then force it out of that state and into a clean, in-exterior-world state instead
+ * 
+ * If an entity is in the retained state, then force it out of that state and into a clean, in-exterior-world state instead
+ * 
  * Immediately removes entity from an interior. Like sets entity to `limbo` room.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

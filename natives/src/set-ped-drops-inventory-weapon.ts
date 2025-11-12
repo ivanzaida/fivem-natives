@@ -5,7 +5,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0x6D796FB2594CA190
 
- * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
+ * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

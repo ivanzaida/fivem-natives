@@ -5,7 +5,8 @@ import { EDoorState } from '@ivanzaida/structures'
  *
  * 0xEBB2809684978887
 
- * Lockstates not applied and CNetObjDoor's not created until DOOR_SYSTEM_GET_IS_PHYSICS_LOADED returns true.
+ * 
+ * Lockstates not applied and CNetObjDoor's not created until DOOR_SYSTEM_GET_IS_PHYSICS_LOADED returns true.
  * `requestDoor` on true, and when door system is configured to, i.e., "persists w/o netobj", generate a CRequestDoorEvent.
  * `forceUpdate` on true, forces an update on the door system (same path as netObjDoor_applyDoorStuff)
  * Door lock states:
@@ -16,6 +17,7 @@ import { EDoorState } from '@ivanzaida/structures'
  * 4: DOORSTATE_FORCE_LOCKED_THIS_FRAME
  * 5: DOORSTATE_FORCE_OPEN_THIS_FRAME
  * 6: DOORSTATE_FORCE_CLOSED_THIS_FRAME
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

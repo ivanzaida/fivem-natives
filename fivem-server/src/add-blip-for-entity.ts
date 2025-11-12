@@ -5,11 +5,14 @@ import { EntityIndex, BlipIndex } from '@ivanzaida/structures'
  *
  * 0x30822554
 
- * Returns red ( default ) blip attached to entity.
+ * 
+ * Returns red ( default ) blip attached to entity.
+ * 
  * Example:
  * Blip blip; //Put this outside your case or option
  * blip = HUD::ADD_BLIP_FOR_ENTITY(YourPedOrBodyguardName);
  * HUD::SET_BLIP_AS_FRIENDLY(blip, true);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity handle to create the blip.

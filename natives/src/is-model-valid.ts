@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x441B9C85D0FFA9ED
 
- * Returns whether the specified model exists in the game.
+ * 
+ * Returns whether the specified model exists in the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} modelHash

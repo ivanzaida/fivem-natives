@@ -3,7 +3,9 @@
  *
  * 0x808A7B80951975C3
 
- * indicates that there is a scripted IPL group swap active
+ * 
+ * indicates that there is a scripted IPL group swap active
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

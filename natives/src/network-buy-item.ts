@@ -5,10 +5,12 @@ import { EPurchaseType } from '@ivanzaida/structures'
  *
  * 0x231BA68A82FF0316
 
- * Player bought something in a shop
+ * 
+ * Player bought something in a shop
  * extra1 - client view of the current inventory. e.g. if buying bullets include how many
  * bullets the client thinks he owns.
  * itemIdentifier - extra item identifier, like PEGASUS.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

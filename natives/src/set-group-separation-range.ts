@@ -5,7 +5,9 @@ import { GroupIndex } from '@ivanzaida/structures'
  *
  * 0x316802E03D8923D8
 
- * Sets the range at which members will automatically leave the group.
+ * 
+ * Sets the range at which members will automatically leave the group.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GroupIndex} uniqueGroupID

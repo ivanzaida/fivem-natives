@@ -5,7 +5,9 @@ import { Vector3 } from '@ivanzaida/structures'
  *
  * 0xE7DCCB6BBE933741
 
- * This command will assert if the pause menu is not active
+ * 
+ * This command will assert if the pause menu is not active
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {Vector3}  

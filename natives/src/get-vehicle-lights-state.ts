@@ -5,7 +5,9 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x9FFEA38DBCE391EC
 
- * Returns FALSE if vehicle does not exist
+ * 
+ * Returns FALSE if vehicle does not exist
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicleID

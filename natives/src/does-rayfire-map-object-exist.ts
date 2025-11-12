@@ -5,7 +5,9 @@ import { RayfireIndex } from '@ivanzaida/structures'
  *
  * 0x502101046E18AD3F
 
- * Returns true if a destructible object with this handle exists, false otherwise.
+ * 
+ * Returns true if a destructible object with this handle exists, false otherwise.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {RayfireIndex} rayFireObject

@@ -5,7 +5,9 @@ import { EWeaponcomponentType, ModelNames } from '@ivanzaida/structures'
  *
  * 0xB7B32238BFF7DD76
 
- * Returns the model hash of the extra component at specified index.
+ * 
+ * Returns the model hash of the extra component at specified index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponcomponentType} weaponComponent

@@ -5,7 +5,9 @@ import { EPresence } from '@ivanzaida/structures'
  *
  * 0x012C74D626CB4559
 
- * ALL FIELDS HAVE TO BE INTS
+ * 
+ * ALL FIELDS HAVE TO BE INTS
+ * 
  * Declare a structure that represents a rich presence:
  * STRUCT STRUCT_INVITE_EVENT
  * INT field_0
@@ -20,7 +22,9 @@ import { EPresence } from '@ivanzaida/structures'
  * On 360 you set only the presence id and the values for the fields in
  * case the presence has fields, for instance, setting the presence Playing Mission A
  * is set by specifying the presence id and the index of the mission A.
+ * 
  * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPresence} id

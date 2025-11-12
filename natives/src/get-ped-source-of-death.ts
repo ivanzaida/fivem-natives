@@ -5,8 +5,11 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x836392D80E4F106A
 
- * Returns the Entity (Ped, Vehicle, or ?Object?) that killed the 'ped'
+ * 
+ * Returns the Entity (Ped, Vehicle, or ?Object?) that killed the 'ped'
+ * 
  * Is best to check if the Ped is dead before asking for its killer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

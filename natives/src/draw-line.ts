@@ -3,7 +3,9 @@
  *
  * 0xC9A38C22BE8013F2
 
- * Call this command every frame.
+ * 
+ * Call this command every frame.
+ * 
  * Draws a depth-tested line from one point to another.
  * ----------------
  * x1, y1, z1 : Coordinates for the first point
@@ -14,11 +16,13 @@
  * Public Sub DrawLine(from As Vector3, [to] As Vector3, col As Color)
  *     [Function].Call(Hash.DRAW_LINE, from.X, from.Y, from.Z, [to].X, [to].Y, [to].Z, col.R, col.G, col.B, col.A)
  * End Sub
+ * 
  * [C#]
  * public void DrawLine(Vector3 from, Vector3 to, Color col)
  * {
  *     Function.Call(Hash.DRAW_LINE, from.X, from.Y, from.Z, to.X, to.Y, to.Z, col.R, col.G, col.B, col.A);
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsFirstX

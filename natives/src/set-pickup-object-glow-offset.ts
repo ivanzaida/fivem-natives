@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x1EFD0C969D7EC8A5
 
- * p1 is always -0.2 in scripts and p2 is always true in scripts.
+ * 
+ * p1 is always -0.2 in scripts and p2 is always true in scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} pickupID

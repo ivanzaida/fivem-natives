@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xC6F43D0E
 
- * Creates an orange ( default ) Blip-object. Returns a Blip-object which can then be modified.
+ * 
+ * Creates an orange ( default ) Blip-object. Returns a Blip-object which can then be modified.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x The X coordinate to create the blip on.

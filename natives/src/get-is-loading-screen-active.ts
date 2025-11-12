@@ -3,7 +3,9 @@
  *
  * 0xDCE42B3C644D1A4E
 
- * Returns true if the loading screens are active
+ * 
+ * Returns true if the loading screens are active
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

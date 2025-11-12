@@ -5,8 +5,10 @@ import { PedIndex, EWeaponType, EWeaponcomponentType } from '@ivanzaida/structur
  *
  * 0xB6209D82C643428C
 
- * Returns -1 if camoComponentHash is invalid/not attached to the weapon.
+ * 
+ * Returns -1 if camoComponentHash is invalid/not attached to the weapon.
  * Full list of weapons, components, tint indexes & weapon liveries by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

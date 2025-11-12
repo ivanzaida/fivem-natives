@@ -5,7 +5,9 @@ import { EntityIndex, FloatRef } from '@ivanzaida/structures'
  *
  * 0xB66CD98548798F26
 
- * w is the correct parameter name!
+ * 
+ * w is the correct parameter name!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

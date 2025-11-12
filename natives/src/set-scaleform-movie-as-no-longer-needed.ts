@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0xD314260005F064BF
 
- * sets that the scaleform movie is no longer needed & can be deleted
+ * 
+ * sets that the scaleform movie is no longer needed & can be deleted
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} scaleformMovieId [Ref]

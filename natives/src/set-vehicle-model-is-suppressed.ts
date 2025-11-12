@@ -5,8 +5,11 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xCCA6D8A84EE8C88A
 
- * Makes the vehicle stop spawning naturally in traffic. Here's an essential example:
+ * 
+ * Makes the vehicle stop spawning naturally in traffic. Here's an essential example:
+ * 
  * VEHICLE::SET_VEHICLE_MODEL_IS_SUPPRESSED(MISC::GET_HASH_KEY("taco"), true);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

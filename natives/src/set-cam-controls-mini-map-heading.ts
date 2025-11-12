@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x29BBAB7031C36984
 
- * Rotates the radar to match the camera's Z rotation
+ * 
+ * Rotates the radar to match the camera's Z rotation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

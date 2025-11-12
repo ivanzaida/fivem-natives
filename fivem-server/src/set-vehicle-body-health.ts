@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x920C2517
 
- * 1000.0 = full,  0.0 = damaged
+ * 
+ * 1000.0 = full,  0.0 = damaged
  * When body health drops to 0, the vehicle is very vulnerable to damage
+ * 
  * p2 often set to 1000.0 in the decompiled scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

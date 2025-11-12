@@ -3,7 +3,9 @@
  *
  * 0x1C49F79FA808A72C
 
- * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
+ * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} subValue

@@ -5,8 +5,11 @@ import { Vector3 } from '@ivanzaida/structures'
  *
  * 0x32D86930C15E1159
 
- * Returns the texture resolution of the passed texture dict+name.
+ * 
+ * Returns the texture resolution of the passed texture dict+name.
+ * 
  * Note: Most texture resolutions are doubled compared to the console version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textureDictionaryName

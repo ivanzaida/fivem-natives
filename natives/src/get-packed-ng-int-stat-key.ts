@@ -5,7 +5,9 @@ import { EnumToInt, EStatsenum } from '@ivanzaida/structures'
  *
  * 0x6B604293CA9BF4E0
 
- * Needs more research. Gets the stat name of a masked int?
+ * 
+ * Needs more research. Gets the stat name of a masked int?
+ * 
  * section - values used in the decompiled scripts:
  * "_NGPSTAT_INT"
  * "_MP_NGPSTAT_INT"
@@ -23,6 +25,7 @@ import { EnumToInt, EStatsenum } from '@ivanzaida/structures'
  * "_ARENAWARSPSTAT_INT"
  * "_CASINOPSTAT_INT"
  * "_CASINOHSTPSTAT_INT"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EnumToInt} stat

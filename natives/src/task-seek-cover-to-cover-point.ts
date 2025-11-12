@@ -5,9 +5,12 @@ import { PedIndex, CoverpointIndex } from '@ivanzaida/structures'
  *
  * 0xEC4B308C708928CD
 
- * Seeks cover in such a way as to avoid fire from position fromX, fromY, fromZ. Once cover is reached the ped will hide behind it for Time milliseconds then the task will end,
+ * 
+ * Seeks cover in such a way as to avoid fire from position fromX, fromY, fromZ. Once cover is reached the ped will hide behind it for Time milliseconds then the task will end,
  * if Time is zero the ped will hide behind it indefinitely and the task will never end.
+ * 
  * p5 is always -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

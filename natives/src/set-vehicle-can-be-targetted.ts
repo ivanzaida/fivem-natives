@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xCF9C21E54DB720B8
 
- * This has not yet been tested - it's just an assumption of what the types could be.
+ * 
+ * This has not yet been tested - it's just an assumption of what the types could be.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

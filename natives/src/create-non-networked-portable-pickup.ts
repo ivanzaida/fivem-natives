@@ -5,7 +5,9 @@ import { EPickupType, ModelNames, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x77573CD394E8C3B1
 
- * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
+ * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} type

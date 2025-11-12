@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x130DC0384195C42E
 
- * Only works during nighttime.
+ * 
+ * Only works during nighttime.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

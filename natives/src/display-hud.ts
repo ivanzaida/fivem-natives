@@ -3,7 +3,9 @@
  *
  * 0x747786364137DC63
 
- * If Hud should be displayed
+ * 
+ * If Hud should be displayed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} displayHudFlag

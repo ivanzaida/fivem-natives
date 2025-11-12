@@ -3,7 +3,9 @@
  *
  * 0xF5EF5C15CE92F236
 
- * Hardcoded to only work in multiplayer.
+ * 
+ * Hardcoded to only work in multiplayer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} farClip

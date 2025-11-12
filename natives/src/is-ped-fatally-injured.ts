@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xBFD01C2045360289
 
- * Cannot give ped tasks if fatally injured.
+ * 
+ * Cannot give ped tasks if fatally injured.
+ * 
  * Gets a value indicating whether this ped's health is below its fatally injured threshold. The default threshold is 100.
  * If the handle is invalid, the function returns true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

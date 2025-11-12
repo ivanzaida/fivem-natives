@@ -3,7 +3,9 @@
  *
  * 0xA6DB7FC56DBDFB82
 
- * Shows the cursor on screen for one frame.
+ * 
+ * Shows the cursor on screen for one frame.
+ * 
  * 
  * ------------------------------------------------------------------
  */

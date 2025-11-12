@@ -5,8 +5,10 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0x1164A75E490C27B6
 
- * Example:
+ * 
+ * Example:
  *  STATS::STAT_SET_INT(MISC::GET_HASH_KEY("MPPLY_KILLS_PLAYERS"), 1337, true);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

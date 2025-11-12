@@ -5,12 +5,14 @@ import { PedIndex, ECombatTargetLossResponse } from '@ivanzaida/structures'
  *
  * 0x570AAA413775DFFB
 
- * enum eTargetLossResponseType
+ * 
+ * enum eTargetLossResponseType
  * {
  * 	TLR_ExitTask,
  * 	TLR_NeverLoseTarget,
  * 	TLR_SearchForTarget
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { NetworkClanDesc, StringRef } from '@ivanzaida/structures'
  *
  * 0x29B9959EF2236634
 
- * bufferSize is 35 in the scripts.
+ * 
+ * bufferSize is 35 in the scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkClanDesc} clanToCheck [Ref]

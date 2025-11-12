@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x82C9F945AF12EC9F
 
- * I named p1 as timeDuration as it is obvious. I'm assuming tho it is ran in ms(Milliseconds) as usual.
+ * 
+ * I named p1 as timeDuration as it is obvious. I'm assuming tho it is ran in ms(Milliseconds) as usual.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

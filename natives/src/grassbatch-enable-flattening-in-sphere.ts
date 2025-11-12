@@ -3,7 +3,9 @@
  *
  * 0x400EE8EE61051687
 
- * Wraps 0xAAE9BE70EC7C69AB with FLT_MAX as p7, Jenkins: 0x73E96210?
+ * 
+ * Wraps 0xAAE9BE70EC7C69AB with FLT_MAX as p7, Jenkins: 0x73E96210?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centerX

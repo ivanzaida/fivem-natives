@@ -3,7 +3,9 @@
  *
  * 0xD09188DB6289E413
 
- * Must be called every frame - keeps it locked to a blip
+ * 
+ * Must be called every frame - keeps it locked to a blip
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} distance

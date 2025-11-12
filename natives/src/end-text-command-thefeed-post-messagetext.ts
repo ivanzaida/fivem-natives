@@ -5,8 +5,12 @@ import { EFeedTextIcon } from '@ivanzaida/structures'
  *
  * 0x5C7E2225D7451992
 
- * This function can show pictures of every texture that can be requested by REQUEST_STREAMED_TEXTURE_DICT.
+ * 
+ * This function can show pictures of every texture that can be requested by REQUEST_STREAMED_TEXTURE_DICT.
+ * 
  * List of picNames: https://pastebin.com/XdpJVbHz
+ * 
+ * 
  * flash is a bool for fading in.
  * iconTypes:
  * 1 : Chat Box
@@ -18,8 +22,10 @@ import { EFeedTextIcon } from '@ivanzaida/structures'
  * 7 : Right Jumping Arrow
  * 8 : RP Icon
  * 9 : $ Icon
+ * 
  * "sender" is the very top header. This can be any old string.
  * "subject" is the header under the sender.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} tXD

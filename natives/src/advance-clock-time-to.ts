@@ -3,7 +3,9 @@
  *
  * 0x77A5275126602303
 
- * if the new time is before the current time a day will pass on the date
+ * 
+ * if the new time is before the current time a day will pass on the date
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} h

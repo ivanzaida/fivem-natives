@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEAB8A43F6621850F
 
- * Sets the color of the neon lights of the specified vehicle.
+ * 
+ * Sets the color of the neon lights of the specified vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

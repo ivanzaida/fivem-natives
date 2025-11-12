@@ -5,8 +5,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x2645430E708CBFAC
 
- * Returns whether a control was newly released since the last check.
+ * 
+ * Returns whether a control was newly released since the last check.
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x353BF8D85390AA39
 
- * Set the player to super jump this frame
+ * 
+ * Set the player to super jump this frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} ped

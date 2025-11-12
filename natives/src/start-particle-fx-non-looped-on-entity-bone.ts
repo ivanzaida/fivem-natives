@@ -5,11 +5,14 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x73F69F74011DDBCA
 
- * Triggers a named particle effect on an entity bone at an offset position.
+ * 
+ * Triggers a named particle effect on an entity bone at an offset position.
  * This should only be used with non-looped particle effects.
  * The particle effect will then play and tidy itself up when finished.
  * There is no access to the particle effect once it has been triggered.
+ * 
  * Full list of particle effect dictionaries and effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} fxName

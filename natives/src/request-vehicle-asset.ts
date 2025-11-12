@@ -5,12 +5,16 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x7991957B46F22F47
 
- * Used to prevent delays for missions peds getting out/in to vehicles waiting for anims to load
+ * 
+ * Used to prevent delays for missions peds getting out/in to vehicles waiting for anims to load
+ * 
  * REQUEST_VEHICLE_ASSET(GET_HASH_KEY(cargobob3), 3);
+ * 
  * vehicle found that have asset's:
  * cargobob3
  * submersible
  * blazer
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

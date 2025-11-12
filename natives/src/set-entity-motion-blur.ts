@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD7AC50B9FB801C60
 
- * Toggles motion blur on an entity
+ * 
+ * Toggles motion blur on an entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

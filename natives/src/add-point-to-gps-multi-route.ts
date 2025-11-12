@@ -3,7 +3,9 @@
  *
  * 0xAD5E8940E3832571
 
- * Adds a point to a multi-route
+ * 
+ * Adds a point to a multi-route
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

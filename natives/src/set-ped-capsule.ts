@@ -5,10 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x04FC75A7251431C6
 
- * Override the ped capsule from script
+ * 
+ * Override the ped capsule from script
+ * 
  * Overrides the ped's collision capsule radius for the current tick.
  * Must be called every tick to be effective.
+ * 
  * Setting this to 0.001 will allow warping through some objects.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

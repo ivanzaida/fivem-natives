@@ -5,8 +5,11 @@ import { EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  *
  * 0x958849BB56EC0F07
 
- * p0 seems to consistently be 2 across scripts
+ * 
+ * p0 seems to consistently be 2 across scripts
+ * 
  * Function is called faily often by CAM::CREATE_CAM_WITH_PARAMS
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEulerRotOrder} rotOrder

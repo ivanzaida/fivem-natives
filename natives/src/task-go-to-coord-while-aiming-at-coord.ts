@@ -5,7 +5,8 @@ import { PedIndex, EEnavScriptFlags, EFiringType } from '@ivanzaida/structures'
  *
  * 0xB8551FB832F73124
 
- * movement_speed: mostly 2f, but also 1/1.2f, etc.
+ * 
+ * movement_speed: mostly 2f, but also 1/1.2f, etc.
  * p8: always false
  * p9: 2f
  * p10: 0.5f
@@ -13,6 +14,7 @@ import { PedIndex, EEnavScriptFlags, EFiringType } from '@ivanzaida/structures'
  * p12: 0 / 512 / 513, etc.
  * p13: 0
  * firing_pattern: ${firing_pattern_full_auto}, 0xC6EE6B4C
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

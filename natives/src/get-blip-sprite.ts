@@ -5,8 +5,10 @@ import { BlipIndex, EBlipSprite } from '@ivanzaida/structures'
  *
  * 0x8FACE824AEC046E8
 
- * Blips Images + IDs:
+ * 
+ * Blips Images + IDs:
  * gtaxscripting.blogspot.com/2016/05/gta-v-blips-id-and-image.html
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

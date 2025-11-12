@@ -5,7 +5,9 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x6793968E12D821E5
 
- * Tells a ped in a heli to chase an entity.  The ped must be in a heli.
+ * 
+ * Tells a ped in a heli to chase an entity.  The ped must be in a heli.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

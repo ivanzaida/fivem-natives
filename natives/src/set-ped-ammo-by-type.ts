@@ -5,7 +5,9 @@ import { PedIndex, EAmmoType } from '@ivanzaida/structures'
  *
  * 0x8DF178F67D660DC7
 
- * Ammo types: https://gist.github.com/root-cause/faf41f59f7a6d818b7db0b839bd147c1
+ * 
+ * Ammo types: https://gist.github.com/root-cause/faf41f59f7a6d818b7db0b839bd147c1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

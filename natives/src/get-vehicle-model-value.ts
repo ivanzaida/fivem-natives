@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x6C6E46A097D62A34
 
- * Returns `nMonetaryValue` from handling.meta for specific model.
+ * 
+ * Returns `nMonetaryValue` from handling.meta for specific model.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

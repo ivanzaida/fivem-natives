@@ -3,8 +3,11 @@
  *
  * 0xAA3D72C5CCFC8EF3
 
- * For the money bags that drop a max of $40,000. Often called 40k bags.
+ * 
+ * For the money bags that drop a max of $40,000. Often called 40k bags.
+ * 
  * Most likely NETWORK_EARN_FROM_ROB
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

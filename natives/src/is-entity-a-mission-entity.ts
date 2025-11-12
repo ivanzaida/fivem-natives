@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x110821AE6C63DD4F
 
- * Will return false if the entity has been set as no longer needed.
+ * 
+ * Will return false if the entity has been set as no longer needed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

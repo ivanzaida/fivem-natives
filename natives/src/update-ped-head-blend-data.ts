@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB320F619D5CC2D27
 
- * See SET_PED_HEAD_BLEND_DATA().
+ * 
+ * See SET_PED_HEAD_BLEND_DATA().
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

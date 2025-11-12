@@ -5,7 +5,9 @@ import { EPresence } from '@ivanzaida/structures'
  *
  * 0x5F974E79EAE32BE7
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPresence} id

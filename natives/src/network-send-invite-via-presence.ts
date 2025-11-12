@@ -5,9 +5,11 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xBB7F9D4FB57B4FFA
 
- * Send session invite via presence
+ * 
+ * Send session invite via presence
  * Pass NULL to content ID to indicate freemode invite
  * Pass 0 to nPlaylistLength to indicate no playlist
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

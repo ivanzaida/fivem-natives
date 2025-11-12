@@ -5,8 +5,10 @@ import { EMatchmakingGroup } from '@ivanzaida/structures'
  *
  * 0x9A651BCFA544373C
 
- * Functions to allow script to set the matchmaking group for the local player and the maximum
+ * 
+ * Functions to allow script to set the matchmaking group for the local player and the maximum
  * number of players in each group
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EMatchmakingGroup} group

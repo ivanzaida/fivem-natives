@@ -3,7 +3,9 @@
  *
  * 0x897B441FF18ECBBB
 
- * Gets the scale of safe zone. if the safe zone size scale is max, it will return 1.0.
+ * 
+ * Gets the scale of safe zone. if the safe zone size scale is max, it will return 1.0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

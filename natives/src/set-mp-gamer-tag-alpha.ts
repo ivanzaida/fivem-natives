@@ -5,7 +5,9 @@ import { EEMpTag } from '@ivanzaida/structures'
  *
  * 0x4B82F311A9427C3F
 
- * Sets flag's sprite transparency. 0-255.
+ * 
+ * Sets flag's sprite transparency. 0-255.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} playerNum

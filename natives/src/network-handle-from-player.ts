@@ -5,7 +5,9 @@ import { PlayerIndex, GamerHandle } from '@ivanzaida/structures'
  *
  * 0x464E131FD68B953F
 
- * Retrieve a gamer handle from a player index. In non-network games, this will return the local gamer handle
+ * 
+ * Retrieve a gamer handle from a player index. In non-network games, this will return the local gamer handle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

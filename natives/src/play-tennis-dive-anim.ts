@@ -5,7 +5,9 @@ import { PedIndex, ETennisDiveDirection } from '@ivanzaida/structures'
  *
  * 0x9A6987280C48639C
 
- * Play tennis dive animation
+ * 
+ * Play tennis dive animation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

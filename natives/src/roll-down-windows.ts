@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD3694FA8930DED3C
 
- * Roll down all the windows of the vehicle passed through the first parameter.
+ * 
+ * Roll down all the windows of the vehicle passed through the first parameter.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

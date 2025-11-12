@@ -3,7 +3,8 @@
  *
  * 0xF010888FF9A380E6
 
- * mode can be any of these:
+ * 
+ * mode can be any of these:
  * SLOWMO_T1_TRAILER_SMASH
  * SLOWMO_T1_RAYFIRE_EXPLOSION
  * SLOWMO_PROLOGUE_VAULT
@@ -15,6 +16,7 @@
  * SLOW_MO_METH_HOUSE_RAYFIRE
  * BARRY_02_SLOWMO
  * BARRY_01_SLOWMO
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mode

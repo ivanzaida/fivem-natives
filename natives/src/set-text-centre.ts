@@ -3,7 +3,9 @@
  *
  * 0xEAF65721ACB2FDFB
 
- * It also moves the origin of the text to the centre point.
+ * 
+ * It also moves the origin of the text to the centre point.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} textCentreFlag

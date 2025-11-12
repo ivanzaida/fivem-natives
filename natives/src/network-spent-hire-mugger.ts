@@ -3,9 +3,11 @@
  *
  * 0x028DAC40D73AD61C
 
- * Only used once in a script (am_contact_requests)
+ * 
+ * Only used once in a script (am_contact_requests)
  * p1 = 0
  * p2 = 1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

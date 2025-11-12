@@ -5,9 +5,12 @@ import { VehicleNodeId } from '@ivanzaida/structures'
  *
  * 0xD2507ABB3A05C571
 
- * Returns whether the given node is switched off (to be used with a node index obtained by the above function(s) and within the same frame!)
+ * 
+ * Returns whether the given node is switched off (to be used with a node index obtained by the above function(s) and within the same frame!)
+ * 
  * Returns true when the node is Offroad. Alleys, some dirt roads, and carparks return true.
  * Normal roads where plenty of Peds spawn will return false
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleNodeId} nodeId

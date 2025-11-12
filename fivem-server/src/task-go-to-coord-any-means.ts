@@ -5,8 +5,11 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF91DF93B
 
- * example from fm_mission_controller
+ * 
+ * example from fm_mission_controller
+ * 
  * TASK::TASK_GO_TO_COORD_ANY_MEANS(l_649, sub_f7e86(-1, 0), 1.0, 0, 0, 786603, 0xbf800000);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The Ped Handle.

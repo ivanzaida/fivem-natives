@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7B94DA9EDB63B904
 
- * Sets whether a wing should be broken off or not
+ * 
+ * Sets whether a wing should be broken off or not
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

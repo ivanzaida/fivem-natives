@@ -5,7 +5,9 @@ import { EntityIndex, EAnimPriorityFlags } from '@ivanzaida/structures'
  *
  * 0x5D15315EA989E69A
 
- * Sets the current rate of the clips on a priority level on the scripted anim task,
+ * 
+ * Sets the current rate of the clips on a priority level on the scripted anim task,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

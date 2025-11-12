@@ -5,9 +5,12 @@ import { EControlType } from '@ivanzaida/structures'
  *
  * 0xE0CC4855A08C0666
 
- * Suppresses vibrations on a given control's pad when id set to other than -1, clear on -1
+ * 
+ * Suppresses vibrations on a given control's pad when id set to other than -1, clear on -1
  * or call CLEAR_CONTROL_SHAKE_SUPPRESSED_ID.
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

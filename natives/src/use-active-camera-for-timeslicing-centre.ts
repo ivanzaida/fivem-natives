@@ -3,7 +3,9 @@
  *
  * 0xC4A706CAFECA1953
 
- * Returns the city density settings (0.0f->1.0f)
+ * 
+ * Returns the city density settings (0.0f->1.0f)
+ * 
  * 
  * ------------------------------------------------------------------
  */

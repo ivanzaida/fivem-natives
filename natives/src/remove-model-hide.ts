@@ -5,9 +5,12 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xC94AE68759E1B3BD
 
- * Removes a previously created model hide, if one exists and matches exactly
+ * 
+ * Removes a previously created model hide, if one exists and matches exactly
+ * 
  * This native makes entities visible that are hidden by the native CREATE_MODEL_HIDE.
  * p5 should be false, true does nothing
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

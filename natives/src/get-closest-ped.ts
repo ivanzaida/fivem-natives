@@ -5,7 +5,9 @@ import { IntRef, EPedType } from '@ivanzaida/structures'
  *
  * 0x02E029D1D9614563
 
- * Gets the closest ped in a radius.
+ * 
+ * Gets the closest ped in a radius.
+ * 
  * Ped Types:
  * Any ped = -1
  * Player = 1
@@ -16,6 +18,7 @@ import { IntRef, EPedType } from '@ivanzaida/structures'
  * SWAT = 27
  * Animal = 28
  * Army = 29
+ * 
  * ------------------
  * P4 P5 P7 P8
  * 1  0  x  x  = return nearest walking Ped
@@ -23,16 +26,21 @@ import { IntRef, EPedType } from '@ivanzaida/structures'
  * x  1  1  x  = return Ped you are using
  * 0  0  x  x  = no effect
  * 0  x  0  x  = no effect
+ * 
  * x = can be 1 or 0. Does not have any obvious changes.
+ * 
  * This function does not return ped who is:
  * 1. Standing still
  * 2. Driving
  * 3. Fleeing
  * 4. Attacking
+ * 
  * This function only work if the ped is:
  * 1. walking normally.
  * 2. waiting to cross a road.
+ * 
  * Note: PED::GET_PED_NEARBY_PEDS works for more peds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

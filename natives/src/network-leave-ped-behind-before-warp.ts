@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x520FABA37BE687A7
 
- * Leave an AI ped behind in place of the player when they are being warped to a new location
+ * 
+ * Leave an AI ped behind in place of the player when they are being warped to a new location
+ * 
  * p4 and p5 are always 0 in scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x06A3C9A5604F9F4C
 
- * Prevent auto vaulting on a particular entity.
+ * 
+ * Prevent auto vaulting on a particular entity.
+ * 
  * p1 always false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,9 +3,12 @@
  *
  * 0x65CB233333D99E11
 
- * Example:
+ * 
+ * Example:
+ * 
  * bool playing = AUDIO::IS_ALARM_PLAYING("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS");
  * Full list of alarm names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/alarmSounds.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} alarmName

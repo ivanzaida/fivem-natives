@@ -5,7 +5,9 @@ import { ShopPedProp } from '@ivanzaida/structures'
  *
  * 0x2DBB2D25D50A5392
 
- * See https://git.io/JtcRf for example and structs.
+ * 
+ * See https://git.io/JtcRf for example and structs.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

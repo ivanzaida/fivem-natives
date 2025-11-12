@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xA1D021917F4E3FBD
 
- * Sets the concealed status for the specific player. This can be used to hide a remote player that is in the
+ * 
+ * Sets the concealed status for the specific player. This can be used to hide a remote player that is in the
  * same tutorial session as the local player
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

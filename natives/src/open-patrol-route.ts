@@ -3,7 +3,9 @@
  *
  * 0xFA0AB32CDCA06D33
 
- * This should be called once when added a patrol route.
+ * 
+ * This should be called once when added a patrol route.
+ * 
  *  patrolRoutes found in the b617d scripts:
  *  "miss_Ass0",
  *  "miss_Ass1",
@@ -25,6 +27,7 @@
  *  "miss_Tower_07",
  *  "miss_Tower_08",
  *  "miss_Tower_10"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} routeName

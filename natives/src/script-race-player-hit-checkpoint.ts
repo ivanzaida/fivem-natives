@@ -3,7 +3,9 @@
  *
  * 0x52E29231F896396E
 
- * Registers a player having passed a checkpoint in a script race in mp. SCRIPT_RACE_INIT needs to have been called first.
+ * 
+ * Registers a player having passed a checkpoint in a script race in mp. SCRIPT_RACE_INIT needs to have been called first.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} ped

@@ -3,8 +3,10 @@
  *
  * 0x748C69C64ED4F080
 
- * Uses attributes to find players with similar stats. Upper/Lower limit must be above zero or the fallback limit +/-0.1 is used.
+ * 
+ * Uses attributes to find players with similar stats. Upper/Lower limit must be above zero or the fallback limit +/-0.1 is used.
  * There can be up to 15 attributes, they are as follows:
+ * 
  * 0 = Races
  * 1 = Parachuting
  * 2 = Horde
@@ -15,6 +17,7 @@
  * 7 = Shooting Range
  * 8 = Deathmatch
  * 9 = MPPLY_MCMWIN/MPPLY_CRMISSION
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} activityID

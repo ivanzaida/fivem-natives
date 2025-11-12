@@ -3,7 +3,9 @@
  *
  * 0xA4109B4CEC071346
 
- * Default:1000||This sets a value which is used when NETWORK_ENABLE_EMPTY_CROWDING_VEHICLES_REMOVAL(true) is called each frame.
+ * 
+ * Default:1000||This sets a value which is used when NETWORK_ENABLE_EMPTY_CROWDING_VEHICLES_REMOVAL(true) is called each frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} capNum

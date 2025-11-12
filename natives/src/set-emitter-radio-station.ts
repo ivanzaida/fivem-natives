@@ -3,7 +3,9 @@
  *
  * 0x74378390011ACDA4
 
- * Full list of static emitters by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/staticEmitters.json
+ * 
+ * Full list of static emitters by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/staticEmitters.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} emitterName

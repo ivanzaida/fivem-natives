@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x4B04D06A9A9A2186
 
- * Gets overriden parachute modelname hash. Returns 0 if invalid.
+ * 
+ * Gets overriden parachute modelname hash. Returns 0 if invalid.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

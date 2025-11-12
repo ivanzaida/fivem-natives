@@ -5,8 +5,11 @@ import { ENodeFlags, VehicleNodeId } from '@ivanzaida/structures'
  *
  * 0x97C50CC028477E0D
 
- * As GET_NTH_CLOSEST_VEHICLE_NODE... but returns a node index. This node index MUST be used within this frame as it's validity is not guaranteed outside.
+ * 
+ * As GET_NTH_CLOSEST_VEHICLE_NODE... but returns a node index. This node index MUST be used within this frame as it's validity is not guaranteed outside.
+ * 
  * Returns the id.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

@@ -5,7 +5,9 @@ import { VehicleIndex, EVehicleClass } from '@ivanzaida/structures'
  *
  * 0x5506AFBD6056C05F
 
- * Returns an int
+ * 
+ * Returns an int
+ * 
  * Vehicle Classes:
  * 0: Compacts
  * 1: Sedans
@@ -29,9 +31,12 @@ import { VehicleIndex, EVehicleClass } from '@ivanzaida/structures'
  * 19: Military
  * 20: Commercial
  * 21: Trains
+ * 
  * char buffer[128];
  * std::sprintf(buffer, "VEH_CLASS_%i", VEHICLE::GET_VEHICLE_CLASS(vehicle));
+ * 
  * const char className = HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION(buffer);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

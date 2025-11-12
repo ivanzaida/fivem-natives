@@ -3,9 +3,12 @@
  *
  * 0xCAB6FA8C9D44F90A
 
- * Have game stream extra collision and IPL files around this coordinate. This function needs called every frame the
+ * 
+ * Have game stream extra collision and IPL files around this coordinate. This function needs called every frame the
  * additional data is needed
+ * 
  * Alias of REQUEST_COLLISION_AT_COORD.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} vecX

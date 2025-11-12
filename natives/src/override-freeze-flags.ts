@@ -3,7 +3,9 @@
  *
  * 0x8822ABB8DFD960E5
 
- * Implemented with acitivities in mind (e.g. pool game).
+ * 
+ * Implemented with acitivities in mind (e.g. pool game).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} override

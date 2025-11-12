@@ -5,10 +5,15 @@ import { EEKeyboardType } from '@ivanzaida/structures'
  *
  * 0xCFF30C6181F9B8BC
 
- * Displays the system keyboard
+ * 
+ * Displays the system keyboard
+ * 
  * sfink: note, p0 is set to 6 for PC platform in at least 1 script, or to `unk::_get_ui_language_id() == 0` otherwise.
+ * 
  * NOTE: windowTitle uses text labels, and an invalid value will display nothing.
+ * 
  * www.gtaforums.com/topic/788343-vrel-script-hook-v/?p=1067380474
+ * 
  * windowTitle's
  * -----------------
  * CELL_EMAIL_BOD  =   "Enter your Eyefind message"
@@ -35,6 +40,7 @@ import { EEKeyboardType } from '@ivanzaida/structures'
  * FMMC_KEY_TIP9F   =   "Invalid Outfit Name. Try again"
  * FMMC_KEY_TIP9N  =   "Outfit Name"
  * PM_NAME_CHALL  =   "Enter Challenge Name"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEKeyboardType} keyboardTypeFlag

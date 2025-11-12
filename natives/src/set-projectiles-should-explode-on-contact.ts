@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x78CDDDB2C832ADEF
 
- * Makes projectiles, such as grenades, automatically explode when this hit this object
+ * 
+ * Makes projectiles, such as grenades, automatically explode when this hit this object
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

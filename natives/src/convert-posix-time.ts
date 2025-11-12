@@ -5,9 +5,12 @@ import { UgcDate } from '@ivanzaida/structures'
  *
  * 0xB2D05034AF8E75CF
 
- * Return cloud time as int (in seconds since midnight 1970-01-01)
+ * 
+ * Return cloud time as int (in seconds since midnight 1970-01-01)
  * This will not do what you expect after sometime in ~2038
+ * 
  * Takes the specified time and writes it to the structure specified in the second argument.
+ * 
  * struct date_time
  * {
  *     int year;
@@ -23,6 +26,7 @@ import { UgcDate } from '@ivanzaida/structures'
  *     int second;
  *     int PADDING6;
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} content

@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x32089D2C6AD6199B
 
- * It simply makes the said ped to cower behind cover object(wall, desk, car)
+ * 
+ * It simply makes the said ped to cower behind cover object(wall, desk, car)
+ * 
  * Peds flee attributes must be set to not to flee, first. Else, most of the peds, will just flee from gunshot sounds or any other panic situations.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

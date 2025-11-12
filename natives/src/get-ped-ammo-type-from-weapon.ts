@@ -5,10 +5,12 @@ import { PedIndex, EWeaponType, EAmmoType } from '@ivanzaida/structures'
  *
  * 0xA239630C4686BC6E
 
- * Returns the current ammo type of the specified ped's specified weapon.
+ * 
+ * Returns the current ammo type of the specified ped's specified weapon.
  * MkII magazines will change the return value, like Pistol MkII returning AMMO_PISTOL without any components and returning AMMO_PISTOL_TRACER after Tracer Rounds component is attached.
  * Use 0xF489B44DD5AF4BD9 if you always want AMMO_PISTOL.
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

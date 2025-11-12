@@ -3,8 +3,10 @@
  *
  * 0x7DA9B8DF3A97D040
 
- * Full list of scenario groups used in scripts by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenarioGroupNames.json
+ * 
+ * Full list of scenario groups used in scripts by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenarioGroupNames.json
  * Occurrences in the b617d scripts: https://pastebin.com/Tvg2PRHU
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scenarioGroupName

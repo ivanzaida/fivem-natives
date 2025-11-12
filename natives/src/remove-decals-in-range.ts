@@ -3,7 +3,9 @@
  *
  * 0x5926A824AF54BCC3
 
- * Removes all decals in range from a position, it includes the bullet holes, blood pools, petrol...
+ * 
+ * Removes all decals in range from a position, it includes the bullet holes, blood pools, petrol...
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xB7F70784
 
- * Returns the name of the script that owns/created the entity or nullptr. Second parameter is unused, can just be a nullptr.
+ * 
+ * Returns the name of the script that owns/created the entity or nullptr. Second parameter is unused, can just be a nullptr.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

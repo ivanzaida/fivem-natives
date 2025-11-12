@@ -5,8 +5,11 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0xB0D3DD0BB37136FD
 
- * Overrides any player preferences the player may have set up based on which slot they last selected
+ * 
+ * Overrides any player preferences the player may have set up based on which slot they last selected
+ * 
  * Set the active slotIndex in the wheel weapon to the slot associated with the provided Weapon hash
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponToShow

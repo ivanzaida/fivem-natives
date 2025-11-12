@@ -3,8 +3,10 @@
  *
  * 0x626E6E90E38C6EF7
 
- * Indicates that we're using offline content from script - this will be considered
+ * 
+ * Indicates that we're using offline content from script - this will be considered
  * for matchmaking and players with different content
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} usingOffline

@@ -5,10 +5,14 @@ import { EntityIndex, EPedTransportMode } from '@ivanzaida/structures'
  *
  * 0xFAA48325A90263BE
 
- * Checks if the entity is in the area around a vehicle.
+ * 
+ * Checks if the entity is in the area around a vehicle.
  * If the entity is a ped in a vehicle, then the coords of the vehicle are used in the check.
+ * 
  * Checks if entity1 is within the box defined by x/y/zSize of entity2.
+ * 
  * Last three parameters are almost alwasy p5 = 0, p6 = 1, p7 = 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

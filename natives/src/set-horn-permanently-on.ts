@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8D78BCB9B0FC86A6
 
- * Turns the horn on - on every frame, not choosing a pattern of it's own.
+ * 
+ * Turns the horn on - on every frame, not choosing a pattern of it's own.
  * Needs called every frame. Will time-out after SET_HORN_PERMANENTLY_ON_TIME(VEHICLE_INDEX VehicleIndex, FLOAT HornTime)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

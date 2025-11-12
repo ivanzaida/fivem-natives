@@ -5,7 +5,9 @@ import { PedIndex, EPedConfigFlags } from '@ivanzaida/structures'
  *
  * 0x49F8918E2DC5FFBC
 
- * See SET_PED_CONFIG_FLAG
+ * 
+ * See SET_PED_CONFIG_FLAG
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

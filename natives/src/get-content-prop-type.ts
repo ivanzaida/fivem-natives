@@ -3,7 +3,9 @@
  *
  * 0x8BAF8AD59F47AAFC
 
- * Returns prop type for given model hash
+ * 
+ * Returns prop type for given model hash
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

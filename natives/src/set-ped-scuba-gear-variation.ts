@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x07E6931DA4A9ACB6
 
- * This native sets a scuba mask for freemode models and an oxygen bottle for player_ models. It works on freemode and player_ models.
+ * 
+ * This native sets a scuba mask for freemode models and an oxygen bottle for player_ models. It works on freemode and player_ models.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

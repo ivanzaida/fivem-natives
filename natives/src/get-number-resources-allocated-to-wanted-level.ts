@@ -5,7 +5,9 @@ import { EDispatchType } from '@ivanzaida/structures'
  *
  * 0x874C935832B2AE06
 
- * Returns the number of resources assigned to a given dispatch for the wanted level response
+ * 
+ * Returns the number of resources assigned to a given dispatch for the wanted level response
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EDispatchType} dispatchType

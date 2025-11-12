@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x77950FC099D3FB4D
 
- * When enabled, the player won't fall off the bike when landing from large heights.
+ * 
+ * When enabled, the player won't fall off the bike when landing from large heights.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

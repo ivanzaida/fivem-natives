@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x2B773DB19587707D
 
- * If false, lowers hydraulics (if raised) and disables hydraulics controls. If true, raises hydraulics and enables hydraulics controls.
+ * 
+ * If false, lowers hydraulics (if raised) and disables hydraulics controls. If true, raises hydraulics and enables hydraulics controls.
+ * 
  * Only used once in each carmod script, on a car that does not have hydraulics to begin with.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

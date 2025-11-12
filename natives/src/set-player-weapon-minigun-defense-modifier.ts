@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x10F23FF10E9AA211
 
- * This function will change the given players defense multiplier against damage
+ * 
+ * This function will change the given players defense multiplier against damage
+ * 
  * modifier's min value is 0.1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

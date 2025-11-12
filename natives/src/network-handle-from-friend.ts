@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0x1530EB7A9B636789
 
- * Retrieve a gamer handle from a friend index
+ * 
+ * Retrieve a gamer handle from a friend index
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} friend

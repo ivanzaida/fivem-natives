@@ -3,7 +3,9 @@
  *
  * 0x312DFD78768FEAA0
 
- * Enable/Disables global slipstream physics
+ * 
+ * Enable/Disables global slipstream physics
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enableSlipstreaming

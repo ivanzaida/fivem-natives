@@ -5,9 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x819DFDEDB0378F60
 
- * Sets a ped to a specified heading and position and will set override blend for a period
+ * 
+ * Sets a ped to a specified heading and position and will set override blend for a period
  * This function is recommended for use when updating a clone every frame to a tightly controlled position such as
  * required for hands clasped with close in camera in arm-wrestling
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

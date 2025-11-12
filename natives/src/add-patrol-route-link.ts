@@ -3,7 +3,9 @@
  *
  * 0x62DDD8B4533C8E19
 
- * A Node can have a maximum of 4 links. The direction of the link is the order passed in. e.g NodeA, NodeB passed in that order will will go to from A to B
+ * 
+ * A Node can have a maximum of 4 links. The direction of the link is the order passed in. e.g NodeA, NodeB passed in that order will will go to from A to B
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} nodeId1

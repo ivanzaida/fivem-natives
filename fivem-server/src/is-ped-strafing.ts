@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xEFEED13C
 
- * What's strafing?
+ * 
+ * What's strafing?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The target ped.

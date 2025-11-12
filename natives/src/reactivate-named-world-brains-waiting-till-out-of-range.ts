@@ -3,7 +3,9 @@
  *
  * 0x8C0CA18CAAE89A2D
 
- * Possible values:
+ * 
+ * Possible values:
+ * 
  * act_cinema
  * am_mp_carwash_launch
  * am_mp_carwash_control
@@ -30,6 +32,7 @@
  * launcher_Yoga
  * ob_mp_bed_low
  * ob_mp_bed_med
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptName

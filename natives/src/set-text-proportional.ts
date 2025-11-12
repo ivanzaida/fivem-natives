@@ -3,7 +3,9 @@
  *
  * 0xEA62FB8CA7210CF3
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} textProportionalFlag

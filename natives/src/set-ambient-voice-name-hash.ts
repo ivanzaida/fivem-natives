@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xE0B01E3F4FF01B04
 
- * VoiceName specified by Audio
+ * 
+ * VoiceName specified by Audio
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

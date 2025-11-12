@@ -5,7 +5,9 @@ import { EExplosionTag, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x4E890D800CBC4BD9
 
- * explosionType: See ADD_EXPLOSION.
+ * 
+ * explosionType: See ADD_EXPLOSION.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EExplosionTag} explosionTag

@@ -3,7 +3,9 @@
  *
  * 0xA1DA526BBDEF1146
 
- * Appears to set whether a transition should be started when the session is migrating.
+ * 
+ * Appears to set whether a transition should be started when the session is migrating.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} launch

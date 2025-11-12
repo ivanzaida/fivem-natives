@@ -3,7 +3,9 @@
  *
  * 0x17739C59E555C46D
 
- * Returns true if the NAT type is Strict (3) and a certain number of connections have failed.
+ * 
+ * Returns true if the NAT type is Strict (3) and a certain number of connections have failed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

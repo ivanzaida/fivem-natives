@@ -6,7 +6,9 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x5053D36357207FD6
 
- * Retuns the point on the road edge from the nearest node to vInputNodePosition in the direction most orientated with fHeading
+ * 
+ * Retuns the point on the road edge from the nearest node to vInputNodePosition in the direction most orientated with fHeading
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} inputNodePositionX

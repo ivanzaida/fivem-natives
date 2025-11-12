@@ -5,10 +5,13 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x15F4AEC8F54F37B9
 
- * This function is called on peds in vehicles.
+ * 
+ * This function is called on peds in vehicles.
+ * 
  * anim: animation name
  * p2, p3, p4: "sweep_low", "sweep_med" or "sweep_high"
  * p5: no idea what it does but is usually -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

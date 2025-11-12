@@ -5,7 +5,8 @@ import { EDatafileType } from '@ivanzaida/structures'
  *
  * 0xA8F96580C10C5F9E
 
- * Types:
+ * 
+ * Types:
  * 1 = Boolean
  * 2 = Integer
  * 3 = Float
@@ -13,6 +14,7 @@ import { EDatafileType } from '@ivanzaida/structures'
  * 5 = Vector3
  * 6 = Object
  * 7 = Array
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} dict

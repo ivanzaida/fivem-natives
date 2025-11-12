@@ -3,7 +3,9 @@
  *
  * 0xC2F71CC2AB70CFB1
 
- * Toggles the big minimap state like in GTA:Online.
+ * 
+ * Toggles the big minimap state like in GTA:Online.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} active

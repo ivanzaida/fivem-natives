@@ -5,10 +5,13 @@ import { ENewloadsceneFlags } from '@ivanzaida/structures'
  *
  * 0xAC48F8E2BF2BEBF7
 
- * starts a new frustum load scene, which is interior-aware and uses a streaming volume
+ * 
+ * starts a new frustum load scene, which is interior-aware and uses a streaming volume
+ * 
  * `radius` value is usually between `3f` and `7000f` in original 1868 scripts.
  * `p7` is 0, 1, 2, 3 or 4 used in decompiled scripts, 0 is by far the most common.
  * Returns True if success, used only 7 times in decompiled scripts of 1868
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

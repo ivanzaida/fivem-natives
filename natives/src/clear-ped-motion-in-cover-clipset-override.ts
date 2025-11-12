@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8ED4FEE426B22F3D
 
- * Clear this peds different motion in cover clipset.  Should be called after using SET_PED_MOTION_IN_COVER_CLIPSET_OVERRIDE
+ * 
+ * Clear this peds different motion in cover clipset.  Should be called after using SET_PED_MOTION_IN_COVER_CLIPSET_OVERRIDE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

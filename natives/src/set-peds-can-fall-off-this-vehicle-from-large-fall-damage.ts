@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x61D3E6830FEE218E
 
- * These values are reset and will only stay set for one frame.
+ * 
+ * These values are reset and will only stay set for one frame.
+ * 
  * Sets some bit and float of vehicle. float is >= 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

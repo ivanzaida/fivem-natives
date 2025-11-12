@@ -3,7 +3,9 @@
  *
  * 0xA318B59A6358E821
 
- * Fall the longest distance with a parachute before opening it
+ * 
+ * Fall the longest distance with a parachute before opening it
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

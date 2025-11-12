@@ -3,7 +3,9 @@
  *
  * 0xAFA659708600A8CD
 
- * Returns the total number of DLC weapons that are available in SP (availableInSP field in shop_weapon.meta).
+ * 
+ * Returns the total number of DLC weapons that are available in SP (availableInSP field in shop_weapon.meta).
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

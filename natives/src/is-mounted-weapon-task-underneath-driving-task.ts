@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x5652C0D8FC728983
 
- * Used to query if the mounted weapon control task given by CONTROL_MOUNTED_WEAPON is set on driving ped
+ * 
+ * Used to query if the mounted weapon control task given by CONTROL_MOUNTED_WEAPON is set on driving ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

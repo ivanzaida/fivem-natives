@@ -3,7 +3,9 @@
  *
  * 0x2CCC9874DC774FD1
 
- * Returns true if wallet balance >= amount.
+ * 
+ * Returns true if wallet balance >= amount.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

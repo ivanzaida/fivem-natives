@@ -3,9 +3,11 @@
  *
  * 0xEB6D4B648B4DD588
 
- * Call this at any time before or during a cutscene (but ideally at least 5 seconds before it ends) to indicate where
+ * 
+ * Call this at any time before or during a cutscene (but ideally at least 5 seconds before it ends) to indicate where
  * the camera will be after the cutscene is over. The streaming system will make sure that scene is in memory before the
  * cutscene switches back to normal gameplay.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} camPosX

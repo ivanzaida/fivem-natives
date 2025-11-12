@@ -5,7 +5,9 @@ import { EDayOfWeek } from '@ivanzaida/structures'
  *
  * 0xDDA4278694CAA369
 
- * Gets the current day of the week.
+ * 
+ * Gets the current day of the week.
+ * 
  * 0: Sunday
  * 1: Monday
  * 2: Tuesday
@@ -13,6 +15,7 @@ import { EDayOfWeek } from '@ivanzaida/structures'
  * 4: Thursday
  * 5: Friday
  * 6: Saturday
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EDayOfWeek}  

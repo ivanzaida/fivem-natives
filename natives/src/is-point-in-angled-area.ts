@@ -3,13 +3,16 @@
  *
  * 0x26715B0ED6702C87
 
- * An angled area is an X-Z oriented rectangle with three parameters:
+ * 
+ * An angled area is an X-Z oriented rectangle with three parameters:
  * 1. origin: the mid-point along a base edge of the rectangle;
  * 2. extent: the mid-point of opposite base edge on the other Z;
  * 3. width: the length of the base edge; (named derived from logging strings ``CNetworkRoadNodeWorldStateData``).
+ * 
  * The oriented rectangle can then be derived from the direction of the two points (``norm(origin - extent)``), its orthonormal, and the width, e.g:
  * 1. golf_mp https://i.imgur.com/JhsQAK9.png
  * 2. am_taxi https://i.imgur.com/TJWCZaT.jpg
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pointX

@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x9D756F14B232B644
 
- * Normally peds tasked with GOTO_POINT_ANY_MEANS will only be able to commandeer vehicles from the ambient population.
+ * 
+ * Normally peds tasked with GOTO_POINT_ANY_MEANS will only be able to commandeer vehicles from the ambient population.
  * Settting TRUE via this command will allow peds to use specified mission vehicles also.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

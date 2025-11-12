@@ -5,7 +5,9 @@ import { RopeIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x73F3DA3B1BFA714B
 
- * The position supplied can be anywhere, and the entity should anchor relative to that point from it's origin.
+ * 
+ * The position supplied can be anywhere, and the entity should anchor relative to that point from it's origin.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {RopeIndex} ropeID

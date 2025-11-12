@@ -5,7 +5,9 @@ import { VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  *
  * 0x2955FC7A22330E7F
 
- * Command to check if a ped could shuffle from this seat. This is a bit expensive,
+ * 
+ * Command to check if a ped could shuffle from this seat. This is a bit expensive,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { EntityIndex, EEntityPopulationType } from '@ivanzaida/structures'
  *
  * 0xFC30DDFF
 
- * A population type, from the following enum: https://alloc8or.re/gta5/doc/enums/ePopulationType.txt
+ * 
+ * A population type, from the following enum: https://alloc8or.re/gta5/doc/enums/ePopulationType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity the entity to obtain the population type from

@@ -3,8 +3,10 @@
  *
  * 0x40DF02F371F40883
 
- * Returns communicationGroupFlag
+ * 
+ * Returns communicationGroupFlag
  * communicationType: see 0xDBDF80673BBA3D65
+ * 
  * enum eCommunicationGroupFlag
  * {
  * 	COMMUNICATION_GROUP_LOCAL_PLAYER = 1 << 0,
@@ -16,6 +18,7 @@
  * 	COMMUNICATION_GROUP_SAME_TEAM = 1 << 6,
  * 	COMMUNICATION_GROUP_INVALID = 1 << 7,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

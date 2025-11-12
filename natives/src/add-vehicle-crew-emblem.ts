@@ -5,7 +5,9 @@ import { VehicleIndex, PedIndex } from '@ivanzaida/structures'
  *
  * 0x6A808266C74B0678
 
- * boneIndex is always chassis_dummy in the scripts. The x/y/z params are location relative to the chassis bone.
+ * 
+ * boneIndex is always chassis_dummy in the scripts. The x/y/z params are location relative to the chassis bone.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

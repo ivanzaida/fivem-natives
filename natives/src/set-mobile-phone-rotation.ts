@@ -5,7 +5,9 @@ import { EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0xA0382000AA987093
 
- * Last parameter is unknown and always zero.
+ * 
+ * Last parameter is unknown and always zero.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} newRotationVectorX

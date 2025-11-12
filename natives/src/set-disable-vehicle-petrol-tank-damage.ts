@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8DB4917AFAD347BC
 
- * Sets whether a petrol tank can take damage
+ * 
+ * Sets whether a petrol tank can take damage
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

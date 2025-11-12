@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x36B2377A209962E5
 
- * When this ped receives its next script task, they will do a flee exit from the scenario point.
+ * 
+ * When this ped receives its next script task, they will do a flee exit from the scenario point.
  * It will take a few frames for the exit to be completed.  Unlike the other force exit commands, the ped must be using the scenario task
  * before this is called.  Returns true if the position was successfully set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

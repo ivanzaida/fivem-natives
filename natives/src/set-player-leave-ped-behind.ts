@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xC4A38E060739AAF9
 
- * Enable/disable whether a player leaves behind a ped if they leave a session.
+ * 
+ * Enable/disable whether a player leaves behind a ped if they leave a session.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,10 +5,12 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x120B4ED5
 
- * Checks if an entity's IS_VISIBLE flag is set, i.e. whether it's being explicitly hidden (by code or script) or not.
+ * 
+ * Checks if an entity's IS_VISIBLE flag is set, i.e. whether it's being explicitly hidden (by code or script) or not.
  * Note that this function returns true for all entities that have their IS_VISIBLE flag set,
  * even those that aren't actually visible from the current camera (i.e. they are outside
  * the view frustum or behind occluders).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

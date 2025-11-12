@@ -3,7 +3,9 @@
  *
  * 0xF96D051DEBF38D64
 
- * Related to notification color flashing, setting count to 0 invalidates a `THEFEED_SET_RGBA_PARAMETER_FOR_NEXT_MESSAGE` call for the target notification.
+ * 
+ * Related to notification color flashing, setting count to 0 invalidates a `THEFEED_SET_RGBA_PARAMETER_FOR_NEXT_MESSAGE` call for the target notification.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} flashDuration

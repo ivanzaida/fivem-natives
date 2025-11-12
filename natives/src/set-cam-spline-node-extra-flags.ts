@@ -5,7 +5,9 @@ import { CameraIndex, ECamSplineNodeForceFlags } from '@ivanzaida/structures'
  *
  * 0x9DE997C45267314A
 
- * Nodes must be setup first, then the extra flags can be modified.
+ * 
+ * Nodes must be setup first, then the extra flags can be modified.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

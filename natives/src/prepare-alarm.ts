@@ -3,9 +3,12 @@
  *
  * 0x0C876A2D0F41B79C
 
- * Example:
+ * 
+ * Example:
+ * 
  * bool prepareAlarm = AUDIO::PREPARE_ALARM("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS");
  * Full list of alarm names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/alarmSounds.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} alarmName

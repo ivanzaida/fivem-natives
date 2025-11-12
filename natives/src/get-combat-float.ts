@@ -5,9 +5,12 @@ import { PedIndex, ECombatAttributeFloats } from '@ivanzaida/structures'
  *
  * 0x34DE92FC6933B92B
 
- * p0: Ped Handle
+ * 
+ * p0: Ped Handle
  * p1: int i | 0 <= i <= 27
+ * 
  * p1 probably refers to the attributes configured in combatbehavior.meta. There are 13. Example:
+ * 
  * <BlindFireChance value="0.1"/>
  * <WeaponShootRateModifier value="1.0"/>
  * <TimeBetweenBurstsInCover value="1.25"/>
@@ -21,6 +24,7 @@ import { PedIndex, ECombatAttributeFloats } from '@ivanzaida/structures'
  * <TimeToInvalidateInjuredTarget value="9.0"/>
  * <TriggerChargeTime_Near value="4.0"/>
  * <TriggerChargeTime_Far value="10.0"/>
+ * 
  * -------------Confirmed by editing combatbehavior.meta:
  * p1:
  * 0=BlindFireChance
@@ -32,6 +36,7 @@ import { PedIndex, ECombatAttributeFloats } from '@ivanzaida/structures'
  * 11=AttackWindowDistanceForCover
  * 12=TimeToInvalidateInjuredTarget
  * 16=OptimalCoverDistance
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

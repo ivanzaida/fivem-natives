@@ -5,8 +5,11 @@ import { VehicleIndex, PedIndex } from '@ivanzaida/structures'
  *
  * 0x630992D07A32281B
 
- * index: 0 - 1
+ * 
+ * index: 0 - 1
+ * 
  * Used to be incorrectly named _SET_VEHICLE_EXCLUSIVE_DRIVER_2
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

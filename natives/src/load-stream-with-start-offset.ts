@@ -3,10 +3,14 @@
  *
  * 0xCC32CFCCD0223A2F
 
- * Example:
+ * 
+ * Example:
  * AUDIO::LOAD_STREAM_WITH_START_OFFSET("STASH_TOXIN_STREAM", 2400, "FBI_05_SOUNDS");
+ * 
  * Only called a few times in the scripts.
+ * 
  * Full list of audio / sound names by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/soundNames.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} streamName

@@ -3,7 +3,9 @@
  *
  * 0x25D984CFB64ED6DE
 
- * Applies to new eBlipParams _BLIP_CHANGE_46 and _BLIP_CHANGE_47
+ * 
+ * Applies to new eBlipParams _BLIP_CHANGE_46 and _BLIP_CHANGE_47
+ * 
  * 
  * ------------------------------------------------------------------
  */

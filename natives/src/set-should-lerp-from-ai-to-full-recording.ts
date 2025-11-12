@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5D18C448B64290DB
 
- * A vehicle recording playback flag only used in jewelry_heist
+ * 
+ * A vehicle recording playback flag only used in jewelry_heist
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

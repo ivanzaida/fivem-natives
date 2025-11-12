@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xD390851FAFF577C2
 
- * Always returns false.
+ * 
+ * Always returns false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

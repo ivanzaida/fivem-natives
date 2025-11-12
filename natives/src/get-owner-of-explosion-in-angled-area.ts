@@ -5,8 +5,11 @@ import { EExplosionTag, EntityIndex } from '@ivanzaida/structures'
  *
  * 0xCBE5AFAE59C1BB3A
 
- * Returns a handle to the first entity within the a circle spawned inside the 2 points from a radius.
+ * 
+ * Returns a handle to the first entity within the a circle spawned inside the 2 points from a radius.
+ * 
  * explosionType: See ADD_EXPLOSION.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EExplosionTag} explosionTag

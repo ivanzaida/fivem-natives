@@ -5,7 +5,9 @@ import { PedIndex, EStealthKillTaskFlags } from '@ivanzaida/structures'
  *
  * 0x29EE4DD912B2F524
 
- * known "killTypes" are: "AR_stealth_kill_knife" and "AR_stealth_kill_a".
+ * 
+ * known "killTypes" are: "AR_stealth_kill_knife" and "AR_stealth_kill_a".
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

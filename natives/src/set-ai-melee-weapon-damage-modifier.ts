@@ -3,7 +3,9 @@
  *
  * 0x767EC66D239AED1D
 
- * This function will change the ai melee weapon damage multiplier
+ * 
+ * This function will change the ai melee weapon damage multiplier
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} modifier

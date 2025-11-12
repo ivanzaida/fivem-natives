@@ -5,10 +5,12 @@ import { ShopWeaponComponentData } from '@ivanzaida/structures'
  *
  * 0x737024F2814ABDDD
 
- * Looks up a weapon component based on the supplied dlc index and componentIndex
+ * 
+ * Looks up a weapon component based on the supplied dlc index and componentIndex
  * NOTE : (dlcIndex must be inside range: (0 <= dlcIndex < GET_NUM_DLC_WEAPONS()) )
  * NOTE : (componentIndex must be inside range: (0 <= componentIndex < GET_NUM_DLC_WEAPON_COMPONENTS(dlcIndex)) )
  * NOTE : ModType inside scrShopWeaponComponentData returns a hash of the weapon component's attach point name (and not something sensible, like an enum of component types...)
+ * 
  * p0 seems to be the weapon index
  * p1 seems to be the weapon component index
  * struct DlcComponentData{
@@ -27,6 +29,7 @@ import { ShopWeaponComponentData } from '@ivanzaida/structures'
  * char nameLabel[64];
  * char descLabel[64];
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} dlc

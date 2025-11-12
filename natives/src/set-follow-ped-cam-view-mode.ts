@@ -5,11 +5,14 @@ import { ECamViewMode } from '@ivanzaida/structures'
  *
  * 0xF20AB5C13902BB8A
 
- * Sets the type of Player camera:
+ * 
+ * Sets the type of Player camera:
+ * 
  * 0 - Third Person Close
  * 1 - Third Person Mid
  * 2 - Third Person Far
  * 4 - First Person
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ECamViewMode} viewMode

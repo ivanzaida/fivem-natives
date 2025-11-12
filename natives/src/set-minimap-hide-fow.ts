@@ -3,8 +3,11 @@
  *
  * 0x84DE06FB962FF36D
 
- * If true, the entire map will be revealed.
+ * 
+ * If true, the entire map will be revealed.
+ * 
  * FOW = Fog of War
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} hideFow

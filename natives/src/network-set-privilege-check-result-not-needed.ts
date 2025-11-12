@@ -3,8 +3,10 @@
  *
  * 0xDF9CDAB22CD2E6EF
 
- * Set that the privilege check result is no longer needed. Must be done
+ * 
+ * Set that the privilege check result is no longer needed. Must be done
  * before another privilege check can begin.
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x174A79E28AE4782E
 
- * Will do nothing if the weapon does not have the homing toggle ability, or the weapon is already in the non-homing state
+ * 
+ * Will do nothing if the weapon does not have the homing toggle ability, or the weapon is already in the non-homing state
+ * 
  * Unsets playerPed+330 if the current weapon has certain flags.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

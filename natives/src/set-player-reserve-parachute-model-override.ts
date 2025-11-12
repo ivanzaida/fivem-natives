@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x953124DAB474F504
 
- * An override for reserve parachute model.
+ * 
+ * An override for reserve parachute model.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

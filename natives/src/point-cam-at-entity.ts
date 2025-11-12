@@ -5,7 +5,9 @@ import { CameraIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD6B4D02A102485DC
 
- * p5 always seems to be 1 i.e TRUE
+ * 
+ * p5 always seems to be 1 i.e TRUE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

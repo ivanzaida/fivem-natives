@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x04C016145CE6A18B
 
- * Plays ambient speech. See also _0x444180DB.
+ * 
+ * Plays ambient speech. See also _0x444180DB.
+ * 
  * ped: The ped to play the ambient speech.
  * speechName: Name of the speech to play, eg. "GENERIC_HI".
  * speechParam: Can be one of the following:
@@ -46,8 +48,11 @@ import { PedIndex } from '@ivanzaida/structures'
  * SPEECH_PARAMS_SHOUTED
  * SPEECH_PARAMS_SHOUTED_CLEAR
  * SPEECH_PARAMS_SHOUTED_CRITICAL
+ * 
  * Note: A list of Name and Parameters can be found here https://pastebin.com/1GZS5dCL
+ * 
  * Full list of speeches and voices names by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/speeches.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,10 +5,13 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  *
  * 0xFD763E094E35D34A
 
- * Force a ped to use front or rear seats for a particular vehicle, if no vehicle is specified, it is assumed this is to be applied for any vehicle
+ * 
+ * Force a ped to use front or rear seats for a particular vehicle, if no vehicle is specified, it is assumed this is to be applied for any vehicle
  * this has the potential to cause conflicts with other slots, if wanting to apply a setting for all vehicles, script should call CLEAR_ALL_PED_VEHICLE_FORCED_SEAT_USAGE
  * beforehand
+ * 
  * seatIndex must be <= 2
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,7 +3,9 @@
  *
  * 0x78B315C577CF6D01
 
- * triggers when completing a new Dispatch Call mission
+ * 
+ * triggers when completing a new Dispatch Call mission
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

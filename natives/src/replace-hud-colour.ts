@@ -5,7 +5,9 @@ import { EHudColours } from '@ivanzaida/structures'
  *
  * 0x1800980A1FBB4257
 
- * makes hudColorIndex2 color into hudColorIndex color
+ * 
+ * makes hudColorIndex2 color into hudColorIndex color
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EHudColours} destHudColour

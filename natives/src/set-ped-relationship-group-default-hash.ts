@@ -5,7 +5,9 @@ import { PedIndex, ERelGroupHash } from '@ivanzaida/structures'
  *
  * 0x17ABD7A8B101AF83
 
- * Sets the ped's relationship group default to the one passed
+ * 
+ * Sets the ped's relationship group default to the one passed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

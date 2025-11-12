@@ -5,7 +5,9 @@ import { PedIndex, AnimData } from '@ivanzaida/structures'
  *
  * 0x70BCE9B2354D8E3D
 
- * Plays one or more anims on the specified ped
+ * 
+ * Plays one or more anims on the specified ped
+ * 
  * From fm_mission_controller.c:
  * reserve_network_mission_objects(get_num_reserved_mission_objects(0) + 1);
  *            vVar28 = {0.094f, 0.02f, -0.005f};
@@ -40,6 +42,7 @@ import { PedIndex, AnimData } from '@ivanzaida/structures'
  *           task_scripted_animation(iParam0, &Var31, &Var32, &Var32, 0f, 0.25f);
  *           set_model_as_no_longer_needed(joaat("prop_ld_case_01"));
  *             remove_anim_dict("anim@heists@biolab@");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

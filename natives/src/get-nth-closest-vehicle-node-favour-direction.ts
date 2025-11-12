@@ -6,10 +6,14 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x7F8B389881024657
 
- * It will always obey one-way streets. If you want your car to go against one-way streets, you have to check to see if it's facing the right direction and rotate the car 180 degrees.
+ * 
+ * It will always obey one-way streets. If you want your car to go against one-way streets, you have to check to see if it's facing the right direction and rotate the car 180 degrees.
+ * 
  * See gtaforums.com/topic/843561-pathfind-node-types for node type info. 0 = paved road only, 1 = any road, 3 = water
+ * 
  * p10 always equals 3.0
  * p11 always equals 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xBF798C4E54C2B4E1
 
- * Enables ghosting between specific players
+ * 
+ * Enables ghosting between specific players
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} playerId

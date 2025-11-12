@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x21564F65F997D833
 
- * Returns current screen resolution.
+ * 
+ * Returns current screen resolution.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} x [Ref]

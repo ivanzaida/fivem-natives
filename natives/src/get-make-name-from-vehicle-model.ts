@@ -5,8 +5,10 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xF7AF4F159FF99F97
 
- * Will return a vehicle's manufacturer display label.
+ * 
+ * Will return a vehicle's manufacturer display label.
  * Returns "CARNOTFOUND" if the hash doesn't match a vehicle hash.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

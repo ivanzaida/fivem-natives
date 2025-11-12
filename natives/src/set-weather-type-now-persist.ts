@@ -3,7 +3,9 @@
  *
  * 0xE38A58649E049502
 
- * The weather string are in weather.dat file
+ * 
+ * The weather string are in weather.dat file
+ * 
  * The following weatherTypes are used in the scripts:
  * "CLEAR"
  * "EXTRASUNNY"
@@ -20,6 +22,7 @@
  * "BLIZZARD"
  * "HALLOWEEN"
  * "NEUTRAL"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} newWeather

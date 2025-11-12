@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB0FB407889558D1A
 
- * intensity: 0.0f - 1.0f
+ * 
+ * intensity: 0.0f - 1.0f
+ * 
  * This native sets the emissive intensity for the given ped. It is used for different 'glow' levels on illuminated clothing.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

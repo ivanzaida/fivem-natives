@@ -5,11 +5,13 @@ import { EntityIndex, EHintType } from '@ivanzaida/structures'
  *
  * 0x190BA0A3BB48F7FD
 
- * p8 could be some sort of flag. Scripts use:
+ * 
+ * p8 could be some sort of flag. Scripts use:
  * -244429742
  * 0
  * 1726668277
  * 1844968929
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} enttity

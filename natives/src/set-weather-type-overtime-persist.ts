@@ -3,7 +3,9 @@
  *
  * 0xE0F4EA3A654155A3
 
- * The weather string are in weather.dat file
+ * 
+ * The weather string are in weather.dat file
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} newWeather

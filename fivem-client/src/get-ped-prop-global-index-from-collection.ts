@@ -12,7 +12,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {number} anchorPoint One of the anchor points from [SET_PED_PROP_INDEX](_0x93376B65A266EB5F)
  * @param {string} collection Name of the collection. Empty string for the base game collection. See [GET_PED_COLLECTION_NAME](_0xFED5D83A) in order to list all available collections.
  * @param {number} propIndex Local prop index inside the given collection. Refer to [GET_NUMBER_OF_PED_COLLECTION_PROP_DRAWABLE_VARIATIONS](_0x3B6A13E1).
- * @returns {number}  Global prop index that corresponds to the given collection and local prop index. Returns -1 if Ped or collection does not exist.
+ * @returns {number}  Global prop index that corresponds to the given collection and local prop index. Returns -1 if Ped or collection does not exist or local index is out of bounds.
  */
 export function getPedPropGlobalIndexFromCollection(ped: PedIndex, anchorPoint: number, collection: string, propIndex: number): number {
 	const getPedPropGlobalIndexFromCollection_result = Citizen.invokeNative<number>('0x2CB45CDC', ped, anchorPoint, collection, propIndex);

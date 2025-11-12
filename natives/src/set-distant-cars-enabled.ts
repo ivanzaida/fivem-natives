@@ -3,7 +3,9 @@
  *
  * 0x40124D3C22E7C332
 
- * Toggles to render distant vehicles. They may not be vehicles but images to look like vehicles.
+ * 
+ * Toggles to render distant vehicles. They may not be vehicles but images to look like vehicles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

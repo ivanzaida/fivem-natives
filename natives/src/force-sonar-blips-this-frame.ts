@@ -3,7 +3,9 @@
  *
  * 0xF45E267C70ACE01A
 
- * Doesn't actually return anything.
+ * 
+ * Doesn't actually return anything.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

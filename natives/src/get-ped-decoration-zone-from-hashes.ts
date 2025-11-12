@@ -5,7 +5,8 @@ import { EPedDecorationZone } from '@ivanzaida/structures'
  *
  * 0x50CA4ACB66148FF0
 
- * Returns the zoneID for the overlay if it is a member of collection.
+ * 
+ * Returns the zoneID for the overlay if it is a member of collection.
  * enum ePedDecorationZone
  * {
  * 	ZONE_TORSO = 0,
@@ -17,7 +18,9 @@ import { EPedDecorationZone } from '@ivanzaida/structures'
  * 	ZONE_MEDALS = 6,
  * 	ZONE_INVALID = 7
  * };
+ * 
  * Full list of ped overlays / decorations by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pedOverlayCollections.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} collectionNameHash

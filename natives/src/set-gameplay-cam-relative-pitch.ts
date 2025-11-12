@@ -3,9 +3,12 @@
  *
  * 0xD815D4BD1AE9E85A
 
- * This won't work for vehicles POVs, if you need to change the camera pitch and want the change
+ * 
+ * This won't work for vehicles POVs, if you need to change the camera pitch and want the change
  * on vehicle's POVs as well, please use FORCE_CAMERA_RELATIVE_HEADING_AND_PITCH.
+ * 
  * This native sets the camera's pitch (rotation on the x-axis).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pitch The relative pitch to set, in degrees.

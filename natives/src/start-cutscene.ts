@@ -5,7 +5,9 @@ import { ECutsceneOptionFlags } from '@ivanzaida/structures'
  *
  * 0xED65412F8B26ED99
 
- * flags: Usually 0.
+ * 
+ * flags: Usually 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ECutsceneOptionFlags} flags

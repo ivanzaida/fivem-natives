@@ -3,9 +3,11 @@
  *
  * 0x7C7E0FB84F9E6CEE
 
- * Lock session visibility.
+ * 
+ * Lock session visibility.
  * bLockVisibility - Locked or not
  * bLockSetting - Locked to be visible or not
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} lockVisibility

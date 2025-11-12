@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xDAA51A56DBEC0391
 
- * The player will be ignored by the police if toggle is set to true
+ * 
+ * The player will be ignored by the police if toggle is set to true
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

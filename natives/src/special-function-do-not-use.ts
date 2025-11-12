@@ -5,10 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4EBA48817E0C608D
 
- * This fn is only to be used in very specific situations where the ped needs to be inside the car still but not attached
+ * 
+ * This fn is only to be used in very specific situations where the ped needs to be inside the car still but not attached
  * Only use if you've chatted to Chi-Wai or Ben L.
+ * 
  * p1 was always 1 (true).
+ * 
  * Kicks the ped from the current vehicle and keeps the rendering-focus on this ped (also disables its collision). If doing this for your player ped, you'll still be able to drive the vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

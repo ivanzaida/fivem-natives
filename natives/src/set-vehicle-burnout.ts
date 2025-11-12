@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xDD76094F9005AA09
 
- * On accelerating, spins the driven wheels with the others braked, so you don't go anywhere.
+ * 
+ * On accelerating, spins the driven wheels with the others braked, so you don't go anywhere.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x148A0A307698B29B
 
- * This will allow the camera to clip into the object.
+ * 
+ * This will allow the camera to clip into the object.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

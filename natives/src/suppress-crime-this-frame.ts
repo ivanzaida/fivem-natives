@@ -5,7 +5,9 @@ import { PlayerIndex, ECrimeType } from '@ivanzaida/structures'
  *
  * 0xFE89392FAC7394F2
 
- * crimeType: see REPORT_CRIME
+ * 
+ * crimeType: see REPORT_CRIME
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

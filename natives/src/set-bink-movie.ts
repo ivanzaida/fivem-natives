@@ -5,7 +5,9 @@ import { BinkMovieId } from '@ivanzaida/structures'
  *
  * 0x7DB4C41144D9961A
 
- * To display the movie, call PLAY_BINK_MOVIE every frame. Once you've finished with the movie, call RELEASE_BINK_MOVIE to free the memory.
+ * 
+ * To display the movie, call PLAY_BINK_MOVIE every frame. Once you've finished with the movie, call RELEASE_BINK_MOVIE to free the memory.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} movieName

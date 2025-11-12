@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD28214FC77C81F2E
 
- * Sets whether a pickup will collide with projectiles.
+ * 
+ * Sets whether a pickup will collide with projectiles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

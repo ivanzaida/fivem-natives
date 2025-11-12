@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x0C4EDD88E2185B8F
 
- * After some testing, looks like you need to use CEIL() on the rotation (vehicle/ped heading) before using it there.
+ * 
+ * After some testing, looks like you need to use CEIL() on the rotation (vehicle/ped heading) before using it there.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

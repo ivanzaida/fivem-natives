@@ -3,8 +3,11 @@
  *
  * 0xC4C6378884E06FBD
 
- * Must be called every frame
+ * 
+ * Must be called every frame
+ * 
  * zoom ranges from 0 to 90f in R Scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} zoomValue

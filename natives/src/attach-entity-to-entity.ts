@@ -5,14 +5,19 @@ import { EntityIndex, EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0x4D306DD94DD6FDBA
 
- * None physical attachment - collision is turned off for entity.
+ * 
+ * None physical attachment - collision is turned off for entity.
+ * 
  * Attaches entity1 to bone (boneIndex) of entity2.
+ * 
  * boneIndex - this is different to boneID, use GET_PED_BONE_INDEX to get the index from the ID. use the index for attaching to specific bones. entity1 will be attached to entity2's centre if bone index given doesn't correspond to bone indexes for that entity type.
+ * 
  * useSoftPinning - if set to false attached entity will not detach when fixed
  * collision - controls collision between the two entities (FALSE disables collision).
  * isPed - pitch doesnt work when false and roll will only work on negative numbers (only peds)
  * vertexIndex - position of vertex
  * fixedRot - if false it ignores entity vector
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} firstEntity

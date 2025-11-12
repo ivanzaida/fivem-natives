@@ -3,8 +3,10 @@
  *
  * 0x3966463F3674C7D5
 
- * Undo the effects of any previous use of SET_EXCLUSIVE_SCENARIO_GROUP. The enabled/disabled
+ * 
+ * Undo the effects of any previous use of SET_EXCLUSIVE_SCENARIO_GROUP. The enabled/disabled
  * state of individual groups is unaffected.
+ * 
  * 
  * ------------------------------------------------------------------
  */

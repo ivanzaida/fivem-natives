@@ -5,9 +5,12 @@ import { ModelNames, IntRef } from '@ivanzaida/structures'
  *
  * 0x05FE36AB1B2950A9
 
- * If a door is found the function returns true and doorEnumHash is assigned the hash for the found door.
+ * 
+ * If a door is found the function returns true and doorEnumHash is assigned the hash for the found door.
  * Otherwise the functin returns false.
+ * 
  * Search radius: 0.5
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

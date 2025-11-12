@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x92BC68FD9EBF7832
 
- * This function controls whether the player is allowed to leave a smoke trail during parachuting
+ * 
+ * This function controls whether the player is allowed to leave a smoke trail during parachuting
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

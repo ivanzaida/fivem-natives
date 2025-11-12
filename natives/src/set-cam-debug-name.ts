@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0xDAC1F4368A8FB625
 
- * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
+ * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

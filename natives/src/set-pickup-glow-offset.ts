@@ -5,7 +5,9 @@ import { PickupIndex } from '@ivanzaida/structures'
  *
  * 0xED6967E98C0B750B
 
- * p1 is always 0.51. This native is called before SET_PICKUP_REGENERATION_TIME in all occurances.
+ * 
+ * p1 is always 0.51. This native is called before SET_PICKUP_REGENERATION_TIME in all occurances.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PickupIndex} pickupID

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xAAF00640D5573DA0
 
- * PARAM
+ * 
+ * PARAM
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

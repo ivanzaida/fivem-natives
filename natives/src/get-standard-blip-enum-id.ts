@@ -5,7 +5,9 @@ import { EBlipSprite } from '@ivanzaida/structures'
  *
  * 0x8CC13B3BF7A9890A
 
- * returns an id to pass to blip commands of the code "standard" dot blip
+ * 
+ * returns an id to pass to blip commands of the code "standard" dot blip
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EBlipSprite}  

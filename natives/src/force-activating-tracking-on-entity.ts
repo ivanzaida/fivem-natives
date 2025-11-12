@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x6E562EEC4008A0C5
 
- * Force the portal tracker for this entity to test as activating for the purposes of interior activation
+ * 
+ * Force the portal tracker for this entity to test as activating for the purposes of interior activation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

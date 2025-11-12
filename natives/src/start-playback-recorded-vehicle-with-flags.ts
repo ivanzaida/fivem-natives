@@ -5,8 +5,11 @@ import { VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
  *
  * 0x9CCFFF877AB82ACA
 
- * flags requires further research, e.g., 0x4/0x8 are related to the AI driving task and 0x20 is internally set and interacts with dynamic entity components.
+ * 
+ * flags requires further research, e.g., 0x4/0x8 are related to the AI driving task and 0x20 is internally set and interacts with dynamic entity components.
+ * 
  * time, often zero and capped at 500, is related to SET_PLAYBACK_TO_USE_AI_TRY_TO_REVERT_BACK_LATER
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

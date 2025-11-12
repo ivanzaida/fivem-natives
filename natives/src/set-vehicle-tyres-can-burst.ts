@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x439C904840715871
 
- * Allows you to toggle bulletproof tires.
+ * 
+ * Allows you to toggle bulletproof tires.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

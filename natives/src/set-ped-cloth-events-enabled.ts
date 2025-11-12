@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x0AD4EECE226A86F5
 
- * Enables/disables ped's "quiet" footstep sound.
+ * 
+ * Enables/disables ped's "quiet" footstep sound.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

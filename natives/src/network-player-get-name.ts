@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x4B41F70EA5AA79D4
 
- * Returns the name of a given player. Returns "Invalid" if rlGamerInfo of the given player cannot be retrieved or the player doesn't exist.
+ * 
+ * Returns the name of a given player. Returns "Invalid" if rlGamerInfo of the given player cannot be retrieved or the player doesn't exist.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

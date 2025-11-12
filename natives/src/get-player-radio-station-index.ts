@@ -3,7 +3,9 @@
  *
  * 0xE1799BB6E4C1CDFB
 
- * Returns 255 (radio off index) if the function fails.
+ * 
+ * Returns 255 (radio off index) if the function fails.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

@@ -5,7 +5,9 @@ import { VehicleIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0xA22032FB8CF69F27
 
- * Gets the position of the cargobob hook, in world coords.
+ * 
+ * Gets the position of the cargobob hook, in world coords.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,7 +3,9 @@
  *
  * 0xA7C372501A8A3B23
 
- * Use this command to set the hold last frame state of a synchronised scene after it has been created.
+ * 
+ * Use this command to set the hold last frame state of a synchronised scene after it has been created.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

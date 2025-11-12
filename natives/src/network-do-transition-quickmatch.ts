@@ -5,10 +5,12 @@ import { EActivityIsland } from '@ivanzaida/structures'
  *
  * 0xFC1123FE6C7D5909
 
- * Find a transition session.
+ * 
+ * Find a transition session.
  * If nActivityType is -1, we will find any open transition session (any activity)
  * Otherwise, if nActivityID is 0, we will find any open transition of the type specified by nActivityType
  * If matchmaking fails to find any results, we will host our own session if both nActivityType and nActivityID are valid.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} gameMode

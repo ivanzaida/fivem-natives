@@ -5,8 +5,11 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0xB958FAC3AA36D900
 
- * Forces the ped to fall back and kills it.
+ * 
+ * Forces the ped to fall back and kills it.
+ * 
  * It doesn't really explode the ped's head but it kills the ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

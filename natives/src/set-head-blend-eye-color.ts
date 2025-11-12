@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x348FF3E632DCB635
 
- * Used for freemode (online) characters.
+ * 
+ * Used for freemode (online) characters.
+ * 
  * For some reason, the scripts use a rounded float for the index.
  * Indexes:
  * 1. black
@@ -38,6 +40,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * 29. devil blue/black
  * 30. white small pupil
  * 31. glossed over
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

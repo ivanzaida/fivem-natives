@@ -5,7 +5,9 @@ import { PlayerIndex, EntityIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x07DCBF1C62A9C503
 
- * This command can be used for any physical objects within the game (e.g. cars, peds and objects).
+ * 
+ * This command can be used for any physical objects within the game (e.g. cars, peds and objects).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} playerIndexDamager

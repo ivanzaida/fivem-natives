@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xE4833C1EFC5928A6
 
- * Gets the X-component of the entity's forward vector.
+ * 
+ * Gets the X-component of the entity's forward vector.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

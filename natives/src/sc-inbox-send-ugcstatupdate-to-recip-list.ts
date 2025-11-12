@@ -5,8 +5,10 @@ import { UgcStateUpdateData } from '@ivanzaida/structures'
  *
  * 0x078587F1408317CE
 
- * Send a UGCStatUpdate event to the inboxes of the recipient list created with
+ * 
+ * Send a UGCStatUpdate event to the inboxes of the recipient list created with
  * SC_INBOX_MESSAGE_PUSH_GAMER_T0_RECIP_LIST
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {UgcStateUpdateData} ugcdata [Ref]

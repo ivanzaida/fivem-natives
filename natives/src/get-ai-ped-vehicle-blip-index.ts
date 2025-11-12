@@ -5,7 +5,9 @@ import { PedIndex, BlipIndex } from '@ivanzaida/structures'
  *
  * 0x294B0261C20A78E0
 
- * Returns the current AI BLIP for the specified ped
+ * 
+ * Returns the current AI BLIP for the specified ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} pedID

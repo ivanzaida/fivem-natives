@@ -5,14 +5,18 @@ import { EPedPropPosition, ModelNames } from '@ivanzaida/structures'
  *
  * 0x60A0A4CD710160D5
 
- * Always apply this to the CS version, all cs variations will be copied to the ig version, if one is present.
+ * 
+ * Always apply this to the CS version, all cs variations will be copied to the ig version, if one is present.
  * Use CAN_REQUEST_ASSETS_FOR_CUTSCENE_ENTITY to be sure that the variation request has been made
  * as this command only returns true FOR A SINGLE FRAME.
+ * 
  * Thanks R! ;)
+ * 
  * if ((l_161 == 0) || (l_161 == 2)) {
  *     sub_2ea27("Trying to set Jimmy prop variation");
  *     CUTSCENE::SET_CUTSCENE_PED_PROP_VARIATION("Jimmy_Boston", 1, 0, 0, 0);
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} sceneHandle

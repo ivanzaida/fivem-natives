@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xF165EAD0AA08F3B6
 
- * p2 is always false in R scripts
+ * 
+ * p2 is always false in R scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

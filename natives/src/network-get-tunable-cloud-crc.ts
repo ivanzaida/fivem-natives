@@ -3,7 +3,9 @@
  *
  * 0x0188C088397FF5B1
 
- * Actually returns the version (TUNABLE_VERSION)
+ * 
+ * Actually returns the version (TUNABLE_VERSION)
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

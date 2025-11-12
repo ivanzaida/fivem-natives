@@ -3,7 +3,9 @@
  *
  * 0x60642EDE690B1018
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} timeSpent

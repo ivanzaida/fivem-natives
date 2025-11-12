@@ -3,8 +3,10 @@
  *
  * 0xDC750660004ECB83
 
- * Example of use (carmod_shop)
+ * 
+ * Example of use (carmod_shop)
  * INTERIOR::SET_ROOM_FOR_GAME_VIEWPORT_BY_NAME("V_CarModRoom");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} roomName

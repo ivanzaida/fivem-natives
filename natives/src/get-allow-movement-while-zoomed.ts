@@ -3,7 +3,9 @@
  *
  * 0x22C925E7C63C5628
 
- * Returns profile setting 17.
+ * 
+ * Returns profile setting 17.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

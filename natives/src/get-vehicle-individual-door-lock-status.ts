@@ -5,7 +5,9 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  *
  * 0x405766A9221AFD99
 
- * Returns vehicle door lock state previously set with SET_VEHICLE_INDIVIDUAL_DOORS_LOCKED
+ * 
+ * Returns vehicle door lock state previously set with SET_VEHICLE_INDIVIDUAL_DOORS_LOCKED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

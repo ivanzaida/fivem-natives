@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x75EAB09F5E974116
 
- * Returns FALSE if the screen is fading due to the player being killed or arrested or failing a critical mission.
+ * 
+ * Returns FALSE if the screen is fading due to the player being killed or arrested or failing a critical mission.
+ * 
  * Checks whether the specified player has a Ped, the Ped is not dead, is not injured and is not arrested.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

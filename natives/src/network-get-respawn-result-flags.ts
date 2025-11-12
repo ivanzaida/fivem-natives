@@ -3,8 +3,10 @@
  *
  * 0xD47DD48CBAF4A6B5
 
- * This command retrieves associated flags for a single spawn point, must be in the valid range as returned by the above command
+ * 
+ * This command retrieves associated flags for a single spawn point, must be in the valid range as returned by the above command
  * Flags will be a combination of values from the enumeration RESPAWN_RESULT_FLAGS
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} result

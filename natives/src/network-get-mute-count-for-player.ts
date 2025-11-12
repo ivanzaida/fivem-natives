@@ -5,8 +5,11 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x43D614D95E50418D
 
- * Get the mute count and number of talkers met for the given player
+ * 
+ * Get the mute count and number of talkers met for the given player
+ * 
  * NETWORK_GET_M[A-U]
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} index

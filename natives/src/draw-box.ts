@@ -3,9 +3,12 @@
  *
  * 0x66ECCFB3761A11CA
 
- * Call this command every frame.
+ * 
+ * Call this command every frame.
+ * 
  * x,y,z = start pos
  * x2,y2,z2 = end pos
+ * 
  * Draw's a 3D Box between the two x,y,z coords.
  * --------------
  * Keep in mind that the edges of the box do only align to the worlds base-vectors. Therefore something like rotation cannot be applied. That means this function is pretty much useless, unless you want a static unicolor box somewhere.
@@ -14,11 +17,13 @@
  * Public Sub DrawBox(a As Vector3, b As Vector3, col As Color)
  *     [Function].Call(Hash.DRAW_BOX,a.X, a.Y, a.Z,b.X, b.Y, b.Z,col.R, col.G, col.B, col.A)
  * End Sub
+ * 
  * [C#]
  * public void DrawBox(Vector3 a, Vector3 b, Color col)
  * {
  *     Function.Call(Hash.DRAW_BOX,a.X, a.Y, a.Z,b.X, b.Y, b.Z,col.R, col.G, col.B, col.A);
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsMinX

@@ -5,7 +5,9 @@ import { EExplosionTag } from '@ivanzaida/structures'
  *
  * 0x9C5BA0994231CF92
 
- * explosionType: See ADD_EXPLOSION.
+ * 
+ * explosionType: See ADD_EXPLOSION.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EExplosionTag} explosionTag

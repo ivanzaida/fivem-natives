@@ -5,7 +5,8 @@ import { ObjectIndex, EWeaponcomponentType } from '@ivanzaida/structures'
  *
  * 0xE0826380A9741A77
 
- * Colors:
+ * 
+ * Colors:
  * 0 = Gray
  * 1 = Dark Gray
  * 2 = Black
@@ -39,6 +40,7 @@ import { ObjectIndex, EWeaponcomponentType } from '@ivanzaida/structures'
  * 30 = Turquoise
  * 31 = Dark Green
  * Full list of weapons, components, tint indexes & weapon liveries by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} weaponObject

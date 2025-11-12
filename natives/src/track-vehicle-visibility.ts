@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8FBF79AC214E3747
 
- * in script hook .net
+ * 
+ * in script hook .net
+ * 
  * Vehicle v = ...;
  * Function.Call(Hash.TRACK_VEHICLE_VISIBILITY, v.Handle);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,8 +5,11 @@ import { PedIndex, VehicleIndex, EVehiclemountedweapontaskmode } from '@ivanzaid
  *
  * 0x26CC8B808F859C87
 
- * Used to update a mounted weapon task (instead of constantly clearing and creating a new task) and to update the position
+ * 
+ * Used to update a mounted weapon task (instead of constantly clearing and creating a new task) and to update the position
+ * 
  * Note: Look in decompiled scripts and the times that p1 and p2 aren't 0. They are filled with vars. If you look through out that script what other natives those vars are used in, you can tell p1 is a ped and p2 is a vehicle. Which most likely means if you want the mounted weapon to target a ped set targetVehicle to 0 or vice-versa.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

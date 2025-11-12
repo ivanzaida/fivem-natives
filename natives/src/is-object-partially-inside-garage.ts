@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x805A7BBF801B49D0
 
- * Despite the name, it does work for any entity type.
+ * 
+ * Despite the name, it does work for any entity type.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} garageHash

@@ -6,8 +6,10 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x8B777C12D64DF209
 
- * VecCoors.Z will be calculated automatically if you give it a value of –100.0 or below. If NodeNumber is 1 then the closest node will be returned (as with the two commands above).
+ * 
+ * VecCoors.Z will be calculated automatically if you give it a value of –100.0 or below. If NodeNumber is 1 then the closest node will be returned (as with the two commands above).
  * If NodeNumber is 2 then the second closest node will be returned and so on. The command will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

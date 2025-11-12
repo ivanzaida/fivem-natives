@@ -5,7 +5,9 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0xA74429530D79E338
 
- * This function gets the color of the parachute smoke trail for the player
+ * 
+ * This function gets the color of the parachute smoke trail for the player
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,8 +5,10 @@ import { PedheadshotId } from '@ivanzaida/structures'
  *
  * 0x60EF2F9A22C75C6D
 
- * Releases an upload request; can be called at any time and must be
+ * 
+ * Releases an upload request; can be called at any time and must be
  * called once the user is finished with the request (i.e.: it failed or it succeeded)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedheadshotId} headshotId

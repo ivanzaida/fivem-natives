@@ -3,9 +3,12 @@
  *
  * 0x39D1D336459711BE
 
- * Return cloud time as int (in seconds since midnight 1970-01-01)
+ * 
+ * Return cloud time as int (in seconds since midnight 1970-01-01)
  * This will not do what you expect after sometime in ~2038
+ * 
  * Returns POSIX timestamp, an int representing the cloud time.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

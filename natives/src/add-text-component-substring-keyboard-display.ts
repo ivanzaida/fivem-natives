@@ -3,8 +3,10 @@
  *
  * 0xB993F5B7A74B2A85
 
- * For scripts with an onscreen keyboard, use this to display the resulting string.
+ * 
+ * For scripts with an onscreen keyboard, use this to display the resulting string.
  * Use ~a~ to mark the position in your line of text where you want this substring inserted
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} stringContainingKeysTypedByPlayer

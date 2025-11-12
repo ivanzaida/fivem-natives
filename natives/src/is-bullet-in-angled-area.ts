@@ -3,9 +3,11 @@
  *
  * 0xF20EF02FBF173C32
 
- * For projectiles, see: IS_PROJECTILE_TYPE_IN_ANGLED_AREA
+ * 
+ * For projectiles, see: IS_PROJECTILE_TYPE_IN_ANGLED_AREA
  * See IS_POINT_IN_ANGLED_AREA for the definition of an angled area.
  * Returns True if a bullet, as maintained by a pool within CWeaponManager, has been fired into the defined angled area.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pos1X

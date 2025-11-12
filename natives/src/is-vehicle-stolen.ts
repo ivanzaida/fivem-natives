@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xFDA2576D37032738
 
- * Only returns true if the vehicle was marked as stolen with SET_VEHICLE_IS_STOLEN.
+ * 
+ * Only returns true if the vehicle was marked as stolen with SET_VEHICLE_IS_STOLEN.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

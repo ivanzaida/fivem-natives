@@ -3,7 +3,9 @@
  *
  * 0x7E1C4CAEFA5571B2
 
- * p0 is either 0 or 50 in scripts.
+ * 
+ * p0 is either 0 or 50 in scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pickupAlpha

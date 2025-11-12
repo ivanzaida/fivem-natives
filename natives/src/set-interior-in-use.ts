@@ -5,8 +5,10 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0x75E4D52830820775
 
- * Only used once in the entire game scripts.
+ * 
+ * Only used once in the entire game scripts.
  * Does not actually return anything.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {InteriorInstanceIndex} interiorInstance

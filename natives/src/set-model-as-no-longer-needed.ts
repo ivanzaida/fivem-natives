@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x55098D9E9AD58806
 
- * Unloads model from memory
+ * 
+ * Unloads model from memory
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} model

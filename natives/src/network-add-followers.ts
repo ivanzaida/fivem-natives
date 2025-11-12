@@ -5,9 +5,12 @@ import { ToFreemodeGamers } from '@ivanzaida/structures'
  *
  * 0x26AC5C43C19083BA
 
- * Functions to add / remove / inspect followers. Followers are players who will, cross session,
+ * 
+ * Functions to add / remove / inspect followers. Followers are players who will, cross session,
  * be able to 'follow' the target user from session to session (via presence invite)
+ * 
  * ..
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ToFreemodeGamers} gamers [Ref]

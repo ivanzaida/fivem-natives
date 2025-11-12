@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x40B5D81DD20A370B
 
- * Can be used to give blips any RGB colour with SET_BLIP_COLOUR(blip, 84).
+ * 
+ * Can be used to give blips any RGB colour with SET_BLIP_COLOUR(blip, 84).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

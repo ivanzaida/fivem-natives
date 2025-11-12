@@ -5,8 +5,11 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0x8FDC19B6566720CA
 
- * 'value' is a structure to a structure, 'numFields' is how many fields there are in said structure (usually 7).
+ * 
+ * 'value' is a structure to a structure, 'numFields' is how many fields there are in said structure (usually 7).
+ * 
  * The structure looks like this:
+ * 
  * int year
  * int month
  * int day
@@ -14,7 +17,9 @@ import { EStatsenum } from '@ivanzaida/structures'
  * int minute
  * int second
  * int millisecond
+ * 
  * The decompiled scripts use TIME::GET_POSIX_TIME to fill this structure.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

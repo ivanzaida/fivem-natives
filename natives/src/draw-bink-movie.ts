@@ -5,7 +5,9 @@ import { BinkMovieId } from '@ivanzaida/structures'
  *
  * 0xAED06A53B3F23CC1
 
- * Before you can use this command you have to load the movie using SET_BINK_MOVIE.
+ * 
+ * Before you can use this command you have to load the movie using SET_BINK_MOVIE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BinkMovieId} movieId

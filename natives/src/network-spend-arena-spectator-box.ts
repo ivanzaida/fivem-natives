@@ -3,7 +3,9 @@
  *
  * 0x5F6D2B7BA40483E7
 
- * type either, 1 for cam spectate, 2 for drone
+ * 
+ * type either, 1 for cam spectate, 2 for drone
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

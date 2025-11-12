@@ -5,7 +5,9 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x66EFB3D6110055C4
 
- * control: see IS_CONTROL_ENABLED
+ * 
+ * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

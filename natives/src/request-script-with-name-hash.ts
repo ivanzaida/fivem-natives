@@ -3,9 +3,12 @@
  *
  * 0x625263BFD08AE230
 
- * Request a script program to be loaded.
+ * 
+ * Request a script program to be loaded.
  * Does the same as REQUEST_SCRIPT but takes an integer containing the hash of the script name instead of the name as a string.
+ * 
  * formerly _REQUEST_STREAMED_SCRIPT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} hashOfScriptName

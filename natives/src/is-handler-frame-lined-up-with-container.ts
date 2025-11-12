@@ -5,7 +5,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x6A5E9E4AC5B61452
 
- * This command will complain if the handler already has something attached to its frame.
+ * 
+ * This command will complain if the handler already has something attached to its frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} handler

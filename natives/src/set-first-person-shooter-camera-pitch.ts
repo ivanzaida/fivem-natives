@@ -3,7 +3,9 @@
  *
  * 0x7E08E86FBA713FE8
 
- * If the first person shooter camera is active, does the same thing as SET_GAMEPLAY_CAM_RELATIVE_PITCH.  If not active, the pitch will be set when the camera is created.
+ * 
+ * If the first person shooter camera is active, does the same thing as SET_GAMEPLAY_CAM_RELATIVE_PITCH.  If not active, the pitch will be set when the camera is created.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pitch The relative pitch to set, in degrees.

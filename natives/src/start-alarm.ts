@@ -3,16 +3,26 @@
  *
  * 0x4C6BF3BC14C6F6D6
 
- * skipStartup -> Whether to skip the initial alarm behaviour (starting loud, before fading down)
+ * 
+ * skipStartup -> Whether to skip the initial alarm behaviour (starting loud, before fading down)
+ * 
  * Example:
+ * 
  * This will start the alarm at Fort Zancudo.
+ * 
  * AUDIO::START_ALARM("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS", 1);
+ * 
  * First parameter (char) is the name of the alarm.
  * Second parameter (bool) is unknown, it does not seem to make a difference if this one is 0 or 1.
+ * 
  * ----------
+ * 
  * It DOES make a difference but it has to do with the duration or something I dunno yet
+ * 
  * ----------
+ * 
  *  Found in the b617d scripts:
+ * 
  *  AUDIO::START_ALARM("AGENCY_HEIST_FIB_TOWER_ALARMS", 0);
  *  AUDIO::START_ALARM("AGENCY_HEIST_FIB_TOWER_ALARMS_UPPER", 1);
  *  AUDIO::START_ALARM("AGENCY_HEIST_FIB_TOWER_ALARMS_UPPER_B", 0);
@@ -27,6 +37,7 @@
  *  AUDIO::START_ALARM("PRISON_ALARMS", 0);
  *  AUDIO::START_ALARM("PROLOGUE_VAULT_ALARMS", 0);
  * Full list of alarm names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/alarmSounds.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} alarmName

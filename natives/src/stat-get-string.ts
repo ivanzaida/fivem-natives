@@ -5,7 +5,9 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0xCEA81DACD6DA3ADB
 
- * p1 is always -1 in the script files
+ * 
+ * p1 is always -1 in the script files
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

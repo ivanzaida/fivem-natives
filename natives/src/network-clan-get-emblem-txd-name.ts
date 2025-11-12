@@ -5,10 +5,12 @@ import { GamerHandle, StringRef } from '@ivanzaida/structures'
  *
  * 0xE460920F3D75C34D
 
- * READ THIS
+ * 
+ * READ THIS
  * The crew emblem for a player can take time to download (a second or two), so if this returns false, but the player
  * is in a valid crew, you may need to try again later.
  * The crew emblem for each player is requested automatically when the player enters the session
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

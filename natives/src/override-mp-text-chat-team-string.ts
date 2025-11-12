@@ -3,7 +3,9 @@
  *
  * 0xA9CB5BD48046EF42
 
- * Must be set before opening the text input box. Will automatically return to false once the text input box closes.
+ * 
+ * Must be set before opening the text input box. Will automatically return to false once the text input box closes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} overrideHash

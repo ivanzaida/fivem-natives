@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xAB51C8960A87DF53
 
- * When this ped receives its next script task, they will exit from their scenario using the normal scenario exit.
+ * 
+ * When this ped receives its next script task, they will exit from their scenario using the normal scenario exit.
  * Exiting the scenario may take several frames while the ped is playing the exit animation.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

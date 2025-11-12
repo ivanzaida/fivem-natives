@@ -5,7 +5,9 @@ import { ERandomEvent } from '@ivanzaida/structures'
  *
  * 0x06687A6579389884
 
- * Set a random event to be enabled or disabled for this frame
+ * 
+ * Set a random event to be enabled or disabled for this frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ERandomEvent} eventType

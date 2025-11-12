@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x81A129E894BD7138
 
- * Returns whether this vehicle is currently disabled by an EMP mine.
+ * 
+ * Returns whether this vehicle is currently disabled by an EMP mine.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

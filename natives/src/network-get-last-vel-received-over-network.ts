@@ -5,8 +5,11 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x21D6FED3EFEC33E5
 
- * Returns the last received velocity of a clone entity. Don't use it on local entities
+ * 
+ * Returns the last received velocity of a clone entity. Don't use it on local entities
+ * 
  * Used by NetBlender
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

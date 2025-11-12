@@ -3,7 +3,9 @@
  *
  * 0xC5F6E5CC785FEC20
 
- * Stops loading screen tips shown by invoking `THEFEED_SHOW`
+ * 
+ * Stops loading screen tips shown by invoking `THEFEED_SHOW`
+ * 
  * 
  * ------------------------------------------------------------------
  */

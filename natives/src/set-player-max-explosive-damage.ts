@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x14EBA27C5B556497
 
- * This function will set the max amount of damage the given playrer will receive when it receives an explosive damage event.
+ * 
+ * This function will set the max amount of damage the given playrer will receive when it receives an explosive damage event.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

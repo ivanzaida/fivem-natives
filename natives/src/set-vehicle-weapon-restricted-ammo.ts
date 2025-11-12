@@ -5,9 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5951A2AB1DF37E03
 
- * Set vehicle's primary mounted weapon 2 ammo. For example, use it on APC.
+ * 
+ * Set vehicle's primary mounted weapon 2 ammo. For example, use it on APC.
  * For example, you can "remove" any vehicle weapon from any vehicle.
  * ammoAmount -1 = infinite ammo (default value for any spawned vehicle tho)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,13 +5,16 @@ import { VehicleIndex, EPickupGadgetType } from '@ivanzaida/structures'
  *
  * 0xD0E90E9B5A87913E
 
- * Drops the Hook/Magnet on a cargobob
+ * 
+ * Drops the Hook/Magnet on a cargobob
+ * 
  * state
  * enum eCargobobHook
  * {
  *   CARGOBOB_HOOK = 0,
  *     CARGOBOB_MAGNET = 1,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

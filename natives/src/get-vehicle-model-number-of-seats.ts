@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xDC1AA2FE20EEB2E9
 
- * Returns max number of passengers (including the driver) for the specified vehicle model.
+ * 
+ * Returns max number of passengers (including the driver) for the specified vehicle model.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

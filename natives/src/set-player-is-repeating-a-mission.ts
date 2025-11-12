@@ -3,7 +3,9 @@
  *
  * 0xA53470336C143CAE
 
- * Tells the game whether the player is repeating a mission through the pause menu (this flag is entirely controlled by script)
+ * 
+ * Tells the game whether the player is repeating a mission through the pause menu (this flag is entirely controlled by script)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} isRepeatingAMission

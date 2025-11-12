@@ -3,7 +3,9 @@
  *
  * 0xF4141D223F2B1C76
 
- * Remnant from GTA IV. Does nothing in GTA V.
+ * 
+ * Remnant from GTA IV. Does nothing in GTA V.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} wantedLevel

@@ -3,7 +3,8 @@
  *
  * 0x584E143398F9661C
 
- * 1 - Welcome to Los Santos
+ * 
+ * 1 - Welcome to Los Santos
  * 2 - A Friendship Resurrected
  * 3 - A Fair Day's Pay
  * 4 - The Moment of Truth
@@ -80,6 +81,7 @@
  * 75 - Orbital Obliteration
  * 76 - Elitist
  * 77 - Masterminds
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} achievementId

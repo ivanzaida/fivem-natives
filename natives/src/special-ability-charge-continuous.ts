@@ -5,10 +5,13 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xEFA2B6B7AB16294E
 
- * Flags the continuous charge as active. This needs to be called every frame while charging should take place.
+ * 
+ * Flags the continuous charge as active. This needs to be called every frame while charging should take place.
  * If ignoreActive is true the charge will be added even if the ability is currently active
  * otherwise command is ignored.
+ * 
  * p1 appears to always be 1 (only comes up twice)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

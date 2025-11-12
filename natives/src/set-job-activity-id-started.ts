@@ -3,8 +3,10 @@
  *
  * 0x91F6DFBE57E45538
 
- * Call to setup the current job activity started in Freemode. Set 0 to clear the value.
+ * 
+ * Call to setup the current job activity started in Freemode. Set 0 to clear the value.
  * Use the command GET_PROFILE_SETTING( JOB_ACTIVITY_ID_CHAR0 ) to find out the current value.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} value

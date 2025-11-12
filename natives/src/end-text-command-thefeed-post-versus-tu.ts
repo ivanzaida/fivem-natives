@@ -5,10 +5,14 @@ import { EHudColours } from '@ivanzaida/structures'
  *
  * 0x4B4E142A1E3653A4
 
- * This function can show pictures of every texture that can be requested by REQUEST_STREAMED_TEXTURE_DICT.
+ * 
+ * This function can show pictures of every texture that can be requested by REQUEST_STREAMED_TEXTURE_DICT.
+ * 
  * List of picNames: https://pastebin.com/XdpJVbHz
  * HUD colors and their values: https://pastebin.com/d9aHPbXN
+ * 
  * Shows a deathmatch score above the minimap, example: https://i.imgur.com/YmoMklG.png
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} ch1TXD

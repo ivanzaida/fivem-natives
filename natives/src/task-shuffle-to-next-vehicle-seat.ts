@@ -5,8 +5,10 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7A55A25242FBE562
 
- * Makes the specified ped shuffle to the next vehicle seat.
+ * 
+ * Makes the specified ped shuffle to the next vehicle seat.
  * The ped MUST be in a vehicle and the vehicle parameter MUST be the ped's current vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x4C052E5245B17920
 
- * returns true if the specified entity is the current focus.
+ * 
+ * returns true if the specified entity is the current focus.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

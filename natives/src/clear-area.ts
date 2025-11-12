@@ -3,8 +3,11 @@
  *
  * 0x2094BC4B6731BA68
 
- * All fires and explosions in the area are also cleared
+ * 
+ * All fires and explosions in the area are also cleared
+ * 
  * Example: CLEAR_AREA(0, 0, 0, 30, true, false, false, false);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

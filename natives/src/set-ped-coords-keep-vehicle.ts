@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x2B083B6FDD0231F9
 
- * teleports ped to coords along with the vehicle ped is in
+ * 
+ * teleports ped to coords along with the vehicle ped is in
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

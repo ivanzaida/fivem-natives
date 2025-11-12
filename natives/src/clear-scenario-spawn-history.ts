@@ -3,8 +3,11 @@
  *
  * 0xE0443EB1DC8A2F79
 
- * PARAM NOTES
+ * 
+ * PARAM NOTES
+ * 
  * Possibly used to clear scenario points.
+ * 
  * 
  * ------------------------------------------------------------------
  */

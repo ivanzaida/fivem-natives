@@ -5,7 +5,9 @@ import { EUgcType } from '@ivanzaida/structures'
  *
  * 0xC10C1DEAEBB5849E
 
- * This function is hard-coded to always return 0.
+ * 
+ * This function is hard-coded to always return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EUgcType}  

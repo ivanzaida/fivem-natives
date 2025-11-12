@@ -5,9 +5,11 @@ import { FeWarningFlags } from '@ivanzaida/structures'
  *
  * 0xDC38CC1E35B6A5D7
 
- * Shows a warning message on screen with a header.
+ * 
+ * Shows a warning message on screen with a header.
  * Note: You can only use text entries. No custom text. You can recreate this easily with scaleforms.
  * Example: https://i.imgur.com/ITJt8bJ.png
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} headerTextLabel

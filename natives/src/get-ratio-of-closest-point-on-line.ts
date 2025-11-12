@@ -3,7 +3,9 @@
  *
  * 0xA2DD309FA5FD1435
 
- * returns a float between 0.0 and 1.0, clamp: sets whether the product should be clamped between the given coordinates
+ * 
+ * returns a float between 0.0 and 1.0, clamp: sets whether the product should be clamped between the given coordinates
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} rPointToTestX

@@ -3,8 +3,10 @@
  *
  * 0x8256312AC2E5471D
 
- * Checks if areaID is valid and points to an existing entityArea
+ * 
+ * Checks if areaID is valid and points to an existing entityArea
  * The areaID is the ID returned by NETWORK_ADD_ENTITY_AREA
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} areaID

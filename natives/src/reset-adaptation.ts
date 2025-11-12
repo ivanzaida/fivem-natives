@@ -3,7 +3,9 @@
  *
  * 0xE3349610A15FA0D0
 
- * Sets an value related to timecycles.
+ * 
+ * Sets an value related to timecycles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} numFrames Default number of frames to reset for is 1

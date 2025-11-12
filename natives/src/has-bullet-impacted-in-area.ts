@@ -3,7 +3,9 @@
  *
  * 0xA646A9FF47E2E515
 
- * p3 - possibly radius?
+ * 
+ * p3 - possibly radius?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

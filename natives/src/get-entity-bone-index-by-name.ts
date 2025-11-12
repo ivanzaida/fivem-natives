@@ -5,9 +5,12 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x365DC1E8054AF31A
 
- * Returns the index of the bone. If the bone was not found, -1 will be returned.
+ * 
+ * Returns the index of the bone. If the bone was not found, -1 will be returned.
+ * 
  * list:
  * https://pastebin.com/D7JMnX1g
+ * 
  * BoneNames:
  *   chassis,
  *   windscreen,
@@ -49,7 +52,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *  seat_pside_f,   //Seat next to driver
  *  Gun_Nuzzle,
  *    seat_r
+ * 
  * I doubt that the function is case-sensitive, since I found a "Chassis" and a "chassis". - Just tested: Definitely not case-sensitive.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

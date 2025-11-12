@@ -5,7 +5,8 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  *
  * 0x0B74F181ADFC39BF
 
- * enum eVehicleLockState
+ * 
+ * enum eVehicleLockState
  * {
  * 	VEHICLELOCK_NONE,
  * 	VEHICLELOCK_UNLOCKED,
@@ -19,6 +20,7 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  * 	VEHICLELOCK_LOCKED_NO_PASSENGERS,
  * 	VEHICLELOCK_CANNOT_ENTER
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

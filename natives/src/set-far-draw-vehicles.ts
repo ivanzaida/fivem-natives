@@ -3,7 +3,9 @@
  *
  * 0x00AB2F24F67F293F
 
- * Activate / deactivate the far draw
+ * 
+ * Activate / deactivate the far draw
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} val

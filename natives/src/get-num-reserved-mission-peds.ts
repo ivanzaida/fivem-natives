@@ -5,7 +5,9 @@ import { ENetworkReservationType } from '@ivanzaida/structures'
  *
  * 0xA0522491D076C1E6
 
- * p0 appears to be for MP
+ * 
+ * p0 appears to be for MP
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} forAllScripts If true, returns the totla number of reservations for all running scripts, if false, it returns the reservation for this script

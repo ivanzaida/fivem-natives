@@ -5,7 +5,8 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xF63C3F5B1BFD9CE4
 
- * Will append an attacking subtask to a previously given driving task.
+ * 
+ * Will append an attacking subtask to a previously given driving task.
  * This can be used directly with a ped or in a sequence in the following commands:
  * TASK_HELI_MISSION
  * TASK_VEHICLE_DRIVE_TO_COORD
@@ -27,6 +28,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * ADD_VEHICLE_SUBTASK_ATTACK_PED(NULL, OtherPed)
  * SET_SEQUENCE_TO_REPEAT(seq, REPEAT_FOREVER)
  * CLOSE_SEQUENCE_TASK(SEQ)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x63FC4C73448FCEA2
 
- * Sets the concealed status for the specific entity. This can be used to hide a remote entity (ped, object, vehicle) that is in the
+ * 
+ * Sets the concealed status for the specific entity. This can be used to hide a remote entity (ped, object, vehicle) that is in the
  * same tutorial session as the local player
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

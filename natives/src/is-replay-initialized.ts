@@ -3,7 +3,9 @@
  *
  * 0x85CC9F47ACE575F1
 
- * Returns true if the replay system is ready to be used.
+ * 
+ * Returns true if the replay system is ready to be used.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

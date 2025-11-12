@@ -3,7 +3,9 @@
  *
  * 0x787F8EE1F6FBDC6D
 
- * check if a new load scene is currently running
+ * 
+ * check if a new load scene is currently running
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

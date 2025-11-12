@@ -3,8 +3,10 @@
  *
  * 0xB91BC43E3A58E2C8
 
- * distance - shadow distance in pixels, both horizontal and vertical
+ * 
+ * distance - shadow distance in pixels, both horizontal and vertical
  * r, g, b, a - color
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} dropAmount

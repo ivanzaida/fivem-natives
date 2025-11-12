@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xB617B59F8F888D2A
 
- * Returns max braking of the specified vehicle model.
+ * 
+ * Returns max braking of the specified vehicle model.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} vehicleModelHashKey

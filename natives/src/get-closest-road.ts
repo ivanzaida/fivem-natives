@@ -6,7 +6,9 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x748728E3BFD8E371
 
- * p1 seems to be always 1.0f in the scripts
+ * 
+ * p1 seems to be always 1.0f in the scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} testCoorsX

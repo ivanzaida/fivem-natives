@@ -3,7 +3,9 @@
  *
  * 0xE48295FCA7404802
 
- * Sets the "supress outro FX" flag on an ongoing switch
+ * 
+ * Sets the "supress outro FX" flag on an ongoing switch
+ * 
  * 
  * ------------------------------------------------------------------
  */

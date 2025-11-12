@@ -3,8 +3,10 @@
  *
  * 0xEA602FA4CD3530B8
 
- * If value is set to true, and ambient siren sound will be played.
+ * 
+ * If value is set to true, and ambient siren sound will be played.
  * Appears to enable/disable an audio flag.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} play

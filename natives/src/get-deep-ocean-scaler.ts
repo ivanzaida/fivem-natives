@@ -3,7 +3,9 @@
  *
  * 0x13AC55E5C01A1052
 
- * Gets the aggressiveness factor of the ocean waves.
+ * 
+ * Gets the aggressiveness factor of the ocean waves.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

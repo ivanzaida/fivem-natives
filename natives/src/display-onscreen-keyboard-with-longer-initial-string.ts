@@ -5,7 +5,9 @@ import { EEKeyboardType } from '@ivanzaida/structures'
  *
  * 0x305739C2F5BFA5D9
 
- * Variant of DISPLAY_ONSCREEN_KEYBOARD which takes up to eight strings to support an initial value of 500 characters
+ * 
+ * Variant of DISPLAY_ONSCREEN_KEYBOARD which takes up to eight strings to support an initial value of 500 characters
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEKeyboardType} keyboardTypeFlag

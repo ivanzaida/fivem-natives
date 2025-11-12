@@ -5,7 +5,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x9E3907AACB2EE9A3
 
- * Attaches an entity to a cargobob
+ * 
+ * Attaches an entity to a cargobob
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

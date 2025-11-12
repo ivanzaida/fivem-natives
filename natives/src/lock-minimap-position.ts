@@ -3,7 +3,9 @@
  *
  * 0x43F4B7E163A31644
 
- * Locks the minimap to the specified world position.
+ * 
+ * Locks the minimap to the specified world position.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

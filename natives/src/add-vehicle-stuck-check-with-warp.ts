@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x177C21F54C9A6E9E
 
- * This command is similar to the basic ADD_STUCK_CAR_CHECK except that the game will attempt to warp the car as soon as it becomes stuck.
+ * 
+ * This command is similar to the basic ADD_STUCK_CAR_CHECK except that the game will attempt to warp the car as soon as it becomes stuck.
  * The three flags are used to control whether the car is warped if it has become stuck, as soon as it is upside-down or as soon as it is in water.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

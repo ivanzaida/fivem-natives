@@ -3,7 +3,9 @@
  *
  * 0x2C57A63E92CDBDF1
 
- * Set to false before the script terminates else this will be on permenantly.
+ * 
+ * Set to false before the script terminates else this will be on permenantly.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} shouldOverride

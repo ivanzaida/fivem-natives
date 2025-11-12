@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6A9E89C17033E79E
 
- * Only used in R Script fm_content_cargo
+ * 
+ * Only used in R Script fm_content_cargo
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

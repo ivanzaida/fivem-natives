@@ -3,7 +3,9 @@
  *
  * 0x058438EA17EA0E85
 
- * Does nothing (it's a nullsub).
+ * 
+ * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} mute

@@ -3,8 +3,10 @@
  *
  * 0x988DAD0F0370C94E
 
- * Releases the reference script had to this texture. This command must to be called when the texture is no longer
+ * 
+ * Releases the reference script had to this texture. This command must to be called when the texture is no longer
  * needed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} textureDownloadHandle

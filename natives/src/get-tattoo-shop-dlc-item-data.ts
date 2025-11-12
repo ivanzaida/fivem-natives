@@ -5,13 +5,17 @@ import { ETattooFaction, TattooShopItemValues } from '@ivanzaida/structures'
  *
  * 0xC8FF7E3E267EBEF5
 
- * This number may change (bigger or smaller) as we refresh our local inbox
+ * 
+ * This number may change (bigger or smaller) as we refresh our local inbox
+ * 
  * Character types:
  * 0 = Michael,
  * 1 = Franklin,
  * 2 = Trevor,
  * 3 = MPMale,
  * 4 = MPFemale
+ * 
+ * 
  * enum TattooZoneData
  * {
  *     ZONE_TORSO = 0,
@@ -36,6 +40,7 @@ import { ETattooFaction, TattooShopItemValues } from '@ivanzaida/structures'
  *     uint unk5;
  *     // maybe more, not sure exactly, decompiled scripts are very vague around this part.
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ETattooFaction} tattooFaction

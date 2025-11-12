@@ -5,9 +5,11 @@ import { ParticipantIndex } from '@ivanzaida/structures'
  *
  * 0xF0C9E5565CB32F4B
 
- * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
+ * 
+ * Simply returns whatever is passed to it (Regardless of whether the handle is valid or not).
  * --------------------------------------------------------
  * if (NETWORK::NETWORK_IS_PARTICIPANT_ACTIVE(PLAYER::INT_TO_PARTICIPANTINDEX(i)))
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} arg

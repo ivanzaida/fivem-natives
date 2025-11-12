@@ -5,15 +5,22 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0x5EA38B125B8B37E5
 
- * calls an actionscript method on the passed in movie
+ * 
+ * calls an actionscript method on the passed in movie
+ * 
  * Calls the Scaleform function and passes both float and string parameters (in their respective order).
+ * 
  * The number of parameters passed to the function varies, so the end of the float parameters is represented by -1.0, and the end of the string parameters is represented by 0 (NULL).
+ * 
  * NOTE: The order of parameters in the function prototype is important! All float parameters must come first, followed by the string parameters.
+ * 
  * Examples:
  * // function MY_FUNCTION(floatParam1, floatParam2, stringParam)
  * GRAPHICS::CALL_SCALEFORM_MOVIE_METHOD_WITH_NUMBER_AND_STRING(scaleform, "MY_FUNCTION", 10.0, 20.0, -1.0, -1.0, -1.0, "String param", 0, 0, 0, 0);
+ * 
  * // function MY_FUNCTION_2(floatParam, stringParam1, stringParam2)
  * GRAPHICS::CALL_SCALEFORM_MOVIE_METHOD_WITH_NUMBER_AND_STRING(scaleform, "MY_FUNCTION_2", 10.0, -1.0, -1.0, -1.0, -1.0, "String param #1", "String param #2", 0, 0, 0);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} iScaleformMovieId

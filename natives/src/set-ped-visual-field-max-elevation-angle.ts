@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD1DDDDB8B108DF01
 
- * This native refers to the field of vision the ped has above them, starting at 0 degrees. 90f would let the ped see enemies directly above of them.
+ * 
+ * This native refers to the field of vision the ped has above them, starting at 0 degrees. 90f would let the ped see enemies directly above of them.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

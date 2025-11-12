@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4349438F7A83A186
 
- * Dat151RelType == 29
+ * 
+ * Dat151RelType == 29
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

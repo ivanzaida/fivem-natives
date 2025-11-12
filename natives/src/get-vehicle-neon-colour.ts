@@ -5,8 +5,11 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x64FEACF0AD019F1F
 
- * Gets the color of the neon lights of the specified vehicle.
+ * 
+ * Gets the color of the neon lights of the specified vehicle.
+ * 
  * See SET_VEHICLE_NEON_COLOUR (0x8E0A582209A62695) for more information
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,8 +3,11 @@
  *
  * 0x56B77EAF3DD4C954
 
- * Allows script to set whether the DLC store is available from the pause menu
+ * 
+ * Allows script to set whether the DLC store is available from the pause menu
+ * 
  * Access to the store for shark cards etc...
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enabled

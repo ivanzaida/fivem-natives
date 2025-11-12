@@ -3,7 +3,9 @@
  *
  * 0x13D997FE205FD704
 
- * By default, players in different tutorial sessions cannot chat. This allows that to be overridden.
+ * 
+ * By default, players in different tutorial sessions cannot chat. This allows that to be overridden.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} override

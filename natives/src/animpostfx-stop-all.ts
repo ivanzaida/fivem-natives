@@ -3,7 +3,9 @@
  *
  * 0x7919995BD2B8745C
 
- * Stops ALL currently playing effects.
+ * 
+ * Stops ALL currently playing effects.
+ * 
  * 
  * ------------------------------------------------------------------
  */

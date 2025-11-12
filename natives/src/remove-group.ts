@@ -5,7 +5,9 @@ import { GroupIndex } from '@ivanzaida/structures'
  *
  * 0x94CC4CA44256FDCB
 
- * If the its the players group it removes all the followers
+ * 
+ * If the its the players group it removes all the followers
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GroupIndex} uniqueGroupID

@@ -5,7 +5,8 @@ import { VehicleIndex, EScWindowList } from '@ivanzaida/structures'
  *
  * 0x260EEEEBF5F35F72
 
- * windowIndex:
+ * 
+ * windowIndex:
  * 0 = Front Left Window
  * 1 = Front Right Window
  * 2 = Rear Left Window
@@ -15,6 +16,7 @@ import { VehicleIndex, EScWindowList } from '@ivanzaida/structures'
  * 6 = Mid Left
  * 7 = Mid Right
  * 8 = Invalid
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,13 +3,16 @@
  *
  * 0x32A590914F10401C
 
- * nothin doin.
+ * 
+ * nothin doin.
+ * 
  * BOOL Message(const char text)
  *    {
  *      BEGIN_TEXT_COMMAND_IS_MESSAGE_DISPLAYED("STRING");
  *       ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);
  *        return END_TEXT_COMMAND_IS_MESSAGE_DISPLAYED();
  *    }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mainTextLabel

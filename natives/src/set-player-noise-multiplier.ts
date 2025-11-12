@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xF75E68D9DCB8C80B
 
- * Sets how noisy a player is for AI reaction purposes.
+ * 
+ * Sets how noisy a player is for AI reaction purposes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

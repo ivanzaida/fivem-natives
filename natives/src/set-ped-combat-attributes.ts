@@ -5,7 +5,8 @@ import { PedIndex, ECombatAttribute } from '@ivanzaida/structures'
  *
  * 0xBE8796DB2B90A437
 
- * enum eCombatAttributes // 0x0E8E7201
+ * 
+ * enum eCombatAttributes // 0x0E8E7201
  * {
  * 	BF_CanUseCover = 0,
  * 	BF_CanUseVehicles = 1,
@@ -100,6 +101,7 @@ import { PedIndex, ECombatAttribute } from '@ivanzaida/structures'
  * 	BF_0xEE129DBD = 90,
  * 	BF_0x053AEAD9 = 91
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

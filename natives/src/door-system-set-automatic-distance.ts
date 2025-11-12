@@ -3,7 +3,9 @@
  *
  * 0x57A602C0620BEFF2
 
- * `forceUpdate` on true invokes DOOR_SYSTEM_SET_DOOR_STATE otherwise requestDoor is unused.
+ * 
+ * `forceUpdate` on true invokes DOOR_SYSTEM_SET_DOOR_STATE otherwise requestDoor is unused.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

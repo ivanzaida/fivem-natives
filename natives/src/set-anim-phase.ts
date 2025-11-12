@@ -5,7 +5,9 @@ import { EntityIndex, EAnimPriorityFlags } from '@ivanzaida/structures'
  *
  * 0x8EF3D1BEA34BCB15
 
- * Sets the current phase of the clips on a priority level on the scripted anim task,
+ * 
+ * Sets the current phase of the clips on a priority level on the scripted anim task,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

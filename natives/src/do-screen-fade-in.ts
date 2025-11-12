@@ -3,8 +3,11 @@
  *
  * 0x10B228D2FDB7AF16
 
- * Fades the screen in.
+ * 
+ * Fades the screen in.
+ * 
  * duration: The time the fade should take, in milliseconds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} time

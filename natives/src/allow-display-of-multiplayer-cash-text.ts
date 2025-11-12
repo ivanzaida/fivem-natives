@@ -3,7 +3,9 @@
  *
  * 0x0DD2294269928A9E
 
- * Controls whether to display 'Cash'/'Bank' next to the money balance HUD in Multiplayer (https://i.imgur.com/MiYUtNl.png)
+ * 
+ * Controls whether to display 'Cash'/'Bank' next to the money balance HUD in Multiplayer (https://i.imgur.com/MiYUtNl.png)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} allow

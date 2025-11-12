@@ -5,9 +5,12 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x20EDD3199D02CB60
 
- * Returns the average ping time between the local player and the specified remote player. This is the time it takes for a message to be sent
+ * 
+ * Returns the average ping time between the local player and the specified remote player. This is the time it takes for a message to be sent
  * and then received, processed and the ACK received. This should only be called on remote players.
+ * 
  * Same as NETWORK_GET_AVERAGE_LATENCY
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x140444BB8ABDB066
 
- * Sets whether an object is going to be used as an ariculated prop
+ * 
+ * Sets whether an object is going to be used as an ariculated prop
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

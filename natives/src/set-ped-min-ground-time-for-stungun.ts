@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xFED960E0DE07E343
 
- * Ped will stay on the ground after being stunned for at lest ms time. (in milliseconds)
+ * 
+ * Ped will stay on the ground after being stunned for at lest ms time. (in milliseconds)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

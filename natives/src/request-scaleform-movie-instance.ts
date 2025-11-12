@@ -5,7 +5,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0x5AF05959A6F22BB4
 
- * Requests that a scaleform movie is streamed in - allows multiple copies of movies
+ * 
+ * Requests that a scaleform movie is streamed in - allows multiple copies of movies
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} filename

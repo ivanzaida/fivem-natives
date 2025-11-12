@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xE31B7CB52E42E2B6
 
- * If after a search no cover point can be found the task will finish.
+ * 
+ * If after a search no cover point can be found the task will finish.
  * Once cover is reached the ped will hide behind it for Time milliseconds then the task will end, if Time is zero the ped will hide behind it indefinitely and the task will never end.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

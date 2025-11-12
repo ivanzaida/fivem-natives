@@ -5,7 +5,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0xC37D2709B04BD397
 
- * tintIndex can be the following:
+ * 
+ * tintIndex can be the following:
+ * 
  * 0 - Normal
  * 1 - Green
  * 2 - Gold
@@ -15,6 +17,7 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  * 6 - Orange
  * 7 - Platinum
  * Full list of weapons, components & tint indexes by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

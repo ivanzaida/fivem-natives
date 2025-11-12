@@ -5,7 +5,8 @@ import { EEHudComponent } from '@ivanzaida/structures'
  *
  * 0x0EE2019295C31BBA
 
- * This function hides various HUD (Heads-up Display) components.
+ * 
+ * This function hides various HUD (Heads-up Display) components.
  * Listed below are the integers and the corresponding HUD component.
  * - 1 : WANTED_STARS
  * - 2 : WEAPON_ICON
@@ -29,7 +30,9 @@ import { EEHudComponent } from '@ivanzaida/structures'
  * - 20 : WEAPON_WHEEL_STATS
  * - 21 : HUD_COMPONENTS
  * - 22 : HUD_WEAPONS
+ * 
  * These integers also work for the `HIDE_HUD_COMPONENT_THIS_FRAME` native, but instead hides the HUD Component.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEHudComponent} hudComponent

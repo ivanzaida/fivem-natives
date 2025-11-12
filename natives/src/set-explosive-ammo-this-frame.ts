@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x35A960C1E2064D55
 
- * Set the player has explosive ammo in automatic weapons this frame
+ * 
+ * Set the player has explosive ammo in automatic weapons this frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} ped

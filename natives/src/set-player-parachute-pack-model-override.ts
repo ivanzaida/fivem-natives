@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xD8FE716A11BE669A
 
- * An override for parachute pack model.
+ * 
+ * An override for parachute pack model.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

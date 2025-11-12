@@ -5,7 +5,9 @@ import { FloatRef } from '@ivanzaida/structures'
  *
  * 0x4D16ECAA05186DFE
 
- * This native always come right before SET_ENTITY_QUATERNION where its final 4 parameters are SLERP_NEAR_QUATERNION p9 to p12
+ * 
+ * This native always come right before SET_ENTITY_QUATERNION where its final 4 parameters are SLERP_NEAR_QUATERNION p9 to p12
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} time

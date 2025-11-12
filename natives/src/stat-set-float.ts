@@ -5,8 +5,10 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0x4F8678C02360C3D2
 
- * Example:
+ * 
+ * Example:
  *  STATS::STAT_SET_FLOAT(MISC::GET_HASH_KEY("MP0_WEAPON_ACCURACY"), 66.6f, true);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

@@ -5,7 +5,9 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0xB302C203285E8234
 
- * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
+ * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

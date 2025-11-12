@@ -3,8 +3,10 @@
  *
  * 0xD8D822FF4C3DCD7D
 
- * Makes sure that if something happens to the local player that other machines dont leave a ped behind if
+ * 
+ * Makes sure that if something happens to the local player that other machines dont leave a ped behind if
  * the connection is lost somehow with our Player.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} flag

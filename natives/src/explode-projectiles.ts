@@ -5,7 +5,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0xAF3A361C94FBBFC6
 
- * WEAPON::EXPLODE_PROJECTILES(PLAYER::PLAYER_PED_ID(), func_221(0x00000003), 0x00000001);
+ * 
+ * WEAPON::EXPLODE_PROJECTILES(PLAYER::PLAYER_PED_ID(), func_221(0x00000003), 0x00000001);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

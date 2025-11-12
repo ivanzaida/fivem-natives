@@ -3,7 +3,9 @@
  *
  * 0xB83285E02B6331A7
 
- * Retrieves if this user has permissions to use the store
+ * 
+ * Retrieves if this user has permissions to use the store
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

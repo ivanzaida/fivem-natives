@@ -5,9 +5,12 @@ import { ECutscenePlaybackFlags } from '@ivanzaida/structures'
  *
  * 0x839AD252B0708F35
 
- * Should be used for cutscenes that have no fades e.g. a seamless scene
+ * 
+ * Should be used for cutscenes that have no fades e.g. a seamless scene
+ * 
  * flags: Usually 8
  * Full list of cutscene names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/cutsceneNames.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} cutName

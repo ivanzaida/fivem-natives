@@ -5,8 +5,11 @@ import { EPickupType } from '@ivanzaida/structures'
  *
  * 0xAC96042A1278D845
 
- * returns pickup hash.
+ * 
+ * returns pickup hash.
+ * 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} oldPickupType

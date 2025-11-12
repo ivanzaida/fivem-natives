@@ -3,7 +3,9 @@
  *
  * 0xDBCD5F83F8E84B5C
 
- * mpSettingSpawn:
+ * 
+ * mpSettingSpawn:
+ * 
  * enum eMpSettingSpawn
  * {
  * 	MP_SETTING_SPAWN_NULL,
@@ -28,6 +30,7 @@
  * 	MP_SETTING_SPAWN_FIXER_HQ,
  * 	MP_SETTING_SPAWN_MAX,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} newSpawnLocationOption

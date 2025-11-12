@@ -3,7 +3,9 @@
  *
  * 0x4AE9635532D92447
 
- * Returns the aspect ratio of game
+ * 
+ * Returns the aspect ratio of game
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} physicalAspect

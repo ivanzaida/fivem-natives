@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xC850B483ACC98D91
 
- * Might be more appropriate in AUDIO?
+ * 
+ * Might be more appropriate in AUDIO?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

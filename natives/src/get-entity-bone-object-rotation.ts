@@ -5,8 +5,11 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x5834A431DBD4B5E5
 
- * Returns the rotation, in object space, of the bone within the entity
+ * 
+ * Returns the rotation, in object space, of the bone within the entity
+ * 
  * Gets the local rotation of the specified bone of the specified entity.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,7 +3,9 @@
  *
  * 0x3BFC5030EF1E6147
 
- * Returns true if command line option '-benchmark' is set.
+ * 
+ * Returns true if command line option '-benchmark' is set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

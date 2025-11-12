@@ -10,7 +10,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The ped entity
  * @param {number} overlayID An integer representing the overlay id
- * @param {number} colorType 1 for eyebrows, beards, and chest hair; 2 for blush and lipstick; and 0 otherwise, though not called in those cases.
+ * @param {number} colorType 1 for eyebrows, beards, makeup, and chest hair; 2 for blush and lipstick; and 0 otherwise, though not called in those cases.
  * @param {number} colorID An integer representing the primary color id
  * @param {number} secondColorID An integer representing the secondary color id
  */

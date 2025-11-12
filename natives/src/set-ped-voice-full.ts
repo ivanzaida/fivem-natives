@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7E30BA14928608A0
 
- * Assigns some ambient voice to the ped.
+ * 
+ * Assigns some ambient voice to the ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

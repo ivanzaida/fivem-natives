@@ -5,9 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD735FEDB86CA06C6
 
- * Sets the vehicle to ignore calls to set the wheel compression (ie. from SET_VEHICLE_ON_GROUND_PROPERLY)
+ * 
+ * Sets the vehicle to ignore calls to set the wheel compression (ie. from SET_VEHICLE_ON_GROUND_PROPERLY)
  * to allow blending back into the game from a cutscene task without the wheels popping. Use this command only
  * if you're sure the cutscene places the vehicle/wheels in a state that is okay to enter the game with
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

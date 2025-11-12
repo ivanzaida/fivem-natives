@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0xB44FCE2D38FDEDFE
 
- * This native has a name defined inside its code
+ * 
+ * This native has a name defined inside its code
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8E9B5F00B41A9F8C
 
- * To reset the max speed, set the `speed` value to `0.0` or lower.
+ * 
+ * To reset the max speed, set the `speed` value to `0.0` or lower.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

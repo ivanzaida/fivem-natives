@@ -5,7 +5,9 @@ import { PedIndex, EHighFallEntryType } from '@ivanzaida/structures'
  *
  * 0x8A43FAF3B2368B62
 
- * Makes the ped ragdoll like when falling from a great height
+ * 
+ * Makes the ped ragdoll like when falling from a great height
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

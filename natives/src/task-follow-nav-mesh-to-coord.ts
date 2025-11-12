@@ -5,10 +5,13 @@ import { PedIndex, EEnavScriptFlags } from '@ivanzaida/structures'
  *
  * 0xA966E518B752B92A
 
- * IMPORTANT NOTE : Sometimes a path may not be able to be found. This could happen because there simply isn't any way to get there, or maybe a bunch of dynamic objects have blocked the way,
+ * 
+ * IMPORTANT NOTE : Sometimes a path may not be able to be found. This could happen because there simply isn't any way to get there, or maybe a bunch of dynamic objects have blocked the way,
  * or maybe the destination is too far away. In this case the ped will simply stand still.
  * To identify when this has happened, you can use GET_NAVMESH_ROUTE_RESULT. This will help you find situations where peds cannot get to their target.
+ * 
  * If no timeout, set timeout to -1.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

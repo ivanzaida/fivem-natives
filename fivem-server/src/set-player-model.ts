@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x774A4C54
 
- * Set the model for a specific Player. Be aware that this will destroy the current Ped for the Player and create a new one, any reference to the old ped should be reset
+ * 
+ * Set the model for a specific Player. Be aware that this will destroy the current Ped for the Player and create a new one, any reference to the old ped should be reset
  * Make sure to request the model first and wait until it has loaded.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player The player to set the model for

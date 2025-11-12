@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD772F6AA66750D2B
 
- * Available extraIds are 1-14, however none of the vehicles have extras above 12.
+ * 
+ * Available extraIds are 1-14, however none of the vehicles have extras above 12.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

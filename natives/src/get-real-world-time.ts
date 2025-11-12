@@ -3,8 +3,11 @@
  *
  * 0x093F26D866EFF997
 
- * Returns the real world time in seconds
+ * 
+ * Returns the real world time in seconds
+ * 
  * GET_GAME_TIMER() / 1000
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

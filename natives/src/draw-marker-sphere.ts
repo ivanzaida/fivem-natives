@@ -3,9 +3,12 @@
  *
  * 0x426E16FFFB6D7AF1
 
- * Draws a sphere marker of better quality than the markers one. ONLY ONE PER FRAME IS SUPPORTED.
+ * 
+ * Draws a sphere marker of better quality than the markers one. ONLY ONE PER FRAME IS SUPPORTED.
+ * 
  * Draws a 3D sphere, typically seen in the GTA:O freemode event "Penned In".
  * Example https://imgur.com/nCbtS4H
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scrVecPositionX

@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x3E27C7B2037D7E8B
 
- * Damage one of the parts of a fragment based object.
+ * 
+ * Damage one of the parts of a fragment based object.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

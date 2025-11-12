@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex, EWeaponType, EScDoorList } from '@ivanzaida/str
  *
  * 0x43F53DDC37E17FE9
 
- * Fourth Parameter = unsure, almost always -1
+ * 
+ * Fourth Parameter = unsure, almost always -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

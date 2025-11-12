@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x4285E11B28063EE0
 
- * resetRenderPhaseVisibilityMask is always false.
+ * 
+ * resetRenderPhaseVisibilityMask is always false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,7 +3,9 @@
  *
  * 0x1595D1B690089487
 
- * Returns whether the signed-in user has valid Rockstar Online Services (ROS) credentials.
+ * 
+ * Returns whether the signed-in user has valid Rockstar Online Services (ROS) credentials.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

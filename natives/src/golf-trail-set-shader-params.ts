@@ -3,7 +3,9 @@
  *
  * 0xAB60C5CC1A3FCEB6
 
- * Only appeared in Golf & Golf_mp. Parameters were all ptrs
+ * 
+ * Only appeared in Golf & Golf_mp. Parameters were all ptrs
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} pixelThickness

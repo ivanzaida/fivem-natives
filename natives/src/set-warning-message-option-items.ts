@@ -3,9 +3,11 @@
  *
  * 0x0C5A80A9E096D529
 
- * Some sort of list displayed in a warning message. Yet unknown how to prevent repeating.
+ * 
+ * Some sort of list displayed in a warning message. Yet unknown how to prevent repeating.
  * Param names copied from the corresponding scaleform function "SET_LIST_ROW".
  * Example: https://i.imgur.com/arKvOYx.png
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} highlight

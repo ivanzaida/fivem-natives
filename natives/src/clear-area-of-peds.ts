@@ -3,7 +3,9 @@
  *
  * 0x55F7AC4B2B875901
 
- * Example:       CLEAR_AREA_OF_PEDS(0, 0, 0, 10000, 1);
+ * 
+ * Example:       CLEAR_AREA_OF_PEDS(0, 0, 0, 10000, 1);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

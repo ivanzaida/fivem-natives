@@ -3,7 +3,9 @@
  *
  * 0x818CFAC7819E0460
 
- * Returns true if bank balance + wallet balance >= amount.
+ * 
+ * Returns true if bank balance + wallet balance >= amount.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x0C56573D93709254
 
- * Adds the GTA: Online player heading indicator to a blip.
+ * 
+ * Adds the GTA: Online player heading indicator to a blip.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

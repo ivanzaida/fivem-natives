@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x932EFF1079425E72
 
- * Aborts crew emblem requests from a vehicle (the requests must be stuck in a "requesting badge" state)
+ * 
+ * Aborts crew emblem requests from a vehicle (the requests must be stuck in a "requesting badge" state)
  * If the abort is successful this command will return true - otherwise it'll return false
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

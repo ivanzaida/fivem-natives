@@ -5,7 +5,9 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0x1F6CFCD52206CDB0
 
- * Returns the group ID of the specified interior. For example, regular interiors have group 0, subway interiors have group 1. There are a few other groups too.
+ * 
+ * Returns the group ID of the specified interior. For example, regular interiors have group 0, subway interiors have group 1. There are a few other groups too.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {InteriorInstanceIndex} interiorInstance

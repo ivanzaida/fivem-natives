@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4E719C7F4406EC93
 
- * Copies ped's components and props to targetPed.
+ * 
+ * Copies ped's components and props to targetPed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} pedIndexSource

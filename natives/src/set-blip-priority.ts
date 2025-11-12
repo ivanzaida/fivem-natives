@@ -5,7 +5,9 @@ import { BlipIndex, EBlipPriority } from '@ivanzaida/structures'
  *
  * 0x1456FD5C0C438B19
 
- * See this topic for more details : gtaforums.com/topic/717612-v-scriptnative-documentation-and-research/page-35?p=1069477935
+ * 
+ * See this topic for more details : gtaforums.com/topic/717612-v-scriptnative-documentation-and-research/page-35?p=1069477935
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

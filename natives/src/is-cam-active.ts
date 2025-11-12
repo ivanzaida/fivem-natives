@@ -5,8 +5,11 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0xBC886554B5888A64
 
- * Note this mat reurn true but does not mean its rendering to the game screen
+ * 
+ * Note this mat reurn true but does not mean its rendering to the game screen
+ * 
  * Returns whether or not the passed camera handle is active.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

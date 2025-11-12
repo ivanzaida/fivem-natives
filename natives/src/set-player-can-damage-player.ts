@@ -5,10 +5,12 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xA4337AACEADDAA8E
 
- * This must be set up locally on all machines, no information here is synced (same as SET_PED_CAN_BE_TARGETTED_BY_PLAYER).
+ * 
+ * This must be set up locally on all machines, no information here is synced (same as SET_PED_CAN_BE_TARGETTED_BY_PLAYER).
  * PARAMS
  * PlayerIndex - Player index.
  * TargetPlayerIndex - Target player index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

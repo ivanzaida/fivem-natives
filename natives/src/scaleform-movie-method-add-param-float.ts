@@ -3,8 +3,11 @@
  *
  * 0x74BF156C860580D4
 
- * passes a FLOAT to the method call.  Must be wrapped in a BEGIN & END call but can include other ADD_PARAM calls
+ * 
+ * passes a FLOAT to the method call.  Must be wrapped in a BEGIN & END call but can include other ADD_PARAM calls
+ * 
  * Pushes a float for the Scaleform function onto the stack.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} param

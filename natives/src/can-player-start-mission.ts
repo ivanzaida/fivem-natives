@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xF7C1BF3F9EB7C65E
 
- * Checks that the player is in control (not falling), is not being arrested etc
+ * 
+ * Checks that the player is in control (not falling), is not being arrested etc
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

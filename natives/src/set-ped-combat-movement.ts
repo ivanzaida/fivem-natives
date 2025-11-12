@@ -5,13 +5,15 @@ import { PedIndex, ECombatMovement } from '@ivanzaida/structures'
  *
  * 0xD0764B65C2DFEDCA
 
- * enum eCombatMovement // 0x4F456B61
+ * 
+ * enum eCombatMovement // 0x4F456B61
  * {
  * 	CM_Stationary,
  * 	CM_Defensive,
  * 	CM_WillAdvance,
  * 	CM_WillRetreat
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

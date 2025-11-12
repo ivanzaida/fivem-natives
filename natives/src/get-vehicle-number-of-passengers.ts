@@ -5,9 +5,13 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xDE3B10768F6103AD
 
- * Gets the number of passengers.
+ * 
+ * Gets the number of passengers.
+ * 
  * This native was modified in b2545 to take two additional parameters, allowing you to include the driver or exclude dead passengers.
+ * 
  * To keep it working like before b2545, set includeDriver to false and includeDeadOccupants to true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

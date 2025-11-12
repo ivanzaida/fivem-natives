@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xAD9DEC6201018EA3
 
- * Show the Platform profile UI represented by this gamer handle
+ * 
+ * Show the Platform profile UI represented by this gamer handle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

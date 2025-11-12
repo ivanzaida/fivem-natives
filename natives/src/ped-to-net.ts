@@ -5,7 +5,9 @@ import { PedIndex, NetworkIndex } from '@ivanzaida/structures'
  *
  * 0x9F7A52B1537567AC
 
- * gets the network id of a ped
+ * 
+ * gets the network id of a ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} pedID

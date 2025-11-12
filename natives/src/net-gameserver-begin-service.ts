@@ -5,8 +5,10 @@ import { IntRef, EShopItemCategories, ETransactionServices, EItemActionTypes, EC
  *
  * 0x54BC5E0B6A29AE8A
 
- * see TRANSACTION_SERVICES for all service types. Returns the unique
+ * 
+ * see TRANSACTION_SERVICES for all service types. Returns the unique
  * transaction identifier in transactionId. Please use that id for other commands.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} transactionId [Ref]

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xC2AA11D47F8C5153
 
- * Affects the playback speed of the submarine car conversion animations. Does not affect hardcoded animations such as the wheels being retracted.
+ * 
+ * Affects the playback speed of the submarine car conversion animations. Does not affect hardcoded animations such as the wheels being retracted.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

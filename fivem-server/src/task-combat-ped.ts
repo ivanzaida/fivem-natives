@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xCB0D8932
 
- * Makes the specified ped attack the target ped.
+ * 
+ * Makes the specified ped attack the target ped.
  * p2 should be 0
  * p3 should be 16
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

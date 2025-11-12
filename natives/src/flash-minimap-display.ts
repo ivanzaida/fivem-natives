@@ -3,9 +3,12 @@
  *
  * 0x2716F9D3A99349AB
 
- * flashes the minimap display white
+ * 
+ * flashes the minimap display white
+ * 
  * adds a short flash to the Radar/Minimap
  * Usage: UI.FLASH_MINIMAP_DISPLAY
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,7 +5,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0xDBCD9A6B9D073786
 
- * movies are drawn in order, with the latest drawn on top.
+ * 
+ * movies are drawn in order, with the latest drawn on top.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} foregroundMovieId

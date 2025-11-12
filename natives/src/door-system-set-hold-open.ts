@@ -3,7 +3,9 @@
  *
  * 0x0EBFE569715DB18F
 
- * Includes networking check: ownership vs. or the door itself isn't networked.
+ * 
+ * Includes networking check: ownership vs. or the door itself isn't networked.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

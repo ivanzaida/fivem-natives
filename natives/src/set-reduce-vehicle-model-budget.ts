@@ -3,7 +3,9 @@
  *
  * 0xD81FEE0302584F60
 
- * For certain multiplayer missions, is good for deathmatches and such.
+ * 
+ * For certain multiplayer missions, is good for deathmatches and such.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} reduce

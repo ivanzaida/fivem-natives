@@ -3,10 +3,14 @@
  *
  * 0x7FB3FBAF75E52D57
 
- * Call this command every frame.
+ * 
+ * Call this command every frame.
+ * 
  * Used for drawling Deadline trailing lights, see deadline.ytd
+ * 
  * p15 through p23 are values that appear to be related to illiumation, scaling, and rotation; more testing required.
  * For UVW mapping (u,v,w parameters), reference your favourite internet resource for more details.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsFirstX

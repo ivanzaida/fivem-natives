@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x9856853A6FCF4F85
 
- * Sets whether this player can be hassled by gangs.
+ * 
+ * Sets whether this player can be hassled by gangs.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

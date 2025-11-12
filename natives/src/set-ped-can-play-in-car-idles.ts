@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xDBD50CFC0081C308
 
- * Toggles config flag CPED_CONFIG_FLAG_CanPlayInCarIdles.
+ * 
+ * Toggles config flag CPED_CONFIG_FLAG_CanPlayInCarIdles.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

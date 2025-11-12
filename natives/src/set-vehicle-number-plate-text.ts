@@ -5,12 +5,15 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x3FEAE59CDE6D3946
 
- * Sets a vehicle's license plate text.  8 chars maximum.
+ * 
+ * Sets a vehicle's license plate text.  8 chars maximum.
+ * 
  * Example:
  * Ped playerPed = PLAYER::PLAYER_PED_ID();
  * Vehicle veh = PED::GET_VEHICLE_PED_IS_USING(playerPed);
  * char plateText = "KING";
  * VEHICLE::SET_VEHICLE_NUMBER_PLATE_TEXT(veh, plateText);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

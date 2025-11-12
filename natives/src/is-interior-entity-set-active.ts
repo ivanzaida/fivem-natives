@@ -5,7 +5,9 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0x9491D4E34E4389CD
 
- * Full list of IPLs and interior entity sets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ipls.json
+ * 
+ * Full list of IPLs and interior entity sets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ipls.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {InteriorInstanceIndex} interiorInstance

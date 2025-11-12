@@ -3,8 +3,10 @@
  *
  * 0x1F1A910C8AD5C453
 
- * Call this when a UGC mission begins so that any photos taken during the mission are tagged correctly.
+ * 
+ * Call this when a UGC mission begins so that any photos taken during the mission are tagged correctly.
  * When the mission ends, call this command with an empty string
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} contentIdString

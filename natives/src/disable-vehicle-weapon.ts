@@ -5,7 +5,9 @@ import { EWeaponType, VehicleIndex, PedIndex } from '@ivanzaida/structures'
  *
  * 0x267A7225DAF1CD41
 
- * Full list of weapons by DurtyFree (Search for VEHICLE_): https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
+ * Full list of weapons by DurtyFree (Search for VEHICLE_): https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} disable

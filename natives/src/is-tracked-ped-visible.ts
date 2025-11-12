@@ -5,9 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x731EE2A006FD5120
 
- * Test for a ped visibility using hardware visibility tracking
+ * 
+ * Test for a ped visibility using hardware visibility tracking
+ * 
  * returns whether or not a ped is visible within your FOV, not this check auto's to false after a certain distance.
+ * 
+ * 
  * Target needs to be tracked.. won't work otherwise.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

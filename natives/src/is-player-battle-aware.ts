@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x1AF2787435531EA9
 
- * Returns true if an unk value is greater than 0.0f
+ * 
+ * Returns true if an unk value is greater than 0.0f
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

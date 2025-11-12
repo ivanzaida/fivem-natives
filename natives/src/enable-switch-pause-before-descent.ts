@@ -3,7 +3,9 @@
  *
  * 0x042CE839FFCC10E9
 
- * sets the "pause before descent flag" - only permitted when waiting for input destination
+ * 
+ * sets the "pause before descent flag" - only permitted when waiting for input destination
+ * 
  * 
  * ------------------------------------------------------------------
  */

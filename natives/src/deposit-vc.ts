@@ -3,8 +3,11 @@
  *
  * 0xAC3F47C6E026FB48
 
- * Deposit cash into the VC bank. Returns true on success.
+ * 
+ * Deposit cash into the VC bank. Returns true on success.
+ * 
  * Does nothing and always returns false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

@@ -5,7 +5,9 @@ import { Vector3 } from '@ivanzaida/structures'
  *
  * 0xC14F2F615169363F
 
- * clamp: sets whether the product should be clamped between the given coordinates
+ * 
+ * clamp: sets whether the product should be clamped between the given coordinates
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} rPointToTestX

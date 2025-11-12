@@ -5,8 +5,10 @@ import { ObjectIndex, EWeaponcomponentType } from '@ivanzaida/structures'
  *
  * 0x7EC58BF54CD9DC57
 
- * Returns -1 if camoComponentHash is invalid/not attached to the weapon object.
+ * 
+ * Returns -1 if camoComponentHash is invalid/not attached to the weapon object.
  * Full list of weapons, components, tint indexes & weapon liveries by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} weaponObject

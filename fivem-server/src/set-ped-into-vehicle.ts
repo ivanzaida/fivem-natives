@@ -5,14 +5,17 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7500C79
 
- * Ped: The ped to warp.
+ * 
+ * Ped: The ped to warp.
  * vehicle: The vehicle to warp the ped into.
  * Seat_Index: [-1 is driver seat, -2 first free passenger seat]
+ * 
  * Moreinfo of Seat Index
  * DriverSeat = -1
  * Passenger = 0
  * Left Rear = 1
  * RightRear = 2
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

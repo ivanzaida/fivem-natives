@@ -3,9 +3,14 @@
  *
  * 0xE94C7FA27FEB00DD
 
- * Determines whether there is a projectile within the specified coordinates. The coordinates form a rectangle.
+ * 
+ * Determines whether there is a projectile within the specified coordinates. The coordinates form a rectangle.
+ * 
  * - Nacorpio
+ * 
+ * 
  * ownedByPlayer = only projectiles fired by the player will be detected.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minCoorsX

@@ -3,7 +3,9 @@
  *
  * 0x8B0110C1F1D9D177
 
- * flags appears to always be 0
+ * 
+ * flags appears to always be 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

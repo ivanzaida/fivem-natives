@@ -5,8 +5,10 @@ import { RayfireIndex } from '@ivanzaida/structures'
  *
  * 0xC8C12645F5A0E13B
 
- * Example:
+ * 
+ * Example:
  * OBJECT::GET_RAYFIRE_MAP_OBJECT(-809.9619750976562, 170.919, 75.7406997680664, 3.0, "des_tvsmash");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

@@ -5,7 +5,9 @@ import { StreamvolId } from '@ivanzaida/structures'
  *
  * 0x6C730FCE8A68AF6F
 
- * Destroys an existing stream volume which is no longer required.
+ * 
+ * Destroys an existing stream volume which is no longer required.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {StreamvolId} volume

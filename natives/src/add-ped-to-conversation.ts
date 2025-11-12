@@ -5,10 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x302B7D91564CDE7F
 
- * 4 calls in the b617d scripts. The only one with p0 and p2 in clear text:
+ * 
+ * 4 calls in the b617d scripts. The only one with p0 and p2 in clear text:
+ * 
  * AUDIO::ADD_PED_TO_CONVERSATION(5, l_AF, "DINAPOLI");
+ * 
  * =================================================
  * One of the 2 calls in dialogue_handler.c p0 is in a while-loop, and so is determined to also possibly be 0 - 15.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} speakerConversation

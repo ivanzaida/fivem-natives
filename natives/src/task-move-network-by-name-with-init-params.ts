@@ -5,11 +5,14 @@ import { PedIndex, MoveInitialParameters, EMoveNetworkFlags } from '@ivanzaida/s
  *
  * 0x9874D5FB1E8B02CB
 
- * Task to start a move network of the type passed
+ * 
+ * Task to start a move network of the type passed
  * When bAllowOverrideCloneUpdate is used in MP the remotely cloned ped will not update in sync with commands sent locally
  * and it is expected that the remote machine will override the update of the clones task signals.
  * This version allows the network to be setup with initial parameters (clipsets, floats and bools).
+ * 
  * Used only once in the scripts (am_mp_nightclub)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

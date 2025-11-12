@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4FD9D8C197FF8A52
 
- * Also includes some "turnOffBones" when vehicle mods are installed.
+ * 
+ * Also includes some "turnOffBones" when vehicle mods are installed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

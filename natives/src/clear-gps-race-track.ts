@@ -3,7 +3,9 @@
  *
  * 0x3792000AF2959DA0
 
- * Does the same as SET_RACE_TRACK_RENDER(false);
+ * 
+ * Does the same as SET_RACE_TRACK_RENDER(false);
+ * 
  * 
  * ------------------------------------------------------------------
  */

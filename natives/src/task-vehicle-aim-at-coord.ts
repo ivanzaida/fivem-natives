@@ -5,12 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xE61AF8D27706A774
 
- * The ped will aim from a vehicle at the coord passed.
+ * 
+ * The ped will aim from a vehicle at the coord passed.
  * Using:
  * Driveby weapons
  * Vehicle mounted weapons
  * Depending on what is currently selected in their inventory.
  * SEE ALSO TASK_VEHICLE_AIM_AT_PED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

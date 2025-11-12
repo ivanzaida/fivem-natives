@@ -5,7 +5,9 @@ import { EStorePurchaseLocation } from '@ivanzaida/structures'
  *
  * 0xD1A4BF0F54E08B34
 
- * Open the actual commerce store
+ * 
+ * Open the actual commerce store
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} szProductID

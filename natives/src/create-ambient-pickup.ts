@@ -5,9 +5,12 @@ import { EPickupType, ModelNames, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xD0DDC0D0D8D33E57
 
- * Creates a pickup similar to those dropped by dead peds. These types of pickups are part of the ambient population and will get removed
+ * 
+ * Creates a pickup similar to those dropped by dead peds. These types of pickups are part of the ambient population and will get removed
  * if the player moves too far away from them. They cannot be referenced by the script and will remain if the script terminates.  UNLESS bCreateAsScriptObject is set!
+ * 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} type

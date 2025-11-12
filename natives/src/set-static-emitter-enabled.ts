@@ -3,10 +3,14 @@
  *
  * 0xC897319696131088
 
- * Example:
+ * 
+ * Example:
  * AUDIO::SET_STATIC_EMITTER_ENABLED((Any)"LOS_SANTOS_VANILLA_UNICORN_01_STAGE", false);    AUDIO::SET_STATIC_EMITTER_ENABLED((Any)"LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM", false);    AUDIO::SET_STATIC_EMITTER_ENABLED((Any)"LOS_SANTOS_VANILLA_UNICORN_03_BACK_ROOM", false);
+ * 
  * This turns off surrounding sounds not connected directly to peds.
+ * 
  * Full list of static emitters by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/staticEmitters.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} emitterName

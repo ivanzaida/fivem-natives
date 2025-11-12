@@ -5,8 +5,11 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD2A388162B1121E3
 
- * Commands the driver of an armed vehicle (p0) to shoot its weapon at a target (p1). p3, p4 and p5 are the coordinates of the target. Example:
+ * 
+ * Commands the driver of an armed vehicle (p0) to shoot its weapon at a target (p1). p3, p4 and p5 are the coordinates of the target. Example:
+ * 
  * WEAPON::SET_CURRENT_PED_VEHICLE_WEAPON(pilot,MISC::GET_HASH_KEY("VEHICLE_WEAPON_PLANE_ROCKET"));                        VEHICLE::SET_VEHICLE_SHOOT_AT_TARGET(pilot, target, targPos.x, targPos.y, targPos.z);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

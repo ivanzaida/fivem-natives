@@ -3,7 +3,8 @@
  *
  * 0x654AFEEF256E650F
 
- * enum eBusySpinnerType
+ * 
+ * enum eBusySpinnerType
  * {
  * 	BUSY_SPINNER_LEFT,
  * 	BUSY_SPINNER_LEFT_2,
@@ -11,6 +12,7 @@
  * 	BUSY_SPINNER_SAVE,
  * 	BUSY_SPINNER_RIGHT,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} icon

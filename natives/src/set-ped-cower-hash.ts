@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xE591C62C2F46B4D7
 
- * p1: Only "CODE_HUMAN_STAND_COWER" found in the b617d scripts.
+ * 
+ * p1: Only "CODE_HUMAN_STAND_COWER" found in the b617d scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

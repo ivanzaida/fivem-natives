@@ -3,7 +3,9 @@
  *
  * 0x7E2BC58952835E3B
 
- * Returns true is the specified scene is looping
+ * 
+ * Returns true is the specified scene is looping
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

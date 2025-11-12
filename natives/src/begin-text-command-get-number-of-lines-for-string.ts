@@ -3,12 +3,14 @@
  *
  * 0x012F78DEB1F1AF9C
 
- * int GetLineCount(char text, float x, float y)
+ * 
+ * int GetLineCount(char text, float x, float y)
  *     {
  *      BEGIN_TEXT_COMMAND_GET_NUMBER_OF_LINES_FOR_STRING("STRING");
  *                 ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);
  *       return BEGIN_TEXT_COMMAND_GET_NUMBER_OF_LINES_FOR_STRING(x, y);
  *     }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mainTextLabel

@@ -5,9 +5,13 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xE5EE5C9DDF05D925
 
- * This native makes the vehicle stop immediately, as happens when we enter a MP garage.
+ * 
+ * This native makes the vehicle stop immediately, as happens when we enter a MP garage.
+ * 
  * . distance defines how far it will travel until stopping. Garage doors use 3.0.
+ * 
  * . If killEngine is set to 1, you cannot resume driving the vehicle once it stops. This looks like is a bitmapped integer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

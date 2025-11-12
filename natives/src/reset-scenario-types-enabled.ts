@@ -3,8 +3,10 @@
  *
  * 0xED8A3DF1DC96764E
 
- * Reset all scenario types affected by SET_SCENARIO_TYPE_ENABLED,
+ * 
+ * Reset all scenario types affected by SET_SCENARIO_TYPE_ENABLED,
  * to the default state (typically enabled).
+ * 
  * 
  * ------------------------------------------------------------------
  */

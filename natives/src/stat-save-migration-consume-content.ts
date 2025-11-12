@@ -3,7 +3,8 @@
  *
  * 0x07D12DEAC5A3B4E6
 
- * Call this to make sure that this account is entitled to consume a certain content id.
+ * 
+ * Call this to make sure that this account is entitled to consume a certain content id.
  * JobLTSRoundInfo
  * Again, this does nothing to check if the user should have access to the content, it is
  * only to enforce uniqueness that only one given player can unlock a specific piece of content
@@ -16,6 +17,7 @@
  * per piece of content if there is more than one.
  * - Special Edition content please use the string hash of the content.
  * - For having played last gen just use the hash of "played_last_gen".
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} contentId

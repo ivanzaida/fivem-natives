@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x616C2EAE947E6027
 
- * All found occurrences in b678d:
+ * 
+ * All found occurrences in b678d:
  * https://pastebin.com/ceu67jz8
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

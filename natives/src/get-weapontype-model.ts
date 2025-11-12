@@ -5,9 +5,12 @@ import { EWeaponType, ModelNames } from '@ivanzaida/structures'
  *
  * 0xA0A2925EDC6DDA6D
 
- * Returns the model of any weapon.
+ * 
+ * Returns the model of any weapon.
+ * 
  * Can also take an ammo hash?
  * sub_6663a(&l_115B, WEAPON::GET_WEAPONTYPE_MODEL(${ammo_rpg}));
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weapon

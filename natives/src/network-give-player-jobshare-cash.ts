@@ -5,8 +5,10 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0x463EA8B3DD0A6567
 
- * Give cash from the local player to another from last job
+ * 
+ * Give cash from the local player to another from last job
  * Script calls NETWORK_RECEIVE_PLAYER_JOBSHARE_CASH for players in the same session;
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

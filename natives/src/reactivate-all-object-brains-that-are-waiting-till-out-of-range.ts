@@ -3,8 +3,10 @@
  *
  * 0x2DB5A63C4A5800E5
 
- * This command was added to help with debugging the brain scripts. All object brains that are waiting for the player
+ * 
+ * This command was added to help with debugging the brain scripts. All object brains that are waiting for the player
  * to move out of range will be immediately set back to the active state.
+ * 
  * 
  * ------------------------------------------------------------------
  */

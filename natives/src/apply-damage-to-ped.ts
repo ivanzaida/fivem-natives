@@ -5,7 +5,9 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x39AB1812D20C2C99
 
- * damages a ped with the given amount
+ * 
+ * damages a ped with the given amount
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

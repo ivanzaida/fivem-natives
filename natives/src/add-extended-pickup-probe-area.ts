@@ -3,8 +3,10 @@
  *
  * 0xB7E1B262DB074229
 
- * Adds an area that seems to be related to pickup physics behavior.
+ * 
+ * Adds an area that seems to be related to pickup physics behavior.
  * Max amount of areas is 10. Only works in multiplayer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

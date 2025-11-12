@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD23AAC1FA1C1571E
 
- * This function sets the tint index of the parachute for the ped
+ * 
+ * This function sets the tint index of the parachute for the ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

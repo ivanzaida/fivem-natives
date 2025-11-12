@@ -3,7 +3,9 @@
  *
  * 0x36D707C40C1DCEB3
 
- * Returns code for the reason the player has been deemed a cheater
+ * 
+ * Returns code for the reason the player has been deemed a cheater
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

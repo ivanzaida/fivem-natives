@@ -3,7 +3,9 @@
  *
  * 0x4C7D89621410F77E
 
- * Allows CEventNetworkStuntPerformed to be triggered.
+ * 
+ * Allows CEventNetworkStuntPerformed to be triggered.
+ * 
  * 
  * ------------------------------------------------------------------
  */

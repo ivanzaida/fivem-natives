@@ -3,7 +3,9 @@
  *
  * 0x23A6A0C736CAD705
 
- * Setter for GET_MOTIONBLUR_MAX_VEL_SCALER
+ * 
+ * Setter for GET_MOTIONBLUR_MAX_VEL_SCALER
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scaler

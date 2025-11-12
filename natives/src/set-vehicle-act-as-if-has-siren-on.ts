@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xA29F097488D811A6
 
- * This is a reset flag, it must be called each frame
+ * 
+ * This is a reset flag, it must be called each frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { PedIndex, SequenceIndex } from '@ivanzaida/structures'
  *
  * 0x4BD42B0527065BB6
 
- * Requires OPEN_SEQUENCE_TASK ... CLOSE_SEQUENCE_TASK
+ * 
+ * Requires OPEN_SEQUENCE_TASK ... CLOSE_SEQUENCE_TASK
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

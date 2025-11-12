@@ -3,7 +3,9 @@
  *
  * 0x5FFA5801E4084FC5
 
- * see ACTIVATE_AUDIO_SLOWMO_MODE for modes
+ * 
+ * see ACTIVATE_AUDIO_SLOWMO_MODE for modes
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} mode

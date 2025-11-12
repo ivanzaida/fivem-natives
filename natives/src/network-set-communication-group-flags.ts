@@ -3,8 +3,10 @@
  *
  * 0xE549F846DE7D32D5
 
- * communicationType: see 0xDBDF80673BBA3D65
+ * 
+ * communicationType: see 0xDBDF80673BBA3D65
  * communicationGroupFlag: see 0x40DF02F371F40883
+ * 
  * 
  * ------------------------------------------------------------------
  */

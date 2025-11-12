@@ -5,7 +5,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0x63458C27
 
- * Returns the hash of the weapon/model/object that killed the ped.
+ * 
+ * Returns the hash of the weapon/model/object that killed the ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

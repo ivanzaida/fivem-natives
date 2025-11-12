@@ -5,11 +5,14 @@ import { EntityIndex, PtfxId } from '@ivanzaida/structures'
  *
  * 0x3B8EE54DFE24F06C
 
- * Triggers a named particle effect attached to an entity bone with an offset position.
+ * 
+ * Triggers a named particle effect attached to an entity bone with an offset position.
  * This should only be used with infinitely looping particle effects.
  * The particle effect will then start playing and will need to be stopped by calling STOP_PTFX.
  * The returned id of the particle effect needs to be passed into any other function that needs to be called on it.+
+ * 
  * Full list of particle effect dictionaries and effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} fxName

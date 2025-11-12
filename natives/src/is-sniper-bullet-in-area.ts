@@ -3,7 +3,9 @@
  *
  * 0xD83D7629BFD65725
 
- * Determines whether there is a sniper bullet within the specified coordinates. The coordinates form an axis-aligned bounding box.
+ * 
+ * Determines whether there is a sniper bullet within the specified coordinates. The coordinates form an axis-aligned bounding box.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minCoorsX

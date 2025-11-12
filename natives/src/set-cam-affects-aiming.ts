@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0xD49F2340555F9E5D
 
- * Allows you to aim and shoot at the direction the camera is facing.
+ * 
+ * Allows you to aim and shoot at the direction the camera is facing.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

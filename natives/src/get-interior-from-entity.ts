@@ -5,7 +5,9 @@ import { EntityIndex, InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0xF8F35890F43ED2AE
 
- * Returns the handle of the interior that the entity is in. Returns 0 if outside.
+ * 
+ * Returns the handle of the interior that the entity is in. Returns 0 if outside.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

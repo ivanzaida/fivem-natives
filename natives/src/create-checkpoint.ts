@@ -5,9 +5,13 @@ import { ECheckpointType, CheckpointIndex } from '@ivanzaida/structures'
  *
  * 0xDCC9FF4954D6DCB1
 
- * If the checkpoint is a chevron then it will point towards scrVecPointAt. If it's a flag then scrVecPointAt will be ignored.
+ * 
+ * If the checkpoint is a chevron then it will point towards scrVecPointAt. If it's a flag then scrVecPointAt will be ignored.
+ * 
  * Creates a checkpoint. Returns the handle of the checkpoint.
+ * 
  * 20/03/17 : Attention, checkpoints are already handled by the game itself, so you must not loop it like markers.
+ * 
  * Parameters:
  *  type - The type of checkpoint to create. See below for a list of checkpoint types.
  *  pos1 - The position of the checkpoint.
@@ -15,6 +19,7 @@ import { ECheckpointType, CheckpointIndex } from '@ivanzaida/structures'
  *  radius - The radius of the checkpoint.
  *  color - The color of the checkpoint.
  *  reserved - Special parameter, see below for details. Usually set to 0 in the scripts.
+ * 
  * Checkpoint types:
  * 0-4---------Cylinder: 1 arrow, 2 arrow, 3 arrows, CycleArrow, Checker
  * 5-9---------Cylinder: 1 arrow, 2 arrow, 3 arrows, CycleArrow, Checker
@@ -29,7 +34,9 @@ import { ECheckpointType, CheckpointIndex } from '@ivanzaida/structures'
  * 41----------?
  * 42-44-------Cylinder w/ number (uses 'reserved' parameter)
  * 45-47-------Cylinder no arrow or number
+ * 
  * If using type 42-44, reserved sets number / number and shape to display
+ * 
  * 0-99------------Just numbers (0-99)
  * 100-109-----------------Arrow (0-9)
  * 110-119------------Two arrows (0-9)
@@ -40,6 +47,7 @@ import { ECheckpointType, CheckpointIndex } from '@ivanzaida/structures'
  * 160-169----Circle  w/ pointer (0-9)
  * 170-179-------Perforated ring (0-9)
  * 180-189----------------Sphere (0-9)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ECheckpointType} checkpointType

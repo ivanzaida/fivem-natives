@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB4EDA6C252467FB1
 
- * pan and descend to the destination ped during player switch (when going from SP to MP)
+ * 
+ * pan and descend to the destination ped during player switch (when going from SP to MP)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} newPed

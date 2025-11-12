@@ -3,7 +3,9 @@
  *
  * 0x37B894853929BF1A
 
- * If Minimap / Radar should be displayed.
+ * 
+ * If Minimap / Radar should be displayed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} displayRadarFlag

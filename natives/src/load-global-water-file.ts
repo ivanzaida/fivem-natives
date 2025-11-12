@@ -3,8 +3,10 @@
  *
  * 0x548BCB9EBC09A967
 
- * 0 - default
+ * 
+ * 0 - default
  * 1 - HeistIsland
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} waterId

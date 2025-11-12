@@ -5,7 +5,9 @@ import { EDecoratorTypes } from '@ivanzaida/structures'
  *
  * 0x93900D232987104E
 
- * https://alloc8or.re/gta5/doc/enums/eDecorType.txt
+ * 
+ * https://alloc8or.re/gta5/doc/enums/eDecorType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} decoratorName

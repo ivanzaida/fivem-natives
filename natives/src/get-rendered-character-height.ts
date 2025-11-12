@@ -5,7 +5,9 @@ import { ETextFonts } from '@ivanzaida/structures'
  *
  * 0x3D634C7F6A6D4CA4
 
- * This gets the height of the FONT and not the total text. You need to get the number of lines your text uses, and get the height of a newline (I'm using a smaller value) to get the total text height.
+ * 
+ * This gets the height of the FONT and not the total text. You need to get the number of lines your text uses, and get the height of a newline (I'm using a smaller value) to get the total text height.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} textYScale

@@ -5,7 +5,9 @@ import { EPedZoomLevel } from '@ivanzaida/structures'
  *
  * 0xE63C16EA2171C883
 
- * Deprecated! Please now use GET_FOLLOW_PED_CAM_VIEW_MODE
+ * 
+ * Deprecated! Please now use GET_FOLLOW_PED_CAM_VIEW_MODE
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EPedZoomLevel}  

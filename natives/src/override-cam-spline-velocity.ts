@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x59CBB7FD3D159D45
 
- * Nodes must be setup first before this is called. (Note: have to override all nodes in the spline)
+ * 
+ * Nodes must be setup first before this is called. (Note: have to override all nodes in the spline)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

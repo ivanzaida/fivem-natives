@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8DCC19C5
 
- * In the scripts, p3 was always -1.
+ * 
+ * In the scripts, p3 was always -1.
+ * 
  * p3 seems to be duration or timeout of turn animation.
  * Also facingPed can be 0 or -1 so ped will just raise hands up.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

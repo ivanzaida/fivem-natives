@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xCB7327FDCE6757E1
 
- * This function handles map and population loading. UPDATE_PLAYER_TELEPORT should be queried for completion.
+ * 
+ * This function handles map and population loading. UPDATE_PLAYER_TELEPORT should be queried for completion.
+ * 
  * `findCollisionLand`: This teleports the player to land when set to true and will not consider the Z coordinate parameter provided by you. It will automatically put the Z coordinate so that you don't fall from sky.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

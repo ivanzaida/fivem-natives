@@ -3,8 +3,10 @@
  *
  * 0xF4B325151D7AC09F
 
- * Allows script to override the cop perception parameters. This affects all code-spawned, non-mission cops. Parameters will not be overridden if left at their default values (these are the standard values already used by cops).
+ * 
+ * Allows script to override the cop perception parameters. This affects all code-spawned, non-mission cops. Parameters will not be overridden if left at their default values (these are the standard values already used by cops).
  * This command must be called every frame!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} seeingRange

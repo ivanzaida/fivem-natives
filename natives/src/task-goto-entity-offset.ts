@@ -5,12 +5,15 @@ import { PedIndex, EntityIndex, EEseekEntityOffsetFlags } from '@ivanzaida/struc
  *
  * 0xF3812FC874B9C273
 
- * if Time is chosen to be -1 the ped will never warp.
+ * 
+ * if Time is chosen to be -1 the ped will never warp.
+ * 
  * enum ESEEK_ENTITY_OFFSET_FLAGS
  * {
  * 	ESEEK_OFFSET_ORIENTATES_WITH_ENTITY = 0x01,
  * 	ESEEK_KEEP_TO_PAVEMENTS = 0x02
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

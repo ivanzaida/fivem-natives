@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x9AC70C40670AC02D
 
- * Jenkins hash _might_ be 0xFC227584.
+ * 
+ * Jenkins hash _might_ be 0xFC227584.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entityID

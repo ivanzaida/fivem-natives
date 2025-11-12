@@ -5,9 +5,13 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE916D57851F785AB
 
- * Can the player control himself, used to disable controls for player for things like a cutscene.
+ * 
+ * Can the player control himself, used to disable controls for player for things like a cutscene.
+ * 
  * ---
+ * 
  * You can't disable controls with this, use SET_PLAYER_CONTROL(...) for this.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

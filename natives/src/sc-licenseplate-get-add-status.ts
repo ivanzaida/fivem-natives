@@ -5,8 +5,10 @@ import { EELicenseplateAddStatus } from '@ivanzaida/structures'
  *
  * 0x2A1E3EE300513E84
 
- * Use SC_LICENSEPLATE_GET_ADD_IS_PENDING() and wait for the request to finish.  Once
+ * 
+ * Use SC_LICENSEPLATE_GET_ADD_IS_PENDING() and wait for the request to finish.  Once
  * it's finished, use SC_LICENSEPLATE_GET_ADD_STATUS() to get the status of the result.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} token

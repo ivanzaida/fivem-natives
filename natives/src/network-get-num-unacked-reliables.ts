@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xC424F771EFDD2A58
 
- * Returns the number of current unacked reliable messages to the specified remote player.
+ * 
+ * Returns the number of current unacked reliable messages to the specified remote player.
  * This should only be called on remote players.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

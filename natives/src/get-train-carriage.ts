@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB5C59FDCC14C2F22
 
- * ReturnTrainCarriageID will be NULL if the carriage couldn't be found.
+ * 
+ * ReturnTrainCarriageID will be NULL if the carriage couldn't be found.
+ * 
  * Corrected p1. it's basically the 'carriage/trailer number'. So if the train has 3 trailers you'd call the native once with a var or 3 times with 1, 2, 3.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} trainEngine

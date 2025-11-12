@@ -5,10 +5,12 @@ import { GroupIndex, EPedgroupFormation } from '@ivanzaida/structures'
  *
  * 0xDC80C872B18711B5
 
- * 0: Default
+ * 
+ * 0: Default
  * 1: Circle Around Leader
  * 2: Alternative Circle Around Leader
  * 3: Line, with Leader at center
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GroupIndex} uniqueGroupID

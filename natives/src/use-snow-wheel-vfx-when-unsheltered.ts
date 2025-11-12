@@ -3,7 +3,9 @@
  *
  * 0xD7DE01DAA350496A
 
- * Forces vehicle trails on all surfaces.
+ * 
+ * Forces vehicle trails on all surfaces.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x5909C9E03CEF097D
 
- * Damage Packs:
+ * 
+ * Damage Packs:
+ * 
  * "SCR_TrevorTreeBang"
  * "HOSPITAL_0"
  * "HOSPITAL_1"
@@ -27,9 +29,12 @@ import { PedIndex } from '@ivanzaida/structures'
  * "SCR_Torture"
  * "SCR_TracySplash"
  * "Skin_Melee_0"
+ * 
  * Additional damage packs:
+ * 
  * gist.github.com/alexguirre/f3f47f75ddcf617f416f3c8a55ae2227
  * Full list of ped damage packs by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pedDamagePacks.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

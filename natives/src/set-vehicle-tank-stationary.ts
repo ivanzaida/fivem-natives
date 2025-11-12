@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x9636B030D6DE5C35
 
- * Makes the tank stay still when shooting at a target
+ * 
+ * Makes the tank stay still when shooting at a target
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x6D618646705A0465
 
- * Set's a driver's ability value, used to govern things like how
+ * 
+ * Set's a driver's ability value, used to govern things like how
  * often they use their lights or how well they care to park
+ * 
  * The function specifically verifies the value is equal to, or less than 1.0f. If it is greater than 1.0f, the function does nothing at all.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

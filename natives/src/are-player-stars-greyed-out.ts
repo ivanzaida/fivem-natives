@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x72C7CC058228E633
 
- * because the police haven't spotted the player for a while.
+ * 
+ * because the police haven't spotted the player for a while.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

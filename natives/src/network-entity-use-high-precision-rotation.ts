@@ -5,8 +5,10 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0xB0D23E19A23DCAAF
 
- * Sets whether to use high precision rotation network for the specified network ID. Currently this can only be
+ * 
+ * Sets whether to use high precision rotation network for the specified network ID. Currently this can only be
  * called on objects (not vehicles and peds).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

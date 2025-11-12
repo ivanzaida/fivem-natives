@@ -3,8 +3,10 @@
  *
  * 0x6F3435F85C932A08
 
- * Clears the non axis aligned area of all all non-mission vehicles
+ * 
+ * Clears the non axis aligned area of all all non-mission vehicles
  * CURRENTLY NOT SUPPORTED IN MP if Broadcast is set
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} vecAngledAreaPoint1X

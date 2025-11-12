@@ -5,10 +5,12 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x58BDA5D9262F5D30
 
- * Sets the field of view of the cam.
+ * 
+ * Sets the field of view of the cam.
  * ---------------------------------------------
  * Min: 1.0f
  * Max: 130.0f
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

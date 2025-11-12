@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8A86075A9E1BF05A
 
- * Sets whether a rudder should be broken off or not
+ * 
+ * Sets whether a rudder should be broken off or not
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

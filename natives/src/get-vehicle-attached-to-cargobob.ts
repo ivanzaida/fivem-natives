@@ -5,7 +5,9 @@ import { VehicleIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x79FCDCFB75A2E31B
 
- * Returns attached vehicle (Vehicle in parameter must be cargobob)
+ * 
+ * Returns attached vehicle (Vehicle in parameter must be cargobob)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

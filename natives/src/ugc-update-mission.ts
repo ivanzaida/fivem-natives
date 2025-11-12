@@ -5,8 +5,10 @@ import { UgcDescription } from '@ivanzaida/structures'
  *
  * 0x605AAC6915C9EFC7
 
- * Update a UGC file - (optionally) build an updated UGC header using datafile commands before calling this.
+ * 
+ * Update a UGC file - (optionally) build an updated UGC header using datafile commands before calling this.
  * The parameters are all optional. Pass in NULL for any that should not be updated.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} szContentID

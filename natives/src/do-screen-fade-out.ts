@@ -3,8 +3,11 @@
  *
  * 0x8F72AF14CE5AACE4
 
- * Fades the screen out.
+ * 
+ * Fades the screen out.
+ * 
  * duration: The time the fade should take, in milliseconds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} time

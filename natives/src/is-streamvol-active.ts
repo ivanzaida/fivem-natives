@@ -3,7 +3,9 @@
  *
  * 0x8240737C161141A9
 
- * Returns true if there is some currently active streaming volume
+ * 
+ * Returns true if there is some currently active streaming volume
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

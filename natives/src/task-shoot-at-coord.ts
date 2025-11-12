@@ -5,7 +5,9 @@ import { PedIndex, EFiringType } from '@ivanzaida/structures'
  *
  * 0x6C4E9ADFB1521AAC
 
- * Firing Pattern Hash Information: https://pastebin.com/Px036isB
+ * 
+ * Firing Pattern Hash Information: https://pastebin.com/Px036isB
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

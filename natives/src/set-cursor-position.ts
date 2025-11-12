@@ -3,7 +3,9 @@
  *
  * 0xA715917D148B834B
 
- * Returns true if the cursor position was succesfully set (also returns false on platforms not supported).
+ * 
+ * Returns true if the cursor position was succesfully set (also returns false on platforms not supported).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

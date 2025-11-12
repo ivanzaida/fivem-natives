@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x942B90900E176BD7
 
- * Distance traveled in the vehicles current recording.
+ * 
+ * Distance traveled in the vehicles current recording.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

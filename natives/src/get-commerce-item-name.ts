@@ -3,7 +3,9 @@
  *
  * 0xDD21D41AD9E54549
 
- * Gets the name for a product
+ * 
+ * Gets the name for a product
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

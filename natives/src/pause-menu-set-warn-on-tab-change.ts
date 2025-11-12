@@ -3,8 +3,10 @@
  *
  * 0x2FDCBFEEE3E1CA38
 
- * Tells the pause menu to throw up a warning if you try to change tabs
+ * 
+ * Tells the pause menu to throw up a warning if you try to change tabs
  * Mostly used for when you're menucepted deep and don't want to lose any progress.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} warn

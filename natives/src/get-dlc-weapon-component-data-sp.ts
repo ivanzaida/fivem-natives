@@ -5,11 +5,14 @@ import { ShopWeaponComponentData } from '@ivanzaida/structures'
  *
  * 0x38A1582CAC3F4E95
 
- * Looks up a weapon component in SP based on the supplied dlc index and componentIndex
+ * 
+ * Looks up a weapon component in SP based on the supplied dlc index and componentIndex
  * NOTE : (dlcIndex must be inside range: (0 <= dlcIndex < GET_NUM_DLC_WEAPONS()) )
  * NOTE : (componentIndex must be inside range: (0 <= componentIndex < GET_NUM_DLC_WEAPON_COMPONENTS(dlcIndex)) )
  * NOTE : ModType inside scrShopWeaponComponentData returns a hash of the weapon component's attach point name (and not something sensible, like an enum of component types...)
+ * 
  * Same as GET_DLC_WEAPON_COMPONENT_DATA but only works for DLC components that are available in SP.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} dlc

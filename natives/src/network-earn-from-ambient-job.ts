@@ -5,7 +5,9 @@ import { AmbientJobData } from '@ivanzaida/structures'
  *
  * 0x237E99388DCA3CEF
 
- * Example for p1: "AM_DISTRACT_COPS"
+ * 
+ * Example for p1: "AM_DISTRACT_COPS"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

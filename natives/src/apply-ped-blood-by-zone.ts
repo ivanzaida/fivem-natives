@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x07D31B8F40A98A75
 
- * you can use the widgets in  "Peds/Ped Damage/Test Blood by UV (Interactive)" to test u,v values for different zones, etc
+ * 
+ * you can use the widgets in  "Peds/Ped Damage/Test Blood by UV (Interactive)" to test u,v values for different zones, etc
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

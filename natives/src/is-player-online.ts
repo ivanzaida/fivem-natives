@@ -3,8 +3,11 @@
  *
  * 0x99DFE4CAC19D527F
 
- * Returns TRUE if the game is in online mode and FALSE if in offline mode.
+ * 
+ * Returns TRUE if the game is in online mode and FALSE if in offline mode.
+ * 
  * This is an alias for NETWORK_IS_SIGNED_ONLINE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

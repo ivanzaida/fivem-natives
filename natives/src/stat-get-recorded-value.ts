@@ -5,8 +5,10 @@ import { FloatRef } from '@ivanzaida/structures'
  *
  * 0x6975D53533891910
 
- * This can be called at anytime. Will retrieve the last recorded value after a stop, or the current value while recording.
+ * 
+ * This can be called at anytime. Will retrieve the last recorded value after a stop, or the current value while recording.
  * If no value has been recorded, returns false and the value is unchanged.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {FloatRef} value [Ref]

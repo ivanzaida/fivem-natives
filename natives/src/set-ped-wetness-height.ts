@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x545222B91BFCB344
 
- * It adds the wetness level to the player clothing/outfit. As if player just got out from water surface.
+ * 
+ * It adds the wetness level to the player clothing/outfit. As if player just got out from water surface.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

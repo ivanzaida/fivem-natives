@@ -5,10 +5,14 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  *
  * 0x8450270DC5896D39
 
- * In b944, there are 50 (0 - 49) mod types.
+ * 
+ * In b944, there are 50 (0 - 49) mod types.
+ * 
  * Sets the vehicle mod.
  * The vehicle must have a mod kit first.
+ * 
  * Any out of range ModIndex is stock.
+ * 
  * #Mod Type
  * Spoilers - 0
  * Front Bumper - 1
@@ -38,7 +42,9 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  * Plaques - 35
  * Hydraulics - 38
  * Livery - 48
+ * 
  * ENUMS: https://pastebin.com/QzEAn02v
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

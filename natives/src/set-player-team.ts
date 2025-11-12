@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x1B0F8D3B4EE07EE0
 
- * Set player team on deathmatch and last team standing..
+ * 
+ * Set player team on deathmatch and last team standing..
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

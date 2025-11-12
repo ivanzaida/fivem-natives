@@ -3,8 +3,11 @@
  *
  * 0xAEA3DA36109D1029
 
- * CAM::ANIMATED_SHAKE_SCRIPT_GLOBAL("SHAKE_CAM_medium", "medium", "", 0.5f);
+ * 
+ * CAM::ANIMATED_SHAKE_SCRIPT_GLOBAL("SHAKE_CAM_medium", "medium", "", 0.5f);
+ * 
  * Full list of cam shake types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} animDictionary

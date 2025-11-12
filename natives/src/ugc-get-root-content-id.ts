@@ -3,7 +3,9 @@
  *
  * 0x7BA63240A50FC6C7
 
- * Return the root content id of a job.
+ * 
+ * Return the root content id of a job.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} content

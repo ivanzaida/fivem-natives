@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x446468040E515438
 
- * Max value is 1.0
+ * 
+ * Max value is 1.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

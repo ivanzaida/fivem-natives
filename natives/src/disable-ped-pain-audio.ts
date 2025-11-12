@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xEA65800FC08BB2CB
 
- * Disable ped pain audio
+ * 
+ * Disable ped pain audio
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

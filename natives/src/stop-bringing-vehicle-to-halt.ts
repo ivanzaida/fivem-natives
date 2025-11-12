@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF5B09CD26D48D446
 
- * Stops CTaskBringVehicleToHalt
+ * 
+ * Stops CTaskBringVehicleToHalt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

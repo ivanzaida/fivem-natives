@@ -3,7 +3,9 @@
  *
  * 0xEE3C332799057645
 
- * this is to help with tralers, etc. please don't use this in general
+ * 
+ * this is to help with tralers, etc. please don't use this in general
+ * 
  * The following cloudhats are useable:
  * altostratus
  * Cirrus
@@ -25,6 +27,7 @@
  * Stripey
  * shower
  * Wispy
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} cloudHatName

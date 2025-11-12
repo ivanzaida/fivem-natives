@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xAD263B112A654D47
 
- * Sets the target position for a turret to point at
+ * 
+ * Sets the target position for a turret to point at
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

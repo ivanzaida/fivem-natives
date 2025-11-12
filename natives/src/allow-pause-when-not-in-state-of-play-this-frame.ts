@@ -3,7 +3,9 @@
  *
  * 0x2AF77E50375C922F
 
- * Allows opening the pause menu this frame, when the player is dead.
+ * 
+ * Allows opening the pause menu this frame, when the player is dead.
+ * 
  * 
  * ------------------------------------------------------------------
  */

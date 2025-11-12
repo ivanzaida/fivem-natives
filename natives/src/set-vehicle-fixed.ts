@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF698038C13845696
 
- * Restores the health of the vehicle and fixes any damage
+ * 
+ * Restores the health of the vehicle and fixes any damage
+ * 
  * This fixes a vehicle.
  * If the vehicle's engine's broken then you cannot fix it with this native.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

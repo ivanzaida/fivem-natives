@@ -3,10 +3,12 @@
  *
  * 0x116053132936EA1F
 
- * if (OBJECT::IS_DOOR_REGISTERED_WITH_SYSTEM(doorHash))
+ * 
+ * if (OBJECT::IS_DOOR_REGISTERED_WITH_SYSTEM(doorHash))
  * {
  *     OBJECT::REMOVE_DOOR_FROM_SYSTEM(doorHash);
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

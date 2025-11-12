@@ -3,7 +3,9 @@
  *
  * 0xB0DAD631C6A2A5EB
 
- * Returns true if the current frontend menu is FE_MENU_VERSION_SP_PAUSE
+ * 
+ * Returns true if the current frontend menu is FE_MENU_VERSION_SP_PAUSE
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

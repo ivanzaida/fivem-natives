@@ -3,7 +3,9 @@
  *
  * 0x61055542D9D877AE
 
- * The rendertarget ID can be obtained through the <...>_RENDERTARGET_RENDER_ID Functions.
+ * 
+ * The rendertarget ID can be obtained through the <...>_RENDERTARGET_RENDER_ID Functions.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} render

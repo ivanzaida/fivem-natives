@@ -5,7 +5,9 @@ import { PedIndex, EPedVisemeFlags } from '@ivanzaida/structures'
  *
  * 0x5260CB9F2F8EA05A
 
- * p2 usually 0
+ * 
+ * p2 usually 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

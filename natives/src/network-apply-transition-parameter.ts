@@ -3,8 +3,10 @@
  *
  * 0x9B74CCFFA48B4E55
 
- * Applies a parameter to the local transition player. This parameter will be synced to
+ * 
+ * Applies a parameter to the local transition player. This parameter will be synced to
  * other players in the transiton session
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} iD

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7FB6C108C1694163
 
- * This function is hard-coded to always return 0.
+ * 
+ * This function is hard-coded to always return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

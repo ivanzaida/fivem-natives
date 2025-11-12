@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x69347FDCD85BCA24
 
- * Returns true if the vehicle is being slipstreamed by another vehicle
+ * 
+ * Returns true if the vehicle is being slipstreamed by another vehicle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

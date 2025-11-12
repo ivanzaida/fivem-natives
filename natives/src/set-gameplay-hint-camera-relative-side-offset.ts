@@ -3,7 +3,9 @@
  *
  * 0x4302C09C88CF5356
 
- * Call at the start of the hint to avoid pops.
+ * 
+ * Call at the start of the hint to avoid pops.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sideOffset

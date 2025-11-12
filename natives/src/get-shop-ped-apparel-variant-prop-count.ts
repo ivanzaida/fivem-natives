@@ -3,8 +3,10 @@
  *
  * 0xCD6EB4A3CCA20602
 
- * `propHash`: Ped helmet prop hash?
+ * 
+ * `propHash`: Ped helmet prop hash?
  * This native returns 1 when the player helmet has a visor (there is another prop index for the same helmet with closed/opened visor variant) that can be toggled. 0 if there's no alternative version with a visor for this helmet prop.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} nameHash

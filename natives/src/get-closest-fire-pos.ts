@@ -6,7 +6,9 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0xDDF99E38A910C346
 
- * Returns TRUE if it found something. FALSE if not.
+ * 
+ * Returns TRUE if it found something. FALSE if not.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {Vector3} closestFirePos [Ref]

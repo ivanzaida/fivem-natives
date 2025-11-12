@@ -5,7 +5,9 @@ import { CameraIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x52013BF2765685F4
 
- * This native works with vehicles only. Bone indexes are usually given by this native GET_ENTITY_BONE_INDEX_BY_NAME.
+ * 
+ * This native works with vehicles only. Bone indexes are usually given by this native GET_ENTITY_BONE_INDEX_BY_NAME.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

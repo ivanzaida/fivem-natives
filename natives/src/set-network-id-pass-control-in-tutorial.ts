@@ -5,8 +5,10 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0xD8347AAB0A3EF3A0
 
- * Objects with flag will be passed to other players when the players enters a tutorial session. If there are no
+ * 
+ * Objects with flag will be passed to other players when the players enters a tutorial session. If there are no
  * players to pass this object to, it will be hidden from the player
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

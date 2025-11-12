@@ -5,7 +5,8 @@ import { EPickupRewardType } from '@ivanzaida/structures'
  *
  * 0xD346DC73B664C2EC
 
- * enum ePickupRewardType
+ * 
+ * enum ePickupRewardType
  * {
  *     PICKUP_REWARD_TYPE_AMMO = (1 << 0),
  *     PICKUP_REWARD_TYPE_BULLET_MP = (1 << 1),
@@ -22,6 +23,7 @@ import { EPickupRewardType } from '@ivanzaida/structures'
  *     PICKUP_REWARD_TYPE_VEHICLE_FIX = (1 << 9),
  *     PICKUP_REWARD_TYPE_FIREWORK_MP = (1 << 10),
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupRewardType} pickupFlag

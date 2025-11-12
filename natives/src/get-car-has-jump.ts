@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x9D019545E8C959C6
 
- * Returns true if the vehicle has the FLAG_JUMPING_CAR flag set.
+ * 
+ * Returns true if the vehicle has the FLAG_JUMPING_CAR flag set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

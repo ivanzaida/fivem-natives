@@ -5,9 +5,11 @@ import { FloatRef, IntRef, ENodeFlags, VehicleNodeId } from '@ivanzaida/structur
  *
  * 0x990DA6AEDBBBA89A
 
- * Like NTH_CLOSEST_VEHICLE_NODE_WITH_HEADING but returning an ID instead.
+ * 
+ * Like NTH_CLOSEST_VEHICLE_NODE_WITH_HEADING but returning an ID instead.
  * Returns a heading which can be used to set a car facing in a reasonable direction when it is placed on the car node.
  * The command will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

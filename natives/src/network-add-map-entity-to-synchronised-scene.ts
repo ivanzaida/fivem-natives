@@ -5,8 +5,10 @@ import { ModelNames, ESyncedScenePlaybackFlags } from '@ivanzaida/structures'
  *
  * 0xA78D3770EC931263
 
- * Similar structure as NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE but it includes this time a hash.
+ * 
+ * Similar structure as NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE but it includes this time a hash.
  * In casino_slots it is used one time in a synced scene involving a ped and the slot machine?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} networkSceneID

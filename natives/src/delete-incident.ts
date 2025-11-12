@@ -5,13 +5,17 @@ import { IncidentIndex } from '@ivanzaida/structures'
  *
  * 0x3D09B44C2ACEA592
 
- * Deletes the given incident
+ * 
+ * Deletes the given incident
+ * 
  * Delete an incident with a given id.
+ * 
  * =======================================================
  * Correction, I have change this to int, instead of int
  * as it doesn't use a pointer to the createdIncident.
  * If you try it you will crash (or) freeze.
  * =======================================================
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IncidentIndex} incident

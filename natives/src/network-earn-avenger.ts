@@ -3,7 +3,9 @@
  *
  * 0x55F006B9D4A46C1D
 
- * Used for SERVICE_EARN_AVENGER_OPERATIONS & SERVICE_EARN_AVENGER_OPS_BONUS
+ * 
+ * Used for SERVICE_EARN_AVENGER_OPERATIONS & SERVICE_EARN_AVENGER_OPS_BONUS
+ * 
  * 
  * ------------------------------------------------------------------
  */

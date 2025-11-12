@@ -6,12 +6,17 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x813ADF2A2A03F440
 
- * Can be used to set a car facing in a reasonable direction when it is placed on the car node. The command will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
+ * Can be used to set a car facing in a reasonable direction when it is placed on the car node. The command will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
  * p5, p6 and p7 seems to be about the same as p4, p5 and p6 for GET_CLOSEST_VEHICLE_NODE. p6 and/or p7 has something to do with finding a node on the same path/road and same direction(at least for this native, something to do with the heading maybe). Edit this when you find out more.
+ * 
  * nodeType: 0 = main roads, 1 = any dry path, 3 = water
  * p6 is always 3.0
  * p7 is always 0
+ * 
  * gtaforums.com/topic/843561-pathfind-node-types
+ * 
  * Example of usage, moving vehicle to closest path/road:
  * Vector3 coords = ENTITY::GET_ENTITY_COORDS(playerVeh, true);
  * Vector3 closestVehicleNodeCoords;
@@ -20,8 +25,10 @@ import { Vector3Ref } from '@ivanzaida/structures';
  * ENTITY::SET_ENTITY_HEADING(playerVeh, roadHeading);
  * ENTITY::SET_ENTITY_COORDS(playerVeh, closestVehicleNodeCoords.x, closestVehicleNodeCoords.y, closestVehicleNodeCoords.z, 1, 0, 0, 1);
  * VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(playerVeh);
+ * 
  * ------------------------------------------------------------------
  * C# Example (ins1de) : https://pastebin.com/fxtMWAHD
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

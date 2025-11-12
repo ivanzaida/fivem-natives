@@ -5,10 +5,13 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD0F1DB0E50B367AD
 
- * Enable / disable each type of damage.
+ * 
+ * Enable / disable each type of damage.
+ * 
  * waterProof is damage related to water not drowning
  * --------------
  * p7 is to to '1' in am_mp_property_ext/int: ENTITY::SET_ENTITY_PROOFS(uParam0->f_19, true, true, true, true, true, true, 1, true);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,8 +5,10 @@ import { EEMinimapComponent, EHudColours } from '@ivanzaida/structures'
  *
  * 0xA3EA82ACD0C97C3F
 
- * This native is used to colorize certain map components like the army base at the top of the map.
+ * 
+ * This native is used to colorize certain map components like the army base at the top of the map.
  * p2 appears to be always -1. If p2 is -1 then native wouldn't change the color. See https://gfycat.com/SkinnyPinkChupacabra
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEMinimapComponent} componentId

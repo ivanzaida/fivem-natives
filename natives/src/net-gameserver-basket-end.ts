@@ -3,8 +3,10 @@
  *
  * 0xD8EB47E09DFC393C
 
- * End Basket and let code know script doesnt need it anymore. This should only be
+ * 
+ * End Basket and let code know script doesnt need it anymore. This should only be
  * when we are done with shooping and after the transaction has ended. We need to deal with error cases.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

@@ -5,7 +5,9 @@ import { TimeDatatype } from '@ivanzaida/structures'
  *
  * 0xF55707B152A1A749
 
- * Return time formatted in h:mm:ss.ms
+ * 
+ * Return time formatted in h:mm:ss.ms
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {TimeDatatype} time

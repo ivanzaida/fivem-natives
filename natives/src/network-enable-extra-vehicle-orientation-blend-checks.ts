@@ -5,10 +5,12 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0xFA3B6F3FE5E66382
 
- * Set a cloned network vehicle to perform extra validation checks when blending it's orientation based on network
+ * 
+ * Set a cloned network vehicle to perform extra validation checks when blending it's orientation based on network
  * updates. This is useful for network modes where players are expected to crash into each other a lot (not races,
  * rather specific modes that encourage crashing) to reduce physics popping issues
  * IMPORTANT NOTE - THIS IS AN EXPENSIVE FUNCTION - ONLY USE WHEN NECESSARY AND TURN OFF WHEN NOT REQUIRED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

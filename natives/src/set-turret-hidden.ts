@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6405F9D3DF61E127
 
- * Toggles specific flag on turret
+ * 
+ * Toggles specific flag on turret
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

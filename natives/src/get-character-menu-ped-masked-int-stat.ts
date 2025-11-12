@@ -5,7 +5,9 @@ import { EStatsenum, IntRef } from '@ivanzaida/structures'
  *
  * 0x2D43CD41AC3330E1
 
- * This allows scripters to specify a character slot.
+ * 
+ * This allows scripters to specify a character slot.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

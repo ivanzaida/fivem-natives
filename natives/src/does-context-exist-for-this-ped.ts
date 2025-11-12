@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8A6F4A122DEA1DA7
 
- * Checks if the context exists for the ped, searching through the voices in its PedVoiceGroup.  The final argument
+ * 
+ * Checks if the context exists for the ped, searching through the voices in its PedVoiceGroup.  The final argument
  * can be set to true to allow searching in backup PVGs
+ * 
  * Checks if the ped can play the speech or has the speech file, p2 is usually false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x515A606E0E38355D
 
- * Sets whether a vehicle can leak petrol
+ * 
+ * Sets whether a vehicle can leak petrol
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

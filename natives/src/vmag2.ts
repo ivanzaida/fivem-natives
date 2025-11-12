@@ -3,7 +3,9 @@
  *
  * 0xA8CEACB4F35AE058
 
- * Calculates the magnitude of a vector but does not perform Sqrt operations. (Its way faster)
+ * 
+ * Calculates the magnitude of a vector but does not perform Sqrt operations. (Its way faster)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

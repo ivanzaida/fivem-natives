@@ -5,11 +5,16 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x51DACC000DE4DECC
 
- * This command returns TRUE when the object is in the required position.
+ * 
+ * This command returns TRUE when the object is in the required position.
+ * 
  * Returns true if the object has finished moving.
+ * 
  * If false, moves the object towards the specified X, Y and Z coordinates with the specified X, Y and Z speed.
+ * 
  * See also: https://gtagmodding.com/opcode-database/opcode/034E/
  * Has to be looped until it returns true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} objectID

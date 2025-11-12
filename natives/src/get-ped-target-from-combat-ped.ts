@@ -5,8 +5,10 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x11330C43B3678209
 
- * Return the index of the target ped with which the ped is in combat with.
+ * 
+ * Return the index of the target ped with which the ped is in combat with.
  * Allow for an optional LoS check to be enforced. Will return 0 if there is no target ped or if the ped is not in TASK_COMBAT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

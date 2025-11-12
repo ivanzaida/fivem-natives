@@ -5,7 +5,9 @@ import { PedIndex, ERagdollBlockingFlags } from '@ivanzaida/structures'
  *
  * 0x72B18C9612CF3DA0
 
- * Works for both player and peds,
+ * 
+ * Works for both player and peds,
+ * 
  * enum eRagdollBlockingFlags
  * {
  *  RBF_BULLET_IMPACT = 0,
@@ -27,6 +29,7 @@ import { PedIndex, ERagdollBlockingFlags } from '@ivanzaida/structures'
  *  RBF_VEHICLE_GRAB = 16,
  *  RBF_SMOKE_GRENADE = 17,
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

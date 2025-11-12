@@ -3,7 +3,9 @@
  *
  * 0xCFBD89D2F1F18961
 
- * Generic interface to toggle audio functionality, with auto-reset on script termination and support for multiple script threads
+ * 
+ * Generic interface to toggle audio functionality, with auto-reset on script termination and support for multiple script threads
+ * 
  * Possible flag names:
  * "ActivateSwitchWheelAudio"
  * "AllowAmbientSpeechInSlowMo"
@@ -41,8 +43,10 @@
  * "SuppressPlayerScubaBreathing"
  * "WantedMusicDisabled"
  * "WantedMusicOnMission"
+ * 
  * -------------------------------
  * No added flag names between b393d and b573d, including b573d.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} flagName

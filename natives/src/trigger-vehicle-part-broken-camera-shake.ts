@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xB3F5D7C1E9A4A589
 
- * p1: 0..16
+ * 
+ * p1: 0..16
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} vehicle

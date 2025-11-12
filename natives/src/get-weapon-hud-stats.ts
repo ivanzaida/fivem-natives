@@ -5,7 +5,8 @@ import { EWeaponType, HudStatValues } from '@ivanzaida/structures'
  *
  * 0x78640AA034DC7BAF
 
- * struct WeaponHudStatsData
+ * 
+ * struct WeaponHudStatsData
  * {
  *     BYTE hudDamage; // 0x0000
  *     char _0x0001[0x7]; // 0x0001
@@ -17,13 +18,16 @@ import { EWeaponType, HudStatValues } from '@ivanzaida/structures'
  *     char _0x0019[0x7]; // 0x0019
  *     BYTE hudRange; // 0x0020
  * };
+ * 
  * Usage:
+ * 
  * WeaponHudStatsData data;
  * if (GET_WEAPON_HUD_STATS(weaponHash, (int )&data))
  * {
  *     // BYTE damagePercentage = data.hudDamage and so on
  * }
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

@@ -5,7 +5,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0xA0C7B98BCF1EEF9E
 
- * to check if a movie has streamed in yet
+ * 
+ * to check if a movie has streamed in yet
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

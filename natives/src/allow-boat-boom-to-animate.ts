@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x76D20C5FEC8EC7F1
 
- * Allow the boat boom to be animated, this means the boom moves exactly with the animation played on it
+ * 
+ * Allow the boat boom to be animated, this means the boom moves exactly with the animation played on it
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

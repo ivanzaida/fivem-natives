@@ -3,7 +3,9 @@
  *
  * 0xD7C0EA10993D3214
 
- * Along with this hud scrolls off etc... to give a clean screen
+ * 
+ * Along with this hud scrolls off etc... to give a clean screen
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} set

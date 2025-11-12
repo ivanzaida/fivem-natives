@@ -3,7 +3,9 @@
  *
  * 0x0292BD7F3766CEBC
 
- * Hardcoded to return 0.
+ * 
+ * Hardcoded to return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

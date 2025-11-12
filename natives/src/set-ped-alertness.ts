@@ -5,7 +5,9 @@ import { PedIndex, EAlertnessState } from '@ivanzaida/structures'
  *
  * 0x085B81BB17715A70
 
- * value ranges from 0 to 3.
+ * 
+ * value ranges from 0 to 3.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

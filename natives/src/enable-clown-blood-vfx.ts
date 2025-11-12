@@ -3,7 +3,9 @@
  *
  * 0xC826EB0F21193234
 
- * Creates cartoon effect when Michel smokes the weed
+ * 
+ * Creates cartoon effect when Michel smokes the weed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

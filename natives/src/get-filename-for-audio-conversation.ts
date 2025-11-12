@@ -3,7 +3,9 @@
  *
  * 0xFACCDE46E24AD056
 
- * Gets a string literal from a label name.
+ * 
+ * Gets a string literal from a label name.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textLabelOfAudioConversation

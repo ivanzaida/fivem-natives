@@ -5,7 +5,9 @@ import { EStatsenum, IntRef } from '@ivanzaida/structures'
  *
  * 0xDF7F16323520B858
 
- * p2 appears to always be -1
+ * 
+ * p2 appears to always be -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

@@ -3,7 +3,9 @@
  *
  * 0xB5CC1BD0A7024484
 
- * Related to the lower-end of a vehicles fTractionCurve, e.g., from standing starts and acceleration from low/zero speeds.
+ * 
+ * Related to the lower-end of a vehicles fTractionCurve, e.g., from standing starts and acceleration from low/zero speeds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} inArenaMode

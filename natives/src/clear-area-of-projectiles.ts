@@ -3,7 +3,9 @@
  *
  * 0xEC73DFE5CE55E19C
 
- * flags is usually 0 in the scripts.
+ * 
+ * flags is usually 0 in the scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

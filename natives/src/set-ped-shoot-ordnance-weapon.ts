@@ -5,7 +5,9 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x095BB431592C5642
 
- * Returns handle of the projectile.
+ * 
+ * Returns handle of the projectile.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

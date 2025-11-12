@@ -5,7 +5,8 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  *
  * 0x38A100E16C95161B
 
- * enum VehicleLockStatus = {
+ * 
+ * enum VehicleLockStatus = {
  *     None = 0,
  *     Unlocked = 1,
  *     Locked = 2,
@@ -15,6 +16,7 @@ import { VehicleIndex, ELockState } from '@ivanzaida/structures'
  *     CanBeBrokenIntoPersist = 8, -- Can be broken into persist
  *     CannotBeTriedToEnter = 10, -- Cannot be tried to enter (Nothing happens when you press the vehicle enter key).
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,9 +5,12 @@ import { EPickupType, ModelNames, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x29F49A5884D2FD3C
 
- * This creates a pickup object that persists and is carried when collected and can be attached to peds, etc. You can only call this for pickups that
+ * 
+ * This creates a pickup object that persists and is carried when collected and can be attached to peds, etc. You can only call this for pickups that
  * are set up to be portable in the pickups.meta data file. The OBJECT_INDEX that is returned can be used like any other object.
+ * 
  * Full list of pickup types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pickupTypes.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EPickupType} type

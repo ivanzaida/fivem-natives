@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x423F801F012D944B
 
- * Returns whether the specified player is a remote player in a vehicle that doesn't exist on the local machine
+ * 
+ * Returns whether the specified player is a remote player in a vehicle that doesn't exist on the local machine
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

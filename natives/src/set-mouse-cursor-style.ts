@@ -5,10 +5,12 @@ import { EEMousePointerStyle } from '@ivanzaida/structures'
  *
  * 0x30EBBB1D4EDC8FE4
 
- * Changes the mouse cursor's sprite.
+ * 
+ * Changes the mouse cursor's sprite.
  * 1 = Normal
  * 6 = Left Arrow
  * 7 = Right Arrow
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEMousePointerStyle} style

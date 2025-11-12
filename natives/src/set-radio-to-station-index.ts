@@ -3,7 +3,9 @@
  *
  * 0x21880A4FCBA19269
 
- * Sets radio station by index.
+ * 
+ * Sets radio station by index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} radioStation

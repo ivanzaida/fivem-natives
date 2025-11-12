@@ -5,8 +5,11 @@ import { EControlType } from '@ivanzaida/structures'
  *
  * 0xD67885288D4A40CB
 
- * When this returns false, the values inside the cursor CONTROL_ACTIONS will be zero.
+ * 
+ * When this returns false, the values inside the cursor CONTROL_ACTIONS will be zero.
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

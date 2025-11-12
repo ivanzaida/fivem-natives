@@ -5,7 +5,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xDEA49773
 
- * This is a getter for the client-side native [`START_VEHICLE_HORN`](https://docs.fivem.net/natives/?_0x9C8C6504B5B63D2C), which allows you to return the horn type of the vehicle.Note: This native only gets the hash value set with `START_VEHICLE_HORN`. If a wrong hash is passed into `START_VEHICLE_HORN`, it will return this wrong hash.```cenum eHornTypes{NORMAL = 1330140148,HELDDOWN = -2087385909,AGGRESSIVE = -92810745}```
+ * This is a getter for the client-side native [`START_VEHICLE_HORN`](#_0x9C8C6504B5B63D2C), which allows you to return the horn type of the vehicle.Note: This native only gets the hash value set with `START_VEHICLE_HORN`. If a wrong hash is passed into `START_VEHICLE_HORN`, it will return this wrong hash.```cenum eHornTypes{NORMAL = 1330140148,HELDDOWN = -2087385909,AGGRESSIVE = -92810745}```
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle The vehicle to check the horn type.

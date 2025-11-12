@@ -5,7 +5,9 @@ import { EWeaponType, EPickupType } from '@ivanzaida/structures'
  *
  * 0x9D3736A21578FCE2
 
- * Returns the pickup hash for the given weapon hash
+ * 
+ * Returns the pickup hash for the given weapon hash
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

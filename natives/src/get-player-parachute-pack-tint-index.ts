@@ -5,7 +5,9 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x755C848B9B13C696
 
- * This function gets the tint index of the parachute pack for the player
+ * 
+ * This function gets the tint index of the parachute pack for the player
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

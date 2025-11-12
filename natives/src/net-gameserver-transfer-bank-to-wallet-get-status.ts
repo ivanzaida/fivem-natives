@@ -5,7 +5,9 @@ import { ENetGameserverTransactionStatus } from '@ivanzaida/structures'
  *
  * 0x2B3725FC402B94A8
 
- * Same as 0x350AA5EBC03D3BD2
+ * 
+ * Same as 0x350AA5EBC03D3BD2
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {ENetGameserverTransactionStatus}  

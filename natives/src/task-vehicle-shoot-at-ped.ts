@@ -5,13 +5,15 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x0ADB09C3437C4CCD
 
- * The ped will shoot from a vehicle the other ped passed.
+ * 
+ * The ped will shoot from a vehicle the other ped passed.
  * Using:
  * Driveby weapons
  * Vehicle mounted weapons
  * Grenades
  * Depending on what is currently selected in their inventory.
  * SEE ALSO TASK_VEHICLE_SHOOT_AT_COORD
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

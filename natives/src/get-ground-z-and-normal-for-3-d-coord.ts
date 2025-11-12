@@ -6,7 +6,9 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x1C23EBEE3AABD4C7
 
- * The command will return TRUE if it finds collision, FALSE if not.
+ * 
+ * The command will return TRUE if it finds collision, FALSE if not.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

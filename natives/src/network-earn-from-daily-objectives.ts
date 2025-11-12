@@ -3,7 +3,9 @@
  *
  * 0xE36D9E1EDE0E76B4
 
- * type either Monthly,Weekly,Daily
+ * 
+ * type either Monthly,Weekly,Daily
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

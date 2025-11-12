@@ -5,9 +5,13 @@ import { EntityIndex, EAnimType } from '@ivanzaida/structures'
  *
  * 0x67C276550F2DBF33
 
- * This command will only ever return true for anims that hold at the end (i.e. anims that loop or end automatically will always return false)
+ * 
+ * This command will only ever return true for anims that hold at the end (i.e. anims that loop or end automatically will always return false)
+ * 
  * P3 is always 3 as far as i cant tell
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

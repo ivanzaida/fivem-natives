@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEEBEB450F9417D7F
 
- * Returns a bitset that shows which colours will have a visible effect when you call one of
+ * 
+ * Returns a bitset that shows which colours will have a visible effect when you call one of
  * the "set colour" commands. Use IS_BIT_SET 0,1,2,3,4 for Colours 1,2,3,4,5
+ * 
  * Some kind of flags.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

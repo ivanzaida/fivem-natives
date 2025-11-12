@@ -3,8 +3,10 @@
  *
  * 0x68F69A7905654A16
 
- * Requests that the local player becomes the host of the script
+ * 
+ * Requests that the local player becomes the host of the script
  * PLEASE DO NOT ABUSE THIS, WE MUST ALWAYS TRY AND ALLOW MIGRATION WHENEVER POSSIBLE
+ * 
  * 
  * ------------------------------------------------------------------
  */

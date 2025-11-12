@@ -3,7 +3,9 @@
  *
  * 0x4F5BF7798505A667
 
- * Call at the start of the hint to avoid pops
+ * 
+ * Call at the start of the hint to avoid pops
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} fov

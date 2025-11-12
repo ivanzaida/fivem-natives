@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x869AEF17062BE178
 
- * If this is set to true the police focus circle is always focussed on the car. If this is false the player has a chance to escape police attention if undetected.
+ * 
+ * If this is set to true the police focus circle is always focussed on the car. If this is false the player has a chance to escape police attention if undetected.
  * By default law enforcement vehicles have this bit set to true and all other cars have false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

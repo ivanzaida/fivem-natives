@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xB30977F20556F296
 
- * Same as the above function but assumes that the bone is facing along the y axis
+ * 
+ * Same as the above function but assumes that the bone is facing along the y axis
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} firstEntity

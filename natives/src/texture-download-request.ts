@@ -5,8 +5,10 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0x1905CE168C7AF873
 
- * Requests to download a texture from member space. The texture will not be immediately available; the user needs to query its state
+ * 
+ * Requests to download a texture from member space. The texture will not be immediately available; the user needs to query its state
  * by calling TEXTURE_DOWNLOAD_HAS_FAILED, TEXTURE_DOWNLOAD_GET_NAME or GET_STATUS_OF_TEXTURE_DOWNLOAD
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

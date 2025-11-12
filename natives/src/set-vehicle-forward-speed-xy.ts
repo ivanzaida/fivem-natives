@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xFF4296DC08BAEC71
 
- * Seems to be identical to SET_VEHICLE_FORWARD_SPEED
+ * 
+ * Seems to be identical to SET_VEHICLE_FORWARD_SPEED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,9 +5,13 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x55F4E2629EABB8DD
 
- * Registers a script for any object with a specific model hash.
+ * 
+ * Registers a script for any object with a specific model hash.
+ * 
  * BRAIN::REGISTER_OBJECT_SCRIPT_BRAIN("ob_telescope", ${prop_telescope_01}, 100, 4.0, -1, 9);
+ * 
  * - Nacorpio
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptName

@@ -5,8 +5,11 @@ import { PedIndex, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xEA7D61B52729ED38
 
- * Drops the current weapon and returns the object
+ * 
+ * Drops the current weapon and returns the object
+ * 
  * Unknown behavior when unarmed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

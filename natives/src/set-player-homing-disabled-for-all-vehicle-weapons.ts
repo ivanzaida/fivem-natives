@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x62013EEF72D4454F
 
- * Weapons that were always homing will show the '(Homing Off)' prefix. Weapons that could toggle between homing and non-homing will only show the '(Homing Off)' version.
+ * 
+ * Weapons that were always homing will show the '(Homing Off)' prefix. Weapons that could toggle between homing and non-homing will only show the '(Homing Off)' version.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

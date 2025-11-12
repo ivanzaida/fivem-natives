@@ -5,8 +5,10 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x2F0877034716FB33
 
- * When set to true shadows appear more smooth but less detailed.
+ * 
+ * When set to true shadows appear more smooth but less detailed.
  * Set to false by default.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

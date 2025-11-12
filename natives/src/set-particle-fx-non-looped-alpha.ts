@@ -3,9 +3,13 @@
  *
  * 0x7C087208DD019397
 
- * Usage example for C#:
+ * 
+ * Usage example for C#:
+ * 
  * Function.Call(Hash.SET_PARTICLE_FX_NON_LOOPED_ALPHA, new InputArgument[] { 0.1f });
+ * 
  * Note: the argument alpha ranges from 0.0f-1.0f !
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} colA

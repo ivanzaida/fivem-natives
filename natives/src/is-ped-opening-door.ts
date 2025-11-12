@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB16071F8F0F2A561
 
- * Returns true if the ped is currently opening a door (CTaskOpenDoor).
+ * 
+ * Returns true if the ped is currently opening a door (CTaskOpenDoor).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

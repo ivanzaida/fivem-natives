@@ -3,7 +3,9 @@
  *
  * 0xA0BFBD756D313CF2
 
- * This function is hard-coded to always return 96.
+ * 
+ * This function is hard-coded to always return 96.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

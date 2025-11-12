@@ -3,7 +3,9 @@
  *
  * 0x283C0970282AA5F3
 
- * Set the memory budget level for vehicle population [0, 3] where  0 = lowest (no cars) and 3 = full budget
+ * 
+ * Set the memory budget level for vehicle population [0, 3] where  0 = lowest (no cars) and 3 = full budget
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} budgetLevel

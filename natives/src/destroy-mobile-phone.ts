@@ -3,7 +3,9 @@
  *
  * 0x5F2E2CEDE90F627E
 
- * Destroys the currently active mobile phone.
+ * 
+ * Destroys the currently active mobile phone.
+ * 
  * 
  * ------------------------------------------------------------------
  */

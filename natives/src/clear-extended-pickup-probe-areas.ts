@@ -3,7 +3,9 @@
  *
  * 0x2E42BC795274B8C1
 
- * Clears all areas created by ADD_EXTENDED_PICKUP_PROBE_AREA
+ * 
+ * Clears all areas created by ADD_EXTENDED_PICKUP_PROBE_AREA
+ * 
  * 
  * ------------------------------------------------------------------
  */

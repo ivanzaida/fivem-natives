@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x1D1124C855316790
 
- * Fixes deformation damages only, scratch, health and broken part will stay broken
+ * 
+ * Fixes deformation damages only, scratch, health and broken part will stay broken
+ * 
  * This fixes the deformation of a vehicle but the vehicle health doesn't improve
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { FeWarningFlags, FeWarningFlagsExtended, EWarningMessageFlags } from '@i
  *
  * 0x15803FEC3B9A872B
 
- * SubStringFlags allows one or both of the substrings to be literal strings so that the names of UGC missions can be displayed.
+ * 
+ * SubStringFlags allows one or both of the substrings to be literal strings so that the names of UGC missions can be displayed.
+ * 
  * labelTitle: Label of the alert's title.
  * labelMsg: Label of the alert's message.
  * p2: This is an enum, check the description for a list.
@@ -18,6 +20,7 @@ import { FeWarningFlags, FeWarningFlagsExtended, EWarningMessageFlags } from '@i
  * p9: unknown label
  * background: Set to anything other than 0 or false (even any string) and it will draw a background. Setting it to 0 or false will draw no background.
  * errorCode: Error code, shown at the bottom left if set to value other than 0.
+ * 
  * instructionalKey enum list:
  * Buttons = {
  *       Empty = 0,
@@ -52,6 +55,7 @@ import { FeWarningFlags, FeWarningFlagsExtended, EWarningMessageFlags } from '@i
  *       NoReturnToGTA = 268435456, -- (ESC)
  *       CancelEsc = 536870912, -- (ESC)
  * }
+ * 
  * Alt = {
  *       Empty = 0,
  *       No = 1, -- (SPACE)
@@ -60,7 +64,9 @@ import { FeWarningFlags, FeWarningFlagsExtended, EWarningMessageFlags } from '@i
  *       ReturnKey = 8, -- (TURN)
  *       Freemode = 16, -- (ESC)
  * }
+ * 
  * Example: https://i.imgur.com/TvmNF4k.png
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} headerTextLabel

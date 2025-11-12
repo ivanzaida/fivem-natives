@@ -5,8 +5,10 @@ import { EnterSessionPack } from '@ivanzaida/structures'
  *
  * 0x684BD5689373BE09
 
- * Telemetry  every time a player enters a session, and will allow PIA to discern whether or not a player is a Starter Pack player, or a Premium Edition player.
+ * 
+ * Telemetry  every time a player enters a session, and will allow PIA to discern whether or not a player is a Starter Pack player, or a Premium Edition player.
  * It will also detail what Starter Pack and Premium Edition items a player owned before purchasing the Starter Pack.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EnterSessionPack} data [Ref]

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7DC6D022
 
- * Returns true when in a vehicle, false whilst entering/exiting.
+ * 
+ * Returns true when in a vehicle, false whilst entering/exiting.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

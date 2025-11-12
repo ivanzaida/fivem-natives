@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC652B7E19CE29859
 
- * accuracy = 0-100, 100 being perfectly accurate
+ * 
+ * accuracy = 0-100, 100 being perfectly accurate
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

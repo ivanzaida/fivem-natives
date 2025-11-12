@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x3C2402675D8FFADA
 
- * This native returns a true or false value.
+ * 
+ * This native returns a true or false value.
+ * 
  * Ped ped = The ped whose weapon you want to check.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

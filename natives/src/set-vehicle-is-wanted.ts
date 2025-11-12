@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xDC05A8A020E60C86
 
- * Sets the wanted state of this vehicle.
+ * 
+ * Sets the wanted state of this vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

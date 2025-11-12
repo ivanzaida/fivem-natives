@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6A59D337CB7DD7E0
 
- * Allows creation of CEventShockingPlaneFlyby, CEventShockingHelicopterOverhead, and other(?) Shocking events
+ * 
+ * Allows creation of CEventShockingPlaneFlyby, CEventShockingHelicopterOverhead, and other(?) Shocking events
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { StuntjumpId } from '@ivanzaida/structures'
  *
  * 0xC0DBC28967D7BE19
 
- * See description of `ADD_STUNT_JUMP_ANGLED` for detailed info. The only difference really is this one does not have the radius (or angle, not sure) floats parameters for entry and landing zones.
+ * 
+ * See description of `ADD_STUNT_JUMP_ANGLED` for detailed info. The only difference really is this one does not have the radius (or angle, not sure) floats parameters for entry and landing zones.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startMinX

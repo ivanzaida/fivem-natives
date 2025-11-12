@@ -5,7 +5,9 @@ import { GrassCullSphereHandle } from '@ivanzaida/structures'
  *
  * 0x5F3592B356EE3A4C
 
- * This function is hard-coded to always return 0.
+ * 
+ * This function is hard-coded to always return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centerX

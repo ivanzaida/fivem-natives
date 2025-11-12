@@ -5,12 +5,14 @@ import { ETattooFaction } from '@ivanzaida/structures'
  *
  * 0x82D6E3FDBD0A80B6
 
- * Character types:
+ * 
+ * Character types:
  * 0 = Michael,
  * 1 = Franklin,
  * 2 = Trevor,
  * 3 = MPMale,
  * 4 = MPFemale
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ETattooFaction} tattooFaction

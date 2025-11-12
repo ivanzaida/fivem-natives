@@ -5,7 +5,9 @@ import { HospitalRestartIndex } from '@ivanzaida/structures'
  *
  * 0x281BDB37010064F5
 
- * The game by default has 5 hospital respawn points. Disabling them all will cause the player to respawn at the last position they were.
+ * 
+ * The game by default has 5 hospital respawn points. Disabling them all will cause the player to respawn at the last position they were.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {HospitalRestartIndex} index

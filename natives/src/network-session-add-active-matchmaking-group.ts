@@ -5,7 +5,9 @@ import { EMatchmakingGroup } from '@ivanzaida/structures'
  *
  * 0x5A59537D7B87C071
 
- * groupId range: [0, 4]
+ * 
+ * groupId range: [0, 4]
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EMatchmakingGroup} group

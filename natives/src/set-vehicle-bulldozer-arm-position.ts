@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x741EDDC25DCDC64D
 
- * Sets a vehicle bulldozer arm position
+ * 
+ * Sets a vehicle bulldozer arm position
+ * 
  * Sets the arm position of a bulldozer. Position must be a value between 0.0 and 1.0. Ignored when `p2` is set to false, instead incrementing arm position by 0.1 (or 10%).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

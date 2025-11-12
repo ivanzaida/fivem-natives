@@ -5,7 +5,8 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  *
  * 0x6CB88242CC3DA778
 
- * Seat Numbers
+ * 
+ * Seat Numbers
  * -------------------------------
  * Driver = -1
  * Any = -2
@@ -13,6 +14,7 @@ import { PedIndex, VehicleIndex, EVehicleSeat } from '@ivanzaida/structures'
  * Right-Front = 0
  * Right-Rear = 2
  * Extra seats = 3-14(This may differ from vehicle type e.g. Firetruck Rear Stand, Ambulance Rear)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

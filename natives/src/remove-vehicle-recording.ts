@@ -3,8 +3,11 @@
  *
  * 0x7821F942CAEEBEE1
 
- * t can be used to get rid of car recordings that were streamed in but ended up not being used because of skipping a cutscene or the actions of the player.
+ * 
+ * t can be used to get rid of car recordings that were streamed in but ended up not being used because of skipping a cutscene or the actions of the player.
+ * 
  * See REQUEST_VEHICLE_RECORDING
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} fileNumber

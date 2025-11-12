@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8E73BECF421D257E
 
- * Likely a char, if that overlay is not set, e.i. "None" option, returns 255;
+ * 
+ * Likely a char, if that overlay is not set, e.i. "None" option, returns 255;
+ * 
  * This might be the once removed native GET_PED_HEAD_OVERLAY.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

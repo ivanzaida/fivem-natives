@@ -3,7 +3,9 @@
  *
  * 0x52DC717C5008D9DA
 
- * Hashed version of BG_START_CONTEXT.
+ * 
+ * Hashed version of BG_START_CONTEXT.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} context

@@ -3,7 +3,9 @@
  *
  * 0x21A5D8255DE6E429
 
- * Gets the number of products stored in thin data. Will return 0 in the event of no populated data.
+ * 
+ * Gets the number of products stored in thin data. Will return 0 in the event of no populated data.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

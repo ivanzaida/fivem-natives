@@ -3,7 +3,9 @@
  *
  * 0xF64D9910FB38427C
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  */

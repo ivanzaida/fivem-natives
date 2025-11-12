@@ -5,7 +5,9 @@ import { EWeaponType, ModelNames, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x8A3572575D91006C
 
- * Now has 8 params.
+ * 
+ * Now has 8 params.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

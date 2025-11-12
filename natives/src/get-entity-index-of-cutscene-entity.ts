@@ -5,7 +5,9 @@ import { ModelNames, EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD461826371A3782B
 
- * These entitis can be deleted at any time, use the registered version to check for
+ * 
+ * These entitis can be deleted at any time, use the registered version to check for
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} entitySceneName

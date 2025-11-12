@@ -5,12 +5,17 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD3B9FE5F9C40C8B5
 
- * Set a given bike to be on it's kick stand
+ * 
+ * Set a given bike to be on it's kick stand
+ * 
  * Only works on bikes, both X and Y work in the -1 - 1 range.
+ * 
  * X forces the bike to turn left or right (-1, 1)
  * Y forces the bike to lean to the left or to the right (-1, 1)
+ * 
  * Example with X -1/Y 1
  * http://i.imgur.com/TgIuAPJ.jpg
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

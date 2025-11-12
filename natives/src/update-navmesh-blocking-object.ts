@@ -5,7 +5,9 @@ import { EBlockingObjectFlags } from '@ivanzaida/structures'
  *
  * 0xD9ECC9BB146EA4A4
 
- * This command updates the position, size & orientation of a navmesh blocking object
+ * 
+ * This command updates the position, size & orientation of a navmesh blocking object
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} objectId

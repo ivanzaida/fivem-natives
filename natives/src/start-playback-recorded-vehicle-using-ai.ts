@@ -5,9 +5,13 @@ import { VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
  *
  * 0x3EF00C934572535B
 
- * The veghicle wil try and
+ * 
+ * The veghicle wil try and
+ * 
  * AI abides by the provided driving style (e.g., stopping at red lights or waiting behind traffic) while executing the specificed vehicle recording.
+ * 
  * FORCE_PLAYBACK_RECORDED_VEHICLE_UPDATE is a related native that deals with the AI physics for such recordings.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

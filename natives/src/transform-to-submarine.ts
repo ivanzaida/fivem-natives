@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x1F75BC85F714AC5A
 
- * Transform the submarine car to a submarine
+ * 
+ * Transform the submarine car to a submarine
+ * 
  * Transforms the `stormberg`/`toreador` to its "submarine" variant. If the vehicle is already in that state then the vehicle transformation audio will still play, but the vehicle won't change at all.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

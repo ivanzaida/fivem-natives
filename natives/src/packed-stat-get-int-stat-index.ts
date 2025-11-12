@@ -5,7 +5,9 @@ import { EnumToInt } from '@ivanzaida/structures'
  *
  * 0xC24FF3ECDBA75CAC
 
- * Needs more research. Possibly used to calculate the "mask" when calling "STAT_SET_MASKED_INT"?
+ * 
+ * Needs more research. Possibly used to calculate the "mask" when calling "STAT_SET_MASKED_INT"?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EnumToInt} stat

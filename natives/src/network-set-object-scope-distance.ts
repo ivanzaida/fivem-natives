@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x9059372A0C629EB6
 
- * Sets the scope distance for an object - this is the distance in metres from a remote player at which the object will get created on his machine. Passing in 0 will make the object revert to the default distance.
+ * 
+ * Sets the scope distance for an object - this is the distance in metres from a remote player at which the object will get created on his machine. Passing in 0 will make the object revert to the default distance.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} objectID

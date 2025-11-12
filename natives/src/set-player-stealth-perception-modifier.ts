@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x048D90B19F701DC3
 
- * Modify how easy AI can see the player when stealthed
+ * 
+ * Modify how easy AI can see the player when stealthed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

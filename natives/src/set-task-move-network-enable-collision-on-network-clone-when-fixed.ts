@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4A27E73B31F943DC
 
- * Doesn't actually return anything.
+ * 
+ * Doesn't actually return anything.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

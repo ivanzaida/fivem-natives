@@ -5,8 +5,11 @@ import { TimeDatatype } from '@ivanzaida/structures'
  *
  * 0x775142054EC39277
 
- * Return INT representing time between Time1 and Time2
+ * 
+ * Return INT representing time between Time1 and Time2
+ * 
  * Subtracts the second argument from the first.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {TimeDatatype} time1

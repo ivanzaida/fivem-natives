@@ -3,12 +3,16 @@
  *
  * 0xE47743FF8F06F8C0
 
- * to check if a movie has streamed in yet
+ * 
+ * to check if a movie has streamed in yet
+ * 
  * Only values used in the scripts are:
+ * 
  * "heist_mp"
  * "heistmap_mp"
  * "instructional_buttons"
  * "heist_pre"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} filename

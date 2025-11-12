@@ -3,7 +3,9 @@
  *
  * 0x7830326EF9D54DBB
 
- * Returns true if the collision at the specified coords is marked as being outside (false if there's an interior)
+ * 
+ * Returns true if the collision at the specified coords is marked as being outside (false if there's an interior)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} inCoorsX

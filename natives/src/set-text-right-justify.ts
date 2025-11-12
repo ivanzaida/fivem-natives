@@ -3,7 +3,9 @@
  *
  * 0x16EC7160BEBE7A6F
 
- * It also moves the origin of the text to the right hand side of the text.
+ * 
+ * It also moves the origin of the text to the right hand side of the text.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} textRightJustifyFlag

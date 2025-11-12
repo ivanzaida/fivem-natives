@@ -3,7 +3,9 @@
  *
  * 0x33B9AE76A0E4C46D
 
- * Returns true if bank balance >= amount.
+ * 
+ * Returns true if bank balance >= amount.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

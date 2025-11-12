@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x17B5AACACF266B6A
 
- * min: 1.9f, max: 100.0f
+ * 
+ * min: 1.9f, max: 100.0f
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

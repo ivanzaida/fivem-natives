@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x51DC6104DE62EE22
 
- * returns true if someone is screaming or talking in a microphone
+ * 
+ * returns true if someone is screaming or talking in a microphone
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} netPlayerID

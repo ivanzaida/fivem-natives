@@ -5,9 +5,12 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0x0E171121A3A25363
 
- * Returns interior ID from specified coordinates. If coordinates are outside, then it returns 0.
+ * 
+ * Returns interior ID from specified coordinates. If coordinates are outside, then it returns 0.
+ * 
  * Example for VB.NET
  * Dim interiorID As Integer = Native.Function.Call(Of Integer)(Hash.GET_INTERIOR_AT_COORDS, X, Y, Z)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} inCoorsX

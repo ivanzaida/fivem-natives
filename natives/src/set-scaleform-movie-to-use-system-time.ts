@@ -5,7 +5,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0x2EE4366DBD59BB7A
 
- * sets that the scaleform movie is no longer needed & can be deleted
+ * 
+ * sets that the scaleform movie is no longer needed & can be deleted
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

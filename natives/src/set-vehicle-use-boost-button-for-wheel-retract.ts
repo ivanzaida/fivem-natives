@@ -3,7 +3,9 @@
  *
  * 0xBC4F3DBA48761D9A
 
- * Used for blazer5. Changes the quadbike-jetski transformation input from raise/lower convertible roof (hold H by default) to horn (press E by default.)
+ * 
+ * Used for blazer5. Changes the quadbike-jetski transformation input from raise/lower convertible roof (hold H by default) to horn (press E by default.)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} useBoostButton

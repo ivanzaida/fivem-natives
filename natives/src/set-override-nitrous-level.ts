@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8D6D4EB2FFE77CB3
 
- * Provide a set of parameters to override the vehcile's nitrous system
+ * 
+ * Provide a set of parameters to override the vehcile's nitrous system
  * These are applied to CVehicle::m_scriptOverridesNitrous
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

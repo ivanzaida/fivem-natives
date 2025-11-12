@@ -5,8 +5,10 @@ import { ToFreemodeGamers, EActivityIsland } from '@ivanzaida/structures'
  *
  * 0x8AB21B54A01F6CC2
 
- * Find a transition session.
+ * 
+ * Find a transition session.
  * Variant of above that works with a group
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} gameMode

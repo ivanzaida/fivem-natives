@@ -3,7 +3,9 @@
  *
  * 0x4314716E4B544721
 
- * Enables / disables voice
+ * 
+ * Enables / disables voice
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} isVoiceActive

@@ -5,7 +5,9 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x90D0E0397D3F7690
 
- * Gets the entity's forward vector.
+ * 
+ * Gets the entity's forward vector.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

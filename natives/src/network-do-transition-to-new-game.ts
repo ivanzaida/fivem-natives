@@ -3,8 +3,10 @@
  *
  * 0x35628CF57A78C4CD
 
- * This will transition back to freemode from a launched activity session.
+ * 
+ * This will transition back to freemode from a launched activity session.
  * Like above but we immediately host a session.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} withPlayers

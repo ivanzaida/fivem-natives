@@ -5,7 +5,9 @@ import { IncidentIndex, EDispatchType } from '@ivanzaida/structures'
  *
  * 0x399A3B6D30C64629
 
- * Updates the number of requested units of the given incident
+ * 
+ * Updates the number of requested units of the given incident
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IncidentIndex} incident

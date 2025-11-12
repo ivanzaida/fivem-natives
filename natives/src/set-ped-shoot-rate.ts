@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x39256A89E9D7464A
 
- * shootRate 0-1000
+ * 
+ * shootRate 0-1000
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

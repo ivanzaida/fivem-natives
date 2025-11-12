@@ -5,9 +5,11 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0xB5F751D7204D8B1A
 
- * Start and show the transition news.  If a news story hasn't been queued, it will queue one.
+ * 
+ * Start and show the transition news.  If a news story hasn't been queued, it will queue one.
  * moveID - to make requests for scaleform on
  * iStoryOnscreenDuration - the amount of time (in ms) to display each story for.  If this value == 0, then the news controller will only show one news item and never transition to another.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} moveID

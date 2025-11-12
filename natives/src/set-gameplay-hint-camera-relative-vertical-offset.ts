@@ -3,9 +3,11 @@
  *
  * 0x640D5D2C8DE912A2
 
- * Call at the start of the hint to avoid pops.
+ * 
+ * Call at the start of the hint to avoid pops.
  * This will cause the camera to pull back to frame the player correctly,
  * May need to use in conjunction with the SET_GAMEPLAY_HINT_FOLLOW_DISTANCE_SCALAR
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} verticalOffset

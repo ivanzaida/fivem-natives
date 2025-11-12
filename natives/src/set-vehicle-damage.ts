@@ -5,10 +5,14 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x2BDD547718FF1F1A
 
- * Ths only deforms the car and does not knock off doors etc. the values paassed in to damage and deformation are direct forces.
+ * 
+ * Ths only deforms the car and does not knock off doors etc. the values paassed in to damage and deformation are direct forces.
+ * 
  * Apply damage to vehicle at a location. Location is relative to vehicle model (not world).
+ * 
  * Radius of effect damage applied in a sphere at impact location
  * When `focusOnModel` set to `true`, the damage sphere will travel towards the vehicle from the given point, thus guaranteeing an impact
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} train

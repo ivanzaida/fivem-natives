@@ -5,7 +5,9 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0x650290A3A38E907E
 
- * If `explode` true, then removal is done through exploding the projectile. Basically the same as EXPLODE_PROJECTILES but without defining the owner ped.
+ * 
+ * If `explode` true, then removal is done through exploding the projectile. Basically the same as EXPLODE_PROJECTILES but without defining the owner ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

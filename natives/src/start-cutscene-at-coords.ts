@@ -5,8 +5,11 @@ import { ECutsceneOptionFlags } from '@ivanzaida/structures'
  *
  * 0x9B3A50426C952520
 
- * The given coords will act as the scene origin, round which all animations are authored.
+ * 
+ * The given coords will act as the scene origin, round which all animations are authored.
+ * 
  * flags: Usually 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

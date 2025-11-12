@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x529EC998DD2C51F8
 
- * Resets the strafe clipset to the default for the ped type.
+ * 
+ * Resets the strafe clipset to the default for the ped type.
  * The default strafe clipset is defined in peds.meta under <StrafeClipSet>
  * DON'T FORGET to unstream the clipset if no longer needed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

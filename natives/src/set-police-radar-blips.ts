@@ -3,10 +3,13 @@
  *
  * 0x7AD72DFA04253E47
 
- * If toggle is set to false:
+ * 
+ * If toggle is set to false:
  *  The police won't be shown on the (mini)map
+ * 
  * If toggle is set to true:
  *  The police will be shown on the (mini)map
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} blips

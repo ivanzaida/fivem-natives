@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xA446583E4503CCD9
 
- * Makes a blip go small when off the minimap.
+ * 
+ * Makes a blip go small when off the minimap.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xAC50C24F47D00104
 
- * Deprecated! Please now use SET_ALL_RANDOM_PEDS_FLEE_THIS_FRAME
+ * 
+ * Deprecated! Please now use SET_ALL_RANDOM_PEDS_FLEE_THIS_FRAME
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

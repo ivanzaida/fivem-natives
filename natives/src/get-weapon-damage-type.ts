@@ -5,7 +5,8 @@ import { EWeaponType, EDamageType } from '@ivanzaida/structures'
  *
  * 0x12974BA350E32306
 
- * enum class eDamageType
+ * 
+ * enum class eDamageType
  * {
  * 	UNKNOWN = 0,
  * 	NONE = 1,
@@ -24,7 +25,9 @@ import { EWeaponType, EDamageType } from '@ivanzaida/structures'
  * 	WATER_CANNON = 14,
  * 	TRANQUILIZER = 15,
  * };
+ * 
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

@@ -3,7 +3,9 @@
  *
  * 0x89C4F1335B4A6633
 
- * The distance between these points, is the diagonal of a box (remember it's 3D).
+ * 
+ * The distance between these points, is the diagonal of a box (remember it's 3D).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

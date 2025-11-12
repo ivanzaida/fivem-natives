@@ -5,7 +5,9 @@ import { EDispatchType } from '@ivanzaida/structures'
  *
  * 0x28CC6EA9A96AA5D4
 
- * Sets the time between spawn attempts multiplier for the dispatch service.
+ * 
+ * Sets the time between spawn attempts multiplier for the dispatch service.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EDispatchType} dispatchType

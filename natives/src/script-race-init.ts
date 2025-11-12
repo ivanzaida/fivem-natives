@@ -3,7 +3,9 @@
  *
  * 0xE971F2F7312DC1FB
 
- * Initializes an mp script race and the helpet split time system
+ * 
+ * Initializes an mp script race and the helpet split time system
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} numCheckpoints

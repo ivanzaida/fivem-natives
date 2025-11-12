@@ -5,7 +5,9 @@ import { EntityIndex, EAnimPriorityFlags } from '@ivanzaida/structures'
  *
  * 0x5EFA80915529F5C1
 
- * Sets wether the clips on a priority level on the scripted anim task should loop,
+ * 
+ * Sets wether the clips on a priority level on the scripted anim task should loop,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

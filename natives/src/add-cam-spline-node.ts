@@ -5,10 +5,15 @@ import { CameraIndex, ECamSplineNodeFlags, EEulerRotOrder } from '@ivanzaida/str
  *
  * 0xC606B0B9BA3D6036
 
- * I filled p1-p6 (the floats) as they are as other natives with 6 floats in a row are similar and I see no other method. So if a test from anyone proves them wrong please correct.
+ * 
+ * I filled p1-p6 (the floats) as they are as other natives with 6 floats in a row are similar and I see no other method. So if a test from anyone proves them wrong please correct.
+ * 
  * p7 (length) determines the length of the spline, affects camera path and duration of transition between previous node and this one
+ * 
  * p8 big values ~100 will slow down the camera movement before reaching this node
+ * 
  * p9 != 0 seems to override the rotation/pitch (bool?)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

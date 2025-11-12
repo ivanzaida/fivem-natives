@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x6C8F0A6A6EFD073C
 
- * An override for the reserve parachute model. clears the call to SET_PLAYER_RESERVE_PARACHUTE_MODEL_OVERRIDE.
+ * 
+ * An override for the reserve parachute model. clears the call to SET_PLAYER_RESERVE_PARACHUTE_MODEL_OVERRIDE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

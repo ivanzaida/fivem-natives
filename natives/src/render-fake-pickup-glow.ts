@@ -3,7 +3,8 @@
  *
  * 0x60415964D3B19DC8
 
- * draws circular marker at pos
+ * 
+ * draws circular marker at pos
  * -1 = none
  * 0 = red
  * 1 = green
@@ -11,6 +12,7 @@
  * 3 = green larger
  * 4 = nothing
  * 5 = green small
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

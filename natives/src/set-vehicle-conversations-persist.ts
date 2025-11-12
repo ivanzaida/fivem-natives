@@ -3,7 +3,9 @@
  *
  * 0x443E60546660D332
 
- * SET_VEHICLE_CONVERSATIONS_PERSIST?
+ * 
+ * SET_VEHICLE_CONVERSATIONS_PERSIST?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} allowUpsideDown

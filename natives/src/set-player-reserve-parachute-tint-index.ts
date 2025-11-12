@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xA4C157F5AAD56833
 
- * This function sets the tint index of the reserve parachute for the player
+ * 
+ * This function sets the tint index of the reserve parachute for the player
+ * 
  * Tints:
  *    None = -1,
  *     Rainbow = 0,
@@ -22,6 +24,7 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *   HighAltitude = 11,
  *     Airbone = 12,
  *  Sunrise = 13,
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

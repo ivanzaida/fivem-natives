@@ -5,11 +5,17 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x454108124161B7D7
 
- * This function sets the palette index of the player's phone.
+ * 
+ * This function sets the palette index of the player's phone.
+ * 
  * example:
+ * 
  * flags: 0-6
+ * 
  * PLAYER::SET_PLAYER_RESET_FLAG_PREFER_REAR_SEATS(PLAYER::PLAYER_ID(), 6);
+ * 
  * wouldnt the flag be the seatIndex?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

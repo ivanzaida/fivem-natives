@@ -5,8 +5,10 @@ import { EntityIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4218094D251842BD
 
- * Finds the vehicle that is carrying this entity with a handler frame.
+ * 
+ * Finds the vehicle that is carrying this entity with a handler frame.
  * The model of the entity must be prop_contr_03b_ld or the function will return 0.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,7 +3,9 @@
  *
  * 0x36978A351E9CB5D8
 
- * This function will change the ai weapon damage multiplier
+ * 
+ * This function will change the ai weapon damage multiplier
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} modifier

@@ -3,7 +3,9 @@
  *
  * 0x57C73569CFE559CC
 
- * Toggles the North Yankton map
+ * 
+ * Toggles the North Yankton map
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} active

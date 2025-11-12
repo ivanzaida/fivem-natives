@@ -3,7 +3,9 @@
  *
  * 0xD1AA84345B760931
 
- * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
+ * 
+ * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

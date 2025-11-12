@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xDBDD79FA
 
- * Flags are the same flags used in TASK_LEAVE_VEHICLE
+ * 
+ * Flags are the same flags used in TASK_LEAVE_VEHICLE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

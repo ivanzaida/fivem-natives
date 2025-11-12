@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x177E5760BD4F49BC
 
- * Gets current UTC time
+ * 
+ * Gets current UTC time
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} year [Ref]

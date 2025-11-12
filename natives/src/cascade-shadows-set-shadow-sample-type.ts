@@ -3,7 +3,8 @@
  *
  * 0x2327CC3214428B97
 
- * Possible values:
+ * 
+ * Possible values:
  * "CSM_ST_POINT"
  * "CSM_ST_LINEAR"
  * "CSM_ST_TWOTAP"
@@ -26,6 +27,7 @@
  * "CSM_ST_CLOUDS_SOFT16"
  * "CSM_ST_CLOUDS_DITHER16_RPDB"
  * "CSM_ST_CLOUDS_POISSON16_RPDB_GNORM"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} typeStr

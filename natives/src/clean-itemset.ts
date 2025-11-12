@@ -5,7 +5,9 @@ import { ItemsetIndex } from '@ivanzaida/structures'
  *
  * 0x6C123E50989D9F3C
 
- * Generally not needed if using the autoClean option with CREATE_ITEMSET.
+ * 
+ * Generally not needed if using the autoClean option with CREATE_ITEMSET.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ItemsetIndex} itemSet

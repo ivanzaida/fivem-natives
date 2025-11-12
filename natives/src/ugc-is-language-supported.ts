@@ -3,8 +3,10 @@
  *
  * 0xFD898AF12570EEB6
 
- * Returns TRUE if a language is supported on the local console.
+ * 
+ * Returns TRUE if a language is supported on the local console.
  * Use UGC_GET_CONTENT_LANGUAGE to get the language of a content item.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} language

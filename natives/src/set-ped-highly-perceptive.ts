@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xCAF62AAD9CA7C260
 
- * This command will make the ped more perceptive in the peripheral areas. This will increase the peds FOV and give
+ * 
+ * This command will make the ped more perceptive in the peripheral areas. This will increase the peds FOV and give
  * an extended peripheral range
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

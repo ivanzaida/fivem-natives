@@ -3,7 +3,9 @@
  *
  * 0xC31FD6E2FE1930B9
 
- * force-enable time-based LOD fading this frame. This is a very special-case command intended for car-steal eye in the sky mission etc.
+ * 
+ * force-enable time-based LOD fading this frame. This is a very special-case command intended for car-steal eye in the sky mission etc.
+ * 
  * 
  * ------------------------------------------------------------------
  */

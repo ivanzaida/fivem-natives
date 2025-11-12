@@ -5,8 +5,11 @@ import { InteriorInstanceIndex } from '@ivanzaida/structures'
  *
  * 0x907994FF361E5295
 
- * More info: http://gtaforums.com/topic/836367-adding-props-to-interiors/
+ * 
+ * More info: http://gtaforums.com/topic/836367-adding-props-to-interiors/
+ * 
  * Full list of IPLs and interior entity sets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ipls.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {InteriorInstanceIndex} interiorInstance

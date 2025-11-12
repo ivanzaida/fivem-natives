@@ -3,7 +3,9 @@
  *
  * 0x50BF6070C8D9F49F
 
- * Disallows CEventNetworkStuntPerformed to be triggered.
+ * 
+ * Disallows CEventNetworkStuntPerformed to be triggered.
+ * 
  * 
  * ------------------------------------------------------------------
  */

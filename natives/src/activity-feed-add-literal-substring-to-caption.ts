@@ -3,7 +3,9 @@
  *
  * 0x7199DFD024AA24F3
 
- * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
+ * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} subString

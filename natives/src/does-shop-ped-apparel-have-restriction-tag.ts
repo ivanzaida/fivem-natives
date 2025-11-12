@@ -3,8 +3,11 @@
  *
  * 0x304A39EB177D246B
 
- * Full list of restriction tags by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pedApparelRestrictionTags.json
+ * 
+ * Full list of restriction tags by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pedApparelRestrictionTags.json
+ * 
  * componentId/last parameter seems to be unused.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} nameHash

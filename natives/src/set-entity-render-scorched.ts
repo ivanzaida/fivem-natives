@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x0615DFA55885D5B3
 
- * Setup an entity to be rendered as scorched/burned down
+ * 
+ * Setup an entity to be rendered as scorched/burned down
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

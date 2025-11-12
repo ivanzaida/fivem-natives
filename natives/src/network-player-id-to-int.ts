@@ -3,7 +3,9 @@
  *
  * 0x383461852896D73D
 
- * Does exactly the same thing as PLAYER_ID()
+ * 
+ * Does exactly the same thing as PLAYER_ID()
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

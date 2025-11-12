@@ -5,8 +5,11 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0xF4E66F9577F22476
 
- * // Returns the size of the default weapon component clip.
+ * 
+ * // Returns the size of the default weapon component clip.
+ * 
  * Use it like this:
+ * 
  * char cClipSize[32];
  * Hash cur;
  * if (WEAPON::GET_CURRENT_PED_WEAPON(playerPed, &cur, 1))
@@ -19,6 +22,7 @@ import { EWeaponType } from '@ivanzaida/structures'
  *     }
  * }
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

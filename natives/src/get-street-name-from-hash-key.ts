@@ -3,8 +3,11 @@
  *
  * 0x816A63C007D39838
 
- * This functions converts the hash of a street name into a readable string.
+ * 
+ * This functions converts the hash of a street name into a readable string.
+ * 
  * For how to get the hashes, see PATHFIND::GET_STREET_NAME_AT_COORD.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} hashKeyOfStreetName

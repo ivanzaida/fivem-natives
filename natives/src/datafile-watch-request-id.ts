@@ -3,7 +3,9 @@
  *
  * 0xAF6DC1461CCA36F8
 
- * Adds the given requestID to the watch list.
+ * 
+ * Adds the given requestID to the watch list.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} cloudRequestID

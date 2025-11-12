@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC833BBE1
 
- * If the ped handle passed through the parenthesis is in a ragdoll state this will return true.
+ * 
+ * If the ped handle passed through the parenthesis is in a ragdoll state this will return true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The target ped.

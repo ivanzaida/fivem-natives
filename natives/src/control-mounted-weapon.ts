@@ -5,10 +5,13 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x54E6D48F5FEEC68E
 
- * Use to control the direction of a mounted vehicle weapon and still maintain the ability to control the vehicle.
+ * 
+ * Use to control the direction of a mounted vehicle weapon and still maintain the ability to control the vehicle.
  * PARAM NOTS:
+ * 
  * Forces the ped to use the mounted weapon.
  * Returns false if task is not possible.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

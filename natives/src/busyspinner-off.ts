@@ -3,7 +3,9 @@
  *
  * 0x65662724C6BC4810
 
- * Removes the loading prompt at the bottom right of the screen.
+ * 
+ * Removes the loading prompt at the bottom right of the screen.
+ * 
  * 
  * ------------------------------------------------------------------
  */

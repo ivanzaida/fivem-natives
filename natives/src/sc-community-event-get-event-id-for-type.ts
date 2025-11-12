@@ -3,8 +3,10 @@
  *
  * 0xC9892FE6CC695923
 
- * If thre is an active SC community event with given type, this function will return the event Id
+ * 
+ * If thre is an active SC community event with given type, this function will return the event Id
  * string, which can be used as a category value for leaderboard submissions
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} eventType

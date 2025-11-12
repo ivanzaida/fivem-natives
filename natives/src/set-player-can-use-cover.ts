@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x3EBA706E071AA76A
 
- * Sets whether this player can take cover.
+ * 
+ * Sets whether this player can take cover.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

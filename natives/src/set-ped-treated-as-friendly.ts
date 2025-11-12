@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x3B3AC5F69E21EAB7
 
- * This sets the ped to be treated as if it was in a friendly relationship with everyone.
+ * 
+ * This sets the ped to be treated as if it was in a friendly relationship with everyone.
  * Stops the ped from being damaged, targeted, locked on or being shot at. Can't be set on players, only peds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

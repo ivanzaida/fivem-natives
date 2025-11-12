@@ -5,11 +5,13 @@ import { EntityIndex, EEntityType } from '@ivanzaida/structures'
  *
  * 0xB1BD08D
 
- * Returns:
+ * 
+ * Returns:
  * 0 = no entity
  * 1 = ped
  * 2 = vehicle
  * 3 = object
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity to get the type of.

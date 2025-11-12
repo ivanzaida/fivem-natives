@@ -3,7 +3,9 @@
  *
  * 0xCA2E379E3CAB622F
 
- * stops the game from requesting new high detail imap files (e.g. to help streaming performance when flying fast etc)
+ * 
+ * stops the game from requesting new high detail imap files (e.g. to help streaming performance when flying fast etc)
+ * 
  * 
  * ------------------------------------------------------------------
  */

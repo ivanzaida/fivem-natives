@@ -3,7 +3,9 @@
  *
  * 0x282230B7F0E52D56
 
- * Travel the furthest distance when bailing from a vehicle
+ * 
+ * Travel the furthest distance when bailing from a vehicle
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

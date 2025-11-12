@@ -5,10 +5,13 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x93C337B66C95C99B
 
- * SCALE: Setting the speed to 30 would result in a speed of roughly 60mph, according to speedometer.
+ * 
+ * SCALE: Setting the speed to 30 would result in a speed of roughly 60mph, according to speedometer.
+ * 
  * Speed is in meters per second
  * You can convert meters/s to mph here:
  * http://www.calculateme.com/Speed/MetersperSecond/ToMilesperHour.htm
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,10 +3,12 @@
  *
  * 0x2F0F5E0292A89B1C
 
- * Registers the variables for each player running the script
+ * 
+ * Registers the variables for each player running the script
  * This high frequency data will be updated every frame and send out updates as soon as possible.
  * This feature is currently restricted to arrays of 20 script vars or less.
  * Please only use this when strictly necessary!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {DataView} address [Ref]

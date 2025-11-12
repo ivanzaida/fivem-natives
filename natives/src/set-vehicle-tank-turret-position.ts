@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8C3B2540B29146AA
 
- * Sets a tank vehicle's turret position
+ * 
+ * Sets a tank vehicle's turret position
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

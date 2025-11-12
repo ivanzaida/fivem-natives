@@ -5,9 +5,12 @@ import { ModelNames, EVehicleClass } from '@ivanzaida/structures'
  *
  * 0xE074F21A4084FD1F
 
- * char buffer[128];
+ * 
+ * char buffer[128];
  * std::sprintf(buffer, "VEH_CLASS_%i", VEHICLE::GET_VEHICLE_CLASS_FROM_NAME (hash));
+ * 
  * const char className = HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION(buffer);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} modelHashKey

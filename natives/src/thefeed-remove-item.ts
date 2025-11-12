@@ -3,7 +3,9 @@
  *
  * 0xFE3A52C5B7AE3101
 
- * Removes a notification instantly instead of waiting for it to disappear
+ * 
+ * Removes a notification instantly instead of waiting for it to disappear
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} id

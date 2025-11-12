@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7E54CB377175F94E
 
- * Returns true out if the ped can see the other ped (Clear LOS, withing viewing range)
+ * 
+ * Returns true out if the ped can see the other ped (Clear LOS, withing viewing range)
  * Will only work if the ped has a hated relationship with the other ped.
  * Uses asynchronous LOS checks and detection so should be relatively cheap.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

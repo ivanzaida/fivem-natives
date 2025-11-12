@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xFC954C8C860FAB80
 
- * Appears to return false if any window is broken.
+ * 
+ * Appears to return false if any window is broken.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

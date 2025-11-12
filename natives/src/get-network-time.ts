@@ -5,7 +5,9 @@ import { TimeDatatype } from '@ivanzaida/structures'
  *
  * 0x7E3F74F641EE6B27
 
- * Returns the network time. This will return the same time for all calls within a frame.
+ * 
+ * Returns the network time. This will return the same time for all calls within a frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {TimeDatatype}  

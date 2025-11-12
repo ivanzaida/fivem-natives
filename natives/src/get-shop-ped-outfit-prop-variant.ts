@@ -5,7 +5,9 @@ import { OutfitPropStruct } from '@ivanzaida/structures'
  *
  * 0xCD4F2395AE80D510
 
- * See https://git.io/JtcBH for example and structs.
+ * 
+ * See https://git.io/JtcBH for example and structs.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} nameHash

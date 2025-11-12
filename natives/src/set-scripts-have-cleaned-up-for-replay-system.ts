@@ -3,7 +3,9 @@
  *
  * 0x952F7C7A0CC86DA0
 
- * Disables some other rendering (internal)
+ * 
+ * Disables some other rendering (internal)
+ * 
  * 
  * ------------------------------------------------------------------
  */

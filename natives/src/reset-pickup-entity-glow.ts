@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x5145F9B426021578
 
- * Revert entity alpha override and restart pickup glow.
+ * 
+ * Revert entity alpha override and restart pickup glow.
+ * 
  * Similar to RESET_ENTITY_ALPHA
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

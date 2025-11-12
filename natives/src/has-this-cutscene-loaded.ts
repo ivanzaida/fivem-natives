@@ -3,7 +3,9 @@
  *
  * 0xC4ADACBD3FE3F266
 
- * Full list of cutscene names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/cutsceneNames.json
+ * 
+ * Full list of cutscene names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/cutsceneNames.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} sceneName

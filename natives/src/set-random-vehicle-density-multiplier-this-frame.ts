@@ -3,7 +3,9 @@
  *
  * 0x23D563236A543309
 
- * If the Denisty multiplier is set to 0.0 then ambients traffic will stop spawning.
+ * 
+ * If the Denisty multiplier is set to 0.0 then ambients traffic will stop spawning.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} densityMultiplier

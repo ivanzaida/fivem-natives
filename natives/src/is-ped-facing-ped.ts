@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x3644984C9D7B57EF
 
- * angle is ped's view cone
+ * 
+ * angle is ped's view cone
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} pedIndex1

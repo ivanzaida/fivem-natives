@@ -3,9 +3,13 @@
  *
  * 0x8B59380D9D15EBCD
 
- * Use TASK_FLUSH_ROUTE to make the route empty.
+ * 
+ * Use TASK_FLUSH_ROUTE to make the route empty.
+ * 
  * MulleKD19: Adds a new point to the current point route. Call TASK_FLUSH_ROUTE before the first call to this. Call TASK_FOLLOW_POINT_ROUTE to make the Ped go the route.
+ * 
  * A maximum of 8 points can be added.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

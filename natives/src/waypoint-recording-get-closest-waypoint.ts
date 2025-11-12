@@ -5,10 +5,13 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0xC283DA397F6D065D
 
- * Retrieves the the closest waypoint to the given position.  The recording must be loaded.  Vaule returned by parameter.
+ * 
+ * Retrieves the the closest waypoint to the given position.  The recording must be loaded.  Vaule returned by parameter.
  * Waypoint playback doesn't need to be active.
+ * 
  * Full list of waypoint recordings by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/waypointRecordings.json
  * For a full list of the points, see here: goo.gl/wIH0vn
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} recordingName

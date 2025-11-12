@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x091AB029AFE429F2
 
- * normal - transition like when your coming out of LSC
+ * 
+ * normal - transition like when your coming out of LSC
  * slow - transition like when you walk into a mission
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

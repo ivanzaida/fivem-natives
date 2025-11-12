@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x5FB8641E415105C3
 
- * PED_RAGDOLL_BUMP Proof?
+ * 
+ * PED_RAGDOLL_BUMP Proof?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entityId

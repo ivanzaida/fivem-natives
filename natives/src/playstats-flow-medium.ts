@@ -3,7 +3,9 @@
  *
  * 0xC4493521BAA12CCE
 
- * interiorAction: can either be InteriorEntry or InteriorExit
+ * 
+ * interiorAction: can either be InteriorEntry or InteriorExit
+ * 
  * 
  * ------------------------------------------------------------------
  */

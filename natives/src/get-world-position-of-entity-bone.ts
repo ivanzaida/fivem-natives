@@ -5,7 +5,9 @@ import { EntityIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x75DF72FC74EED046
 
- * Returns the coordinates of an entity-bone.
+ * 
+ * Returns the coordinates of an entity-bone.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

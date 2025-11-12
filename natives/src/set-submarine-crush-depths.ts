@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xA324C32992621FA4
 
- * Needs to be called every frame or it will be reset to the current global defaults.
+ * 
+ * Needs to be called every frame or it will be reset to the current global defaults.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

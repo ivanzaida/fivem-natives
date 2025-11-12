@@ -3,11 +3,13 @@
  *
  * 0x6250F3FAA1D0F93E
 
- * This native controls where the game plays audio from. By default the microphone is positioned on the player.
+ * 
+ * This native controls where the game plays audio from. By default the microphone is positioned on the player.
  * When p0 is true the game will play audio from the 3 positions inputted.
  * It is recommended to set all 3 positions to the same value as mixing different positions doesn't seem to work well.
  * The scripts mostly use it with only one position such as in fbi3.c:
  * AUDIO::SET_MICROPHONE_POSITION(true, ENTITY::GET_ENTITY_COORDS(iLocal_3091, true), ENTITY::GET_ENTITY_COORDS(iLocal_3091, true), ENTITY::GET_ENTITY_COORDS(iLocal_3091, true));
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} override

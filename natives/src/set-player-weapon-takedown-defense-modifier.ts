@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xF1617CCA9785B3DA
 
- * This function will change the given players defense multiplier against armed weapon takedowns, potentially making it non-lethal
+ * 
+ * This function will change the given players defense multiplier against armed weapon takedowns, potentially making it non-lethal
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

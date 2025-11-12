@@ -3,7 +3,9 @@
  *
  * 0x69AFCC77DCADB9BE
 
- * Getter for SET_MOTIONBLUR_MAX_VEL_SCALER
+ * 
+ * Getter for SET_MOTIONBLUR_MAX_VEL_SCALER
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

@@ -3,8 +3,10 @@
  *
  * 0x768916F2C61804A4
 
- * return the index of the quad, usefull if you need to remove just that one.
+ * 
+ * return the index of the quad, usefull if you need to remove just that one.
  * MAX allowed quads is 8. Let code know if that needs increasing
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

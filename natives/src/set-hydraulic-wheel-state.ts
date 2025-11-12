@@ -5,10 +5,12 @@ import { VehicleIndex, EScWheelList, EWheelHydraulicScriptState } from '@ivanzai
  *
  * 0x640BC0200CE90880
 
- * Sets vehicle wheel hydraulic states transition. Known states:
+ * 
+ * Sets vehicle wheel hydraulic states transition. Known states:
  * 0 - reset
  * 1 - raise wheel (uses value arg, works just like _SET_VEHICLE_HYDRAULIC_WHEEL_VALUE)
  * 2 - jump using wheel
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,8 +5,10 @@ import { BountyInboxMsgData } from '@ivanzaida/structures'
  *
  * 0xFAD0C862976B28B2
 
- * For sending a bounty completed notification message to the gamer's in teh recipiant
+ * 
+ * For sending a bounty completed notification message to the gamer's in teh recipiant
  * list, as created with SC_INBOX_MESSAGE_PUSH_GAMER_T0_RECIP_LIST
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BountyInboxMsgData} bountyData [Ref]

@@ -5,7 +5,9 @@ import { IntRef, StringRef } from '@ivanzaida/structures'
  *
  * 0x75C19185BEAE4AA9
 
- * This isn't a hash collision.
+ * 
+ * This isn't a hash collision.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} result [Ref]

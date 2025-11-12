@@ -3,7 +3,9 @@
  *
  * 0x3BE4C55385E815B4
 
- * Removes multiplayer cash hud each frame
+ * 
+ * Removes multiplayer cash hud each frame
+ * 
  * 
  * ------------------------------------------------------------------
  */

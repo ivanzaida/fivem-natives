@@ -5,13 +5,16 @@ import { EntityIndex, EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0xDE55146A7765454D
 
- * Physical attachment using rage constraints - entities are still physically active in the world.
+ * 
+ * Physical attachment using rage constraints - entities are still physically active in the world.
+ * 
  * breakForce is the amount of force required to break the bond.
  * p14 - is always 1 in scripts
  * p15 - is 1 or 0 in scripts - unknoun what it does
  * p16 - controls collision between the two entities (FALSE disables collision).
  * p17 - do not teleport entity to be attached to the position of the bone Index of the target entity (if 1, entity will not be teleported to target bone)
  * p18 - is always 2 in scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} firstEntity

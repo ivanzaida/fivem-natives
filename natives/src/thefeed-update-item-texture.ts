@@ -3,7 +3,9 @@
  *
  * 0x4CF6314488B07405
 
- * Used in the native scripts to reference "GET_PEDHEADSHOT_TXD_STRING" and "CHAR_DEFAULT".
+ * 
+ * Used in the native scripts to reference "GET_PEDHEADSHOT_TXD_STRING" and "CHAR_DEFAULT".
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} oldTXD

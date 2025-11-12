@@ -5,8 +5,11 @@ import { PtfxId } from '@ivanzaida/structures'
  *
  * 0x182120534CCF9023
 
- * The stopped effect will automatically clean itself up once stopped.
+ * 
+ * The stopped effect will automatically clean itself up once stopped.
+ * 
  * p1 is always 0 in the native scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PtfxId} ptfxId

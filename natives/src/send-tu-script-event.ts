@@ -5,7 +5,9 @@ import { EScriptEventQueues } from '@ivanzaida/structures'
  *
  * 0x01F0B819E78A18A1
 
- * See TRIGGER_SCRIPT_EVENT
+ * 
+ * See TRIGGER_SCRIPT_EVENT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EScriptEventQueues} eventQueue

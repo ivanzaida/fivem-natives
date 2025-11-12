@@ -3,8 +3,10 @@
  *
  * 0x2ED5915E42CF4212
 
- * Includes networking check: ownership vs. or the door itself isn't networked.
+ * 
+ * Includes networking check: ownership vs. or the door itself isn't networked.
  * `forceUpdate` on true invokes DOOR_SYSTEM_SET_DOOR_STATE otherwise requestDoor is unused.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

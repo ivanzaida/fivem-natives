@@ -5,7 +5,9 @@ import { PedIndex, EVehicleKnockoff } from '@ivanzaida/structures'
  *
  * 0x68F395D64BC35E68
 
- * state: https://alloc8or.re/gta5/doc/enums/eKnockOffVehicle.txt
+ * 
+ * state: https://alloc8or.re/gta5/doc/enums/eKnockOffVehicle.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

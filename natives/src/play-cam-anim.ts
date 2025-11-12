@@ -5,10 +5,14 @@ import { CameraIndex, ECamAnimationFlags, EEulerRotOrder } from '@ivanzaida/stru
  *
  * 0x73D04EA6A13117B7
 
- * Atleast one time in a script for the zRot Rockstar uses GET_ENTITY_HEADING to help fill the parameter.
+ * 
+ * Atleast one time in a script for the zRot Rockstar uses GET_ENTITY_HEADING to help fill the parameter.
+ * 
  * p9 is unknown at this time.
  * p10 throughout all the X360 Scripts is always 2.
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

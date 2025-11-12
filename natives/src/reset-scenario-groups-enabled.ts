@@ -3,8 +3,10 @@
  *
  * 0xDFBE573FB949C828
 
- * Resets all scenario groups to their default enabled/disabled state (as specified in metadata).
+ * 
+ * Resets all scenario groups to their default enabled/disabled state (as specified in metadata).
  * This also does what RESET_EXCLUSIVE_SCENARIO_GROUP() does, undoing the effects of SET_EXCLUSIVE_SCENARIO_GROUP.
+ * 
  * 
  * ------------------------------------------------------------------
  */

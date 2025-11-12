@@ -3,7 +3,9 @@
  *
  * 0x8998A86E45C5155C
 
- * Defined the scripted optional scripted region which will have navmesh loaded at all times
+ * 
+ * Defined the scripted optional scripted region which will have navmesh loaded at all times
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

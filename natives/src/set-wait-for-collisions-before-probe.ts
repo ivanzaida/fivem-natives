@@ -5,11 +5,15 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x5A91FB116578FE09
 
- * Set flag to indicate if generated as part of user content
+ * 
+ * Set flag to indicate if generated as part of user content
+ * 
  * Only called within 1 script for x360. 'fm_mission_controller' and it used on an object.
+ * 
  * Ran after these 2 natives,
  * set_object_targettable(uParam0, 0);
  * set_entity_invincible(uParam0, 1);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

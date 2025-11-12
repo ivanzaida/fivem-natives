@@ -3,8 +3,10 @@
  *
  * 0x12100CAEF6D8A8EF
 
- * Override to allow the pending last damage event flag to get reset without health being set to max. Used for game modes where players are respawned with less than full health which interferes with kill tracking.
+ * 
+ * Override to allow the pending last damage event flag to get reset without health being set to max. Used for game modes where players are respawned with less than full health which interferes with kill tracking.
  * This should be reset back to false when it's no longer needed.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} overrideValue

@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xFF5A1988
 
- * The speeds are measured in metres per second.
+ * 
+ * The speeds are measured in metres per second.
+ * 
  * Note that the third parameter(denoted as z) is "up and down" with positive numbers encouraging upwards movement.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

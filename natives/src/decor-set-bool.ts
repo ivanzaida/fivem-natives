@@ -5,7 +5,9 @@ import { ItemIndex } from '@ivanzaida/structures'
  *
  * 0xF46ECFD5526E8FF7
 
- * This function sets metadata of type bool to specified entity.
+ * 
+ * This function sets metadata of type bool to specified entity.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ItemIndex} guid

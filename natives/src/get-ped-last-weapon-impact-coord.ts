@@ -6,10 +6,13 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x4800F32F989BED65
 
- * This command should be called every frame as the the last valid result only is reurned that frame else it returns 0.
+ * 
+ * This command should be called every frame as the the last valid result only is reurned that frame else it returns 0.
+ * 
  * Pass ped. Pass address of Vector3.
  * The coord will be put into the Vector3.
  * The return will determine whether there was a coord found or not.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,7 +3,9 @@
  *
  * 0x5008F9D1AD061D8C
 
- * Creates a tracked point, useful for checking the visibility of a 3D point on screen.
+ * 
+ * Creates a tracked point, useful for checking the visibility of a 3D point on screen.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

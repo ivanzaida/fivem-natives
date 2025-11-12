@@ -5,7 +5,9 @@ import { GamerHandle, NetworkClanDesc } from '@ivanzaida/structures'
  *
  * 0x2C34F64CC58753D7
 
- * Returns TRUE if data retrieval with NETWORK_GET_PRIMARY_CLAN_DATA_START has been successfull.
+ * 
+ * Returns TRUE if data retrieval with NETWORK_GET_PRIMARY_CLAN_DATA_START has been successfull.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

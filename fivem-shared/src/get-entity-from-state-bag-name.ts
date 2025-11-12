@@ -5,7 +5,7 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x4BDF1867
 
- * Returns the entity handle for the specified state bag name. For use with [ADD_STATE_BAG_CHANGE_HANDLER](?_0x5BA35AAF).
+ * Returns the entity handle for the specified state bag name. For use with [ADD_STATE_BAG_CHANGE_HANDLER](#_0x5BA35AAF).
  * 
  * ------------------------------------------------------------------
  * @param {string} bagName An internal state bag ID from the argument to a state bag change handler.

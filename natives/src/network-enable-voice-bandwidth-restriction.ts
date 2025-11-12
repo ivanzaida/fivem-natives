@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x6F146BCF099DE910
 
- * Voice chat can be disabled in low bandwidth conditions - if voice chat is critical to gameplay, this needs to disabled/enabled
+ * 
+ * Voice chat can be disabled in low bandwidth conditions - if voice chat is critical to gameplay, this needs to disabled/enabled
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

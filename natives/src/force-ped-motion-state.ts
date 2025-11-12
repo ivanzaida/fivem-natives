@@ -5,9 +5,12 @@ import { PedIndex, EPedMotionState, EForceAnimAiUpdateState } from '@ivanzaida/s
  *
  * 0x717804C8C8DA67BF
 
- * Can be used to force a particular movement pose and behaviour, for example when trying to
+ * 
+ * Can be used to force a particular movement pose and behaviour, for example when trying to
  * seamlessly end a canned animation, such as a cutscene or synchronized scene.
+ * 
  * Regarding p2, p3 and p4: Most common is 0, 0, 0); followed by 0, 1, 0); and 1, 1, 0); in R scripts. p4 is very rarely something other than 0.
+ * 
  * enum eMotionState // 0x92A659FE
  * {
  * 	MotionState_None = 0xEE717723,
@@ -35,6 +38,7 @@ import { PedIndex, EPedMotionState, EForceAnimAiUpdateState } from '@ivanzaida/s
  * 	MotionState_ActionMode_Run = 0x31BADE14,
  * 	MotionState_Jetpack = 0x535E6A5E
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

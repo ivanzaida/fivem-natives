@@ -3,8 +3,11 @@
  *
  * 0xFCD81108C00214FE
 
- * All requests to play ptFxToOverride will play ptFxToUseInstead instead
+ * 
+ * All requests to play ptFxToOverride will play ptFxToUseInstead instead
+ * 
  * Full list of particle effect dictionaries and effects by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} ptFxToOverride

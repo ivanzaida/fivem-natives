@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xA3736D76B0E93E93
 
- * Whether the entity is attached to any other entity.
+ * 
+ * Whether the entity is attached to any other entity.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

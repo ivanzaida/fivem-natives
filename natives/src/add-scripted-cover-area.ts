@@ -3,7 +3,9 @@
  *
  * 0x4CF9046448DA511B
 
- * Must be called every frame
+ * 
+ * Must be called every frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

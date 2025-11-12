@@ -5,11 +5,13 @@ import { VehicleIndex, ENeonId } from '@ivanzaida/structures'
  *
  * 0xF1B79038130E3C08
 
- * indices:
+ * 
+ * indices:
  * 0 = Left
  * 1 = Right
  * 2 = Front
  * 3 = Back
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

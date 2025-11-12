@@ -3,7 +3,9 @@
  *
  * 0x51BEADCE3428DB6F
 
- * Returns TRUE if data retrieval with NETWORK_GET_PRIMARY_CLAN_DATA_START is pending.
+ * 
+ * Returns TRUE if data retrieval with NETWORK_GET_PRIMARY_CLAN_DATA_START is pending.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

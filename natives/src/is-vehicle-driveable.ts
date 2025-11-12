@@ -5,9 +5,13 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD9F5E1FEFD1329E4
 
- * Must be used before using many of the other vehicle commands.
+ * 
+ * Must be used before using many of the other vehicle commands.
+ * 
  * p1 is always 0 in the scripts.
+ * 
  * p1 = check if vehicle is on fire
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

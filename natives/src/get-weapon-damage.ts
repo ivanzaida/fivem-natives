@@ -5,8 +5,10 @@ import { EWeaponType, EWeaponcomponentType } from '@ivanzaida/structures'
  *
  * 0xFE2B29CE6AE93F62
 
- * This native does not return damages of weapons from the melee and explosive group.
+ * 
+ * This native does not return damages of weapons from the melee and explosive group.
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

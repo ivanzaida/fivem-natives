@@ -5,7 +5,9 @@ import { ObjectIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x3BC4D68025ED9B51
 
- * Same as the above function but allows the setting of an inflcitor for damage events
+ * 
+ * Same as the above function but allows the setting of an inflcitor for damage events
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

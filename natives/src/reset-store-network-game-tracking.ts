@@ -3,7 +3,9 @@
  *
  * 0x2A878DDB1FE0F636
 
- * Resets network game tracking in the store.
+ * 
+ * Resets network game tracking in the store.
+ * 
  * 
  * ------------------------------------------------------------------
  */

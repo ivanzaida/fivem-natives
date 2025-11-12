@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x9E62B9416FD53EBA
 
- * Money pickups are created around cars when they explode. Only works when the vehicle model is a car. A single pickup is between 1 and 18 dollars in size. All car models seem to give the same amount of money.
+ * 
+ * Money pickups are created around cars when they explode. Only works when the vehicle model is a car. A single pickup is between 1 and 18 dollars in size. All car models seem to give the same amount of money.
+ * 
  * youtu.be/3arlUxzHl5Y
  * i.imgur.com/WrNpYFs.jpg
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

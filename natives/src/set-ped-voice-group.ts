@@ -5,11 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x996F4A3208DAD314
 
- * From the scripts:
+ * 
+ * From the scripts:
+ * 
  * AUDIO::SET_PED_VOICE_GROUP(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("PAIGE_PVG"));
  * AUDIO::SET_PED_VOICE_GROUP(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("TALINA_PVG"));
  * AUDIO::SET_PED_VOICE_GROUP(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("FEMALE_LOST_BLACK_PVG"));
  * AUDIO::SET_PED_VOICE_GROUP(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("FEMALE_LOST_WHITE_PVG"));
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

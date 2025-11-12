@@ -12,7 +12,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * @param {number} componentId One of the components from [SET_PED_COMPONENT_VARIATION](_0x262B14F48D29DE80)
  * @param {string} collection Name of the collection. Empty string for the base game collection. See [GET_PED_COLLECTION_NAME](_0xFED5D83A) in order to list all available collections.
  * @param {number} drawableId Local drawable Id inside the given collection. Refer to [GET_NUMBER_OF_PED_COLLECTION_DRAWABLE_VARIATIONS](_0x310D0271).
- * @returns {number}  Global drawable ID that corresponds to the given collection and local drawable index. Returns -1 if Ped or collection does not exist.
+ * @returns {number}  Global drawable ID that corresponds to the given collection and local drawable index. Returns -1 if Ped or collection does not exist or local index is out of bounds.
  */
 export function getPedDrawableGlobalIndexFromCollection(ped: PedIndex, componentId: number, collection: string, drawableId: number): number {
 	const getPedDrawableGlobalIndexFromCollection_result = Citizen.invokeNative<number>('0x280F1FC3', ped, componentId, collection, drawableId);

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x805B057FA4E28531
 
- * Ped will no longer get angry when you stay near him.
+ * 
+ * Ped will no longer get angry when you stay near him.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

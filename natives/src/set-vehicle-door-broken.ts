@@ -5,7 +5,9 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  *
  * 0x89E9F387C190061F
 
- * doorId: see SET_VEHICLE_DOOR_SHUT
+ * 
+ * doorId: see SET_VEHICLE_DOOR_SHUT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

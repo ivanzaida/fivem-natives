@@ -3,9 +3,12 @@
  *
  * 0xA2FEC91FCC08673E
 
- * Returns TRUE if the group exists.
+ * 
+ * Returns TRUE if the group exists.
+ * 
  * Full list of scenario groups used in scripts by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenarioGroupNames.json
  * Occurrences in the b617d scripts:
+ * 
  * "ARMY_GUARD",
  * "ARMY_HELI",
  * "Cinema_Downtown",
@@ -34,9 +37,11 @@
  * "Triathlon_1_Start",
  * "Triathlon_2_Start",
  * "Triathlon_3_Start"
+ * 
  * Sometimes used with IS_SCENARIO_GROUP_ENABLED:
  * if (TASK::DOES_SCENARIO_GROUP_EXIST("Observatory_Bikers") && (!TASK::IS_SCENARIO_GROUP_ENABLED("Observatory_Bikers"))) {
  * else if (TASK::IS_SCENARIO_GROUP_ENABLED("BLIMP")) {
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scenarioGroupName

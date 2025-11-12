@@ -3,8 +3,10 @@
  *
  * 0x1837D912F4EDCA95
 
- * Please note calling this command will affect the behaviour when skipping.
+ * 
+ * Please note calling this command will affect the behaviour when skipping.
  * If you call this you will have to make sure that the cutscene fades in at the end for both a skip and non skip, irrespective of any of  the values you have set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} fadeOutAtStart

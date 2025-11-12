@@ -5,7 +5,9 @@ import { NetworkIndex, IntRef, PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x7B8DC32252146679
 
- * This command can be used for any physical objects withinthe game (e.g. cars, peds and objects).
+ * 
+ * This command can be used for any physical objects withinthe game (e.g. cars, peds and objects).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

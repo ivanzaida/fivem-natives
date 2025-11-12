@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xE8EF17ECD68C900D
 
- * Sets the vehicle flag which records whether this vehicle has been driven.
+ * 
+ * Sets the vehicle flag which records whether this vehicle has been driven.
  * Scripted/cargen vehicles which have not yet been driven are not cleaned up so aggressively as those which have been driven & then abandoned.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

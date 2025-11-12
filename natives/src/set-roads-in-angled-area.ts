@@ -3,8 +3,10 @@
  *
  * 0x5E08BBBF87BC4886
 
- * unknown3 is related to `SEND_SCRIPT_WORLD_STATE_EVENT > CNetworkRoadNodeWorldStateData` in networked environments.
+ * 
+ * unknown3 is related to `SEND_SCRIPT_WORLD_STATE_EVENT > CNetworkRoadNodeWorldStateData` in networked environments.
  * See IS_POINT_IN_ANGLED_AREA for the definition of an angled area.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} vec1X

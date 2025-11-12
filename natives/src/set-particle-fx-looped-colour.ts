@@ -5,8 +5,11 @@ import { PtfxId } from '@ivanzaida/structures'
  *
  * 0x6154AB43546C6437
 
- * only works on some fx's
+ * 
+ * only works on some fx's
+ * 
  * p4 = 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PtfxId} ptfxId

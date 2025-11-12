@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xA9FF721056B7254E
 
- * This function alters the minimum fall height that causes the ped to trigger ragdoll.
+ * 
+ * This function alters the minimum fall height that causes the ped to trigger ragdoll.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

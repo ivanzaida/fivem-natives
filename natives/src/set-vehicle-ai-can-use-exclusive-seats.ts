@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x863A048DC4DBB2FE
 
- * Used to be incorrectly named SET_VEHICLE_EXCLUSIVE_DRIVER
+ * 
+ * Used to be incorrectly named SET_VEHICLE_EXCLUSIVE_DRIVER
  * Toggles a flag related to SET_VEHICLE_EXCLUSIVE_DRIVER, however, doesn't enable that feature (or trigger script events related to it).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,11 +3,14 @@
  *
  * 0x2D8D239B3F1D13F9
 
- * The game focus is used for loading map data, collisions, object population etc.
+ * 
+ * The game focus is used for loading map data, collisions, object population etc.
  * This command overrides it for the specified position and velocity
  * Overrides the game focus and sets it to specified position and velocity
+ * 
  * Override the area where the camera will render the terrain.
  * p3, p4 and p5 are usually set to 0.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

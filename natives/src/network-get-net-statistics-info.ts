@@ -5,7 +5,9 @@ import { NetStatisticsInfo } from '@ivanzaida/structures'
  *
  * 0xDF399EF490797927
 
- * Does nothing (it's a nullsub).
+ * 
+ * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetStatisticsInfo} info [Ref]

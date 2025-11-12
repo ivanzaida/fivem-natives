@@ -5,7 +5,9 @@ import { PedIndex, EPedDecorationZone } from '@ivanzaida/structures'
  *
  * 0x1926B687CF984FCC
 
- * Somehow related to changing ped's clothes.
+ * 
+ * Somehow related to changing ped's clothes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

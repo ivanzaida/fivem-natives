@@ -5,7 +5,9 @@ import { EEventNames } from '@ivanzaida/structures'
  *
  * 0x18B384412B836744
 
- * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
+ * 
+ * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEventNames} eventType

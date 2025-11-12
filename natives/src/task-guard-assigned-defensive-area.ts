@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x2CFEEE8E3E154877
 
- * The behaviour will be the same as TASK_STAND_GUARD, if the ped shouldn't patrol the area, set fMaxPatrolProximity to 0.0
+ * 
+ * The behaviour will be the same as TASK_STAND_GUARD, if the ped shouldn't patrol the area, set fMaxPatrolProximity to 0.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

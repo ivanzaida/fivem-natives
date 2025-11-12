@@ -3,7 +3,9 @@
  *
  * 0x846BCB82A586E3AA
 
- * returns true if ascent has finished (so it is OK to display multiplayer menu etc)
+ * 
+ * returns true if ascent has finished (so it is OK to display multiplayer menu etc)
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

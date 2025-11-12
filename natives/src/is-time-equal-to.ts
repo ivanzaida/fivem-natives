@@ -5,8 +5,11 @@ import { TimeDatatype } from '@ivanzaida/structures'
  *
  * 0xCFF17EF1F3F6FF43
 
- * Return TRUE if Time1 is equal to Time2. FALSE otherwise.
+ * 
+ * Return TRUE if Time1 is equal to Time2. FALSE otherwise.
+ * 
  * Returns true if the two times are equal; otherwise returns false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {TimeDatatype} time1

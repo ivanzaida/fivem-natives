@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xD29CB5E83871293B
 
- * Returns the average one-way latency for messages received from the specified remote player. This should only be called on remote players.
+ * 
+ * Returns the average one-way latency for messages received from the specified remote player. This should only be called on remote players.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

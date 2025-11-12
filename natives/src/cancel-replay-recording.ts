@@ -3,7 +3,9 @@
  *
  * 0x9A7045411AC5794F
 
- * Stops recording and discards the recorded clip.
+ * 
+ * Stops recording and discards the recorded clip.
+ * 
  * 
  * ------------------------------------------------------------------
  */

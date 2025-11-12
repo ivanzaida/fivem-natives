@@ -3,7 +3,9 @@
  *
  * 0x4F30C4E212ACCAAA
 
- * Defines a rectangular zone which the GPS will not pathfind through.
+ * 
+ * Defines a rectangular zone which the GPS will not pathfind through.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

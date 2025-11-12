@@ -3,8 +3,11 @@
  *
  * 0xAE032CEDCF23C6D5
 
- * Return the local Participant ID.
+ * 
+ * Return the local Participant ID.
+ * 
  * This native is exactly the same as 'PARTICIPANT_ID' native.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

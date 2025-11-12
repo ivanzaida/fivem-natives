@@ -5,9 +5,11 @@ import { PedIndex, EPedResetFlags } from '@ivanzaida/structures'
  *
  * 0x0FB8E752BCC547A9
 
- * PED::SET_PED_RESET_FLAG(PLAYER::PLAYER_PED_ID(), 240, 1);
+ * 
+ * PED::SET_PED_RESET_FLAG(PLAYER::PLAYER_PED_ID(), 240, 1);
  * Known values:
  * PRF_PreventGoingIntoStillInVehicleState = 236 (fanatic2.c)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

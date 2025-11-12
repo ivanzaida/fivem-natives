@@ -5,8 +5,10 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xBC8E0392E851E2B8
 
- * Code always remembers the last remote player's downloaded memberships retreived using NETWORK_CLAN_DOWNLOAD_MEMBERSHIP.
+ * 
+ * Code always remembers the last remote player's downloaded memberships retreived using NETWORK_CLAN_DOWNLOAD_MEMBERSHIP.
  * Script can use this func to check if data is there, and avoid calling NETWORK_CLAN_DOWNLOAD_MEMBERSHIP if we don't need to force a refresh
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

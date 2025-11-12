@@ -6,8 +6,10 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0xAAB58D9C726404C0
 
- * Fills out the given vectors with the components of the entity's world transformation matrix.
+ * 
+ * Fills out the given vectors with the components of the entity's world transformation matrix.
  * This effectively gives you the forwards, right hand and up unit direction vectors as well as the entity's position
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

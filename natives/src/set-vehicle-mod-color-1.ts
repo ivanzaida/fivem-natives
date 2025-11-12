@@ -5,7 +5,9 @@ import { VehicleIndex, EModColorType } from '@ivanzaida/structures'
  *
  * 0xA5277ECCD081FCC1
 
- * specColIndex only applies to MCT_PEARLESCENT
+ * 
+ * specColIndex only applies to MCT_PEARLESCENT
+ * 
  * paintType:
  * 0: Normal
  * 1: Metallic
@@ -14,9 +16,13 @@ import { VehicleIndex, EModColorType } from '@ivanzaida/structures'
  * 4: Metal
  * 5: Chrome
  * 6: Chameleon
+ * 
  * color: number of the color.
+ * 
  * p3 seems to always be 0.
+ * 
  * Full list of vehicle colors and vehicle plates by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/vehicleColors.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

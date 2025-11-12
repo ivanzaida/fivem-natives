@@ -3,7 +3,9 @@
  *
  * 0x21EA3DC8C16770EF
 
- * Sets GtaThread+0x14A
+ * 
+ * Sets GtaThread+0x14A
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} highPrio

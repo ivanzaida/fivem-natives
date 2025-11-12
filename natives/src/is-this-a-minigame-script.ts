@@ -3,7 +3,9 @@
  *
  * 0x204E68849C425DF0
 
- * It is possible for more than one minigame script to be running at the same time.
+ * 
+ * It is possible for more than one minigame script to be running at the same time.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

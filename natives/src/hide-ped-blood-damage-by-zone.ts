@@ -5,7 +5,9 @@ import { PedIndex, EPedDecorationZone } from '@ivanzaida/structures'
  *
  * 0x81C558E9A03D2F2B
 
- * It can be called repeatedly to hide blood in multiple zones.
+ * 
+ * It can be called repeatedly to hide blood in multiple zones.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

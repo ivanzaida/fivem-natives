@@ -3,7 +3,9 @@
  *
  * 0x8E1F26D6742EC167
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} inChargeOfAudio

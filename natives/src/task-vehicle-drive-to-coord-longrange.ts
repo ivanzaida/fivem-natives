@@ -5,8 +5,10 @@ import { PedIndex, VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
  *
  * 0x6C33493626F3C0D1
 
- * Only use this if the choice of target is up to the player or otherwise unknown at script-time.
+ * 
+ * Only use this if the choice of target is up to the player or otherwise unknown at script-time.
  * Examples: the taxi script going to player blips
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

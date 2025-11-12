@@ -5,11 +5,13 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xA345EFE
 
- * rotationOrder refers to the order yaw pitch roll is applied
+ * 
+ * rotationOrder refers to the order yaw pitch roll is applied
  * value ranges from 0 to 5. What you use for rotationOrder when setting must be the same as rotationOrder when getting the rotation.
  * Unsure what value corresponds to what rotation order, more testing will be needed for that.
  * For the most part R uses 1 or 2 as the order.
  * p5 is usually set as true
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity to rotate.

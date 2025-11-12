@@ -3,8 +3,11 @@
  *
  * 0xAB737F5FE1576754
 
- * Checks whether the extracontent cloud data is correct
+ * 
+ * Checks whether the extracontent cloud data is correct
+ * 
  * This function is hard-coded to always return 1.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

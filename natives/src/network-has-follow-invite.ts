@@ -3,8 +3,10 @@
  *
  * 0x6E4D523086634F4B
 
- * Follow invite actions. These are invites sent by someone who has tagged the local player
+ * 
+ * Follow invite actions. These are invites sent by someone who has tagged the local player
  * as a 'follower'.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

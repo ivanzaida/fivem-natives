@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xF9FC9D29B8DD92DF
 
- * True stops vtols from switching modes. Doesn't stop the sound though.
+ * 
+ * True stops vtols from switching modes. Doesn't stop the sound though.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} plane

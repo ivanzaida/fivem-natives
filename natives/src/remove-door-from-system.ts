@@ -3,8 +3,10 @@
  *
  * 0x19B3B7AC049E8354
 
- * CDoor and CDoorSystemData still internally allocated (and their associations between doorHash, modelHash, and coordinates).
+ * 
+ * CDoor and CDoorSystemData still internally allocated (and their associations between doorHash, modelHash, and coordinates).
  * Only its NetObj removed and flag ``(v2 + 192) |= 8u`` (1604 retail) toggled.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} doorEnumHash

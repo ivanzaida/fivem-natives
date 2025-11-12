@@ -3,10 +3,12 @@
  *
  * 0xD0C8A7FF1FD5A461
 
- * p0 is always false and p1 varies.
+ * 
+ * p0 is always false and p1 varies.
  * NETWORK_SESSION_END(0, 1)
  * NETWORK_SESSION_END(0, 0)
  * Results in: "Connection to session lost due to an unknown network error. Please return to Grand Theft Auto V and try again later."
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} returnToLobby FALSE to leave this session, TRUE to remain (and return to the lobby state)

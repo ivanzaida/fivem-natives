@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xA702E444F81F0A83
 
- * Returns true if the ped is heading towards the given point, within +/- of the heading tolerance.
+ * 
+ * Returns true if the ped is heading towards the given point, within +/- of the heading tolerance.
  * checks that the ped's current-heading AND desired-heading are both aligned with the heading to the vPoint
  * This will not take any Z differences into account!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

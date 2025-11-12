@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xAAE0CF56E250FA77
 
- * Overriding ped badge texture to a passed texture. It's synced between players (even custom textures!), don't forget to request used dict on all clients to make it sync properly. Can be removed by passing empty strings.
+ * 
+ * Overriding ped badge texture to a passed texture. It's synced between players (even custom textures!), don't forget to request used dict on all clients to make it sync properly. Can be removed by passing empty strings.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

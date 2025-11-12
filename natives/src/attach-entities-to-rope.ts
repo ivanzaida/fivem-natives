@@ -5,7 +5,9 @@ import { RopeIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x3640C9BF5BF56ED8
 
- * Attaches entity 1 to entity 2.
+ * 
+ * Attaches entity 1 to entity 2.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {RopeIndex} ropeID

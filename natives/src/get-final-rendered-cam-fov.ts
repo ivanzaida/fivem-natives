@@ -3,7 +3,9 @@
  *
  * 0xB99978989A0F4E57
 
- * Gets some camera fov
+ * 
+ * Gets some camera fov
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

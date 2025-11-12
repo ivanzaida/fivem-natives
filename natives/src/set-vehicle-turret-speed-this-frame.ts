@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x17AB03DCC210B35D
 
- * Sets a vehicle's turret speed on a per-frame basis
+ * 
+ * Sets a vehicle's turret speed on a per-frame basis
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

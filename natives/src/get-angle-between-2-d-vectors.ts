@@ -3,7 +3,9 @@
  *
  * 0x20A3B1C2EC4167BB
 
- * The returned value will be between 0 (2 vectors are parallel) to 180.0 (vectors are travelling in opposite directions).
+ * 
+ * The returned value will be between 0 (2 vectors are parallel) to 180.0 (vectors are travelling in opposite directions).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x1

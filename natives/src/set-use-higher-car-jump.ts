@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5191631D395FDE9C
 
- * Allows vehicles with the FLAG_JUMPING_CAR flag to jump higher (i.e. Ruiner 2000).
+ * 
+ * Allows vehicles with the FLAG_JUMPING_CAR flag to jump higher (i.e. Ruiner 2000).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

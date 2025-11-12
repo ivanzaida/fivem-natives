@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xAC895C06C6322C1E
 
- * Set whether the entity should use the max distance check for being included in water reflections
+ * 
+ * Set whether the entity should use the max distance check for being included in water reflections
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

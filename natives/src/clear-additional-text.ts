@@ -5,7 +5,9 @@ import { ETextBlockSlots } from '@ivanzaida/structures'
  *
  * 0xA790E8E6FD7393AC
 
- * You will probably always want to call this command with TRUE for bClearPreviousBriefs. The reason for adding this command was for the situation where the player fails a mission and then replays it.
+ * 
+ * You will probably always want to call this command with TRUE for bClearPreviousBriefs. The reason for adding this command was for the situation where the player fails a mission and then replays it.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ETextBlockSlots} slotNumber

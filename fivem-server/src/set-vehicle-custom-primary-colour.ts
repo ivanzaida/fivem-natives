@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8DF9F9BC
 
- * p1, p2, p3 are RGB values for color (255,0,0 for Red, ect)
+ * 
+ * p1, p2, p3 are RGB values for color (255,0,0 for Red, ect)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

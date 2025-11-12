@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x48C80210
 
- * IsBurstToRim true will return true only when just the rim remains for the tyre
+ * 
+ * IsBurstToRim true will return true only when just the rim remains for the tyre
+ * 
  * wheelID used for 4 wheelers seem to be (0, 1, 4, 5)
  * completely - is to check if tire completely gone from rim.
+ * 
  * '0 = wheel_lf / bike, plane or jet front
  * '1 = wheel_rf
  * '2 = wheel_lm / in 6 wheels trailer, plane or jet is first one on left
@@ -16,6 +19,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * '5 = wheel_rr / in 6 wheels trailer, plane or jet is last one on right
  * '45 = 6 wheels trailer mid wheel left
  * '47 = 6 wheels trailer mid wheel right
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

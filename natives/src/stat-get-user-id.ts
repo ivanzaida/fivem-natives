@@ -5,7 +5,9 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0xD8DECC82BA81E8D9
 
- * Returns the rockstar ID (user id) value of a given stat. Returns "STAT_UNKNOWN" if the statHash is invalid or the stat has no userId
+ * 
+ * Returns the rockstar ID (user id) value of a given stat. Returns "STAT_UNKNOWN" if the statHash is invalid or the stat has no userId
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

@@ -3,7 +3,9 @@
  *
  * 0x1ECA72F56ADCE605
 
- * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
+ * Does nothing (it's a nullsub). Seems to be PS4 specific.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} commandLineString

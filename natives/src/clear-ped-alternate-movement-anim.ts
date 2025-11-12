@@ -5,7 +5,9 @@ import { PedIndex, EAlternateAnimType } from '@ivanzaida/structures'
  *
  * 0x384E72D362B96929
 
- * Specifies a new movement animation to use when the ped is moving around
+ * 
+ * Specifies a new movement animation to use when the ped is moving around
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,8 +5,11 @@ import { EGreatestMoment } from '@ivanzaida/structures'
  *
  * 0x5CFA0003D667CD0F
 
- * Record a greatest moment
+ * 
+ * Record a greatest moment
+ * 
  * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EGreatestMoment} greatestMoment

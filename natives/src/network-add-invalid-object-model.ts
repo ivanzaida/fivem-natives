@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x72073521D4ACB83A
 
- * Sets a binary map for invalid models created in multiplayer. A telemetry event to Rwill be sent when a remote player creates an object with an invalid model
+ * 
+ * Sets a binary map for invalid models created in multiplayer. A telemetry event to Rwill be sent when a remote player creates an object with an invalid model
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} modelHashKey

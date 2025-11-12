@@ -5,9 +5,11 @@ import { EntityIndex, EPedTransportMode } from '@ivanzaida/structures'
  *
  * 0xFCEB38AB3EDCF9BE
 
- * Checks if a ped is in the axis aligned area defined by the two coords.
+ * 
+ * Checks if a ped is in the axis aligned area defined by the two coords.
  * If the entity is a ped in a vehicle, then the coords of the vehicle are used in the check.
  * PARAM NOTES :
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

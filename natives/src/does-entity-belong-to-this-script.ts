@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x7C9905528EE2C3AB
 
- * Returns TRUE if the entity is owned by the script thread that called this command. Returns FALSE if the entity is not a script
+ * 
+ * Returns TRUE if the entity is owned by the script thread that called this command. Returns FALSE if the entity is not a script
  * entity or if it is a script entity owned by a different script
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

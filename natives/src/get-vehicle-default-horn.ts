@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xCDF8A102C63845CC
 
- * Returns hash of default vehicle horn
+ * 
+ * Returns hash of default vehicle horn
+ * 
  * Hash is stored in audVehicleAudioEntity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

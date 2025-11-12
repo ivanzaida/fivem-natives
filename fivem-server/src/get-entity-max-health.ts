@@ -5,10 +5,13 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xC7AE6AA1
 
- * Return an integer value of entity's maximum health.
+ * 
+ * Return an integer value of entity's maximum health.
+ * 
  * Example:
  * - Player = 200
  * - Ped = 150
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xA23312A0DE89348E
 
- * If the given ped is currently using a scenario and using anim from the given dictionary and the given base clip
+ * 
+ * If the given ped is currently using a scenario and using anim from the given dictionary and the given base clip
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

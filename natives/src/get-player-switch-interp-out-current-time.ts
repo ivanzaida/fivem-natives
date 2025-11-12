@@ -3,7 +3,9 @@
  *
  * 0xED93D3690FF8AF5F
 
- * returns the current interpolation time out of an establishing shot, in milliseconds. -1 will be returned if interpolation is not in progress
+ * 
+ * returns the current interpolation time out of an establishing shot, in milliseconds. -1 will be returned if interpolation is not in progress
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

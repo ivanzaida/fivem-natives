@@ -3,7 +3,9 @@
  *
  * 0x7A2982A0B5AB7BEB
 
- * Disables collisions between all vehicles and all vehicle parachutes
+ * 
+ * Disables collisions between all vehicles and all vehicle parachutes
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} disableCollisions

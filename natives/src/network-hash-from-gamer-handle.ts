@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xA7D865785DB9408A
 
- * Retrieve a hash for a gamer handle
+ * 
+ * Retrieve a hash for a gamer handle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

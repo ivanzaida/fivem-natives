@@ -5,9 +5,11 @@ import { PedIndex, EPedDecorationZone } from '@ivanzaida/structures'
  *
  * 0xC9FB3D0735F8ECD9
 
- * Applies a ped damage decoration (decal) to the ped, using the data defined in the peddamage.xml tuning file.
+ * 
+ * Applies a ped damage decoration (decal) to the ped, using the data defined in the peddamage.xml tuning file.
  * the decal could be a tatoo, dirt a scar, etc.
  * you can use the widgets in "Peds/Ped Damage/Test Damage Decals by UV (Interactive)" to test u,v values for different zones, etc
+ * 
  * enum eDamageZone
  * {
  * 	DZ_Torso = 0,
@@ -17,6 +19,7 @@ import { PedIndex, EPedDecorationZone } from '@ivanzaida/structures'
  * 	DZ_LeftLeg,
  * 	DZ_RightLeg,
  * };
+ * 
  * Decal Names:
  * scar
  * blushing
@@ -29,7 +32,9 @@ import { PedIndex, EPedDecorationZone } from '@ivanzaida/structures'
  * basic_dirt_cloth
  * basic_dirt_skin
  * cs_trev1_dirt
+ * 
  * APPLY_PED_DAMAGE_DECAL(ped, 1, 0.5f, 0.513f, 0f, 1f, unk, 0, 0, "blushing");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

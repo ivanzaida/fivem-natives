@@ -3,7 +3,9 @@
  *
  * 0xBE2B7EEE635434FF
 
- * Does nothing. It's a nullsub.
+ * 
+ * Does nothing. It's a nullsub.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} inVehicleCombatMode

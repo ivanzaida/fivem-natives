@@ -3,8 +3,10 @@
  *
  * 0x44589DAC2564FF02
 
- * Adds a road speed zone at the specified position+radius.  Cars cruising in this volume will travel]
+ * 
+ * Adds a road speed zone at the specified position+radius.  Cars cruising in this volume will travel]
  * at a max speed of the param "maxSpeed".  This only affects cars running TASK_VEHICLE_CRUISE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centerX

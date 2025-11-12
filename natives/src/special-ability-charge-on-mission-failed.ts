@@ -5,8 +5,10 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x3ECCF6485789A1D6
 
- * Should be called when the player has failed a mission. The logic to decide if the ability
+ * 
+ * Should be called when the player has failed a mission. The logic to decide if the ability
  * is charged by this happens in code
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

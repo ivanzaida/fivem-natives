@@ -3,7 +3,9 @@
  *
  * 0x98EFF6F1
 
- * This native converts its past string to hash. It is hashed using jenkins one at a time method.
+ * 
+ * This native converts its past string to hash. It is hashed using jenkins one at a time method.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} model

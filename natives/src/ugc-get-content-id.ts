@@ -3,7 +3,9 @@
  *
  * 0x7768894B5FCDF25F
 
- * Return the mission id of a job.
+ * 
+ * Return the mission id of a job.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} content

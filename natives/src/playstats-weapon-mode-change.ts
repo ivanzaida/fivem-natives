@@ -5,7 +5,9 @@ import { EWeaponType, EWeaponcomponentType } from '@ivanzaida/structures'
  *
  * 0xA634868C7A532A58
 
- * This is a typo made by R. It's supposed to be called PLAYSTATS_WEAPON_MOD_CHANGE.
+ * 
+ * This is a typo made by R. It's supposed to be called PLAYSTATS_WEAPON_MOD_CHANGE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponHash

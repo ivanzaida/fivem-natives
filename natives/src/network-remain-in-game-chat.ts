@@ -3,8 +3,10 @@
  *
  * 0x270D952336FB6142
 
- * When players are in a transition session, setting this will flag that they should remain
+ * 
+ * When players are in a transition session, setting this will flag that they should remain
  * in chat with the players in freeroam. Use when 'on call'
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} remainInGameChat

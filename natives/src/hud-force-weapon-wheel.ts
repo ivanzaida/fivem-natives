@@ -3,7 +3,9 @@
  *
  * 0x92D8C10950A06B6D
 
- * Forces the weapon wheel to show/hide.
+ * 
+ * Forces the weapon wheel to show/hide.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} onOrOff

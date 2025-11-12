@@ -3,7 +3,9 @@
  *
  * 0x2AF25F1F08FCBEF6
 
- * Removes a dispatch spawn blocking area with the given index.
+ * 
+ * Removes a dispatch spawn blocking area with the given index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} index

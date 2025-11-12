@@ -3,8 +3,11 @@
  *
  * 0x557F1E2300EF1A3E
 
- * passes a BOOL to the method call.  Must be wrapped in a BEGIN & END call but can include other ADD_PARAM calls
+ * 
+ * passes a BOOL to the method call.  Must be wrapped in a BEGIN & END call but can include other ADD_PARAM calls
+ * 
  * Pushes a boolean for the Scaleform function onto the stack.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} param

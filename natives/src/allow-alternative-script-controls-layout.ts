@@ -5,7 +5,8 @@ import { EControlType } from '@ivanzaida/structures'
  *
  * 0xE0EEB603997F273F
 
- * This must be called every frame or else the controls revert back to defaults. The INPUT_SCRIPT_controls mimic a PS3/Xbox
+ * 
+ * This must be called every frame or else the controls revert back to defaults. The INPUT_SCRIPT_controls mimic a PS3/Xbox
  * gamepad, however, the user may change the control layout in the settings. Some mission/script might need to know this.
  * For example, if the INPUT_SCRIPT_controls are being used to control movement and the camera, then the script need to know
  * if the player has selected Southpaw (sticks are swapped) mode. Calling ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT() every frame
@@ -14,7 +15,9 @@ import { EControlType } from '@ivanzaida/structures'
  * Some scripts/mission will NOTwant this, for example, Yoga asks the user to move specific sticks. In this case, not calling
  * ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT() will default to use the standard gamepad layout no matter what the user has set their
  * settings to.
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

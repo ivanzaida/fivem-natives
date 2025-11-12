@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x1761457F86AD0EE2
 
- * Sets the position of the cam.
+ * 
+ * Sets the position of the cam.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

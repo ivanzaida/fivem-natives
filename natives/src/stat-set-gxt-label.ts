@@ -5,7 +5,8 @@ import { EStatsenum } from '@ivanzaida/structures'
  *
  * 0xFE0BEB152470B0B8
 
- * The following values have been found in the decompiled scripts:
+ * 
+ * The following values have been found in the decompiled scripts:
  * "RC_ABI1"
  * "RC_ABI2"
  * "RC_BA1"
@@ -69,6 +70,7 @@ import { EStatsenum } from '@ivanzaida/structures'
  * "RC_TON3"
  * "RC_TON4"
  * "RC_TON5"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

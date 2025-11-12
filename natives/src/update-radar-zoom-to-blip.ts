@@ -3,8 +3,11 @@
  *
  * 0x77C721059FFCEE39
 
- * Must be called sparingly as it re-inits the range check for a blip.  Call this if you are zoomed to a blip and the blip has moved and you want the minimap to re-zoom to it
+ * 
+ * Must be called sparingly as it re-inits the range check for a blip.  Call this if you are zoomed to a blip and the blip has moved and you want the minimap to re-zoom to it
+ * 
  * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  */

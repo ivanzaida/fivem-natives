@@ -3,10 +3,13 @@
  *
  * 0xC9C9496CFAAB8396
 
- * Gradually blurs the screen along Duration (in milliseconds)
+ * 
+ * Gradually blurs the screen along Duration (in milliseconds)
  * Once the fade in finishes, the screen will stay blurred until
  * TRIGGER_SCREENBLUR_FADE_OUT or DISABLE_SCREENBLUR_FADE is called
+ * 
  * time in ms to transition to fully blurred screen
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} duration

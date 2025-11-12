@@ -3,7 +3,9 @@
  *
  * 0x1BA57F70810F53CD
 
- * Properly quits the multiplayer, then shows the confirmation warning.
+ * 
+ * Properly quits the multiplayer, then shows the confirmation warning.
+ * 
  * 
  * ------------------------------------------------------------------
  */

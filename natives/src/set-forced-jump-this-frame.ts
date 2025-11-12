@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xBD53F503C46AD430
 
- * Set the player to be forced into jump state this frame.
+ * 
+ * Set the player to be forced into jump state this frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} ped

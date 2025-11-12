@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xA5D7DCF7BE7B181D
 
- * This native refers to the field of vision the ped has below them, starting at 0 degrees. The angle value should be negative.
+ * 
+ * This native refers to the field of vision the ped has below them, starting at 0 degrees. The angle value should be negative.
  * -90f should let the ped see 90 degrees below them, for example.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

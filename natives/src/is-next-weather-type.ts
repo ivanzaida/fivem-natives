@@ -3,7 +3,9 @@
  *
  * 0x79C890C56ADBF83B
 
- * Checks if the next weather type (the one we are currently interpolating towards) is the same as the string passed
+ * 
+ * Checks if the next weather type (the one we are currently interpolating towards) is the same as the string passed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} weather

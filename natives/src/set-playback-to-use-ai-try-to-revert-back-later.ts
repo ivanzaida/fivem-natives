@@ -5,8 +5,11 @@ import { VehicleIndex, EDrivingmode } from '@ivanzaida/structures'
  *
  * 0xD9CBCF1C9EAC9D15
 
- * After this command is called the car will use ai to try and stay close to the original recording. After the specified time (in ms) expires the recording will turn itself back into a non-ai one if it is close enough to the route.
+ * 
+ * After this command is called the car will use ai to try and stay close to the original recording. After the specified time (in ms) expires the recording will turn itself back into a non-ai one if it is close enough to the route.
+ * 
  * Time is number of milliseconds before reverting, zero for indefinitely.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

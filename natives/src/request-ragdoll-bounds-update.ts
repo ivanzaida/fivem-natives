@@ -5,8 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xA56B5C6A4349684D
 
- * Instructs the game to update ragdoll bounds for animated AI peds for a specified number of frames.
+ * 
+ * Instructs the game to update ragdoll bounds for animated AI peds for a specified number of frames.
+ * 
  * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

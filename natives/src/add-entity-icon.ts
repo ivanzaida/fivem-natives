@@ -5,9 +5,12 @@ import { EntityIndex, EntityIconId } from '@ivanzaida/structures'
  *
  * 0x2EB73EDE5BD6492D
 
- * Example:
+ * 
+ * Example:
  * GRAPHICS::ADD_ENTITY_ICON(a_0, "MP_Arrow");
+ * 
  * I tried this and nothing happened...
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entityID

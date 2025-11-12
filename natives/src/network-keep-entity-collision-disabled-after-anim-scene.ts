@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x69BED8420A766753
 
- * Stops the Cutscene anim manager from enabling the collision of the entity
+ * 
+ * Stops the Cutscene anim manager from enabling the collision of the entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

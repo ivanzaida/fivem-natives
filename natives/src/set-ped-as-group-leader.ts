@@ -5,7 +5,9 @@ import { PedIndex, GroupIndex } from '@ivanzaida/structures'
  *
  * 0xFF7B703047EDEC8F
 
- * The player is group leader of the players gropu and cannot be set leader of another gropu
+ * 
+ * The player is group leader of the players gropu and cannot be set leader of another gropu
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,8 +5,11 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x9EFC1351343A6835
 
- * Example from michael2 script.
+ * 
+ * Example from michael2 script.
+ * 
  * CAM::ANIMATED_SHAKE_CAM(l_5069, "shake_cam_all@", "light", "", 1f);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x75C0D0B8F3E221F1
 
- * Note that this command nulls the effect of any previous call to SET_CAM_DOF_STRENGTH, as the four DOF planes are overwritten and the relationship between the out-of-focus planes and the DOF strength is broken.
+ * 
+ * Note that this command nulls the effect of any previous call to SET_CAM_DOF_STRENGTH, as the four DOF planes are overwritten and the relationship between the out-of-focus planes and the DOF strength is broken.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

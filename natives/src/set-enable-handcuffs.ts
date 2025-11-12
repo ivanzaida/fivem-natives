@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x590E598CA58BADDE
 
- * ped can not pull out a weapon when true
+ * 
+ * ped can not pull out a weapon when true
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

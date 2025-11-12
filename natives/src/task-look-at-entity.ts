@@ -5,7 +5,9 @@ import { PedIndex, EntityIndex, EScriptLookFlag, EScriptLookPriority } from '@iv
  *
  * 0xE67051907958B5EB
 
- * For flags, please refer to TASK_LOOK_AT_COORD.
+ * 
+ * For flags, please refer to TASK_LOOK_AT_COORD.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

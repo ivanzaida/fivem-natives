@@ -3,7 +3,8 @@
  *
  * 0xDAEDE051F3F4FD45
 
- * AIRP = Los Santos International Airport
+ * 
+ * AIRP = Los Santos International Airport
  * ALAMO = Alamo Sea
  * ALTA = Alta
  * ARMYB = Fort Zancudo
@@ -92,7 +93,9 @@
  * ZANCUDO = Zancudo River
  * ZP_ORT = Port of South Los Santos
  * ZQ_UAR = Davis Quartz
+ * 
  * Full list of zones by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/zones.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

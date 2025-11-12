@@ -5,8 +5,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x9924343EC2EAE1E4
 
- * Returns whether a control is currently _not_ pressed.
+ * 
+ * Returns whether a control is currently _not_ pressed.
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

@@ -5,10 +5,13 @@ import { PlayerIndex, ERespawnQueryFlags } from '@ivanzaida/structures'
  *
  * 0x4249B4032FDD750E
 
- * one or both of RESPAWN_QUERY_FLAG_MAY_SPAWN_IN_INTERIOR and RESPAWN_QUERY_FLAG_MAY_SPAWN_IN_EXTERIOR should always be specified!
+ * 
+ * one or both of RESPAWN_QUERY_FLAG_MAY_SPAWN_IN_INTERIOR and RESPAWN_QUERY_FLAG_MAY_SPAWN_IN_EXTERIOR should always be specified!
+ * 
  * One of the first things it does is get the players ped.
  * Then it calls a function that is used in some tasks and ped based functions.
  * p5, p6, p7 is another coordinate (or zero), often related to `GET_BLIP_COORDS, in the decompiled scripts.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x51C8BEA2005931AB
 
- * Deletes the specified object, then sets the handle pointed to by the pointer to NULL.
+ * 
+ * Deletes the specified object, then sets the handle pointed to by the pointer to NULL.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} object [Ref]

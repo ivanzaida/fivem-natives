@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xD1ED03B26BD64F6C
 
- * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
+ * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

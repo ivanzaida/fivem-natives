@@ -5,7 +5,9 @@ import { EPedType, PedIndex } from '@ivanzaida/structures'
  *
  * 0xFA4D35AD36BDA1FE
 
- * Gets a random ped in the x/y/zRadius near the x/y/z coordinates passed.
+ * 
+ * Gets a random ped in the x/y/zRadius near the x/y/z coordinates passed.
+ * 
  * Ped Types:
  * Any = -1
  * Player = 1
@@ -16,6 +18,7 @@ import { EPedType, PedIndex } from '@ivanzaida/structures'
  * SWAT = 27
  * Animal = 28
  * Army = 29
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

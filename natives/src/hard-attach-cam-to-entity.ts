@@ -5,8 +5,11 @@ import { CameraIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x0D5706D462271DC4
 
- * Example from am_mp_drone script:
+ * 
+ * Example from am_mp_drone script:
+ * 
  * CAM::HARD_ATTACH_CAM_TO_ENTITY(Local_190.f_169, NETWORK::NET_TO_OBJ(Local_190.f_159), 0f, 0f, 180f, Var0, 1);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

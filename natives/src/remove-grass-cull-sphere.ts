@@ -5,7 +5,9 @@ import { GrassCullSphereHandle } from '@ivanzaida/structures'
  *
  * 0xB7F6A8F981EF6068
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GrassCullSphereHandle} handle

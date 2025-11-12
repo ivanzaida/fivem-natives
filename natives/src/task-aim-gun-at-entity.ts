@@ -5,8 +5,11 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x646DE293036A3499
 
- * The first ped must have a gun and it must be his current weapon to use this command.
+ * 
+ * The first ped must have a gun and it must be his current weapon to use this command.
+ * 
  * duration: the amount of time in milliseconds to do the task.  -1 will keep the task going until either another task is applied, or CLEAR_ALL_TASKS() is called with the ped
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

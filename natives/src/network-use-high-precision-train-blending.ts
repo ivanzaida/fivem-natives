@@ -5,9 +5,12 @@ import { NetworkIndex } from '@ivanzaida/structures'
  *
  * 0x0B5FFFF9010AEF80
 
- * Sets whether to use high precision network blending for the specified network ID.
+ * 
+ * Sets whether to use high precision network blending for the specified network ID.
  * High precision blending is useful for small objects that need to be kept very tightly in sync for gameplay purposes
+ * 
  * Implemented only for trains.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NetworkIndex} networkId

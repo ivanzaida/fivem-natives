@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xDEA4D02E8F52CE87
 
- * scenarioName example: "WORLD_HUMAN_GUARD_STAND"
+ * 
+ * scenarioName example: "WORLD_HUMAN_GUARD_STAND"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

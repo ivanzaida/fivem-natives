@@ -5,7 +5,9 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  *
  * 0xC0120BBCC298EA2F
 
- * Each ped model can have several drawables for each component. Each drawable can have several textures.
+ * 
+ * Each ped model can have several drawables for each component. Each drawable can have several textures.
+ * 
  * Ids
  * 0 - Head
  * 1 - Beard
@@ -19,6 +21,7 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  * 9 - Accessories 2
  * 10- Decals
  * 11 - Auxiliary parts for torso
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

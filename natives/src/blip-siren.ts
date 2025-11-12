@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5D4EC68787718A25
 
- * Plays the siren sound of a vehicle which is otherwise activated when fastly double-pressing the horn key.
+ * 
+ * Plays the siren sound of a vehicle which is otherwise activated when fastly double-pressing the horn key.
  * Only works on vehicles with a police siren.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} veh

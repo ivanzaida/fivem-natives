@@ -5,8 +5,11 @@ import { PedIndex, ETaskCombatPedFlags } from '@ivanzaida/structures'
  *
  * 0x849ABF0CBD8EE0D6
 
- * from armenian3.c4
+ * 
+ * from armenian3.c4
+ * 
  * TASK::TASK_PUT_PED_DIRECTLY_INTO_MELEE(PlayerPed, armenianPed, 0.0, -1.0, 0.0, 0);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

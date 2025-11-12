@@ -3,7 +3,8 @@
  *
  * 0xE81651AD79516E48
 
- * Examples:
+ * 
+ * Examples:
  *  g_384A = SYSTEM::START_NEW_SCRIPT("cellphone_flashhand", 1424);
  *  l_10D = SYSTEM::START_NEW_SCRIPT("taxiService", 1828);
  *  SYSTEM::START_NEW_SCRIPT("AM_MP_YACHT", 5000);
@@ -13,14 +14,18 @@
  *  SYSTEM::START_NEW_SCRIPT("FM_Mission_Controller", 31000);
  *  SYSTEM::START_NEW_SCRIPT("tennis_family", 3650);
  *  SYSTEM::START_NEW_SCRIPT("Celebrations", 3650);
+ * 
  * Decompiled examples of usage when starting a script:
+ * 
  *     SCRIPT::REQUEST_SCRIPT(a_0);
  *     if (SCRIPT::HAS_SCRIPT_LOADED(a_0)) {
  *         SYSTEM::START_NEW_SCRIPT(a_0, v_3);
  *         SCRIPT::SET_SCRIPT_AS_NO_LONGER_NEEDED(a_0);
  *         return 1;
  *     }
+ * 
  * or:
+ * 
  *     v_2 = "MrsPhilips2";
  *     SCRIPT::REQUEST_SCRIPT(v_2);
  *     while (!SCRIPT::HAS_SCRIPT_LOADED(v_2)) {
@@ -30,6 +35,7 @@
  *     sub_8792(36);
  *     SYSTEM::START_NEW_SCRIPT(v_2, 17000);
  *     SCRIPT::SET_SCRIPT_AS_NO_LONGER_NEEDED(v_2);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptName

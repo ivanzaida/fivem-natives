@@ -3,9 +3,12 @@
  *
  * 0x31DC11BF434AF20B
 
- * Start a session restart must be called when we are in mp and have
+ * 
+ * Start a session restart must be called when we are in mp and have
  * received a presence message and is safe to retrieve the inventory and/or player balance)
+ * 
  * Note: only one of the arguments can be set to true at a time
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} inventory

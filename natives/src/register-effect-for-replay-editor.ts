@@ -3,7 +3,9 @@
  *
  * 0xF32B2D960EF3FA6E
 
- * Does nothing (it's a nullsub).
+ * 
+ * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} effectName

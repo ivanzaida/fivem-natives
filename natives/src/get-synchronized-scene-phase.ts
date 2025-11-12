@@ -3,7 +3,9 @@
  *
  * 0xBD3B265153D3BA2D
 
- * Returns the current phase of the provided synchronized scene
+ * 
+ * Returns the current phase of the provided synchronized scene
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

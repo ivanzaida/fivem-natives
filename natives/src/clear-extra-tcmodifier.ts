@@ -3,7 +3,9 @@
  *
  * 0x15BEA5263EB7BF2A
 
- * Clears the secondary timecycle modifier usually set with _SET_EXTRA_TIMECYCLE_MODIFIER
+ * 
+ * Clears the secondary timecycle modifier usually set with _SET_EXTRA_TIMECYCLE_MODIFIER
+ * 
  * 
  * ------------------------------------------------------------------
  */

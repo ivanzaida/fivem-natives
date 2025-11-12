@@ -3,7 +3,9 @@
  *
  * 0x0A334014DFD4952C
 
- * Returns the total number of DLC weapon components that are available in SP.
+ * 
+ * Returns the total number of DLC weapon components that are available in SP.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} dlc

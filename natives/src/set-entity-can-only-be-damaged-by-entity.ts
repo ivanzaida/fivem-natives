@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x6662B1F8A5BFA0F2
 
- * Sets an entity to only be damaged by one other entity
+ * 
+ * Sets an entity to only be damaged by one other entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,8 +5,11 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0x88F483FBD433696A
 
- * start of an actionscript method called on a scaleform movie
+ * 
+ * start of an actionscript method called on a scaleform movie
+ * 
  * Push a function from the Scaleform onto the stack
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

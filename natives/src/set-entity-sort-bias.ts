@@ -5,9 +5,13 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xF1E557B19688B30D
 
- * Set a bias to be applied to an entity's sort distance
+ * 
+ * Set a bias to be applied to an entity's sort distance
+ * 
  * Only called once in the scripts.
+ * 
  * Related to weapon objects.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -5,8 +5,11 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x11BE263E767EF5C3
 
- * Nodes must be setup first before this is called. (Note: have to override all nodes in the spline)
+ * 
+ * Nodes must be setup first before this is called. (Note: have to override all nodes in the spline)
+ * 
  * Max value for p1 is 15.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

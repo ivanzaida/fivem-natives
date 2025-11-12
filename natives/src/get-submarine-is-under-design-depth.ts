@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6DBA6A508811E851
 
- * Get whether the submarine is under its design depth
+ * 
+ * Get whether the submarine is under its design depth
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

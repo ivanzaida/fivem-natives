@@ -5,8 +5,11 @@ import { PedIndex, GroupIndex } from '@ivanzaida/structures'
  *
  * 0x2D8E4004BC147E7E
 
- * This only will teleport the ped to the group leader if the group leader teleports (sets coords).
+ * 
+ * This only will teleport the ped to the group leader if the group leader teleports (sets coords).
+ * 
  * Only works in singleplayer
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

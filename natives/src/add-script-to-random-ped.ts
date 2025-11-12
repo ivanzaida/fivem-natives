@@ -5,10 +5,15 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x897DF886E8694302
 
- * BRAIN::ADD_SCRIPT_TO_RANDOM_PED("pb_prostitute", ${s_f_y_hooker_01}, 100, 0);
+ * 
+ * BRAIN::ADD_SCRIPT_TO_RANDOM_PED("pb_prostitute", ${s_f_y_hooker_01}, 100, 0);
+ * 
  * - Nacorpio
+ * 
  * -----
+ * 
  * Hardcoded to not work in Multiplayer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptName

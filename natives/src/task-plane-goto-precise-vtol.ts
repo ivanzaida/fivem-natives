@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF9B70B973193533C
 
- * Tells a plane with VTOL (like the Vulkan) to move precisely throughout the world.  Will fail for other vehicles
+ * 
+ * Tells a plane with VTOL (like the Vulkan) to move precisely throughout the world.  Will fail for other vehicles
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,7 +3,9 @@
  *
  * 0x6515FC329EEDD53D
 
- * Up to eight coordinates may be revealed per frame
+ * 
+ * Up to eight coordinates may be revealed per frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} worldPOSX

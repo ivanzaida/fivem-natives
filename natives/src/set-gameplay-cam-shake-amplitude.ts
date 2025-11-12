@@ -3,7 +3,9 @@
  *
  * 0xB3CAD109683148E3
 
- * Sets the amplitude for the gameplay (i.e. 3rd or 1st) camera to shake. Used in script "drunk_controller.ysc.c4" to simulate making the player drunk.
+ * 
+ * Sets the amplitude for the gameplay (i.e. 3rd or 1st) camera to shake. Used in script "drunk_controller.ysc.c4" to simulate making the player drunk.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amplitudeScalar Can be used to increase or decrease the amplitude of the shake effect.

@@ -3,8 +3,10 @@
  *
  * 0x132F0517E3CE528A
 
- * Adds an entity area with the specified start and end points
+ * 
+ * Adds an entity area with the specified start and end points
  * The return value is a script ID that can be used to refer to the same entity area again
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startX

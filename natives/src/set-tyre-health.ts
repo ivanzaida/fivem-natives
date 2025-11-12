@@ -5,7 +5,9 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  *
  * 0x8110C3A5371AD12D
 
- * SET_TYRE_WEAR_RATE must be active, otherwise values set to <1000.0f will default to 350.0f
+ * 
+ * SET_TYRE_WEAR_RATE must be active, otherwise values set to <1000.0f will default to 350.0f
+ * 
  * Usable wheels:
  * 0: wheel_lf
  * 1: wheel_rf
@@ -13,6 +15,7 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * 3: wheel_rm1
  * 4: wheel_lr
  * 5: wheel_rr
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,7 +3,9 @@
  *
  * 0x18E502A71E28968C
 
- * Gets the current ingame clock minute.
+ * 
+ * Gets the current ingame clock minute.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

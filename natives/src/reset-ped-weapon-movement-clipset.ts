@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC935F6A2D1890729
 
- * Resets the weapon movement clipset based on the currently equipped weapon.
+ * 
+ * Resets the weapon movement clipset based on the currently equipped weapon.
  * Weapon movement clipset are defined in weapons.meta
  * DON'T FORGET to unstream the clipset if no longer needed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

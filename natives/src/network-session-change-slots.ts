@@ -3,7 +3,9 @@
  *
  * 0x6160ECE40167CDEA
 
- * num player slots allowed in session, seems to work? 32 max
+ * 
+ * num player slots allowed in session, seems to work? 32 max
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} publicSlots

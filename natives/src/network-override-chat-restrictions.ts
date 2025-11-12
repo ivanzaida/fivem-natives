@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x38C14A8B378CBD7B
 
- * Could possibly bypass being muted or automatically muted
+ * 
+ * Could possibly bypass being muted or automatically muted
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

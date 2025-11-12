@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x91CEBBEA3A7FB79A
 
- * Used on helicopters and blimps during the CTaskVehicleLand task. Sets a value on the task to 10f
+ * 
+ * Used on helicopters and blimps during the CTaskVehicleLand task. Sets a value on the task to 10f
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

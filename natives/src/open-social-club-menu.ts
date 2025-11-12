@@ -3,7 +3,9 @@
  *
  * 0x20D7E34C22DC60AC
 
- * Uses the `SOCIAL_CLUB2` scaleform.
+ * 
+ * Uses the `SOCIAL_CLUB2` scaleform.
+ * 
  * 
  * ------------------------------------------------------------------
  */

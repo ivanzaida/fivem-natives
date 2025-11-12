@@ -3,7 +3,9 @@
  *
  * 0x53F38E2C8579B2AA
 
- * Returns whether a script is using the navmesh region (including the calling script)
+ * 
+ * Returns whether a script is using the navmesh region (including the calling script)
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

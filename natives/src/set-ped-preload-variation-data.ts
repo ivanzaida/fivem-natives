@@ -5,9 +5,12 @@ import { PedIndex, EPedComponent } from '@ivanzaida/structures'
  *
  * 0xBE291C733F237949
 
- * from extreme3.c4
+ * 
+ * from extreme3.c4
  * PED::SET_PED_PRELOAD_VARIATION_DATA(PLAYER::PLAYER_PED_ID(), 8, PED::GET_PED_DRAWABLE_VARIATION(PLAYER::PLAYER_PED_ID(), 8), PED::GET_PED_TEXTURE_VARIATION(PLAYER::PLAYER_PED_ID(), 8));
+ * 
  * p1 is probably componentId
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

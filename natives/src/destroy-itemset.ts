@@ -5,7 +5,9 @@ import { ItemsetIndex } from '@ivanzaida/structures'
  *
  * 0x2BDB03D2AA09D565
 
- * The set members are unaffected, not destroyed by this command.
+ * 
+ * The set members are unaffected, not destroyed by this command.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ItemsetIndex} itemSet

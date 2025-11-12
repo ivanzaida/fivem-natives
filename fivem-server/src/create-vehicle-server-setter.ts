@@ -14,7 +14,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * @param {number} y Spawn coordinate Y component.
  * @param {number} z Spawn coordinate Z component.
  * @param {number} heading Heading to face towards, in degrees.
- * @returns {VehicleIndex}  A script handle for the vehicle.
+ * @returns {VehicleIndex}  A script handle for the vehicle, or 0 if the vehicle failed to be created.
  */
 export function createVehicleServerSetter(modelHash: number, type: string, x: number, y: number, z: number, heading: number): VehicleIndex {
 	const createVehicleServerSetter_result = Citizen.invokeNative<VehicleIndex>('0x6AE51D4B', modelHash, type, x, y, z, heading);

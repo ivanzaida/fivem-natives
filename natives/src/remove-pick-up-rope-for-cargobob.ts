@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x22697BCF9D7EB9FF
 
- * Retracts the hook on the cargobob.
+ * 
+ * Retracts the hook on the cargobob.
+ * 
  * Note: after you retract it the natives for dropping the hook no longer work
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

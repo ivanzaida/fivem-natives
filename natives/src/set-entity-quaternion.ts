@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xF425E0B05426E088
 
- * w is the correct parameter name!
+ * 
+ * w is the correct parameter name!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

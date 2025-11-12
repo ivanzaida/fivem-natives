@@ -3,7 +3,9 @@
  *
  * 0x20C160A285F3529C
 
- * Start a transition out of the currently active script modifier.
+ * 
+ * Start a transition out of the currently active script modifier.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} time

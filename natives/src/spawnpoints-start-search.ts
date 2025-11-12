@@ -5,8 +5,10 @@ import { ESpawnpointsFlags } from '@ivanzaida/structures'
  *
  * 0x965EA50BC3B24F5B
 
- * Starts an asynchronous seach for spawnpoints
+ * 
+ * Starts an asynchronous seach for spawnpoints
  * Only a single search may be performed at any time; there is no queueing mechanism
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} searchOriginX

@@ -3,8 +3,10 @@
  *
  * 0xA9C10BD85DD34D7E
 
- * Enable the stunt jump audio detection code
+ * 
+ * Enable the stunt jump audio detection code
  * This command is meant to be called continuously while we want that code active
+ * 
  * 
  * ------------------------------------------------------------------
  */

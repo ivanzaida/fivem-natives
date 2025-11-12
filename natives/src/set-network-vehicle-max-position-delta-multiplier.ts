@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x8526C06631BA8A87
 
- * rage::netBlenderLinInterp::GetPositionMaxForUpdateLevel
+ * 
+ * rage::netBlenderLinInterp::GetPositionMaxForUpdateLevel
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

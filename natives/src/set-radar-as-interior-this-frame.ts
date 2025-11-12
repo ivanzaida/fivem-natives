@@ -3,8 +3,10 @@
  *
  * 0xF42A811582CF3AE1
 
- * List of interior hashes: https://pastebin.com/1FUyXNqY
+ * 
+ * List of interior hashes: https://pastebin.com/1FUyXNqY
  * Not for every interior zoom > 0 available.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} interiorHash

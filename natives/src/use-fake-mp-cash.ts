@@ -3,8 +3,10 @@
  *
  * 0x97F5AFA09D818568
 
- * Related to displaying cash on the HUD
+ * 
+ * Related to displaying cash on the HUD
  * Always called before HUD::CHANGE_FAKE_MP_CASH in decompiled scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} useFakeMPCash

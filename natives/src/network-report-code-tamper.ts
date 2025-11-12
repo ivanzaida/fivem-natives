@@ -3,7 +3,9 @@
  *
  * 0x5CE41A29691C7614
 
- * Peers send telemetry reporting this guy as a cheater.
+ * 
+ * Peers send telemetry reporting this guy as a cheater.
+ * 
  * 
  * ------------------------------------------------------------------
  */

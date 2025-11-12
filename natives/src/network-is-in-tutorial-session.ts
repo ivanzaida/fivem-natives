@@ -3,8 +3,10 @@
  *
  * 0xF859473E4AD09F30
 
- * Returns whether the local player is currently in a tutorial session began via a call to either
+ * 
+ * Returns whether the local player is currently in a tutorial session began via a call to either
  * NETWORK_START_SOLO_TUTORIAL_SESSION() or NETWORK_ALLOW_GANG_TO_JOIN_TUTORIAL_SESSION()
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

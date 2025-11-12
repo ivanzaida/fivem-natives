@@ -3,8 +3,11 @@
  *
  * 0xD7F2FC1281F868FD
 
- * Query of the async NG install has finished
+ * 
+ * Query of the async NG install has finished
+ * 
  * Hardcoded to always return true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

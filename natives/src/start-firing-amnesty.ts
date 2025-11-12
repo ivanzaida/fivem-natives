@@ -3,7 +3,9 @@
  *
  * 0x97915D82C999021F
 
- * This should be called when a mission is passed or on autosave.
+ * 
+ * This should be called when a mission is passed or on autosave.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} duration

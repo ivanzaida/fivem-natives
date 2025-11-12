@@ -5,7 +5,9 @@ import { ItemsetIndex } from '@ivanzaida/structures'
  *
  * 0xED06F75C0AB45AAA
 
- * If auto-cleaning, invalid items will get cleaned up first.
+ * 
+ * If auto-cleaning, invalid items will get cleaned up first.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ItemsetIndex} itemSet

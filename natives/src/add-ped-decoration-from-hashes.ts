@@ -5,10 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x49A5A17556C31561
 
- * Same as ADD_PED_DECORATION, but with hashes
+ * 
+ * Same as ADD_PED_DECORATION, but with hashes
+ * 
  * Applies an Item from a PedDecorationCollection to a ped. These include tattoos and shirt decals.
+ * 
  * collection - PedDecorationCollection filename hash
  * overlay - Item name hash
+ * 
  * Example:
  * Entry inside "mpbeach_overlays.xml" -
  * <Item>
@@ -26,9 +30,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *   <award />
  *   <awardLevel />
  * </Item>
+ * 
  * Code:
  * PED::ADD_PED_DECORATION_FROM_HASHES(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("mpbeach_overlays"), MISC::GET_HASH_KEY("fm_hair_fuzz"))
+ * 
  * Full list of ped overlays / decorations by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/pedOverlayCollections.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

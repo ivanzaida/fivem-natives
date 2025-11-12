@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x1849D5FA4A78390C
 
- * Sets entity+38 to C (when false) or 0xFF3f (when true)
+ * 
+ * Sets entity+38 to C (when false) or 0xFF3f (when true)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entityID

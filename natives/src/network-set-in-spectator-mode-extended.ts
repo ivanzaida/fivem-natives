@@ -5,10 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x522EF6D7B4059F2C
 
- * Set the local in spectator Mode. pedIndex - Ped index to spectate.
+ * 
+ * Set the local in spectator Mode. pedIndex - Ped index to spectate.
  * If the index is -1 the it only sets the spectator flag.
  * By default it's not allowed to start spectating a player in a different tutorial session, this can
  * be allowed by setting the skipTutorialCheck parameter
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} inSpectatorMode

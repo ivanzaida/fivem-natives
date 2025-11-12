@@ -3,7 +3,9 @@
  *
  * 0xCBF07B57F6F01E05
 
- * Call this before starting cutscene to hide all projectiles during cutscene
+ * 
+ * Call this before starting cutscene to hide all projectiles during cutscene
+ * 
  * 
  * ------------------------------------------------------------------
  */

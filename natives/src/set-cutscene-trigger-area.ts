@@ -3,8 +3,11 @@
  *
  * 0x09B8E842C8055B05
 
- * Depending on the type of of cutscene it maybe possible orientate the cutscene over a range of angles.
+ * 
+ * Depending on the type of of cutscene it maybe possible orientate the cutscene over a range of angles.
+ * 
  * Only used twice in R scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} offsetFromSceneOriginX

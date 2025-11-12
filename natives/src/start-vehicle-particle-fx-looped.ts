@@ -3,8 +3,10 @@
  *
  * 0xDF269BE2909E181A
 
- * Returns ptfxHandle
+ * 
+ * Returns ptfxHandle
  * effectName: scr_sv_drag_burnout
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

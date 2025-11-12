@@ -5,7 +5,9 @@ import { EPhotoOperationStatus } from '@ivanzaida/structures'
  *
  * 0x7522B8298919A016
 
- * Hardcoded to always return 2.
+ * 
+ * Hardcoded to always return 2.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} photoSlot

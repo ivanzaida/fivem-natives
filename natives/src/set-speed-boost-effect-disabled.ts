@@ -3,7 +3,9 @@
  *
  * 0x42B109962C4D43EC
 
- * Disables the screen effects and sound effects when driving over a speed boost pad.
+ * 
+ * Disables the screen effects and sound effects when driving over a speed boost pad.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} invertControls

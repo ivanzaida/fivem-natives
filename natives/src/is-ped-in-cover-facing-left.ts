@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC0BE0D29628A246A
 
- * Checks if the ped is currently facing left in cover. Note you should call IS_PED_IN_COVER first to ensure the ped is
+ * 
+ * Checks if the ped is currently facing left in cover. Note you should call IS_PED_IN_COVER first to ensure the ped is
  * in cover, this will return false if the ped is not in cover.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

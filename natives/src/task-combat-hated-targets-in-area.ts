@@ -5,7 +5,9 @@ import { PedIndex, ETaskCombatPedFlags } from '@ivanzaida/structures'
  *
  * 0x6D81908BD7709ABC
 
- * Despite its name, it only attacks ONE hated target. The one closest to the specified position.
+ * 
+ * Despite its name, it only attacks ONE hated target. The one closest to the specified position.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { PedIndex, ECoverExitType } from '@ivanzaida/structures'
  *
  * 0x03BD287EC78FB55F
 
- * p1 is 1, 2, or 3 in scripts
+ * 
+ * p1 is 1, 2, or 3 in scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

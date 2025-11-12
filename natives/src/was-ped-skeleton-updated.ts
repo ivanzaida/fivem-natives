@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x3268785AA66D674C
 
- * Despite this function's name, it simply returns whether the specified handle is a Ped.
+ * 
+ * Despite this function's name, it simply returns whether the specified handle is a Ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,13 +5,17 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4669032A1DFBB449
 
- * Makes the ped use a different movement clipset
+ * 
+ * Makes the ped use a different movement clipset
  * e.g for making a fat ped run faster
  * The default movement clipset is defined in peds.meta under <MovementClipSet>
  * DON'T FORGET to stream in the new clipset before calling this
+ * 
  * transitionSpeed is the time in seconds it takes to transition from one movement clipset to another.	ransitionSpeed is usually 1.0f
+ * 
  * List of movement clipsets:
  * Thanks to elsewhat for list.
+ * 
  *  "ANIM_GROUP_MOVE_BALLISTIC"
  *  "ANIM_GROUP_MOVE_LEMAR_ALLEY"
  *  "clipset@move@trash_fast_turn"
@@ -57,8 +61,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *  "MOVE_F@POSH@"
  *  "MOVE_M@TOUGH_GUY@"
  *  "MOVE_F@TOUGH_GUY@"
+ * 
  * ~ NotCrunchyTaco
+ * 
  * Full list of movement clipsets by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/movementClipsetsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

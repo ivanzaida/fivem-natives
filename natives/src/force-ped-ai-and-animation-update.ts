@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD8ED11B32DF72E0B
 
- * Forces a late AI and animation update, to be used only when warping a character and/or
+ * 
+ * Forces a late AI and animation update, to be used only when warping a character and/or
  * instantly changing animation state.
  * this is an expensive command - please speak to AI before using
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

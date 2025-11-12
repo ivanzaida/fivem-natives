@@ -5,7 +5,9 @@ import { ERelationshipType, ERelGroupHash } from '@ivanzaida/structures'
  *
  * 0x40D1AAC4EFD3C281
 
- * Clears the relationship between two groups. This should be called twice (once for each group).
+ * 
+ * Clears the relationship between two groups. This should be called twice (once for each group).
+ * 
  * Relationship types:
  * 0 = Companion
  * 1 = Respect
@@ -15,9 +17,11 @@ import { ERelationshipType, ERelGroupHash } from '@ivanzaida/structures'
  * 5 = Hate
  * 255 = Pedestrians
  * (Credits: Inco)
+ * 
  * Example:
  * PED::CLEAR_RELATIONSHIP_BETWEEN_GROUPS(2, l_1017, 0xA49E591C);
  * PED::CLEAR_RELATIONSHIP_BETWEEN_GROUPS(2, 0xA49E591C, l_1017);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ERelationshipType} relationshipType

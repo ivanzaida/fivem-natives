@@ -3,7 +3,9 @@
  *
  * 0x81B15F40AAE95932
 
- * Clears the tactical nav mesh points
+ * 
+ * Clears the tactical nav mesh points
+ * 
  * 
  * ------------------------------------------------------------------
  */

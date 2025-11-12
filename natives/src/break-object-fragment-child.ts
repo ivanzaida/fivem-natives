@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x8C4D4D7E3B6BC910
 
- * Remove one of the parts of an fragment based object.
+ * 
+ * Remove one of the parts of an fragment based object.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

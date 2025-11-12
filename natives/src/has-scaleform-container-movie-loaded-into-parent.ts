@@ -5,7 +5,9 @@ import { ScaleformIndex } from '@ivanzaida/structures'
  *
  * 0xD1417F25E6970920
 
- * returns TRUE if this movie has got a child and its loaded
+ * 
+ * returns TRUE if this movie has got a child and its loaded
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformIndex} scaleformMovieId

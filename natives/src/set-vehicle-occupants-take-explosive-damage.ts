@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x00F38E42DE1E8071
 
- * Sets whether vehicle occupants can take explosive damage if the vehicle is invincible/explosion proof.
+ * 
+ * Sets whether vehicle occupants can take explosive damage if the vehicle is invincible/explosion proof.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

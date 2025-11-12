@@ -5,8 +5,11 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x7825AE6DE930430C
 
- * Will only force it on if the weapon is not owned by a ped (i.e. It belongs to a cutscene).
+ * 
+ * Will only force it on if the weapon is not owned by a ped (i.e. It belongs to a cutscene).
+ * 
  * Requires a component_at__flsh to be attached to the weapon object
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

@@ -5,7 +5,9 @@ import { PedIndex, ELadderInputState } from '@ivanzaida/structures'
  *
  * 0x52E59AF01BE23E89
 
- * Only appears in lamar1 script.
+ * 
+ * Only appears in lamar1 script.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,8 +3,10 @@
  *
  * 0xD544869339AEE474
 
- * Returns the maximum number of vehicles supported by the network game. This includes those
+ * 
+ * Returns the maximum number of vehicles supported by the network game. This includes those
  * available for use by the ambient population.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

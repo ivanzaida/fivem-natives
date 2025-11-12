@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x5081B6C697A334D4
 
- * Used to set the secondary livery (the roof on Tornado Custom being one such example.)
+ * 
+ * Used to set the secondary livery (the roof on Tornado Custom being one such example.)
+ * 
  * Livery value is dependent on the amount of liveries present in the vehicle's texture dictionary, for Tornado Custom this would be 0-6.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

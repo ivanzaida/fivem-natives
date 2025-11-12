@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x26E9393912EA6F6A
 
- * Resets the in vehicle context.
+ * 
+ * Resets the in vehicle context.
  * DON'T FORGET to unstream the clipset if no longer needed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

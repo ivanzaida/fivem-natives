@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x362D577C98803D6D
 
- * Pops off the "roof" bone in the direction of the specified offset from the vehicle.
+ * 
+ * Pops off the "roof" bone in the direction of the specified offset from the vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

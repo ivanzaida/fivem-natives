@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x3D4B0DBFA0E78D88
 
- * HAS_ANIM_EVENT_FIRED requires the entity to have a skeleton. You can use this command
+ * 
+ * HAS_ANIM_EVENT_FIRED requires the entity to have a skeleton. You can use this command
  * to check that the entity has a skeleton before calling that command.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

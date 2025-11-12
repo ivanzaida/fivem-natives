@@ -3,7 +3,9 @@
  *
  * 0x2070D32BEB6A3825
 
- * Saves the benchmark recording to %USERPROFILE%\Documents\Rockstar Games\GTA V\Benchmarks and submits some metrics.
+ * 
+ * Saves the benchmark recording to %USERPROFILE%\Documents\Rockstar Games\GTA V\Benchmarks and submits some metrics.
+ * 
  * 
  * ------------------------------------------------------------------
  */

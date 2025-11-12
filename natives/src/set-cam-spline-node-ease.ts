@@ -5,7 +5,9 @@ import { CameraIndex, ECamSplineNodeFlags } from '@ivanzaida/structures'
  *
  * 0xA054197DA0CA8B1B
 
- * Nodes must be setup first, then the linear flag can be modified.
+ * 
+ * Nodes must be setup first, then the linear flag can be modified.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

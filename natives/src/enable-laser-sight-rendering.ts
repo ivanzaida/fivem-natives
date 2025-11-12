@@ -3,8 +3,11 @@
  *
  * 0xAB078CF87FA0D018
 
- * Enables laser sight on any weapon.
+ * 
+ * Enables laser sight on any weapon.
+ * 
  * It doesn't work. Neither on tick nor OnKeyDown
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

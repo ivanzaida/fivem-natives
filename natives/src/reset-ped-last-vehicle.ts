@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x61BB4B7411E1DF82
 
- * Resets the value for the last vehicle driven by the Ped.
+ * 
+ * Resets the value for the last vehicle driven by the Ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

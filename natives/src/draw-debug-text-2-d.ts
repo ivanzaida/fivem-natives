@@ -3,8 +3,11 @@
  *
  * 0xBBB7593C7244A846
 
- * This command draws to the screen game screen. The top left of the screen is 0,0 and the bottom right is 1,1. so all values should be bewteen these values.
+ * 
+ * This command draws to the screen game screen. The top left of the screen is 0,0 and the bottom right is 1,1. so all values should be bewteen these values.
+ * 
  * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} text

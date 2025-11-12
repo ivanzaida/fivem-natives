@@ -5,9 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x20DD46D27530FAC7
 
- * Car models have a number of colour combinations preset for them in carvariations.pso.meta
+ * 
+ * Car models have a number of colour combinations preset for them in carvariations.pso.meta
  * Use GET_NUM_CAR_COLOURS first to find out how many combinations there are.
+ * 
  * Sets the selected vehicle's colors to the specified index of the color combination found in the vehicle's carvariations.meta entry.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

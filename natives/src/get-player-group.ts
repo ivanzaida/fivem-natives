@@ -5,9 +5,12 @@ import { PlayerIndex, GroupIndex } from '@ivanzaida/structures'
  *
  * 0xD59511AF30BE1934
 
- * When the player is created, a group is also created with the player as its leader.
+ * 
+ * When the player is created, a group is also created with the player as its leader.
  * You should never need to create another group for the player to lead.
+ * 
  * Returns the group ID the player is member of.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

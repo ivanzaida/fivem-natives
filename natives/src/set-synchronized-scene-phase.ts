@@ -3,8 +3,10 @@
  *
  * 0x7BB893EF8F683419
 
- * Use this command to change a synchronised scene's phase after it has been created. Changing the phase of a synced
+ * 
+ * Use this command to change a synchronised scene's phase after it has been created. Changing the phase of a synced
  * scene will update the phases of any objects attached to it.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

@@ -5,7 +5,8 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7B1141C6
 
- * Flags from decompiled scripts:
+ * 
+ * Flags from decompiled scripts:
  * 0 = normal exit and closes door.
  * 1 = normal exit and closes door.
  * 16 = teleports outside, door kept closed.
@@ -13,7 +14,9 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  * 256 = normal exit but does not close the door.
  * 4160 = ped is throwing himself out, even when the vehicle is still.
  * 262144 = ped moves to passenger seat first, then exits normally
+ * 
  * Others to be tried out: 320, 512, 131072.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

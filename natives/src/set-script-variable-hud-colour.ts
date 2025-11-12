@@ -3,9 +3,12 @@
  *
  * 0xDBEFC24929CE2C54
 
- * The first script variable colour is marked with a ~v~ in the text. Call this command to set the RGBA value of that colour.
+ * 
+ * The first script variable colour is marked with a ~v~ in the text. Call this command to set the RGBA value of that colour.
  * Your setting will stay in effect until the next call to this command
+ * 
  * Sets the color of HUD_COLOUR_SCRIPT_VARIABLE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} red

@@ -5,7 +5,9 @@ import { PlayerIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0xD109ACB1A444BD9D
 
- * -1 means the killer is unknown
+ * 
+ * -1 means the killer is unknown
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} plr

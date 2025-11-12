@@ -5,11 +5,14 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  *
  * 0x7FFAD424E930B802
 
- * Controls how fast the tires wear out.
+ * 
+ * Controls how fast the tires wear out.
+ * 
  * Default values from Rockstar's Open Wheel Race JSON's:
  * "owrtss" (Soft): 2.2
  * "owrtsm" (Medium): 1.7
  * "owrtsh" (Hard): 1.2
+ * 
  * Usable wheels:
  * 0: wheel_lf
  * 1: wheel_rf
@@ -17,6 +20,7 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * 3: wheel_rm1
  * 4: wheel_lr
  * 5: wheel_rr
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

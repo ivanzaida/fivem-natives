@@ -3,7 +3,9 @@
  *
  * 0xFC14A38C4235E772
 
- * Must be called every frame
+ * 
+ * Must be called every frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} value

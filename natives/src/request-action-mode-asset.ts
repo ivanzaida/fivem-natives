@@ -3,7 +3,9 @@
  *
  * 0xEC6AB0F95905E8F0
 
- * Used to prevent delays for missions peds getting in action mode, forcing action mode
+ * 
+ * Used to prevent delays for missions peds getting in action mode, forcing action mode
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} actionMode

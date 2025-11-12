@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x61BBBE1B9F8AC7D0
 
- * Enables diving motion when underwater.
+ * 
+ * Enables diving motion when underwater.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

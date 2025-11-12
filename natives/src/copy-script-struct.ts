@@ -3,7 +3,9 @@
  *
  * 0xDD7F149F8BAF1260
 
- * Copies the contents of SourceStruct into DestStruct. It's assumed that both structs are of the same type and therefore have the same size.
+ * 
+ * Copies the contents of SourceStruct into DestStruct. It's assumed that both structs are of the same type and therefore have the same size.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {DataView} destStruct [Ref]

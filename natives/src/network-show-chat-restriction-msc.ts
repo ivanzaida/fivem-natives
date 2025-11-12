@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x230CD2039E115591
 
- * Call to show system message about chat restriction.
+ * 
+ * Call to show system message about chat restriction.
+ * 
  * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} localGamer

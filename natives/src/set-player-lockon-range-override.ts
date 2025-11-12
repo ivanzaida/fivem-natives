@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xE7B6A36E4BDF7C4C
 
- * Affects the range of auto aim target.
+ * 
+ * Affects the range of auto aim target.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

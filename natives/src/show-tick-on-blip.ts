@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x80595F890177CB50
 
- * Adds a green checkmark on top of a blip.
+ * 
+ * Adds a green checkmark on top of a blip.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

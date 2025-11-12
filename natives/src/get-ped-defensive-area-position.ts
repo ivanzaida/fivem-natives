@@ -5,7 +5,9 @@ import { PedIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x93B95A59CB61088B
 
- * Will return a zero vector if the requested defensive area does not exist
+ * 
+ * Will return a zero vector if the requested defensive area does not exist
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

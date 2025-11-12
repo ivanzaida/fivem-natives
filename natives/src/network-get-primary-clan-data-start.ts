@@ -5,8 +5,10 @@ import { GamersHandles } from '@ivanzaida/structures'
  *
  * 0xAC93CF5F25CF17A8
 
- * Returns TRUE if data retrieval has been started Successfully. Must not be PENDING and data must from
+ * 
+ * Returns TRUE if data retrieval has been started Successfully. Must not be PENDING and data must from
  * previous requests must be cleared before.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamersHandles} gamerHandleData

@@ -5,8 +5,10 @@ import { PtfxId } from '@ivanzaida/structures'
  *
  * 0xE1CDA05FEF060763
 
- * If the particle effect is attached to an entity (ped, vehicle or object) then the new position is an offset from that entity.
+ * 
+ * If the particle effect is attached to an entity (ped, vehicle or object) then the new position is an offset from that entity.
  * If the particle effect is not attached to an entity (ped, vehicle or object) then the new position is a world position.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PtfxId} ptfxId

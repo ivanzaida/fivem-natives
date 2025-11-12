@@ -3,7 +3,9 @@
  *
  * 0x1DC06048E0BEE337
 
- * Sets a flag. A valid id is 0x157DC10D
+ * 
+ * Sets a flag. A valid id is 0x157DC10D
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} garageHash

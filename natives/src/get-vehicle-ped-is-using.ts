@@ -5,7 +5,9 @@ import { PedIndex, VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xCDA725BC2F170795
 
- * Gets ID of vehicle player using. It means it can get ID at any interaction with vehicle. Enter\exit for example. And that means it is faster than GET_VEHICLE_PED_IS_IN but less safe.
+ * 
+ * Gets ID of vehicle player using. It means it can get ID at any interaction with vehicle. Enter\exit for example. And that means it is faster than GET_VEHICLE_PED_IS_IN but less safe.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

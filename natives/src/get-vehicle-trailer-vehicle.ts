@@ -5,7 +5,9 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x20974C28142EB370
 
- * Gets the trailer of a vehicle and puts it into the trailer parameter.
+ * 
+ * Gets the trailer of a vehicle and puts it into the trailer parameter.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

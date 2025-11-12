@@ -6,9 +6,12 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x6009FBA2EAAA60BE
 
- * Returns a heading which can be used to set a car facing in a reasonable direction when it is placed on the car node.
+ * 
+ * Returns a heading which can be used to set a car facing in a reasonable direction when it is placed on the car node.
  * The command will return FALSE if no node could be found (probably due to the nodes not being streamed in).
+ * 
  * Get the nth closest vehicle node and its heading.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

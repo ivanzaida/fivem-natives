@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xE59BDA10CE05FD35
 
- * Prevent climbing on a particular entity.
+ * 
+ * Prevent climbing on a particular entity.
+ * 
  * p1 always false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

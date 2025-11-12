@@ -3,8 +3,10 @@
  *
  * 0xF13626F74924F72A
 
- * Similar to _DRAW_SPRITE, but seems to be some kind of "interactive" sprite, at least used by render targets.
+ * 
+ * Similar to _DRAW_SPRITE, but seems to be some kind of "interactive" sprite, at least used by render targets.
  * These seem to be the only dicts ever requested by this native:
+ * 
  * prop_screen_biker_laptop
  * Prop_Screen_GR_Disruption
  * Prop_Screen_TaleOfUs
@@ -15,6 +17,7 @@
  * MPDesktop
  * Prop_Screen_Nightclub
  * And a few others
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textureDictionaryName

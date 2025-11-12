@@ -5,8 +5,11 @@ import { ModelNames, ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x8366ABB82B1ABC59
 
- * Has 8 params in the latest patches.
+ * 
+ * Has 8 params in the latest patches.
+ * 
  * isMission - if true doesn't return mission objects
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scrVecCentreCoorsX

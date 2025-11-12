@@ -5,8 +5,11 @@ import { EntityIndex, EAnimPriorityFlags } from '@ivanzaida/structures'
  *
  * 0xE1C7B23ECC5080B5
 
- * Stops playback of animation on the given priority level of an existing TASK_SCRIPTED_ANIMATION
+ * 
+ * Stops playback of animation on the given priority level of an existing TASK_SCRIPTED_ANIMATION
+ * 
  * Looks like p1 may be a flag, still need to do some research, though.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

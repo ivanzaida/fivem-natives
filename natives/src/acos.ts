@@ -3,7 +3,9 @@
  *
  * 0x42CDD13001C98400
 
- * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
+ * 
+ * see http:en.wikipedia.org/wiki/Inverse_trigonometric_function
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

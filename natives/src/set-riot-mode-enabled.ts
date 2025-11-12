@@ -3,8 +3,11 @@
  *
  * 0x44182C1D103A97D2
 
- * Toggles riot mode
+ * 
+ * Toggles riot mode
+ * 
  * Activates (usused?) riot mode. All NPCs are being hostile to each other (including player). Also the game will give weapons (pistols, smgs) to random NPCs.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enabled

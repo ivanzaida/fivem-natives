@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x09C0E5FA1EBC1D84
 
- * Returns false if every seat is occupied.
+ * 
+ * Returns false if every seat is occupied.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

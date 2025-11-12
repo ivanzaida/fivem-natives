@@ -3,7 +3,9 @@
  *
  * 0x33F8639DDBB019B4
 
- * Shuts down the helper split time helper for mp script races and cleans up memory
+ * 
+ * Shuts down the helper split time helper for mp script races and cleans up memory
+ * 
  * 
  * ------------------------------------------------------------------
  */

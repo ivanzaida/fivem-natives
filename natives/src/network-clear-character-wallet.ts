@@ -3,7 +3,9 @@
  *
  * 0x8DAD1FB87B248966
 
- * Only call this during a creation of a new character
+ * 
+ * Only call this during a creation of a new character
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} character

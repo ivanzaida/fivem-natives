@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x7405FEB2AD8926AC
 
- * Only cosinder using this if IS_AREA_OCCUPIED is not working properly. This version is more expensive, but should be more accurate.
+ * 
+ * Only cosinder using this if IS_AREA_OCCUPIED is not working properly. This version is more expensive, but should be more accurate.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minCoorsX

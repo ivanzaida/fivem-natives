@@ -5,7 +5,9 @@ import { EControlType, EControlActionGroup } from '@ivanzaida/structures'
  *
  * 0xF761D79754BC3043
 
- * control: unused parameter
+ * 
+ * control: unused parameter
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

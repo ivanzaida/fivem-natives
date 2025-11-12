@@ -3,7 +3,9 @@
  *
  * 0x05E996648244715D
 
- * Toggles the Cayo Perico map.
+ * 
+ * Toggles the Cayo Perico map.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} useIslandMap

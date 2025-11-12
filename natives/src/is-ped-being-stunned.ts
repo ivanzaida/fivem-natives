@@ -5,7 +5,9 @@ import { PedIndex, EWeaponType } from '@ivanzaida/structures'
  *
  * 0x11BF418D1AFD7970
 
- * p1 is always 0
+ * 
+ * p1 is always 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

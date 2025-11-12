@@ -3,8 +3,10 @@
  *
  * 0xEF5DC41D990F8FD2
 
- * Forces follow ped camera to use ladder alignment code for next update.
+ * 
+ * Forces follow ped camera to use ladder alignment code for next update.
  * Call this repeatedly during scripted sequences where this behaviour is required.
+ * 
  * 
  * ------------------------------------------------------------------
  */

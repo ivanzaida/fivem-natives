@@ -5,8 +5,10 @@ import { PlayerIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x1DE8C13F47D5A73F
 
- * Can only register a MAXIMUM of 5 entities! Please contact Blair Trusler, Paulius Bernotas or David Hynd if you need this increased.
+ * 
+ * Can only register a MAXIMUM of 5 entities! Please contact Blair Trusler, Paulius Bernotas or David Hynd if you need this increased.
  * This does not guarantee target will be locked-on to, normal validation will still be run (for example CObjects will still need to be flagged as targetable via SET_OBJECT_TARGETTABLE)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

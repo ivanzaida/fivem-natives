@@ -5,8 +5,10 @@ import { EEHelpMessageId } from '@ivanzaida/structures'
  *
  * 0x5E01B6B1F460FE3F
 
- * shape goes from -1 to 50 (may be more).
+ * 
+ * shape goes from -1 to 50 (may be more).
  * p0 is always 0.
+ * 
  * Example:
  * void FloatingHelpText(const char text)
  * {
@@ -14,11 +16,15 @@ import { EEHelpMessageId } from '@ivanzaida/structures'
  *   ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);
  *    END_TEXT_COMMAND_DISPLAY_HELP (0, 0, 1, -1);
  * }
+ * 
  * Image:
  * - imgbin.org/images/26209.jpg
+ * 
  * more inputs/icons:
  * - https://pastebin.com/nqNYWMSB
+ * 
  * Used to be known as _DISPLAY_HELP_TEXT_FROM_STRING_LABEL
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEHelpMessageId} helpId

@@ -3,9 +3,11 @@
  *
  * 0xA71470E61CE061AE
 
- * Use SC_LICENSEPLATE_GET_CHECK_IS_PENDING() and wait for the request to finish.  Once
+ * 
+ * Use SC_LICENSEPLATE_GET_CHECK_IS_PENDING() and wait for the request to finish.  Once
  * it's finished, use SC_LICENSEPLATE_GET_COUNT() to get the count of license plates retrieved,
  * then iterate using an index to get individual license plates.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} token

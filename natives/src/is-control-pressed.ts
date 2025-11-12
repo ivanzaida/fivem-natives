@@ -5,8 +5,10 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0x6D05C5731A838CB3
 
- * Returns whether a control is currently pressed.
+ * 
+ * Returns whether a control is currently pressed.
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

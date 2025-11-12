@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4E3A0CC4
 
- * Sets the armor of the specified ped.
+ * 
+ * Sets the armor of the specified ped.
+ * 
  * ped: The Ped to set the armor of.
  * amount: A value between 0 and 100 indicating the value to set the Ped's armor to.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

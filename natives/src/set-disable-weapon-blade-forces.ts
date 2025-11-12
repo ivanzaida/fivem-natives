@@ -3,7 +3,9 @@
  *
  * 0x4F80CD41C0C6F1E3
 
- * Sets some global vehicle related bool
+ * 
+ * Sets some global vehicle related bool
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} disableBladeForce

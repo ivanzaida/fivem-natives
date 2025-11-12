@@ -3,8 +3,11 @@
  *
  * 0x8960847E5FD7B48F
 
- * Only use for this in the PC scripts is:
+ * 
+ * Only use for this in the PC scripts is:
+ * 
  * if (GRAPHICS::GET_TIMECYCLE_MODIFIER_INDEX() != -1)
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

@@ -6,8 +6,11 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0x8E942EABE97448C2
 
- * This is needed for the prostitute script to find a quiet area to park the car.
+ * 
+ * This is needed for the prostitute script to find a quiet area to park the car.
+ * 
  * Get the closest vehicle node to a given position.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

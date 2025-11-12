@@ -5,7 +5,9 @@ import { CameraIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x03F10D56CCA2C055
 
- * Last param determines if its relative to the Entity
+ * 
+ * Last param determines if its relative to the Entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

@@ -5,7 +5,9 @@ import { PedIndex, EntityIndex, EEseekEntityOffsetFlags } from '@ivanzaida/struc
  *
  * 0x35CBF41D628A3871
 
- * if Time is chosen to be -1 the ped will never warp.
+ * 
+ * if Time is chosen to be -1 the ped will never warp.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

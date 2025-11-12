@@ -5,8 +5,10 @@ import { EBlockingObjectFlags } from '@ivanzaida/structures'
  *
  * 0x8CC50AC10D8037C7
 
- * This function adds a blocking obstacle in the navmesh, which will prevent peds from pathfinding through it.
+ * 
+ * This function adds a blocking obstacle in the navmesh, which will prevent peds from pathfinding through it.
  * This command will assert if two objects are added at the same XYZ position, this is order to catch duplicates.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

@@ -3,7 +3,9 @@
  *
  * 0xDD84F9C956E69AC8
 
- * This function will reset the ai weapon damage multiplier
+ * 
+ * This function will reset the ai weapon damage multiplier
+ * 
  * 
  * ------------------------------------------------------------------
  */

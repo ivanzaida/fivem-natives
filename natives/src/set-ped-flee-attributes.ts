@@ -5,8 +5,10 @@ import { PedIndex, EFleeAttribute } from '@ivanzaida/structures'
  *
  * 0x1CA08719184AFC6F
 
- * bit 1 (0x2) = use vehicle
+ * 
+ * bit 1 (0x2) = use vehicle
  * bit 15 (0x8000) = force cower
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

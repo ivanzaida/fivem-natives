@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x44612E772F9312E9
 
- * Index references CVehicleModelColor
+ * 
+ * Index references CVehicleModelColor
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

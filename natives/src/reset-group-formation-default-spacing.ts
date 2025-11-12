@@ -5,8 +5,10 @@ import { GroupIndex } from '@ivanzaida/structures'
  *
  * 0xAD9D10D7F8C6F478
 
- * Resets the spacing which the group formation is currently using, back to its default values
+ * 
+ * Resets the spacing which the group formation is currently using, back to its default values
  * This will also happen when the mission terminates.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GroupIndex} uniqueGroupID

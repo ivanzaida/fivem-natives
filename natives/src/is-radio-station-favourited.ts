@@ -3,8 +3,10 @@
  *
  * 0x36759581D0633B06
 
- * Query whether a radio station is a favourite. Only stations that are both unlocked and favourited
+ * 
+ * Query whether a radio station is a favourite. Only stations that are both unlocked and favourited
  * will be disabled on the radio wheel
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} radioStationName

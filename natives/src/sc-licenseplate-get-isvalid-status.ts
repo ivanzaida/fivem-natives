@@ -5,8 +5,10 @@ import { EELicenseplateIsvalidStatus } from '@ivanzaida/structures'
  *
  * 0x9B55331B5F9C67C8
 
- * Use SC_LICENSEPLATE_GET_ISVALID_IS_PENDING() and wait for the request to finish.  Once
+ * 
+ * Use SC_LICENSEPLATE_GET_ISVALID_IS_PENDING() and wait for the request to finish.  Once
  * it's finished, use SC_LICENSEPLATE_GET_ISVALID_STATUS() to get the status of the result.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} token

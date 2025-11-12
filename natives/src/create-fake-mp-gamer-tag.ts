@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x2E4ECC451E3A3AD9
 
- * clanFlag: takes a number 0-5
+ * 
+ * clanFlag: takes a number 0-5
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

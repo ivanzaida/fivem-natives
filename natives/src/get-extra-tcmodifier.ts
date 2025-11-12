@@ -3,8 +3,10 @@
  *
  * 0xA81182F96782A8EE
 
- * See GET_TIMECYCLE_MODIFIER_INDEX for use, works the same just for the secondary timecycle modifier.
+ * 
+ * See GET_TIMECYCLE_MODIFIER_INDEX for use, works the same just for the secondary timecycle modifier.
  * Returns an integer representing the Timecycle modifier
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

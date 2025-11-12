@@ -3,7 +3,9 @@
  *
  * 0x99E0ED93D0644C97
 
- * Makes pedestrians sound their horn longer, faster and more agressive when they use their horn.
+ * 
+ * Makes pedestrians sound their horn longer, faster and more agressive when they use their horn.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

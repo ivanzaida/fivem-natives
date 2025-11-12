@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x8181C267AB5DE670
 
- * p1 is always 0 in the scripts
+ * 
+ * p1 is always 0 in the scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,8 @@ import { EEMpTag } from '@ivanzaida/structures'
  *
  * 0x7BD00A82CE7156C1
 
- * enum eMpGamerTagComponent
+ * 
+ * enum eMpGamerTagComponent
  * {
  * 	MP_TAG_GAMER_NAME,
  * 	MP_TAG_CREW_TAG,
@@ -38,6 +39,7 @@ import { EEMpTag } from '@ivanzaida/structures'
  * 	MP_TAG_TRANSMITTER,
  * 	MP_TAG_BOMB
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} playerNum

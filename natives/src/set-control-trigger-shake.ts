@@ -5,7 +5,9 @@ import { EControlType } from '@ivanzaida/structures'
  *
  * 0x238500FECB845FFF
 
- * Does nothing (it's a nullsub).
+ * 
+ * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

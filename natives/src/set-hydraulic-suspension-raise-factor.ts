@@ -5,7 +5,9 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  *
  * 0x0987D0FA30D602B0
 
- * Works only on vehicles that support hydraulics.
+ * 
+ * Works only on vehicles that support hydraulics.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

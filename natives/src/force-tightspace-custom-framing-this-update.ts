@@ -3,8 +3,10 @@
  *
  * 0xF009B83B5567CD93
 
- * Force the third person camera to use the custom tight space framing, overriding the metadata setting.
+ * 
+ * Force the third person camera to use the custom tight space framing, overriding the metadata setting.
  * REMARKS: Only use this in confined situation wehere we are absolutely positive about the tight space framing of the rendered camera.
+ * 
  * 
  * ------------------------------------------------------------------
  */

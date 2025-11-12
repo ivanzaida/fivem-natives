@@ -3,8 +3,11 @@
  *
  * 0x8F8802BEE0727FD5
 
- * Sets all of the map data to be culled (or not)
+ * 
+ * Sets all of the map data to be culled (or not)
+ * 
  * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} culled

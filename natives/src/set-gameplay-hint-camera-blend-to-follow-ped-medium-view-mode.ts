@@ -3,7 +3,9 @@
  *
  * 0xD5864F7F5BC214FF
 
- * Call at the start of the hint to avoid pops.
+ * 
+ * Call at the start of the hint to avoid pops.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} state

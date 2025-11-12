@@ -3,7 +3,9 @@
  *
  * 0x5A0A1BD816B9AAB5
 
- * "news" that play on the radio after you've done something in story mode(?)
+ * 
+ * "news" that play on the radio after you've done something in story mode(?)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} newsStoryId

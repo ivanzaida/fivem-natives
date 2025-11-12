@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xE0FF064D
 
- * Set the heading of an entity in degrees also known as "Yaw".
+ * 
+ * Set the heading of an entity in degrees also known as "Yaw".
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity to set the heading for.

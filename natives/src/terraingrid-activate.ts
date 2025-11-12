@@ -3,8 +3,10 @@
  *
  * 0x3DA00A8D58908B2C
 
- * This native enables/disables the gold putting grid display (https://i.imgur.com/TC6cku6.png).
+ * 
+ * This native enables/disables the gold putting grid display (https://i.imgur.com/TC6cku6.png).
  * This requires these two natives to be called as well to configure the grid: `TERRAINGRID_SET_PARAMS` and `TERRAINGRID_SET_COLOURS`.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} enable

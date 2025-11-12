@@ -3,7 +3,9 @@
  *
  * 0x30B65E94C2188C92
 
- * Variant of TEXTURE_DOWNLOAD_REQUEST that uses TITLE namespace. Same comments apply
+ * 
+ * Variant of TEXTURE_DOWNLOAD_REQUEST that uses TITLE namespace. Same comments apply
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} cloudPath

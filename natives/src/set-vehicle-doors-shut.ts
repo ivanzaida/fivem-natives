@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xC3680B85B2D7086A
 
- * Closes all doors of a vehicle:
+ * 
+ * Closes all doors of a vehicle:
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,8 +5,11 @@ import { EEPremiumPackType } from '@ivanzaida/structures'
  *
  * 0xB83FBB552E8DBF61
 
- * Retrieves the type of pack, if any, which grants the user access to the starter pack content
+ * 
+ * Retrieves the type of pack, if any, which grants the user access to the starter pack content
+ * 
  * Checks some commerce stuff
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EEPremiumPackType}  

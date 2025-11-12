@@ -3,9 +3,12 @@
  *
  * 0xFFD4786D6EA9F414
 
- * Appears only 3 times in the scripts, more specifically in michael1.ysc
+ * 
+ * Appears only 3 times in the scripts, more specifically in michael1.ysc
+ * 
  * -
  * This can be used to prevent dying if you are "out of the world"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} coorsX

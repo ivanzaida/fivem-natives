@@ -3,7 +3,9 @@
  *
  * 0x5BD19E1149597B09
 
- * Returns true is the specified scene is set to hold last frame
+ * 
+ * Returns true is the specified scene is set to hold last frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

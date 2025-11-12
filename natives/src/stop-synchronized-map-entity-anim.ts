@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xDA2A1BB9D3A890AC
 
- * Use this to remove an entity from a synchronized scene
+ * 
+ * Use this to remove an entity from a synchronized scene
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

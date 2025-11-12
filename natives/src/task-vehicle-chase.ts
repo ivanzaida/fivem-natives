@@ -5,10 +5,13 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xBCDC8EFDC767C85B
 
- * Tells a ped to chase another ped.  Both peds must be in vehicles, or the task will abort.
+ * 
+ * Tells a ped to chase another ped.  Both peds must be in vehicles, or the task will abort.
+ * 
  * chases targetEnt fast and aggressively
  * --
  * Makes ped (needs to be in vehicle) chase targetEnt.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

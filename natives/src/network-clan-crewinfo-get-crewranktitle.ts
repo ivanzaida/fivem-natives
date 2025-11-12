@@ -5,7 +5,9 @@ import { StringRef } from '@ivanzaida/structures'
  *
  * 0xD0C87974FE71F8C4
 
- * This function checks for the title for the EXACT rank, not the closest;
+ * 
+ * This function checks for the title for the EXACT rank, not the closest;
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} rank

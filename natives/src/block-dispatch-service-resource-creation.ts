@@ -5,7 +5,9 @@ import { EDispatchType } from '@ivanzaida/structures'
  *
  * 0xB3BB215FCE55E6A9
 
- * Prevents a particular dispatch service from creating new vehicles but allows existing peds/vehicles to respond
+ * 
+ * Prevents a particular dispatch service from creating new vehicles but allows existing peds/vehicles to respond
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EDispatchType} dispatchType

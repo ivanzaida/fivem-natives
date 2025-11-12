@@ -3,8 +3,11 @@
  *
  * 0x4DDCC681612459A6
 
- * Returns the amount of time in ms that we've been in constrained mode. Should only be called when PLM_IS_IN_CONSTRAINED_MODE() returns true.
+ * 
+ * Returns the amount of time in ms that we've been in constrained mode. Should only be called when PLM_IS_IN_CONSTRAINED_MODE() returns true.
+ * 
  * Returns duration of how long the game has been in power-saving mode (aka "constrained") in milliseconds.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xCE2ADF354D3F97AE
 
- * Lowers the vehicle's stance. Only works for vehicles that have strAdvancedFlags 0x8000 and 0x4000000 set.
+ * 
+ * Lowers the vehicle's stance. Only works for vehicles that have strAdvancedFlags 0x8000 and 0x4000000 set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

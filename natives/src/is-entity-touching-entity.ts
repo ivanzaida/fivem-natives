@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x685171EED42BC4DF
 
- * Checks that 2 entities are intersecting each other this frame.
+ * 
+ * Checks that 2 entities are intersecting each other this frame.
  * If any of the entities are peds in a vehicle, then the vehicle is used in the check.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} firstEntity

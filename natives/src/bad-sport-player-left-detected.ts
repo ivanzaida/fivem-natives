@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xC9B8B8CBF4083E0F
 
- * Sends telemetry event to Rinforming that a remote player (who is not anymore in the game) was a bad sport quitter
+ * 
+ * Sends telemetry event to Rinforming that a remote player (who is not anymore in the game) was a bad sport quitter
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

@@ -3,8 +3,10 @@
  *
  * 0xEAA437DE2A801E8A
 
- * Returns index of content id from the global hash table
+ * 
+ * Returns index of content id from the global hash table
  * if content id is not found, -1 is returned
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} contentIdHash

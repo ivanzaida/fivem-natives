@@ -5,7 +5,9 @@ import { BinkMovieId } from '@ivanzaida/structures'
  *
  * 0xA3B3261566EE06A5
 
- * This command should be called when you are finished with a movie. It frees up the memory allocated by SET_BINK_MOVIE.
+ * 
+ * This command should be called when you are finished with a movie. It frees up the memory allocated by SET_BINK_MOVIE.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BinkMovieId} movieId

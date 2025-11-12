@@ -3,8 +3,11 @@
  *
  * 0x71673481F07D6434
 
- * Disables screen dimming for one frame.
+ * 
+ * Disables screen dimming for one frame.
+ * 
  * Does nothing (it's a nullsub).
+ * 
  * 
  * ------------------------------------------------------------------
  */

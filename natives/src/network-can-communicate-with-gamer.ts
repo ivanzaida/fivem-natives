@@ -5,9 +5,11 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xC9D8BDF3564325CA
 
- * Communication checks with a gamer handle
+ * 
+ * Communication checks with a gamer handle
  * NETWORK_CAN_COMMUNICATE_WITH_GAMER encompasses all. Use this in
  * script to determine whether we should show the voice icon or not.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

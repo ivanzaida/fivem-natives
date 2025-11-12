@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x96A0632EBDD87FA3
 
- * p2 is usually -1 in the scripts. action is either 0 or "DEFAULT_ACTION".
+ * 
+ * p2 is usually -1 in the scripts. action is either 0 or "DEFAULT_ACTION".
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

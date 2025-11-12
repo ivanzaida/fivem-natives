@@ -5,8 +5,10 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x8A77EAFEB55D476D
 
- * True when we're waiting for a refresh from the server.  This can happen when the game token times out.  The server will
+ * 
+ * True when we're waiting for a refresh from the server.  This can happen when the game token times out.  The server will
  * send a GAMESERVER_ERROR_INVALID_NONCE or GAMESERVER_ERROR_EXPIRED_TOKEN
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} currentState [Ref]

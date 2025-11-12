@@ -5,12 +5,17 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x5AB552C6
 
- * Plays an anim on the specified ped
+ * 
+ * Plays an anim on the specified ped
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * float speed > normal speed is 8.0f
  * ----------------------
+ * 
  * float speedMultiplier > multiply the playback speed
  * ----------------------
+ * 
  * int duration: time in millisecond
  * ----------------------
  * -1 _ _ _ _ _ _ _> Default (see flag)
@@ -19,6 +24,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * Other _ _ _ _ _ > freeze player control until specific time (ms) has
  * _ _ _ _ _ _ _ _ _ passed. (No effect if flag is set to be
  * _ _ _ _ _ _ _ _ _ controllable.)
+ * 
  * int flag:
  * ----------------------
  * enum eAnimationFlags
@@ -33,6 +39,7 @@ import { PedIndex } from '@ivanzaida/structures'
  * Odd number : loop infinitely
  * Even number : Freeze at last frame
  * Multiple of 4: Freeze at last frame but controllable
+ * 
  * 01 to 15 > Full body
  * 10 to 31 > Upper body
  * 32 to 47 > Full body > Controllable
@@ -41,27 +48,39 @@ import { PedIndex } from '@ivanzaida/structures'
  * 001 to 255 > Normal
  * 256 to 511 > Garbled
  * ...
+ * 
  * playbackRate:
+ * 
  * values are between 0.0 and 1.0
+ * 
+ * 
  * lockX:
+ * 
  * 0 in most cases 1 for rcmepsilonism8 and rcmpaparazzo_3
  * > 1 for mini@sprunk
+ * 
+ * 
  * lockY:
+ * 
  * 0 in most cases
  * 1 for missfam5_yoga, missfra1mcs_2_crew_react
+ * 
+ * 
  * lockZ:
+ * 
  *     0 for single player
  *     Can be 1 but only for MP
  * 
+ * 
  * ------------------------------------------------------------------
- * @param {PedIndex} ped
- * @param {string} animDictionary
- * @param {string} animationName
- * @param {number} blendInSpeed
- * @param {number} blendOutSpeed
- * @param {number} duration
- * @param {number} flag
- * @param {number} playbackRate
+ * @param {PedIndex} ped The ped you want to play the animation
+ * @param {string} animDictionary The animation dictionary
+ * @param {string} animationName The animation name
+ * @param {number} blendInSpeed The speed at which the animation blends in. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant
+ * @param {number} blendOutSpeed The speed at which the animation blends out. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant
+ * @param {number} duration The duration of the animation in milliseconds. 1 will play the animation until canceled
+ * @param {number} flag The animation flags (see enum)
+ * @param {number} playbackRate The playback rate (between 0.0 and 1.0)
  * @param {boolean} lockX
  * @param {boolean} lockY
  * @param {boolean} lockZ

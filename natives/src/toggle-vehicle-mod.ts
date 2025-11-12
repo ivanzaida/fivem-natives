@@ -5,7 +5,9 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  *
  * 0xF5501FF9869DAC7C
 
- * This can only be used with the toggle mods specified in the enum
+ * 
+ * This can only be used with the toggle mods specified in the enum
+ * 
  * Toggles:
  * UNK17 - 17
  * Turbo - 18
@@ -13,6 +15,7 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  * Tire Smoke - 20
  * UNK21 - 21
  * Xenon Headlights - 22
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

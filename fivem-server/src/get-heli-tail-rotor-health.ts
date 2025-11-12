@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xA41BC13D
 
- * Max 1000.
+ * 
+ * Max 1000.
  * At 0 the tail rotor will stall.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle The target vehicle.

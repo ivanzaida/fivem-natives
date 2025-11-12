@@ -5,7 +5,9 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0x0F16C412C8DE5D52
 
- * Must be called every frame - keeps it locked to a blip
+ * 
+ * Must be called every frame - keeps it locked to a blip
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

@@ -3,7 +3,9 @@
  *
  * 0x2918C30E34ED2C88
 
- * Sets bit 3 in GtaThread+0x150
+ * 
+ * Sets bit 3 in GtaThread+0x150
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} thisScriptIsATriggerScript

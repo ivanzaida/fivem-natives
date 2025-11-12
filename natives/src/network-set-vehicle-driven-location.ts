@@ -3,7 +3,9 @@
  *
  * 0xA0CE91E47531D3BB
 
- * Sets 'loc' variable used in MetricVEHICLE_DIST_DRIVEN
+ * 
+ * Sets 'loc' variable used in MetricVEHICLE_DIST_DRIVEN
+ * 
  * 
  * ------------------------------------------------------------------
  */

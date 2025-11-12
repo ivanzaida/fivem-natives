@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x7CB81DD9FBD57E82
 
- * This function sets the palette index of a ped's phone.
+ * 
+ * This function sets the palette index of a ped's phone.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

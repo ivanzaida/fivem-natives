@@ -5,9 +5,13 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xD3FF6AD07BECA69C
 
- * From the scripts:
+ * 
+ * From the scripts:
+ * 
  * MISC::SET_TENNIS_MOVE_NETWORK_SIGNAL_FLOAT(sub_aa49(a_0), "ForcedStopDirection", v_E);
+ * 
  * Related to tennis mode.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -3,7 +3,9 @@
  *
  * 0x6CD2A2994586D388
 
- * Call at the start of the hint to avoid pops.
+ * 
+ * Call at the start of the hint to avoid pops.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} basePitchOffset

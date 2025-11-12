@@ -3,7 +3,9 @@
  *
  * 0x7CF3AF51DCFE4108
 
- * This native has a name defined inside its code
+ * 
+ * This native has a name defined inside its code
+ * 
  * 
  * ------------------------------------------------------------------
  */

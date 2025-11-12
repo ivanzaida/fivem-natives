@@ -3,7 +3,9 @@
  *
  * 0xC0964AABD3C0CC7E
 
- * This disable the recording feature and has to be called every frame.
+ * 
+ * This disable the recording feature and has to be called every frame.
+ * 
  * 
  * ------------------------------------------------------------------
  */

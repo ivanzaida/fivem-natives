@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x6252BC0DD8A320DB
 
- * Checks if the specified model has loaded into memory.
+ * 
+ * Checks if the specified model has loaded into memory.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} model

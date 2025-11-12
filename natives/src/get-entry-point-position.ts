@@ -5,7 +5,9 @@ import { VehicleIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x7902AD09BBD23276
 
- * doorId: see SET_VEHICLE_DOOR_SHUT
+ * 
+ * doorId: see SET_VEHICLE_DOOR_SHUT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

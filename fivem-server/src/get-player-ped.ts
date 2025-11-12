@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x6E31E993
 
- * Gets the ped for a specified player index.
+ * 
+ * Gets the ped for a specified player index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} playerSrc The player source, passed as a string.

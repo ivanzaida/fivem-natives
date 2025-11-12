@@ -5,7 +5,9 @@ import { PedIndex, EEnterExitVehicleFlags } from '@ivanzaida/structures'
  *
  * 0x092B9247AF00F5CF
 
- * Flags are the same flags used in TASK_LEAVE_VEHICLE
+ * 
+ * Flags are the same flags used in TASK_LEAVE_VEHICLE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

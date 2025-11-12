@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x7FAB20829167D06E
 
- * static - max acceleration
+ * 
+ * static - max acceleration
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

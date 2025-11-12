@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x348B16EB27AA1C60
 
- * value between 0.0 and 1.0
+ * 
+ * value between 0.0 and 1.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

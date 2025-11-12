@@ -3,7 +3,9 @@
  *
  * 0x726D5358D13D53BD
 
- * Fades nearby decals within the range specified
+ * 
+ * Fades nearby decals within the range specified
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} posX

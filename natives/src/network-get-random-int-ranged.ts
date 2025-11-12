@@ -3,7 +3,9 @@
  *
  * 0x5A6DA0A2EEDE8B78
 
- * Same as GET_RANDOM_INT_IN_RANGE
+ * 
+ * Same as GET_RANDOM_INT_IN_RANGE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minimum

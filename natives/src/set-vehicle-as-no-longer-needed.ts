@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0x68298CA6191CDFDB
 
- * This is an alias of SET_ENTITY_AS_NO_LONGER_NEEDED.
+ * 
+ * This is an alias of SET_ENTITY_AS_NO_LONGER_NEEDED.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} vehicle [Ref]

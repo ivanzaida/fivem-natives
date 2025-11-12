@@ -5,8 +5,11 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xCD0F6D8C76DD22A7
 
- * Neutral randoms will all flee instead on this frame
+ * 
+ * Neutral randoms will all flee instead on this frame
+ * 
  * - This is called after SET_ALL_RANDOM_PEDS_FLEE_THIS_FRAME
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xBD9259F686649141
 
- * Get the closest player to an entity
+ * 
+ * Get the closest player to an entity
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

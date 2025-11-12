@@ -5,9 +5,11 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x1E4D3966543704DD
 
- * Make the ped use different driveby clipset.
+ * 
+ * Make the ped use different driveby clipset.
  * Be sure to clear the overide with CLEAR_PED_DRIVE_BY_CLIPSET_OVERRIDE when finished!
  * DON'T FORGET to stream in the new clipset before calling this
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

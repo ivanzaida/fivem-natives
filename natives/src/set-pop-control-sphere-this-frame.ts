@@ -3,7 +3,9 @@
  *
  * 0x1A3EA72E4830538F
 
- * pedRadius and vehRadius are usually 100.0 and 200.0
+ * 
+ * pedRadius and vehRadius are usually 100.0 and 200.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centerX

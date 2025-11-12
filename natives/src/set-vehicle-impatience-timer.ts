@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x740CB8455C25DD1C
 
- * Seems to copy some values in vehicle
+ * 
+ * Seems to copy some values in vehicle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

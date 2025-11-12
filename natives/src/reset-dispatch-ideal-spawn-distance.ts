@@ -3,7 +3,9 @@
  *
  * 0xD7186A4A316964F2
 
- * Resets the ideal spawn distance for the dispatch services.
+ * 
+ * Resets the ideal spawn distance for the dispatch services.
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,14 +5,18 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xBB0128A9D53B1935
 
- * Assigns a ped to a given slot (slotIdx) for the currently set preset; the preset must have been set
+ * 
+ * Assigns a ped to a given slot (slotIdx) for the currently set preset; the preset must have been set
  * previously by calling UI3DSCENE_PUSH_PRESET. Call will fail if the preset passed as a parameter does
  * not match the current preset; it will also fail if the ped index is not valid.
  * The posOffset parameter allows to adjust the position of a given ped (e.g.: ped is smaller or taller than
  * the one used for reference when creating the preset).
+ * 
  * It's called after UI3DSCENE_IS_AVAILABLE and UI3DSCENE_PUSH_PRESET
+ * 
  * presetName was always "CELEBRATION_WINNER"
  * All presets can be found in common\data\ui\uiscenes.meta
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} presetName

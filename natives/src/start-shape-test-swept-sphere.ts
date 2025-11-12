@@ -5,7 +5,9 @@ import { EntityIndex, ShapetestIndex } from '@ivanzaida/structures'
  *
  * 0x666853720ADE415D
 
- * Returns SHAPETEST_INDEX of 0 if it fails to create the shapetest request (there is a limit to the number that can be in the system)
+ * 
+ * Returns SHAPETEST_INDEX of 0 if it fails to create the shapetest request (there is a limit to the number that can be in the system)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scrVecPosX

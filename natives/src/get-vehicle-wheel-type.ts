@@ -5,7 +5,9 @@ import { VehicleIndex, EModWheelType } from '@ivanzaida/structures'
  *
  * 0x6A375D21624F9187
 
- * Returns an int
+ * 
+ * Returns an int
+ * 
  * Wheel Types:
  * 0: Sport
  * 1: Muscle
@@ -20,7 +22,9 @@ import { VehicleIndex, EModWheelType } from '@ivanzaida/structures'
  * 10: Racing
  * 11: Street
  * 12: Track
+ * 
  * Tested in Los Santos Customs
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x77B012A683295B6E
 
- * Colour6 should be taken from the list in carcols.dat.
+ * 
+ * Colour6 should be taken from the list in carcols.dat.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

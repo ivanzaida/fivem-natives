@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x0A284376577BBECE
 
- * Stops a player phone animation
+ * 
+ * Stops a player phone animation
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

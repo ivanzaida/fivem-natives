@@ -15,3 +15,5 @@ export * from './door-system-active-door';
 export * from './pool-name.enum';
 export * from './ped-decoration';
 export * from './registered-command';
+export * from './track-node';
+export * from './resource-command'

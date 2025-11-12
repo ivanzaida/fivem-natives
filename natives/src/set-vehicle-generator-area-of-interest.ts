@@ -3,7 +3,9 @@
  *
  * 0x5519F1C3752E3A90
 
- * Related to car generators & CPlayerSwitchMgrLong
+ * 
+ * Related to car generators & CPlayerSwitchMgrLong
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

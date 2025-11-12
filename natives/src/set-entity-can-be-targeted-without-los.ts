@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xE78E66BE6EB7D534
 
- * Sets whether the entity can be targeted without being in line-of-sight.
+ * 
+ * Sets whether the entity can be targeted without being in line-of-sight.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

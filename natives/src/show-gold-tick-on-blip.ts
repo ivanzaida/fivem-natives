@@ -5,8 +5,10 @@ import { BlipIndex } from '@ivanzaida/structures'
  *
  * 0xDE551C7F0C84F5D5
 
- * Adds a orange checkmark on top of a given blip handle: https://imgur.com/a/aw5OTMF
+ * 
+ * Adds a orange checkmark on top of a given blip handle: https://imgur.com/a/aw5OTMF
  * _SHOW_FRIEND_INDICATOR_ON_BLIP - _SHOW_HEADING_INDICATOR_ON_BLIP
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BlipIndex} blip

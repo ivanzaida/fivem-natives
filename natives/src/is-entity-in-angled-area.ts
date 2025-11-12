@@ -5,11 +5,14 @@ import { EntityIndex, EPedTransportMode } from '@ivanzaida/structures'
  *
  * 0x5105BE70DEF1F5FB
 
- * Checks if a ped is in non axis aligned area, defined by coords of a face and distance between faces. More info..
+ * 
+ * Checks if a ped is in non axis aligned area, defined by coords of a face and distance between faces. More info..
  * If the entity is a ped in a vehicle, then the coords of the vehicle are used in the check.
+ * 
  * `p8` is a debug flag invoking functions in the same path as ``DRAW_MARKER``
  * `p10` is some entity flag check, also used in `IS_ENTITY_AT_ENTITY`, `IS_ENTITY_IN_AREA`, and `IS_ENTITY_AT_COORD`.
  * See IS_POINT_IN_ANGLED_AREA for the definition of an angled area.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

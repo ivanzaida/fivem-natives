@@ -3,7 +3,9 @@
  *
  * 0x59A8C2AB2084CAF7
 
- * xyz - relative to the world origin.
+ * 
+ * xyz - relative to the world origin.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} firstCoorsX

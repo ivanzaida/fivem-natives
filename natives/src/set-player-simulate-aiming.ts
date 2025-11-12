@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x469AD8A2B1EBB937
 
- * Enable/disable player simulating aiming.
+ * 
+ * Enable/disable player simulating aiming.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

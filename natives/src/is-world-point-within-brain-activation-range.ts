@@ -3,8 +3,11 @@
  *
  * 0x173751E886F8E9AB
 
- * You should call this command within all brain scripts attached to world points.
+ * 
+ * You should call this command within all brain scripts attached to world points.
+ * 
  * Gets whether the world point the calling script is registered to is within desired range of the player.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

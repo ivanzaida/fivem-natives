@@ -3,7 +3,9 @@
  *
  * 0xFAE42E9AE7B80A4C
 
- * Cancel data retrieval in progress. Must be PENDING.
+ * 
+ * Cancel data retrieval in progress. Must be PENDING.
+ * 
  * 
  * ------------------------------------------------------------------
  */

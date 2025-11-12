@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x6645B56AACA6C57C
 
- * Returns the total amount of color combinations found in the vehicle's carvariations.meta entry.
+ * 
+ * Returns the total amount of color combinations found in the vehicle's carvariations.meta entry.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

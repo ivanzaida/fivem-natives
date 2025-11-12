@@ -5,7 +5,9 @@ import { ObjectIndex, EWeaponcomponentType } from '@ivanzaida/structures'
  *
  * 0xFA13077979C3DCB9
 
- * see DOES_WEAPON_TAKE_WEAPON_COMPONENT for full list of weapons & components
+ * 
+ * see DOES_WEAPON_TAKE_WEAPON_COMPONENT for full list of weapons & components
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} weaponObject

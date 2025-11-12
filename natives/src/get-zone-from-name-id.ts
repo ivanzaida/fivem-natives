@@ -5,7 +5,9 @@ import { PopzoneId } from '@ivanzaida/structures'
  *
  * 0x17FDAC0BF5A2C728
 
- * 'zoneName' corresponds to an entry in 'popzone.ipl'.
+ * 
+ * 'zoneName' corresponds to an entry in 'popzone.ipl'.
+ * 
  * AIRP = Los Santos International Airport
  * ALAMO = Alamo Sea
  * ALTA = Alta
@@ -95,7 +97,9 @@ import { PopzoneId } from '@ivanzaida/structures'
  * ZANCUDO = Zancudo River
  * ZP_ORT = Port of South Los Santos
  * ZQ_UAR = Davis Quartz
+ * 
  * Full list of zones by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/zones.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} nameId

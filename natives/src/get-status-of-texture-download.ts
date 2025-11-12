@@ -5,10 +5,13 @@ import { EPhotoOperationStatus } from '@ivanzaida/structures'
  *
  * 0x15C0F0A696091ACB
 
- * Queries the state of a texture download. The texture cannot be used until this command returns PHOTO_OPERATION_SUCCEEDED
+ * 
+ * Queries the state of a texture download. The texture cannot be used until this command returns PHOTO_OPERATION_SUCCEEDED
+ * 
  * 0 = succeeded
  * 1 = pending
  * 2 = failed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} textureDownloadHandle

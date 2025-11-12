@@ -5,8 +5,10 @@ import { ENetworkScriptState } from '@ivanzaida/structures'
  *
  * 0xDFF16B5B12604EFF
 
- * You must wait for this to return NETSCRIPT_PLAYING before the script is allowed to continue. This is called before
+ * 
+ * You must wait for this to return NETSCRIPT_PLAYING before the script is allowed to continue. This is called before
  * the broadcast variables are registered
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {ENetworkScriptState}  

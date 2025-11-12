@@ -5,9 +5,11 @@ import { PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x329B82704ED2A3E3
 
- * p6 always -1
+ * 
+ * p6 always -1
  * p7 always 10.0
  * p8 always 1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

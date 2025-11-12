@@ -3,7 +3,8 @@
  *
  * 0x54DF17092B1F59BA
 
- * Tells the game that all REGISTER_..._TO_SAVE commands up to the matching STOP_SAVE_ARRAY are within an instance
+ * 
+ * Tells the game that all REGISTER_..._TO_SAVE commands up to the matching STOP_SAVE_ARRAY are within an instance
  * of this array. The game can save a bit of memory if you write a procedure to register each array e.g.
  * PROC RegisterContactDetailsArray(DetailsForOneContact &StartOfArray[], STRING NameOfInstanceOfArray)
  * START_SAVE_ARRAY(StartOfArray, NameOfInstanceOfArray)
@@ -36,6 +37,7 @@
  * STOP_SAVE_ARRAY()
  * ENDPROC
  * You can then call your procedure to register each instance of your array.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {DataView} arrayToSave [Ref]

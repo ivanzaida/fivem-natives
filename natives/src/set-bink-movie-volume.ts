@@ -5,7 +5,9 @@ import { BinkMovieId } from '@ivanzaida/structures'
  *
  * 0xA24E6A436BF61457
 
- * binkMovie: Is return value from _SET_BINK_MOVIE. Has something to do with bink volume? (audRequestedSettings::SetVolumeCurveScale)
+ * 
+ * binkMovie: Is return value from _SET_BINK_MOVIE. Has something to do with bink volume? (audRequestedSettings::SetVolumeCurveScale)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {BinkMovieId} movieId

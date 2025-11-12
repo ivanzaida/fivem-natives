@@ -3,8 +3,10 @@
  *
  * 0xA33BDA0B7720976B
 
- * This can be called after using a preset that has been patched with peds (eg: UI3DSCENE_ASSIGN_PED_TO_SLOT)
+ * 
+ * This can be called after using a preset that has been patched with peds (eg: UI3DSCENE_ASSIGN_PED_TO_SLOT)
  * to make sure all the slots are cleared after rendering the peds
+ * 
  * 
  * ------------------------------------------------------------------
  */

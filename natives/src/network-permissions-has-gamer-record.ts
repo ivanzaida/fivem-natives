@@ -5,9 +5,11 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xC9AFD0C222C7CA74
 
- * Permission checks with a gamer handle
+ * 
+ * Permission checks with a gamer handle
  * Target gamer handle must be in a session with the local gamer (freeroam or corona)
  * Can check if we have data for this player using NETWORK_PERMISSIONS_HAS_GAMER_RECORD
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamer [Ref]

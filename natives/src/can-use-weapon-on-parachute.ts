@@ -5,8 +5,10 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0xBE2AF59B33F9F92A
 
- * this returns if you can use the weapon while using a parachute
+ * 
+ * this returns if you can use the weapon while using a parachute
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weapon

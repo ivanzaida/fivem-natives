@@ -3,7 +3,9 @@
  *
  * 0x151D6C04C9E2742F
 
- * Data struct contains various tunables related to test drives at Simeons Showroom or Luxury Showcase.
+ * 
+ * Data struct contains various tunables related to test drives at Simeons Showroom or Luxury Showcase.
+ * 
  * 
  * ------------------------------------------------------------------
  */

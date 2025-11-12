@@ -3,8 +3,10 @@
  *
  * 0x470041F66BF345BA
 
- * Full list of scenario types used in scripts by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenariosCompact.json
+ * 
+ * Full list of scenario types used in scripts by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/scenariosCompact.json
  * seems to enable/disable specific scenario-types from happening in the game world.
+ * 
  * Here are some scenario types from the scripts:
  * "WORLD_MOUNTAIN_LION_REST"
  * "WORLD_MOUNTAIN_LION_WANDER"
@@ -34,7 +36,9 @@
  * "WORLD_VEHICLE_CONSTRUCTION_SOLO"
  * "WORLD_VEHICLE_CONSTRUCTION_PASSENGERS"
  * "WORLD_VEHICLE_TRUCK_LOGS"
+ * 
  * scenarioType could be the same as scenarioName, used in for example TASK::TASK_START_SCENARIO_AT_POSITION.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scenarioTypeName

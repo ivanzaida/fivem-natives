@@ -5,8 +5,11 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x18C8A35E0901C0E2
 
- * Only need to pass the model in if the scene has both an IG_ and CS_ version of the same model
+ * 
+ * Only need to pass the model in if the scene has both an IG_ and CS_ version of the same model
+ * 
  * modelHash (p1) was always 0 in R scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} sceneName

@@ -3,7 +3,9 @@
  *
  * 0x9C8348AB222FEBA3
 
- * Returns FALSE if no scenario was even found in this location (use DOES_SCENARIO_EXIST_IN_AREA to check, if needed)
+ * 
+ * Returns FALSE if no scenario was even found in this location (use DOES_SCENARIO_EXIST_IN_AREA to check, if needed)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

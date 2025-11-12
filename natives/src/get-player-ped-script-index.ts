@@ -5,7 +5,9 @@ import { PlayerIndex, PlayerScriptId } from '@ivanzaida/structures'
  *
  * 0xE8466DBC1A7E794F
 
- * Does the same like PLAYER::GET_PLAYER_PED
+ * 
+ * Does the same like PLAYER::GET_PLAYER_PED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

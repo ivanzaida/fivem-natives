@@ -5,7 +5,9 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  *
  * 0xA62C98856A88DC66
 
- * Returns the multiplier value from SET_TYRE_WEAR_RATE
+ * 
+ * Returns the multiplier value from SET_TYRE_WEAR_RATE
+ * 
  * Usable wheels:
  * 0: wheel_lf
  * 1: wheel_rf
@@ -13,6 +15,7 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * 3: wheel_rm1
  * 4: wheel_lr
  * 5: wheel_rr
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

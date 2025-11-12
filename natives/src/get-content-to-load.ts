@@ -3,8 +3,11 @@
  *
  * 0x3DF0567938549C05
 
- * Gets the content name to load when the game is launched.
+ * 
+ * Gets the content name to load when the game is launched.
+ * 
  * Returns pointer to an empty string.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {string}  

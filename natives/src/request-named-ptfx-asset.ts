@@ -3,7 +3,9 @@
  *
  * 0xEBEE7DC21AB44EC9
 
- * From the b678d decompiled scripts:
+ * 
+ * From the b678d decompiled scripts:
+ * 
  *  STREAMING::REQUEST_NAMED_PTFX_ASSET("core_snow");
  *  STREAMING::REQUEST_NAMED_PTFX_ASSET("fm_mission_controler");
  *  STREAMING::REQUEST_NAMED_PTFX_ASSET("proj_xmas_firework");
@@ -17,6 +19,7 @@
  *  STREAMING::REQUEST_NAMED_PTFX_ASSET("scr_mp_tankbattle");
  *  STREAMING::REQUEST_NAMED_PTFX_ASSET("scr_ornate_heist");
  *  STREAMING::REQUEST_NAMED_PTFX_ASSET("scr_prison_break_heist_station");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} ptFxAssetName

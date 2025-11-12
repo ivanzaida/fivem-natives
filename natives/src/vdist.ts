@@ -3,7 +3,9 @@
  *
  * 0x2A488C176D52CCA5
 
- * Calculates distance between vectors.
+ * 
+ * Calculates distance between vectors.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x1

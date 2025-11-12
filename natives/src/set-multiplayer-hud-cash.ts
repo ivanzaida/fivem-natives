@@ -3,7 +3,9 @@
  *
  * 0xAD9A5C40381FE51A
 
- * This native does absolutely nothing, just a nullsub
+ * 
+ * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} cash

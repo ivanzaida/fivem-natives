@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xB5B917AAA3DF1A78
 
- * Is the ped in tennis mode?
+ * 
+ * Is the ped in tennis mode?
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

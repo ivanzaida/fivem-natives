@@ -3,7 +3,9 @@
  *
  * 0xF0F077286626CEBB
 
- * Insert index of content id into the global hash table
+ * 
+ * Insert index of content id into the global hash table
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} contentIdHash

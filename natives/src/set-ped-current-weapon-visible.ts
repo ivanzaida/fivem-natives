@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4D5D5614C2DF76F4
 
- * Has 5 parameters since latest patches.
+ * 
+ * Has 5 parameters since latest patches.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,8 +5,11 @@ import { EControlType } from '@ivanzaida/structures'
  *
  * 0xF4E95755715FE93D
 
- * control: see IS_CONTROL_ENABLED
+ * 
+ * control: see IS_CONTROL_ENABLED
+ * 
  * Hardcoded to return false.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

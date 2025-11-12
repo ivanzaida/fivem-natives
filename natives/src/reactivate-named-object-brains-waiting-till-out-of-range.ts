@@ -3,10 +3,14 @@
  *
  * 0xB3D198039DB6F5C6
 
- * Looks like a cousin of above function _6D6840CEE8845831 as it was found among them. Must be similar
+ * 
+ * Looks like a cousin of above function _6D6840CEE8845831 as it was found among them. Must be similar
+ * 
  * Here are possible values of argument -
+ * 
  * "ob_tv"
  * "launcher_Darts"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptName

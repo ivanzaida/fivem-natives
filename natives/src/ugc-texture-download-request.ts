@@ -3,7 +3,9 @@
  *
  * 0x03A1BB16285A7B9C
 
- * Variant of TEXTURE_DOWNLOAD_REQUEST that uses UGC namespace. Same comments apply
+ * 
+ * Variant of TEXTURE_DOWNLOAD_REQUEST that uses UGC namespace. Same comments apply
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} contentID

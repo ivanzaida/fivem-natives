@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x4BEFD5824C6D529A
 
- * Nodes must be setup first before this is called.  Linearly interpolates between previous and next node's velocity.  Disabled if zero.
+ * 
+ * Nodes must be setup first before this is called.  Linearly interpolates between previous and next node's velocity.  Disabled if zero.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

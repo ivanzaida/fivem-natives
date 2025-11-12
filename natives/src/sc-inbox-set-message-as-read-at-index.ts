@@ -3,8 +3,10 @@
  *
  * 0x2FB38A412252BDF6
 
- * Marks the inbox message at the given index a LOCALLY read...as a way to locally mark that the
+ * 
+ * Marks the inbox message at the given index a LOCALLY read...as a way to locally mark that the
  * message has been processed.  Next time the inbox is locally cleaned, the read messages are purged.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} msg

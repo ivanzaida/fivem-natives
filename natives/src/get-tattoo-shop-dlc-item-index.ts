@@ -5,15 +5,19 @@ import { ETattooFaction } from '@ivanzaida/structures'
  *
  * 0xE80EBC1CABE1C8A7
 
- * Returns the index of the tattoo that matches the faction and hash parameters.
+ * 
+ * Returns the index of the tattoo that matches the faction and hash parameters.
  * This index can then be used to call GET_TATTOO_SHOP_DLC_ITEM_DATA
+ * 
  * Returns some sort of index/offset for overlays/decorations.
+ * 
  * Character types:
  * 0 = Michael,
  * 1 = Franklin,
  * 2 = Trevor,
  * 3 = MPMale,
  * 4 = MPFemale
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ETattooFaction} tattooFaction

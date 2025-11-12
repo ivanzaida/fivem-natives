@@ -3,7 +3,9 @@
  *
  * 0x1B3E687F45E0A870
 
- * Called after all decorator type initializations.
+ * 
+ * Called after all decorator type initializations.
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -3,7 +3,9 @@
  *
  * 0xC540300DE977409D
 
- * the cloudhat will be released from memory when it either transitions out normaly after use, or RELEASE_PRELOAD_CLOUD_HAT() is called
+ * 
+ * the cloudhat will be released from memory when it either transitions out normaly after use, or RELEASE_PRELOAD_CLOUD_HAT() is called
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} cloudHatName

@@ -5,9 +5,12 @@ import { ScaleformReturnIndex } from '@ivanzaida/structures'
  *
  * 0xA6F779AA284EB20E
 
- * checks whether the return ID is ready to use yet
+ * 
+ * checks whether the return ID is ready to use yet
+ * 
  * methodReturn: The return value of this native: END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE
  * Returns true if the return value of a scaleform function is ready to be collected (using GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_STRING or GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ScaleformReturnIndex} returnId

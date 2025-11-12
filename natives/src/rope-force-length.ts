@@ -5,7 +5,9 @@ import { RopeIndex } from '@ivanzaida/structures'
  *
  * 0xB5186C080A343976
 
- * Forces a rope to a certain length.
+ * 
+ * Forces a rope to a certain length.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {RopeIndex} ropeID

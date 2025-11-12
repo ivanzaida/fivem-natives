@@ -5,7 +5,9 @@ import { EHudColours } from '@ivanzaida/structures'
  *
  * 0x7F8D9D14BCF34424
 
- * flashes the minimap display using the color specified
+ * 
+ * flashes the minimap display using the color specified
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EHudColours} flashColour

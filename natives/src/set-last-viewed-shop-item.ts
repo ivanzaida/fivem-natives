@@ -3,7 +3,9 @@
  *
  * 0x2ECA4EE3F57B8468
 
- * Sets the id of the last visited store. Used to track the purchase flow
+ * 
+ * Sets the id of the last visited store. Used to track the purchase flow
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} itemHash

@@ -5,8 +5,11 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xA205F1BC1E1E70CF
 
- * Sets an entity to never be picked up by a specific cargobob
+ * 
+ * Sets an entity to never be picked up by a specific cargobob
+ * 
  * Stops cargobob from being able to detach the attached vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

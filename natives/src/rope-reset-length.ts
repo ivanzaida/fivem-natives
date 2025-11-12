@@ -5,7 +5,9 @@ import { RopeIndex } from '@ivanzaida/structures'
  *
  * 0xECFFA90DECC6D406
 
- * Reset a rope to a certain length.
+ * 
+ * Reset a rope to a certain length.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {RopeIndex} ropeID

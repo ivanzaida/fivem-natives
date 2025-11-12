@@ -5,10 +5,13 @@ import { NewsStoryData } from '@ivanzaida/structures'
  *
  * 0xAB564B6E85995DBB
 
- * Call this only once, and check return value before using data.
+ * 
+ * Call this only once, and check return value before using data.
  * WARNING:
  * DO NOT STORE SC_NEWS_STORY_DATA!  You should retrieve the data, and operate on it immediately.
+ * 
  * Fills some 0x30 sized struct
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {NewsStoryData} newsStoryData [Ref]

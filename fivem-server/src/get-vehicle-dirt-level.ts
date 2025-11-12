@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xFD15C065
 
- * Dirt level does not become greater than 15.0
+ * 
+ * Dirt level does not become greater than 15.0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,11 +5,14 @@ import { PedIndex, EEulerRotOrder, EMoveNetworkFlags } from '@ivanzaida/structur
  *
  * 0xE8F1DEE1AE8DBF3E
 
- * Task to start a move network of the type passed with custom start pos and orientation
+ * 
+ * Task to start a move network of the type passed with custom start pos and orientation
  * When bAllowOverrideCloneUpdate is used in MP the remotely cloned ped will not update in sync with commands sent locally
  * and it is expected that the remote machine will override the update of the clones task signals.
+ * 
  * Example:
  * TASK::TASK_MOVE_NETWORK_ADVANCED_BY_NAME(PLAYER::PLAYER_PED_ID(), "minigame_tattoo_michael_parts", 324.13f, 181.29f, 102.6f, 0.0f, 0.0f, 22.32f, 2, 0, false, 0, 0);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

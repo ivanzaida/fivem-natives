@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0x44FC944CCE2884A5
 
- * Message is limited to 64 characters.
+ * 
+ * Message is limited to 64 characters.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} szTextMessage

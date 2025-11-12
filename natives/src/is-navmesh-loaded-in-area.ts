@@ -3,9 +3,13 @@
  *
  * 0x75A7B7B3DF681621
 
- * Returns whether all navmeshes in the area vMin to vMax are loaded in memory
+ * 
+ * Returns whether all navmeshes in the area vMin to vMax are loaded in memory
+ * 
  * Returns whether navmesh for the region is loaded. The region is a rectangular prism defined by it's top left deepest corner to it's bottom right shallowest corner.
+ * 
  * If you can re-word this so it makes more sense, please do. I'm horrible with words sometimes...
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} minX

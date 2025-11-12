@@ -5,11 +5,17 @@ import { PlayerIndex, ECrimeType } from '@ivanzaida/structures'
  *
  * 0x80A39DDADDA2585C
 
- * PLAYER::REPORT_CRIME(PLAYER::PLAYER_ID(), 37, PLAYER::GET_WANTED_LEVEL_THRESHOLD(1));
+ * 
+ * PLAYER::REPORT_CRIME(PLAYER::PLAYER_ID(), 37, PLAYER::GET_WANTED_LEVEL_THRESHOLD(1));
+ * 
  * From am_armybase.ysc.c4:
+ * 
  * PLAYER::REPORT_CRIME(PLAYER::PLAYER_ID(4), 36, PLAYER::GET_WANTED_LEVEL_THRESHOLD(4));
+ * 
  * -----
+ * 
  * This was taken from the GTAV.exe v1.334. The function is called sub_140592CE8. For a full decompilation of the function, see here: https://pastebin.com/09qSMsN7
+ * 
  * -----
  * crimeType:
  * 1: Firearms possession
@@ -58,6 +64,7 @@ import { PlayerIndex, ECrimeType } from '@ivanzaida/structures'
  * 44: Civilian in need of assistance
  * 45: ???
  * 46: ???
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

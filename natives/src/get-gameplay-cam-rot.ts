@@ -5,7 +5,8 @@ import { EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  *
  * 0xD84A545408A3099A
 
- * p0 dosen't seem to change much, I tried it with 0, 1, 2:
+ * 
+ * p0 dosen't seem to change much, I tried it with 0, 1, 2:
  * 0-Pitch(X): -70.000092
  * 0-Roll(Y): -0.000001
  * 0-Yaw(Z): -43.886459
@@ -15,6 +16,7 @@ import { EEulerRotOrder, Vector3 } from '@ivanzaida/structures'
  * 2-Pitch(X): -70.000092
  * 2-Roll(Y): -0.000002
  * 2-Yaw(Z): -43.886467
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEulerRotOrder} rotOrder

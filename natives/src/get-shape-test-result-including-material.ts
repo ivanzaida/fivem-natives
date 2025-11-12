@@ -6,11 +6,16 @@ import { Vector3Ref } from '@ivanzaida/structures';
  *
  * 0xEE92B4A78668B1CE
 
- * The shapetest request is destroyed by this call if SHAPETEST_STATUS_RESULTS_READY is returned.
+ * 
+ * The shapetest request is destroyed by this call if SHAPETEST_STATUS_RESULTS_READY is returned.
  * If this is not called every frame then the request will be destroyed.
+ * 
  * Returns the result of a shape test, also returning the material of any touched surface.
+ * 
  * When used with an asynchronous shape test, this native should be looped until returning 0 or 2, after which the handle is invalidated.
+ * 
  * Unless the return value is 2, the other return values are undefined.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ShapetestIndex} shapeTestGuid

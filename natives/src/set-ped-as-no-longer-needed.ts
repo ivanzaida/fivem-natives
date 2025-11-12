@@ -5,7 +5,9 @@ import { IntRef } from '@ivanzaida/structures'
  *
  * 0xF09E30AF1B8FB379
 
- * This is an alias of SET_ENTITY_AS_NO_LONGER_NEEDED.
+ * 
+ * This is an alias of SET_ENTITY_AS_NO_LONGER_NEEDED.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {IntRef} ped [Ref]

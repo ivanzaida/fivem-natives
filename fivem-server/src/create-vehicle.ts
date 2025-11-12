@@ -5,10 +5,13 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xDD75460A
 
- * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
+ * 
+ * RegisterAsNetworkObject:		The new object will be created and synced on other machines if a network game is running
  * ScriptHostObject:		If true, this object has been created by the host portion of a network script and is vital to that script - it must always exist regardless of who is hosting the script.
  * If false, the object has been created by the client portion of a network script and can be removed when the client who created it leaves the script session.
+ * 
  * p7 when set to true allows you to spawn vehicles under -100 z.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} modelHash The model of vehicle to spawn.

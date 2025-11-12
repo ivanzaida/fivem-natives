@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x4A46DAA87A4C235E
 
- * Hides the players weapon during a cutscene.
+ * 
+ * Hides the players weapon during a cutscene.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

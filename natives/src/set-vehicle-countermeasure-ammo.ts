@@ -5,10 +5,13 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEC0CBF0E037FEEB0
 
- * Sets the current countermeasure ammo count for a script vehicle.
+ * 
+ * Sets the current countermeasure ammo count for a script vehicle.
  * Unlike restricted vehicle ammo (which is code fired), this is script-fired and manually decremented, and only stored in vehicle code for network sync purposes.
+ * 
  * Similar to SET_VEHICLE_BOMB_AMMO, this sets the amount of countermeasures that are present on this vehicle.
  * Use GET_VEHICLE_BOMB_AMMO to get the current amount.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

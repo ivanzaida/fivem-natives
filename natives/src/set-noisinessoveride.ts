@@ -3,7 +3,9 @@
  *
  * 0xF0E0A26499BF51AD
 
- * Won't do anything unless noise overide has been turned on : SET_NOISEOVERIDE(TRUE).
+ * 
+ * Won't do anything unless noise overide has been turned on : SET_NOISEOVERIDE(TRUE).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} value

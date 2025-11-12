@@ -5,7 +5,8 @@ import { PedIndex, EScriptLookFlag, EScriptLookPriority } from '@ivanzaida/struc
  *
  * 0xE237FA90A8AFEE59
 
- * enum eScriptLookatFlags
+ * 
+ * enum eScriptLookatFlags
  * {
  * 	SLF_SLOW_TURN_RATE            = 1,    // turn the head toward the target slowly
  * 	SLF_FAST_TURN_RATE            = 2,    // turn the head toward the target quickly
@@ -25,6 +26,7 @@ import { PedIndex, EScriptLookFlag, EScriptLookPriority } from '@ivanzaida/struc
  * 	SLF_FROM_SCRIPT                = 32768, // internal use only
  * 	SLF_USE_REF_DIR_ABSOLUTE    = 65536  // use absolute reference direction mode for solver
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

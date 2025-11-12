@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xCE8A758C0ADD192B
 
- * BOOL p1: 0 = Female; 1 = Male
+ * 
+ * BOOL p1: 0 = Female; 1 = Male
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xC1971F30
 
- * Task doesn’t work as part of a sequence.
+ * 
+ * Task doesn’t work as part of a sequence.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,7 +3,9 @@
  *
  * 0x01B722A2B2026558
 
- * This function will reset the ai melee weapon damage multiplier
+ * 
+ * This function will reset the ai melee weapon damage multiplier
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,7 +5,8 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  *
  * 0x6515021478088FBC
 
- * enum eDoorId
+ * 
+ * enum eDoorId
  * {
  * 	VEH_EXT_DOOR_INVALID_ID = -1,
  * 	VEH_EXT_DOOR_DSIDE_F,
@@ -15,6 +16,7 @@ import { VehicleIndex, EScDoorList } from '@ivanzaida/structures'
  * 	VEH_EXT_BONNET,
  * 	VEH_EXT_BOOT
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

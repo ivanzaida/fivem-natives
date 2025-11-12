@@ -3,7 +3,9 @@
  *
  * 0x54D01A0F98391D5B
 
- * Returns CGameWorldHeightMap's maximum Z value at specified point (grid node).
+ * 
+ * Returns CGameWorldHeightMap's maximum Z value at specified point (grid node).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

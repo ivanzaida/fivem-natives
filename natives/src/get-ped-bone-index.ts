@@ -5,7 +5,9 @@ import { PedIndex, EPedBonetag } from '@ivanzaida/structures'
  *
  * 0x72F7E39FB49FC0BA
 
- * no bone= -1
+ * 
+ * no bone= -1
+ * 
  * boneIds:
  *         SKEL_ROOT = 0x0,
  *    SKEL_Pelvis = 0x2e28,
@@ -105,6 +107,7 @@ import { PedIndex, EPedBonetag } from '@ivanzaida/structures'
  *     FB_Tongue_000 = 0xb987,
  *    RB_Neck_1 = 0x8b93,
  *    IK_Root = 0xdd1c
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

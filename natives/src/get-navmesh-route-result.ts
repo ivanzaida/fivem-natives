@@ -5,8 +5,11 @@ import { PedIndex, ENavmeshRouteResult } from '@ivanzaida/structures'
  *
  * 0x604F9A1C471B5137
 
- * Retruns the state of any active TASK_FOLLOW_NAVMESH_TO_COORD task running on the ped
+ * 
+ * Retruns the state of any active TASK_FOLLOW_NAVMESH_TO_COORD task running on the ped
+ * 
  * See GET_NAVMESH_ROUTE_DISTANCE_REMAINING for more details.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

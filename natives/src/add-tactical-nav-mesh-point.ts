@@ -3,7 +3,9 @@
  *
  * 0x74057F606033EB70
 
- * Adds a tactical nav mesh point
+ * 
+ * Adds a tactical nav mesh point
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

@@ -3,10 +3,14 @@
  *
  * 0xED977E2AE2CB16EE
 
- * For 2d checks use only the x and y components of the vector as the z value is zeroed by the code.
+ * 
+ * For 2d checks use only the x and y components of the vector as the z value is zeroed by the code.
+ * 
  * Returns the distance between two three-dimensional points, optionally ignoring the Z values.
  * If useZ is false, only the 2D plane (X-Y) will be considered for calculating the distance.
+ * 
  * Consider using this faster native instead: SYSTEM::VDIST - DVIST always takes in consideration the 3D coordinates.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} firstCoorsX

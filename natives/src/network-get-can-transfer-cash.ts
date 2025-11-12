@@ -3,7 +3,9 @@
  *
  * 0xDF1F519EA0B54B7D
 
- * Returns false if amount > wallet balance or daily transfer limit has been hit.
+ * 
+ * Returns false if amount > wallet balance or daily transfer limit has been hit.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

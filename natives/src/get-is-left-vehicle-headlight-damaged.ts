@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB4A09397270CB974
 
- * From the driver's perspective, is the left headlight broken.
+ * 
+ * From the driver's perspective, is the left headlight broken.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,9 +5,11 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x53AEF1FECF5138CF
 
- * If enable=TRUE, then overrides light color with (red,green,blue);
+ * 
+ * If enable=TRUE, then overrides light color with (red,green,blue);
  * If enable=FALSE, then disables color override (so light's original color is used)
  * returns TRUE on success (light(s) attached to object were found and set to a new color), otherwise FALSE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

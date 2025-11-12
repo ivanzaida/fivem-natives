@@ -3,7 +3,9 @@
  *
  * 0x0E46E59812BDC8B7
 
- * Returns true if the replay system is currently availiable
+ * 
+ * Returns true if the replay system is currently availiable
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

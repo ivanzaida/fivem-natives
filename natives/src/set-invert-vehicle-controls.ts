@@ -5,8 +5,10 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x784F0E1BBD6301B6
 
- * Inverts vehicle's controls. So INPUT_VEH_ACCELERATE will be INPUT_VEH_BRAKE and vise versa (same for A/D controls)
+ * 
+ * Inverts vehicle's controls. So INPUT_VEH_ACCELERATE will be INPUT_VEH_BRAKE and vise versa (same for A/D controls)
  * Doesn't work for planes/helis.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

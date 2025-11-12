@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x70FF391C9D345B04
 
- * Please use this sparingly and remember to reset it after use.
+ * 
+ * Please use this sparingly and remember to reset it after use.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xC14A2FED36D0EBB9
 
- * Revert entity alpha override.
+ * 
+ * Revert entity alpha override.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

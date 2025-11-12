@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x3A4A0A988D382998
 
- * Overrides the speed at which the ped moves, ignoring the speeds recorded in the route
+ * 
+ * Overrides the speed at which the ped moves, ignoring the speeds recorded in the route
  * bDontAllowSlowingForCorners - allows the ped to slow for corners; without this peds may have trouble keeping to their routes.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

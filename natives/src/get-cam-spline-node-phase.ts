@@ -5,7 +5,9 @@ import { CameraIndex } from '@ivanzaida/structures'
  *
  * 0x5B4403BBB70E3566
 
- * I'm pretty sure the parameter is the camera as usual, but I am not certain so I'm going to leave it as is.
+ * 
+ * I'm pretty sure the parameter is the camera as usual, but I am not certain so I'm going to leave it as is.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {CameraIndex} camera

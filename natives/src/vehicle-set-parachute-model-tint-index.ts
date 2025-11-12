@@ -5,7 +5,8 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB51B6AC3785890FE
 
- * Variations available for the generic parachute (sr_prop_specraces_para_s_01):
+ * 
+ * Variations available for the generic parachute (sr_prop_specraces_para_s_01):
  * - 0: Rainbow
  * - 1: Red
  * - 2: White, blue, yellow
@@ -14,6 +15,7 @@ import { VehicleIndex } from '@ivanzaida/structures'
  * - 5: Blue
  * - 6: Black
  * - 7: Black, yellow
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

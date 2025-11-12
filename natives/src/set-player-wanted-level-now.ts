@@ -5,9 +5,13 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x42C9A22D6724F283
 
- * Forces any pending wanted level to be applied to the specified player immediately.
+ * 
+ * Forces any pending wanted level to be applied to the specified player immediately.
+ * 
  * Call SET_PLAYER_WANTED_LEVEL with the desired wanted level, followed by SET_PLAYER_WANTED_LEVEL_NOW.
+ * 
  * Second parameter is unknown (always false).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

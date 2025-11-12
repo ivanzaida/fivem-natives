@@ -3,10 +3,12 @@
  *
  * 0x2867D5E1AD29963D
 
- * Registers the variables that the host alters and that the clients need to be updated on.
+ * 
+ * Registers the variables that the host alters and that the clients need to be updated on.
  * This high frequency data will be updated every frame and send out updates as soon as possible.
  * This feature is currently restricted to arrays of 20 script vars or less.
  * Please only use this when strictly necessary!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {DataView} address [Ref]

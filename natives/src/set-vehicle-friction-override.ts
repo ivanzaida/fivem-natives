@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF5E7FBE3D9D9BC24
 
- * Seems to be related to the metal parts, not tyres (like i was expecting lol)
+ * 
+ * Seems to be related to the metal parts, not tyres (like i was expecting lol)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

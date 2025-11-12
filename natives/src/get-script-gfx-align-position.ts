@@ -5,10 +5,13 @@ import { FloatRef } from '@ivanzaida/structures'
  *
  * 0x2BF75F235283775A
 
- * Get a position on screen given the current alignment setup
+ * 
+ * Get a position on screen given the current alignment setup
  * x, y : Input x and y coords.
  * newX, newY : Calculate x and y coords given current alignment setup
+ * 
  * Calculates the effective X/Y fractions when applying the values set by SET_SCRIPT_GFX_ALIGN and SET_SCRIPT_GFX_ALIGN_PARAMS
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

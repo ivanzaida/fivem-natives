@@ -3,7 +3,9 @@
  *
  * 0xA6E4F7A73ABC4A76
 
- * Returns if a script has been loaded into the game. Used to see if a script was loaded after requesting.
+ * 
+ * Returns if a script has been loaded into the game. Used to see if a script was loaded after requesting.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} scriptname

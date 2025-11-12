@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEC62EF361B6CB976
 
- * Works for planes only.
+ * 
+ * Works for planes only.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

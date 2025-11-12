@@ -3,7 +3,9 @@
  *
  * 0x9C091F2E9354854A
 
- * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
+ * NOTE: Debugging functions are not present in the retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} active

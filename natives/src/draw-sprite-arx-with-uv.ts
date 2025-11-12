@@ -3,9 +3,12 @@
  *
  * 0xF9AAC4780D507BBC
 
- * Similar to DRAW_SPRITE, but allows to specify the texture coordinates used to draw the sprite.
+ * 
+ * Similar to DRAW_SPRITE, but allows to specify the texture coordinates used to draw the sprite.
+ * 
  * u1, v1 - texture coordinates for the top-left corner
  * u2, v2 - texture coordinates for the bottom-right corner
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textureDictionaryName

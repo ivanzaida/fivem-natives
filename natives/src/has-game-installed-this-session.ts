@@ -3,7 +3,9 @@
  *
  * 0xF27FC86E347471F1
 
- * Returns true if the game has installed during this session, false if it was already installed when the game booted
+ * 
+ * Returns true if the game has installed during this session, false if it was already installed when the game booted
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

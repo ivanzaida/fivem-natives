@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xF11FEC6A04FD7226
 
- * Set the local in spectator Mode. pedIndex - Ped index to spectate.
+ * 
+ * Set the local in spectator Mode. pedIndex - Ped index to spectate.
  * If the index is -1 the it only sets the spectator flag.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} inSpectatorMode

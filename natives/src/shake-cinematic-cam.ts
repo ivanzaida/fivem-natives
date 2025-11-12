@@ -3,8 +3,11 @@
  *
  * 0xE31C735DEE2BF705
 
- * p0 argument found in the b617d scripts: "DRUNK_SHAKE"
+ * 
+ * p0 argument found in the b617d scripts: "DRUNK_SHAKE"
+ * 
  * Full list of cam shake types by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} shakeName

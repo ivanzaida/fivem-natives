@@ -3,8 +3,10 @@
  *
  * 0x71A6F836422FDD2B
 
- * New variant of SEND_TU_SCRIPT_EVENT that automatically initializes the event data header.
+ * 
+ * New variant of SEND_TU_SCRIPT_EVENT that automatically initializes the event data header.
  * See TRIGGER_SCRIPT_EVENT for more info.
+ * 
  * 
  * ------------------------------------------------------------------
  */

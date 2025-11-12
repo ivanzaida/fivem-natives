@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xBFCE94361188CEB2
 
- * Clear this peds different fall upperbody clipset.  Should be called after using SET_PED_MOTION_IN_COVER_CLIPSET_OVERRIDE
+ * 
+ * Clear this peds different fall upperbody clipset.  Should be called after using SET_PED_MOTION_IN_COVER_CLIPSET_OVERRIDE
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

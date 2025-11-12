@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xEA00B3128DDC34A5
 
- * Set the player to use beast jump anims this frame.
+ * 
+ * Set the player to use beast jump anims this frame.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} ped

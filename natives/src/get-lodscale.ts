@@ -3,7 +3,9 @@
  *
  * 0xD173C7695174C519
 
- * returns current global LOD scale
+ * 
+ * returns current global LOD scale
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

@@ -3,7 +3,9 @@
  *
  * 0x1EF90593EF09F7FA
 
- * Used to block some of the prostitute stuff due to laws in Australia.
+ * 
+ * Used to block some of the prostitute stuff due to laws in Australia.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

@@ -5,9 +5,11 @@ import { EMatchmakingGroup } from '@ivanzaida/structures'
  *
  * 0x4EDA84E31A9AD294
 
- * playerType is an unsigned int from 0 to 4
+ * 
+ * playerType is an unsigned int from 0 to 4
  * 0 = regular joiner
  * 4 = spectator
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EMatchmakingGroup} group

@@ -3,7 +3,9 @@
  *
  * 0x513E63C787EE96A7
 
- * Resets the idle camera timer. Calling that in a loop once every few seconds is enough to disable the idle cinematic camera.
+ * 
+ * Resets the idle camera timer. Calling that in a loop once every few seconds is enough to disable the idle cinematic camera.
+ * 
  * 
  * ------------------------------------------------------------------
  */

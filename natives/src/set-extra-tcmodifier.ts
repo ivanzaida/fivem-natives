@@ -3,7 +3,9 @@
  *
  * 0x23DAA15014BC100F
 
- * Full list of timecycle modifiers by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/timecycleModifiers.json
+ * 
+ * Full list of timecycle modifiers by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/timecycleModifiers.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} modifierName

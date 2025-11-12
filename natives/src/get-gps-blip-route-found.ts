@@ -3,7 +3,9 @@
  *
  * 0x1A9014F37459E83F
 
- * Find whether the gps blip route has been found and is displaying on the gps
+ * 
+ * Find whether the gps blip route has been found and is displaying on the gps
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

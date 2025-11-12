@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x33D2D42AC3E42D0B
 
- * Setup an entity to not receive weapon decals
+ * 
+ * Setup an entity to not receive weapon decals
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

@@ -3,9 +3,11 @@
  *
  * 0xA87B62BE7F8F4476
 
- * `
+ * 
+ * `
  * Force the wanted star flash off
  * (url:bugstar:2071172)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} shouldForceOff

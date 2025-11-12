@@ -3,7 +3,9 @@
  *
  * 0x5D50773C51925144
 
- * Applies a multiplier to the default ranges used for creation/removal of vehicles
+ * 
+ * Applies a multiplier to the default ranges used for creation/removal of vehicles
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} rangeMultiplier

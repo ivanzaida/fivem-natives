@@ -3,7 +3,9 @@
  *
  * 0x510D0699BE9C6D06
 
- * See http:en.wikipedia.org/wiki/Absolute_value
+ * 
+ * See http:en.wikipedia.org/wiki/Absolute_value
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} n

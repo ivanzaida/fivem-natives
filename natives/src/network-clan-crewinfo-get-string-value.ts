@@ -5,8 +5,11 @@ import { StringRef } from '@ivanzaida/structures'
  *
  * 0xB22FD03174DE49A7
 
- * Only documented...
+ * 
+ * Only documented...
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} name

@@ -3,7 +3,8 @@
  *
  * 0x5FA9B89685B7F17E
 
- * Return TRUE if the game can ENTER multiplayer.
+ * 
+ * Return TRUE if the game can ENTER multiplayer.
  * Poll this function, it will eventually return TRUE
  * Must be called prior to:
  * NETWORK_SESSION_ENTER
@@ -13,6 +14,7 @@
  * NETWORK_SESSION_ACTIVITY_QUICKMATCH
  * NETWORK_SESSION_HOST
  * Code deal with NETWORK_SESSION_JOIN_INVITE
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

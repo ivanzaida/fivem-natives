@@ -3,8 +3,11 @@
  *
  * 0x4D2F1CB87CBF249D
 
- * DP: I want to phase this out, please use SET_RADAR_ZOOM_PRECISE instead on any future use!
+ * 
+ * DP: I want to phase this out, please use SET_RADAR_ZOOM_PRECISE instead on any future use!
+ * 
  * zoomLevel ranges from 0 to 1400 in R Scripts
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} zoomValue

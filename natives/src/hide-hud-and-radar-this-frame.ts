@@ -3,8 +3,11 @@
  *
  * 0x43AE50D2A33F6E2A
 
- * Must be called every frame
+ * 
+ * Must be called every frame
+ * 
  * Hides HUD and radar this frame and prohibits switching to other weapons (or accessing the weapon wheel)
+ * 
  * 
  * ------------------------------------------------------------------
  */

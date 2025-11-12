@@ -3,7 +3,9 @@
  *
  * 0xDAF4C98C18AC6F06
 
- * First two floats relate to rumble, the last is a threshold
+ * 
+ * First two floats relate to rumble, the last is a threshold
+ * 
  * 
  * ------------------------------------------------------------------
  */

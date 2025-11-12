@@ -5,8 +5,10 @@ import { EThermalbehaviour } from '@ivanzaida/structures'
  *
  * 0xC5F88620264793E1
 
- * min: 0.0
+ * 
+ * min: 0.0
  * max: 0.75
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EThermalbehaviour} type

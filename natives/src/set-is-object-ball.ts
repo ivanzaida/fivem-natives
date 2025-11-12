@@ -5,7 +5,9 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0x09D0318A9D395CB5
 
- * Sets whether an object is going to be used as a ball
+ * 
+ * Sets whether an object is going to be used as a ball
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

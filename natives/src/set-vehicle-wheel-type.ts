@@ -5,7 +5,8 @@ import { VehicleIndex, EModWheelType } from '@ivanzaida/structures'
  *
  * 0xE33678A9AE50A01B
 
- * 0: Sport
+ * 
+ * 0: Sport
  * 1: Muscle
  * 2: Lowrider
  * 3: SUV
@@ -18,6 +19,7 @@ import { VehicleIndex, EModWheelType } from '@ivanzaida/structures'
  * 10: Racing
  * 11: Street
  * 12: Track
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

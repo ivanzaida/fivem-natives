@@ -5,10 +5,14 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xC3EBEA7530D64F53
 
- * Definition is wrong. This has 4 parameters (Not sure when they were added. v350 has 2, v678 has 4).
+ * 
+ * Definition is wrong. This has 4 parameters (Not sure when they were added. v350 has 2, v678 has 4).
+ * 
  * v350: Ped ped, bool unused
  * v678: Ped ped, bool unused, bool flag1, bool flag2
+ * 
  * flag1 = super jump, flag2 = do nothing if flag1 is false and doubles super jump height if flag1 is true.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

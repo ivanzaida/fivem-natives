@@ -5,9 +5,11 @@ import { VehicleIndex, EEulerRotOrder } from '@ivanzaida/structures'
  *
  * 0x685A7D56318EFE6D
 
- * Used in decompiled scripts in combination with GET_VEHICLE_SIZE
+ * 
+ * Used in decompiled scripts in combination with GET_VEHICLE_SIZE
  * p7 is usually 2
  * p8 is usually 1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

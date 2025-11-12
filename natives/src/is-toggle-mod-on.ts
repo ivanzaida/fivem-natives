@@ -5,7 +5,9 @@ import { VehicleIndex, EModType } from '@ivanzaida/structures'
  *
  * 0x1D5A665629D417A7
 
- * Note that modSlot has to be one of the toggle mods or the function always returns false
+ * 
+ * Note that modSlot has to be one of the toggle mods or the function always returns false
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -3,7 +3,9 @@
  *
  * 0xFAE67C69C14B564A
 
- * instantStop -> Whether to kill the alarm instantly, or to let the audio system turn it off when it becomes inaudible
+ * 
+ * instantStop -> Whether to kill the alarm instantly, or to let the audio system turn it off when it becomes inaudible
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {boolean} instantStop

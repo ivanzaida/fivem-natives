@@ -3,7 +3,9 @@
  *
  * 0x9A7254C20CB82B70
 
- * Converts radio station index to string. Use HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION to get the user-readable text.
+ * 
+ * Converts radio station index to string. Use HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION to get the user-readable text.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} station

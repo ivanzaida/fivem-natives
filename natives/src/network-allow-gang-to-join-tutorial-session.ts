@@ -3,11 +3,14 @@
  *
  * 0x5147DD7078544AD1
 
- * Puts the local player in a gang tutorial session - they will remain connected to other players in the session,
+ * 
+ * Puts the local player in a gang tutorial session - they will remain connected to other players in the session,
  * but will be unable to interact with any players that have not called this command with the same iTeam value.
  * Any locally controlled ambient population will be removed when this command is called, so ensure the player
  * is placed where this will not be noticeable.
+ * 
  * teamId must be < 3, instanceId must be < 64
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} team

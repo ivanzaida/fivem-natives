@@ -3,7 +3,9 @@
  *
  * 0x1AB062C44F06F033
 
- * Exits the game and downloads a fresh social club update on next restart.
+ * 
+ * Exits the game and downloads a fresh social club update on next restart.
+ * 
  * 
  * ------------------------------------------------------------------
  */

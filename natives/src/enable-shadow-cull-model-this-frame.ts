@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0x8B8D24263DAB0736
 
- * culls exterior objects from rendering (cascade shadows only) by model name
+ * 
+ * culls exterior objects from rendering (cascade shadows only) by model name
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ModelNames} modelNameHash

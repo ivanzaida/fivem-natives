@@ -3,8 +3,10 @@
  *
  * 0xB3E8CE9ABB5AD331
 
- * For Steam.
+ * 
+ * For Steam.
  * Always returns 0 in retail version of the game.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} achievementId

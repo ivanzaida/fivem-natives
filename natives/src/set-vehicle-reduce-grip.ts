@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xF8EC8E90E8D24CA7
 
- * Reduces grip significantly so it's hard to go anywhere.
+ * 
+ * Reduces grip significantly so it's hard to go anywhere.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

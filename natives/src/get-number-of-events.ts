@@ -5,7 +5,9 @@ import { EScriptEventQueues } from '@ivanzaida/structures'
  *
  * 0x703C4F7316B7195D
 
- * eventGroup: 0 = SCRIPT_EVENT_QUEUE_AI (CEventGroupScriptAI), 1 = SCRIPT_EVENT_QUEUE_NETWORK (CEventGroupScriptNetwork)
+ * 
+ * eventGroup: 0 = SCRIPT_EVENT_QUEUE_AI (CEventGroupScriptAI), 1 = SCRIPT_EVENT_QUEUE_NETWORK (CEventGroupScriptNetwork)
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EScriptEventQueues} eventQueue

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x544996C0081ABDEB
 
- * Set state to true to extend the wings, false to retract them.
+ * 
+ * Set state to true to extend the wings, false to retract them.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

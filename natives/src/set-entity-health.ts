@@ -5,9 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xD25E9BDC14A0B649
 
- * health >= 0
+ * 
+ * health >= 0
  * male ped ~= 100 - 200
  * female ped ~= 0 - 100
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

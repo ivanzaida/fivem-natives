@@ -5,7 +5,9 @@ import { EShockingEventLevel } from '@ivanzaida/structures'
  *
  * 0x75043178E34E4D3C
 
- * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
+ * 
+ * eventType: https://alloc8or.re/gta5/doc/enums/eEventType.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EShockingEventLevel} eventShockingLevel

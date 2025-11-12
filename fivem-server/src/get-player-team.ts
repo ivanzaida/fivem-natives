@@ -3,8 +3,10 @@
  *
  * 0x9873E404
 
- * Gets the player's team.
+ * 
+ * Gets the player's team.
  * Does nothing in singleplayer.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} playerSrc The player handle

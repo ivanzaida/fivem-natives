@@ -5,7 +5,9 @@ import { ERelGroupHash, ERelationshipType } from '@ivanzaida/structures'
  *
  * 0x048553DADAD2512F
 
- * Gets the relationship between two groups. This should be called twice (once for each group).
+ * 
+ * Gets the relationship between two groups. This should be called twice (once for each group).
+ * 
  * Relationship types:
  * 0 = Companion
  * 1 = Respect
@@ -14,9 +16,11 @@ import { ERelGroupHash, ERelationshipType } from '@ivanzaida/structures'
  * 4 = Dislike
  * 5 = Hate
  * 255 = Pedestrians
+ * 
  * Example:
  * PED::GET_RELATIONSHIP_BETWEEN_GROUPS(l_1017, 0xA49E591C);
  * PED::GET_RELATIONSHIP_BETWEEN_GROUPS(0xA49E591C, l_1017);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ERelGroupHash} relGroupA

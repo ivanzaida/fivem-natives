@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x76A218B79DCF8962
 
- * Sets whether a vehicles engine can missfire
+ * 
+ * Sets whether a vehicles engine can missfire
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

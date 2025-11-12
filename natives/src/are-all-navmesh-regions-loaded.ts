@@ -3,7 +3,9 @@
  *
  * 0xD33AE43EA8DC1C58
 
- * This applies to the navmeshes which are always loaded in around the player, as well as any additional navmesh load regions which may have been set up.
+ * 
+ * This applies to the navmeshes which are always loaded in around the player, as well as any additional navmesh load regions which may have been set up.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

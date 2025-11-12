@@ -5,7 +5,9 @@ import { GroupIndex } from '@ivanzaida/structures'
  *
  * 0x47F8464BB13E408D
 
- * It is only valid for one script to do this at a time!
+ * 
+ * It is only valid for one script to do this at a time!
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GroupIndex} uniqueGroupID

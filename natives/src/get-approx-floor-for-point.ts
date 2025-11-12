@@ -3,7 +3,9 @@
  *
  * 0xFAF53F2F65D5EE26
 
- * Returns CGameWorldHeightMap's minimum Z value at specified point (grid node).
+ * 
+ * Returns CGameWorldHeightMap's minimum Z value at specified point (grid node).
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x

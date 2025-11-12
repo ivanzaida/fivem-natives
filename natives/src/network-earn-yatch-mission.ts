@@ -3,7 +3,9 @@
  *
  * 0xA6CF99057D1A4B2F
 
- * triggers when completing a new yacht mission
+ * 
+ * triggers when completing a new yacht mission
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} amount

@@ -3,8 +3,10 @@
  *
  * 0x60040CDD28AA1BC3
 
- * Example:
+ * 
+ * Example:
  * CLEAR_AREA_OF_VEHICLES(0.0f, 0.0f, 0.0f, 10000.0f, false, false, false, false, false, false);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} centreCoorsX

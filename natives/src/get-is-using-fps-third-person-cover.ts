@@ -3,7 +3,9 @@
  *
  * 0xC600DDAA3EAEB670
 
- * Returns profile setting 237.
+ * 
+ * Returns profile setting 237.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

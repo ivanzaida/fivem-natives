@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x78CEEE41F49F421F
 
- * Resets the vehicle's turret to its default position in scripted cameras. Doesn't seem to affect turrets that are occupied by a ped.
+ * 
+ * Resets the vehicle's turret to its default position in scripted cameras. Doesn't seem to affect turrets that are occupied by a ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x4DC72C4B884A6C59
 
- * can't seem to enable radio on cop cars etc
+ * 
+ * can't seem to enable radio on cop cars etc
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} veh

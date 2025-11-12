@@ -3,7 +3,9 @@
  *
  * 0xFABB7252CDD75478
 
- * This native enables the audio flag "TrevorRageIsOverridden" and sets the voice effect to `voiceEffect`
+ * 
+ * This native enables the audio flag "TrevorRageIsOverridden" and sets the voice effect to `voiceEffect`
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} context

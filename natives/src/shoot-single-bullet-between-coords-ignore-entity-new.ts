@@ -5,8 +5,10 @@ import { EWeaponType, PedIndex, EntityIndex } from '@ivanzaida/structures'
  *
  * 0x5733B7E88AFB2E3B
 
- * entity - entity to ignore
+ * 
+ * entity - entity to ignore
  * targetEntity - entity to home in on, if the weapon hash provided supports homing
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startCoorsX

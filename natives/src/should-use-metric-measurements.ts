@@ -3,7 +3,9 @@
  *
  * 0x4721B5E26C8861C8
 
- * Returns true if the game is using the metric measurement system (profile setting 227), false if imperial is used.
+ * 
+ * Returns true if the game is using the metric measurement system (profile setting 227), false if imperial is used.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

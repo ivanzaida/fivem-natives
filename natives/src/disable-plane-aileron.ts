@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xEB808E35861B8782
 
- * Disable or re-enable the planes ailerons(large flaps on wings) Can be used to prevent movement and to effect the handling of a plane
+ * 
+ * Disable or re-enable the planes ailerons(large flaps on wings) Can be used to prevent movement and to effect the handling of a plane
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

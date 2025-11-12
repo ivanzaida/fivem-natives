@@ -5,7 +5,8 @@ import { PedIndex, ECombatRange } from '@ivanzaida/structures'
  *
  * 0x1090EAA386FB31A8
 
- * enum eCombatRange // 0xB69160F5
+ * 
+ * enum eCombatRange // 0xB69160F5
  * {
  * 	CR_Near,
  * 	CR_Medium,
@@ -13,6 +14,7 @@ import { PedIndex, ECombatRange } from '@ivanzaida/structures'
  * 	CR_VeryFar,
  * 	CR_NumRanges
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

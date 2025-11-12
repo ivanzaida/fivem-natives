@@ -3,7 +3,9 @@
  *
  * 0x26EA30089CAD115D
 
- * Queries whether a texture download request has failed
+ * 
+ * Queries whether a texture download request has failed
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} textureDownloadHandle

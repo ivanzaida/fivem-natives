@@ -5,9 +5,12 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x8C863F5EB14919DB
 
- * Set's a driver's aggressiveness value, mostly used to determine
+ * 
+ * Set's a driver's aggressiveness value, mostly used to determine
  * how fast they want to drive
+ * 
  * range 0.0f - 1.0f
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

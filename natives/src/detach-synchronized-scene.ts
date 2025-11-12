@@ -3,7 +3,9 @@
  *
  * 0x83E8210E2B5723F2
 
- * Use this command to dettach a synchronized scene.
+ * 
+ * Use this command to dettach a synchronized scene.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} sceneID

@@ -5,7 +5,9 @@ import { GamerHandle } from '@ivanzaida/structures'
  *
  * 0xBE0146369C46314B
 
- * Returns TRUE if the player represented by this gamer handle is in the same session
+ * 
+ * Returns TRUE if the player represented by this gamer handle is in the same session
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {GamerHandle} gamerHandle [Ref]

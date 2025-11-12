@@ -5,7 +5,9 @@ import { PedIndex, ECombatAbilityLevel } from '@ivanzaida/structures'
  *
  * 0x139711196A42A037
 
- * Combat ability is how quickly the ped responds in combat.
+ * 
+ * Combat ability is how quickly the ped responds in combat.
+ * 
  * enum eCombatAbility // 0xE793438C
  * {
  * 	CA_Poor,
@@ -13,6 +15,7 @@ import { PedIndex, ECombatAbilityLevel } from '@ivanzaida/structures'
  * 	CA_Professional,
  * 	CA_NumTypes
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

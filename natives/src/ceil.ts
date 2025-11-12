@@ -3,7 +3,9 @@
  *
  * 0x11E019C8F43ACC8A
 
- * I'm guessing this rounds a float value up to the next whole number, and FLOOR rounds it down
+ * 
+ * I'm guessing this rounds a float value up to the next whole number, and FLOOR rounds it down
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} value

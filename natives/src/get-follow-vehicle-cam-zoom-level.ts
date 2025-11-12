@@ -5,7 +5,9 @@ import { EVehicleZoomLevel } from '@ivanzaida/structures'
  *
  * 0xD511F6B5FB8D3854
 
- * Deprecated! Please now use GET_FOLLOW_VEHICLE_CAM_VIEW_MODE
+ * 
+ * Deprecated! Please now use GET_FOLLOW_VEHICLE_CAM_VIEW_MODE
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {EVehicleZoomLevel}  

@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xCB19A1CF94809167
 
- * Returns a number of available secondary liveries, or -1 if vehicle has no secondary liveries available.
+ * 
+ * Returns a number of available secondary liveries, or -1 if vehicle has no secondary liveries available.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

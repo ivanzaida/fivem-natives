@@ -5,8 +5,10 @@ import { Leaderboard2ReadData } from '@ivanzaida/structures'
  *
  * 0x40ED52FB5B42D9FB
 
- * Reads leaderboard rows around a "pivot" score.  The score is
+ * 
+ * Reads leaderboard rows around a "pivot" score.  The score is
  * compared against the ranking column of the leaderboard.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {Leaderboard2ReadData} lbData [Ref]

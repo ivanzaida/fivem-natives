@@ -3,7 +3,9 @@
  *
  * 0x7BC5EE3C02F4154B
 
- * Returns profile setting 225.
+ * 
+ * Returns profile setting 225.
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

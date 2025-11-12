@@ -3,9 +3,12 @@
  *
  * 0x7A9F2D6596A1FF08
 
- * Plays the given police radio message.
+ * 
+ * Plays the given police radio message.
+ * 
  * All found occurrences in b617d, sorted alphabetically and identical lines removed: https://pastebin.com/GBnsQ5hr
  * Full list of police report names by DurtyFree https://github.com/DurtyFree/gta-v-data-dumps/blob/master/policeReportNames.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} reportName

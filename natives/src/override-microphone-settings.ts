@@ -3,7 +3,9 @@
  *
  * 0x2F0605DFDF7593AB
 
- * Sets audio flag "OverrideMicrophoneSettings"
+ * 
+ * Sets audio flag "OverrideMicrophoneSettings"
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} overriddenMicSettingsHash

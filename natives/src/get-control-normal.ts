@@ -5,8 +5,11 @@ import { EControlType, EControlAction } from '@ivanzaida/structures'
  *
  * 0xB504E1B50AA21FC5
 
- * Returns the value of GET_CONTROL_VALUE normalized (i.e. a real number value between -1 and 1)
+ * 
+ * Returns the value of GET_CONTROL_VALUE normalized (i.e. a real number value between -1 and 1)
+ * 
  * control: see IS_CONTROL_ENABLED
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EControlType} control

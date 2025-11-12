@@ -3,8 +3,10 @@
  *
  * 0xB84E5B0DD408418E
 
- * If thre is an active SC community event, this function will return the event Id
+ * 
+ * If thre is an active SC community event, this function will return the event Id
  * string, which can be used as a category value for leaderboard submissions
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {number}  

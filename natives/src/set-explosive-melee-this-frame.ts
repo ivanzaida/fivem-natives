@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0x7F2AA4BA999DE234
 
- * Set the player has explosive melee this frame
+ * 
+ * Set the player has explosive melee this frame
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} ped

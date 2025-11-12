@@ -3,9 +3,11 @@
  *
  * 0x6E3671ABA19358C3
 
- * Called in the gamescripts like:
+ * 
+ * Called in the gamescripts like:
  * APP::APP_SET_APP("car");
  * APP::APP_SET_APP("dog");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} name

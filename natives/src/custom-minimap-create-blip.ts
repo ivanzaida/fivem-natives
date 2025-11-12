@@ -3,7 +3,9 @@
  *
  * 0xCD644A03314C3DF9
 
- * Add a BLIP_GALLERY at the specific coordinate. Used in fm_maintain_transition_players to display race track points.
+ * 
+ * Add a BLIP_GALLERY at the specific coordinate. Used in fm_maintain_transition_players to display race track points.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} positionX

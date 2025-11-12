@@ -3,7 +3,9 @@
  *
  * 0x3E09769A87E0D881
 
- * forces the spherical scene streamer to track with camera position rather than focus position, this frame only.
+ * 
+ * forces the spherical scene streamer to track with camera position rather than focus position, this frame only.
+ * 
  * 
  * ------------------------------------------------------------------
  */

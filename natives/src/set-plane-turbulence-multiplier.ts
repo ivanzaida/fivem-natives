@@ -5,10 +5,12 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x540E1993D47EAF4B
 
- * This native sets the turbulence multiplier. It only works for planes.
+ * 
+ * This native sets the turbulence multiplier. It only works for planes.
  * 0.0 = no turbulence at all.
  * 1.0 = heavy turbulence.
  * Works by just calling it once, does not need to be called every tick.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

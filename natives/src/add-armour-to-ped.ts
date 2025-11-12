@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x2E20E7B6C4BBA61D
 
- * Same as SET_PED_ARMOUR, but ADDS 'amount' to the armor the Ped already has.
+ * 
+ * Same as SET_PED_ARMOUR, but ADDS 'amount' to the armor the Ped already has.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

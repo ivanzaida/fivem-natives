@@ -3,7 +3,9 @@
  *
  * 0x597D3F733B15F96E
 
- * Starts a new singleplayer game (at the prologue).
+ * 
+ * Starts a new singleplayer game (at the prologue).
+ * 
  * 
  * ------------------------------------------------------------------
  */

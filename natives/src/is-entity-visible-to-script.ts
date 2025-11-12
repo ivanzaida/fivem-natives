@@ -5,8 +5,10 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x870372B586EFB3EE
 
- * Checks if an entity has been set invisible by script. An entity may still be invisible via other means (code, etc), but this command
+ * 
+ * Checks if an entity has been set invisible by script. An entity may still be invisible via other means (code, etc), but this command
  * only checks the script visibility state.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

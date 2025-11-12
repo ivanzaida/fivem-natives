@@ -3,7 +3,9 @@
  *
  * 0x2093CB9E0E9B985F
 
- * Returns CGameWorldHeightMap's maximum Z among all grid nodes that intersect with the specified rectangle.
+ * 
+ * Returns CGameWorldHeightMap's maximum Z among all grid nodes that intersect with the specified rectangle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} x0

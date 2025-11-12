@@ -5,7 +5,8 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *
  * 0xDEFDEE8D4FA47138
 
- * enum ObjectPaintVariants
+ * 
+ * enum ObjectPaintVariants
  * {
  *  Pacific = 0,
  *   Azure = 1,
@@ -24,6 +25,7 @@ import { ObjectIndex } from '@ivanzaida/structures'
  *     Merchant = 14,
  *     Voyager = 15
  * };
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ObjectIndex} object

@@ -3,7 +3,9 @@
  *
  * 0xE0CE913C020B2907
 
- * Resets values set by SET_SCRIPT_FIRE_POSITION
+ * 
+ * Resets values set by SET_SCRIPT_FIRE_POSITION
+ * 
  * 
  * ------------------------------------------------------------------
  */

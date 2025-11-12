@@ -3,9 +3,12 @@
  *
  * 0x1287CC087A5CE000
 
- * Calculates the travel distance between a set of points.
+ * 
+ * Calculates the travel distance between a set of points.
+ * 
  * Doesn't seem to correlate with distance on gps sometimes.
  * This function returns the value 100000.0 over long distances, seems to be a failure mode result, potentially occurring when not all path nodes are loaded into pathfind.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} node1PosX

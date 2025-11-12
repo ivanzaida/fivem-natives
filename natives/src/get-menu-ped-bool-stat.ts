@@ -5,7 +5,9 @@ import { EStatsenum, BoolRef } from '@ivanzaida/structures'
  *
  * 0xE72DC686E764EE0F
 
- * p0 was always 0xAE2602A3.
+ * 
+ * p0 was always 0xAE2602A3.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EStatsenum} keyHash

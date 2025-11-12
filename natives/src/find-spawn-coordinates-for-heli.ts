@@ -5,9 +5,12 @@ import { PedIndex, Vector3 } from '@ivanzaida/structures'
  *
  * 0x67896C7A4066E42E
 
- * Returns posible spawn position for a heli based on a target ped. Could still be visible by some players, if all found positions (max 5 tries) were on screen for some players, it will return it anyway.
+ * 
+ * Returns posible spawn position for a heli based on a target ped. Could still be visible by some players, if all found positions (max 5 tries) were on screen for some players, it will return it anyway.
+ * 
  * Native is significantly more complicated than simply generating a random vector & length.
  * The 'point' is either 400.0 or 250.0 units away from the Ped's current coordinates; and paths into functions like rage::grcViewport___IsSphereVisible
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} targetPed

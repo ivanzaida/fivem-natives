@@ -5,11 +5,14 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  *
  * 0x5442E3C4F8176CE7
 
- * Controls how much traction the wheel loses.
+ * 
+ * Controls how much traction the wheel loses.
+ * 
  * Default values from Rockstar's Open Wheel Race JSON's:
  * "owrtds" (Soft): 0.05
  * "owrtdm" (Medium): 0.45
  * "owrtdh" (Hard): 0.8
+ * 
  * Usable wheels:
  * 0: wheel_lf
  * 1: wheel_rf
@@ -17,6 +20,7 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * 3: wheel_rm1
  * 4: wheel_lr
  * 5: wheel_rr
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

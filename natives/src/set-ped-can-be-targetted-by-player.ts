@@ -5,10 +5,12 @@ import { PedIndex, PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xF861636AF1D2D3D2
 
- * Sets if a ped can be targetted by a specific player (network game only)
+ * 
+ * Sets if a ped can be targetted by a specific player (network game only)
  * PARAMS
  * PedIndex - Can be the local player index or the ped index of a local owned ped.
  * PlayerIndex   - Any other player index.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

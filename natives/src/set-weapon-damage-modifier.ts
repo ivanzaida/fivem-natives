@@ -5,8 +5,10 @@ import { EWeaponType } from '@ivanzaida/structures'
  *
  * 0xD78F39BF33D61469
 
- * Changes the weapon damage output by the given multiplier value. Must be run every frame.
+ * 
+ * Changes the weapon damage output by the given multiplier value. Must be run every frame.
  * Full list of weapons by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EWeaponType} weaponType

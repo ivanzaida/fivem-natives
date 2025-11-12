@@ -5,9 +5,12 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  *
  * 0xE488FDAA43A181AE
 
- * "To burst tyres VEHICLE::SET_VEHICLE_TYRE_BURST(vehicle, 0, true, 1000.0)
+ * 
+ * "To burst tyres VEHICLE::SET_VEHICLE_TYRE_BURST(vehicle, 0, true, 1000.0)
  * to burst all tyres type it 8 times where p1 = 0 to 7.
+ * 
  * p3 seems to be how much damage it has taken. 0 doesn't deflate them, 1000 completely deflates them.
+ * 
  * '0 = wheel_lf / bike, plane or jet front
  * '1 = wheel_rf
  * '2 = wheel_lm / in 6 wheels trailer, plane or jet is first one on left
@@ -16,6 +19,7 @@ import { VehicleIndex, EScWheelList } from '@ivanzaida/structures'
  * '5 = wheel_rr / in 6 wheels trailer, plane or jet is last one on right
  * '45 = 6 wheels trailer mid wheel left
  * '47 = 6 wheels trailer mid wheel right
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

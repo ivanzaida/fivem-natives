@@ -5,7 +5,9 @@ import { ETextBlockSlots } from '@ivanzaida/structures'
  *
  * 0x4AB15E3851FF326B
 
- * Request additional text for DLC, see above for more info
+ * 
+ * Request additional text for DLC, see above for more info
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} textBlockName

@@ -5,7 +5,9 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xA44CE817
 
- * setting the last params to false it does that same so I would suggest its not a toggle
+ * 
+ * setting the last params to false it does that same so I would suggest its not a toggle
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped The ped entity

@@ -3,7 +3,9 @@
  *
  * 0xF37B149B1A382D5B
 
- * Used only once in R scripts (freemode.ysc).
+ * 
+ * Used only once in R scripts (freemode.ysc).
+ * 
  * 
  * ------------------------------------------------------------------
  */

@@ -5,7 +5,9 @@ import { ItemIndex, ItemsetIndex } from '@ivanzaida/structures'
  *
  * 0xF7F5C49BCD99E28D
 
- * Will generate an error if the item is not in the set.
+ * 
+ * Will generate an error if the item is not in the set.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ItemIndex} itemToRemove

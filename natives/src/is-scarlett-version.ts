@@ -3,7 +3,9 @@
  *
  * 0x6823557BDD18031C
 
- * Xbox Series (Scarlett) version...
+ * 
+ * Xbox Series (Scarlett) version...
+ * 
  * 
  * ------------------------------------------------------------------
  * @returns {boolean}  

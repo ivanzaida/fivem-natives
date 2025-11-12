@@ -3,8 +3,10 @@
  *
  * 0x595BC3CB7A842B33
 
- * Deletes a cloud file (szFilename) from the member namespace.
+ * 
+ * Deletes a cloud file (szFilename) from the member namespace.
  * This returns an INT that can be used to track this request.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} szFilename

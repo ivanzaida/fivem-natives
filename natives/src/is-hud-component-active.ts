@@ -5,7 +5,9 @@ import { EEHudComponent } from '@ivanzaida/structures'
  *
  * 0x7B035E8A1D320F1B
 
- * Full list of components below
+ * 
+ * Full list of components below
+ * 
  * HUD = 0;
  * HUD_WANTED_STARS = 1;
  * HUD_WEAPON_ICON = 2;
@@ -30,6 +32,7 @@ import { EEHudComponent } from '@ivanzaida/structures'
  * MAX_HUD_COMPONENTS = 21;
  * MAX_HUD_WEAPONS = 22;
  * MAX_SCRIPTED_HUD_COMPONENTS = 141;
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EEHudComponent} hudComponent

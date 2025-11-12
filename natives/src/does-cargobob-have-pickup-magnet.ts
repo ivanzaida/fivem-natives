@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x55250754D66E3652
 
- * Returns true only when the magnet is active, will return false if the hook is active
+ * 
+ * Returns true only when the magnet is active, will return false if the hook is active
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} cargobob

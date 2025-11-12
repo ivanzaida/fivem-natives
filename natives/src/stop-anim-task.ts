@@ -5,8 +5,11 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0x08D8528BA8E43641
 
- * Attempts to stop a play anim task initiated by TASK_PLAY_ANIM or TASK_PLAY_ANIM_ADVANCED
+ * 
+ * Attempts to stop a play anim task initiated by TASK_PLAY_ANIM or TASK_PLAY_ANIM_ADVANCED
+ * 
  * Full list of animation dictionaries and anims by DurtyFree: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity

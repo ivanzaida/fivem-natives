@@ -5,10 +5,13 @@ import { EHudColours } from '@ivanzaida/structures'
  *
  * 0xD52B1CDE8B03CE86
 
- * Shows an "award" notification above the minimap, example: https://i.imgur.com/e2DNaKX.png
+ * 
+ * Shows an "award" notification above the minimap, example: https://i.imgur.com/e2DNaKX.png
  * Example:
+ * 
  * HUD::BEGIN_TEXT_COMMAND_THEFEED_POST("HUNT");
  * HUD::END_TEXT_COMMAND_THEFEED_POST_AWARD("Hunting", "Hunting_Gold_128", 0, 109, "HUD_MED_UNLKED");
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} tXD

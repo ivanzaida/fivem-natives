@@ -3,8 +3,10 @@
  *
  * 0xE5870024C848E72D
 
- * Adds an entity area with the specified start and end points that will be cleaned up when the player that created it leaves the session
+ * 
+ * Adds an entity area with the specified start and end points that will be cleaned up when the player that created it leaves the session
  * The return value is a script ID that can be used to refer to the same entity area again
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startX

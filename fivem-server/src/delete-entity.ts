@@ -5,7 +5,9 @@ import { EntityIndex } from '@ivanzaida/structures'
  *
  * 0xFAA3D236
 
- * Deletes the specified entity, then sets the handle pointed to by the pointer to NULL.
+ * 
+ * Deletes the specified entity, then sets the handle pointed to by the pointer to NULL.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {EntityIndex} entity The entity to delete.

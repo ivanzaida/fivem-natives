@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0xA3C0950202881572
 
- * p4 seems to vary from 0 to 3.
+ * 
+ * p4 seems to vary from 0 to 3.
  * Preview: https://gfycat.com/MaleRareAmazonparrot
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

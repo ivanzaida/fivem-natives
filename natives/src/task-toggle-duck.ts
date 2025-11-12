@@ -5,8 +5,11 @@ import { PedIndex, EDuckToggle } from '@ivanzaida/structures'
  *
  * 0x613C57A8216F81FC
 
- * used in sequence task
+ * 
+ * used in sequence task
+ * 
  * both parameters seems to be always 0
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

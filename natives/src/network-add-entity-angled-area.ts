@@ -3,10 +3,13 @@
  *
  * 0x3E1222B4C1E92A7A
 
- * Adds an entity angled area with the specified start and end points
+ * 
+ * Adds an entity angled area with the specified start and end points
  * The return value is a script ID that can be used to refer to the same entity area again
+ * 
  * To remove, see: NETWORK_REMOVE_ENTITY_AREA
  * See IS_POINT_IN_ANGLED_AREA for the definition of an angled area.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} startX

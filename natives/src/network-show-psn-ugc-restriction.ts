@@ -3,8 +3,11 @@
  *
  * 0xC7C2484FD7A1279A
 
- * Call to show system message about chat restriction.
+ * 
+ * Call to show system message about chat restriction.
+ * 
  * This native does absolutely nothing, just a nullsub
+ * 
  * 
  * ------------------------------------------------------------------
  */

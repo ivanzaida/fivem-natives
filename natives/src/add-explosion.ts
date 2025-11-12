@@ -5,11 +5,15 @@ import { EExplosionTag } from '@ivanzaida/structures'
  *
  * 0xD2FD15A3D9DEE4CC
 
- * Creates an explosion at the co-ordinates.
+ * 
+ * Creates an explosion at the co-ordinates.
  * Size scale between 0.01 and 1.0
+ * 
  * BOOL isAudible = If explosion makes a sound.
  * BOOL isInvisible = If the explosion is invisible or not.
+ * 
  * explosionType: https://alloc8or.re/gta5/doc/enums/eExplosionTag.txt
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} explosionPosX

@@ -5,7 +5,9 @@ import { ERecordStat, ERecordStatPolicy } from '@ivanzaida/structures'
  *
  * 0xD007674D8A581D71
 
- * See enum above for the stats that are supported
+ * 
+ * See enum above for the stats that are supported
+ * 
  * enum StatTrackingType
  * {
  * 	LongestWheelie = 1,
@@ -40,12 +42,14 @@ import { ERecordStat, ERecordStatPolicy } from '@ivanzaida/structures'
  * 	_FreefallTime = 30,
  * 	Unk31 = 31,
  * }
+ * 
  * enum StatTrackingValueType
  * {
  * 	Total,
  * 	Max,
  * 	Min
  * }
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {ERecordStat} stat

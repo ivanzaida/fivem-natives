@@ -5,8 +5,10 @@ import { PedIndex } from '@ivanzaida/structures'
  *
  * 0x69CD279BFCFE278E
 
- * When a new variation is set on a streamed ped this function can be called right after and returns true when all components
+ * 
+ * When a new variation is set on a streamed ped this function can be called right after and returns true when all components
  * have loaded and the ped is ready for render.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PedIndex} ped

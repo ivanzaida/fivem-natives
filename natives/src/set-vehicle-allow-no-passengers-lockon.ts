@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0x730536B32F041BA6
 
- * Makes the vehicle accept no passengers.
+ * 
+ * Makes the vehicle accept no passengers.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

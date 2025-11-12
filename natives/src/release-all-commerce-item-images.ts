@@ -3,8 +3,10 @@
  *
  * 0x687DE1873713BF49
 
- * Releases any downloaded textures and cancels downloads.
+ * 
+ * Releases any downloaded textures and cancels downloads.
  * Please call this when operations on store textures are complete.
+ * 
  * 
  * ------------------------------------------------------------------
  */

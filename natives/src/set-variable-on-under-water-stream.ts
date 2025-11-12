@@ -3,9 +3,12 @@
  *
  * 0xFFB39CC82F4E6583
 
- * This command allows a scripter to set variables on the current underwater stream.
+ * 
+ * This command allows a scripter to set variables on the current underwater stream.
+ * 
  * AUDIO::SET_VARIABLE_ON_UNDER_WATER_STREAM("inTunnel", 1.0);
  * AUDIO::SET_VARIABLE_ON_UNDER_WATER_STREAM("inTunnel", 0.0);
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {string} variableName

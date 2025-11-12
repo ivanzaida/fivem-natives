@@ -3,8 +3,10 @@
  *
  * 0x9C9F041189C7B5E6
 
- * Telemetry sent whenever any of the actvity events finishes (Darts, Arm Wrestling, Drinking, Smoking, Jukebox)
+ * 
+ * Telemetry sent whenever any of the actvity events finishes (Darts, Arm Wrestling, Drinking, Smoking, Jukebox)
  * If not a jukebox activity, jukeboxStation should be set to -1
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} bossId1

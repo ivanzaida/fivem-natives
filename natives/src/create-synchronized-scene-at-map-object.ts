@@ -5,7 +5,9 @@ import { ModelNames } from '@ivanzaida/structures'
  *
  * 0xEC6D10B2D602CDDF
 
- * Creates a common scene origin which can be used to playback synchronised animations across multiple peds and objects
+ * 
+ * Creates a common scene origin which can be used to playback synchronised animations across multiple peds and objects
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {number} scrVecNewCoorsX

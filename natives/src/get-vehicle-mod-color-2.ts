@@ -5,7 +5,9 @@ import { VehicleIndex, IntRef } from '@ivanzaida/structures'
  *
  * 0x07AE5F5D5A7D0936
 
- * specColIndex only applies to MCT_PEARLESCENT
+ * 
+ * specColIndex only applies to MCT_PEARLESCENT
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

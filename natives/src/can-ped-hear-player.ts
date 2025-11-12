@@ -5,7 +5,9 @@ import { PlayerIndex, PedIndex } from '@ivanzaida/structures'
  *
  * 0xC1204DBD7B8A643E
 
- * Returns if a player's stealth noise value is smaller than the distance to the given ped.
+ * 
+ * Returns if a player's stealth noise value is smaller than the distance to the given ped.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player

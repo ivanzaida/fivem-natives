@@ -5,7 +5,9 @@ import { VehicleIndex } from '@ivanzaida/structures'
  *
  * 0xB2BB7DF97FC211F9
 
- * Focuses the camera on the specified vehicle.
+ * 
+ * Focuses the camera on the specified vehicle.
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {VehicleIndex} vehicle

@@ -5,7 +5,9 @@ import { PlayerIndex } from '@ivanzaida/structures'
  *
  * 0xDC198F70124270BE
 
- * This function sets the color of the parachute smoke trail for the player
+ * 
+ * This function sets the color of the parachute smoke trail for the player
+ * 
  * 
  * ------------------------------------------------------------------
  * @param {PlayerIndex} player
